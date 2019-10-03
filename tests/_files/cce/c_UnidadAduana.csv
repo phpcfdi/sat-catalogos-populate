@@ -1,0 +1,26 @@
+Catálogo de unidades de medida para operaciones de comercio exterior.,,,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2017-01-01,,1,0
+C_UnidadMedida,Descripción,,,
+01,KILO  
+02,GRAMO  
+03,METRO LINEAL  
+04,METRO CUADRADO  
+05,METRO CUBICO  
+06,PIEZA  
+07,CABEZA  
+08,LITRO  
+09,PAR  
+10,KILOWATT  
+11,MILLAR  
+12,JUEGO  
+13,KILOWATT/HORA  
+14,TONELADA
+15,BARRIL  
+16,GRAMO NETO  
+17,DECENAS  
+18,CIENTOS
+19,DOCENAS  
+20,CAJA  
+21,BOTELLA
+99,SERVICIO

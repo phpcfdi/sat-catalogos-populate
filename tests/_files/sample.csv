@@ -1,0 +1,7 @@
+id,name,description,date
+1001,foo 1, "same ""data"", see?",2018-01-01
+1002,foo 2, "same ""data"", see?",2018-01-02
+1003,foo 3, "same ""data"", see?"
+1004,foo 4, "same ""data"", see?",2018-01-04,,,
+1005,foo 5, "same ""data"", see?",2018-01-05,
+1006,foo 6, "same ""data"", see?",2018-01-06

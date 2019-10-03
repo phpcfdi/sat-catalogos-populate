@@ -1,0 +1,54 @@
+#!/bin/bash -e
+#
+# Syntax: compare-catalogs catalogs-old.sqlite3 catalogs-new.sqlite3
+#
+# This command has exit codes:
+# 0 - both files are equal
+# 1 - error
+# 2 - schema is different
+# 3 - dump (content) is different
+#
+
+if [ ! -e "$1" ]; then
+    echo "First database does not exists"
+    exit 1
+fi
+
+if [ ! -e "$2" ]; then
+    echo "Second database does not exists"
+    exit 1
+fi
+
+function sqlite_compare {
+  test ! -f "$1.$3" && sqlite3 "$1" .$3 > "$1.$3"
+  test ! -f "$2.$3" && sqlite3 "$2" .$3 > "$2.$3"
+  diff -u -B -b "$1.$3" "$2.$3" > "$2.$3.diff"
+  local DIFF=$?
+  if [ $DIFF -eq 0 ]; then
+    echo "Database $3 $1 is equal to $2"
+    rm "$2.$3.diff"
+  elif [ $DIFF -eq 1 ]; then
+    echo "Database $3 $1 is different to $2, changes:"
+    cat "$2.$3.diff"
+  else
+    echo "Error while getting diff between $1.$3 y $2.$3"
+  fi
+  return $DIFF
+}
+
+sqlite_compare "$1" "$2" schema
+SCHEMA_DIFF=$?
+
+# compare dumps only if no errors comparing schemas
+DUMP_DIFF=0
+if [ $SCHEMA_DIFF -lt 2 ]; then
+  sqlite_compare "$1" "$2" dump
+  DUMP_DIFF=$?
+fi
+
+
+# exit codes
+test $SCHEMA_DIFF -eq 2 -o $DUMP_DIFF -eq 2 && exit 1 # some error
+test $SCHEMA_DIFF -eq 1 && exit 2                     # schema changes
+test $DUMP_DIFF -eq 1 && exit 3                       # content changes
+exit 0                                                # nothing changes

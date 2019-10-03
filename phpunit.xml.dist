@@ -1,0 +1,13 @@
+<phpunit bootstrap="./tests/bootstrap.php" colors="true" verbose="true">
+    <testsuites>
+        <testsuite name="Default">
+            <directory suffix="Test.php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+    <!-- only include source files from code coverage -->
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src/</directory>
+        </whitelist>
+    </filter>
+</phpunit>

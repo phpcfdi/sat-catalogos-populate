@@ -1,0 +1,42 @@
+#!/bin/bash
+#
+# Syntax:
+#   unattented-update databases-folder
+#
+# Create a new database and install it as a new release if is different than the latest found in databases-folder
+#
+
+CREATE_CATALOG="$(dirname "$0")/create-catalog"
+if [ ! -f "$CREATE_CATALOG" ]; then
+  echo "Tool $CREATE_CATALOG was not found"
+  exit 1
+fi
+
+INSTALL_CATALOG="$(dirname "$0")/install-catalog"
+if [ ! -f "$INSTALL_CATALOG" ]; then
+  echo "Tool $INSTALL_CATALOG was not found"
+  exit 1
+fi
+
+if [ ! -d "$1" ]; then
+  echo "Argument databases-folder is missing"
+  exit 1
+fi
+DB_FOLDER="$1"
+
+WORKDIR="$(mktemp -q -d)"
+if [ $? -ne 0 ]; then
+  echo "Unable to create a temporary directory"
+  exit 1
+fi
+
+NEW_CATALOG="${WORKDIR}/catalog-$(date +%Y%m%d).sqlite3"
+
+bash "$CREATE_CATALOG" "$WORKDIR" "$NEW_CATALOG"
+test $? -ne 0 && rm -rf "$WORKDIR" && exit 1
+
+bash $INSTALL_CATALOG "$NEW_CATALOG" "$DB_FOLDER"
+INSTALLATION=$?
+rm -rf "$WORKDIR"
+test $INSTALLATION -eq 1 && exit 1
+exit 0

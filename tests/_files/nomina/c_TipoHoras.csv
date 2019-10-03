@@ -1,0 +1,7 @@
+Catálogo de tipos de Hora Extra.,,,,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,
+2017-01-01,,1,0,
+c_TipoHoras,Descripción
+1,Dobles
+2,Triples
+3,Simples

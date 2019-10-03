@@ -1,0 +1,85 @@
+#!/bin/bash
+#
+# Syntax:
+#   install-catalog recent-database-file previous-databases-folder [pattern]
+#
+# This script install a database into previous-databases-folder by comparison order check
+# If structure has changed then changes mayor version
+# If content has changed then changes minor version
+#
+
+COMPARE_CATALOGS="$(dirname "$0")/compare-catalogs"
+if [ ! -f "$COMPARE_CATALOGS" ]; then
+  echo "Tool $COMPARE_CATALOGS does not exists"
+  exit 1
+fi
+
+if [ ! -f "$1" ]; then
+  echo "Argument recent-database-file is missing"
+  exit 1
+fi
+SUBJECT="$1"
+
+if [ ! -d "$2" ]; then
+  echo "Argument previous-databases-folder is missing"
+  exit 1
+fi
+DB_FOLDER="$2"
+
+if [ -z "$3" ]; then
+  PATTERN="catalogos-+([0-9]).+([0-9]).+([0-9]).sqlite3"
+else
+  PATTERN="$3"
+fi
+
+
+# get the latest file
+shopt -s extglob
+LATEST="$(ls -1 "${DB_FOLDER}"/$PATTERN | sort -r | head -n 1)"
+shopt -u extglob
+if [ -z "$LATEST" ]; then
+  echo "Unable to find latest database on $DB_FOLDER"
+  exit 1
+fi
+
+# setup latest verion variables
+VERSION="$(echo -n "$LATEST" | grep -o -P '\d+\.\d+\.\d+')"
+VERSION_MAYOR="$(echo -n "$VERSION" | sed -E 's/([0-9]+)\.([0-9]+)\.([0-9]+)/\1/')"
+VERSION_MINOR="$(echo -n "$VERSION" | sed -E 's/([0-9]+)\.([0-9]+)\.([0-9]+)/\2/')"
+VERSION_PATCH="$(echo -n "$VERSION" | sed -E 's/([0-9]+)\.([0-9]+)\.([0-9]+)/\3/')"
+echo "Latest version: $VERSION_MAYOR.$VERSION_MINOR.$VERSION_PATCH on $LATEST"
+
+echo "Comparing to $SUBJECT"
+bash "$COMPARE_CATALOGS" "$LATEST" "$SUBJECT"
+COMPARISON=$?
+
+if [ $COMPARISON -eq 0 ]; then
+  echo "The databases are equal, nothing to do"
+fi
+
+# remove and exit if comparison fail or both are the same
+if [ $COMPARISON -eq 0 -o $COMPARISON -eq 1 ]; then
+  exit $COMPARISON
+fi
+
+# comparison result in new version
+
+
+if [ $COMPARISON -eq 2 ]; then
+  NEW_MAYOR=$(($VERSION_MAYOR + 1))
+  NEW_MINOR=0
+elif [ $COMPARISON -eq 3 ]; then
+  NEW_MAYOR=$VERSION_MAYOR
+  NEW_MINOR=$(($VERSION_MINOR + 1))
+else
+  echo "Unknown comparison result $COMPARISON"
+  exit 1
+fi
+
+NEW_VERSION="$NEW_MAYOR.$NEW_MINOR.$(date +%Y%m%d)"
+NEW_FILENAME="$(echo -n "$PATTERN" | sed "s/+(\\[0-9\\]).+(\\[0-9\\]).+(\\[0-9\\])/$NEW_VERSION/")"
+NEW_LOCATION="${DB_FOLDER}/${NEW_FILENAME}"
+
+echo "New version $NEW_VERSION created at $NEW_LOCATION"
+cp "$SUBJECT" "$NEW_LOCATION"
+exit $?

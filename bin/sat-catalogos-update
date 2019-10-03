@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+use PhpCfdi\SatCatalogosPopulate\Commands\CliApplication;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+exit(call_user_func(function (string ...$arguments): int {
+    $debug = true;
+    try {
+        $cliApplication = new CliApplication();
+        return $cliApplication->run(...$arguments);
+    } catch (Throwable $exception) {
+        file_put_contents('php://stderr', 'ERROR: ' . $exception->getMessage() . PHP_EOL, FILE_APPEND);
+        if ($debug) {
+            file_put_contents(
+                'php://stderr',
+                $exception->getFile() . '(' . $exception->getLine() . '): throws ' . get_class($exception)
+                . ': ' . $exception->getMessage() . PHP_EOL
+                . $exception->getTraceAsString() . PHP_EOL,
+                FILE_APPEND
+            );
+        }
+        return 1;
+    }
+}, ...$argv));

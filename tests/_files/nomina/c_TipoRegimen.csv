@@ -1,0 +1,16 @@
+Catálogo de tipos de régimen de contratación.,,,
+Versión,Revisión
+1,1
+c_TipoRegimen,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,
+2,Sueldos,2017-01-01,,,,,,
+3,Jubilados,2017-01-01,,,,,,
+4,Pensionados,2017-01-01,,,,,,
+5,Asimilados Miembros Sociedades Cooperativas Produccion,2017-01-01,,,,,,
+6,Asimilados Integrantes Sociedades Asociaciones Civiles,2017-01-01,,,,,,
+7,Asimilados Miembros consejos,2017-01-01,,,,,,
+8,Asimilados comisionistas,2017-01-01,,,,,,
+9,Asimilados Honorarios,2017-01-01,,,,,,
+10,Asimilados acciones,2017-01-01,,,,,,
+11,Asimilados otros,2017-01-01,,,,,,
+12,Jubilados o Pensionados,2017-03-27,,,,,,
+99,Otro Regimen,2017-01-01,,,,,,

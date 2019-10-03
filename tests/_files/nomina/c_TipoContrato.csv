@@ -1,0 +1,15 @@
+Catálogo de tipos de contrato.,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2017-01-01,,1,0
+c_TipoContrato,Descripción,,
+1,Contrato de trabajo por tiempo indeterminado,,
+2,Contrato de trabajo para obra determinada,,
+3,Contrato de trabajo por tiempo determinado,,
+4,Contrato de trabajo por temporada,,
+5,Contrato de trabajo sujeto a prueba,,
+6,Contrato de trabajo con capacitación inicial,,
+7,Modalidad de contratación por pago de hora laborada,,
+8,Modalidad de trabajo por comisión laboral
+9,Modalidades de contratación donde no existe relación de trabajo
+10,"Jubilación, pensión, retiro."
+99,Otro contrato

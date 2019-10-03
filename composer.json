@@ -1,0 +1,75 @@
+{
+    "name": "phpcfdi/sat-catalogos-populate",
+    "description": "Generación del contenido de la base de datos de la librería phpcfdi/sat-catalogos",
+    "keywords": [],
+    "homepage": "https://github.com/phpcfdi/sat-catalogos-populate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos C Soto",
+            "email": "eclipxe13@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/phpcfdi/sat-catalogos-populate",
+        "issues": "https://github.com/phpcfdi/sat-catalogos-populate/issues"
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-pdo": "*",
+        "ext-sqlite3": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-dom": "*",
+        "psr/log": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "ext-fileinfo": "*",
+        "phpunit/phpunit": "^7.0",
+        "overtrue/phplint": "^1.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "friendsofphp/php-cs-fixer": "^2.4",
+        "phpstan/phpstan-shim": "^0.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpCfdi\\SatCatalogosPopulate\\": "src/"
+        },
+        "files": [
+            "src/Utils/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpCfdi\\SatCatalogosPopulate\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "dev:build": ["@dev:fix-style", "@dev:test"],
+        "dev:check-style": [
+            "vendor/bin/php-cs-fixer fix --dry-run --verbose",
+            "vendor/bin/phpcs --colors -sp bin/ src/ tests/"
+        ],
+        "dev:fix-style": [
+            "vendor/bin/php-cs-fixer fix --verbose",
+            "vendor/bin/phpcbf --colors -sp bin/ src/ tests/"
+        ],
+        "dev:test": [
+            "vendor/bin/phplint",
+            "@dev:check-style",
+            "vendor/bin/phpunit --testdox --verbose --stop-on-failure",
+            "vendor/bin/phpstan analyse --verbose --no-progress --level max bin/ src/ tests/"
+        ],
+        "dev:coverage": [
+            "@php -dzend_extension=xdebug.so vendor/bin/phpunit --coverage-text --coverage-html build/coverage/html/"
+        ]
+    },
+    "scripts-descriptions": {
+        "dev:build": "DEV: run dev:fix-style dev:tests and dev:docs, run before pull request",
+        "dev:check-style": "DEV: search for code style errors using php-cs-fixer and phpcs",
+        "dev:fix-style": "DEV: fix code style errors using php-cs-fixer and phpcbf",
+        "dev:test": "DEV: run phplint, phpunit and phpstan",
+        "dev:coverage": "DEV: run phpunit with xdebug and storage coverage in build/coverage/html/"
+    }
+}

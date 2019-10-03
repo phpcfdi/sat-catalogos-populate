@@ -1,0 +1,24 @@
+Catálogo de códigos postales.,,,,,,,,,,,,,,,
+Versión,Revisión,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,,,,,,
+4.0,0,2019-09-10,,,,,,,,,,,,,
+c_CodigoPostal,c_Estado,c_Municipio,c_Localidad,Estímulo Franja Fronteriza,Fecha inicio de vigencia del estímulo,Fecha fin de vigencia del estímulo,Referencias del Huso Horario,,,,,,,,
+,,,,,,,Descripción del Huso Horario,Mes_Inicio_Horario_Verano,Día_Inicio_Horario_Verano,Día_Inicio_Horario_Verano,Diferencia_Horaria_Verano,Mes_Inicio_Horario_Invierno,Día_Inicio_Horario_Invierno,Día_Inicio_Horario_Invierno,Diferencia_Horaria_Invierno
+99981,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99982,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99983,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99984,ZAC,033,15,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99985,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99986,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99987,ZAC,033,15,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99988,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99989,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99990,ZAC,033,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99991,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99992,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99993,ZAC,033,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99994,ZAC,033,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99995,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99996,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99997,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99998,ZAC,033,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99999,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6

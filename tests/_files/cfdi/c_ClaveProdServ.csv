@@ -1,0 +1,203 @@
+Versión,Revisión,,,,,,,
+2.0,2,,,,,,,
+c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Complemento que debe incluir,FechaInicioVigencia,FechaFinVigencia,Estímulo Franja Fronteriza,Palabras similares
+10101500,Animales vivos de granja,Opcional,Opcional,,2019-01-07,,1,
+10101501,Gatos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101502,Perros,Opcional,Opcional,,2019-01-07,,1,
+10101504,Visón,Opcional,Opcional,,2019-01-07,,1,
+10101505,Ratas,Opcional,Opcional,,2019-01-07,,1,
+10101506,Caballos,Opcional,Opcional,,2019-01-07,,1,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas"
+10101507,Ovejas,Opcional,Opcional,,2019-01-07,,1,"Borregos, Carneros"
+10101508,Cabras,Opcional,Opcional,,2019-01-07,,1,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos"
+10101509,Asnos,Opcional,Opcional,,2019-01-07,,1,"Borricos, Burros"
+10101510,Ratones,Opcional,Opcional,,2019-01-07,,1,
+10101511,Cerdos,Opcional,Opcional,,2019-01-07,,1,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos"
+10101512,Conejos,Opcional,Opcional,,2019-01-07,,1,Liebres
+10101513,Cobayas o conejillos de indias,Opcional,Opcional,,2019-01-07,,1,"Chanchito de Indias, Cobayos, Cuilo, Cuyo"
+10101514,Primates,Opcional,Opcional,,2019-01-07,,1,"Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos"
+10101515,Armadillos,Opcional,Opcional,,2019-01-07,,1,Toches
+10101516,Ganado vacuno,Opcional,Opcional,,2019-01-07,,1,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas"
+10101517,Camellos,Opcional,Opcional,,2019-01-07,,1,Dromedarios
+10101600,Pájaros y aves de corral vivos,Opcional,Opcional,,2019-01-07,,1,
+10101601,Pollos vivos,Opcional,Opcional,,2019-01-07,,1,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos"
+10101602,Patos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101603,Pavos vivos,Opcional,Opcional,,2019-01-07,,1,"Gallipavos, Guajolotes, Pavos salvajes"
+10101604,Gansos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101605,Faisanes vivos,Opcional,Opcional,,2019-01-07,,1,
+10101700,Peces vivos,Opcional,Opcional,,2019-01-07,,1,
+10101701,Salmones vivos,Opcional,Opcional,,2019-01-07,,1,
+10101702,Trucha viva,Opcional,Opcional,,2019-01-07,,1,
+10101703,Tilapia viva,Opcional,Opcional,,2019-01-07,,1,Mojarra
+10101704,Carpa viva,Opcional,Opcional,,2019-01-07,,1,
+10101705,Anguilas vivas,Opcional,Opcional,,2019-01-07,,1,
+10101800,Mariscos e invertebrados acuáticos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101801,Camarón vivo,Opcional,Opcional,,2019-01-07,,1,Esquilas
+10101802,Almejas vivas,Opcional,Opcional,,2019-01-07,,1,
+10101803,Mejillones vivos,Opcional,Opcional,,2019-01-07,,1,
+10101804,Ostras vivas,Opcional,Opcional,,2019-01-07,,1,
+10101805,Cangrejos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101806,Abulones vivos,Opcional,Opcional,,2019-01-07,,1,Orejas de mar
+10101807,Pulpo vivo,Opcional,Opcional,,2019-01-07,,1,Octópodo
+10101808,Calamar vivo,Opcional,Opcional,,2019-01-07,,1,
+10101809,Sanguijuelas,Opcional,Opcional,,2019-01-07,,1,"Hirudineas, Hirudos, Hirudíneo"
+10101900,Insectos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101901,Mariposas,Opcional,Opcional,,2019-01-07,,1,
+10101902,Escarabajos,Opcional,Opcional,,2019-01-07,,1,"Mariquitas, Sanjuaneros"
+10101903,Abejas,Opcional,Opcional,,2019-01-07,,1,
+10101904,Gusanos de seda,Opcional,Opcional,,2019-01-07,,1,"Crisálida, Larva, Orug"
+10102000,Animales salvajes vivos,Opcional,Opcional,,2019-01-07,,1,
+10102001,Elefantes,Opcional,Opcional,,2019-01-07,,1,Paquidermos
+10102002,Zorros vivos,Opcional,Opcional,,2019-01-07,,1,Zorras
+10102100,Huevos de aves para incubar,Opcional,Opcional,,2019-01-07,,1,
+10111300,"Accesorios, equipo y tratamientos para los animales domésticos",Opcional,Opcional,,2019-01-07,,1,"Accesorios, equipo y medicamentos para animales domésticos"
+10111301,Juguetes para mascotas,Opcional,Opcional,,2019-01-07,,1,
+10111302,Productos para el aseo y cuidado de mascotas,Opcional,Opcional,,2019-01-07,,1,
+10111303,Equipo para el manejo de desperdicios de las mascotas,Opcional,Opcional,,2019-01-07,,1,
+10111304,Tazones o equipo para alimentación de mascotas,Opcional,Opcional,,2019-01-07,,1,
+10111305,Tratamientos medicados para mascotas,Opcional,Opcional,,2019-01-07,,1,Tratamientos medicinales para mascotas
+10111306,Kits para el entrenamiento de mascotas domésticas,Opcional,Opcional,,2019-01-07,,1,
+10111307,Cobijas para mascotas,Opcional,Opcional,,2019-01-07,,1,"Mantas para mascotas, Sábanas para mascotas"
+10121500,Pienso para ganado,Opcional,Opcional,,2019-01-07,,1,Alimento para ganado
+10121501,Salvado de trigo puro,Opcional,Opcional,,2019-01-07,,1,
+10121502,Avena para forraje,Opcional,Opcional,,2019-01-07,,1,
+10121503,Maíz para forraje,Opcional,Opcional,,2019-01-07,,1,
+10121504,Sorgo para forraje,Opcional,Opcional,,2019-01-07,,1,
+10121505,Heno,Opcional,Opcional,,2019-01-07,,1,
+10121506,Tortas oleaginosas,Opcional,Opcional,,2019-01-07,,1,Torta de aceite para ganado
+10121507,Forraje compuesto,Opcional,Opcional,,2019-01-07,,1,
+10121600,Alimento para pájaros y aves de corral,Opcional,Opcional,,2019-01-07,,1,
+10121601,Alimento vivo para aves,Opcional,Opcional,,2019-01-07,,1,
+10121602,Alpiste,Opcional,Opcional,,2019-01-07,,1,
+10121603,Botanas o comida recreacional para aves,Opcional,Opcional,,2019-01-07,,1,
+10121604,Alimento avícola,Opcional,Opcional,,2019-01-07,,1,
+10121700,Alimento para peces,Opcional,Opcional,,2019-01-07,,1,
+10121701,Salmuera fresca o congelada,Opcional,Opcional,,2019-01-07,,1,
+10121702,Alimento granulado para peces,Opcional,Opcional,,2019-01-07,,1,
+10121703,Alimento en hojuelas para peces,Opcional,Opcional,,2019-01-07,,1,
+10121800,Alimento para perros y gatos,Opcional,Opcional,,2019-01-07,,1,
+10121801,Comida seca para perros,Opcional,Opcional,,2019-01-07,,1,
+10121802,Comida húmeda para perros,Opcional,Opcional,,2019-01-07,,1,
+10121803,Leche para perros o gatos,Opcional,Opcional,,2019-01-07,,1,
+10121804,Comida seca para gatos,Opcional,Opcional,,2019-01-07,,1,
+10121805,Comida húmeda para gatos,Opcional,Opcional,,2019-01-07,,1,
+10121806,Botanas o comida recreacional para gatos o perros,Opcional,Opcional,,2019-01-07,,1,
+10121900,Alimento para roedores,Opcional,Opcional,,2019-01-07,,1,
+10121901,Comida granulada para roedores,Opcional,Opcional,,2019-01-07,,1,
+10122000,Alimento para reptiles,Opcional,Opcional,,2019-01-07,,1,
+10122001,Comida granulada para reptiles,Opcional,Opcional,,2019-01-07,,1,
+10122002,Comida húmeda para reptiles,Opcional,Opcional,,2019-01-07,,1,
+10122003,Comida viva para reptiles,Opcional,Opcional,,2019-01-07,,1,
+10122100,Comida para animales variados,Opcional,Opcional,,2019-01-07,,1,Comida para diversos animales
+10122101,Comida para cerdos,Opcional,Opcional,,2019-01-07,,1,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones"
+10122102,Comida para visones,Opcional,Opcional,,2019-01-07,,1,
+10122103,Comida para monos,Opcional,Opcional,,2019-01-07,,1,
+10122104,Comida para conejos,Opcional,Opcional,,2019-01-07,,1,
+10131500,Cobertizos para animales,Opcional,Opcional,,2019-01-07,,1,
+10131506,Establos para ganado,Opcional,Opcional,,2019-01-07,,1,
+10131507,Casas para mascotas domesticadas,Opcional,Opcional,,2019-01-07,,1,
+10131508,Camas para mascotas,Opcional,Opcional,,2019-01-07,,1,
+10131600,Recipientes para animales,Opcional,Opcional,,2019-01-07,,1,Contenedores de comida para animales
+10131601,Jaulas o sus accesorios,Opcional,Opcional,,2019-01-07,,1,
+10131602,Perreras,Opcional,Opcional,,2019-01-07,,1,
+10131603,Equipaje para el transporte de animales,Opcional,Opcional,,2019-01-07,,1,
+10131604,Correas para perros,Opcional,Opcional,,2019-01-07,,1,
+10131700,Hábitat para animales,Opcional,Opcional,,2019-01-07,,1,Ambientes para animales
+10131701,Terrarios,Opcional,Opcional,,2019-01-07,,1,
+10131702,Acuarios,Opcional,Opcional,,2019-01-07,,1,
+10141500,Talabartería,Opcional,Opcional,,2019-01-07,,1,Guarniciones para caballerías
+10141501,Sillas de montar,Opcional,Opcional,,2019-01-07,,1,
+10141502,Fustas y látigos,Opcional,Opcional,,2019-01-07,,1,
+10141503,Herraduras para caballo,Opcional,Opcional,,2019-01-07,,1,
+10141504,Herraduras para mula,Opcional,Opcional,,2019-01-07,,1,
+10141505,Sillín o pelero,Opcional,Opcional,,2019-01-07,,1,
+10141600,Arneses,Opcional,Opcional,,2019-01-07,,1,
+10141601,Bridas,Opcional,Opcional,,2019-01-07,,1,Correas para caballos
+10141602,Yugos,Opcional,Opcional,,2019-01-07,,1,
+10141603,Bocados para caballos,Opcional,Opcional,,2019-01-07,,1,Embocaduras para caballo
+10141604,Riendas,Opcional,Opcional,,2019-01-07,,1,Correas
+10141605,Estribos,Opcional,Opcional,,2019-01-07,,1,
+10141606,Correas o traíllas,Opcional,Opcional,,2019-01-07,,1,
+10141607,Arneses de cuello para animales,Opcional,Opcional,,2019-01-07,,1,
+10141608,Arneses o sus accesorios,Opcional,Opcional,,2019-01-07,,1,
+10141609,Sujetadores,Opcional,Opcional,,2019-01-07,,1,
+10141610,Bozales,Opcional,Opcional,,2019-01-07,,1,
+10141611,Soportes para correas,Opcional,Opcional,,2019-01-07,,1,
+10151500,Semillas y plántulas vegetales,Opcional,Opcional,,2019-01-07,,1,Semillas y vástagos vegetales
+10151501,Semillas o plántulas de fríjol,Opcional,Opcional,,2019-01-07,,1,"Semillas o vástago primario de fríjol, Semillas o vástago primario de fríjol blanco, Semillas o vástago primario de fríjol negro, Semillas o vástago primario de fríjol rojo adzuki"
+10151502,Semillas o plántulas de zanahoria,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de zanahoria
+10151503,Semillas o plántulas de apio,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de apio
+10151504,Semillas o plántulas de chiles,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de chiles
+10151505,Semillas o plántulas de calabacín,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de calabacín
+10151506,Semillas o plántulas de alverja,Opcional,Opcional,,2019-01-07,,1,"Semillas o vástago primario de chícharo, Semillas o vástago primario de guisante"
+10151507,Semillas o plántulas de pepino cohombro,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de pepino cohombro
+10151508,Semillas o plántulas de berenjena,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de berenjena
+10151509,Semillas o plántulas de endivias,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de endivias
+10151510,Semillas o plántulas de ajo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de ajo
+10151511,Semillas o plántulas de puerro,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de puerro
+10151512,Semillas o plántulas de lechuga,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de lechuga
+10151513,Semillas o plántulas de maíz,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de maíz
+10151514,Semillas o plántulas de melón,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de melón
+10151515,Semillas o plántulas cebolla,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de cebolla
+10151516,Semillas o plántulas de soya,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de soya
+10151517,Semillas o plántulas de espinaca,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de espinaca
+10151518,Semillas o plántulas de tomate,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de tomate
+10151519,Semillas o plántulas de nabo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de nabo
+10151520,Semillas o plántulas de acelga,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de acelga
+10151521,Semillas o plántulas de pimiento morrón,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de pimiento morrón
+10151522,Semillas o plántulas de remolacha,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de betabel
+10151523,Semillas o plántulas de coliflor,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de coliflor
+10151524,Semillas o plántulas de perejil,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de perejil
+10151525,Semillas o plántulas de brócoli,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de brócoli
+10151526,Semillas o plántulas de repollo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de col
+10151527,Semillas o plántulas de papa,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de patata
+10151528,Semillas o plántulas de batata,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de camote
+10151529,Semillas o plántulas de calabaza,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de calabaza
+10151530,Semillas o plántulas de rábano,Opcional,Opcional,,2019-01-07,,1,"Semillas o vástago primario de rabanito, Semillas o vástago primario de rábano"
+10151531,Semillas o plántulas de repollitos de bruselas,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de col de Bruselas
+10151532,Semillas o plántulas de ahuyama,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de calabaza de castilla
+10151533,Semillas o plántulas de okra,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de okra
+10151534,Semillas o plántulas de melón cantalupo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de melón cantalupo
+10151535,Semillas o plántulas de maní,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de cacahuate
+10151536,Semillas o plántulas de caigua,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de caigua
+10151537,Semillas o plántulas de espárrago,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de espárrago
+10151538,Semillas o plántulas de garbanzo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de garbanzo
+10151539,Semillas o plántulas de haba,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de haba
+10151600,Semillas de cereales,Opcional,Opcional,,2019-01-07,,1,
+10151601,Semillas de trigo,Opcional,Opcional,,2019-01-07,,1,
+10151602,Semillas de canola,Opcional,Opcional,,2019-01-07,,1,Semillas de colza
+10151603,Semillas de cebada,Opcional,Opcional,,2019-01-07,,1,
+10151604,Semillas de mijo,Opcional,Opcional,,2019-01-07,,1,
+10151605,Semillas de avena,Opcional,Opcional,,2019-01-07,,1,
+10151606,Semillas de ajonjolí,Opcional,Opcional,,2019-01-07,,1,Semillas de sésamo
+10151607,Semillas de linaza,Opcional,Opcional,,2019-01-07,,1,Semillas de lino
+10151608,Semillas de aceite de ricino,Opcional,Opcional,,2019-01-07,,1,Semillas de ricino
+10151609,Semillas de maíz,Opcional,Opcional,,2019-01-07,,1,
+10151610,Semillas de centeno,Opcional,Opcional,,2019-01-07,,1,
+10151611,Semillas de sorgo,Opcional,Opcional,,2019-01-07,,1,
+10151612,Semillas o plántulas de kiwicha,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos de amaranto
+10151613,Semillas o plántulas de quínoa,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos de quinua
+10151700,Semillas y plántulas de hierba y forraje,Opcional,Opcional,,2019-01-07,,1,Semillas y vástagos de hierba y forraje
+10151701,Semillas o plántulas de arroz,Opcional,Opcional,,2019-01-07,,1,
+10151702,Semillas o plántulas de trébol,Opcional,Opcional,,2019-01-07,,1,
+10151703,Semillas o plántulas de alfalfa,Opcional,Opcional,,2019-01-07,,1,
+10151704,Semillas o plántulas de pasto,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos para césped
+10151705,Semillas o plántulas de veza (gachas / guija),Opcional,Opcional,,2019-01-07,,1,
+10151706,Semillas o plántulas de guar,Opcional,Opcional,,2019-01-07,,1,
+10151800,Semillas y plántulas de especias,Opcional,Opcional,,2019-01-07,,1,Semillas y vástagos de especias
+10151801,Semillas o plántulas de pimienta,Opcional,Opcional,,2019-01-07,,1,
+10151802,Semillas o plántulas de vainilla,Opcional,Opcional,,2019-01-07,,1,
+10151803,Semillas o plántulas de canela,Opcional,Opcional,,2019-01-07,,1,
+10151804,Semillas o plántulas de clavo de olor,Opcional,Opcional,,2019-01-07,,1,
+10151805,Semillas o plántulas de cilantro,Opcional,Opcional,,2019-01-07,,1,
+10151806,Semillas o plántulas de jengibre,Opcional,Opcional,,2019-01-07,,1,
+10151807,Semillas o plántulas de azafrán,Opcional,Opcional,,2019-01-07,,1,
+10151808,Semillas o plántulas de tomillo,Opcional,Opcional,,2019-01-07,,1,
+10151809,Semillas o plántulas de curry,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos de curri
+10151810,Semillas o plántulas de mostaza,Opcional,Opcional,,2019-01-07,,1,
+10151811,Semillas o plántulas de ginseng,Opcional,Opcional,,2019-01-07,,1,
+10151812,Semillas o plántulas de champiñones,Opcional,Opcional,,2019-01-07,,1,
+10151813,Semillas o plántulas de sacha inchi,Opcional,Opcional,,2019-01-07,,1,
+10151814,Semillas o plántulas de achiote,Opcional,Opcional,,2019-01-07,,1,
+10151815,Semillas o plántulas de kudzu,Opcional,Opcional,,2019-01-07,,1,
+10151816,Semillas o plántulas de albahaca,Opcional,Opcional,,2019-01-07,,1,
+10151817,Semillas o plántulas de anís,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago de badiana

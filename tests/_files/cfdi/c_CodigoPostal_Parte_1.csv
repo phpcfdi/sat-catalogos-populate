@@ -1,0 +1,20 @@
+Catálogo de códigos postales.,,,,,,,,,,,,,,,
+Versión,Revisión,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,,,,,,
+4.0,0,2019-09-10,,,,,,,,,,,,,
+c_CodigoPostal,c_Estado,c_Municipio,c_Localidad,Estímulo Franja Fronteriza,Fecha inicio de vigencia del estímulo,Fecha fin de vigencia del estímulo,Referencias del Huso Horario,,,,,,,,
+,,,,,,,Descripción del Huso Horario,Mes_Inicio_Horario_Verano,Día_Inicio_Horario_Verano,Día_Inicio_Horario_Verano,Diferencia_Horaria_Verano,Mes_Inicio_Horario_Invierno,Día_Inicio_Horario_Invierno,Día_Inicio_Horario_Invierno,Diferencia_Horaria_Invierno
+00000,AGU,000,00,0,2019-01-07,2019-10-10,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20000,AGU,001,01,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20001,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20002,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20003,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20004,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20005,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20006,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20007,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20008,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20009,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20010,AGU,001,01,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20011,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+20012,AGU,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+Continúa en c_CodigoPostal_2,,,,,,,,,,,,,,,
