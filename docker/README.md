@@ -42,7 +42,9 @@ docker run -it --name=sat-catalogos-populate-temporary \
 # run inside the container
 rm -rf /opt/sat-catalogos-populate
 cp -r /tmp/project /opt/sat-catalogos-populate
-chown root:root -R /opt/sat-catalogos-populate
+chown root:root /opt/sat-catalogos-populate -R
+cd /opt/sat-catalogos-populate
+rm -rf .git build .idea
 exit
 
 # update image from container 
