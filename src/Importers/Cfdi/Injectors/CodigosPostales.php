@@ -45,8 +45,8 @@ class CodigosPostales extends AbstractCsvInjector
                 'Mes_Inicio_Horario_Invierno',
                 'Día_Inicio_Horario_Invierno',
                 'Día_Inicio_Horario_Invierno',
-                'Diferencia_Horaria_Invierno'
-            ]
+                'Diferencia_Horaria_Invierno',
+            ],
         ];
         foreach ($expectedLines as $line => $expected) {
             $line = $line + 1;

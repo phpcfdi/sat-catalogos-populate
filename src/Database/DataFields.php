@@ -54,10 +54,10 @@ class DataFields implements Countable, IteratorAggregate
     public function transform(array $input): array
     {
         $data = [];
-        $index = -1;
+        $index = 0;
         foreach ($this->map as $name => $dataField) {
-            $index = $index + 1;
             $data[$name] = $dataField->transform($input[$index] ?? '');
+            $index = $index + 1;
         }
 
         return $data;

@@ -8,14 +8,14 @@ use PhpCfdi\SatCatalogosPopulate\Converters\XlsToCsvFolderConverter;
 use PhpCfdi\SatCatalogosPopulate\Database\Repository;
 use PhpCfdi\SatCatalogosPopulate\ImporterInterface;
 use PhpCfdi\SatCatalogosPopulate\Injectors;
-use Psr\Log\LoggerInterface;
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
+use Psr\Log\LoggerInterface;
 
 abstract class AbstractXlsImporter implements ImporterInterface
 {
     abstract public function createInjectors(string $csvFolder): Injectors;
 
-    public function import(string $source, Repository $repository, LoggerInterface $logger)
+    public function import(string $source, Repository $repository, LoggerInterface $logger): void
     {
         $csvFolder = tempdir();
 

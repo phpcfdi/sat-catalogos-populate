@@ -6,9 +6,9 @@ namespace PhpCfdi\SatCatalogosPopulate\Converters;
 
 use LogicException;
 use PhpCfdi\SatCatalogosPopulate\Utils\ShellExec;
-use RuntimeException;
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 use PhpCfdi\SatCatalogosPopulate\Utils\WhichTrait;
+use RuntimeException;
 
 class XlsToXlsxConverter
 {
