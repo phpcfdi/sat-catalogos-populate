@@ -40,7 +40,7 @@ abstract class AbstractXlsOneSheetImporter implements ImporterInterface
 
     protected function removeCsvFolder(string $csvFolder): void
     {
-        array_map('unlink', glob($csvFolder . '/*.csv'));
+        array_map('unlink', glob($csvFolder . '/*.csv') ?: []);
         rmdir($csvFolder);
     }
 }

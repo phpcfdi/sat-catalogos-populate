@@ -1,44 +1,30 @@
 language: php
 
+dist: bionic
+
 # php compatibility
 php:
-  - "7.2"
   - "7.3"
-  - "7.4snapshot"
 
-env:
-  global:
-    - COVERAGE_PHP_VERSION="7.3"
-
-# This triggers builds to run on the new TravisCI infrastructure.
-# See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
-sudo: false
+addons:
+  apt:
+    packages:
+      - openjdk-11-jre-headless
+      - libreoffice-calc
+      - libsaxonb-java
+      - xlsx2csv
 
 before_script:
   - phpenv config-rm xdebug.ini || true
   - travis_retry composer install --no-interaction --prefer-dist
 
 script:
-  - vendor/bin/phplint
   - vendor/bin/php-cs-fixer fix --verbose
   - vendor/bin/phpcbf --colors -sp src/ tests/
   - vendor/bin/phpunit --testdox
   - vendor/bin/phpstan.phar analyse --no-progress --level max src/ tests/
-  - |
-    if [[ "${COVERAGE_PHP_VERSION}" == "${TRAVIS_PHP_VERSION}" ]]; then
-      rm -rf build/files/
-      mkdir -p build/files/
-      bin/sat-catalogos-update dump-origins > build/files/origins.xml
-      bin/sat-catalogos-update update-origins build/files/ -w build/files/database.sqlite3
-    fi
-
-after_success:
-  - |
-    if [[ "${COVERAGE_PHP_VERSION}" == "${TRAVIS_PHP_VERSION}" ]]; then
-      wget --no-verbose https://scrutinizer-ci.com/ocular.phar
-      php -dzend_extension=xdebug.so vendor/bin/phpunit --coverage-text --coverage-clover=build/tests/coverage.xml
-      php ocular.phar code-coverage:upload --format=php-clover build/tests/coverage.xml
-    fi
+  - bin/sat-catalogos-update dump-origins > build/origins.xml
+  - bin/sat-catalogos-update update-origins build/ -w build/database.sqlite3
 
 notifications:
   email: false

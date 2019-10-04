@@ -62,7 +62,7 @@ class CsvFolderJoinFiles
                         'source' => $path,
                     ];
                 },
-                glob($csvFolder . '/*.csv')
+                glob($csvFolder . '/*.csv') ?: []
             )
         );
 

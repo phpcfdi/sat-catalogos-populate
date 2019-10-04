@@ -30,6 +30,7 @@ class WebResourcesGateway implements ResourcesGatewayInterface
             if (! $exception->hasResponse()) {
                 throw $exception;
             }
+            /** @var ResponseInterface $response */
             $response = $exception->getResponse();
         }
         return $response;

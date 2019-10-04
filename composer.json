@@ -1,7 +1,7 @@
 {
     "name": "phpcfdi/sat-catalogos-populate",
-    "description": "Generación del contenido de la base de datos de la librería phpcfdi/sat-catalogos",
-    "keywords": [],
+    "description": "Herramienta para crear y actualizar los catálogos de SAT/CFDI en una base de datos SQLite3",
+    "keywords": ["sat", "cfdi", "catalogos"],
     "homepage": "https://github.com/phpcfdi/sat-catalogos-populate",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
         "issues": "https://github.com/phpcfdi/sat-catalogos-populate/issues"
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.3",
         "ext-pdo": "*",
         "ext-sqlite3": "*",
         "ext-json": "*",
@@ -27,10 +27,9 @@
     "require-dev": {
         "ext-fileinfo": "*",
         "phpunit/phpunit": "^7.0",
-        "overtrue/phplint": "^1.0",
         "squizlabs/php_codesniffer": "^3.0",
         "friendsofphp/php-cs-fixer": "^2.4",
-        "phpstan/phpstan-shim": "^0.10"
+        "phpstan/phpstan-shim": "^0.11"
     },
     "autoload": {
         "psr-4": {
@@ -56,7 +55,6 @@
             "vendor/bin/phpcbf --colors -sp bin/ src/ tests/"
         ],
         "dev:test": [
-            "vendor/bin/phplint",
             "@dev:check-style",
             "vendor/bin/phpunit --testdox --verbose --stop-on-failure",
             "vendor/bin/phpstan analyse --verbose --no-progress --level max bin/ src/ tests/"
@@ -69,7 +67,7 @@
         "dev:build": "DEV: run dev:fix-style dev:tests and dev:docs, run before pull request",
         "dev:check-style": "DEV: search for code style errors using php-cs-fixer and phpcs",
         "dev:fix-style": "DEV: fix code style errors using php-cs-fixer and phpcbf",
-        "dev:test": "DEV: run phplint, phpunit and phpstan",
+        "dev:test": "DEV: run dev:check-style, phpunit and phpstan",
         "dev:coverage": "DEV: run phpunit with xdebug and storage coverage in build/coverage/html/"
     }
 }

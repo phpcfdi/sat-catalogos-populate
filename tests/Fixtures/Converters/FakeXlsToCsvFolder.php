@@ -20,7 +20,8 @@ class FakeXlsToCsvFolder extends XlsToCsvFolderConverter
 
     public function convert(string $source, string $destination): void
     {
-        foreach (glob($this->baseCsvFolder . '/*.csv') as $baseCsvFile) {
+        $baseCsvFiles = glob($this->baseCsvFolder . '/*.csv') ?: [];
+        foreach ($baseCsvFiles as $baseCsvFile) {
             copy($baseCsvFile, $destination . '/' . basename($baseCsvFile));
         }
     }
