@@ -9,6 +9,5 @@ RUN set -e \
     && test -d "${PROJECT_DIR}" || git clone -b "${GIT_BRANCH}" "${GIT_REPO}" "${PROJECT_DIR}" \
     && cd "${PROJECT_DIR}" \
     && composer install --no-interaction --prefer-dist --no-dev --optimize-autoloader --no-cache \
-    && chmod +x bin/* \
-    && export PATH="${PATH}:${PROJECT_DIR}/bin"
+    && chmod +x bin/*
 
