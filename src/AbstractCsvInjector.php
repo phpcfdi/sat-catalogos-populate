@@ -48,7 +48,7 @@ abstract class AbstractCsvInjector implements InjectorInterface
         $gateway->recreate();
 
         $logger->info("Verificando encabezado de {$filename}...");
-        $csv = new CsvFile($this->sourceFile, new RightTrim());
+        $csv = $this->createCsvFileReader();
         $this->checkHeaders($csv);
 
         $logger->info("Inyectando contenidos de {$filename} a {$tableName}...");
@@ -56,6 +56,11 @@ abstract class AbstractCsvInjector implements InjectorInterface
         $logger->info("Se inyectaron {$injected} registros en {$tableName}");
 
         return $injected;
+    }
+
+    protected function createCsvFileReader(): CsvFile
+    {
+        return new CsvFile($this->sourceFile(), new RightTrim());
     }
 
     protected function injectCsvToDataTable(CsvFile $csv, DataTableGateway $gateway)
