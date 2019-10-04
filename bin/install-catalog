@@ -35,11 +35,13 @@ fi
 
 # get the latest file
 shopt -s extglob
-LATEST="$(ls -1 "${DB_FOLDER}"/$PATTERN | sort -r | head -n 1)"
+LATEST="$(ls -1 "${DB_FOLDER}"/$PATTERN 2>/dev/null | sort -r | head -n 1)"
 shopt -u extglob
 if [ -z "$LATEST" ]; then
-  echo "Unable to find latest database on $DB_FOLDER"
-  exit 1
+  FIRST_RELEASE_NAME="catalogos-1.0.$(date +%Y%m%d).sqlite3"
+  echo "Unable to find latest database on $DB_FOLDER, installing $SUBJECT as ${FIRST_RELEASE_NAME}"
+  cp "$SUBJECT" "${DB_FOLDER}/${FIRST_RELEASE_NAME}"
+  exit $?
 fi
 
 # setup latest verion variables
