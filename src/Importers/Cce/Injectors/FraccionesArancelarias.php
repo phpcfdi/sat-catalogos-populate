@@ -10,11 +10,18 @@ use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\IgnoreColumns;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
 
 class FraccionesArancelarias extends AbstractCsvInjector
 {
+    protected function createCsvFileReader(): CsvFile
+    {
+        return new CsvFile($this->sourceFile(), new IgnoreColumns(new RightTrim(), 0));
+    }
+
     public function checkHeaders(CsvFile $csv): void
     {
         $csv->move(3);

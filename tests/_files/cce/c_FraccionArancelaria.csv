@@ -1,400 +1,114 @@
-Catálogo de fracción arancelaria. ,,,,,,,
-Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,,,
-2017-01-01,,4,2,,,,
-c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,Criterio,Unidad de Medida,IMPUESTO,
-,,,,,,IMP,EXP
-01012101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,10,Ex.
-01012901,Para saltos o carreras.,2012-07-02,,Porcentual,07,20,Ex.
-01012902,"Sin pedigree, para reproducción.",2012-07-02,,Porcentual,07,10,Ex.
-01012903,"Para abasto, cuando la importación la realicen empacadoras Tipo Inspección Federal.",2012-07-02,,Porcentual,07,10,Ex.
-01012999,Los demás.,2012-07-02,,Porcentual,07,20,Ex.
-01013001,Asnos.,2012-07-02,,Porcentual,07,20,Ex.
-01019099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-01022101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.
-01022901,Vacas lecheras.,2012-07-02,,Porcentual,07,Ex.,Ex.
-01022902,"Con pedigree o certificado de alto registro, excepto lo comprendido en la fracción 0102.29.01.",2012-07-02,,Porcentual,07,Ex.,Ex.
-01022999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.
-01023101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.
-01023999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.
-01029099,Los demás.,2007-07-01,,Porcentual,07,15,Ex.
-01031001,Reproductores de raza pura.,2007-07-01,,Porcentual,07,Ex.,Ex.
-01039101,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.
-01039102,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.
-01039199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-01039201,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.
-01039202,"De peso superior a 110 kg, excepto lo comprendido en las fracciones 0103.92.01 y 0103.92.03.",2007-07-01,,Porcentual,07,20,Ex.
-01039203,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.
-01039299,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-01041001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.
-01041002,Para abasto.,2007-07-01,,Porcentual,07,10,Ex.
-01041099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-01042001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.
-01042002,Borrego cimarrón.,2012-07-02,,Porcentual,07,20,Ex.
-01042099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-01051101,Cuando no necesiten alimento durante su transporte.,2012-11-24,,Porcentual,07,Ex.,Ex.
-01051102,"Aves progenitoras recién nacidas, con certificado de alto registro, cuando se importe un máximo de 18,000 cabezas por cada operación.",2007-07-01,,Porcentual,07,Ex.,Ex.
-01051199,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-01051201,Pavos (gallipavos).,2007-07-01,,Porcentual,07,10,Ex.
-01051301,Patos.,2012-07-02,,Porcentual,07,10,Ex.
-01051401,Gansos.,2012-07-02,,Porcentual,07,10,Ex.
-01051501,Pintadas.,2012-07-02,,Porcentual,07,10,Ex.
-01059401,Gallos de pelea.,2007-07-01,,Porcentual,07,20,Ex.
-01059499,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-01059999,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-01061101,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus.,2007-07-01,,Porcentual,07,10,Ex.
-01061199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-01061201,"Ballenas, delfines y marsopas (mamíferos del orden Cetáceos); manatíes y dugones o dugongos (mamíferos del orden Sirenios); otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,07,20,Ex.
-01061301,Camellos y los demás camélidos (Camelidae).,2012-07-02,,Porcentual,07,20,Ex.
-01061401,Conejos y liebres.,2012-07-02,,Porcentual,07,20,Ex.
-01061901,"Berrendo, oso, lobo, castor, puma, jaguar, ocelote, margay, gato de monte o tapir.",2012-07-02,,Porcentual,07,20,Ex.
-01061902,Venado rojo (Cervus elaphus); gamo (Dama dama).,2007-07-01,,Porcentual,07,Ex.,Ex.
-01061903,Perros.,2007-07-01,,Porcentual,07,20,Ex.
-01061999,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-01062001,Víbora de cascabel.,2007-07-01,,Porcentual,07,20,Ex.
-01062002,Tortugas terrestres.,2007-07-01,,Porcentual,07,20,Ex.
-01062003,Tortugas de agua dulce o de mar.,2007-07-01,,Porcentual,07,20,Ex.
-01062099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-01063101,Aves de rapiña.,2007-07-01,,Porcentual,07,20,Ex.
-01063201,"Psitaciformes (incluidos los loros, guacamayos, cacatúas y demás papagayos).",2007-07-01,,Porcentual,07,20,Ex.
-01063301,Avestruces; emús (Dromaius novaehollandiae).,2012-07-02,,Porcentual,07,20,Ex.
-01063901,Flamencos; quetzales; guan cornudo; pato real.,2007-07-01,,Porcentual,07,20,Ex.
-01063902,Aves canoras.,2007-07-01,,Porcentual,07,20,Ex.
-01063999,Las demás.,2007-07-01,,Porcentual,07,20,Ex.
-01064101,Abejas.,2012-07-02,,Porcentual,01,10,Ex.
-01064999,Los demás.,2012-07-02,,Porcentual,01,20,Ex.
-01069002,Lombriz Rebellus.,2007-07-01,,Porcentual,01,10,Ex.
-01069003,Lombriz acuática.,2007-07-01,,Porcentual,01,Ex.,Ex.
-01069004,Ácaros Phytoseiulus persimilis.,2007-07-01,,Porcentual,01,Ex.,Ex.
-01069099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-02011001,En canales o medias canales.,2007-07-01,,Porcentual,01,20,Ex.
-02012099,Los demás cortes (trozos) sin deshuesar.,2007-07-01,,Porcentual,01,20,Ex.
-02013001,Deshuesada.,2007-07-01,,Porcentual,01,20,Ex.
-02021001,En canales o medias canales.,2007-07-01,,Porcentual,01,25,Ex.
-02022099,Los demás cortes (trozos) sin deshuesar.,2007-07-01,,Porcentual,01,25,Ex.
-02023001,Deshuesada.,2007-07-01,,Porcentual,01,25,Ex.
-02031101,En canales o medias canales.,2007-07-01,,Porcentual,01,20,Ex.
-02031201,"Piernas, paletas, y sus trozos, sin deshuesar.",2009-01-02,,Porcentual,01,20,Ex.
-02031999,Las demás.,2007-07-01,,Porcentual,01,20,Ex.
-02032101,En canales o medias canales.,2007-07-01,,Porcentual,01,20,Ex.
-02032201,"Piernas, paletas, y sus trozos, sin deshuesar.",2009-01-02,,Porcentual,01,20,Ex.
-02032999,Las demás.,2007-07-01,,Porcentual,01,20,Ex.
-02041001,"Canales o medias canales de cordero, frescas o refrigeradas.",2007-07-01,,Porcentual,01,10,Ex.
-02042101,En canales o medias canales.,2007-07-01,,Porcentual,01,10,Ex.
-02042299,Los demás cortes (trozos) sin deshuesar.,2007-07-01,,Porcentual,01,10,Ex.
-02042301,Deshuesadas.,2007-07-01,,Porcentual,01,10,Ex.
-02043001,"Canales o medias canales de cordero, congeladas.",2007-07-01,,Porcentual,01,10,Ex.
-02044101,En canales o medias canales.,2007-07-01,,Porcentual,01,10,Ex.
-02044299,Los demás cortes (trozos) sin deshuesar.,2007-07-01,,Porcentual,01,10,Ex.
-02044301,Deshuesadas.,2007-07-01,,Porcentual,01,10,Ex.
-02045001,Carne de animales de la especie caprina.,2007-07-01,,Porcentual,01,10,Ex.
-02050001,"Carne de animales de las especies caballar, asnal o mular, fresca, refrigerada o congelada.",2007-07-01,,Porcentual,01,10,Ex.
-02061001,"De la especie bovina, frescos o refrigerados.",2007-07-01,,Porcentual,01,20,Ex.
-02062101,Lenguas.,2007-07-01,,Porcentual,01,20,Ex.
-02062201,Hígados.,2007-07-01,,Porcentual,01,20,Ex.
-02062999,Los demás.,2007-07-01,,Porcentual,01,20,Ex.
-02063001,"Pieles de cerdo enteras o en recortes, refrigerados, excepto el cuero precocido en trozos (""pellets"").",2007-07-01,,Porcentual,01,10,Ex.
-02063099,Los demás.,2007-07-01,,Porcentual,01,20,Ex.
-02064101,Hígados.,2007-07-01,,Porcentual,01,10,Ex.
-02064901,"Pieles de cerdo enteras o en recortes, excepto el cuero precocido en trozos (""pellets"").",2007-07-01,,Porcentual,01,Ex.,Ex.
-02064999,Los demás.,2007-07-01,,Porcentual,01,10,Ex.
-02068099,"Los demás, frescos o refrigerados.",2007-07-01,,Porcentual,01,10,Ex.
-02069099,"Los demás, congelados.",2007-07-01,,Porcentual,01,10,Ex.
-02071101,"Sin trocear, frescos o refrigerados.",2017-01-01,,Porcentual,01,75,Ex.
-02071201,"Sin trocear, congelados.",2017-01-01,,Porcentual,01,75,Ex.
-02071301,Mecánicamente deshuesados.,2017-01-01,,Porcentual,01,75,Ex.
-02071302,Carcazas.,2017-01-01,,Porcentual,01,75,Ex.
-02071303,"Piernas, muslos o piernas unidas al muslo.",2017-01-01,,Porcentual,01,75,Ex.
-02071399,Los demás.,2017-01-01,,Porcentual,01,75,Ex.
-02071401,Mecánicamente deshuesados.,2017-01-01,,Porcentual,01,75,Ex.
-02071402,Hígados.,2007-07-01,,Porcentual,01,10,Ex.
-02071403,Carcazas.,2017-01-01,,Porcentual,01,75,Ex.
-02071404,"Piernas, muslos o piernas unidas al muslo.",2017-01-01,,Porcentual,01,75,Ex.
-02071499,Los demás.,2017-01-01,,Porcentual,01,75,Ex.
-02072401,"Sin trocear, frescos o refrigerados.",2016-01-01,,Porcentual,01,45,Ex.
-02072501,"Sin trocear, congelados.",2016-01-01,,Porcentual,01,45,Ex.
-02072601,Mecánicamente deshuesados.,2017-01-01,,Porcentual,01,75,Ex.
-02072602,Carcazas.,2017-01-01,,Porcentual,01,75,Ex.
-02072699,Los demás.,2017-01-01,,Porcentual,01,75,Ex.
-02072701,Mecánicamente deshuesados.,2017-01-01,,Porcentual,01,75,Ex.
-02072702,Hígados.,2007-07-01,,Porcentual,01,10,Ex.
-02072703,Carcazas.,2017-01-01,,Porcentual,01,75,Ex.
-02072799,Los demás.,2017-01-01,,Porcentual,01,75,Ex.
-02074101,"Sin trocear, frescos o refrigerados.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02074201,"Sin trocear, congelados.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02074301,"Hígados grasos, frescos o refrigerados.",2012-07-02,,Porcentual,01,10,Ex.
-02074401,"Los demás, frescos o refrigerados.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02074501,Hígados.,2012-07-02,,Porcentual,01,10,Ex.
-02074599,Los demás.,2017-01-01,,Porcentual,01,Ex.,Ex.
-02075101,"Sin trocear, frescos o refrigerados.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02075201,"Sin trocear, congelados.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02075301,"Hígados grasos, frescos o refrigerados.",2012-07-02,,Porcentual,01,10,Ex.
-02075401,"Los demás, frescos o refrigerados.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02075501,Hígados.,2012-07-02,,Porcentual,01,10,Ex.
-02075599,Los demás.,2017-01-01,,Porcentual,01,Ex.,Ex.
-02076001,"Sin trocear, frescas o refrigeradas.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02076002,"Sin trocear, congeladas.",2017-01-01,,Porcentual,01,Ex.,Ex.
-02076099,Las demás.,2017-01-01,,Porcentual,01,Ex.,Ex.
-02081001,De conejo o liebre.,2007-07-01,,Porcentual,01,10,Ex.
-02083001,De primates.,2007-07-01,,Porcentual,01,10,Ex.
-02084001,"De ballenas, delfines y marsopas (mamíferos del orden Cetáceos); de manatíes y dugones o dugongos (mamíferos del orden Sirenios); de otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,01,10,Ex.
-02085001,De reptiles (incluidas las serpientes y tortugas de mar).,2007-07-01,,Porcentual,01,10,Ex.
-02086001,De camellos y los demás camélidos (Camelidae).,2012-07-02,,Porcentual,01,10,Ex.
-02089001,Carnes o despojos de venado.,2007-07-01,,Porcentual,01,10,Ex.
-02089002,Ancas (patas) de rana.,2007-07-01,,Porcentual,01,10,Ex.
-02089099,Los demás.,2007-07-01,,Porcentual,01,10,Ex.
-02091001,De cerdo.,2017-01-01,,Porcentual,01,15,Ex.
-02099001,"De gallo, gallina o pavo (gallipavo).",2017-01-01,,Porcentual,01,Ex.,Ex.
-02099099,Los demás.,2017-01-01,,Porcentual,01,15,Ex.
-02101101,"Jamones, paletas, y sus trozos, sin deshuesar.",2009-01-02,,Porcentual,01,10,Ex.
-02101201,Tocino entreverado de panza (panceta) y sus trozos.,2007-07-01,,Porcentual,01,10,Ex.
-02101999,Las demás.,2007-07-01,,Porcentual,01,10,Ex.
-02102001,Carne de la especie bovina.,2007-07-01,,Porcentual,01,10,Ex.
-02109101,De primates.,2007-07-01,,Porcentual,01,10,Ex.
-02109201,"De ballenas, delfines y marsopas (mamíferos del orden Cetáceos); de manatíes y dugones o dugongos (mamíferos del orden Sirenios); de otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,01,10,Ex.
-02109301,De reptiles (incluidas las serpientes y tortugas de mar).,2007-07-01,,Porcentual,01,10,Ex.
-02109901,"Vísceras o labios de bovinos, salados o salpresos.",2007-07-01,,Porcentual,01,10,Ex.
-02109902,"Pieles de cerdo ahumadas, enteras o en recortes.",2007-07-01,,Porcentual,01,15,Ex.
-02109903,"Aves, saladas o en salmuera.",2007-07-01,,Porcentual,01,10,Ex.
-02109999,Los demás.,2007-07-01,,Porcentual,01,10,Ex.
-03011101,De agua dulce.,2012-07-02,,Porcentual,07,10,Ex.
-03011999,Los demás.,2012-07-02,,Porcentual,07,10,Ex.
-03019101,"Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster).",2017-01-01,,Porcentual,07,15,Ex.
-03019201,Anguilas (Anguilla Spp.).,2017-01-01,,Porcentual,07,15,Ex.
-03019301,"Carpas (Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys Spp., Cirrhinus Spp., Mylopharyngodon piceus).",2017-01-01,,Porcentual,07,15,Ex.
-03019401,"Atunes del Atlántico o del Pacífico, de aleta azul (Thunnus thynnus, Thunnus orientalis).",2012-07-02,,Porcentual,07,Ex.,Ex.
-03019501,Atunes del sur (Thunnus maccoyii).,2007-07-01,,Porcentual,07,Ex.,Ex.
-03019999,Los demás.,2017-01-01,,Porcentual,07,15,Ex.
-03021101,"Truchas (Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache y Oncorhynchus chrysogaster).",2017-01-01,,Porcentual,01,15,Ex.
-03021301,"Salmones del Pacífico (Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou y Oncorhynchus rhodurus).",2017-01-01,,Porcentual,01,15,Ex.
-03021401,Salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho).,2017-01-01,,Porcentual,01,15,Ex.
-03021999,Los demás.,2017-01-01,,Porcentual,01,15,Ex.
-03022101,"Halibut (fletán) (Reinhardtius hippoglossoides, Hippoglossus hippoglossus, Hippoglossus stenolepis).",2017-01-01,,Porcentual,01,15,Ex.
-03022201,Sollas (Pleuronectes platessa).,2017-01-01,,Porcentual,01,15,Ex.
-03022301,Lenguados (Solea spp.).,2017-01-01,,Porcentual,01,15,Ex.
-03022401,Rodaballos (Psetta maxima).,2017-01-01,,Porcentual,01,15,Ex.
-03022999,Los demás.,2017-01-01,,Porcentual,01,15,Ex.
-03023101,Albacoras o atunes blancos (Thunnus alalunga).,2007-07-01,,Porcentual,01,Ex.,Ex.
-03023201,Atunes de aleta amarilla (rabiles) (Thunnus albacares).,2007-07-01,,Porcentual,01,Ex.,Ex.
-03023301,Listados o bonitos de vientre rayado. ,2007-07-01,,Porcentual,01,Ex.,Ex.
-03023401,Patudos o atunes ojo grande (Thunnus obesus).,2007-07-01,,Porcentual,01,Ex.,Ex.
-03023501,"Atunes del Atlántico y del Pacífico, de aleta azul (Thunnus thynnus, Thunnus orientalis).",2012-07-02,,Porcentual,01,Ex.,Ex.
-03023601,Atunes del sur (Thunnus maccoyii).,2007-07-01,,Porcentual,01,Ex.,Ex.
-03023999,Los demás.,2007-07-01,,Porcentual,01,Ex.,Ex.
-03024101,"Arenques (Clupea harengus, Clupea pallasii).",2017-01-01,,Porcentual,01,15,Ex.
-03024201,Anchoas (Engraulis spp.).,2017-01-01,,Porcentual,01,15,Ex.
-03024301,"Sardinas (Sardina pilchardus, Sardinops Spp.), sardinela (Sardinella Spp.) o espadines (Sprattus sprattus).",2017-01-01,,Porcentual,01,15,Ex.
-03024401,"Caballas (Scomber scombrus, Scomber australasicus, Scomber japonicus).",2017-01-01,,Porcentual,01,15,Ex.
-03024501,Jureles (Trachurus spp.).,2017-01-01,,Porcentual,01,15,Ex.
-03024601,Cobias (Rachycentron canadum).,2017-01-01,,Porcentual,01,15,Ex.
-03024701,Pez espada (Xiphias gladius).,2017-01-01,,Porcentual,01,15,Ex.
-03025101,"Bacalaos (Gadus morhua, Gadus ogac, Gadus macrocephalus).",2017-01-01,,Porcentual,01,15,Ex.
-03025201,Eglefinos (Melanogrammus aeglefinus).,2017-01-01,,Porcentual,01,15,Ex.
-03025301,Carboneros (Pollachius virens).,2017-01-01,,Porcentual,01,15,Ex.
-03025401,"Merluzas (Merluccius spp., Urophycis spp.).",2012-07-02,,Porcentual,01,10,Ex.
-03025501,Abadejos de Alaska (Theragra chalcogramma).,2017-01-01,,Porcentual,01,15,Ex.
-03025601,"Bacaladillas (Micromesistius poutassou, Micromesistius australis).",2017-01-01,,Porcentual,01,15,Ex.
-03025999,Los demás.,2017-01-01,,Porcentual,01,15,Ex.
-03027101,Tilapias (Oreochromis spp.).,2017-01-01,,Porcentual,01,15,Ex.
-03027201,"Bagre o pez gato (Pangasius Spp., Silurus Spp., Clarias Spp., Ictalurus spp.).",2017-01-01,,Porcentual,01,15,Ex.
-03027301,"Carpas (Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys Spp., Cirrhinus Spp., Mylopharyngodon piceus).",2017-01-01,,Porcentual,01,15,Ex.
-03027401,Anguilas (Anguilla spp.).,2017-01-01,,Porcentual,01,15,Ex.
-48083001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-48083002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-48083099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-48141001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-48184001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-48184099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-52094201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-52094299,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-52114201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-52114299,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54074101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54074201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54075101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54075201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54075399,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54075401,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54076102,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54076199,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-54076999,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-55121101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-55121999,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-55131101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-55132101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-56011001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-58012401,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-58012501,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-58013401,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-58013501,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-60063101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-60063201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-60063301,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-60063401,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-61112001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-61113001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62034299,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62034399,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62046201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62046299,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62046399,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62046901,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62052099,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62053099,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62063001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62064099,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62092001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62093001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-62114101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-62121001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-63023101,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-63023201,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-63026001,Derogada,2007-07-01,2016-06-01,N/A,N/A,N/A,N/A
-63069101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-63069901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-64019201,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64019299,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64019999,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64021999,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64022001,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64029101,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64029901,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64029902,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64029999,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64034001,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64035199,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64035999,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64039102,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64039103,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64039199,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64039902,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64041101,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64041102,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64041103,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64041199,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64041999,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64052099,Derogada,2007-07-01,2016-01-18,N/A,N/A,N/A,N/A
-64069101,Derogada,2007-07-01,2006-09-05,N/A,N/A,N/A,N/A
-64069102,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-64069199,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-64069901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-64069999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-65051001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-65059001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-65059002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-65059099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-68118301,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-68118399,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-68118901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-69089001,Derogada,2007-07-01,2016-01-06,N/A,N/A,N/A,N/A
-73192001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-73193001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-74181101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-74181901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-74181999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-74199916,Derogada,2007-07-01,2008-12-24,N/A,N/A,N/A,N/A
-76151101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-76151901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-76151999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-82012001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-82012099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-82058001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-82058099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-82059001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-84524001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-84619001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-84733099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-84862001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85061001,Derogada,2007-07-01,2013-12-14,N/A,N/A,N/A,N/A
-85232904,Derogada,2007-07-01,2010-09-24,N/A,N/A,N/A,N/A
-85234001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85234002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85234099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85256008,Derogada,2007-07-01,2007-06-30,N/A,N/A,N/A,N/A
-85404001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85404099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85405001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85405099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85407201,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85431001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-85431099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-87031003,Derogada,2007-07-01,2008-12-24,N/A,N/A,N/A,N/A
-87043104,Derogada,2007-07-01,2008-12-24,N/A,N/A,N/A,N/A
-87112001,Derogada,2007-07-01,2007-06-30,N/A,N/A,N/A,N/A
-87141101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-87141901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-87141902,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-87141999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90071101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90071901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90071999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90081001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90082001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90083001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-90084001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-91091101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-91091999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-91142001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-93011101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-93011999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-93052101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-93052999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95041001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95041002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95041003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95049006,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95049007,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95049008,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-95049009,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-96083101,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-96083901,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-96083999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-96091002,Derogada,2007-07-01,2012-11-24,N/A,N/A,N/A,N/A
-27090001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-27101204,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-27101904,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-60011001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61012001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61013099,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61022001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61044201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61044399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61045399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61052001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61061099,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61062099,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61071101,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61071201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61082101,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61082201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61083101,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61083201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61091001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61099001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61099099,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61101101,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-61102001,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62011299,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62011399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62019299,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62021299,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62021399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62029299,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62029399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62033201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62033399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62034204,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62034205,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62034206,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62034302,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62034306,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62043201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62043399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62044299,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62044399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62044499,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62045201,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62045399,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62046202,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62046204,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62046205,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
-62046302,Derogada,2007-07-01,2017-12-03,N/A,N/A,N/A,N/A
+,Catálogo de fracción arancelaria. ,,,,,,,,,
+,Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,,,,,
+,2017-01-01,,6.0,0,,,,,,
+,c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,Criterio,Unidad de Medida,IMPUESTO,,,
+,,,,,,,IMP,EXP,,
+,01011001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01011099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01012101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,10,Ex.,,
+,01012901,Para saltos o carreras.,2012-07-02,,Porcentual,07,20,Ex.,,
+,01012902,"Sin pedigree, para reproducción.",2012-07-02,,Porcentual,07,10,Ex.,,
+,01012903,"Para abasto, cuando la importación la realicen empacadoras Tipo Inspección Federal.",2012-07-02,,Porcentual,07,10,Ex.,,
+,01012999,Los demás.,2012-07-02,,Porcentual,07,20,Ex.,,
+,01013001,Asnos.,2012-07-02,,Porcentual,07,20,Ex.,,
+,01019001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01019002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01019003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01019099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01021001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01022101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.,,
+,01022901,Vacas lecheras.,2012-07-02,,Porcentual,07,Ex.,Ex.,,
+,01022902,"Con pedigree o certificado de alto registro, excepto lo comprendido en la fracción 0102.29.01.",2012-07-02,,Porcentual,07,Ex.,Ex.,,
+,01022999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.,,
+,01023101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.,,
+,01023999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.,,
+,01029001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01029002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01029003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01029099,Los demás.,2007-07-01,,Porcentual,07,15,Ex.,,
+,01031001,Reproductores de raza pura.,2007-07-01,,Porcentual,07,Ex.,Ex.,,
+,01039101,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.,,
+,01039102,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01039199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01039201,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.,,
+,01039202,"De peso superior a 110 kg, excepto lo comprendido en las fracciones 0103.92.01 y 0103.92.03.",2007-07-01,,Porcentual,07,20,Ex.,,
+,01039203,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01039299,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01041001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.,,
+,01041002,Para abasto.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01041099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01042001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.,,
+,01042002,Borrego cimarrón.,2012-07-02,,Porcentual,07,20,Ex.,,
+,01042099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01051101,Cuando no necesiten alimento durante su transporte.,2012-11-24,,Porcentual,07,Ex.,Ex.,,
+,01051102,"Aves progenitoras recién nacidas, con certificado de alto registro, cuando se importe un máximo de 18,000 cabezas por cada operación.",2007-07-01,,Porcentual,07,Ex.,Ex.,,
+,01051199,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01051201,Pavos (gallipavos).,2007-07-01,,Porcentual,07,10,Ex.,,
+,01051301,Patos.,2012-07-02,,Porcentual,07,10,Ex.,,
+,01051401,Gansos.,2012-07-02,,Porcentual,07,10,Ex.,,
+,01051501,Pintadas.,2012-07-02,,Porcentual,07,10,Ex.,,
+,01051999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
+,01059401,Gallos de pelea.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01059499,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01059999,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01061101,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus.,2007-07-01,,Porcentual,07,10,Ex.,,
+,01061199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
+,01061201,"Ballenas, delfines y marsopas (mamíferos del orden Cetáceos); manatíes y dugones o dugongos (mamíferos del orden Sirenios); otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,07,20,Ex.,,
+,01061301,Camellos y los demás camélidos (Camelidae).,2012-07-02,,Porcentual,07,20,Ex.,,
+,98010001,Importaciones o exportaciones de muestras y muestrarios.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020001,"Mercancías para el Programa de Promoción Sectorial de la Industria Eléctrica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020002,"Mercancías para el Programa de Promoción Sectorial de la Industria Electrónica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020003,"Mercancías para el Programa de Promoción Sectorial de la Industria del Mueble, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020004,"Mercancías para el Programa de Promoción Sectorial de la Industria del Juguete, Juegos de Recreo y Artículos Deportivos, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020005,"Mercancías para el Programa de Promoción Sectorial de la Industria del Calzado, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020006,"Mercancías para el Programa de Promoción Sectorial de la Industria Minera y Metalúrgica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020007,"Mercancías para el Programa de Promoción Sectorial de la Industria Bienes de Capital, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020008,"Mercancías para el Programa de Promoción Sectorial de la Industria Fotográfica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020009,"Mercancías para el Programa de Promoción Sectorial de la Industria de Maquinaria Agrícola, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020010,"Mercancías para el Programa de Promoción Sectorial de las Industrias Diversas, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020011,"Mercancías para el Programa de Promoción Sectorial de la Industria Química, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020012,"Mercancías para el Programa de Promoción Sectorial de la Industria de Manufacturas del Caucho y Plástico, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020013,"Mercancías para el Programa de Promoción Sectorial de la Industria Siderúrgica, cuando se trate de productores directos y las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020014,"Mercancías para el Programa de Promoción Sectorial de la Industria de Productos Farmoquímicos, Medicamentos y Equipo Médico, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020015,"Mercancías para el Programa de Promoción Sectorial de la Industria del Transporte, excepto el Sector de la Industria Automotriz y de Autopartes, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020016,"Mercancías para el Programa de Promoción Sectorial de la Industria del Papel y Cartón, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020017,"Mercancías para el Programa de Promoción Sectorial de la Industria de la Madera, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020018,"Mercancías para el Programa de Promoción Sectorial de la Industria del Cuero y Pieles, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020019,"Mercancías para el Programa de Promoción Sectorial de la Industria Automotriz y de Autopartes, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020020,"Mercancías para el Programa de Promoción Sectorial de la Industria Textil y de la Confección, excepto lo comprendido en la fracción 9802.00.24, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020021,"Mercancías para el Programa de Promoción Sectorial de la Industria de Chocolates, Dulces y Similares, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020022,"Mercancías para el Programa de Promoción Sectorial de la Industria del Café, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020023,"Mercancías para el Programa de Promoción Sectorial de la Industria Siderúrgica, cuando se trate de productores indirectos y las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,5,Ex.,,
+,98020024,"Hilados de filamento de nailon rígidos de título inferior o igual a 44.4 decitex (40 deniers) e inferior o igual a 1.33 decitex (1.2 deniers) por filamento, de la fracción 5402.41.01; hilados de filamento de nailon rígidos de título igual a 44.4 decitex (40 deniers) y 34 filamentos de título igual a 1.30 decitex (1.17 deniers) por filamento, de la fracción 5402.41.02; hilados rígidos, de filamentos de poliéster (no texturados), de título inferior o igual a 1.66 decitex (1.5 deniers) por filamento, de la fracción 5402.47.99; hilados de filamentos de título igual a 75.48 decitex (68 deniers), teñidos en rígido brillante con 32 filamentos y torsión de 800 vueltas por metro, de la fracción 5402.62.01; hilados de filamentos rígidos brillante, de poliéster catiónico de título igual a 305 decitex (274.53 deniers), con 96 filamentos y torsión de 120 vueltas por metro en S, de la fracción 5402.62.99; fibra corta de poliéster de baja fusión (low melt), conformada por una fibra bicomponente de un centro de poliéster y una cubierta de copolímero de poliéster, con punto de fusión inferior a 180 grados centígrados, de la fracción 5503.20.99, para el Programa de Promoción Sectorial de la Industria Textil y de la Confección, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación conforme a los criterios establecidos por la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98020025,"Mercancías para el Programa de Promoción Sectorial de la Industria Alimentaria, cuando las empresas cuenten con la autorización a que se refiere la Regla 8ª de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-12-28,,Porcentual,01,Ex.,Ex.,,
+,98030001,"Partes y componentes para el ensamble de automóviles cuando se trate de empresas de la industria automotriz terminal que cuenten con autorización de depósito fiscal para ensamble y fabricación de vehículos conforme a la Ley Aduanera, siempre que se ajusten a los lineamientos que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,10,Ex.,,
+,98030002,"Partes y componentes para el ensamble de camiones, autobuses integrales y tracto-camiones cuando se trate de empresas de la industria automotriz terminal que cuenten con autorización de depósito fiscal para ensamble y fabricación de vehículos conforme a la Ley Aduanera, siempre que se ajusten a los lineamientos que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,10,Ex.,,
+,98040001,Menajes de casa.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98040099,Los demás.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98050001,"Dispositivos excluidores de tortugas marinas y sus partes, para redes de arrastre camaroneras.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
+,98060001,"Mercancías importadas por un organismo de certificación en cantidad no mayor a 3 unidades, o el número de muestras que determine la Norma Mexicana NMX-Z12 o, en su caso, el número de muestras determinado por la Norma Oficial Mexicana correspondiente, destinadas exclusivamente a obtener la certificación del cumplimiento de una Norma Oficial Mexicana.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
+,98060002,"Equipos anticontaminantes y sus partes, cuando las empresas se ajusten a los lineamientos establecidos por las Secretarías de Medio Ambiente y Recursos Naturales, y de Economía.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
+,98060003,"Maquinaria, equipo, instrumentos, materiales, animales, plantas y demás artículos para investigación o desarrollos tecnológicos, cuando los centros públicos de investigación, universidades públicas y privadas, instituciones de investigación científica y tecnológica, personas físicas y morales, inscritos en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas, se sujeten a los lineamientos establecidos por la Secretaría de Economía y el Consejo Nacional de Ciencia y Tecnología.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98060004,"Equipos y artículos reconocibles como destinados exclusivamente a compensar una disfunción corporal de personas con discapacidad, excepto lo comprendido en las fracciones 8713.10.01 y 8713.90.99, y excepto los vehículos del Capítulo 87.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
+,98060005,Mercancías destinadas a la reparación o mantenimiento de naves aéreas o aeropartes.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98060006,"Mercancías para el ensamble o fabricación de aeronaves o aeropartes, cuando las empresas cuenten con la aprobación de producción de productos y artículos aeronáuticos, en cualquiera de sus tipos, emitida por la Secretaría de Comunicaciones y Transportes.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98060007,"Archivos (expedientes) conteniendo, entre otros, diagnósticos médicos, radiografías, fluorangiografías, resultados de laboratorio, electrocardiogramas.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
+,98060008,"Mercancías destinadas a procesos tales como reparación, reacondicionamiento o remanufactura, cuando las empresas cuenten con registro otorgado conforme a los lineamientos establecidos por la Secretaría de Economía.",2009-01-02,,Porcentual,01,Ex.,Ex.,,
+,98060009,"Insumos, materias primas, materiales auxiliares, envases y empaques que no estén sujetos al cumplimiento de regulaciones y restricciones no arancelarias en materia de sanidad animal y vegetal, salud pública, medio ambiente y seguridad nacional, que se destinen al régimen de recinto fiscalizado estratégico, por parte de las personas autorizadas para operar el régimen. Las mercancías objeto de almacenaje, consolidación de carga, así como las resultantes de los procesos de elaboración, transformación o reparación en el recinto fiscalizado estratégico, cuando se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir, en su caso, con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías, en los términos de las disposiciones que resulten aplicables.",2011-12-27,,Porcentual,01,Ex.,Ex.,,
+,98060010,"Maquinaria y equipo, que no estén sujetas al cumplimiento de regulaciones y restricciones  no arancelarias en materia de sanidad animal y vegetal, salud pública, medio ambiente y seguridad nacional, que se destinen al régimen de recinto fiscalizado estratégico, por parte de personas autorizadas para operar el régimen. \nCuando las mercancías se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir, en su caso, con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías, en los términos de las disposiciones que resulten aplicables.",2011-12-27,,Porcentual,01,Ex.,Ex.,,
+,98070001,"Mercancías producidas en territorio nacional que retornen en el mismo estado en que fueron exportadas o retornadas del territorio nacional, de conformidad con los lineamientos establecidos por la Secretaría de Economía.",2019-05-10,,Porcentual,01,Ex.,Ex.,,
+,99010001,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.,,
+,99010002,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,01,Ex.,Ex.,,
+,99010003,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,06,30,Ex.,,
+,99010004,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.,,
+,99010005,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,08,Ex.,Ex.,,
+,99010011,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.,,
+,99010012,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,08,20,Ex.,,
+,99010013,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.,,
+,99010014,Códigos arancelarios no catalogados en la tarifa,2009-08-07,,Porcentual,01,67,Ex.,,
+,99010015,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,122,Ex.,,
+,99010016,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,56,Ex.,,
+,99010017,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,09,20,Ex.,,
+,99010018,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,06,20,Ex.,,
+,99020001,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,01,Ex.,Ex.,,
+,99999999,Códigos arancelarios no catalogados en la tarifa,2011-01-01,,Porcentual,01,Ex.,Ex.,,

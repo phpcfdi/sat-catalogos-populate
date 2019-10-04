@@ -11,6 +11,7 @@ use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\FraccionesArancelarias;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\IgnoreColumns;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -38,7 +39,7 @@ class FraccionesArancelariasTest extends TestCase
 
     public function testCheckHeadersOnValidSource(): void
     {
-        $csv = new CsvFile($this->sourceFile, new RightTrim());
+        $csv = new CsvFile($this->sourceFile, new IgnoreColumns(new RightTrim(), 0));
         $this->injector->checkHeaders($csv);
 
         $this->assertSame(6, $csv->position(), 'The csv position is on the first content line');
