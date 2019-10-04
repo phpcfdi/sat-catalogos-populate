@@ -3,19 +3,13 @@
 ```shell script
 # the docker is inside the project
 git clone https://github.com/phpcfdi/sat-catalogos-populate.git
-cd sat-catalogos-populate/docker
+cd sat-catalogos-populate
 
 # build base image (Debian, libreoffice-calc, xlsx2csv, composer, php)
-docker build --tag sat-catalogos-populate-base sat-catalogos-populate-base/
+docker build --tag sat-catalogos-populate-base docker/sat-catalogos-populate-base/
 
 # build project using defaults (master branch)
-docker build --tag sat-catalogos-populate ./
-
-# build project using arguments
-docker build \
-  --build-arg GIT_REPO=https://github.com/username/sat-catalogos-populate.git \
-  --build-arg GIT_BRANCH=feature-x \
-  --tag sat-catalogos-populate:test-feature-x ./
+docker build --tag sat-catalogos-populate docker/
 ```
 
 ## Image arguments
@@ -29,11 +23,17 @@ The following can be overriden at docker build with `--build-arg ARG=value`
 
 Tip: use a proper name to identify your docker image using `--tag sat-catalogos-populate:my-build-tag`
 
+```shell script
+# build project using arguments
+docker build \
+  --build-arg GIT_REPO=https://github.com/username/sat-catalogos-populate.git \
+  --build-arg GIT_BRANCH=feature-x \
+  --tag sat-catalogos-populate:test-feature-x docker/
+```
+
 ## Hack an existing base image
 
 ```shell script
-# working dir is root project (where composer.json is)
-
 # create a temporary container from image
 docker run -it --name=sat-catalogos-populate-temporary \
   --volume="$PWD":/tmp/project \
@@ -47,7 +47,7 @@ cd /opt/sat-catalogos-populate
 rm -rf .git build .idea
 exit
 
-# update image from container 
+# update image from container
 docker commit sat-catalogos-populate-temporary sat-catalogos-populate-base
 
 # cleanup
@@ -63,7 +63,8 @@ You can run any file from `/opt/sat-catalogos-populate/bin/` as they are marked 
 Anyhow, if you don't specify any it will run `/opt/sat-catalogos-populate/bin/unattented-update`.
 
 ```shell script
-docker run -it --rm --volume="${PWD}/database-catalogs:/data" sat-catalogos-populate /data
+docker run -it --rm --volume="${PWD}/catalogs:/catalogs" sat-catalogos-populate \
+    /opt/sat-catalogos-populate/bin/unattented-update /catalogs
 ```
 
 ## Cleanup
