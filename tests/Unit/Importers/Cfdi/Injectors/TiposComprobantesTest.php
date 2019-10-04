@@ -10,6 +10,8 @@ use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposComprobantes;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\IgnoreColumns;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
 
@@ -36,7 +38,7 @@ class TiposComprobantesTest extends TestCase
 
     public function testCheckHeadersOnValidSource(): void
     {
-        $csv = new CsvFile($this->sourceFile);
+        $csv = new CsvFile($this->sourceFile, new IgnoreColumns(new RightTrim(), 3));
         $this->injector->checkHeaders($csv);
 
         $this->assertSame(4, $csv->position(), 'The csv position is on the first content line');
@@ -59,7 +61,6 @@ class TiposComprobantesTest extends TestCase
             'id' => TextDataField::class,
             'texto' => TextDataField::class,
             'valor_maximo' => TextDataField::class,
-            'dummy' => TextDataField::class,
             'vigencia_desde' => DateDataField::class,
             'vigencia_hasta' => DateDataField::class,
         ];

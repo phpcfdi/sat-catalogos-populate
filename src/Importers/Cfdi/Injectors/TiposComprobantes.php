@@ -10,11 +10,18 @@ use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\IgnoreColumns;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
 
 class TiposComprobantes extends AbstractCsvInjector implements InjectorInterface
 {
+    protected function createCsvFileReader(): CsvFile
+    {
+        return new CsvFile($this->sourceFile(), new IgnoreColumns(new RightTrim(), 3));
+    }
+
     public function checkHeaders(CsvFile $csv): void
     {
         $csv->move(3);
@@ -22,7 +29,6 @@ class TiposComprobantes extends AbstractCsvInjector implements InjectorInterface
             'c_TipoDeComprobante',
             'Descripción',
             'Valor máximo',
-            '',
             'Fecha inicio de vigencia',
             'Fecha fin de vigencia',
         ];
@@ -41,7 +47,6 @@ class TiposComprobantes extends AbstractCsvInjector implements InjectorInterface
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('valor_maximo'),
-            new TextDataField('dummy'),
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),
         ]));
