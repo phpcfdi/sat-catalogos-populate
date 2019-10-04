@@ -6,6 +6,7 @@ RUN set -e \
     && apt-get dist-upgrade -y \
     && apt-get install -y \
         git \
+        openjdk-11-jre-headless \
         libreoffice-calc \
         libreoffice-java-common \
         xlsx2csv \
