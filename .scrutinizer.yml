@@ -11,4 +11,5 @@ build:
           - php-scrutinizer-run --enable-security-analysis
 
 tools:
-  external_code_coverage: true
+  external_code_coverage:
+    timeout: 600 # default is 300 seconds, travis build can take more than that
