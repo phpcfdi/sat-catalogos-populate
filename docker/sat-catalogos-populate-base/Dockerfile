@@ -10,6 +10,7 @@ RUN set -e \
         libreoffice-calc \
         libreoffice-java-common \
         xlsx2csv \
+        sqlite3 \
         composer \
         php-cli \
         php-zip \
