@@ -9,6 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Database\BoolDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\NumberFormatDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
@@ -54,8 +55,8 @@ class ReglasTasaCuota extends AbstractCsvInjector implements InjectorInterface
             'cfdi_reglas_tasa_cuota',
             new DataFields([
                 new TextDataField('tipo'),
-                new TextDataField('minimo'),
-                new TextDataField('valor'),
+                new NumberFormatDataField('minimo', 6),
+                new NumberFormatDataField('valor', 6),
                 new TextDataField('impuesto'),
                 new TextDataField('factor'),
                 new BoolDataField('traslado', ['Sí']),

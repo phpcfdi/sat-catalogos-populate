@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Cfdi\Injectors;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\BoolDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\NumberFormatDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ReglasTasaCuota;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
@@ -59,8 +60,8 @@ class ReglasTasaCuotaTest extends TestCase
         $this->assertSame('cfdi_reglas_tasa_cuota', $dataTable->name());
         $expectedClasses = [
             'tipo' => TextDataField::class,
-            'minimo' => TextDataField::class,
-            'valor' => TextDataField::class,
+            'minimo' => NumberFormatDataField::class,
+            'valor' => NumberFormatDataField::class,
             'impuesto' => TextDataField::class,
             'factor' => TextDataField::class,
             'traslado' => BoolDataField::class,
@@ -73,6 +74,36 @@ class ReglasTasaCuotaTest extends TestCase
             $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
         }
         $this->assertSame([], $dataTable->primaryKey());
+    }
+
+    /**
+     * @param string $value
+     * @param string $expected
+     * @testWith ["0", "0.000000"]
+     *           ["1.234", "1.234000"]
+     *           ["", ""]
+     */
+    public function testTransformMinimo(string $value, string $expected): void
+    {
+        $dataTable = $this->injector->dataTable();
+        $input = [1 => $value];
+        $transform = $dataTable->fields()->transform($input);
+        $this->assertSame($expected, $transform['minimo']);
+    }
+
+    /**
+     * @param string $value
+     * @param string $expected
+     * @testWith ["0", "0.000000"]
+     *           ["1.234", "1.234000"]
+     *           ["", ""]
+     */
+    public function testTransformValor(string $value, string $expected): void
+    {
+        $dataTable = $this->injector->dataTable();
+        $input = [2 => $value];
+        $transform = $dataTable->fields()->transform($input);
+        $this->assertSame($expected, $transform['valor']);
     }
 
     /**
