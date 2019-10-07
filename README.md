@@ -49,7 +49,7 @@ php bin/sat-catalogos-update update-database catalogs/ catalogs/catalogos.sqlite
 
 ## PHP Support
 
-This tool is compatible with PHP versions 7.3 and above.
+This tool is compatible with last [PHP supported version](https://www.php.net/supported-versions.php).
 Please, try to use the full potential of the language.
 
 ## Contributing
