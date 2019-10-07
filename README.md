@@ -72,7 +72,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [build]: https://travis-ci.org/phpcfdi/sat-catalogos-populate?branch=master
 [quality]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/
 [coverage]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/code-structure/master/code-coverage/src
-[download]: https://github.com/phpcfdi/sat-catalogos-populate
+[downloads]: https://github.com/phpcfdi/sat-catalogos-populate
 
 [badge-source]: http://img.shields.io/badge/source-phpcfdi/sat--catalogos--populate-blue?style=flat-square
 [badge-release]: https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate?style=flat-square
