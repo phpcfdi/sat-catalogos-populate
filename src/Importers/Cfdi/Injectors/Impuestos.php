@@ -41,8 +41,8 @@ class Impuestos extends AbstractCsvInjector implements InjectorInterface
         return new DataTable('cfdi_impuestos', new DataFields([
             new PaddingDataField('id', '0', 3),
             new TextDataField('texto'),
-            new BoolDataField('retencion', ['Sí']),
-            new BoolDataField('traslado', ['Sí']),
+            new BoolDataField('retencion', ['Si']),
+            new BoolDataField('traslado', ['Si']),
             new TextDataField('ambito'),
             new TextDataField('entidad'),
         ]));

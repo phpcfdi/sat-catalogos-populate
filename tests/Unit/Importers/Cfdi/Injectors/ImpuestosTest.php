@@ -89,7 +89,7 @@ class ImpuestosTest extends TestCase
     /**
      * @param string $value
      * @param bool $expected
-     * @testWith ["Sí", true]
+     * @testWith ["Si", true]
      *           ["No", false]
      *           ["", false]
      */
@@ -104,7 +104,7 @@ class ImpuestosTest extends TestCase
     /**
      * @param string $value
      * @param bool $expected
-     * @testWith ["Sí", true]
+     * @testWith ["Si", true]
      *           ["No", false]
      *           ["", false]
      */
