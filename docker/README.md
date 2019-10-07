@@ -1,9 +1,11 @@
 # phpcfdi/sat-catalogos-populate dockerfile helper
 
 ```shell script
-# the docker is inside the project
-git clone https://github.com/phpcfdi/sat-catalogos-populate.git
-cd sat-catalogos-populate
+# get the repository and use only the docker sub directory
+git clone https://github.com/phpcfdi/sat-catalogos-populate.git docker
+cd docker
+git filter-branch --subdirectory-filter docker
+cd ..
 
 # build base image (Debian, libreoffice-calc, xlsx2csv, composer, php)
 docker build --tag sat-catalogos-populate-base docker/sat-catalogos-populate-base/
