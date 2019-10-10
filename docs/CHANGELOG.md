@@ -1,5 +1,10 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 1.0.3 2019-10-09
+
+- When creating a group of data from several sheets allow `space` at the end, like `c_CodigoPostal_Parte_2·`.
+  Thank you SAT, you can always break your own rules.
+
 ## Version 1.0.2 2019-10-07
 
 - cfdi_reglas_tasa_cuota was not writting with 6 decimals `minimo` & `valor`
