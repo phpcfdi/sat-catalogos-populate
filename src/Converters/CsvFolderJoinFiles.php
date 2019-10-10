@@ -50,9 +50,9 @@ class CsvFolderJoinFiles
                 function ($path): array {
                     $file = basename($path);
                     $matches = [];
-                    if (! (bool) preg_match('/^(.+)_Parte_([0-9]+)\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^(.+) \(Parte ([0-9]+)\)\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^(.+)_([0-9]+)\.csv$/', $file, $matches)
+                    if (! (bool) preg_match('/^(.+)_Parte_([0-9]+) *\.csv$/', $file, $matches)
+                        && ! (bool) preg_match('/^(.+) \(Parte ([0-9]+)\) *\.csv$/', $file, $matches)
+                        && ! (bool) preg_match('/^(.+)_([0-9]+) *\.csv$/', $file, $matches)
                     ) {
                         return [];
                     }
