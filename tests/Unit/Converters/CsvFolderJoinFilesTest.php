@@ -27,6 +27,11 @@ class CsvFolderJoinFilesTest extends TestCase
             $csvFolder . '/Only_One_File.csv' => [
                 $csvFolder . '/Only_One_File_1.csv',
             ],
+            $csvFolder . '/Untrimmed.csv' => [
+                $csvFolder . '/Untrimmed_1 .csv',
+                $csvFolder . '/ Untrimmed_2.csv',
+                $csvFolder . '/ Untrimmed_3 .csv',
+            ],
             $csvFolder . '/Xee.csv' => [
                 $csvFolder . '/Xee_1.csv',
                 $csvFolder . '/Xee_2.csv',

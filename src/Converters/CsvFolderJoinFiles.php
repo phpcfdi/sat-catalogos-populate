@@ -50,14 +50,14 @@ class CsvFolderJoinFiles
                 function ($path): array {
                     $file = basename($path);
                     $matches = [];
-                    if (! (bool) preg_match('/^(.+)_Parte_([0-9]+) *\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^(.+) \(Parte ([0-9]+)\) *\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^(.+)_([0-9]+) *\.csv$/', $file, $matches)
+                    if (! (bool) preg_match('/^[ ]*(.+)_Parte_([0-9]+)[ ]*\.csv$/', $file, $matches)
+                        && ! (bool) preg_match('/^[ ]*(.+) \(Parte ([0-9]+)\)[ ]*\.csv$/', $file, $matches)
+                        && ! (bool) preg_match('/^[ ]*(.+)_([0-9]+)[ ]*\.csv$/', $file, $matches)
                     ) {
                         return [];
                     }
                     return [
-                        'destination' => dirname($path) . '/' . $matches[1] . '.csv',
+                        'destination' => dirname($path) . '/' . trim($matches[1]) . '.csv',
                         'index' => (int) $matches[2],
                         'source' => $path,
                     ];
@@ -72,9 +72,7 @@ class CsvFolderJoinFiles
 
         $destinations = [];
         foreach ($files as $file) {
-            $destination = strval($file['destination']);
-            unset($file['destination']);
-            $destinations[$destination][] = strval($file['source']);
+            $destinations[strval($file['destination'])][] = strval($file['source']);
         }
 
         return $destinations;
