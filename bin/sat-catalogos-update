@@ -9,7 +9,6 @@ require __DIR__ . '/../vendor/autoload.php';
 
 // bootstrap
 error_reporting(-1);
-date_default_timezone_set('America/Mexico_City');
 
 // execution
 exit(call_user_func(function (string ...$arguments): int {

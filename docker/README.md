@@ -64,8 +64,11 @@ You can run any file from `/opt/sat-catalogos-populate/bin/` as they are marked 
 
 Anyhow, if you don't specify any it will run `/opt/sat-catalogos-populate/bin/unattented-update`.
 
+The scripts run using configured timezone, include the `TZ` environment variable with `America/Mexico_City`
+to produce the expected results. 
+
 ```shell script
-docker run -it --rm --volume="${PWD}/catalogs:/catalogs" sat-catalogos-populate \
+docker run -it --rm -e TZ=America/Mexico_City --volume="${PWD}/catalogs:/catalogs" sat-catalogos-populate \
     /opt/sat-catalogos-populate/bin/unattented-update /catalogs
 ```
 

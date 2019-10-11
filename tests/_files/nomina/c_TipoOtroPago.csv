@@ -1,6 +1,6 @@
-Catálogo de otro tipo de pago.,
-Versión,Revisión
-2,0
+Catálogo de otro tipo de pago.,,,
+Versión,Revisión,,
+2.0,0,,
  c_TipoOtroPago,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
 1,Reintegro de ISR pagado en exceso (siempre que no haya sido enterado al SAT).,2017-01-01,
 2,Subsidio para el empleo (efectivamente entregado al trabajador).,2017-01-01,

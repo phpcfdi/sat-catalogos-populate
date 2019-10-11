@@ -25,8 +25,8 @@ class CodigosPostales extends AbstractCsvInjector
                 'c_Municipio',
                 'c_Localidad',
                 'Estímulo Franja Fronteriza',
-                'Fecha inicio de vigencia del estímulo',
-                'Fecha fin de vigencia del estímulo',
+                'Fecha inicio de vigencia',
+                'Fecha fin de vigencia',
                 'Referencias del Huso Horario',
             ],
             [
@@ -50,8 +50,12 @@ class CodigosPostales extends AbstractCsvInjector
         ];
         foreach ($expectedLines as $line => $expected) {
             $line = $line + 1;
-            $headers = $csv->readLine();
+            $headers = array_map('trim', $csv->readLine());
             if ($expected !== $headers) {
+                print_r([
+                    array_diff($expected, $headers),
+                    array_diff($headers, $expected),
+                ]);
                 throw new RuntimeException("The headers did not match on file {$this->sourceFile()} line {$line}");
             }
             $csv->next();
@@ -66,8 +70,8 @@ class CodigosPostales extends AbstractCsvInjector
             new TextDataField('municipio'),
             new TextDataField('localidad'),
             new BoolDataField('estimulo_frontera', ['1']),
-            new DateDataField('estimulo_vigencia_desde'),
-            new DateDataField('estimulo_vigencia_hasta'),
+            new DateDataField('vigencia_desde'),
+            new DateDataField('vigencia_hasta'),
             new TextDataField('huso_descripcion'),
             new TextDataField('huso_verano_mes_inicio'),
             new TextDataField('huso_verano_dia_inicio'),

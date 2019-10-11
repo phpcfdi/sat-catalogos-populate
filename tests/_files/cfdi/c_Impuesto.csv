@@ -1,6 +1,6 @@
-Catálogo de impuestos.,,
-Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
-2017-01-01,,1,0
+Catálogo de impuestos.,,,,,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,
+2017-01-01,,1.0,0,,
 c_Impuesto,Descripción,Retención,Traslado,Local o federal,Entidad en la que aplica
 1,ISR,Si,No,Federal,
 2,IVA,Si,Si,Federal,

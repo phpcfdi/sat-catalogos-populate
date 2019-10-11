@@ -1,7 +1,7 @@
 Catálogo del tipo de origen recurso.,,,,,
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,
-2017-01-01,,1,0,,
-c_OrigenRecurso,Descripción
-IP,Ingresos propios.
-IF,Ingreso federales.
-IM,Ingresos mixtos.
+2017-01-01,,1.0,0,,
+c_OrigenRecurso,Descripción,,,,
+IP,Ingresos propios.,,,,
+IF,Ingreso federales.,,,,
+IM,Ingresos mixtos.,,,,

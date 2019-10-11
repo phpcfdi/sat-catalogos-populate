@@ -50,14 +50,14 @@ class CsvFolderJoinFiles
                 function ($path): array {
                     $file = basename($path);
                     $matches = [];
-                    if (! (bool) preg_match('/^(.+)_Parte_([0-9]+) *\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^(.+) \(Parte ([0-9]+)\) *\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^(.+)_([0-9]+) *\.csv$/', $file, $matches)
+                    if (! (bool) preg_match('/^[ ]*(.+)_Parte_([0-9]+)[ ]*\.csv$/', $file, $matches)
+                        && ! (bool) preg_match('/^[ ]*(.+) \(Parte ([0-9]+)\)[ ]*\.csv$/', $file, $matches)
+                        && ! (bool) preg_match('/^[ ]*(.+)_([0-9]+)[ ]*\.csv$/', $file, $matches)
                     ) {
                         return [];
                     }
                     return [
-                        'destination' => dirname($path) . '/' . $matches[1] . '.csv',
+                        'destination' => dirname($path) . '/' . trim($matches[1]) . '.csv',
                         'index' => (int) $matches[2],
                         'source' => $path,
                     ];
@@ -72,9 +72,7 @@ class CsvFolderJoinFiles
 
         $destinations = [];
         foreach ($files as $file) {
-            $destination = strval($file['destination']);
-            unset($file['destination']);
-            $destinations[$destination][] = strval($file['source']);
+            $destinations[strval($file['destination'])][] = strval($file['source']);
         }
 
         return $destinations;
@@ -109,11 +107,21 @@ class CsvFolderJoinFiles
         if (! $first->valid() || ! $second->valid()) {
             return false;
         }
-        $firstValue = $first->current();
-        $secondValue = $second->current();
-        $firstValue = (is_string($firstValue)) ? trim($firstValue) : $firstValue;
-        $secondValue = (is_string($secondValue)) ? trim($secondValue) : $secondValue;
+        $firstValue = $this->splCurrentLinesAreEqualNormalizeValue($first->current());
+        $secondValue = $this->splCurrentLinesAreEqualNormalizeValue($second->current());
         return ($firstValue === $secondValue);
+    }
+
+    /**
+     * @param string|mixed $current
+     * @return string|mixed
+     */
+    private function splCurrentLinesAreEqualNormalizeValue($current)
+    {
+        if (! is_string($current)) {
+            return $current;
+        }
+        return trim(implode(',', array_map('trim', explode(',', rtrim($current, ',')))));
     }
 
     /**

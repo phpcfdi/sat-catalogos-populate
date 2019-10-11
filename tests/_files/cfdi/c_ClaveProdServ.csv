@@ -72,132 +72,78 @@ c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Comp
 10121604,Alimento avícola,Opcional,Opcional,,2019-01-07,,1,
 10121700,Alimento para peces,Opcional,Opcional,,2019-01-07,,1,
 10121701,Salmuera fresca o congelada,Opcional,Opcional,,2019-01-07,,1,
-10121702,Alimento granulado para peces,Opcional,Opcional,,2019-01-07,,1,
-10121703,Alimento en hojuelas para peces,Opcional,Opcional,,2019-01-07,,1,
-10121800,Alimento para perros y gatos,Opcional,Opcional,,2019-01-07,,1,
-10121801,Comida seca para perros,Opcional,Opcional,,2019-01-07,,1,
-10121802,Comida húmeda para perros,Opcional,Opcional,,2019-01-07,,1,
-10121803,Leche para perros o gatos,Opcional,Opcional,,2019-01-07,,1,
-10121804,Comida seca para gatos,Opcional,Opcional,,2019-01-07,,1,
-10121805,Comida húmeda para gatos,Opcional,Opcional,,2019-01-07,,1,
-10121806,Botanas o comida recreacional para gatos o perros,Opcional,Opcional,,2019-01-07,,1,
-10121900,Alimento para roedores,Opcional,Opcional,,2019-01-07,,1,
-10121901,Comida granulada para roedores,Opcional,Opcional,,2019-01-07,,1,
-10122000,Alimento para reptiles,Opcional,Opcional,,2019-01-07,,1,
-10122001,Comida granulada para reptiles,Opcional,Opcional,,2019-01-07,,1,
-10122002,Comida húmeda para reptiles,Opcional,Opcional,,2019-01-07,,1,
-10122003,Comida viva para reptiles,Opcional,Opcional,,2019-01-07,,1,
-10122100,Comida para animales variados,Opcional,Opcional,,2019-01-07,,1,Comida para diversos animales
-10122101,Comida para cerdos,Opcional,Opcional,,2019-01-07,,1,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones"
-10122102,Comida para visones,Opcional,Opcional,,2019-01-07,,1,
-10122103,Comida para monos,Opcional,Opcional,,2019-01-07,,1,
-10122104,Comida para conejos,Opcional,Opcional,,2019-01-07,,1,
-10131500,Cobertizos para animales,Opcional,Opcional,,2019-01-07,,1,
-10131506,Establos para ganado,Opcional,Opcional,,2019-01-07,,1,
-10131507,Casas para mascotas domesticadas,Opcional,Opcional,,2019-01-07,,1,
-10131508,Camas para mascotas,Opcional,Opcional,,2019-01-07,,1,
-10131600,Recipientes para animales,Opcional,Opcional,,2019-01-07,,1,Contenedores de comida para animales
-10131601,Jaulas o sus accesorios,Opcional,Opcional,,2019-01-07,,1,
-10131602,Perreras,Opcional,Opcional,,2019-01-07,,1,
-10131603,Equipaje para el transporte de animales,Opcional,Opcional,,2019-01-07,,1,
-10131604,Correas para perros,Opcional,Opcional,,2019-01-07,,1,
-10131700,Hábitat para animales,Opcional,Opcional,,2019-01-07,,1,Ambientes para animales
-10131701,Terrarios,Opcional,Opcional,,2019-01-07,,1,
-10131702,Acuarios,Opcional,Opcional,,2019-01-07,,1,
-10141500,Talabartería,Opcional,Opcional,,2019-01-07,,1,Guarniciones para caballerías
-10141501,Sillas de montar,Opcional,Opcional,,2019-01-07,,1,
-10141502,Fustas y látigos,Opcional,Opcional,,2019-01-07,,1,
-10141503,Herraduras para caballo,Opcional,Opcional,,2019-01-07,,1,
-10141504,Herraduras para mula,Opcional,Opcional,,2019-01-07,,1,
-10141505,Sillín o pelero,Opcional,Opcional,,2019-01-07,,1,
-10141600,Arneses,Opcional,Opcional,,2019-01-07,,1,
-10141601,Bridas,Opcional,Opcional,,2019-01-07,,1,Correas para caballos
-10141602,Yugos,Opcional,Opcional,,2019-01-07,,1,
-10141603,Bocados para caballos,Opcional,Opcional,,2019-01-07,,1,Embocaduras para caballo
-10141604,Riendas,Opcional,Opcional,,2019-01-07,,1,Correas
-10141605,Estribos,Opcional,Opcional,,2019-01-07,,1,
-10141606,Correas o traíllas,Opcional,Opcional,,2019-01-07,,1,
-10141607,Arneses de cuello para animales,Opcional,Opcional,,2019-01-07,,1,
-10141608,Arneses o sus accesorios,Opcional,Opcional,,2019-01-07,,1,
-10141609,Sujetadores,Opcional,Opcional,,2019-01-07,,1,
-10141610,Bozales,Opcional,Opcional,,2019-01-07,,1,
-10141611,Soportes para correas,Opcional,Opcional,,2019-01-07,,1,
-10151500,Semillas y plántulas vegetales,Opcional,Opcional,,2019-01-07,,1,Semillas y vástagos vegetales
-10151501,Semillas o plántulas de fríjol,Opcional,Opcional,,2019-01-07,,1,"Semillas o vástago primario de fríjol, Semillas o vástago primario de fríjol blanco, Semillas o vástago primario de fríjol negro, Semillas o vástago primario de fríjol rojo adzuki"
-10151502,Semillas o plántulas de zanahoria,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de zanahoria
-10151503,Semillas o plántulas de apio,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de apio
-10151504,Semillas o plántulas de chiles,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de chiles
-10151505,Semillas o plántulas de calabacín,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de calabacín
-10151506,Semillas o plántulas de alverja,Opcional,Opcional,,2019-01-07,,1,"Semillas o vástago primario de chícharo, Semillas o vástago primario de guisante"
-10151507,Semillas o plántulas de pepino cohombro,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de pepino cohombro
-10151508,Semillas o plántulas de berenjena,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de berenjena
-10151509,Semillas o plántulas de endivias,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de endivias
-10151510,Semillas o plántulas de ajo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de ajo
-10151511,Semillas o plántulas de puerro,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de puerro
-10151512,Semillas o plántulas de lechuga,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de lechuga
-10151513,Semillas o plántulas de maíz,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de maíz
-10151514,Semillas o plántulas de melón,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de melón
-10151515,Semillas o plántulas cebolla,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de cebolla
-10151516,Semillas o plántulas de soya,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de soya
-10151517,Semillas o plántulas de espinaca,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de espinaca
-10151518,Semillas o plántulas de tomate,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de tomate
-10151519,Semillas o plántulas de nabo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de nabo
-10151520,Semillas o plántulas de acelga,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de acelga
-10151521,Semillas o plántulas de pimiento morrón,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de pimiento morrón
-10151522,Semillas o plántulas de remolacha,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de betabel
-10151523,Semillas o plántulas de coliflor,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de coliflor
-10151524,Semillas o plántulas de perejil,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de perejil
-10151525,Semillas o plántulas de brócoli,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de brócoli
-10151526,Semillas o plántulas de repollo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de col
-10151527,Semillas o plántulas de papa,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de patata
-10151528,Semillas o plántulas de batata,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de camote
-10151529,Semillas o plántulas de calabaza,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de calabaza
-10151530,Semillas o plántulas de rábano,Opcional,Opcional,,2019-01-07,,1,"Semillas o vástago primario de rabanito, Semillas o vástago primario de rábano"
-10151531,Semillas o plántulas de repollitos de bruselas,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de col de Bruselas
-10151532,Semillas o plántulas de ahuyama,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de calabaza de castilla
-10151533,Semillas o plántulas de okra,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de okra
-10151534,Semillas o plántulas de melón cantalupo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de melón cantalupo
-10151535,Semillas o plántulas de maní,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de cacahuate
-10151536,Semillas o plántulas de caigua,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de caigua
-10151537,Semillas o plántulas de espárrago,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de espárrago
-10151538,Semillas o plántulas de garbanzo,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de garbanzo
-10151539,Semillas o plántulas de haba,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago primario de haba
-10151600,Semillas de cereales,Opcional,Opcional,,2019-01-07,,1,
-10151601,Semillas de trigo,Opcional,Opcional,,2019-01-07,,1,
-10151602,Semillas de canola,Opcional,Opcional,,2019-01-07,,1,Semillas de colza
-10151603,Semillas de cebada,Opcional,Opcional,,2019-01-07,,1,
-10151604,Semillas de mijo,Opcional,Opcional,,2019-01-07,,1,
-10151605,Semillas de avena,Opcional,Opcional,,2019-01-07,,1,
-10151606,Semillas de ajonjolí,Opcional,Opcional,,2019-01-07,,1,Semillas de sésamo
-10151607,Semillas de linaza,Opcional,Opcional,,2019-01-07,,1,Semillas de lino
-10151608,Semillas de aceite de ricino,Opcional,Opcional,,2019-01-07,,1,Semillas de ricino
-10151609,Semillas de maíz,Opcional,Opcional,,2019-01-07,,1,
-10151610,Semillas de centeno,Opcional,Opcional,,2019-01-07,,1,
-10151611,Semillas de sorgo,Opcional,Opcional,,2019-01-07,,1,
-10151612,Semillas o plántulas de kiwicha,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos de amaranto
-10151613,Semillas o plántulas de quínoa,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos de quinua
-10151700,Semillas y plántulas de hierba y forraje,Opcional,Opcional,,2019-01-07,,1,Semillas y vástagos de hierba y forraje
-10151701,Semillas o plántulas de arroz,Opcional,Opcional,,2019-01-07,,1,
-10151702,Semillas o plántulas de trébol,Opcional,Opcional,,2019-01-07,,1,
-10151703,Semillas o plántulas de alfalfa,Opcional,Opcional,,2019-01-07,,1,
-10151704,Semillas o plántulas de pasto,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos para césped
-10151705,Semillas o plántulas de veza (gachas / guija),Opcional,Opcional,,2019-01-07,,1,
-10151706,Semillas o plántulas de guar,Opcional,Opcional,,2019-01-07,,1,
-10151800,Semillas y plántulas de especias,Opcional,Opcional,,2019-01-07,,1,Semillas y vástagos de especias
-10151801,Semillas o plántulas de pimienta,Opcional,Opcional,,2019-01-07,,1,
-10151802,Semillas o plántulas de vainilla,Opcional,Opcional,,2019-01-07,,1,
-10151803,Semillas o plántulas de canela,Opcional,Opcional,,2019-01-07,,1,
-10151804,Semillas o plántulas de clavo de olor,Opcional,Opcional,,2019-01-07,,1,
-10151805,Semillas o plántulas de cilantro,Opcional,Opcional,,2019-01-07,,1,
-10151806,Semillas o plántulas de jengibre,Opcional,Opcional,,2019-01-07,,1,
-10151807,Semillas o plántulas de azafrán,Opcional,Opcional,,2019-01-07,,1,
-10151808,Semillas o plántulas de tomillo,Opcional,Opcional,,2019-01-07,,1,
-10151809,Semillas o plántulas de curry,Opcional,Opcional,,2019-01-07,,1,Semillas o vástagos de curri
-10151810,Semillas o plántulas de mostaza,Opcional,Opcional,,2019-01-07,,1,
-10151811,Semillas o plántulas de ginseng,Opcional,Opcional,,2019-01-07,,1,
-10151812,Semillas o plántulas de champiñones,Opcional,Opcional,,2019-01-07,,1,
-10151813,Semillas o plántulas de sacha inchi,Opcional,Opcional,,2019-01-07,,1,
-10151814,Semillas o plántulas de achiote,Opcional,Opcional,,2019-01-07,,1,
-10151815,Semillas o plántulas de kudzu,Opcional,Opcional,,2019-01-07,,1,
-10151816,Semillas o plántulas de albahaca,Opcional,Opcional,,2019-01-07,,1,
-10151817,Semillas o plántulas de anís,Opcional,Opcional,,2019-01-07,,1,Semillas o vástago de badiana
+95122007,Sala o laboratorio de patología,Opcional,Opcional,,2019-01-07,,0,
+95122008,Sala de cateterismo,Opcional,Opcional,,2019-01-07,,0,
+95122100,Edificios y estructuras de acomodaciones,Opcional,Opcional,,2019-01-07,,0,
+95122101,Casa residencial,Opcional,Opcional,,2019-01-07,,0,
+95122102,Apartamento o piso,Opcional,Opcional,,2019-01-07,,0,
+95122103,Asilo de niños,Opcional,Opcional,,2019-01-07,,0,
+95122104,Guardería de niños,Opcional,Opcional,,2019-01-07,,0,
+95122105,Hogar de ancianos,Opcional,Opcional,,2019-01-07,,0,
+95122106,Hostal,Opcional,Opcional,,2019-01-07,,0,
+95122300,Edificios y estructuras de salud y deportivas,Opcional,Opcional,,2019-01-07,,0,
+95122301,Estadio,Opcional,Opcional,,2019-01-07,,0,
+95122302,Campo deportivo,Opcional,Opcional,,2019-01-07,,0,
+95122303,Pista de carreras,Opcional,Opcional,,2019-01-07,,0,
+95122304,Polideportivo,Opcional,Opcional,,2019-01-07,,0,
+95122305,Spa,Opcional,Opcional,,2019-01-07,,0,
+95122306,Gimnasio,Opcional,Opcional,,2019-01-07,,0,
+95122307,Piscina,Opcional,Opcional,,2019-01-07,,0,
+95122308,Instalación para deportes acuáticos,Opcional,Opcional,,2019-01-07,,0,
+95122400,Edificios y estructuras industriales,Opcional,Opcional,,2019-01-07,,0,
+95122401,Taller,Opcional,Opcional,,2019-01-07,,0,
+95122402,Instalación para conservación en cámaras frigoríficas,Opcional,Opcional,,2019-01-07,,0,
+95122403,Tienda de descuentos,Opcional,Opcional,,2019-01-07,,0,
+95122500,Edificios y estructuras agrícolas y de cultivos y pesca,Opcional,Opcional,,2019-01-07,,0,
+95122501,Granero,Opcional,Opcional,,2019-01-07,,0,
+95122502,Establo,Opcional,Opcional,,2019-01-07,,0,
+95122503,Canal de riego,Opcional,Opcional,,2019-01-07,,0,
+95122600,Edificios y estructuras religiosas,Opcional,Opcional,,2019-01-07,,0,
+95122700,Edificios y estructuras de defensa,Opcional,Opcional,,2019-01-07,,0,
+95131500,Tarimas y graderías,Opcional,Opcional,,2019-01-07,,1,
+95131501,Graderías plegables,Opcional,Opcional,,2019-01-07,,1,
+95131502,Graderías móviles,Opcional,Opcional,,2019-01-07,,1,
+95131503,Graderías portátiles,Opcional,Opcional,,2019-01-07,,1,
+95131600,Edificios y estructuras comerciales e industriales portátiles,Opcional,Opcional,,2019-01-07,,1,
+95131601,Taquillas portátiles,Opcional,Opcional,,2019-01-07,,1,
+95131602,Cuarto de baño portátil,Opcional,Opcional,,2019-01-07,,1,"Servicios en baños portátiles, Servicios en baños públicos"
+95131603,Oficina en el emplazamiento,Opcional,Opcional,,2019-01-07,,1,
+95131604,Unidad de cocina portátil,Opcional,Opcional,,2019-01-07,,1,
+95131605,Casa contenedor,Opcional,Opcional,,2019-01-07,,1,
+95131606,Cabina de ventas portátil,Opcional,Opcional,,2019-01-07,,1,
+95131700,Tiendas carpas y estructuras de membrana,Opcional,Opcional,,2019-01-07,,1,
+95131701,Estructura textil tipo armazón,Opcional,Opcional,,2019-01-07,,1,
+95131702,Carpa de poste o de tensión,Opcional,Opcional,,2019-01-07,,1,
+95141500,Edificios y estructuras prefabricados para fincas,Opcional,Opcional,,2019-01-07,,0,
+95141501,Silo,Opcional,Opcional,,2019-01-07,,0,Depósitos para granos
+95141502,Invernadero,Opcional,Opcional,,2019-01-07,,0,
+95141600,Edificios y estructuras prefabricados residenciales,Opcional,Opcional,,2019-01-07,,1,
+95141601,Casa,Opcional,Opcional,,2019-01-07,,0,
+95141602,Casa móvil,Opcional,Opcional,,2019-01-07,,1,
+95141603,Cabaña,Opcional,Opcional,,2019-01-07,,0,
+95141604,Garaje,Opcional,Opcional,,2019-01-07,,0,
+95141605,Gazebo,Opcional,Opcional,,2019-01-07,,1,"Kiosco, Pabellón"
+95141606,Cocina para casa,Opcional,Opcional,,2019-01-07,,1,
+95141700,Edificios y estructuras prefabricados comerciales e industriales,Opcional,Opcional,,2019-01-07,,0,
+95141701,Oficina en la planta,Opcional,Opcional,,2019-01-07,,0,
+95141702,Cabina de pintura,Opcional,Opcional,,2019-01-07,,0,
+95141703,Galpón de almacenaje,Opcional,Opcional,,2019-01-07,,0,Almacén
+95141704,Sala blanca,Opcional,Opcional,,2019-01-07,,0,
+95141705,Casa de guardias,Opcional,Opcional,,2019-01-07,,0,
+95141706,Bodega,Opcional,Opcional,,2019-01-07,,0,
+95141707,Auditorio,Opcional,Opcional,,2019-01-07,,0,
+95141708,Cocina para oficina,Opcional,Opcional,,2019-01-07,,1,
+95141709,Conservatorio,Opcional,Opcional,,2019-01-07,,0,
+95141710,Cabina telefónica,Opcional,Opcional,,2019-01-07,,1,
+95141711,Cabina de peaje,Opcional,Opcional,,2019-01-07,,1,
+95141800,Edificios y estructuras prefabricados de emergencia y alivio,Opcional,Opcional,,2019-01-07,,0,
+95141801,Albergue,Opcional,Opcional,,2019-01-07,,0,
+95141802,Carpa o salón de emergencia,Opcional,Opcional,,2019-01-07,,1,
+95141803,Unidad de contenedor,Opcional,Opcional,,2019-01-07,,1,
+95141900,Edificios y estructuras prefabricados médicos,Opcional,Opcional,,2019-01-07,,0,
+95141901,Unidad médica,Opcional,Opcional,,2019-01-07,,0,
+95141902,Unidad de laboratorio,Opcional,Opcional,,2019-01-07,,0,
+95141903,Unidad odontológica,Opcional,Opcional,,2019-01-07,,0,
+95141904,Unidades quirúrgicas,Opcional,Opcional,,2019-01-07,,0,
+01010101,No existe en el catálogo,Opcional,Opcional,,2019-01-07,,0,Público en general
+85121701,Servicios de psicoterapeutas,Opcional,Opcional,,2019-01-07,,1,Servicios de psicoterapia

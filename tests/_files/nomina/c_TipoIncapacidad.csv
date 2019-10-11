@@ -1,7 +1,7 @@
 Catálogo del tipo de incapacidad.,,,,,
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,
-2017-01-01,,1,0,,
-c_TipoIncapacidad,Descripción
-1,Riesgo de trabajo.
-2,Enfermedad en general.
-3,Maternidad.
+2017-01-01,,1.0,0,,
+c_TipoIncapacidad,Descripción,,,,
+1,Riesgo de trabajo.,,,,
+2,Enfermedad en general.,,,,
+3,Maternidad.,,,,

@@ -8,6 +8,7 @@ use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Aduanas;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
 
@@ -34,7 +35,7 @@ class AduanasTest extends TestCase
 
     public function testCheckHeadersOnValidSource(): void
     {
-        $csv = new CsvFile($this->sourceFile);
+        $csv = new CsvFile($this->sourceFile, new RightTrim());
         $this->injector->checkHeaders($csv);
 
         $this->assertSame(4, $csv->position(), 'The csv position is on the first content line');

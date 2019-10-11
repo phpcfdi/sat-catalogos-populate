@@ -1,6 +1,6 @@
-Catálogo de formas de pago.,,,,,,,
-Versión,Revisión,,,,,,
-1,0,,,,,,,,,,
+Catálogo de formas de pago.,,,,,,,,,,,,,
+Versión,Revisión,,,,,,,,,,,,
+1.0,0,,,,,,,,,,,,
 c_FormaPago,Descripción,Bancarizado,Número de operación,RFC del Emisor de la cuenta ordenante,Cuenta Ordenante,Patrón para cuenta ordenante,RFC del Emisor Cuenta de Beneficiario,Cuenta de Benenficiario,Patrón para cuenta Beneficiaria,Tipo Cadena Pago,Nombre del Banco emisor de la cuenta ordenante en caso de extranjero,Fecha inicio de vigencia,Fecha fin de vigencia
 1,Efectivo,No,Opcional,No,No,No,No,No,No,No,No,2017-01-01,
 2,Cheque nominativo,Sí,Opcional,Opcional,Opcional,[0-9]{11}|[0-9]{18},Opcional,Opcional,"[0-9]{10,11}|[0-9]{15,16}|[0-9]{18}|[A-Z0-9_]{10,50}",No,"Si el RFC del emisor de la cuenta ordenante es XEXX010101000, este campo es obligatorio.",2017-01-01,
