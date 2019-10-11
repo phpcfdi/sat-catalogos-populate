@@ -1,7 +1,7 @@
-Catálogo de régimen fiscal.,,,
-Versión,Revisión
-1,B
-,,Aplica para tipo persona,
+Catálogo de régimen fiscal.,,,,,
+Versión,Revisión,,,,
+1.0,B,,,,
+,,Aplica para tipo persona,,,
 c_RegimenFiscal,Descripción,Física,Moral,Fecha de inicio de vigencia,Fecha de fin de vigencia
 601,General de Ley Personas Morales,No,Sí,2016-11-12,
 603,Personas Morales con Fines no Lucrativos,No,Sí,2016-11-12,

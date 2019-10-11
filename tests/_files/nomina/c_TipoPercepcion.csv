@@ -1,6 +1,6 @@
 Catálogo de tipos de percepciones.,,,
-Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
-2017-01-01,,1.1,0
+Versión,Revisión,,
+2.0,0,,
 c_TipoPercepcion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
 1,"Sueldos, Salarios  Rayas y Jornales",2016-11-01,
 2,Gratificación Anual (Aguinaldo),2016-11-01,
@@ -43,3 +43,6 @@ c_TipoPercepcion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
 48,Habitación,2016-11-01,
 49,Premios por asistencia,2016-11-01,
 50,Viáticos,2017-01-06,
+51,"Pagos por gratificaciones, primas, compensaciones, recompensas u otros a extrabajadores derivados de jubilación en parcialidades",2018-10-15,
+52,Pagos que se realicen a extrabajadores que obtengan una jubilación en parcialidades derivados de la ejecución de resoluciones judicial o de un laudo,2018-10-15,
+53,Pagos que se realicen a extrabajadores que obtengan una jubilación en una sola exhibición derivados de la ejecución de resoluciones judicial o de un laudo,2018-10-15,

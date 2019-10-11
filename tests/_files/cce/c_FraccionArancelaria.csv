@@ -1,114 +1,83 @@
-,Catálogo de fracción arancelaria. ,,,,,,,,,
-,Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,,,,,
-,2017-01-01,,6.0,0,,,,,,
-,c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,Criterio,Unidad de Medida,IMPUESTO,,,
-,,,,,,,IMP,EXP,,
-,01011001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01011099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01012101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,10,Ex.,,
-,01012901,Para saltos o carreras.,2012-07-02,,Porcentual,07,20,Ex.,,
-,01012902,"Sin pedigree, para reproducción.",2012-07-02,,Porcentual,07,10,Ex.,,
-,01012903,"Para abasto, cuando la importación la realicen empacadoras Tipo Inspección Federal.",2012-07-02,,Porcentual,07,10,Ex.,,
-,01012999,Los demás.,2012-07-02,,Porcentual,07,20,Ex.,,
-,01013001,Asnos.,2012-07-02,,Porcentual,07,20,Ex.,,
-,01019001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01019002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01019003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01019099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01021001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01022101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.,,
-,01022901,Vacas lecheras.,2012-07-02,,Porcentual,07,Ex.,Ex.,,
-,01022902,"Con pedigree o certificado de alto registro, excepto lo comprendido en la fracción 0102.29.01.",2012-07-02,,Porcentual,07,Ex.,Ex.,,
-,01022999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.,,
-,01023101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.,,
-,01023999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.,,
-,01029001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01029002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01029003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01029099,Los demás.,2007-07-01,,Porcentual,07,15,Ex.,,
-,01031001,Reproductores de raza pura.,2007-07-01,,Porcentual,07,Ex.,Ex.,,
-,01039101,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.,,
-,01039102,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01039199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01039201,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.,,
-,01039202,"De peso superior a 110 kg, excepto lo comprendido en las fracciones 0103.92.01 y 0103.92.03.",2007-07-01,,Porcentual,07,20,Ex.,,
-,01039203,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01039299,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01041001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.,,
-,01041002,Para abasto.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01041099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01042001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.,,
-,01042002,Borrego cimarrón.,2012-07-02,,Porcentual,07,20,Ex.,,
-,01042099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01051101,Cuando no necesiten alimento durante su transporte.,2012-11-24,,Porcentual,07,Ex.,Ex.,,
-,01051102,"Aves progenitoras recién nacidas, con certificado de alto registro, cuando se importe un máximo de 18,000 cabezas por cada operación.",2007-07-01,,Porcentual,07,Ex.,Ex.,,
-,01051199,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01051201,Pavos (gallipavos).,2007-07-01,,Porcentual,07,10,Ex.,,
-,01051301,Patos.,2012-07-02,,Porcentual,07,10,Ex.,,
-,01051401,Gansos.,2012-07-02,,Porcentual,07,10,Ex.,,
-,01051501,Pintadas.,2012-07-02,,Porcentual,07,10,Ex.,,
-,01051999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A,,
-,01059401,Gallos de pelea.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01059499,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01059999,Los demás.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01061101,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus.,2007-07-01,,Porcentual,07,10,Ex.,,
-,01061199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.,,
-,01061201,"Ballenas, delfines y marsopas (mamíferos del orden Cetáceos); manatíes y dugones o dugongos (mamíferos del orden Sirenios); otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,07,20,Ex.,,
-,01061301,Camellos y los demás camélidos (Camelidae).,2012-07-02,,Porcentual,07,20,Ex.,,
-,98010001,Importaciones o exportaciones de muestras y muestrarios.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020001,"Mercancías para el Programa de Promoción Sectorial de la Industria Eléctrica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020002,"Mercancías para el Programa de Promoción Sectorial de la Industria Electrónica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020003,"Mercancías para el Programa de Promoción Sectorial de la Industria del Mueble, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020004,"Mercancías para el Programa de Promoción Sectorial de la Industria del Juguete, Juegos de Recreo y Artículos Deportivos, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020005,"Mercancías para el Programa de Promoción Sectorial de la Industria del Calzado, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020006,"Mercancías para el Programa de Promoción Sectorial de la Industria Minera y Metalúrgica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020007,"Mercancías para el Programa de Promoción Sectorial de la Industria Bienes de Capital, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020008,"Mercancías para el Programa de Promoción Sectorial de la Industria Fotográfica, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020009,"Mercancías para el Programa de Promoción Sectorial de la Industria de Maquinaria Agrícola, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020010,"Mercancías para el Programa de Promoción Sectorial de las Industrias Diversas, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020011,"Mercancías para el Programa de Promoción Sectorial de la Industria Química, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020012,"Mercancías para el Programa de Promoción Sectorial de la Industria de Manufacturas del Caucho y Plástico, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020013,"Mercancías para el Programa de Promoción Sectorial de la Industria Siderúrgica, cuando se trate de productores directos y las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020014,"Mercancías para el Programa de Promoción Sectorial de la Industria de Productos Farmoquímicos, Medicamentos y Equipo Médico, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020015,"Mercancías para el Programa de Promoción Sectorial de la Industria del Transporte, excepto el Sector de la Industria Automotriz y de Autopartes, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020016,"Mercancías para el Programa de Promoción Sectorial de la Industria del Papel y Cartón, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020017,"Mercancías para el Programa de Promoción Sectorial de la Industria de la Madera, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020018,"Mercancías para el Programa de Promoción Sectorial de la Industria del Cuero y Pieles, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020019,"Mercancías para el Programa de Promoción Sectorial de la Industria Automotriz y de Autopartes, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020020,"Mercancías para el Programa de Promoción Sectorial de la Industria Textil y de la Confección, excepto lo comprendido en la fracción 9802.00.24, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020021,"Mercancías para el Programa de Promoción Sectorial de la Industria de Chocolates, Dulces y Similares, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020022,"Mercancías para el Programa de Promoción Sectorial de la Industria del Café, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020023,"Mercancías para el Programa de Promoción Sectorial de la Industria Siderúrgica, cuando se trate de productores indirectos y las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,5,Ex.,,
-,98020024,"Hilados de filamento de nailon rígidos de título inferior o igual a 44.4 decitex (40 deniers) e inferior o igual a 1.33 decitex (1.2 deniers) por filamento, de la fracción 5402.41.01; hilados de filamento de nailon rígidos de título igual a 44.4 decitex (40 deniers) y 34 filamentos de título igual a 1.30 decitex (1.17 deniers) por filamento, de la fracción 5402.41.02; hilados rígidos, de filamentos de poliéster (no texturados), de título inferior o igual a 1.66 decitex (1.5 deniers) por filamento, de la fracción 5402.47.99; hilados de filamentos de título igual a 75.48 decitex (68 deniers), teñidos en rígido brillante con 32 filamentos y torsión de 800 vueltas por metro, de la fracción 5402.62.01; hilados de filamentos rígidos brillante, de poliéster catiónico de título igual a 305 decitex (274.53 deniers), con 96 filamentos y torsión de 120 vueltas por metro en S, de la fracción 5402.62.99; fibra corta de poliéster de baja fusión (low melt), conformada por una fibra bicomponente de un centro de poliéster y una cubierta de copolímero de poliéster, con punto de fusión inferior a 180 grados centígrados, de la fracción 5503.20.99, para el Programa de Promoción Sectorial de la Industria Textil y de la Confección, cuando las empresas cuenten con la autorización a que se refiere la Regla 8a de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación conforme a los criterios establecidos por la Secretaría de Economía.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98020025,"Mercancías para el Programa de Promoción Sectorial de la Industria Alimentaria, cuando las empresas cuenten con la autorización a que se refiere la Regla 8ª de las Complementarias, para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación, conforme a los criterios que establezca la Secretaría de Economía.",2007-12-28,,Porcentual,01,Ex.,Ex.,,
-,98030001,"Partes y componentes para el ensamble de automóviles cuando se trate de empresas de la industria automotriz terminal que cuenten con autorización de depósito fiscal para ensamble y fabricación de vehículos conforme a la Ley Aduanera, siempre que se ajusten a los lineamientos que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,10,Ex.,,
-,98030002,"Partes y componentes para el ensamble de camiones, autobuses integrales y tracto-camiones cuando se trate de empresas de la industria automotriz terminal que cuenten con autorización de depósito fiscal para ensamble y fabricación de vehículos conforme a la Ley Aduanera, siempre que se ajusten a los lineamientos que establezca la Secretaría de Economía.",2007-07-01,,Porcentual,01,10,Ex.,,
-,98040001,Menajes de casa.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98040099,Los demás.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98050001,"Dispositivos excluidores de tortugas marinas y sus partes, para redes de arrastre camaroneras.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
-,98060001,"Mercancías importadas por un organismo de certificación en cantidad no mayor a 3 unidades, o el número de muestras que determine la Norma Mexicana NMX-Z12 o, en su caso, el número de muestras determinado por la Norma Oficial Mexicana correspondiente, destinadas exclusivamente a obtener la certificación del cumplimiento de una Norma Oficial Mexicana.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
-,98060002,"Equipos anticontaminantes y sus partes, cuando las empresas se ajusten a los lineamientos establecidos por las Secretarías de Medio Ambiente y Recursos Naturales, y de Economía.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
-,98060003,"Maquinaria, equipo, instrumentos, materiales, animales, plantas y demás artículos para investigación o desarrollos tecnológicos, cuando los centros públicos de investigación, universidades públicas y privadas, instituciones de investigación científica y tecnológica, personas físicas y morales, inscritos en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas, se sujeten a los lineamientos establecidos por la Secretaría de Economía y el Consejo Nacional de Ciencia y Tecnología.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98060004,"Equipos y artículos reconocibles como destinados exclusivamente a compensar una disfunción corporal de personas con discapacidad, excepto lo comprendido en las fracciones 8713.10.01 y 8713.90.99, y excepto los vehículos del Capítulo 87.",2007-07-01,,Porcentual,06,Ex.,Ex.,,
-,98060005,Mercancías destinadas a la reparación o mantenimiento de naves aéreas o aeropartes.,2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98060006,"Mercancías para el ensamble o fabricación de aeronaves o aeropartes, cuando las empresas cuenten con la aprobación de producción de productos y artículos aeronáuticos, en cualquiera de sus tipos, emitida por la Secretaría de Comunicaciones y Transportes.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98060007,"Archivos (expedientes) conteniendo, entre otros, diagnósticos médicos, radiografías, fluorangiografías, resultados de laboratorio, electrocardiogramas.",2007-07-01,,Porcentual,01,Ex.,Ex.,,
-,98060008,"Mercancías destinadas a procesos tales como reparación, reacondicionamiento o remanufactura, cuando las empresas cuenten con registro otorgado conforme a los lineamientos establecidos por la Secretaría de Economía.",2009-01-02,,Porcentual,01,Ex.,Ex.,,
-,98060009,"Insumos, materias primas, materiales auxiliares, envases y empaques que no estén sujetos al cumplimiento de regulaciones y restricciones no arancelarias en materia de sanidad animal y vegetal, salud pública, medio ambiente y seguridad nacional, que se destinen al régimen de recinto fiscalizado estratégico, por parte de las personas autorizadas para operar el régimen. Las mercancías objeto de almacenaje, consolidación de carga, así como las resultantes de los procesos de elaboración, transformación o reparación en el recinto fiscalizado estratégico, cuando se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir, en su caso, con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías, en los términos de las disposiciones que resulten aplicables.",2011-12-27,,Porcentual,01,Ex.,Ex.,,
-,98060010,"Maquinaria y equipo, que no estén sujetas al cumplimiento de regulaciones y restricciones  no arancelarias en materia de sanidad animal y vegetal, salud pública, medio ambiente y seguridad nacional, que se destinen al régimen de recinto fiscalizado estratégico, por parte de personas autorizadas para operar el régimen. \nCuando las mercancías se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir, en su caso, con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías, en los términos de las disposiciones que resulten aplicables.",2011-12-27,,Porcentual,01,Ex.,Ex.,,
-,98070001,"Mercancías producidas en territorio nacional que retornen en el mismo estado en que fueron exportadas o retornadas del territorio nacional, de conformidad con los lineamientos establecidos por la Secretaría de Economía.",2019-05-10,,Porcentual,01,Ex.,Ex.,,
-,99010001,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.,,
-,99010002,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,01,Ex.,Ex.,,
-,99010003,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,06,30,Ex.,,
-,99010004,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.,,
-,99010005,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,08,Ex.,Ex.,,
-,99010011,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.,,
-,99010012,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,08,20,Ex.,,
-,99010013,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.,,
-,99010014,Códigos arancelarios no catalogados en la tarifa,2009-08-07,,Porcentual,01,67,Ex.,,
-,99010015,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,122,Ex.,,
-,99010016,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,56,Ex.,,
-,99010017,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,09,20,Ex.,,
-,99010018,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,06,20,Ex.,,
-,99020001,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,01,Ex.,Ex.,,
-,99999999,Códigos arancelarios no catalogados en la tarifa,2011-01-01,,Porcentual,01,Ex.,Ex.,,
+,Catálogo de fracción arancelaria. ,,,,,,,
+,Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,,,
+,2017-01-01,,6.0,0,,,,
+,c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,Criterio,Unidad de Medida,IMPUESTO,
+,,,,,,,IMP,EXP
+,01011001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01011099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01012101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,10,Ex.
+,01012901,Para saltos o carreras.,2012-07-02,,Porcentual,07,20,Ex.
+,01012902,"Sin pedigree, para reproducción.",2012-07-02,,Porcentual,07,10,Ex.
+,01012903,"Para abasto, cuando la importación la realicen empacadoras Tipo Inspección Federal.",2012-07-02,,Porcentual,07,10,Ex.
+,01012999,Los demás.,2012-07-02,,Porcentual,07,20,Ex.
+,01013001,Asnos.,2012-07-02,,Porcentual,07,20,Ex.
+,01019001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01019002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01019003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01019099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
+,01021001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01022101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.
+,01022901,Vacas lecheras.,2012-07-02,,Porcentual,07,Ex.,Ex.
+,01022902,"Con pedigree o certificado de alto registro, excepto lo comprendido en la fracción 0102.29.01.",2012-07-02,,Porcentual,07,Ex.,Ex.
+,01022999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.
+,01023101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.
+,01023999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.
+,01029001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01029002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01029003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01029099,Los demás.,2007-07-01,,Porcentual,07,15,Ex.
+,01031001,Reproductores de raza pura.,2007-07-01,,Porcentual,07,Ex.,Ex.
+,01039101,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.
+,01039102,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.
+,01039199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
+,01039201,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.
+,01039202,"De peso superior a 110 kg, excepto lo comprendido en las fracciones 0103.92.01 y 0103.92.03.",2007-07-01,,Porcentual,07,20,Ex.
+,01039203,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.
+,01039299,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
+,01041001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.
+,01041002,Para abasto.,2007-07-01,,Porcentual,07,10,Ex.
+,01041099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
+,01042001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.
+,01042002,Borrego cimarrón.,2012-07-02,,Porcentual,07,20,Ex.
+,01042099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
+,01051101,Cuando no necesiten alimento durante su transporte.,2012-11-24,,Porcentual,07,Ex.,Ex.
+,01051102,"Aves progenitoras recién nacidas, con certificado de alto registro, cuando se importe un máximo de 18,000 cabezas por cada operación.",2007-07-01,,Porcentual,07,Ex.,Ex.
+,01051199,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
+,01051201,Pavos (gallipavos).,2007-07-01,,Porcentual,07,10,Ex.
+,01051301,Patos.,2012-07-02,,Porcentual,07,10,Ex.
+,01051401,Gansos.,2012-07-02,,Porcentual,07,10,Ex.
+,01051501,Pintadas.,2012-07-02,,Porcentual,07,10,Ex.
+,01051999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01059401,Gallos de pelea.,2007-07-01,,Porcentual,07,20,Ex.
+,01059499,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
+,01059999,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
+,01061101,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus.,2007-07-01,,Porcentual,07,10,Ex.
+,01061199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
+,01061201,"Ballenas, delfines y marsopas (mamíferos del orden Cetáceos); manatíes y dugones o dugongos (mamíferos del orden Sirenios); otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,07,20,Ex.
+,01061301,Camellos y los demás camélidos (Camelidae).,2012-07-02,,Porcentual,07,20,Ex.
+,01061401,Conejos y liebres.,2012-07-02,,Porcentual,07,20,Ex.
+,01061901,"Berrendo, oso, lobo, castor, puma, jaguar, ocelote, margay, gato de monte o tapir.",2012-07-02,,Porcentual,07,20,Ex.
+,01061902,Venado rojo (Cervus elaphus); gamo (Dama dama).,2007-07-01,,Porcentual,07,Ex.,Ex.
+,01061903,Perros.,2007-07-01,,Porcentual,07,20,Ex.
+,01061904,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01061905,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
+,01061999,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
+,01062001,Víbora de cascabel.,2007-07-01,,Porcentual,07,20,Ex.
+,01062002,Tortugas terrestres.,2007-07-01,,Porcentual,07,20,Ex.
+,01062003,Tortugas de agua dulce o de mar.,2007-07-01,,Porcentual,07,20,Ex.
+,98070001,"Mercancías producidas en territorio nacional que retornen en el mismo estado en que fueron exportadas o retornadas del territorio nacional, de conformidad con los lineamientos establecidos por la Secretaría de Economía.",2019-05-10,,Porcentual,01,Ex.,Ex.
+,99010001,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.
+,99010002,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,01,Ex.,Ex.
+,99010003,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,06,30,Ex.
+,99010004,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.
+,99010005,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,08,Ex.,Ex.
+,99010011,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.
+,99010012,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,08,20,Ex.
+,99010013,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.
+,99010014,Códigos arancelarios no catalogados en la tarifa,2009-08-07,,Porcentual,01,67,Ex.
+,99010015,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,122,Ex.
+,99010016,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,56,Ex.
+,99010017,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,09,20,Ex.
+,99010018,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,06,20,Ex.
+,99020001,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,01,Ex.,Ex.
+,99999999,Códigos arancelarios no catalogados en la tarifa,2011-01-01,,Porcentual,01,Ex.,Ex.

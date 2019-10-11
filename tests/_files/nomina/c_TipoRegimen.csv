@@ -1,6 +1,6 @@
-Catálogo de tipos de régimen de contratación.,,,
-Versión,Revisión
-1,1
+Catálogo de tipos de régimen de contratación.,,,,,,,,
+Versión,Revisión,,,,,,,
+2.0,0,,,,,,,
 c_TipoRegimen,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,
 2,Sueldos,2017-01-01,,,,,,
 3,Jubilados,2017-01-01,,,,,,
@@ -13,4 +13,5 @@ c_TipoRegimen,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,
 10,Asimilados acciones,2017-01-01,,,,,,
 11,Asimilados otros,2017-01-01,,,,,,
 12,Jubilados o Pensionados,2017-03-27,,,,,,
+13,Indemnización o Separación,2018-10-15,,,,,,
 99,Otro Regimen,2017-01-01,,,,,,
