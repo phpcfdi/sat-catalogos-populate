@@ -107,11 +107,21 @@ class CsvFolderJoinFiles
         if (! $first->valid() || ! $second->valid()) {
             return false;
         }
-        $firstValue = $first->current();
-        $secondValue = $second->current();
-        $firstValue = (is_string($firstValue)) ? trim($firstValue) : $firstValue;
-        $secondValue = (is_string($secondValue)) ? trim($secondValue) : $secondValue;
+        $firstValue = $this->splCurrentLinesAreEqualNormalizeValue($first->current());
+        $secondValue = $this->splCurrentLinesAreEqualNormalizeValue($second->current());
         return ($firstValue === $secondValue);
+    }
+
+    /**
+     * @param string|mixed $current
+     * @return string|mixed
+     */
+    private function splCurrentLinesAreEqualNormalizeValue($current)
+    {
+        if (! is_string($current)) {
+            return $current;
+        }
+        return trim(implode(',', array_map('trim', explode(',', rtrim($current, ',')))));
     }
 
     /**
