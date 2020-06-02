@@ -10,7 +10,7 @@
 
 > Herramienta para crear y actualizar los catálogos de SAT/CFDI en una base de datos SQLite3
 
-This project is used to produce the SQLite database for [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos)
+Use this project to produce the SQLite database for [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos)
 but this database can also be used in any other project.
 
 ## Installation
@@ -32,10 +32,10 @@ You can use `composer` by adding this to your `composer.json` and run `composer 
 }
 ```
 
-It also require external software:
+It also requires external software:
 
 ```shell script
-apt-get install libreoffice-calc xlsx2csv 
+apt-get install libreoffice-calc xlsx2csv
 ```
 
 ## Basic usage
@@ -69,7 +69,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [source]: https://github.com/phpcfdi/sat-catalogos-populate
 [release]: https://github.com/phpcfdi/sat-catalogos-populate/releases
 [license]: https://github.com/phpcfdi/sat-catalogos-populate/blob/master/LICENSE
-[build]: https://travis-ci.org/phpcfdi/sat-catalogos-populate?branch=master
+[build]: https://travis-ci.com/phpcfdi/sat-catalogos-populate?branch=master
 [quality]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/
 [coverage]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/code-structure/master/code-coverage/src
 [downloads]: https://github.com/phpcfdi/sat-catalogos-populate
@@ -77,7 +77,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [badge-source]: https://img.shields.io/badge/source-phpcfdi/sat--catalogos--populate-blue?style=flat-square
 [badge-release]: https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-license]: https://img.shields.io/github/license/phpcfdi/sat-catalogos-populate?style=flat-square
-[badge-build]: https://img.shields.io/travis/phpcfdi/sat-catalogos-populate/master?style=flat-square
+[badge-build]: https://img.shields.io/travis/com/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-quality]: https://img.shields.io/scrutinizer/g/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-coverage]: https://img.shields.io/scrutinizer/coverage/g/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-downloads]: https://img.shields.io/github/downloads/phpcfdi/sat-catalogos-populate/total?style=flat-square
