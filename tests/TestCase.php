@@ -7,7 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests;
 use finfo;
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempname;
 
-class TestCase extends \PHPUnit\Framework\TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     use FilesToCleanUpTrait;
 
