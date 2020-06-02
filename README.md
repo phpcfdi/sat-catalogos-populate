@@ -10,7 +10,7 @@
 
 > Herramienta para crear y actualizar los catálogos de SAT/CFDI en una base de datos SQLite3
 
-This project is used to produce the SQLite database for [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos)
+Use this project to produce the SQLite database for [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos)
 but this database can also be used in any other project.
 
 ## Installation
@@ -32,10 +32,10 @@ You can use `composer` by adding this to your `composer.json` and run `composer 
 }
 ```
 
-It also require external software:
+It also requires external software:
 
 ```shell script
-apt-get install libreoffice-calc xlsx2csv 
+apt-get install libreoffice-calc xlsx2csv
 ```
 
 ## Basic usage

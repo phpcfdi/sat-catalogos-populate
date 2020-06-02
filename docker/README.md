@@ -18,9 +18,9 @@ docker build --tag sat-catalogos-populate docker/
 
 The following can be overriden at docker build with `--build-arg ARG=value`
 
-- `GIT_REPO`: Override the git location (to test your own fork)
+- `GIT_REPO` Overrides the git location (to test your own fork)
     Default: `https://github.com/phpcfdi/sat-catalogos-populate.git`
-- `GIT_BRANCH`: Override the git branch
+- `GIT_BRANCH` Overrides the git branch
     Default: `master`
 
 Tip: use a proper name to identify your docker image using `--tag sat-catalogos-populate:my-build-tag`
@@ -58,7 +58,7 @@ docker rm sat-catalogos-populate-temporary
 
 ## Run a command
 
-The project is installed on `/opt/sat-catalogos-populate/`.
+The project installed on `/opt/sat-catalogos-populate/`.
 
 You can run any file from `/opt/sat-catalogos-populate/bin/` as they are marked as executables.
 
