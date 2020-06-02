@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -16,10 +17,7 @@ class Incoterms extends AbstractCsvInjector
     public function checkHeaders(CsvFile $csv): void
     {
         $csv->move(3);
-        $expected = [
-            'c_INCOTERM',
-            'Descripción',
-        ];
+        $expected = ['c_INCOTERM', 'Descripción', 'Fecha inicio de vigencia', 'Fecha fin de vigencia'];
         $headers = $csv->readLine();
 
         if ($expected !== $headers) {
@@ -34,6 +32,8 @@ class Incoterms extends AbstractCsvInjector
         return new DataTable('cce_incoterms', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
+            new DateDataField('vigencia_desde'),
+            new DateDataField('vigencia_hasta'),
         ]));
     }
 }
