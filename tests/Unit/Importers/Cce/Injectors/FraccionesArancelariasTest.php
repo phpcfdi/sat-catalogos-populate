@@ -11,7 +11,6 @@ use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\FraccionesArancelarias;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
-use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\IgnoreColumns;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -39,10 +38,10 @@ class FraccionesArancelariasTest extends TestCase
 
     public function testCheckHeadersOnValidSource(): void
     {
-        $csv = new CsvFile($this->sourceFile, new IgnoreColumns(new RightTrim(), 0));
+        $csv = new CsvFile($this->sourceFile, new RightTrim());
         $this->injector->checkHeaders($csv);
 
-        $this->assertSame(6, $csv->position(), 'The csv position is on the first content line');
+        $this->assertSame(4, $csv->position(), 'The csv position is on the first content line');
     }
 
     public function testCheckHeadersOnInvalidSource(): void
@@ -63,10 +62,7 @@ class FraccionesArancelariasTest extends TestCase
             'texto' => TextDataField::class,
             'vigencia_desde' => DateDataField::class,
             'vigencia_hasta' => DateDataField::class,
-            'criterio' => TextDataField::class,
             'unidad' => PaddingDataField::class,
-            'impuesto_importacion' => TextDataField::class,
-            'impuesto_exportacion' => TextDataField::class,
         ];
         $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
         foreach ($expectedClasses as $key => $classname) {

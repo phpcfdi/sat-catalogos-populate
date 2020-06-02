@@ -10,7 +10,6 @@ use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
-use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\IgnoreColumns;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -19,32 +18,23 @@ class FraccionesArancelarias extends AbstractCsvInjector
 {
     protected function createCsvFileReader(): CsvFile
     {
-        return new CsvFile($this->sourceFile(), new IgnoreColumns(new RightTrim(), 0));
+        return new CsvFile($this->sourceFile(), new RightTrim());
     }
 
     public function checkHeaders(CsvFile $csv): void
     {
         $csv->move(3);
-        $expectedLines = [
-            [
-                'c_FraccionArancelaria',
-                'Descripción',
-                'Fecha de inicio de vigencia',
-                'Fecha de fin de vigencia',
-                'Criterio',
-                'Unidad de Medida',
-                'IMPUESTO',
-            ],
-            ['', '', '', '', '', '', 'IMP', 'EXP'],
+        $expected = [
+            'c_FraccionArancelaria',
+            'Descripción',
+            'Fecha de inicio de vigencia',
+            'Fecha de fin de vigencia',
+            'UMT',
         ];
+        $headers = $csv->readLine();
 
-        foreach ($expectedLines as $expected) {
-            $headers = $csv->readLine();
-
-            if ($expected !== $headers) {
-                throw new RuntimeException("The headers did not match on file {$this->sourceFile()}");
-            }
-            $csv->next();
+        if ($expected !== $headers) {
+            throw new RuntimeException("The headers did not match on file {$this->sourceFile()}");
         }
 
         $csv->next();
@@ -57,10 +47,7 @@ class FraccionesArancelarias extends AbstractCsvInjector
             new TextDataField('texto'),
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),
-            new TextDataField('criterio'),
             new PaddingDataField('unidad', '0', 2),
-            new TextDataField('impuesto_importacion'),
-            new TextDataField('impuesto_exportacion'),
         ]));
     }
 }
