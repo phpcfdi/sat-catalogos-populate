@@ -1,5 +1,18 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 1.0.5 2020-05-02
+
+The problems fixed here has been present since 2020-02-01.
+They have been fixed until now since anybody reports an issue.
+
+- SAT change `CCE/c_FraccionArancelaria`:
+    - It does not have fields `Criterio`, `Impuesto IMP` and `Impuesto EXP`.
+    - The structure now uses only one row instead of two.
+    - It does not require to ignore the first column zero.
+- SAT change `CCE/c_INCOTERM`:
+    - It now has `vigencia_desde` and `vigencia_hasta`.
+- Update testing catalogs according to the instructions located at `docs/Pruebas.md`.
+
 ## Version 1.0.4 2019-10-11
 
 - Situation: SAT change again the `c_CodigoPostal`, change the meaning of the columns and introduce a nasty
