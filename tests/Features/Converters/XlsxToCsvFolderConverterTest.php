@@ -25,7 +25,7 @@ class XlsxToCsvFolderConverterTest extends TestCase
         $this->assertFileEquals($this->utilFilePath('splitted/Foo_Parte_2.csv'), $destination . '/Foo_Parte_2.csv');
 
         // cleanup the temp folder
-        $this->addFileToCleanUp(glob($destination . '/*.csv') ?: []);
+        $this->addFileToCleanUp(...(glob($destination . '/*.csv') ?: []));
         $this->addFileToCleanUp($destination);
     }
 }

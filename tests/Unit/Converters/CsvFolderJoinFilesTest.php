@@ -85,7 +85,7 @@ class CsvFolderJoinFilesTest extends TestCase
             $this->utilFilePath('splitted/Xee.csv'),
             $this->utilFilePath('splitted/Only_One_File.csv'),
         ];
-        $this->addFileToCleanUp($createdFiles);
+        $this->addFileToCleanUp(...$createdFiles);
 
         $joiner->joinFilesInFolder($csvFolder);
         $this->assertFileEquals($expectedFile, $createdFooFile);

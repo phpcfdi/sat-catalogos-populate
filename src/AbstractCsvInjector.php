@@ -11,13 +11,14 @@ use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
+use Traversable;
 
 abstract class AbstractCsvInjector implements InjectorInterface
 {
     /** @var string */
     private $sourceFile;
 
-    abstract public function checkHeaders(CsvFile $csv);
+    abstract public function checkHeaders(CsvFile $csv): void;
 
     abstract public function dataTable(): DataTable;
 
@@ -63,7 +64,7 @@ abstract class AbstractCsvInjector implements InjectorInterface
         return new CsvFile($this->sourceFile(), new RightTrim());
     }
 
-    protected function injectCsvToDataTable(CsvFile $csv, DataTableGateway $gateway)
+    protected function injectCsvToDataTable(CsvFile $csv, DataTableGateway $gateway): int
     {
         $inserted = 0;
         foreach ($this->readLinesFromCsv($csv) as $line) {
@@ -75,6 +76,10 @@ abstract class AbstractCsvInjector implements InjectorInterface
         return $inserted;
     }
 
+    /**
+     * @param CsvFile $csv
+     * @return Traversable<array>
+     */
     protected function readLinesFromCsv(CsvFile $csv)
     {
         foreach ($csv->readLines() as $line) {

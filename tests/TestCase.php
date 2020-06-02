@@ -17,7 +17,7 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
         $this->cleanUpFiles();
     }
 
-    public function utilFilePath(string $append)
+    public function utilFilePath(string $append): string
     {
         return __DIR__ . '/_files/' . ltrim($append, '/');
     }
@@ -29,8 +29,8 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
         return $name;
     }
 
-    public function utilMimeType(string $filename)
+    public function utilMimeType(string $filename): string
     {
-        return (new finfo())->file($filename, FILEINFO_MIME_TYPE);
+        return (new finfo())->file($filename, FILEINFO_MIME_TYPE) ?: '';
     }
 }

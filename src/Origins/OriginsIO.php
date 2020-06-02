@@ -59,6 +59,6 @@ class OriginsIO
             $root->appendChild($child);
         }
 
-        return $document->saveXML();
+        return $document->saveXML() ?: '';
     }
 }

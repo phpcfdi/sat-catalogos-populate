@@ -6,8 +6,6 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use DateTimeImmutable;
 use GuzzleHttp\Client as GuzzleClient;
-use GuzzleHttp\Exception\ClientException;
-use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Message\ResponseInterface;

@@ -9,7 +9,7 @@ use Psr\Log\LoggerInterface;
 
 interface InjectorInterface
 {
-    public function validate();
+    public function validate(): void;
 
     public function inject(Repository $repository, LoggerInterface $logger): int;
 }
