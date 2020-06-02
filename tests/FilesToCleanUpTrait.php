@@ -6,6 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests;
 
 trait FilesToCleanUpTrait
 {
+    /** @var string[] */
     private $filesToCleanUp = [];
 
     public function cleanUpFiles(): void
@@ -32,22 +33,21 @@ trait FilesToCleanUpTrait
         }
     }
 
+    /**
+     * @return string[]
+     */
     public function filesToCleanUp(): array
     {
         return $this->filesToCleanUp;
     }
 
     /**
-     * @param string[]|string $path
+     * @param string ...$path
      */
-    public function addFileToCleanUp($path): void
+    public function addFileToCleanUp(string ...$path): void
     {
-        if (! is_array($path)) {
-            array_unshift($this->filesToCleanUp, rtrim($path, DIRECTORY_SEPARATOR));
-            return;
-        }
         foreach ($path as $item) {
-            $this->addFileToCleanUp($item);
+            $this->filesToCleanUp[] = rtrim($item, DIRECTORY_SEPARATOR);
         }
     }
 }

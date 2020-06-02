@@ -11,9 +11,6 @@ use Psr\Log\NullLogger;
 
 class ImportTiposComprobantesTest extends TestCase
 {
-    /** @var TiposComprobantes */
-    private $importer;
-
     /** @var Repository */
     private $repository;
 
@@ -22,9 +19,9 @@ class ImportTiposComprobantesTest extends TestCase
         parent::setUp();
         $source = $this->utilFilePath('cfdi/c_TipoDeComprobante.csv');
         $this->repository = new Repository(':memory:');
-        $this->importer = new TiposComprobantes($source);
-        $this->importer->validate();
-        $this->importer->inject($this->repository, new NullLogger());
+        $importer = new TiposComprobantes($source);
+        $importer->validate();
+        $importer->inject($this->repository, new NullLogger());
     }
 
     public function testImportRetrieveCorrectCount(): void

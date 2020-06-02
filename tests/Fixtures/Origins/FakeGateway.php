@@ -9,6 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 
 class FakeGateway implements ResourcesGatewayInterface
 {
+    /** @var array<string, array> */
     public $collection = [];
 
     ///** @var bool */

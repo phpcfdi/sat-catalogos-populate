@@ -9,5 +9,5 @@ use Psr\Log\LoggerInterface;
 
 interface ImporterInterface
 {
-    public function import(string $source, Repository $repository, LoggerInterface $logger);
+    public function import(string $source, Repository $repository, LoggerInterface $logger): void;
 }

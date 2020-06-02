@@ -8,6 +8,7 @@ use ArrayIterator;
 use Countable;
 use InvalidArgumentException;
 use IteratorAggregate;
+use Traversable;
 
 abstract class AbstractCollection implements Countable, IteratorAggregate
 {
@@ -17,8 +18,16 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
     /** @var int */
     private $count;
 
+    /**
+     * @param mixed $member
+     * @return bool
+     */
     abstract public function isValidMember($member): bool;
 
+    /**
+     * AbstractCollection constructor.
+     * @param mixed[] $members
+     */
     public function __construct(array $members)
     {
         foreach ($members as $index => $member) {
@@ -33,11 +42,19 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
         $this->count = count($members);
     }
 
+    /**
+     * @param mixed $member
+     * @return bool
+     */
     public function contains($member): bool
     {
         return in_array($member, $this->members, true);
     }
 
+    /**
+     * @param int $index
+     * @return mixed
+     */
     public function get(int $index)
     {
         if (! isset($this->members[$index])) {
@@ -49,21 +66,25 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
         return $this->members[$index];
     }
 
+    /** @return mixed[] */
     public function all(): array
     {
         return $this->members;
     }
 
+    /** @return mixed */
     public function first()
     {
         return $this->members[0];
     }
 
+    /** @return mixed */
     public function last()
     {
         return $this->members[$this->count - 1];
     }
 
+    /** @return Traversable<mixed> */
     public function getIterator()
     {
         return new ArrayIterator($this->members);

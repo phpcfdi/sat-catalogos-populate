@@ -192,7 +192,6 @@ class UpdateOrigins implements CommandInterface
     {
         // update-origins --dry-run --update-database database origins-file-or-folder
         $count = count($arguments);
-        /** @var bool $dryRun phpstan work around */
         $dryRun = false;
         $databaseFilename = '';
         $originsFile = '';

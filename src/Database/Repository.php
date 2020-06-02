@@ -78,6 +78,11 @@ class Repository
         return [];
     }
 
+    /**
+     * @param string $sql
+     * @param mixed[] $values
+     * @return mixed
+     */
     public function queryOne(string $sql, array $values = [])
     {
         $stmt = $this->pdo->prepare($sql);

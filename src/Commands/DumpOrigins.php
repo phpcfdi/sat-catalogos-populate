@@ -11,9 +11,6 @@ use Psr\Log\LoggerInterface;
 
 class DumpOrigins implements CommandInterface
 {
-    /** @var LoggerInterface */
-    private $logger;
-
     public function run(): int
     {
         $common = 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos';
@@ -79,6 +76,6 @@ class DumpOrigins implements CommandInterface
 
     public function setLogger(LoggerInterface $logger): void
     {
-        $this->logger = $logger;
+        //
     }
 }

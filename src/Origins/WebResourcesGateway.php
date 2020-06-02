@@ -6,7 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use DateTimeImmutable;
 use GuzzleHttp\Client as GuzzleClient;
-use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Message\ResponseInterface;
 
@@ -26,7 +26,7 @@ class WebResourcesGateway implements ResourcesGatewayInterface
             $response = $this->client->request($method, $url, [
                 RequestOptions::DEBUG => false, // set to true to debug download problems
             ]);
-        } catch (ClientException $exception) {
+        } catch (RequestException $exception) {
             if (! $exception->hasResponse()) {
                 throw $exception;
             }

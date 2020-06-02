@@ -106,7 +106,7 @@ class NumerosPedimentoAduanaTest extends TestCase
      * @param int $expected
      * @testWith ["0", 0]
      *           ["", 0]
-     *           [2018, 2018]
+     *           ["2018", 2018]
      */
     public function testTransformEjercicio(string $value, int $expected): void
     {
@@ -121,7 +121,7 @@ class NumerosPedimentoAduanaTest extends TestCase
      * @param int $expected
      * @testWith ["0", 0]
      *           ["", 0]
-     *           [2018, 2018]
+     *           ["2018", 2018]
      */
     public function testTransformCantidad(string $value, int $expected): void
     {

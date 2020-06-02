@@ -9,6 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use RuntimeException;
 
 class FakeXlsOneSheetInjector extends AbstractCsvInjector
 {
@@ -18,7 +19,7 @@ class FakeXlsOneSheetInjector extends AbstractCsvInjector
         $headers = ['id', 'description'];
         $retrieved = $csv->readLine();
         if ($headers !== $retrieved) {
-            throw new \RuntimeException("Headers don't match");
+            throw new RuntimeException("Headers don't match");
         }
         $csv->next();
     }

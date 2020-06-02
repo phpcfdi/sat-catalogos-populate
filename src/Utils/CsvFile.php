@@ -8,6 +8,7 @@ use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\ArrayProcessorInterface;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\NullArrayProcessor;
 use SeekableIterator;
 use SplFileObject;
+use Traversable;
 use UnexpectedValueException;
 
 class CsvFile implements SeekableIterator
@@ -64,6 +65,9 @@ class CsvFile implements SeekableIterator
         $this->move($this->position() + $times);
     }
 
+    /**
+     * @return Traversable<array>
+     */
     public function readLines()
     {
         while (! $this->eof()) {
@@ -106,17 +110,17 @@ class CsvFile implements SeekableIterator
         return $this->rowProcessor->execute(str_getcsv($contents));
     }
 
-    public function current()
+    public function current(): array
     {
         return $this->readLine();
     }
 
-    public function key()
+    public function key(): int
     {
         return $this->file->key();
     }
 
-    public function valid()
+    public function valid(): bool
     {
         return ! $this->eof();
     }
@@ -126,6 +130,9 @@ class CsvFile implements SeekableIterator
         $this->file->rewind();
     }
 
+    /**
+     * @param int $position
+     */
     public function seek($position): void
     {
         $this->move($position);

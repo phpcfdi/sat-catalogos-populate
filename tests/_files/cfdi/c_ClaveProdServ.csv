@@ -1,6 +1,7 @@
 Versión,Revisión,,,,,,,
-2.0,2,,,,,,,
+3.0,1,,,,,,,
 c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Complemento que debe incluir,FechaInicioVigencia,FechaFinVigencia,Estímulo Franja Fronteriza,Palabras similares
+01010101,No existe en el catálogo,Opcional,Opcional,,2019-01-07,,0,Público en general
 10101500,Animales vivos de granja,Opcional,Opcional,,2019-01-07,,1,
 10101501,Gatos vivos,Opcional,Opcional,,2019-01-07,,1,
 10101502,Perros,Opcional,Opcional,,2019-01-07,,1,
@@ -63,18 +64,6 @@ c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Comp
 10121503,Maíz para forraje,Opcional,Opcional,,2019-01-07,,1,
 10121504,Sorgo para forraje,Opcional,Opcional,,2019-01-07,,1,
 10121505,Heno,Opcional,Opcional,,2019-01-07,,1,
-10121506,Tortas oleaginosas,Opcional,Opcional,,2019-01-07,,1,Torta de aceite para ganado
-10121507,Forraje compuesto,Opcional,Opcional,,2019-01-07,,1,
-10121600,Alimento para pájaros y aves de corral,Opcional,Opcional,,2019-01-07,,1,
-10121601,Alimento vivo para aves,Opcional,Opcional,,2019-01-07,,1,
-10121602,Alpiste,Opcional,Opcional,,2019-01-07,,1,
-10121603,Botanas o comida recreacional para aves,Opcional,Opcional,,2019-01-07,,1,
-10121604,Alimento avícola,Opcional,Opcional,,2019-01-07,,1,
-10121700,Alimento para peces,Opcional,Opcional,,2019-01-07,,1,
-10121701,Salmuera fresca o congelada,Opcional,Opcional,,2019-01-07,,1,
-95122007,Sala o laboratorio de patología,Opcional,Opcional,,2019-01-07,,0,
-95122008,Sala de cateterismo,Opcional,Opcional,,2019-01-07,,0,
-95122100,Edificios y estructuras de acomodaciones,Opcional,Opcional,,2019-01-07,,0,
 95122101,Casa residencial,Opcional,Opcional,,2019-01-07,,0,
 95122102,Apartamento o piso,Opcional,Opcional,,2019-01-07,,0,
 95122103,Asilo de niños,Opcional,Opcional,,2019-01-07,,0,
@@ -145,5 +134,3 @@ c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Comp
 95141902,Unidad de laboratorio,Opcional,Opcional,,2019-01-07,,0,
 95141903,Unidad odontológica,Opcional,Opcional,,2019-01-07,,0,
 95141904,Unidades quirúrgicas,Opcional,Opcional,,2019-01-07,,0,
-01010101,No existe en el catálogo,Opcional,Opcional,,2019-01-07,,0,Público en general
-85121701,Servicios de psicoterapeutas,Opcional,Opcional,,2019-01-07,,1,Servicios de psicoterapia
