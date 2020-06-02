@@ -69,7 +69,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [source]: https://github.com/phpcfdi/sat-catalogos-populate
 [release]: https://github.com/phpcfdi/sat-catalogos-populate/releases
 [license]: https://github.com/phpcfdi/sat-catalogos-populate/blob/master/LICENSE
-[build]: https://travis-ci.org/phpcfdi/sat-catalogos-populate?branch=master
+[build]: https://travis-ci.com/phpcfdi/sat-catalogos-populate?branch=master
 [quality]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/
 [coverage]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/code-structure/master/code-coverage/src
 [downloads]: https://github.com/phpcfdi/sat-catalogos-populate
@@ -77,7 +77,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [badge-source]: https://img.shields.io/badge/source-phpcfdi/sat--catalogos--populate-blue?style=flat-square
 [badge-release]: https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-license]: https://img.shields.io/github/license/phpcfdi/sat-catalogos-populate?style=flat-square
-[badge-build]: https://img.shields.io/travis/phpcfdi/sat-catalogos-populate/master?style=flat-square
+[badge-build]: https://img.shields.io/travis/com/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-quality]: https://img.shields.io/scrutinizer/g/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-coverage]: https://img.shields.io/scrutinizer/coverage/g/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-downloads]: https://img.shields.io/github/downloads/phpcfdi/sat-catalogos-populate/total?style=flat-square
