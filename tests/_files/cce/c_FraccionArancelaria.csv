@@ -1,83 +1,82 @@
-,Catálogo de fracción arancelaria. ,,,,,,,
-,Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,,,
-,2017-01-01,,6.0,0,,,,
-,c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,Criterio,Unidad de Medida,IMPUESTO,
-,,,,,,,IMP,EXP
-,01011001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01011099,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01012101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,10,Ex.
-,01012901,Para saltos o carreras.,2012-07-02,,Porcentual,07,20,Ex.
-,01012902,"Sin pedigree, para reproducción.",2012-07-02,,Porcentual,07,10,Ex.
-,01012903,"Para abasto, cuando la importación la realicen empacadoras Tipo Inspección Federal.",2012-07-02,,Porcentual,07,10,Ex.
-,01012999,Los demás.,2012-07-02,,Porcentual,07,20,Ex.
-,01013001,Asnos.,2012-07-02,,Porcentual,07,20,Ex.
-,01019001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01019002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01019003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01019099,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-,01021001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01022101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.
-,01022901,Vacas lecheras.,2012-07-02,,Porcentual,07,Ex.,Ex.
-,01022902,"Con pedigree o certificado de alto registro, excepto lo comprendido en la fracción 0102.29.01.",2012-07-02,,Porcentual,07,Ex.,Ex.
-,01022999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.
-,01023101,Reproductores de raza pura.,2012-07-02,,Porcentual,07,Ex.,Ex.
-,01023999,Los demás.,2012-07-02,,Porcentual,07,15,Ex.
-,01029001,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01029002,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01029003,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01029099,Los demás.,2007-07-01,,Porcentual,07,15,Ex.
-,01031001,Reproductores de raza pura.,2007-07-01,,Porcentual,07,Ex.,Ex.
-,01039101,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.
-,01039102,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.
-,01039199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-,01039201,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,9,Ex.
-,01039202,"De peso superior a 110 kg, excepto lo comprendido en las fracciones 0103.92.01 y 0103.92.03.",2007-07-01,,Porcentual,07,20,Ex.
-,01039203,Pecarís.,2007-07-01,,Porcentual,07,20,Ex.
-,01039299,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-,01041001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.
-,01041002,Para abasto.,2007-07-01,,Porcentual,07,10,Ex.
-,01041099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-,01042001,Con pedigree o certificado de alto registro.,2007-07-01,,Porcentual,07,Ex.,Ex.
-,01042002,Borrego cimarrón.,2012-07-02,,Porcentual,07,20,Ex.
-,01042099,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-,01051101,Cuando no necesiten alimento durante su transporte.,2012-11-24,,Porcentual,07,Ex.,Ex.
-,01051102,"Aves progenitoras recién nacidas, con certificado de alto registro, cuando se importe un máximo de 18,000 cabezas por cada operación.",2007-07-01,,Porcentual,07,Ex.,Ex.
-,01051199,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-,01051201,Pavos (gallipavos).,2007-07-01,,Porcentual,07,10,Ex.
-,01051301,Patos.,2012-07-02,,Porcentual,07,10,Ex.
-,01051401,Gansos.,2012-07-02,,Porcentual,07,10,Ex.
-,01051501,Pintadas.,2012-07-02,,Porcentual,07,10,Ex.
-,01051999,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01059401,Gallos de pelea.,2007-07-01,,Porcentual,07,20,Ex.
-,01059499,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-,01059999,Los demás.,2007-07-01,,Porcentual,07,10,Ex.
-,01061101,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus.,2007-07-01,,Porcentual,07,10,Ex.
-,01061199,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-,01061201,"Ballenas, delfines y marsopas (mamíferos del orden Cetáceos); manatíes y dugones o dugongos (mamíferos del orden Sirenios); otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,Porcentual,07,20,Ex.
-,01061301,Camellos y los demás camélidos (Camelidae).,2012-07-02,,Porcentual,07,20,Ex.
-,01061401,Conejos y liebres.,2012-07-02,,Porcentual,07,20,Ex.
-,01061901,"Berrendo, oso, lobo, castor, puma, jaguar, ocelote, margay, gato de monte o tapir.",2012-07-02,,Porcentual,07,20,Ex.
-,01061902,Venado rojo (Cervus elaphus); gamo (Dama dama).,2007-07-01,,Porcentual,07,Ex.,Ex.
-,01061903,Perros.,2007-07-01,,Porcentual,07,20,Ex.
-,01061904,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01061905,Derogada,2007-07-01,2012-07-01,N/A,N/A,N/A,N/A
-,01061999,Los demás.,2007-07-01,,Porcentual,07,20,Ex.
-,01062001,Víbora de cascabel.,2007-07-01,,Porcentual,07,20,Ex.
-,01062002,Tortugas terrestres.,2007-07-01,,Porcentual,07,20,Ex.
-,01062003,Tortugas de agua dulce o de mar.,2007-07-01,,Porcentual,07,20,Ex.
-,98070001,"Mercancías producidas en territorio nacional que retornen en el mismo estado en que fueron exportadas o retornadas del territorio nacional, de conformidad con los lineamientos establecidos por la Secretaría de Economía.",2019-05-10,,Porcentual,01,Ex.,Ex.
-,99010001,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.
-,99010002,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,01,Ex.,Ex.
-,99010003,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,06,30,Ex.
-,99010004,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,06,Ex.,Ex.
-,99010005,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,Porcentual,08,Ex.,Ex.
-,99010011,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.
-,99010012,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,08,20,Ex.
-,99010013,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,Porcentual,08,20,Ex.
-,99010014,Códigos arancelarios no catalogados en la tarifa,2009-08-07,,Porcentual,01,67,Ex.
-,99010015,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,122,Ex.
-,99010016,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,01,56,Ex.
-,99010017,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,09,20,Ex.
-,99010018,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,Porcentual,06,20,Ex.
-,99020001,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,Porcentual,01,Ex.,Ex.
-,99999999,Códigos arancelarios no catalogados en la tarifa,2011-01-01,,Porcentual,01,Ex.,Ex.
+Catálogo de fracción arancelaria. ,,,,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,Fecha publicación
+2017-01-01,,8.0,0,2020-03-18
+c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,UMT
+01011001,Derogada,2007-07-01,2012-07-01,N/A
+01011099,Derogada,2007-07-01,2012-07-01,N/A
+01012101,Reproductores de raza pura.,2012-07-02,,07
+01012901,Para saltos o carreras.,2012-07-02,,07
+01012902,"Sin pedigree, para reproducción.",2012-07-02,,07
+01012903,"Para abasto, cuando la importación la realicen empacadoras Tipo Inspección Federal.",2012-07-02,,07
+01012999,Los demás.,2012-07-02,,07
+01013001,Asnos.,2012-07-02,,07
+01019001,Derogada,2007-07-01,2012-07-01,N/A
+01019002,Derogada,2007-07-01,2012-07-01,N/A
+01019003,Derogada,2007-07-01,2012-07-01,N/A
+01019099,Los demás.,2007-07-01,,07
+01021001,Derogada,2007-07-01,2012-07-01,N/A
+01022101,Reproductores de raza pura.,2012-07-02,,07
+01022901,Vacas lecheras.,2012-07-02,,07
+01022902,"Con pedigree o certificado de alto registro, excepto lo comprendido en la fracción 0102.29.01.",2012-07-02,,07
+01022999,Los demás.,2012-07-02,,07
+01023101,Reproductores de raza pura.,2012-07-02,,07
+01023999,Los demás.,2012-07-02,,07
+01029001,Derogada,2007-07-01,2012-07-01,N/A
+01029002,Derogada,2007-07-01,2012-07-01,N/A
+01029003,Derogada,2007-07-01,2012-07-01,N/A
+01029099,Los demás.,2007-07-01,,07
+01031001,Reproductores de raza pura.,2007-07-01,,07
+01039101,Con pedigree o certificado de alto registro.,2007-07-01,,07
+01039102,Pecarís.,2007-07-01,,07
+01039199,Los demás.,2007-07-01,,07
+01039201,Con pedigree o certificado de alto registro.,2007-07-01,,07
+01039202,"De peso superior a 110 kg, excepto lo comprendido en las fracciones 0103.92.01 y 0103.92.03.",2007-07-01,,07
+01039203,Pecarís.,2007-07-01,,07
+01039299,Los demás.,2007-07-01,,07
+01041001,Con pedigree o certificado de alto registro.,2007-07-01,,07
+01041002,Para abasto.,2007-07-01,,07
+01041099,Los demás.,2007-07-01,,07
+01042001,Con pedigree o certificado de alto registro.,2007-07-01,,07
+01042002,Borrego cimarrón.,2012-07-02,,07
+01042099,Los demás.,2007-07-01,,07
+01051101,Cuando no necesiten alimento durante su transporte.,2012-11-24,,07
+01051102,"Aves progenitoras recién nacidas, con certificado de alto registro, cuando se importe un máximo de 18,000 cabezas por cada operación.",2007-07-01,,07
+01051199,Los demás.,2007-07-01,,07
+01051201,Pavos (gallipavos).,2007-07-01,,07
+01051301,Patos.,2012-07-02,,07
+01051401,Gansos.,2012-07-02,,07
+01051501,Pintadas.,2012-07-02,,07
+01051999,Derogada,2007-07-01,2012-07-01,N/A
+01059401,Gallos de pelea.,2007-07-01,,07
+01059499,Los demás.,2007-07-01,,07
+01059999,Los demás.,2007-07-01,,07
+01061101,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus.,2007-07-01,,07
+01061199,Los demás.,2007-07-01,,07
+01061201,"Ballenas, delfines y marsopas (mamíferos del orden Cetáceos); manatíes y dugones o dugongos (mamíferos del orden Sirenios); otarios y focas, leones marinos y morsas (mamíferos del suborden Pinnipedia).",2012-07-02,,07
+01061301,Camellos y los demás camélidos (Camelidae).,2012-07-02,,07
+01061401,Conejos y liebres.,2012-07-02,,07
+01061901,"Berrendo, oso, lobo, castor, puma, jaguar, ocelote, margay, gato de monte o tapir.",2012-07-02,,07
+01061902,Venado rojo (Cervus elaphus); gamo (Dama dama).,2007-07-01,,07
+01061903,Perros.,2007-07-01,,07
+98060005,Mercancías destinadas a la reparación o mantenimiento de naves aéreas o aeropartes.,2007-07-01,,01
+98060006,"Mercancías para el ensamble o fabricación de aeronaves o aeropartes, cuando las empresas cuenten con la aprobación de producción de productos y artículos aeronáuticos, en cualquiera de sus tipos, emitida por la Secretaría de Comunicaciones y Transportes.",2007-07-01,,01
+98060007,"Archivos (expedientes) conteniendo, entre otros, diagnósticos médicos, radiografías, fluorangiografías, resultados de laboratorio, electrocardiogramas.",2007-07-01,,01
+98060008,"Mercancías destinadas a procesos tales como reparación, reacondicionamiento o remanufactura, cuando las empresas cuenten con registro otorgado conforme a los lineamientos establecidos por la Secretaría de Economía.",2009-01-02,,01
+98060009,"Insumos, materias primas, materiales auxiliares, envases y empaques que no estén sujetos al cumplimiento de regulaciones y restricciones no arancelarias en materia de sanidad animal y vegetal, salud pública, medio ambiente y seguridad nacional, que se destinen al régimen de recinto fiscalizado estratégico, por parte de las personas autorizadas para operar el régimen. Las mercancías objeto de almacenaje, consolidación de carga, así como las resultantes de los procesos de elaboración, transformación o reparación en el recinto fiscalizado estratégico, cuando se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir, en su caso, con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías, en los términos de las disposiciones que resulten aplicables.",2011-12-27,,01
+98060010,"Maquinaria y equipo, que no estén sujetas al cumplimiento de regulaciones y restricciones  no arancelarias en materia de sanidad animal y vegetal, salud pública, medio ambiente y seguridad nacional, que se destinen al régimen de recinto fiscalizado estratégico, por parte de personas autorizadas para operar el régimen. \nCuando las mercancías se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir, en su caso, con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías, en los términos de las disposiciones que resulten aplicables.",2011-12-27,,01
+98070001,"Mercancías producidas en territorio nacional que retornen en el mismo estado en que fueron exportadas o retornadas del territorio nacional, de conformidad con los lineamientos establecidos por la Secretaría de Economía.",2019-05-10,,01
+99010001,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,06
+99010002,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,01
+99010003,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,06
+99010004,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,06
+99010005,Códigos arancelarios no catalogados en la tarifa,2006-04-01,,08
+99010011,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,08
+99010012,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,08
+99010013,Códigos arancelarios no catalogados en la tarifa,2014-01-01,,08
+99010014,Códigos arancelarios no catalogados en la tarifa,2009-08-07,,01
+99010015,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,01
+99010016,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,01
+99010017,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,09
+99010018,Códigos arancelarios no catalogados en la tarifa,2013-01-01,,06
+99020001,Códigos arancelarios no catalogados en la tarifa,2002-04-01,,01
+99999999,Códigos arancelarios no catalogados en la tarifa,2011-01-01,,01
