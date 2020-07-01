@@ -54,21 +54,3 @@ function preg_is_valid(string $input): bool
     /** @noinspection PhpUsageOfSilenceOperatorInspection */
     return (false !== @preg_match('/' . $input . '/', ''));
 }
-
-function file_extension(string $filename): string
-{
-    return substr(strrchr(basename($filename), '.') ?: '', 1) ?: '';
-}
-
-function file_extension_replace(string $filename, string $extension): string
-{
-    $current = file_extension($filename);
-    if ('' === $current) {
-        $dot = '.';
-        if ('.' === substr($filename, -1)) {
-            $dot = '';
-        }
-        return $filename . $dot . $extension;
-    }
-    return substr($filename, 0, - (strlen($current) + 1)) . '.' . $extension;
-}
