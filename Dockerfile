@@ -20,6 +20,7 @@ RUN set -e \
 RUN set -e \
     && cd /opt/sat-catalogos-populate/ \
     && export COMPOSER_ALLOW_SUPERUSER=1 \
-    && composer install --no-interaction --prefer-dist --no-dev --optimize-autoloader
+    && composer install --no-interaction --prefer-dist --no-dev --optimize-autoloader \
+    && rm -rf "$(composer config cache-dir --global)" "$(composer config data-dir --global)" "$(composer config home --global)"
 
 ENTRYPOINT ["/opt/sat-catalogos-populate/bin/sat-catalogos-update"]
