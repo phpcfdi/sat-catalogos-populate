@@ -15,7 +15,6 @@ addons:
     packages:
       - default-jre-headless
       - libreoffice-calc
-      - libsaxonb-java
       - xlsx2csv
 
 before_script:
