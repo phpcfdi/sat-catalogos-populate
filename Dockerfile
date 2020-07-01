@@ -22,4 +22,4 @@ RUN set -e \
     && export COMPOSER_ALLOW_SUPERUSER=1 \
     && composer install --no-interaction --prefer-dist --no-dev --optimize-autoloader
 
-ENTRYPOINT ['/opt/sat-catalogos-populate/bin/sat-catalogos-populate']
+ENTRYPOINT ["/opt/sat-catalogos-populate/bin/sat-catalogos-update"]
