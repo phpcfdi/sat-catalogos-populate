@@ -1,5 +1,14 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 1.1.0 2020-06-01
+
+- Refactor `docker` implementation. It does not use `sat-catalogos-populate-base` anymore.
+- Improve installation and usage documentation.
+- Remove `bash` commands located on `bin/`, those files are out of the scope of this project.
+- Upgrade `guzzlehttp/guzzle: ^6.0` to `guzzlehttp/guzzle: ^7.0`.
+- Require `psr/http-message:^1.0` since is a direct dependence.
+- Remove unused functions `file_extension` and `file_extension_replace` on namespace `PhpCfdi\SatCatalogosPopulate\Utils`.
+
 ## Version 1.0.5 2020-05-02
 
 The problems fixed here has been present since 2020-02-01.
