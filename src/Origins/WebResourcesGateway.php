@@ -6,9 +6,11 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use DateTimeImmutable;
 use GuzzleHttp\Client as GuzzleClient;
+use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\RequestOptions;
 use Psr\Http\Message\ResponseInterface;
+use RuntimeException;
 
 class WebResourcesGateway implements ResourcesGatewayInterface
 {
@@ -28,10 +30,12 @@ class WebResourcesGateway implements ResourcesGatewayInterface
             ]);
         } catch (RequestException $exception) {
             if (! $exception->hasResponse()) {
-                throw $exception;
+                throw new RuntimeException("Unable to perform HTTP $method $url", 0, $exception);
             }
             /** @var ResponseInterface $response */
             $response = $exception->getResponse();
+        } catch (GuzzleException $exception) {
+            throw new RuntimeException("Unable to perform HTTP $method $url", 0, $exception);
         }
         return $response;
     }
@@ -40,6 +44,7 @@ class WebResourcesGateway implements ResourcesGatewayInterface
     {
         $lastModified = null;
         if ($response->hasHeader('Last-Modified')) {
+            /** @noinspection PhpUnhandledExceptionInspection */
             $lastModified = new DateTimeImmutable($response->getHeaderLine('Last-Modified'));
         }
 
