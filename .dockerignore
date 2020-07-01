@@ -1,0 +1,7 @@
+# ignore all
+*
+
+# but include the required files to work
+!bin/
+!src/
+!composer.json
