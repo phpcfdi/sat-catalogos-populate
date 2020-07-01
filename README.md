@@ -13,26 +13,31 @@
 Use this project to produce the SQLite database for [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos)
 but this database can also be used in any other project.
 
-## Installation
+## Install and use by docker image
 
-Install it by `git clone https://github.com/phpcfdi/sat-catalogos-populate.git` or download zip file.
-You can use `composer` by adding this to your `composer.json` and run `composer install`. It is not on packagist. 
+This project provides a `Dockerfile` to build an image with the project and all its dependences. Use it to execute
+the commands provided by this package, for more information check the [`README.Docker.md`](Docker.README.md) file.
 
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/phpcfdi/sat-catalogos-populate"
-        }
-    ],
-    "require": {
-        "phpcfdi/sat-catalogos-populate": "dev-master"
-    }
-}
+```shell script
+git clone https://github.com/phpcfdi/sat-catalogos-populate.git
+docker build -t sat-catalogos-populate sat-catalogos-populate/
+docker run -it --rm sat-catalogos-populate /opt/bin/sat-catalogos-update --help
+``` 
+
+## Installation on local system
+
+This project is not a library, and it is not included on [Packagist](https://packagist.org/).
+You cannot install it on your system using `composer`. 
+
+Install it by cloning the project `https://github.com/phpcfdi/sat-catalogos-populate.git` or download zip file.
+
+```shell script
+git clone https://github.com/phpcfdi/sat-catalogos-populate.git
+cd sat-catalogos-populate
+composer install
 ```
 
-It also requires external software:
+Be aware it also requires external software to work:
 
 ```shell script
 apt-get install libreoffice-calc xlsx2csv
@@ -41,7 +46,7 @@ apt-get install libreoffice-calc xlsx2csv
 ## Basic usage
 
 ```shell script
-mkdir -p catalogs
+mkdir catalogs
 php bin/sat-catalogos-update dump-origins > catalogs/origins.xml
 php bin/sat-catalogos-update update-origins catalogs/origins.xml
 php bin/sat-catalogos-update update-database catalogs/ catalogs/catalogos.sqlite3
