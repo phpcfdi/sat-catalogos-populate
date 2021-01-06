@@ -37,7 +37,7 @@ class ProductosServiciosTest extends TestCase
         $csv = new CsvFile($this->sourceFile);
         $this->injector->checkHeaders($csv);
 
-        $this->assertSame(3, $csv->position(), 'The csv position is on the first content line');
+        $this->assertSame(4, $csv->position(), 'The csv position is on the first content line');
     }
 
     public function testCheckHeadersOnInvalidSource(): void
