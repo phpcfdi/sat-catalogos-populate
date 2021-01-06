@@ -48,7 +48,7 @@ apt-get install libreoffice-calc xlsx2csv
 ```shell script
 mkdir catalogs
 php bin/sat-catalogos-update dump-origins > catalogs/origins.xml
-php bin/sat-catalogos-update update-origins catalogs/origins.xml
+php bin/sat-catalogos-update update-origins catalogs/
 php bin/sat-catalogos-update update-database catalogs/ catalogs/catalogos.sqlite3
 ```
 
