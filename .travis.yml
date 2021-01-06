@@ -13,9 +13,8 @@ env:
 addons:
   apt:
     packages:
-      - openjdk-11-jre-headless
+      - default-jre-headless
       - libreoffice-calc
-      - libsaxonb-java
       - xlsx2csv
 
 before_script:

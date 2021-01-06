@@ -1,5 +1,12 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 1.1.1 2020-01-05
+
+- Update to new catalog c_ClaveProdServ, the layout (version 4, rev 0) includes a row with a title since 2020-12-29.
+- Travis-CI:
+  - Install `default-jre-headless` instead of `openjdk-11-jre-headless`.
+  - Remove non-required `libsaxonb-java`.
+
 ## Version 1.1.0 2020-06-01
 
 - Refactor `docker` implementation. It does not use `sat-catalogos-populate-base` anymore.
