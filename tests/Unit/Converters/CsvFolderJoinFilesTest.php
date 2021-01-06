@@ -63,7 +63,6 @@ class CsvFolderJoinFilesTest extends TestCase
         $fooFiles = $files[$csvFolder . '/Foo.csv'];
         if (! is_array($fooFiles)) {
             $this->fail('Unexpected response from method obtainFilesThatAreSplitted');
-            return;
         }
 
         $destination = tempname();
