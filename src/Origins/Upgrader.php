@@ -105,7 +105,7 @@ class Upgrader
         // $this->createBackup($destination);
         $this->logger->info(sprintf('Actualizando %s en %s', $origin->url(), $destination));
         $urlResponse = $this->gateway->get($origin->url(), $destination);
-        return new Origin($origin->name(), $origin->url(), $urlResponse->lastModified());
+        return $origin->withLastModified($urlResponse->lastModified());
     }
 
     /*

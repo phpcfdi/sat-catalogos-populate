@@ -18,11 +18,18 @@ class Origin
     /** @var DateTimeImmutable|null */
     private $lastVersion;
 
-    public function __construct(string $name, string $url, DateTimeImmutable $lastVersion = null)
+    public function __construct(string $name, string $url, ?DateTimeImmutable $lastVersion = null)
     {
         $this->name = $name;
         $this->url = $url;
         $this->lastVersion = $lastVersion;
+    }
+
+    public function withLastModified(?DateTimeImmutable $lastModified): self
+    {
+        $clone = clone $this;
+        $clone->lastVersion = $lastModified;
+        return $clone;
     }
 
     public function name(): string
