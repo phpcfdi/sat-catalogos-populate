@@ -48,7 +48,7 @@ class WebResourcesGateway implements ResourcesGatewayInterface
             $lastModified = new DateTimeImmutable($response->getHeaderLine('Last-Modified'));
         }
 
-        return new UrlResponse($url, $response->getStatusCode(), $lastModified);
+        return new UrlResponse($url, $response->getStatusCode(), $lastModified, strval($response->getBody()));
     }
 
     public function headers(string $url): UrlResponse
