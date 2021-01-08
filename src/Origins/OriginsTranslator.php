@@ -15,6 +15,9 @@ final class OriginsTranslator
         if ('const' === $type) {
             return $this->constantOriginFromArray($data);
         }
+        if ('scrap' === $type) {
+            return $this->scrapingOriginFromArray($data);
+        }
         throw new RuntimeException("Unable to create an origin with type $type");
     }
 
@@ -33,7 +36,21 @@ final class OriginsTranslator
         if ($origin instanceof ConstantOrigin) {
             return $this->constantOriginToArray($origin);
         }
+        if ($origin instanceof ScrapingOrigin) {
+            return $this->scrapingOriginToArray($origin);
+        }
         throw new RuntimeException(sprintf('Unable to export an origin with type %s', get_class($origin)));
+    }
+
+    public function scrapingOriginFromArray(array $data): ScrapingOrigin
+    {
+        return new ScrapingOrigin(
+            strval($data['name'] ?? ''),
+            strval($data['href'] ?? ''),
+            strval($data['destination-file'] ?? ''),
+            strval($data['link-text'] ?? ''),
+            $this->dateTimeFromStringOrNull(strval($data['last-update'] ?? ''))
+        );
     }
 
     public function dateTimeFromStringOrNull(string $value): ?DateTimeImmutable
@@ -49,6 +66,18 @@ final class OriginsTranslator
             'href' => $origin->url(),
             'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
             'destination-file' => $origin->destinationFilename(),
+        ]);
+    }
+
+    public function scrapingOriginToArray(ScrapingOrigin $origin): array
+    {
+        return array_filter([
+            'name' => $origin->name(),
+            'type' => 'scrap',
+            'href' => $origin->url(),
+            'link-text' => $origin->linkText(),
+            'destination-file' => $origin->destinationFilename(),
+            'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
         ]);
     }
 }
