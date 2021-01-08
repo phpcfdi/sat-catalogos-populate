@@ -9,7 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\SourcesImporter;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
-use PhpCfdi\SatCatalogosPopulate\Origins\Reviewer;
+use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
 use PhpCfdi\SatCatalogosPopulate\Origins\Upgrader;
 use PhpCfdi\SatCatalogosPopulate\Origins\WebResourcesGateway;
@@ -106,8 +106,8 @@ class UpdateOrigins implements CommandInterface
     {
         $origins = $this->originsRestore();
         $resourcesGateway = $this->createResourcesGateway();
-        $reviewer = new Reviewer($resourcesGateway);
-        $reviews = $reviewer->review($origins);
+        $reviewers = Reviewers::createWithDefaultReviewers($resourcesGateway);
+        $reviews = $reviewers->review($origins);
 
         $notFoundReviews = $reviews->filterStatus(ReviewStatus::notFound());
         $notUpdatedReviews = $reviews->filterStatus(ReviewStatus::notUpdated());

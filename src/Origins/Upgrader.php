@@ -49,9 +49,9 @@ class Upgrader
         return new OriginsIO();
     }
 
-    protected function createReviewer(): Reviewer
+    protected function createReviewers(): Reviewers
     {
-        return new Reviewer($this->gateway());
+        return Reviewers::createWithDefaultReviewers($this->gateway());
     }
 
     public function upgrade(string $filename = ''): Origins
@@ -67,8 +67,8 @@ class Upgrader
 
     public function upgradeOrigins(Origins $origins): Origins
     {
-        $reviewer = $this->createReviewer();
-        $reviews = $reviewer->review($origins);
+        $reviewers = $this->createReviewers();
+        $reviews = $reviewers->review($origins);
 
         return $this->upgradeReviews($reviews);
     }

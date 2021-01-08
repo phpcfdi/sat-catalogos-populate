@@ -4,30 +4,22 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
-class Reviewer
+class Reviewer implements ReviewerInterface
 {
     /** @var ResourcesGatewayInterface */
     private $gateway;
 
-    public function __construct(ResourcesGatewayInterface $gateway = null)
+    public function __construct(ResourcesGatewayInterface $gateway)
     {
-        $this->gateway = ($gateway) ?: new WebResourcesGateway();
+        $this->gateway = $gateway;
     }
 
-    /**
-     * @param Origins $origins
-     * @return Reviews|Review[]
-     */
-    public function review(Origins $origins): Reviews
+    public function accept(OriginInterface $origin): bool
     {
-        $reviews = [];
-        foreach ($origins as $origin) {
-            $reviews[] = $this->reviewOrigin($origin);
-        }
-        return new Reviews($reviews);
+        return ($origin instanceof Origin);
     }
 
-    public function reviewOrigin(OriginInterface $origin): Review
+    public function review(OriginInterface $origin): Review
     {
         // obtener la información de la url del origen
         $response = $this->gateway->headers($origin->url());

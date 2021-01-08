@@ -6,7 +6,6 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins;
 
 use DateTimeImmutable;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origin;
-use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewer;
 use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\Origins\FakeGateway;
@@ -26,25 +25,6 @@ class ReviewerTest extends TestCase
         $this->reviewer = new Reviewer($this->resourcesGateway);
     }
 
-    public function testMainComparison(): void
-    {
-        // given a list of origins
-        $origins = new Origins([
-            new Origin('Foo', 'http://example.com/foo.txt', new DateTimeImmutable('2017-01-02')),
-            new Origin('Bar', 'http://example.com/bar.txt', new DateTimeImmutable('2017-01-03')),
-            new Origin('Baz', 'http://example.com/baz.txt', new DateTimeImmutable('2017-01-04')),
-        ]);
-
-        // when check the list for updates
-        $reviews = $this->reviewer->review($origins);
-
-        // then a list of reviews is created and it contains the reviews of all states
-        foreach ($reviews as $review) {
-            $this->assertTrue($origins->contains($review->origin()));
-        }
-        $this->assertCount($origins->count(), $reviews);
-    }
-
     public function testReviewOriginWithUptodateResponse(): void
     {
         $this->resourcesGateway->add(
@@ -52,7 +32,7 @@ class ReviewerTest extends TestCase
         );
         $origin = new Origin('Foo', 'http://example.com/foo.txt', new DateTimeImmutable('2017-01-02'));
 
-        $review = $this->reviewer->reviewOrigin($origin);
+        $review = $this->reviewer->review($origin);
 
         $this->assertSame($origin, $review->origin());
         $this->assertTrue($review->status()->isUptodate());
@@ -65,7 +45,7 @@ class ReviewerTest extends TestCase
         );
         $origin = new Origin('Foo', 'http://example.com/foo.txt', new DateTimeImmutable('2017-01-01'));
 
-        $review = $this->reviewer->reviewOrigin($origin);
+        $review = $this->reviewer->review($origin);
 
         $this->assertSame($origin, $review->origin());
         $this->assertFalse($review->status()->isUptodate());
@@ -76,7 +56,7 @@ class ReviewerTest extends TestCase
     {
         $origin = new Origin('Xee', 'http://example.com/xee.txt', new DateTimeImmutable('2017-01-02'));
 
-        $review = $this->reviewer->reviewOrigin($origin);
+        $review = $this->reviewer->review($origin);
 
         $this->assertSame($origin, $review->origin());
         $this->assertFalse($review->status()->isUptodate());
