@@ -39,17 +39,6 @@ class Upgrader
         return $this->gateway;
     }
 
-    public function buildOriginPath(OriginInterface $origin): string
-    {
-        $path = (string) parse_url($origin->url(), PHP_URL_PATH);
-        // TODO: Validate if url does not have a path
-        //if ('' === $path) {
-        //    throw new \RuntimeException('The review does not have a path');
-        //}
-
-        return $this->buildPath($path);
-    }
-
     protected function buildPath(string $filename): string
     {
         return $this->destinationPath . '/' . basename($filename);
@@ -97,14 +86,14 @@ class Upgrader
     public function upgradeReview(Review $review): OriginInterface
     {
         $origin = $review->origin();
-        $destination = $this->buildOriginPath($origin);
+        $destination = $this->buildPath($origin->destinationFilename());
         if (! $review->status()->isNotUpdated()) {
             return $origin;
         }
 
         // $this->createBackup($destination);
-        $this->logger->info(sprintf('Actualizando %s en %s', $origin->url(), $destination));
-        $urlResponse = $this->gateway->get($origin->url(), $destination);
+        $this->logger->info(sprintf('Actualizando %s en %s', $origin->downloadUrl(), $destination));
+        $urlResponse = $this->gateway->get($origin->downloadUrl(), $destination);
         return $origin->withLastModified($urlResponse->lastModified());
     }
 

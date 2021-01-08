@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use DateTimeImmutable;
+use InvalidArgumentException;
 use LogicException;
 
 class Origin implements OriginInterface
@@ -18,11 +19,27 @@ class Origin implements OriginInterface
     /** @var DateTimeImmutable|null */
     private $lastVersion;
 
-    public function __construct(string $name, string $url, ?DateTimeImmutable $lastVersion = null)
-    {
+    private $destinationFilename;
+
+    public function __construct(
+        string $name,
+        string $url,
+        ?DateTimeImmutable $lastVersion = null,
+        string $destinationFilename = ''
+    ) {
         $this->name = $name;
         $this->url = $url;
         $this->lastVersion = $lastVersion;
+        if ('' === $destinationFilename) {
+            $destinationFilename = basename($destinationFilename);
+        }
+        if ('' === $destinationFilename) {
+            $destinationFilename = (string) parse_url($url, PHP_URL_PATH);
+        }
+        if ('' === $destinationFilename) {
+            throw new InvalidArgumentException('The is no destination filename and url does not have a valid basename');
+        }
+        $this->destinationFilename = $destinationFilename;
     }
 
     public function withLastModified(?DateTimeImmutable $lastModified): self
@@ -53,5 +70,15 @@ class Origin implements OriginInterface
     public function hasLastVersion(): bool
     {
         return $this->lastVersion instanceof DateTimeImmutable;
+    }
+
+    public function destinationFilename(): string
+    {
+        return $this->destinationFilename;
+    }
+
+    public function downloadUrl(): string
+    {
+        return $this->url;
     }
 }

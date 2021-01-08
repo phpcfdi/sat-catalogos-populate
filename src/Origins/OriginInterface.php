@@ -27,4 +27,8 @@ interface OriginInterface
      * @throws LogicException When there is no last version in the origin
      */
     public function lastVersion(): DateTimeImmutable;
+
+    public function destinationFilename(): string;
+
+    public function downloadUrl(): string;
 }
