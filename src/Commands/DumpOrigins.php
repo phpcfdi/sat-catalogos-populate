@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Commands;
 
-use PhpCfdi\SatCatalogosPopulate\Origins\Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
 use Psr\Log\LoggerInterface;
@@ -15,19 +15,19 @@ class DumpOrigins implements CommandInterface
     {
         $common = 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos';
         $origins = new Origins([
-            new Origin('CFDI', "{$common}/catCFDI.xls"),
-            new Origin('Nóminas', "{$common}/catNomina.xls"),
-            new Origin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
-            new Origin('CCE - Colonias', "{$common}/c_Colonia.xls"),
-            new Origin('CCE - Entidades o estados', "{$common}/C_Estado.xls"),
-            new Origin('CCE - Fracciones arancelarias', "{$common}/c_FraccionArancelaria.xls"),
-            new Origin('CCE - Incoterms', "{$common}/c_INCOTERM.xls"),
-            new Origin('CCE - Localidades', "{$common}/c_Localidad.xls"),
-            new Origin('CCE - Motivo traslado', "{$common}/c_MotivoTraslado.xls"),
-            new Origin('CCE - Municipios', "{$common}/c_Municipio.xls"),
-            new Origin('CCE - Tipos de operaciones', "{$common}/c_TipoOperacion.xls"),
-            new Origin('CCE - Unidades de medida', "{$common}/c_UnidadAduana.xls"),
-            new Origin('REP', "{$common}/catPagos.xls"),
+            new ConstantOrigin('CFDI', "{$common}/catCFDI.xls"),
+            new ConstantOrigin('Nóminas', "{$common}/catNomina.xls"),
+            new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
+            new ConstantOrigin('CCE - Colonias', "{$common}/c_Colonia.xls"),
+            new ConstantOrigin('CCE - Entidades o estados', "{$common}/C_Estado.xls"),
+            new ConstantOrigin('CCE - Fracciones arancelarias', "{$common}/c_FraccionArancelaria.xls"),
+            new ConstantOrigin('CCE - Incoterms', "{$common}/c_INCOTERM.xls"),
+            new ConstantOrigin('CCE - Localidades', "{$common}/c_Localidad.xls"),
+            new ConstantOrigin('CCE - Motivo traslado', "{$common}/c_MotivoTraslado.xls"),
+            new ConstantOrigin('CCE - Municipios', "{$common}/c_Municipio.xls"),
+            new ConstantOrigin('CCE - Tipos de operaciones', "{$common}/c_TipoOperacion.xls"),
+            new ConstantOrigin('CCE - Unidades de medida', "{$common}/c_UnidadAduana.xls"),
+            new ConstantOrigin('REP', "{$common}/catPagos.xls"),
         ]);
 
         echo (new OriginsIO())->originsToString($origins) . PHP_EOL;

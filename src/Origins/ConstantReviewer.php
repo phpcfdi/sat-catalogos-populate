@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
-class Reviewer implements ReviewerInterface
+class ConstantReviewer implements ReviewerInterface
 {
     /** @var ResourcesGatewayInterface */
     private $gateway;
@@ -16,7 +16,7 @@ class Reviewer implements ReviewerInterface
 
     public function accept(OriginInterface $origin): bool
     {
-        return ($origin instanceof Origin);
+        return ($origin instanceof ConstantOrigin);
     }
 
     public function review(OriginInterface $origin): Review

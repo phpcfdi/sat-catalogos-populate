@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins;
 
 use DateTimeImmutable;
-use PhpCfdi\SatCatalogosPopulate\Origins\Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Review;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
 use PhpCfdi\SatCatalogosPopulate\Origins\Upgrader;
@@ -38,7 +38,7 @@ class UpgraderTest extends TestCase
 
     public function testUpgradeReviewNotUpdated(): void
     {
-        $origin = new Origin('Foo', 'http://example.com/foo.txt', $this->lastModified->modify('-1 month'));
+        $origin = new ConstantOrigin('Foo', 'http://example.com/foo.txt', $this->lastModified->modify('-1 month'));
         $review = new Review($origin, ReviewStatus::notUpdated());
 
         $newOrigin = $this->upgrader->upgradeReview($review);
@@ -50,7 +50,7 @@ class UpgraderTest extends TestCase
 
     public function testUpgradeReviewUptodate(): void
     {
-        $origin = new Origin('Foo', 'http://example.com/foo.txt', $this->lastModified->modify('-1 month'));
+        $origin = new ConstantOrigin('Foo', 'http://example.com/foo.txt', $this->lastModified->modify('-1 month'));
         $review = new Review($origin, ReviewStatus::uptodate());
 
         $newOrigin = $this->upgrader->upgradeReview($review);
@@ -60,7 +60,7 @@ class UpgraderTest extends TestCase
 
     public function testUpgradeReviewNotFound(): void
     {
-        $origin = new Origin('Foo', 'http://example.com/foo.txt', $this->lastModified->modify('-1 month'));
+        $origin = new ConstantOrigin('Foo', 'http://example.com/foo.txt', $this->lastModified->modify('-1 month'));
         $review = new Review($origin, ReviewStatus::notFound());
 
         $newOrigin = $this->upgrader->upgradeReview($review);
@@ -76,7 +76,7 @@ class UpgraderTest extends TestCase
         $this->assertCount(3, $origins);
 
         // all 3 must be set to this test last modified value
-        /** @var Origin $origin */
+        /** @var ConstantOrigin $origin */
         foreach ($origins as $origin) {
             $this->assertEquals($this->lastModified, $origin->lastVersion());
         }

@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins;
 
 use DateTimeImmutable;
-use PhpCfdi\SatCatalogosPopulate\Origins\Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\Origins\FakeGateway;
@@ -25,9 +25,9 @@ class ReviewersTest extends TestCase
     {
         // given a list of origins
         $origins = new Origins([
-            new Origin('Foo', 'http://example.com/foo.txt', new DateTimeImmutable('2017-01-02')),
-            new Origin('Bar', 'http://example.com/bar.txt', new DateTimeImmutable('2017-01-03')),
-            new Origin('Baz', 'http://example.com/baz.txt', new DateTimeImmutable('2017-01-04')),
+            new ConstantOrigin('Foo', 'http://example.com/foo.txt', new DateTimeImmutable('2017-01-02')),
+            new ConstantOrigin('Bar', 'http://example.com/bar.txt', new DateTimeImmutable('2017-01-03')),
+            new ConstantOrigin('Baz', 'http://example.com/baz.txt', new DateTimeImmutable('2017-01-04')),
         ]);
 
         // when check the list for updates

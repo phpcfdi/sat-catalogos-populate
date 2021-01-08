@@ -38,7 +38,7 @@ class OriginsIO
         $lastUpdateValue = (string) $origin['last-update'];
         /** @noinspection PhpUnhandledExceptionInspection */
         $lastUpdate = ('' !== $lastUpdateValue) ? new DateTimeImmutable($lastUpdateValue) : null;
-        return new Origin($nameValue, $hrefValue, $lastUpdate);
+        return new ConstantOrigin($nameValue, $hrefValue, $lastUpdate);
     }
 
     public function originsToString(Origins $origins): string
@@ -48,7 +48,7 @@ class OriginsIO
         $document->preserveWhiteSpace = false;
         $root = $document->createElement('origins');
         $document->appendChild($root);
-        /** @var Origin $origin */
+        /** @var ConstantOrigin $origin */
         foreach ($origins as $origin) {
             $child = $document->createElement('origin');
             $child->setAttribute('name', $origin->name());

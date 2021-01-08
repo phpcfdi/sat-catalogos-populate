@@ -8,7 +8,7 @@ use DateTimeImmutable;
 use InvalidArgumentException;
 use LogicException;
 
-class Origin implements OriginInterface
+class ConstantOrigin implements OriginInterface
 {
     /** @var string */
     private $name;

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins;
 
-use PhpCfdi\SatCatalogosPopulate\Origins\Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
@@ -18,7 +18,7 @@ class OriginsReaderTest extends TestCase
         $reader = new OriginsIO();
         $origins = $reader->readFile($sourcefile);
 
-        $origins = array_map(function (Origin $origin) {
+        $origins = array_map(function (ConstantOrigin $origin) {
             return [
                 'name' => $origin->name(),
                 'url' => $origin->url(),

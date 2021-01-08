@@ -19,7 +19,7 @@ class Reviewers
     public static function createWithDefaultReviewers(ResourcesGatewayInterface $gateway): self
     {
         return new self(...[
-            new Reviewer($gateway),
+            new ConstantReviewer($gateway),
         ]);
     }
 
@@ -40,6 +40,6 @@ class Reviewers
                 return $reviewer;
             }
         }
-        throw new LogicException(sprintf('Unable to review an Origin of class %s', get_class($origin)));
+        throw new LogicException(sprintf('Unable to review an ConstantOrigin of class %s', get_class($origin)));
     }
 }
