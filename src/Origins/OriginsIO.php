@@ -4,12 +4,19 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
-use DateTimeImmutable;
 use DOMDocument;
 use SimpleXMLElement;
 
 class OriginsIO
 {
+    /** @var OriginsTranslator */
+    private $translator;
+
+    public function __construct()
+    {
+        $this->translator = new OriginsTranslator();
+    }
+
     public function readFile(string $filename): Origins
     {
         return $this->originsFromString(file_get_contents($filename) ?: '');
@@ -33,12 +40,12 @@ class OriginsIO
 
     protected function readOrigin(SimpleXMLElement $origin): OriginInterface
     {
-        $nameValue = (string) $origin['name'];
-        $hrefValue = (string)$origin['href'];
-        $lastUpdateValue = (string) $origin['last-update'];
-        /** @noinspection PhpUnhandledExceptionInspection */
-        $lastUpdate = ('' !== $lastUpdateValue) ? new DateTimeImmutable($lastUpdateValue) : null;
-        return new ConstantOrigin($nameValue, $hrefValue, $lastUpdate);
+        $attributes = [];
+        foreach (($origin->attributes() ?? []) as $key => $value) {
+            $attributes[$key] = (string) $value;
+        }
+
+        return $this->translator->originFromArray($attributes);
     }
 
     public function originsToString(Origins $origins): string
@@ -48,13 +55,11 @@ class OriginsIO
         $document->preserveWhiteSpace = false;
         $root = $document->createElement('origins');
         $document->appendChild($root);
-        /** @var ConstantOrigin $origin */
+        /** @var OriginInterface $origin */
         foreach ($origins as $origin) {
             $child = $document->createElement('origin');
-            $child->setAttribute('name', $origin->name());
-            $child->setAttribute('href', $origin->url());
-            if ($origin->hasLastVersion()) {
-                $child->setAttribute('last-update', $origin->lastVersion()->format('c'));
+            foreach ($this->translator->originToArray($origin) as $key => $value) {
+                $child->setAttribute($key, $value);
             }
             $root->appendChild($child);
         }
