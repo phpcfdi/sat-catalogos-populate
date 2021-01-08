@@ -27,7 +27,7 @@ class Reviewer
         return new Reviews($reviews);
     }
 
-    public function reviewOrigin(Origin $origin): Review
+    public function reviewOrigin(OriginInterface $origin): Review
     {
         // obtener la información de la url del origen
         $response = $this->gateway->headers($origin->url());

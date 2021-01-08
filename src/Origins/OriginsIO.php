@@ -31,14 +31,14 @@ class OriginsIO
         return new Origins($origins);
     }
 
-    protected function readOrigin(SimpleXMLElement $origin): Origin
+    protected function readOrigin(SimpleXMLElement $origin): OriginInterface
     {
-        $lastUpdate = (string) $origin['last-update'];
-        return new Origin(
-            (string) $origin['name'],
-            (string) $origin['href'],
-            ('' !== $lastUpdate) ? new DateTimeImmutable($lastUpdate) : null
-        );
+        $nameValue = (string) $origin['name'];
+        $hrefValue = (string)$origin['href'];
+        $lastUpdateValue = (string) $origin['last-update'];
+        /** @noinspection PhpUnhandledExceptionInspection */
+        $lastUpdate = ('' !== $lastUpdateValue) ? new DateTimeImmutable($lastUpdateValue) : null;
+        return new Origin($nameValue, $hrefValue, $lastUpdate);
     }
 
     public function originsToString(Origins $origins): string

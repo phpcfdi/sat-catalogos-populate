@@ -39,7 +39,7 @@ class Upgrader
         return $this->gateway;
     }
 
-    public function buildOriginPath(Origin $origin): string
+    public function buildOriginPath(OriginInterface $origin): string
     {
         $path = (string) parse_url($origin->url(), PHP_URL_PATH);
         // TODO: Validate if url does not have a path
@@ -94,7 +94,7 @@ class Upgrader
         return new Origins($origins);
     }
 
-    public function upgradeReview(Review $review): Origin
+    public function upgradeReview(Review $review): OriginInterface
     {
         $origin = $review->origin();
         $destination = $this->buildOriginPath($origin);

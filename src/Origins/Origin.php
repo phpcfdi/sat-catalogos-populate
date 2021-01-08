@@ -7,7 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use DateTimeImmutable;
 use LogicException;
 
-class Origin
+class Origin implements OriginInterface
 {
     /** @var string */
     private $name;
