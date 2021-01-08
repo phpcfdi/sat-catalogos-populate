@@ -16,7 +16,7 @@ interface ResourcesGatewayInterface
     public function headers(string $url): UrlResponse;
 
     /**
-     * Obtain the web resource using Http GET method and store it into destination
+     * Obtain the web resource using Http GET method and optionally store it into destination
      * Return the UrlResponse with http-status and last-modification
      *
      * @param string $url
