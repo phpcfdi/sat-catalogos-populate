@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Commands;
 use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
+use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
 use Psr\Log\LoggerInterface;
 
 class DumpOrigins implements CommandInterface
@@ -20,7 +21,13 @@ class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
             new ConstantOrigin('CCE - Colonias', "{$common}/c_Colonia.xls"),
             new ConstantOrigin('CCE - Entidades o estados', "{$common}/C_Estado.xls"),
-            new ConstantOrigin('CCE - Fracciones arancelarias', "{$common}/c_FraccionArancelaria.xls"),
+            new ConstantOrigin('CCE - Fracciones arancelarias 2020', "{$common}/c_FraccionArancelaria.xls"),
+            new ScrapingOrigin(
+                'CCE - Fracciones arancelarias 2021',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm',
+                'c_FraccionArancelaria_2021.xls',
+                'Catálogo vigente a partir del 28 de diciembre de 2020',
+            ),
             new ConstantOrigin('CCE - Incoterms', "{$common}/c_INCOTERM.xls"),
             new ConstantOrigin('CCE - Localidades', "{$common}/c_Localidad.xls"),
             new ConstantOrigin('CCE - Motivo traslado', "{$common}/c_MotivoTraslado.xls"),

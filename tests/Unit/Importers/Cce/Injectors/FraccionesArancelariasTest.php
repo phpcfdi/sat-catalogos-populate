@@ -27,7 +27,7 @@ class FraccionesArancelariasTest extends TestCase
     {
         parent::setUp();
         $this->sourceFile = $this->utilFilePath('cce/c_FraccionArancelaria.csv');
-        $this->injector = new FraccionesArancelarias($this->sourceFile);
+        $this->injector = new FraccionesArancelarias($this->sourceFile, true);
     }
 
     public function testFraccionesArancelariasExtendsAbstractCsvInjector(): void
@@ -58,7 +58,7 @@ class FraccionesArancelariasTest extends TestCase
         $dataTable = $this->injector->dataTable();
         $this->assertSame('cce_fracciones_arancelarias', $dataTable->name());
         $expectedClasses = [
-            'fraccion' => PaddingDataField::class,
+            'fraccion' => TextDataField::class,
             'texto' => TextDataField::class,
             'vigencia_desde' => DateDataField::class,
             'vigencia_hasta' => DateDataField::class,

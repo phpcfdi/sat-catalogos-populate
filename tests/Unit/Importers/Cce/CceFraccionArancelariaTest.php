@@ -14,7 +14,7 @@ class CceFraccionArancelariaTest extends TestCase
     public function testImporterInstance(): void
     {
         // no need to test in depth, abstract class and injector is been tested
-        $importer = new CceFraccionArancelaria();
+        $importer = new CceFraccionArancelaria(true);
         $this->assertInstanceOf(AbstractXlsOneSheetImporter::class, $importer);
         $this->assertInstanceOf(FraccionesArancelarias::class, $importer->createInjector(''));
         $this->assertSame('c_FraccionArancelaria', $importer->sheetName());

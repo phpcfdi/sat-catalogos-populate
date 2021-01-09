@@ -9,6 +9,14 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 
 class CceFraccionArancelaria extends AbstractXlsOneSheetImporter
 {
+    /** @var bool */
+    private $recreateTable;
+
+    public function __construct(bool $recreateTable)
+    {
+        $this->recreateTable = $recreateTable;
+    }
+
     public function sheetName(): string
     {
         return 'c_FraccionArancelaria';
@@ -16,6 +24,6 @@ class CceFraccionArancelaria extends AbstractXlsOneSheetImporter
 
     public function createInjector(string $csvFile): InjectorInterface
     {
-        return new Injectors\FraccionesArancelarias($csvFile);
+        return new Injectors\FraccionesArancelarias($csvFile, $this->recreateTable);
     }
 }

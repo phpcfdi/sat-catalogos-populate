@@ -44,9 +44,11 @@ abstract class AbstractCsvInjector implements InjectorInterface
         $tableName = $this->dataTable()->name();
         $filename = basename($this->sourceFile);
 
-        $logger->info("Creando tabla {$tableName}...");
         $gateway = new DataTableGateway($this->dataTable(), $repository);
-        $gateway->recreate();
+        if ($this->shouldRecreateTable()) {
+            $logger->info("Creando tabla {$tableName}...");
+            $gateway->recreate();
+        }
 
         $logger->info("Verificando encabezado de {$filename}...");
         $csv = $this->createCsvFileReader();
@@ -85,5 +87,10 @@ abstract class AbstractCsvInjector implements InjectorInterface
         foreach ($csv->readLines() as $line) {
             yield $line;
         }
+    }
+
+    protected function shouldRecreateTable(): bool
+    {
+        return true;
     }
 }
