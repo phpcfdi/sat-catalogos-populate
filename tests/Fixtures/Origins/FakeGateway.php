@@ -9,36 +9,35 @@ use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 
 class FakeGateway implements ResourcesGatewayInterface
 {
-    /** @var array<string, array> */
-    public $collection = [];
+    /** @var array<string, UrlResponse> */
+    private $collection = [];
 
-    ///** @var bool */
-    //public $realCopy = false;
-
-    public function add(UrlResponse $urlResponse, string $filename = ''): void
+    public function add(UrlResponse $urlResponse): void
     {
-        $this->collection[$urlResponse->url()] = [
-            'urlResponse' => $urlResponse,
-            'filename' => $filename,
-        ];
+        $url = $this->normalizeUrl($urlResponse->url());
+        $this->collection[$url] = $urlResponse;
     }
 
     public function headers(string $url): UrlResponse
     {
+        $url = $this->normalizeUrl($url);
         if (! isset($this->collection[$url])) {
             return new UrlResponse($url, 404);
         }
-        return $this->collection[$url]['urlResponse'];
+        return $this->collection[$url];
     }
 
     public function get(string $url, string $destination): UrlResponse
     {
+        $url = $this->normalizeUrl($url);
         if (! isset($this->collection[$url])) {
             return new UrlResponse($url, 404);
         }
-        //if ($this->realCopy) {
-        //    copy($this->collection[$url]['filename'], $destination);
-        //}
-        return $this->collection[$url]['urlResponse'];
+        return $this->collection[$url];
+    }
+
+    private function normalizeUrl(string $url): string
+    {
+        return $url;
     }
 }

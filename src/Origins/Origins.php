@@ -7,12 +7,12 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use PhpCfdi\SatCatalogosPopulate\AbstractCollection;
 
 /**
- * @method Origin[] all(): array
+ * @method OriginInterface[] all(): array
  */
 class Origins extends AbstractCollection
 {
     public function isValidMember($member): bool
     {
-        return ($member instanceof Origin);
+        return ($member instanceof OriginInterface);
     }
 }

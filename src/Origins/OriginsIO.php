@@ -4,12 +4,19 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
-use DateTimeImmutable;
 use DOMDocument;
 use SimpleXMLElement;
 
 class OriginsIO
 {
+    /** @var OriginsTranslator */
+    private $translator;
+
+    public function __construct()
+    {
+        $this->translator = new OriginsTranslator();
+    }
+
     public function readFile(string $filename): Origins
     {
         return $this->originsFromString(file_get_contents($filename) ?: '');
@@ -31,14 +38,14 @@ class OriginsIO
         return new Origins($origins);
     }
 
-    protected function readOrigin(SimpleXMLElement $origin): Origin
+    protected function readOrigin(SimpleXMLElement $origin): OriginInterface
     {
-        $lastUpdate = (string) $origin['last-update'];
-        return new Origin(
-            (string) $origin['name'],
-            (string) $origin['href'],
-            ('' !== $lastUpdate) ? new DateTimeImmutable($lastUpdate) : null
-        );
+        $attributes = [];
+        foreach (($origin->attributes() ?? []) as $key => $value) {
+            $attributes[$key] = (string) $value;
+        }
+
+        return $this->translator->originFromArray($attributes);
     }
 
     public function originsToString(Origins $origins): string
@@ -48,13 +55,11 @@ class OriginsIO
         $document->preserveWhiteSpace = false;
         $root = $document->createElement('origins');
         $document->appendChild($root);
-        /** @var Origin $origin */
+        /** @var OriginInterface $origin */
         foreach ($origins as $origin) {
             $child = $document->createElement('origin');
-            $child->setAttribute('name', $origin->name());
-            $child->setAttribute('href', $origin->url());
-            if ($origin->hasLastVersion()) {
-                $child->setAttribute('last-update', $origin->lastVersion()->format('c'));
+            foreach ($this->translator->originToArray($origin) as $key => $value) {
+                $child->setAttribute($key, $value);
             }
             $root->appendChild($child);
         }

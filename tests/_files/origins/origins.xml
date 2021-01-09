@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <origins>
     <origin name="Foo" href="http://example.com/foo.txt" last-update="2018-01-13T19:58:59+00:00" />
     <origin name="Bar" href="http://example.com/bar.txt" last-update="2017-12-31T18:00:00-06:00" />
     <origin name="Baz" href="http://example.com/baz.txt" last-update="2017-12-31T18:00:00-06:00" />
+    <origin name="Xee" type="scrap" href="http://example.com/xee.html" link-text="download xee file" destination-file="xee.txt" last-update="2017-12-31T18:00:00-06:00" />
 </origins>

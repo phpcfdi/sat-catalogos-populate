@@ -9,7 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\SourcesImporter;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
-use PhpCfdi\SatCatalogosPopulate\Origins\Reviewer;
+use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
 use PhpCfdi\SatCatalogosPopulate\Origins\Upgrader;
 use PhpCfdi\SatCatalogosPopulate\Origins\WebResourcesGateway;
@@ -106,26 +106,26 @@ class UpdateOrigins implements CommandInterface
     {
         $origins = $this->originsRestore();
         $resourcesGateway = $this->createResourcesGateway();
-        $reviewer = new Reviewer($resourcesGateway);
-        $reviews = $reviewer->review($origins);
+        $reviewers = Reviewers::createWithDefaultReviewers($resourcesGateway);
+        $reviews = $reviewers->review($origins);
 
         $notFoundReviews = $reviews->filterStatus(ReviewStatus::notFound());
         $notUpdatedReviews = $reviews->filterStatus(ReviewStatus::notUpdated());
         $upToDateReviews = $reviews->filterStatus(ReviewStatus::uptodate());
 
         foreach ($upToDateReviews as $review) {
-            $this->logger->info(sprintf('El origen %s está actualizado', $review->origin()->url()));
+            $this->logger->info(sprintf('El origen %s está actualizado', $review->origin()->downloadUrl()));
         }
         foreach ($notUpdatedReviews as $review) {
             if (! $review->origin()->hasLastVersion()) {
                 $this->logger->info(sprintf(
                     'El origen %s no existe, se descargará',
-                    $review->origin()->url()
+                    $review->origin()->downloadUrl()
                 ));
             } else {
                 $this->logger->info(sprintf(
                     'El origen %s está desactualizado, la nueva versión tiene fecha %s',
-                    $review->origin()->url(),
+                    $review->origin()->downloadUrl(),
                     $review->origin()->lastVersion()->format('c')
                 ));
             }

@@ -16,6 +16,15 @@ use RuntimeException;
 
 class FraccionesArancelarias extends AbstractCsvInjector
 {
+    /** @var bool Indicates if the injector must recreate the table */
+    private $shouldRecreateTable;
+
+    public function __construct(string $sourceFile, bool $shouldRecreateTable)
+    {
+        parent::__construct($sourceFile);
+        $this->shouldRecreateTable = $shouldRecreateTable;
+    }
+
     protected function createCsvFileReader(): CsvFile
     {
         return new CsvFile($this->sourceFile(), new RightTrim());
@@ -43,11 +52,16 @@ class FraccionesArancelarias extends AbstractCsvInjector
     public function dataTable(): DataTable
     {
         return new DataTable('cce_fracciones_arancelarias', new DataFields([
-            new PaddingDataField('fraccion', '0', 8),
+            new TextDataField('fraccion'),
             new TextDataField('texto'),
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),
             new PaddingDataField('unidad', '0', 2),
         ]));
+    }
+
+    protected function shouldRecreateTable(): bool
+    {
+        return $this->shouldRecreateTable;
     }
 }

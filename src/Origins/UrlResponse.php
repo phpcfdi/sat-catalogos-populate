@@ -17,11 +17,15 @@ class UrlResponse
     /** @var DateTimeImmutable */
     private $lastModified;
 
-    public function __construct(string $url, int $httpStatus, DateTimeImmutable $lastModified = null)
+    /** @var string */
+    private $body;
+
+    public function __construct(string $url, int $httpStatus, DateTimeImmutable $lastModified = null, string $body = '')
     {
         $this->url = $url;
         $this->httpStatus = $httpStatus;
         $this->lastModified = ($lastModified) ?: new DateTimeImmutable();
+        $this->body = $body;
     }
 
     public function url(): string
@@ -47,5 +51,10 @@ class UrlResponse
     public function dateMatch(DateTimeImmutable $date): bool
     {
         return ($this->lastModified->format('U') === $date->format('U'));
+    }
+
+    public function body(): string
+    {
+        return $this->body;
     }
 }

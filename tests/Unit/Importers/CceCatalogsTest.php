@@ -28,7 +28,8 @@ class CceCatalogsTest extends TestCase
             CceClavePedimento::class,
             CceColonia::class,
             CceEstado::class,
-            CceFraccionArancelaria::class,
+            CceFraccionArancelaria::class, // Fracciones Arancelarias 2020
+            CceFraccionArancelaria::class, // Fracciones Arancelarias 2021
             CceIncoterm::class,
             CceLocalidad::class,
             CceMotivoTraslado::class,
