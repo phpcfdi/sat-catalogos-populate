@@ -8,7 +8,7 @@ build:
   dependencies:
     override:
       - composer self-update --stable --2 --no-interaction
-      - composer remove squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpstan/phpstan --dev --no-interaction --no-progress --no-update
+      - composer remove phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpstan/phpstan --dev --no-interaction --no-progress --no-update
       - composer update --no-interaction --prefer-dist
   nodes:
     analysis: # see https://scrutinizer-ci.com/docs/tools/php/php-scrutinizer/
@@ -16,7 +16,7 @@ build:
       tests:
         override:
           - php-scrutinizer-run --enable-security-analysis
-          - command: vendor/bin/phpunit --verbose --coverage-clover=build/coverage.clover
-            coverage:
-              file: build/coverage.clover
-              format: clover
+
+tools:
+  external_code_coverage:
+    timeout: 600 # default is 300 seconds, travis build can take more than that
