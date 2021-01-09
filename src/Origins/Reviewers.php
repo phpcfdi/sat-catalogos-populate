@@ -20,6 +20,7 @@ class Reviewers
     {
         return new self(...[
             new ConstantReviewer($gateway),
+            new ScrapingReviewer($gateway),
         ]);
     }
 
@@ -40,6 +41,6 @@ class Reviewers
                 return $reviewer;
             }
         }
-        throw new LogicException(sprintf('Unable to review an ConstantOrigin of class %s', get_class($origin)));
+        throw new LogicException(sprintf('Unable to review an origin of class %s', get_class($origin)));
     }
 }

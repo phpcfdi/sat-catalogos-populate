@@ -25,11 +25,20 @@ class UpgraderTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
+        /** @noinspection HtmlUnknownTarget */
+        $xeeWebPage = <<<HTML
+            <html lang="en">
+            <li><a href="files/xee.txt">download xee file</a></li>
+            </body>
+            </html>
+        HTML;
         $gateway = new FakeGateway();
-        $lastModified = new DateTimeImmutable('2017-06-06');
+        $lastModified = new DateTimeImmutable('2020-06-06');
         $gateway->add(new UrlResponse('http://example.com/foo.txt', 200, $lastModified));
         $gateway->add(new UrlResponse('http://example.com/bar.txt', 200, $lastModified));
         $gateway->add(new UrlResponse('http://example.com/baz.txt', 200, $lastModified));
+        $gateway->add(new UrlResponse('http://example.com/xee.html', 200, $lastModified, $xeeWebPage));
+        $gateway->add(new UrlResponse('http://example.com/files/xee.txt', 200, $lastModified));
         $upgrader = new Upgrader($gateway, $this->utilFilePath('origins'), new NullLogger());
 
         $this->lastModified = $lastModified;
@@ -72,13 +81,17 @@ class UpgraderTest extends TestCase
     {
         $origins = $this->upgrader->upgrade();
 
-        // it must contains the 3 origins
-        $this->assertCount(3, $origins);
+        // it must contains the 4 origins
+        $this->assertCount(4, $origins);
 
-        // all 3 must be set to this test last modified value
+        // all 4 must be set to this test last modified value
         /** @var ConstantOrigin $origin */
         foreach ($origins as $origin) {
-            $this->assertEquals($this->lastModified, $origin->lastVersion());
+            $this->assertEquals(
+                $this->lastModified,
+                $origin->lastVersion(),
+                "The origin {$origin->name()} did not has the last version date"
+            );
         }
     }
 }
