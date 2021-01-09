@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+DESTDIR="${1:-$(mktemp -d -u)}"
+mkdir -p "${DESTDIR}"
+echo "Working directory: $DESTDIR"
+
+php bin/sat-catalogos-update dump-origins > "${DESTDIR}/origins.xml" && \
+php bin/sat-catalogos-update update-origins "${DESTDIR}/" && \
+php bin/sat-catalogos-update update-database "${DESTDIR}/" "${DESTDIR}/catalogos.sqlite3" && \
+exit 0
