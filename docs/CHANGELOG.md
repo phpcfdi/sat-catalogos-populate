@@ -1,5 +1,9 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version UNRELEASED 2021-01-08
+
+- Move code coverage generation from Travis-CI to Scrutinizer.
+
 ## Version 1.2.0 2021-01-08
 
 - Update `CCE - Unidades de medida`, the new catalog includes "vigencias".

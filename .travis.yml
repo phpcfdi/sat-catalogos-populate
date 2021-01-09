@@ -6,11 +6,6 @@ dist: bionic
 php:
   - "7.3"
 
-env:
-  global:
-    - XDEBUG_MODE=coverage
-    - COVERAGE_FILE=build/coverage-clover.xml
-
 addons:
   apt:
     packages:
@@ -26,18 +21,10 @@ before_script:
 script:
   - vendor/bin/php-cs-fixer fix --verbose
   - vendor/bin/phpcbf --colors -sp src/ tests/
-  - php -d zend_extension=xdebug.so vendor/bin/phpunit --testdox --coverage-clover "$COVERAGE_FILE"
+  - php vendor/bin/phpunit --testdox
   - vendor/bin/phpstan.phar analyse --no-progress --level max src/ tests/
   - bin/sat-catalogos-update dump-origins > build/origins.xml
   - bin/sat-catalogos-update update-origins build/ -w build/database.sqlite3
-
-after_script:
-  - |
-    if [[ -e "$COVERAGE_FILE" ]]; then
-      wget https://scrutinizer-ci.com/ocular.phar
-      php ocular.phar code-coverage:upload --format=php-clover "$COVERAGE_FILE"
-      echo "Scrutinizer code coverage upload status: $?"
-    fi
 
 notifications:
   email:
