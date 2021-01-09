@@ -19,6 +19,7 @@ addons:
 
 before_script:
   - phpenv config-rm xdebug.ini || true
+  - travis_retry composer self-update --stable --2 --no-interaction --prefer-dist
   - travis_retry composer install --no-interaction --prefer-dist
 
 script:
