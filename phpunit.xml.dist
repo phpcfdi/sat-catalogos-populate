@@ -1,13 +1,18 @@
-<phpunit bootstrap="./tests/bootstrap.php" colors="true" verbose="true">
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+    cacheResultFile="build/phpunit.result.cache"
+    colors="true"
+    verbose="true"
+    bootstrap="tests/bootstrap.php">
     <testsuites>
         <testsuite name="Default">
-            <directory suffix="Test.php">./tests/</directory>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
-    <!-- only include source files from code coverage -->
-    <filter>
-        <whitelist>
+    <coverage>
+        <include>
             <directory suffix=".php">./src/</directory>
-        </whitelist>
-    </filter>
+        </include>
+    </coverage>
 </phpunit>
