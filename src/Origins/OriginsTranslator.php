@@ -64,8 +64,8 @@ final class OriginsTranslator
         return array_filter([
             'name' => $origin->name(),
             'href' => $origin->url(),
-            'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
             'destination-file' => $origin->destinationFilename(),
+            'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
         ]);
     }
 

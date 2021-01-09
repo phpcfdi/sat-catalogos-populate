@@ -34,7 +34,7 @@ class ConstantOrigin implements OriginInterface
             $destinationFilename = basename($destinationFilename);
         }
         if ('' === $destinationFilename) {
-            $destinationFilename = (string) parse_url($url, PHP_URL_PATH);
+            $destinationFilename = ltrim(parse_url($url, PHP_URL_PATH) ?: '', '/');
         }
         if ('' === $destinationFilename) {
             throw new InvalidArgumentException('The is no destination filename and url does not have a valid basename');

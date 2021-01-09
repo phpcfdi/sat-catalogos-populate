@@ -25,7 +25,7 @@ class ConstantReviewerTest extends TestCase
 
     public function testAcceptsWithValidObject(): void
     {
-        $origin = new ConstantOrigin('Foo', 'http://foo/');
+        $origin = new ConstantOrigin('Foo', 'http://foo/foo');
         $this->assertTrue($this->reviewer->accepts($origin));
     }
 
