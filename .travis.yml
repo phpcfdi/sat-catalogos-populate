@@ -40,4 +40,5 @@ after_script:
     fi
 
 notifications:
-  email: false
+  email:
+    if: branch = master
