@@ -1,11 +1,18 @@
 filter:
   excluded_paths:
     - 'tests/'
+  dependency_paths:
     - 'vendor/'
 
 build:
+  dependencies:
+    override:
+      - composer composer self-update --stable --2 --no-interaction --prefer-dist
+      - composer remove phpunit/phpunit squizlabs/php_codesniffer friendsofphp/php-cs-fixer phpstan/phpstan --dev --no-interaction --no-progress --no-update
+      - composer update --no-interaction --prefer-dist
   nodes:
-    analysis:
+    analysis: # see https://scrutinizer-ci.com/docs/tools/php/php-scrutinizer/
+      project_setup: {override: true}
       tests:
         override:
           - php-scrutinizer-run --enable-security-analysis
