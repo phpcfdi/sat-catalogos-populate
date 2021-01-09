@@ -92,7 +92,7 @@ class ScrapingOrigin implements OriginInterface
         return $this->downloadUrl;
     }
 
-    public function isResolved(): bool
+    public function hasDownloadUrl(): bool
     {
         return ('' !== $this->downloadUrl);
     }

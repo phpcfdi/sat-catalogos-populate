@@ -23,7 +23,7 @@ class ScrapingReviewer implements ReviewerInterface
         return $this->gateway;
     }
 
-    public function accept(OriginInterface $origin): bool
+    public function accepts(OriginInterface $origin): bool
     {
         return ($origin instanceof ScrapingOrigin);
     }
@@ -31,11 +31,15 @@ class ScrapingReviewer implements ReviewerInterface
     public function review(OriginInterface $origin): Review
     {
         if (! $origin instanceof ScrapingOrigin) {
-            throw new LogicException('This revewer can only handle ScrapingOrigin objects');
+            throw new LogicException('This reviewer can only handle ScrapingOrigin objects');
         }
 
-        if (! $origin->isResolved()) {
-            $origin = $this->resolveOrigin($origin);
+        if (! $origin->hasDownloadUrl()) {
+            try {
+                $origin = $this->resolveOrigin($origin);
+            } catch (RuntimeException $exception) {
+                return new Review($origin, ReviewStatus::notFound());
+            }
         }
 
         $response = $this->gateway->headers($origin->downloadUrl());
@@ -56,22 +60,21 @@ class ScrapingReviewer implements ReviewerInterface
 
     public function resolveOrigin(ScrapingOrigin $origin): ScrapingOrigin
     {
-        $gateway = $this->gateway();
-        $baseResource = $gateway->get($origin->url(), '');
-        $downloadUrl = $this->resolveHtmlToLink($baseResource->body(), $origin->linkText());
+        $baseResource = $this->gateway->get($origin->url(), '');
+        $downloadUrl = $this->resolveHtmlToLink($baseResource, $origin->linkText());
         return $origin->withDownloadUrl($downloadUrl);
     }
 
-    public function resolveHtmlToLink(string $html, string $linkText): string
+    public function resolveHtmlToLink(UrlResponse $response, string $linkText): string
     {
-        if (empty($html)) {
+        if (empty($response->body())) {
             throw new RuntimeException('Content is empty');
         }
-        $crawler = new Crawler($html);
-        $link = $crawler->selectLink($linkText);
-        $downloadUrl = strval($link->attr('href'));
+        $crawler = new Crawler($response->body(), $response->url());
+        $link = $crawler->selectLink($linkText)->link();
+        $downloadUrl = $link->getUri();
         if (empty($downloadUrl)) {
-            throw new RuntimeException('The link was foung but it does not contains the url to download');
+            throw new RuntimeException('The link was found but it does not contains the url to download');
         }
 
         return $downloadUrl;

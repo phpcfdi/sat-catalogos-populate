@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
+use LogicException;
+
 class ConstantReviewer implements ReviewerInterface
 {
     /** @var ResourcesGatewayInterface */
@@ -14,13 +16,17 @@ class ConstantReviewer implements ReviewerInterface
         $this->gateway = $gateway;
     }
 
-    public function accept(OriginInterface $origin): bool
+    public function accepts(OriginInterface $origin): bool
     {
         return ($origin instanceof ConstantOrigin);
     }
 
     public function review(OriginInterface $origin): Review
     {
+        if (! $origin instanceof ConstantOrigin) {
+            throw new LogicException('This reviewer can only handle ConstantOrigin objects');
+        }
+
         // obtener la información de la url del origen
         $response = $this->gateway->headers($origin->url());
 

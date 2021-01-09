@@ -6,7 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 interface ReviewerInterface
 {
-    public function accept(OriginInterface $origin): bool;
+    public function accepts(OriginInterface $origin): bool;
 
     public function review(OriginInterface $origin): Review;
 }

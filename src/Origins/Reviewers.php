@@ -36,7 +36,7 @@ class Reviewers
     public function findReviewerByOrigin(OriginInterface $origin): ReviewerInterface
     {
         foreach ($this->reviewers as $reviewer) {
-            if ($reviewer->accept($origin)) {
+            if ($reviewer->accepts($origin)) {
                 return $reviewer;
             }
         }
