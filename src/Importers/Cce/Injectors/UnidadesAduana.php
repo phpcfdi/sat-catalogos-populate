@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
@@ -20,6 +21,8 @@ class UnidadesAduana extends AbstractCsvInjector
         $expected = [
             'C_UnidadMedida',
             'Descripción',
+            'Fecha inicio de vigencia',
+            'Fecha fin de vigencia',
         ];
         $headers = $csv->readLine();
 
@@ -35,6 +38,8 @@ class UnidadesAduana extends AbstractCsvInjector
         return new DataTable('cce_unidades_medida', new DataFields([
             new PaddingDataField('id', '0', 2),
             new TextDataField('texto'),
+            new DateDataField('vigencia_desde'),
+            new DateDataField('vigencia_hasta'),
         ]));
     }
 }
