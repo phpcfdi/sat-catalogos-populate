@@ -1,6 +1,6 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
-## Version 1.2.0 2020-01-08
+## Version 1.2.0 2021-01-08
 
 - Update `CCE - Unidades de medida`, the new catalog includes "vigencias".
 - Add `CCE - Fracciones arancelarias 2021`, the new catalog has the same structure as `CCE - Fracciones arancelarias`
@@ -15,7 +15,7 @@
 - Add dependency to `symfony/dom-crawler` in order to scrap catalog pages.
 - Update license year, HNY from PhpCfdi!
 
-## Version 1.1.1 2020-01-05
+## Version 1.1.1 2021-01-05
 
 - Update to new catalog c_ClaveProdServ, the layout (version 4, rev 0) includes a row with a title since 2020-12-29.
 - Travis-CI:
