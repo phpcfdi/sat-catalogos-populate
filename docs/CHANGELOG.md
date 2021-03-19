@@ -1,5 +1,11 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 1.2.1 2021-03-18
+
+- Found some cases where imported cells contains left or right a non breacking space `&nbsp;`.
+  On this update this chars will be replaced to space and then trimmed.
+- Update test files with catalog information for 2021-03-18. The structure remains.
+
 ## Version 1.2.0 2021-01-08
 
 - Update `CCE - Unidades de medida`, the new catalog includes "vigencias".
