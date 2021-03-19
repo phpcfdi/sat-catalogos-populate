@@ -1,6 +1,6 @@
 Catálogo de códigos postales.,,,,,,,,,,,,,,,
 Versión,Revisión,Fecha de publicación,,,,,,,,,,,,,
-4.0,2,2019-10-10,,,,,,,,,,,,,
+4.0,3,2021-01-05,,,,,,,,,,,,,
 c_CodigoPostal,c_Estado,c_Municipio,c_Localidad,Estímulo Franja Fronteriza,Fecha inicio de vigencia ,Fecha fin de vigencia,Referencias del Huso Horario,,,,,,,,
 ,,,,,,,Descripción del Huso Horario,Mes_Inicio_Horario_Verano,Día_Inicio_Horario_Verano,Día_Inicio_Horario_Verano,Diferencia_Horaria_Verano,Mes_Inicio_Horario_Invierno,Día_Inicio_Horario_Invierno,Día_Inicio_Horario_Invierno,Diferencia_Horaria_Invierno
 64280,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
@@ -63,6 +63,39 @@ c_CodigoPostal,c_Estado,c_Municipio,c_Localidad,Estímulo Franja Fronteriza,Fech
 64337,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
 64338,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
 64339,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64340,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64341,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64342,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64343,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64344,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64345,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64346,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64347,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64348,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64349,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64350,NLE,039,07,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64351,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64352,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64353,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64354,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64355,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64356,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64357,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+64358,NLE,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99916,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99917,ZAC,034,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99918,ZAC,034,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99919,ZAC,034,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99920,ZAC,002,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99921,ZAC,002,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99922,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99923,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99924,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99925,ZAC,002,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99926,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99927,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99928,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
+99929,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
 99930,ZAC,002,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
 99931,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
 99932,ZAC,,,0,2019-01-07,,Tiempo del Centro,Abril,Primer domingo,02:00,-5,Octubre,Último domingo,02:00,-6
