@@ -1,5 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.xls text=binary
+*.xlsx text=binary
 
 # Do not put this files on a distribution package (by .gitignore)
 /vendor              export-ignore
