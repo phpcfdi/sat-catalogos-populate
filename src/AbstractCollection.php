@@ -8,7 +8,6 @@ use ArrayIterator;
 use Countable;
 use InvalidArgumentException;
 use IteratorAggregate;
-use Traversable;
 
 /**
  * @template T
@@ -16,7 +15,7 @@ use Traversable;
  */
 abstract class AbstractCollection implements Countable, IteratorAggregate
 {
-    /** @var array<T> */
+    /** @var array<int, T> */
     private array $members;
 
     private int $count;
@@ -88,8 +87,8 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
         return $this->members[$this->count - 1];
     }
 
-    /** @return Traversable<T> */
-    public function getIterator(): Traversable
+    /** @return ArrayIterator<int, T> */
+    public function getIterator(): ArrayIterator
     {
         return new ArrayIterator($this->members);
     }

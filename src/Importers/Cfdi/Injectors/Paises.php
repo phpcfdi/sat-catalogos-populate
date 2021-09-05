@@ -38,7 +38,7 @@ class Paises extends AbstractCsvInjector implements InjectorInterface
 
     public function dataTable(): DataTable
     {
-        $optionalPattern = function (string $input) {
+        $optionalPattern = function (string $input): string {
             if ('' === $input) {
                 return '';
             }

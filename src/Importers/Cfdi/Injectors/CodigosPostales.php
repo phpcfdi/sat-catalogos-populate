@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors;
 
+use Generator;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\BoolDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
@@ -80,7 +81,8 @@ class CodigosPostales extends AbstractCsvInjector
         ]));
     }
 
-    protected function readLinesFromCsv(CsvFile $csv)
+    /** @inheritdoc */
+    protected function readLinesFromCsv(CsvFile $csv): Generator
     {
         foreach ($csv->readLines() as $line) {
             if ('00000' === $line[0]) {

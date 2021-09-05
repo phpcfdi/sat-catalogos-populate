@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate;
 
+use Generator;
+use Iterator;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTableGateway;
 use PhpCfdi\SatCatalogosPopulate\Database\Repository;
@@ -11,7 +13,6 @@ use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use Traversable;
 
 abstract class AbstractCsvInjector implements InjectorInterface
 {
@@ -79,13 +80,11 @@ abstract class AbstractCsvInjector implements InjectorInterface
 
     /**
      * @param CsvFile $csv
-     * @return Traversable<array>
+     * @return Generator<int, array<int, scalar>>
      */
-    protected function readLinesFromCsv(CsvFile $csv)
+    protected function readLinesFromCsv(CsvFile $csv): Iterator
     {
-        foreach ($csv->readLines() as $line) {
-            yield $line;
-        }
+        yield from $csv->readLines();
     }
 
     protected function shouldRecreateTable(): bool

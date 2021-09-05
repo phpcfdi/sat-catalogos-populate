@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Utils;
 
 use Generator;
+use Iterator;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\ArrayProcessorInterface;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\NullArrayProcessor;
 use SeekableIterator;
@@ -67,7 +68,7 @@ class CsvFile implements SeekableIterator
     }
 
     /** @return Generator<int, array<int, scalar>> */
-    public function readLines(): Generator
+    public function readLines(): Iterator
     {
         while (! $this->eof()) {
             yield $this->readLine();

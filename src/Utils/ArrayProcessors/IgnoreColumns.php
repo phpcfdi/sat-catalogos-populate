@@ -7,7 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors;
 class IgnoreColumns extends AbstractPipeArrayProcessor implements ArrayProcessorInterface
 {
     /** @var array<int, int> */
-    private $columns;
+    private array $columns;
 
     public function __construct(ArrayProcessorInterface $next = null, int ...$columns)
     {
@@ -21,6 +21,7 @@ class IgnoreColumns extends AbstractPipeArrayProcessor implements ArrayProcessor
         return $this->columns;
     }
 
+    /** @inheritdoc */
     public function execute(array $array): array
     {
         $array = array_values(

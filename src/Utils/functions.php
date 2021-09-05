@@ -22,12 +22,10 @@ function array_rtrim(array $input): array
 }
 
 /**
- * @param string $dir
- * @param string $prefix
  * @return string
  * @throws RuntimeException Cannot create a temporary file name
  */
-function tempname($dir = '', $prefix = ''): string
+function tempname(string $dir = '', string $prefix = ''): string
 {
     /** @noinspection PhpUsageOfSilenceOperatorInspection */
     $tempname = @tempnam($dir, $prefix);

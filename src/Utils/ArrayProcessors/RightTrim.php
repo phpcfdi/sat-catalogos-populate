@@ -8,6 +8,7 @@ use function PhpCfdi\SatCatalogosPopulate\Utils\array_rtrim;
 
 class RightTrim extends AbstractPipeArrayProcessor implements ArrayProcessorInterface
 {
+    /** @inheritdoc */
     public function execute(array $array): array
     {
         return parent::execute(array_rtrim($array));

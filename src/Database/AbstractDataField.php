@@ -19,7 +19,7 @@ abstract class AbstractDataField implements DataFieldInterface
     {
         $this->name = $name;
         if (null === $transformFunction) {
-            $transformFunction = fn ($input) => trim($input);
+            $transformFunction = fn ($input): string => trim($input);
         }
         $this->transformFunction = $transformFunction;
     }

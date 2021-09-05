@@ -8,7 +8,6 @@ use PhpCfdi\SatCatalogosPopulate\Database\Repository;
 use PhpCfdi\SatCatalogosPopulate\Importers\SourcesImporter;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
-use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
 use PhpCfdi\SatCatalogosPopulate\Origins\Upgrader;
@@ -91,7 +90,7 @@ class UpdateOrigins implements CommandInterface
         (new OriginsIO())->writeFile($this->getOriginsFile(), $origins);
     }
 
-    public function createResourcesGateway(): ResourcesGatewayInterface
+    public function createResourcesGateway(): WebResourcesGateway
     {
         return new WebResourcesGateway();
     }

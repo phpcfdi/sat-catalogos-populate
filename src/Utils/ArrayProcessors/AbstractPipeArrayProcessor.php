@@ -13,6 +13,7 @@ abstract class AbstractPipeArrayProcessor implements ArrayProcessorInterface
         $this->next = (null === $next) ? new NullArrayProcessor() : $next;
     }
 
+    /** @inheritdoc */
     public function execute(array $array): array
     {
         return $this->next->execute($array);
