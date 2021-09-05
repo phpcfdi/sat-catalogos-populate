@@ -27,11 +27,11 @@ class UpgraderTest extends TestCase
         parent::setUp();
         /** @noinspection HtmlUnknownTarget */
         $xeeWebPage = <<<HTML
-            <html lang="en">
-            <li><a href="files/xee.txt">download xee file</a></li>
-            </body>
-            </html>
-        HTML;
+                <html lang="en">
+                <li><a href="files/xee.txt">download xee file</a></li>
+                </body>
+                </html>
+            HTML;
         $gateway = new FakeGateway();
         $lastModified = new DateTimeImmutable('2020-06-06');
         $gateway->add(new UrlResponse('http://example.com/foo.txt', 200, $lastModified));

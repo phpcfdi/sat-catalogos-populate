@@ -4,5 +4,6 @@
 *.xlsx text=binary
 
 # Do not put this files on a distribution package (by .gitignore)
+/tools               export-ignore
 /vendor              export-ignore
 /composer.lock       export-ignore

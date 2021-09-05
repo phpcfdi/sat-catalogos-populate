@@ -28,13 +28,13 @@ class ScrapingReviewerTest extends TestCase
         $this->reviewer = new ScrapingReviewer($fakeGateway);
         /** @noinspection HtmlUnknownTarget */
         $webpage = <<<HTML
-            <html lang="en">
-            <body><h1>sample</h1>
-            <li><a href="files/foo.txt">foo</a></li>
-            <li><a href="files/bar.txt">bar</a></li>
-            </body>
-            </html>
-        HTML;
+                <html lang="en">
+                <body><h1>sample</h1>
+                <li><a href="files/foo.txt">foo</a></li>
+                <li><a href="files/bar.txt">bar</a></li>
+                </body>
+                </html>
+            HTML;
         $this->urlFooFile = 'http://example.com/files/foo.txt';
         $this->urlPageToScrap = 'http://example.com/index.html';
         $fakeGateway->add( // web page to scrap
