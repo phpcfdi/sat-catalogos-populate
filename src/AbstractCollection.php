@@ -10,13 +10,16 @@ use InvalidArgumentException;
 use IteratorAggregate;
 use Traversable;
 
+/**
+ * @template T
+ * @implements IteratorAggregate<T>
+ */
 abstract class AbstractCollection implements Countable, IteratorAggregate
 {
-    /** @var array */
-    private $members;
+    /** @var array<T> */
+    private array $members;
 
-    /** @var int */
-    private $count;
+    private int $count;
 
     /**
      * @param mixed $member
@@ -25,8 +28,7 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
     abstract public function isValidMember($member): bool;
 
     /**
-     * AbstractCollection constructor.
-     * @param mixed[] $members
+     * @param array<T> $members
      */
     public function __construct(array $members)
     {
@@ -43,7 +45,7 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
     }
 
     /**
-     * @param mixed $member
+     * @param T $member
      * @return bool
      */
     public function contains($member): bool
@@ -53,7 +55,7 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
 
     /**
      * @param int $index
-     * @return mixed
+     * @return T
      */
     public function get(int $index)
     {
@@ -66,26 +68,28 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
         return $this->members[$index];
     }
 
-    /** @return mixed[] */
+    /**
+     * @return T[]
+     */
     public function all(): array
     {
         return $this->members;
     }
 
-    /** @return mixed */
+    /** @return T */
     public function first()
     {
         return $this->members[0];
     }
 
-    /** @return mixed */
+    /** @return T */
     public function last()
     {
         return $this->members[$this->count - 1];
     }
 
-    /** @return Traversable<mixed> */
-    public function getIterator()
+    /** @return Traversable<T> */
+    public function getIterator(): Traversable
     {
         return new ArrayIterator($this->members);
     }

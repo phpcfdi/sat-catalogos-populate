@@ -9,7 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Database\Repository;
 use Psr\Log\LoggerInterface;
 
 /**
- * @method InjectorInterface[] all(): array
+ * @extends AbstractCollection<InjectorInterface>
  */
 class Injectors extends AbstractCollection implements InjectorInterface
 {

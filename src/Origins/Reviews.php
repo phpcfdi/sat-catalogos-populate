@@ -7,8 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use PhpCfdi\SatCatalogosPopulate\AbstractCollection;
 
 /**
- * @method Review[] all(): array
- * @method Review get(int $index): Review
+ * @extends AbstractCollection<Review>
  */
 class Reviews extends AbstractCollection
 {

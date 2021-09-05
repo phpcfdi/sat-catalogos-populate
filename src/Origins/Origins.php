@@ -7,7 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use PhpCfdi\SatCatalogosPopulate\AbstractCollection;
 
 /**
- * @method OriginInterface[] all(): array
+ * @extends AbstractCollection<OriginInterface>
  */
 class Origins extends AbstractCollection
 {

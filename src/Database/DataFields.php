@@ -12,6 +12,9 @@ use OutOfBoundsException;
 use Traversable;
 use UnexpectedValueException;
 
+/**
+ * @implements IteratorAggregate<DataFieldInterface>
+ */
 class DataFields implements Countable, IteratorAggregate
 {
     /** @var array<string, DataFieldInterface> */
