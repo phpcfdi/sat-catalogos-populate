@@ -58,7 +58,7 @@ class ShellExec
         $output = [];
         $exitStatus = -1;
 
-        $lastline = exec($this->command(), $output, $exitStatus);
+        $lastline = (string) exec($this->command(), $output, $exitStatus);
 
         $this->output = $output;
         $this->exitStatus = $exitStatus;
