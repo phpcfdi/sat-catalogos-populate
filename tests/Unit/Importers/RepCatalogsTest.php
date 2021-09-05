@@ -22,7 +22,7 @@ class RepCatalogsTest extends TestCase
         $importer = new RepCatalogs();
         $injectors = $importer->createInjectors('');
 
-        $injectorsClasses = array_map(fn ($item) => get_class($item), $injectors->all());
+        $injectorsClasses = array_map(fn ($item) => $item::class, $injectors->all());
 
         $this->assertEquals(array_replace_recursive($injectorsClasses, $expectedInjectorsClasses), $injectorsClasses);
         $this->assertCount(count($expectedInjectorsClasses), $injectorsClasses);

@@ -16,10 +16,7 @@ class DataTable
     private array $primaryKey;
 
     /**
-     * @param string $name
-     * @param DataFields $fields
      * @param string[] $primaryKey
-     * @param bool $withoutPrimaryKey
      */
     public function __construct(
         string $name,

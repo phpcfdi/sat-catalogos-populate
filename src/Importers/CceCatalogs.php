@@ -12,9 +12,7 @@ use RuntimeException;
 class CceCatalogs implements ImporterInterface
 {
     /**
-     * @param string $source Folder where all files exists
-     * @param Repository $repository
-     * @param LoggerInterface $logger
+     * @param string $source Folder where all files exist
      */
     public function import(string $source, Repository $repository, LoggerInterface $logger): void
     {

@@ -40,7 +40,7 @@ class UpdateDatabase implements CommandInterface
     private function setDestinationDatabase(string $destinationDatabase): void
     {
         // TODO: why is needed an absolute path ?
-        if (0 !== strpos($destinationDatabase, DIRECTORY_SEPARATOR)) {
+        if (! str_starts_with($destinationDatabase, DIRECTORY_SEPARATOR)) {
             $destinationDatabase = getcwd() . DIRECTORY_SEPARATOR . $destinationDatabase;
         }
 
@@ -88,7 +88,7 @@ class UpdateDatabase implements CommandInterface
         ]);
     }
 
-    public static function createFromArguments(array $arguments): CommandInterface
+    public static function createFromArguments(array $arguments): self
     {
         return new self($arguments[0] ?? '', $arguments[1] ?? '', new TerminalLogger());
     }

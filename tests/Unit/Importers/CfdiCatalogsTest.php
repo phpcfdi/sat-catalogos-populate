@@ -54,7 +54,7 @@ class CfdiCatalogsTest extends TestCase
         $importer = new CfdiCatalogs();
         $cfdiInjectors = $importer->createInjectors('');
 
-        $injectorsClasses = array_map(fn ($item) => get_class($item), $cfdiInjectors->all());
+        $injectorsClasses = array_map(fn ($item) => $item::class, $cfdiInjectors->all());
 
         $this->assertEquals(array_replace_recursive($injectorsClasses, $expectedInjectorsClasses), $injectorsClasses);
         $this->assertCount(count($expectedInjectorsClasses), $injectorsClasses);

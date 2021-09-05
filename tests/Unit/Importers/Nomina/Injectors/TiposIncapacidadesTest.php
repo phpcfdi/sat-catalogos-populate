@@ -18,7 +18,7 @@ class TiposIncapacidadesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposIncapacidades $injector;
+    private TiposIncapacidades $injector;
 
     protected function setUp(): void
     {
@@ -66,8 +66,6 @@ class TiposIncapacidadesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["AB", "AB"]
      *           ["", "00"]
      *           ["9", "09"]

@@ -17,7 +17,7 @@ class PaisesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Paises $injector;
+    private Paises $injector;
 
     protected function setUp(): void
     {
@@ -68,7 +68,6 @@ class PaisesTest extends TestCase
     }
 
     /**
-     * @param string $value
      * @testWith [""]
      *           ["[0-9]+"]
      */
@@ -89,7 +88,6 @@ class PaisesTest extends TestCase
     }
 
     /**
-     * @param string $value
      * @testWith [""]
      *           ["[0-9]+"]
      */

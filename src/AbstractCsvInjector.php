@@ -16,15 +16,12 @@ use RuntimeException;
 
 abstract class AbstractCsvInjector implements InjectorInterface
 {
-    private string $sourceFile;
-
     abstract public function checkHeaders(CsvFile $csv): void;
 
     abstract public function dataTable(): DataTable;
 
-    public function __construct(string $sourceFile)
+    public function __construct(private string $sourceFile)
     {
-        $this->sourceFile = $sourceFile;
     }
 
     public function sourceFile(): string
@@ -79,7 +76,6 @@ abstract class AbstractCsvInjector implements InjectorInterface
     }
 
     /**
-     * @param CsvFile $csv
      * @return Generator<int, array<int, scalar>>
      */
     protected function readLinesFromCsv(CsvFile $csv): Iterator

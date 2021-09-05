@@ -41,7 +41,6 @@ class Repository
     }
 
     /**
-     * @param string $sql
      * @param mixed[] $values
      */
     public function execute(string $sql, array $values = []): void
@@ -54,7 +53,6 @@ class Repository
     }
 
     /**
-     * @param string $sql
      * @param mixed[] $values
      * @return array<int, array<string, scalar>>
      */
@@ -73,7 +71,6 @@ class Repository
     }
 
     /**
-     * @param string $sql
      * @param mixed[] $values
      * @return array<string, scalar>
      */
@@ -91,12 +88,8 @@ class Repository
         return [];
     }
 
-    /**
-     * @param string $sql
-     * @param mixed[] $values
-     * @return mixed
-     */
-    public function queryOne(string $sql, array $values = [])
+    /** @param mixed[] $values */
+    public function queryOne(string $sql, array $values = []): mixed
     {
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($values);

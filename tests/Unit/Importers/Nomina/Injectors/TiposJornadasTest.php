@@ -18,7 +18,7 @@ class TiposJornadasTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposJornadas $injector;
+    private TiposJornadas $injector;
 
     protected function setUp(): void
     {
@@ -66,8 +66,6 @@ class TiposJornadasTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["AB", "AB"]
      *           ["", "00"]
      *           ["9", "09"]

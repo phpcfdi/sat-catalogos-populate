@@ -19,7 +19,7 @@ class UsosCfdiTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\UsosCfdi $injector;
+    private UsosCfdi $injector;
 
     protected function setUp(): void
     {
@@ -70,8 +70,6 @@ class UsosCfdiTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
@@ -85,8 +83,6 @@ class UsosCfdiTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]

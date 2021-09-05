@@ -6,29 +6,13 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils;
 
 class ShellExec
 {
-    private string $command;
-
-    /** @var string[] */
-    private array $output;
-
-    private string $lastLine;
-
-    /** @var int */
-    private int $exitStatus;
-
-    /**
-     * ShellExec constructor.
-     * @param string $command
-     * @param string[] $output
-     * @param int $exitStatus
-     * @param string $lastLine
-     */
-    public function __construct(string $command, array $output = [], int $exitStatus = -1, string $lastLine = '')
-    {
-        $this->command = $command;
-        $this->output = $output;
-        $this->exitStatus = $exitStatus;
-        $this->lastLine = $lastLine;
+    /** @param string[] $output */
+    public function __construct(
+        private string $command,
+        private array $output = [],
+        private int $exitStatus = -1,
+        private string $lastLine = ''
+    ) {
     }
 
     public function command(): string

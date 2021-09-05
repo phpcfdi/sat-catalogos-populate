@@ -7,7 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests;
 trait FilesToCleanUpTrait
 {
     /** @var string[] */
-    private $filesToCleanUp = [];
+    private array $filesToCleanUp = [];
 
     public function cleanUpFiles(): void
     {
@@ -41,9 +41,6 @@ trait FilesToCleanUpTrait
         return $this->filesToCleanUp;
     }
 
-    /**
-     * @param string ...$path
-     */
     public function addFileToCleanUp(string ...$path): void
     {
         foreach ($path as $item) {

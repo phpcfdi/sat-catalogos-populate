@@ -41,6 +41,6 @@ class Reviewers
                 return $reviewer;
             }
         }
-        throw new LogicException(sprintf('Unable to review an origin of class %s', get_class($origin)));
+        throw new LogicException(sprintf('Unable to review an origin of class %s', $origin::class));
     }
 }

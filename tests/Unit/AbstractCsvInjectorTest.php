@@ -47,7 +47,6 @@ class AbstractCsvInjectorTest extends TestCase
     }
 
     /**
-     * @param string $sourceFile
      * @dataProvider providerInvalidSourcefiles
      */
     public function testValidateWithInvalidSourcefile(string $sourceFile): void

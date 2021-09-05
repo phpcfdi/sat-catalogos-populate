@@ -9,14 +9,8 @@ use PDOException;
 
 class DataTableGateway
 {
-    private DataTable $dataTable;
-
-    private Repository $repository;
-
-    public function __construct(DataTable $dataTable, Repository $repository)
+    public function __construct(private DataTable $dataTable, private Repository $repository)
     {
-        $this->dataTable = $dataTable;
-        $this->repository = $repository;
     }
 
     public function dataTable(): DataTable
@@ -43,7 +37,7 @@ class DataTableGateway
             return $sqlName . ' real not null';
         }
 
-        throw new LogicException("Don't know what to do with " . get_class($field));
+        throw new LogicException("Don't know what to do with " . $field::class);
     }
 
     public function drop(): void

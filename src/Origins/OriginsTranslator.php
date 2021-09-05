@@ -7,9 +7,9 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use DateTimeImmutable;
 use RuntimeException;
 
-final class OriginsTranslator
+final class OriginsTranslator implements OriginsTranslatorInterface
 {
-    /** @param array<string, mixed> $data */
+    /** @inheritdoc */
     public function originFromArray(array $data): OriginInterface
     {
         $type = strval($data['type'] ?? '') ?: 'const';
@@ -42,7 +42,7 @@ final class OriginsTranslator
         if ($origin instanceof ScrapingOrigin) {
             return $this->scrapingOriginToArray($origin);
         }
-        throw new RuntimeException(sprintf('Unable to export an origin with type %s', get_class($origin)));
+        throw new RuntimeException(sprintf('Unable to export an origin with type %s', $origin::class));
     }
 
     /** @param array<string, mixed> $data */

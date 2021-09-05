@@ -11,7 +11,7 @@ use PhpCfdi\SatCatalogosPopulate\AbstractCollection;
  */
 class Reviews extends AbstractCollection
 {
-    public function isValidMember($member): bool
+    public function isValidMember(mixed $member): bool
     {
         return ($member instanceof Review);
     }

@@ -10,23 +10,14 @@ use LogicException;
 
 class ConstantOrigin implements OriginInterface
 {
-    private string $name;
-
-    private string $url;
-
-    private ?DateTimeImmutable $lastVersion;
-
     private string $destinationFilename;
 
     public function __construct(
-        string $name,
-        string $url,
-        ?DateTimeImmutable $lastVersion = null,
+        private string $name,
+        private string $url,
+        private ?DateTimeImmutable $lastVersion = null,
         string $destinationFilename = ''
     ) {
-        $this->name = $name;
-        $this->url = $url;
-        $this->lastVersion = $lastVersion;
         if ('' === $destinationFilename) {
             $destinationFilename = basename($destinationFilename);
         }
@@ -39,7 +30,7 @@ class ConstantOrigin implements OriginInterface
         $this->destinationFilename = $destinationFilename;
     }
 
-    public function withLastModified(?DateTimeImmutable $lastModified): self
+    public function withLastModified(?DateTimeImmutable $lastModified): static
     {
         $clone = clone $this;
         $clone->lastVersion = $lastModified;

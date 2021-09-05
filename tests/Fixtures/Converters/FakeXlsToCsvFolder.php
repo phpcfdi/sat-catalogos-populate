@@ -11,11 +11,8 @@ use PhpCfdi\SatCatalogosPopulate\Converters\XlsToCsvFolderConverter;
  */
 class FakeXlsToCsvFolder extends XlsToCsvFolderConverter
 {
-    private string $baseCsvFolder;
-
-    public function __construct(string $baseCsvFolder)
+    public function __construct(private string $baseCsvFolder)
     {
-        $this->baseCsvFolder = $baseCsvFolder;
     }
 
     public function convert(string $source, string $destination): void

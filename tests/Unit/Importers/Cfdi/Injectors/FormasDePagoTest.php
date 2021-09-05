@@ -17,7 +17,7 @@ class FormasDePagoTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\FormasDePago $injector;
+    private FormasDePago $injector;
 
     protected function setUp(): void
     {
@@ -73,8 +73,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABC", "ABC"]
      *           ["", "00"]
      *           ["9", "09"]
@@ -94,8 +92,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
@@ -109,8 +105,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Opcional", false]
      *           ["", true]
      */
@@ -123,8 +117,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["No", false]
      *           ["", true]
      */
@@ -137,8 +129,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["No", false]
      *           ["", true]
      */
@@ -151,8 +141,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["[0-9]{10}", "[0-9]{10}"]
      *           ["Opcional", "\\V*"]
      *           ["No", ""]
@@ -166,8 +154,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["No", false]
      *           ["", true]
      */
@@ -180,8 +166,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["No", false]
      *           ["", true]
      */
@@ -194,8 +178,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["[0-9]{10}", "[0-9]{10}"]
      *           ["Opcional", "\\V*"]
      *           ["No", ""]
@@ -209,8 +191,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["No", false]
      *           ["", true]
      */
@@ -223,8 +203,6 @@ class FormasDePagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["No", false]
      *           ["", true]
      */

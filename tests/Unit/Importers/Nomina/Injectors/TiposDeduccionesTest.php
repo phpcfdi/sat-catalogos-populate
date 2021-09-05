@@ -19,7 +19,7 @@ class TiposDeduccionesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposDeducciones $injector;
+    private TiposDeducciones $injector;
 
     protected function setUp(): void
     {
@@ -69,8 +69,6 @@ class TiposDeduccionesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABC", "ABC"]
      *           ["", "000"]
      *           ["9", "009"]

@@ -42,7 +42,7 @@ class DumpOrigins implements CommandInterface
         return 0;
     }
 
-    public static function createFromArguments(array $arguments): CommandInterface
+    public static function createFromArguments(array $arguments): self
     {
         return new self();
     }

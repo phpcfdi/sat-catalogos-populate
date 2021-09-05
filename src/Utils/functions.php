@@ -22,7 +22,6 @@ function array_rtrim(array $input): array
 }
 
 /**
- * @return string
  * @throws RuntimeException Cannot create a temporary file name
  */
 function tempname(string $dir = '', string $prefix = ''): string
@@ -36,9 +35,6 @@ function tempname(string $dir = '', string $prefix = ''): string
 }
 
 /**
- * @param string $dir
- * @param string $prefix
- * @return string
  * @throws RuntimeException Cannot create a temporary file name
  */
 function tempdir(string $dir = '', string $prefix = ''): string

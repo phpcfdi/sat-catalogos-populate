@@ -12,11 +12,8 @@ class ReviewStatus
 
     protected const NOT_UPDATED = 'NOT-UPDATED';
 
-    private string $status;
-
-    private function __construct(string $status)
+    private function __construct(private string $status)
     {
-        $this->status = $status;
     }
 
     private static function staticObjects(string $type): self

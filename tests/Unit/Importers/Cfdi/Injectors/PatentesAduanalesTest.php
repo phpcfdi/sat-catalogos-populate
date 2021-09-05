@@ -17,7 +17,7 @@ class PatentesAduanalesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\PatentesAduanales $injector;
+    private PatentesAduanales $injector;
 
     protected function setUp(): void
     {
@@ -65,8 +65,6 @@ class PatentesAduanalesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABCDE", "ABCDE"]
      *           ["", "0000"]
      *           ["9", "0009"]

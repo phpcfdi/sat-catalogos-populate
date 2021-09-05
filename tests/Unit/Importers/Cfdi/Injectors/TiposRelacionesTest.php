@@ -17,7 +17,7 @@ class TiposRelacionesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposRelaciones $injector;
+    private TiposRelaciones $injector;
 
     protected function setUp(): void
     {
@@ -66,8 +66,6 @@ class TiposRelacionesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["AB", "AB"]
      *           ["", "00"]
      *           ["9", "09"]

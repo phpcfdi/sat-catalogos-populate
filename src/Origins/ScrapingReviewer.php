@@ -10,11 +10,8 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class ScrapingReviewer implements ReviewerInterface
 {
-    private ResourcesGatewayInterface $gateway;
-
-    public function __construct(ResourcesGatewayInterface $gateway)
+    public function __construct(private ResourcesGatewayInterface $gateway)
     {
-        $this->gateway = $gateway;
     }
 
     public function gateway(): ResourcesGatewayInterface
@@ -36,7 +33,7 @@ class ScrapingReviewer implements ReviewerInterface
         if (! $origin->hasDownloadUrl()) {
             try {
                 $origin = $this->resolveOrigin($origin);
-            } catch (RuntimeException $exception) {
+            } catch (RuntimeException) {
                 return new Review($origin, ReviewStatus::notFound());
             }
         }

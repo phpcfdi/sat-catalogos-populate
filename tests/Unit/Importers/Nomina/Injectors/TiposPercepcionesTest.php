@@ -19,7 +19,7 @@ class TiposPercepcionesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposPercepciones $injector;
+    private TiposPercepciones $injector;
 
     protected function setUp(): void
     {
@@ -69,8 +69,6 @@ class TiposPercepcionesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABC", "ABC"]
      *           ["", "000"]
      *           ["9", "009"]

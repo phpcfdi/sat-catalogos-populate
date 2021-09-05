@@ -24,8 +24,6 @@ class TextDataFieldTest extends TestCase
     }
 
     /**
-     * @param string $input
-     * @param string $expected
      * @dataProvider providerTransformPerformTrim
      */
     public function testTransformPerformTrim(string $input, string $expected): void

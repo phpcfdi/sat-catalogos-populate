@@ -17,25 +17,19 @@ use RuntimeException;
 
 class UpdateOrigins implements CommandInterface
 {
-    public const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
+    private const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
 
     private string $originsFile;
 
     private string $workingFolder;
 
-    private bool $updateOrigins;
-
     private bool $updateDatabase;
-
-    private string $databaseLocation;
-
-    private LoggerInterface $logger;
 
     public function __construct(
         string $originsFile,
-        bool $updateOrigins,
-        string $databaseLocation,
-        LoggerInterface $logger
+        private bool $updateOrigins,
+        private string $databaseLocation,
+        private LoggerInterface $logger
     ) {
         if ('' === $originsFile) {
             throw new RuntimeException('Invalid origins: empty string received');
@@ -49,10 +43,7 @@ class UpdateOrigins implements CommandInterface
 
         $this->originsFile = $originsFile;
         $this->workingFolder = dirname($originsFile);
-        $this->updateOrigins = $updateOrigins;
-        $this->updateDatabase = ('' !== $databaseLocation);
-        $this->databaseLocation = $databaseLocation;
-        $this->setLogger($logger);
+        $this->updateDatabase = ('' !== $this->databaseLocation);
     }
 
     public function getOriginsFile(): string
@@ -181,7 +172,7 @@ class UpdateOrigins implements CommandInterface
         ]);
     }
 
-    public static function createFromArguments(array $arguments): CommandInterface
+    public static function createFromArguments(array $arguments): self
     {
         // update-origins --dry-run --update-database database origins-file-or-folder
         $count = count($arguments);

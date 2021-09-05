@@ -20,7 +20,7 @@ class ReglasTasaCuotaTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ReglasTasaCuota $injector;
+    private ReglasTasaCuota $injector;
 
     protected function setUp(): void
     {
@@ -75,8 +75,6 @@ class ReglasTasaCuotaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["0", "0.000000"]
      *           ["1.234", "1.234000"]
      *           ["", ""]
@@ -90,8 +88,6 @@ class ReglasTasaCuotaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["0", "0.000000"]
      *           ["1.234", "1.234000"]
      *           ["", ""]
@@ -105,8 +101,6 @@ class ReglasTasaCuotaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
@@ -120,8 +114,6 @@ class ReglasTasaCuotaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]

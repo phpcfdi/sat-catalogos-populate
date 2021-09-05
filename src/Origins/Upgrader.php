@@ -12,18 +12,11 @@ class Upgrader
 {
     public const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
 
-    private ResourcesGatewayInterface $gateway;
-
-    private string $destinationPath;
-
-    private LoggerInterface $logger;
-
-    public function __construct(ResourcesGatewayInterface $gateway, string $destinationPath, LoggerInterface $logger)
-    {
-        // TODO: validate destination path
-        $this->gateway = $gateway;
-        $this->destinationPath = $destinationPath;
-        $this->logger = $logger;
+    public function __construct(
+        private ResourcesGatewayInterface $gateway,
+        private string $destinationPath,
+        private LoggerInterface $logger
+    ) {
     }
 
     public function destinationPath(): string

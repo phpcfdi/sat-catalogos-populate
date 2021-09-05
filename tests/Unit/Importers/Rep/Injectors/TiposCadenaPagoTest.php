@@ -18,7 +18,7 @@ class TiposCadenaPagoTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Rep\Injectors\TiposCadenaPago $injector;
+    private TiposCadenaPago $injector;
 
     protected function setUp(): void
     {
@@ -66,8 +66,6 @@ class TiposCadenaPagoTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["AB", "AB"]
      *           ["", "00"]
      *           ["9", "09"]

@@ -20,11 +20,7 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
 
     private int $count;
 
-    /**
-     * @param mixed $member
-     * @return bool
-     */
-    abstract public function isValidMember($member): bool;
+    abstract public function isValidMember(mixed $member): bool;
 
     /**
      * @param array<T> $members
@@ -45,7 +41,6 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
 
     /**
      * @param T $member
-     * @return bool
      */
     public function contains($member): bool
     {
@@ -53,7 +48,6 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
     }
 
     /**
-     * @param int $index
      * @return T
      */
     public function get(int $index)
@@ -68,7 +62,7 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
     }
 
     /**
-     * @return T[]
+     * @return array<int, T>
      */
     public function all(): array
     {

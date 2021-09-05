@@ -9,11 +9,8 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 
 class CceFraccionArancelaria extends AbstractXlsOneSheetImporter
 {
-    private bool $recreateTable;
-
-    public function __construct(bool $recreateTable)
+    public function __construct(private bool $recreateTable)
     {
-        $this->recreateTable = $recreateTable;
     }
 
     public function sheetName(): string

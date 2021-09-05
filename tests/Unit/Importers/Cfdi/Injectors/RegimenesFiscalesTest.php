@@ -18,7 +18,7 @@ class RegimenesFiscalesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\RegimenesFiscales $injector;
+    private RegimenesFiscales $injector;
 
     protected function setUp(): void
     {
@@ -70,8 +70,6 @@ class RegimenesFiscalesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
@@ -85,8 +83,6 @@ class RegimenesFiscalesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
