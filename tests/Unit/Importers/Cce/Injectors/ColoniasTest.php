@@ -16,11 +16,9 @@ use RuntimeException;
 
 class ColoniasTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Colonias */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Colonias $injector;
 
     protected function setUp(): void
     {

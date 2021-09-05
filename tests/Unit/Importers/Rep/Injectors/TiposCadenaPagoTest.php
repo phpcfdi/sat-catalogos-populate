@@ -16,11 +16,9 @@ use RuntimeException;
 
 class TiposCadenaPagoTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var TiposCadenaPago */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Rep\Injectors\TiposCadenaPago $injector;
 
     protected function setUp(): void
     {

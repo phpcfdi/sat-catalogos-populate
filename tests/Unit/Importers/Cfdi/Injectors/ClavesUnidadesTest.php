@@ -14,11 +14,9 @@ use RuntimeException;
 
 class ClavesUnidadesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var ClavesUnidades */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ClavesUnidades $injector;
 
     protected function setUp(): void
     {

@@ -15,11 +15,9 @@ use RuntimeException;
 
 class PaisesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Paises */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Paises $injector;
 
     protected function setUp(): void
     {

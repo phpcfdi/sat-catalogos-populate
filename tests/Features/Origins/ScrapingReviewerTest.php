@@ -13,14 +13,11 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ScrapingReviewerTest extends TestCase
 {
-    /** @var ScrapingReviewer */
-    private $reviewer;
+    private ScrapingReviewer $reviewer;
 
-    /** @var string */
-    private $urlFooFile;
+    private string $urlFooFile;
 
-    /** @var string */
-    private $urlPageToScrap;
+    private string $urlPageToScrap;
 
     protected function setUp(): void
     {

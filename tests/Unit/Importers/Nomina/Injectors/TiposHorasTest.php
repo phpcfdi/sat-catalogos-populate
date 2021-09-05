@@ -16,11 +16,9 @@ use RuntimeException;
 
 class TiposHorasTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var TiposHoras */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposHoras $injector;
 
     protected function setUp(): void
     {

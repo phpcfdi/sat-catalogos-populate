@@ -17,11 +17,9 @@ use RuntimeException;
 
 class TiposComprobantesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var TiposComprobantes */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposComprobantes $injector;
 
     protected function setUp(): void
     {

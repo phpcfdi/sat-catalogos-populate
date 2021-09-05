@@ -16,11 +16,9 @@ use RuntimeException;
 
 class RiesgosPuestosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var RiesgosPuestos */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\RiesgosPuestos $injector;
 
     protected function setUp(): void
     {

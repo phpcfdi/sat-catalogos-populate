@@ -14,11 +14,9 @@ use RuntimeException;
 
 class AduanasTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Aduanas */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Aduanas $injector;
 
     protected function setUp(): void
     {

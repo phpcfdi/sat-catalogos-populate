@@ -16,11 +16,9 @@ use RuntimeException;
 
 class BancosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Bancos */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\Bancos $injector;
 
     protected function setUp(): void
     {

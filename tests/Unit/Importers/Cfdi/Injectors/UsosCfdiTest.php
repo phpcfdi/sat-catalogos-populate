@@ -17,11 +17,9 @@ use RuntimeException;
 
 class UsosCfdiTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var UsosCfdi */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\UsosCfdi $injector;
 
     protected function setUp(): void
     {

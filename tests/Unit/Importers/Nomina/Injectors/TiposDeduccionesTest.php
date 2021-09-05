@@ -17,11 +17,9 @@ use RuntimeException;
 
 class TiposDeduccionesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var TiposDeducciones */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposDeducciones $injector;
 
     protected function setUp(): void
     {

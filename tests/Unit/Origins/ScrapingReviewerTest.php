@@ -13,8 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ScrapingReviewerTest extends TestCase
 {
-    /** @var ScrapingReviewer */
-    private $reviewer;
+    private \PhpCfdi\SatCatalogosPopulate\Origins\ScrapingReviewer $reviewer;
 
     protected function setUp(): void
     {

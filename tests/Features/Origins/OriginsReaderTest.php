@@ -20,9 +20,7 @@ class OriginsReaderTest extends TestCase
         $origins = $reader->readFile($sourcefile);
 
         $translator = new OriginsTranslator();
-        $originsData = array_map(function (OriginInterface $origin) use ($translator) {
-            return $translator->originToArray($origin);
-        }, $origins->all());
+        $originsData = array_map(fn (OriginInterface $origin) => $translator->originToArray($origin), $origins->all());
 
         $expectedOrigins = [
             [

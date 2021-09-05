@@ -16,11 +16,9 @@ use RuntimeException;
 
 class MonedasTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Monedas */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Monedas $injector;
 
     protected function setUp(): void
     {

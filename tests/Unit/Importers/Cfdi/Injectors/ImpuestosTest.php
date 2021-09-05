@@ -14,11 +14,9 @@ use RuntimeException;
 
 class ImpuestosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Impuestos */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Impuestos $injector;
 
     protected function setUp(): void
     {

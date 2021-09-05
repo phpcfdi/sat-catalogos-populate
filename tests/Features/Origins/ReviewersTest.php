@@ -13,8 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ReviewersTest extends TestCase
 {
-    /** @var Reviewers */
-    private $reviewers;
+    private Reviewers $reviewers;
 
     protected function setUp(): void
     {
@@ -33,7 +32,7 @@ class ReviewersTest extends TestCase
         // when check the list for updates
         $reviews = $this->reviewers->review($origins);
 
-        // then a list of reviews is created and it contains the reviews of all states
+        // then a list of reviews is created, and it contains the reviews of all states
         foreach ($reviews as $review) {
             $this->assertTrue($origins->contains($review->origin()));
         }

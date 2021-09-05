@@ -15,11 +15,9 @@ use RuntimeException;
 
 class ClavesPedimentosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var ClavesPedimentos */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\ClavesPedimentos $injector;
 
     protected function setUp(): void
     {

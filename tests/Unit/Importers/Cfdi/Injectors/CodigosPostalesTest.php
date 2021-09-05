@@ -16,11 +16,9 @@ use RuntimeException;
 
 class CodigosPostalesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var CodigosPostales */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\CodigosPostales $injector;
 
     protected function setUp(): void
     {

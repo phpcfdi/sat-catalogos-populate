@@ -16,11 +16,9 @@ use RuntimeException;
 
 class NumerosPedimentoAduanaTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var NumerosPedimentoAduana */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\NumerosPedimentoAduana $injector;
 
     protected function setUp(): void
     {

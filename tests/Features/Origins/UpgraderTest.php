@@ -16,11 +16,9 @@ use Psr\Log\NullLogger;
 
 class UpgraderTest extends TestCase
 {
-    /** @var Upgrader */
-    private $upgrader;
+    private Upgrader $upgrader;
 
-    /** @var DateTimeImmutable */
-    private $lastModified;
+    private DateTimeImmutable $lastModified;
 
     public function setUp(): void
     {
@@ -81,7 +79,7 @@ class UpgraderTest extends TestCase
     {
         $origins = $this->upgrader->upgrade();
 
-        // it must contains the 4 origins
+        // it must contain the 4 origins
         $this->assertCount(4, $origins);
 
         // all 4 must be set to this test last modified value

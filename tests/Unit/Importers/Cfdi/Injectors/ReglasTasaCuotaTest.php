@@ -18,11 +18,9 @@ use RuntimeException;
 
 class ReglasTasaCuotaTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var ReglasTasaCuota */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ReglasTasaCuota $injector;
 
     protected function setUp(): void
     {
