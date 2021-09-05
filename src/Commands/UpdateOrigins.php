@@ -20,23 +20,17 @@ class UpdateOrigins implements CommandInterface
 {
     public const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
 
-    /** @var string */
-    private $originsFile;
+    private string $originsFile;
 
-    /** @var string */
-    private $workingFolder;
+    private string $workingFolder;
 
-    /** @var bool */
-    private $updateOrigins;
+    private bool $updateOrigins;
 
-    /** @var bool */
-    private $updateDatabase;
+    private bool $updateDatabase;
 
-    /** @var string */
-    private $databaseLocation;
+    private string $databaseLocation;
 
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     public function __construct(
         string $originsFile,
@@ -139,7 +133,7 @@ class UpdateOrigins implements CommandInterface
         }
 
         if ($upToDateReviews->count() === count($reviews)) {
-            $this->logger->info(sprintf('No existen orígenes para actualizar'));
+            $this->logger->info('No existen orígenes para actualizar');
             return 0;
         }
 
@@ -150,9 +144,9 @@ class UpdateOrigins implements CommandInterface
         // have to perform upgrade
         $upgrader = new Upgrader($resourcesGateway, $this->getWorkingFolder(), $this->logger);
         $recentOrigins = $upgrader->upgradeReviews($reviews);
-        $this->logger->info(sprintf('Se actualizaron todos los orígenes'));
+        $this->logger->info('Se actualizaron todos los orígenes');
         $this->originsStore($recentOrigins);
-        $this->logger->info(sprintf('Se actualizó el archivo de orígenes'));
+        $this->logger->info('Se actualizó el archivo de orígenes');
 
         if (! $this->updateDatabase()) {
             return 0;

@@ -26,9 +26,7 @@ class IgnoreColumns extends AbstractPipeArrayProcessor implements ArrayProcessor
         $array = array_values(
             array_filter(
                 $array,
-                function (int $key): bool {
-                    return ! in_array($key, $this->columns, true);
-                },
+                fn (int $key): bool => ! in_array($key, $this->columns, true),
                 ARRAY_FILTER_USE_KEY
             )
         );

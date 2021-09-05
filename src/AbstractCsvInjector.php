@@ -15,8 +15,7 @@ use Traversable;
 
 abstract class AbstractCsvInjector implements InjectorInterface
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
     abstract public function checkHeaders(CsvFile $csv): void;
 

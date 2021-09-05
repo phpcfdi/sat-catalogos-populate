@@ -6,14 +6,12 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils;
 
 class ShellExec
 {
-    /** @var string */
-    private $command;
+    private string $command;
 
     /** @var string[] */
     private $output;
 
-    /** @var string */
-    private $lastLine;
+    private string $lastLine;
 
     /** @var int */
     private $exitStatus;

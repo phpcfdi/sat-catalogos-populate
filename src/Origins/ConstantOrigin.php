@@ -10,16 +10,13 @@ use LogicException;
 
 class ConstantOrigin implements OriginInterface
 {
-    /** @var string */
-    private $name;
+    private string $name;
 
-    /** @var string */
-    private $url;
+    private string $url;
 
-    /** @var DateTimeImmutable|null */
-    private $lastVersion;
+    private ?DateTimeImmutable $lastVersion;
 
-    private $destinationFilename;
+    private string $destinationFilename;
 
     public function __construct(
         string $name,

@@ -67,9 +67,7 @@ class CsvFolderJoinFiles
             )
         );
 
-        uasort($files, function ($first, $second) {
-            return ($first['destination'] <=> $second['destination']) ?: $first['index'] <=> $second['index'];
-        });
+        uasort($files, [$this, 'compareFiles']);
 
         $destinations = [];
         foreach ($files as $file) {
@@ -77,6 +75,16 @@ class CsvFolderJoinFiles
         }
 
         return $destinations;
+    }
+
+    /**
+     * @param array{destination: string, index: int} $first
+     * @param array{destination: string, index: int} $second
+     * @return int
+     */
+    private function compareFiles(array $first, array $second): int
+    {
+        return ($first['destination'] <=> $second['destination']) ?: $first['index'] <=> $second['index'];
     }
 
     public function writeLines(string $source, string $destination, int $skipFirstLines, int $skipLastLines): void

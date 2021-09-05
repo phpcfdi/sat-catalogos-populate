@@ -9,12 +9,13 @@ use Countable;
 use InvalidArgumentException;
 use IteratorAggregate;
 use OutOfBoundsException;
+use Traversable;
 use UnexpectedValueException;
 
 class DataFields implements Countable, IteratorAggregate
 {
-    /** @var DataFieldInterface[] */
-    private $map = [];
+    /** @var array<string, DataFieldInterface> */
+    private array $map = [];
 
     /**
      * @param DataFieldInterface[] $dataFields
@@ -73,7 +74,8 @@ class DataFields implements Countable, IteratorAggregate
         return $mapByPosition[$position];
     }
 
-    public function getIterator()
+    /** @return Traversable<string, DataFieldInterface> */
+    public function getIterator(): Traversable
     {
         return new ArrayIterator($this->map);
     }

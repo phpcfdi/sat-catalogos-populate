@@ -19,8 +19,6 @@ class Reviews extends AbstractCollection
 
     public function filterStatus(ReviewStatus $status): self
     {
-        return new self(array_filter($this->all(), function (Review $review) use ($status) {
-            return $status === $review->status();
-        }));
+        return new self(array_filter($this->all(), fn (Review $review) => $status === $review->status()));
     }
 }

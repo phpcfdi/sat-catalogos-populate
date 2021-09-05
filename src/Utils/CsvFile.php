@@ -13,11 +13,9 @@ use UnexpectedValueException;
 
 class CsvFile implements SeekableIterator
 {
-    /** @var SplFileObject */
-    private $file;
+    private \SplFileObject $file;
 
-    /** @var ArrayProcessorInterface */
-    private $rowProcessor;
+    private \PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\ArrayProcessorInterface $rowProcessor;
 
     public function __construct(string $filename, ArrayProcessorInterface $rowProcessor = null)
     {

@@ -16,7 +16,7 @@ class XlsToXlsxConverter
     use WhichTrait;
 
     /** @var string Location of soffice executable */
-    private $sofficePath;
+    private string $sofficePath;
 
     public function __construct(string $sofficePath = '')
     {

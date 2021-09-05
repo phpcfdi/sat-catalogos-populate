@@ -11,18 +11,15 @@ use RuntimeException;
 
 class UpdateDatabase implements CommandInterface
 {
-    /** @var string */
-    private $sourceFolder;
+    private string $sourceFolder;
 
-    /** @var string */
-    private $destinationDatabase;
+    private string $destinationDatabase;
 
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     public function __construct(string $sourceCatalog, string $destinationDatabase, LoggerInterface $logger)
     {
-        // TODO: check if we can move this setters to this constructors
+        // TODO: check if we can move these setters to this constructors
         $this->setSourceCatalog($sourceCatalog);
         $this->setDestinationDatabase($destinationDatabase);
         $this->setLogger($logger);
@@ -42,7 +39,7 @@ class UpdateDatabase implements CommandInterface
 
     private function setDestinationDatabase(string $destinationDatabase): void
     {
-        // TODO: why is needed an aboslute path ?
+        // TODO: why is needed an absolute path ?
         if (0 !== strpos($destinationDatabase, DIRECTORY_SEPARATOR)) {
             $destinationDatabase = getcwd() . DIRECTORY_SEPARATOR . $destinationDatabase;
         }

@@ -10,8 +10,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class ScrapingReviewer implements ReviewerInterface
 {
-    /** @var ResourcesGatewayInterface */
-    private $gateway;
+    private ResourcesGatewayInterface $gateway;
 
     public function __construct(ResourcesGatewayInterface $gateway)
     {

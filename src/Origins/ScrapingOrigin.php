@@ -9,25 +9,17 @@ use LogicException;
 
 class ScrapingOrigin implements OriginInterface
 {
-    /** @var string */
-    private $name;
+    private string $name;
 
-    /** @var string */
-    private $toScrapUrl;
+    private string $toScrapUrl;
 
-    /** @var DateTimeImmutable|null */
-    private $lastVersion;
+    private ?DateTimeImmutable $lastVersion;
 
-    /** @var string */
-    private $destinationFilename;
+    private string $destinationFilename;
 
-    /** @var string */
-    private $downloadUrl;
+    private string $downloadUrl;
 
-    /**
-     * @var string
-     */
-    private $linkText;
+    private string $linkText;
 
     public function __construct(
         string $name,

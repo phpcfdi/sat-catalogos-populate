@@ -6,11 +6,9 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 class Review
 {
-    /** @var OriginInterface */
-    private $origin;
+    private OriginInterface $origin;
 
-    /** @var ReviewStatus */
-    private $status;
+    private ReviewStatus $status;
 
     public function __construct(OriginInterface $origin, ReviewStatus $status)
     {

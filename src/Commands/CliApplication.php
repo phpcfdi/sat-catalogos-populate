@@ -8,10 +8,10 @@ use RuntimeException;
 
 class CliApplication
 {
-    private $commands;
+    /** @var array<string, array{class: class-string, description: string}> */
+    private array $commands;
 
-    /** @var string */
-    private $executableName;
+    private string $executableName = '';
 
     public function getExecutableName(): string
     {

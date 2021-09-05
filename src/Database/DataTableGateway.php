@@ -9,11 +9,9 @@ use PDOException;
 
 class DataTableGateway
 {
-    /** @var DataTable */
-    private $dataTable;
+    private DataTable $dataTable;
 
-    /** @var Repository */
-    private $repository;
+    private Repository $repository;
 
     public function __construct(DataTable $dataTable, Repository $repository)
     {
@@ -64,14 +62,15 @@ class DataTableGateway
         $pkDefinition = '';
         if (count($this->dataTable->primaryKey()) > 0) {
             $pkDefinition = 'PRIMARY KEY ('
-                . implode(', ', array_map(function (string $input): string {
-                    return $this->repository->escapeName($input);
-                }, $this->dataTable->primaryKey()))
+                . implode(', ', array_map(
+                    fn (string $input): string => $this->repository->escapeName($input),
+                    $this->dataTable->primaryKey()
+                ))
                 . ')';
         }
 
         $sql = 'CREATE TABLE ' . $this->repository->escapeName($this->dataTable->name())
-            . ' ( ' . implode(', ', array_filter(array_merge($fields, [$pkDefinition]))) . ' )'
+            . ' ( ' . implode(', ', array_filter([...$fields, ...[$pkDefinition]])) . ' )'
             . ';';
         $this->repository->execute($sql);
     }
@@ -93,7 +92,7 @@ class DataTableGateway
         try {
             $this->repository->execute($sql, $input);
         } catch (PDOException $exception) {
-            $message = sprintf('Unable to run %s using %s', $sql, json_encode($input));
+            $message = sprintf('Unable to run %s using %s', $sql, json_encode($input, JSON_THROW_ON_ERROR));
             throw new PDOException($message, 0, $exception);
         }
     }

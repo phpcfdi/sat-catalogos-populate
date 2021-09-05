@@ -8,8 +8,6 @@ class PaddingDataField extends TextDataField implements DataFieldInterface
 {
     public function __construct(string $name, string $padding, int $length)
     {
-        parent::__construct($name, function ($input) use ($padding, $length) {
-            return str_pad((string) $input, $length, $padding, STR_PAD_LEFT);
-        });
+        parent::__construct($name, fn ($input) => str_pad((string) $input, $length, $padding, STR_PAD_LEFT));
     }
 }

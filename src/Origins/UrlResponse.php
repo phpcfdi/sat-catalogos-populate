@@ -8,17 +8,13 @@ use DateTimeImmutable;
 
 class UrlResponse
 {
-    /** @var string */
-    private $url;
+    private string $url;
 
-    /** @var int */
-    private $httpStatus;
+    private int $httpStatus;
 
-    /** @var DateTimeImmutable */
-    private $lastModified;
+    private DateTimeImmutable $lastModified;
 
-    /** @var string */
-    private $body;
+    private string $body;
 
     public function __construct(string $url, int $httpStatus, DateTimeImmutable $lastModified = null, string $body = '')
     {

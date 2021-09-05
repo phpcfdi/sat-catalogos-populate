@@ -17,7 +17,7 @@ use RuntimeException;
 class FraccionesArancelarias extends AbstractCsvInjector
 {
     /** @var bool Indicates if the injector must recreate the table */
-    private $shouldRecreateTable;
+    private bool $shouldRecreateTable;
 
     public function __construct(string $sourceFile, bool $shouldRecreateTable)
     {

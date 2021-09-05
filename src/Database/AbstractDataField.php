@@ -6,8 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Database;
 
 abstract class AbstractDataField implements DataFieldInterface
 {
-    /** @var string */
-    private $name;
+    private string $name;
 
     /** @var callable */
     private $transformFunction;
@@ -16,9 +15,7 @@ abstract class AbstractDataField implements DataFieldInterface
     {
         $this->name = $name;
         if (null === $transformFunction) {
-            $transformFunction = function ($input) {
-                return trim($input);
-            };
+            $transformFunction = fn ($input) => trim($input);
         }
         $this->transformFunction = $transformFunction;
     }

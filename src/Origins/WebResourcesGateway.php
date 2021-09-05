@@ -14,8 +14,7 @@ use RuntimeException;
 
 class WebResourcesGateway implements ResourcesGatewayInterface
 {
-    /** @var GuzzleClient */
-    private $client;
+    private GuzzleClient $client;
 
     public function __construct(GuzzleClient $client = null)
     {
