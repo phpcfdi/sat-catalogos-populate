@@ -57,7 +57,7 @@
         "dev:test": [
             "@dev:check-style",
             "vendor/bin/phpunit --testdox --verbose --stop-on-failure",
-            "@php tools/phpstan analyse --verbose --no-progress --level max bin/ src/ tests/"
+            "@php tools/phpstan analyse --no-progress --no-interaction"
         ],
         "dev:coverage": [
             "@php -dzend_extension=xdebug.so vendor/bin/phpunit --coverage-text --coverage-html build/coverage/html/"
