@@ -75,6 +75,7 @@ class DataTableGateway
         $this->repository->execute($sql);
     }
 
+    /** @param mixed[] $input */
     public function insert(array $input): void
     {
         $fieldNames = [];

@@ -4,5 +4,3 @@ parameters:
         - bin/
         - src/
         - tests/
-    inferPrivatePropertyTypeFromConstructor: true
-    checkMissingIterableValueType: false

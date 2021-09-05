@@ -62,7 +62,7 @@ class CliApplication
             return 0;
         }
 
-        return $this->runCommand($command, $arguments);
+        return $this->runCommand($command, ...$arguments);
     }
 
     public function getCommandClass(string $commandName): string
@@ -73,7 +73,7 @@ class CliApplication
         return $this->commands[$commandName]['class'];
     }
 
-    public function runCommand(string $commandName, array $arguments): int
+    public function runCommand(string $commandName, string ...$arguments): int
     {
         $commandClass = $this->getCommandClass($commandName);
         /** @var callable $staticCallable phpstan work around*/

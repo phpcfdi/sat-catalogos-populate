@@ -55,6 +55,10 @@ class DataFields implements Countable, IteratorAggregate
         return $this->map[$key];
     }
 
+    /**
+     * @param array<int, scalar> $input
+     * @return array<string, scalar>
+     */
     public function transform(array $input): array
     {
         $data = [];

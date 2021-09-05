@@ -9,6 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class TextDataFieldTest extends TestCase
 {
+    /** @return array<string, array{string, string}> */
     public function providerTransformPerformTrim(): array
     {
         return [

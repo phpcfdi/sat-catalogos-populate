@@ -40,6 +40,10 @@ class Repository
         return (int) $this->queryOne($sql);
     }
 
+    /**
+     * @param string $sql
+     * @param mixed[] $values
+     */
     public function execute(string $sql, array $values = []): void
     {
         $stmt = $this->pdo->prepare($sql);
@@ -49,6 +53,11 @@ class Repository
         }
     }
 
+    /**
+     * @param string $sql
+     * @param mixed[] $values
+     * @return array<int, array<string, scalar>>
+     */
     public function queryArray(string $sql, array $values = []): array
     {
         $stmt = $this->pdo->prepare($sql);
@@ -63,6 +72,11 @@ class Repository
         return $table;
     }
 
+    /**
+     * @param string $sql
+     * @param mixed[] $values
+     * @return array<string, scalar>
+     */
     public function queryRow(string $sql, array $values = []): array
     {
         $stmt = $this->pdo->prepare($sql);

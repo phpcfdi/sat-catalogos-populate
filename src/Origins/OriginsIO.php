@@ -41,7 +41,9 @@ class OriginsIO
     protected function readOrigin(SimpleXMLElement $origin): OriginInterface
     {
         $attributes = [];
-        foreach (($origin->attributes() ?? []) as $key => $value) {
+        /** @var array<string, SimpleXMLElement> $sources */
+        $sources = $origin->attributes() ?? [];
+        foreach ($sources as $key => $value) {
             $attributes[$key] = (string) $value;
         }
 

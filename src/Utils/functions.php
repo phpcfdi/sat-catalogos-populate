@@ -6,10 +6,14 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils;
 
 use RuntimeException;
 
+/**
+ * @param array<int, mixed> $input
+ * @return array<int, mixed>
+ */
 function array_rtrim(array $input): array
 {
     $count = count($input);
-    while ($count > 0 && '' === (string) $input[$count - 1]) {
+    while ($count > 0 && '' === strval($input[$count - 1])) {
         array_pop($input);
         $count = $count - 1;
     }

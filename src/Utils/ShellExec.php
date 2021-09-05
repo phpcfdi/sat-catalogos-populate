@@ -9,12 +9,12 @@ class ShellExec
     private string $command;
 
     /** @var string[] */
-    private $output;
+    private array $output;
 
     private string $lastLine;
 
     /** @var int */
-    private $exitStatus;
+    private int $exitStatus;
 
     /**
      * ShellExec constructor.
@@ -36,6 +36,7 @@ class ShellExec
         return $this->command;
     }
 
+    /** @return string[] */
     public function output(): array
     {
         return $this->output;

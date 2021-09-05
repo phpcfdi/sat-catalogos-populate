@@ -58,6 +58,7 @@ class DataTable
         return $this->fields;
     }
 
+    /** @return string[] */
     public function primaryKey(): array
     {
         return $this->primaryKey;

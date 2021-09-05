@@ -111,6 +111,11 @@ class CsvFolderJoinFiles
         return $lines;
     }
 
+    /**
+     * @param Iterator<mixed> $first
+     * @param Iterator<mixed> $second
+     * @return bool
+     */
     private function splCurrentLinesAreEqual(Iterator $first, Iterator $second): bool
     {
         if (! $first->valid() || ! $second->valid()) {

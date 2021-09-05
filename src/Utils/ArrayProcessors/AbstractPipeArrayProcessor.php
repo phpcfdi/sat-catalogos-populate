@@ -6,7 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors;
 
 abstract class AbstractPipeArrayProcessor implements ArrayProcessorInterface
 {
-    private \PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\ArrayProcessorInterface $next;
+    private ArrayProcessorInterface $next;
 
     public function __construct(ArrayProcessorInterface $next = null)
     {

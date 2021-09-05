@@ -12,7 +12,7 @@ use SplFileObject;
 use UnexpectedValueException;
 
 /**
- * @implements SeekableIterator<int, string[]>
+ * @implements SeekableIterator<int, array<int, scalar>>
  */
 class CsvFile implements SeekableIterator
 {
@@ -46,7 +46,7 @@ class CsvFile implements SeekableIterator
         }
 
         if (1 === $position) {
-            // this is a bugfix, otherwise it don't go to line 1
+            // this is a bugfix, otherwise it doesn't go to line 1
             $this->file->rewind();
             $this->current();
             $this->file->next();
@@ -66,6 +66,7 @@ class CsvFile implements SeekableIterator
         $this->move($this->position() + $times);
     }
 
+    /** @return Generator<int, array<int, scalar>> */
     public function readLines(): Generator
     {
         while (! $this->eof()) {
@@ -98,7 +99,7 @@ class CsvFile implements SeekableIterator
         return true;
     }
 
-    /** @return string[] */
+    /** @return array<int, scalar> */
     public function readLine(): array
     {
         if ($this->eof()) {
@@ -109,7 +110,7 @@ class CsvFile implements SeekableIterator
         return $this->rowProcessor->execute(str_getcsv($contents));
     }
 
-    /** @return string[] */
+    /** @return array<int, scalar> */
     public function current(): array
     {
         return $this->readLine();
