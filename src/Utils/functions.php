@@ -7,8 +7,8 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils;
 use RuntimeException;
 
 /**
- * @param array<int, mixed> $input
- * @return array<int, mixed>
+ * @param array<int, scalar> $input
+ * @return array<int, scalar>
  */
 function array_rtrim(array $input): array
 {

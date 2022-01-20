@@ -9,6 +9,10 @@ use Psr\Log\LogLevel;
 
 class TerminalLogger extends AbstractLogger
 {
+    /**
+     * @param string $level
+     * @param string $message
+     */
     public function log($level, $message, array $context = []): void
     {
         $logValue = $this->logValue($level);

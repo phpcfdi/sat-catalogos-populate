@@ -54,7 +54,7 @@ class Repository
 
     /**
      * @param mixed[] $values
-     * @return array<int, array<string, scalar>>
+     * @return array<int, array<string, scalar|null>>
      */
     public function queryArray(string $sql, array $values = []): array
     {
@@ -64,6 +64,7 @@ class Repository
         }
         $table = [];
         while (false !== $row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+            /** @var array<scalar|null> $row */
             $table[] = $row;
         }
 
@@ -72,7 +73,7 @@ class Repository
 
     /**
      * @param mixed[] $values
-     * @return array<string, scalar>
+     * @return array<string, scalar|null>
      */
     public function queryRow(string $sql, array $values = []): array
     {
@@ -88,8 +89,11 @@ class Repository
         return [];
     }
 
-    /** @param mixed[] $values */
-    public function queryOne(string $sql, array $values = []): mixed
+    /**
+     * @param mixed[] $values
+     * @return scalar|null
+     */
+    public function queryOne(string $sql, array $values = [])
     {
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($values);
