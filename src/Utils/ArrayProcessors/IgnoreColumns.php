@@ -12,7 +12,7 @@ class IgnoreColumns extends AbstractPipeArrayProcessor implements ArrayProcessor
     public function __construct(ArrayProcessorInterface $next = null, int ...$columns)
     {
         parent::__construct($next);
-        $this->columns = $columns;
+        $this->columns = array_values($columns);
     }
 
     /** @return array<int, int> */

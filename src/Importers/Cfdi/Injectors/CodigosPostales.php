@@ -51,7 +51,7 @@ class CodigosPostales extends AbstractCsvInjector
         ];
         foreach ($expectedLines as $line => $expected) {
             $line = $line + 1;
-            $headers = array_map('trim', $csv->readLine());
+            $headers = array_map(fn ($line) => trim((string) $line), $csv->readLine());
             if ($expected !== $headers) {
                 throw new RuntimeException("The headers did not match on file {$this->sourceFile()} line {$line}");
             }
