@@ -113,7 +113,7 @@ jobs:
         run: |
           if [ -f build/coverage/clover.xml ]; then
             mkdir --parents build/ocular
-            composer -d build/ocular require scrutinizer/ocular
+            composer require -d build/ocular scrutinizer/ocular
             php build/ocular/vendor/bin/ocular code-coverage:upload --format=php-clover build/coverage/clover.xml
           fi
       - name: System test
