@@ -9,7 +9,6 @@ on:
 
 # Actions
 # shivammathur/setup-php@v2 https://github.com/marketplace/actions/setup-php-action
-# sudo-bot/action-scrutinizer@latest https://github.com/marketplace/actions/action-scrutinizer
 
 jobs:
 
@@ -94,7 +93,7 @@ jobs:
         env:
           fail-fast: true
       - name: Install xlsx2csv & libreoffice-calc
-        run: sudo apt-get install -y -qq --no-install-recommends xlsx2csv default-jre-headless libreoffice-calc
+        run: sudo apt-get install -y --no-install-recommends xlsx2csv default-jre-headless libreoffice-calc
         env:
           DEBIAN_FRONTEND: noninteractive
       - name: Get composer cache directory
@@ -111,11 +110,13 @@ jobs:
       - name: Tests (phpunit)
         run: vendor/bin/phpunit --testdox --verbose --coverage-xml=build/coverage --coverage-clover=build/coverage/clover.xml --log-junit=build/coverage/junit.xml
       - name: Upload code coverage to scrutinizer
-        uses: sudo-bot/action-scrutinizer@latest
-        with:
-          cli-args: "-vvv --format=php-clover build/coverage/clover.xml"
-        continue-on-error: true
+        run: |
+          if [ -f build/coverage/clover.xml ]; then
+            wget https://scrutinizer-ci.com/ocular.phar -O build/ocular
+            php build/ocular code-coverage:upload --format=php-clover build/coverage/clover.xml
+          fi
       - name: System test
+        if: github.event_name == 'push'
         run: |
           mkdir --parents build/files/
           php bin/sat-catalogos-update dump-origins > build/files/origins.xml
