@@ -17,11 +17,9 @@ use RuntimeException;
 
 class UnidadesAduanaTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var UnidadesAduana */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\UnidadesAduana $injector;
 
     protected function setUp(): void
     {

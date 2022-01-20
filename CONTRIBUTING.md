@@ -59,13 +59,22 @@ When you do begin working on your feature, here are some guidelines to consider:
 * **Submit one feature per pull request.** If you have multiple features you wish to submit, please break them up into separate pull requests.
 * **Send coherent history**. Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please squash them before submitting.
 
-## Check the code style
+```shell
+# Update project dependencies
+composer update
+phive update
 
-If you are having issues with coding standars use `php-cs-fixer` and `phpcbf`
+# Check code style
+composer dev:check-style
 
-```shell script
-vendor/bin/php-cs-fixer fix -v
-vendor/bin/phpcbf src/ tests/
+# Fix code style
+composer dev:fix-style
+
+# Tests
+composer dev:test
+
+# All-in-one: fix code style, run tests
+composer dev:build
 ```
 
 ## Running Tests
@@ -76,9 +85,20 @@ Before you can run these, be sure to `composer install` or `composer update`.
 
 ```shell script
 vendor/bin/php-cs-fixer fix --verbose
-vendor/bin/phpcbf --colors -sp src/ tests/
+vendor/bin/phpcbf --colors -sp
 vendor/bin/phpunit --testdox
-vendor/bin/phpstan.phar analyse --no-progress --level max src/ tests/
-bin/sat-catalogos-update dump-origins > build/origins.xml
-bin/sat-catalogos-update update-origins build/ -w build/files/database.sqlite3
+vendor/bin/phpstan.phar analyse --no-progress --level max
+mkdir -p build/files/
+bin/sat-catalogos-update dump-origins > build/files/origins.xml
+bin/sat-catalogos-update update-origins build/files/ -w build/files/database.sqlite3
+```
+
+## Running GitHub Actions locally
+
+You can use [`act`](https://github.com/nektos/act) to run your GitHub Actions locally.
+As documented in [`actions/setup-php-action`](https://github.com/marketplace/actions/setup-php-action#local-testing-setup)
+you will need to execute the command as:
+
+```shell
+act -P ubuntu-latest=shivammathur/node:latest
 ```

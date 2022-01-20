@@ -20,7 +20,6 @@ class CsvFolderJoinFiles
 
     /**
      * @param array<int, string> $files
-     * @param string $destination
      */
     public function joinFilesToDestination(array $files, string $destination): void
     {
@@ -40,7 +39,6 @@ class CsvFolderJoinFiles
     }
 
     /**
-     * @param string $csvFolder
      * @return array<string, array<int, string>>
      */
     public function obtainFilesThatAreSplitted(string $csvFolder): array
@@ -50,7 +48,8 @@ class CsvFolderJoinFiles
                 function ($path): array {
                     $file = basename($path);
                     $matches = [];
-                    if (! (bool) preg_match('/^[ ]*(.+)_Parte_([0-9]+)[ ]*\.csv$/', $file, $matches)
+                    if (
+                        ! (bool) preg_match('/^[ ]*(.+)_Parte_([0-9]+)[ ]*\.csv$/', $file, $matches)
                         && ! (bool) preg_match('/^[ ]*(.+) \(Parte ([0-9]+)\)[ ]*\.csv$/', $file, $matches)
                         && ! (bool) preg_match('/^[ ]*(.+)_([0-9]+)[ ]*\.csv$/', $file, $matches)
                     ) {
@@ -66,9 +65,7 @@ class CsvFolderJoinFiles
             )
         );
 
-        uasort($files, function ($first, $second) {
-            return ($first['destination'] <=> $second['destination']) ?: $first['index'] <=> $second['index'];
-        });
+        uasort($files, [$this, 'compareFiles']);
 
         $destinations = [];
         foreach ($files as $file) {
@@ -76,6 +73,15 @@ class CsvFolderJoinFiles
         }
 
         return $destinations;
+    }
+
+    /**
+     * @param array{destination: string, index: int} $first
+     * @param array{destination: string, index: int} $second
+     */
+    private function compareFiles(array $first, array $second): int
+    {
+        return ($first['destination'] <=> $second['destination']) ?: $first['index'] <=> $second['index'];
     }
 
     public function writeLines(string $source, string $destination, int $skipFirstLines, int $skipLastLines): void
@@ -102,6 +108,10 @@ class CsvFolderJoinFiles
         return $lines;
     }
 
+    /**
+     * @param Iterator<mixed> $first
+     * @param Iterator<mixed> $second
+     */
     private function splCurrentLinesAreEqual(Iterator $first, Iterator $second): bool
     {
         if (! $first->valid() || ! $second->valid()) {
@@ -112,11 +122,7 @@ class CsvFolderJoinFiles
         return ($firstValue === $secondValue);
     }
 
-    /**
-     * @param string|mixed $current
-     * @return string|mixed
-     */
-    private function splCurrentLinesAreEqualNormalizeValue($current)
+    private function splCurrentLinesAreEqualNormalizeValue(mixed $current): mixed
     {
         if (! is_string($current)) {
             return $current;
@@ -125,15 +131,13 @@ class CsvFolderJoinFiles
     }
 
     /**
-     * @param string $filename
      * @param string[] $searchterms
-     * @return bool
      */
     public function lastLineContains(string $filename, array $searchterms): bool
     {
         $lastline = $this->obtainFileLastLine($filename);
         foreach ($searchterms as $search) {
-            if (false !== strpos($lastline, $search)) {
+            if (str_contains($lastline, $search)) {
                 return true;
             }
         }

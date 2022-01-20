@@ -9,43 +9,17 @@ use LogicException;
 
 class ScrapingOrigin implements OriginInterface
 {
-    /** @var string */
-    private $name;
-
-    /** @var string */
-    private $toScrapUrl;
-
-    /** @var DateTimeImmutable|null */
-    private $lastVersion;
-
-    /** @var string */
-    private $destinationFilename;
-
-    /** @var string */
-    private $downloadUrl;
-
-    /**
-     * @var string
-     */
-    private $linkText;
-
     public function __construct(
-        string $name,
-        string $toScrapUrl,
-        string $destinationFilename,
-        string $linkText,
-        ?DateTimeImmutable $lastVersion = null,
-        string $downloadUrl = ''
+        private string $name,
+        private string $toScrapUrl,
+        private string $destinationFilename,
+        private string $linkText,
+        private ?DateTimeImmutable $lastVersion = null,
+        private string $downloadUrl = ''
     ) {
-        $this->name = $name;
-        $this->toScrapUrl = $toScrapUrl;
-        $this->lastVersion = $lastVersion;
-        $this->destinationFilename = $destinationFilename;
-        $this->downloadUrl = $downloadUrl;
-        $this->linkText = $linkText;
     }
 
-    public function withLastModified(?DateTimeImmutable $lastModified): self
+    public function withLastModified(?DateTimeImmutable $lastModified): static
     {
         $clone = clone $this;
         $clone->lastVersion = $lastModified;

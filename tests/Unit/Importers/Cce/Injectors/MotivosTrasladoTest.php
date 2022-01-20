@@ -16,11 +16,9 @@ use RuntimeException;
 
 class MotivosTrasladoTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var MotivosTraslado */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\MotivosTraslado $injector;
 
     protected function setUp(): void
     {

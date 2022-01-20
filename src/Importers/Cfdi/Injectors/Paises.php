@@ -10,8 +10,9 @@ use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
-use function PhpCfdi\SatCatalogosPopulate\Utils\preg_is_valid;
 use RuntimeException;
+
+use function PhpCfdi\SatCatalogosPopulate\Utils\preg_is_valid;
 
 class Paises extends AbstractCsvInjector implements InjectorInterface
 {
@@ -37,7 +38,7 @@ class Paises extends AbstractCsvInjector implements InjectorInterface
 
     public function dataTable(): DataTable
     {
-        $optionalPattern = function (string $input) {
+        $optionalPattern = function (string $input): string {
             if ('' === $input) {
                 return '';
             }

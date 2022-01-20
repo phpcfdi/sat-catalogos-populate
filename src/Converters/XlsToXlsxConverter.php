@@ -6,16 +6,17 @@ namespace PhpCfdi\SatCatalogosPopulate\Converters;
 
 use LogicException;
 use PhpCfdi\SatCatalogosPopulate\Utils\ShellExec;
-use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 use PhpCfdi\SatCatalogosPopulate\Utils\WhichTrait;
 use RuntimeException;
+
+use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 
 class XlsToXlsxConverter
 {
     use WhichTrait;
 
     /** @var string Location of soffice executable */
-    private $sofficePath;
+    private string $sofficePath;
 
     public function __construct(string $sofficePath = '')
     {

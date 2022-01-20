@@ -8,24 +8,15 @@ use DateTimeImmutable;
 
 class UrlResponse
 {
-    /** @var string */
-    private $url;
+    private DateTimeImmutable $lastModified;
 
-    /** @var int */
-    private $httpStatus;
-
-    /** @var DateTimeImmutable */
-    private $lastModified;
-
-    /** @var string */
-    private $body;
-
-    public function __construct(string $url, int $httpStatus, DateTimeImmutable $lastModified = null, string $body = '')
-    {
-        $this->url = $url;
-        $this->httpStatus = $httpStatus;
+    public function __construct(
+        private string $url,
+        private int $httpStatus,
+        DateTimeImmutable $lastModified = null,
+        private string $body = ''
+    ) {
         $this->lastModified = ($lastModified) ?: new DateTimeImmutable();
-        $this->body = $body;
     }
 
     public function url(): string

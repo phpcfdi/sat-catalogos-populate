@@ -16,11 +16,9 @@ use RuntimeException;
 
 class TiposJornadasTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var TiposJornadas */
-    private $injector;
+    private TiposJornadas $injector;
 
     protected function setUp(): void
     {
@@ -68,8 +66,6 @@ class TiposJornadasTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["AB", "AB"]
      *           ["", "00"]
      *           ["9", "09"]

@@ -15,11 +15,9 @@ use RuntimeException;
 
 class MetodosDePagoTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var MetodosDePago */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\MetodosDePago $injector;
 
     protected function setUp(): void
     {

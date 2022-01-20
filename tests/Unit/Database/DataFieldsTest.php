@@ -67,9 +67,7 @@ class DataFieldsTest extends TestCase
         ];
 
         $dataFields = new DataFields([
-            new TextDataField('id', function ($input) {
-                return str_pad((string) $input, 2, '0', STR_PAD_LEFT);
-            }),
+            new TextDataField('id', fn ($input): string => str_pad((string) $input, 2, '0', STR_PAD_LEFT)),
             new TextDataField('title'),
             new TextDataField('amount'),
             new TextDataField('created_at'),

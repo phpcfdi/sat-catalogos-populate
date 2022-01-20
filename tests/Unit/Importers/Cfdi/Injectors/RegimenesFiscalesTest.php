@@ -16,11 +16,9 @@ use RuntimeException;
 
 class RegimenesFiscalesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var RegimenesFiscales */
-    private $injector;
+    private RegimenesFiscales $injector;
 
     protected function setUp(): void
     {
@@ -72,8 +70,6 @@ class RegimenesFiscalesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
@@ -87,8 +83,6 @@ class RegimenesFiscalesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]

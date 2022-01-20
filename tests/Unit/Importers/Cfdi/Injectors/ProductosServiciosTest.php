@@ -13,11 +13,9 @@ use RuntimeException;
 
 class ProductosServiciosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var ProductosServicios */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ProductosServicios $injector;
 
     protected function setUp(): void
     {

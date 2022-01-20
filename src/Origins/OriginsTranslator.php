@@ -7,11 +7,12 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use DateTimeImmutable;
 use RuntimeException;
 
-final class OriginsTranslator
+final class OriginsTranslator implements OriginsTranslatorInterface
 {
+    /** @inheritdoc */
     public function originFromArray(array $data): OriginInterface
     {
-        $type = ($data['type'] ?? '') ?: 'const';
+        $type = strval($data['type'] ?? '') ?: 'const';
         if ('const' === $type) {
             return $this->constantOriginFromArray($data);
         }
@@ -21,6 +22,7 @@ final class OriginsTranslator
         throw new RuntimeException("Unable to create an origin with type $type");
     }
 
+    /** @param array<string, mixed> $data */
     public function constantOriginFromArray(array $data): ConstantOrigin
     {
         return new ConstantOrigin(
@@ -31,6 +33,7 @@ final class OriginsTranslator
         );
     }
 
+    /** @return array<string, string> */
     public function originToArray(OriginInterface $origin): array
     {
         if ($origin instanceof ConstantOrigin) {
@@ -39,9 +42,10 @@ final class OriginsTranslator
         if ($origin instanceof ScrapingOrigin) {
             return $this->scrapingOriginToArray($origin);
         }
-        throw new RuntimeException(sprintf('Unable to export an origin with type %s', get_class($origin)));
+        throw new RuntimeException(sprintf('Unable to export an origin with type %s', $origin::class));
     }
 
+    /** @param array<string, mixed> $data */
     public function scrapingOriginFromArray(array $data): ScrapingOrigin
     {
         return new ScrapingOrigin(
@@ -59,6 +63,7 @@ final class OriginsTranslator
         return ('' !== $value) ? new DateTimeImmutable($value) : null;
     }
 
+    /** @return array<string, string> */
     public function constantOriginToArray(ConstantOrigin $origin): array
     {
         return array_filter([
@@ -69,6 +74,7 @@ final class OriginsTranslator
         ]);
     }
 
+    /** @return array<string, string> */
     public function scrapingOriginToArray(ScrapingOrigin $origin): array
     {
         return array_filter([

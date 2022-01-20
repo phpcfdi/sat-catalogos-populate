@@ -9,7 +9,7 @@ use LogicException;
 class Reviewers
 {
     /** @var ReviewerInterface[] */
-    private $reviewers;
+    private array $reviewers;
 
     public function __construct(ReviewerInterface ...$reviewers)
     {
@@ -41,6 +41,6 @@ class Reviewers
                 return $reviewer;
             }
         }
-        throw new LogicException(sprintf('Unable to review an origin of class %s', get_class($origin)));
+        throw new LogicException(sprintf('Unable to review an origin of class %s', $origin::class));
     }
 }

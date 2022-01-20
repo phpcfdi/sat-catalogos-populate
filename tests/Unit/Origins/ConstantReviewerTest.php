@@ -13,8 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ConstantReviewerTest extends TestCase
 {
-    /** @var ConstantReviewer */
-    private $reviewer;
+    private \PhpCfdi\SatCatalogosPopulate\Origins\ConstantReviewer $reviewer;
 
     protected function setUp(): void
     {

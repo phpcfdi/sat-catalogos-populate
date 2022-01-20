@@ -6,6 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors;
 
 class NullArrayProcessor implements ArrayProcessorInterface
 {
+    /** @inheritdoc */
     public function execute(array $array): array
     {
         return $array;

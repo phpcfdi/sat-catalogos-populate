@@ -1,5 +1,55 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.0.0 2022-01-19
+
+- Change CFDI 3.3 catalogs from fixed URL <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls>
+  to scrap <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm>
+  and search for link with text `Catálogos CFDI Versión 3.3(xls)`.
+- Update license year to 2022. Happy new year!
+- Upgrade to PHP 8.0.
+- Fix compatibility on PHP 8.1.
+- Upgrade to PHPStan 1.3.3. Fix a lot of issues found. Thank you, PHPStan!
+- Move development dependencies to Phive.
+- Remove Travis CI. Thank you, Travis CI!
+- Add GitHub Workflows.
+- Update `CONTRIBUTING.md`.
+- Refactor Docker image to use `debian:bullseye` and PHP Packages from <https://deb.sury.org/>.
+
+Backwards compatibility changes:
+
+```text
+[BC] CHANGED: Constant PhpCfdi\SatCatalogosPopulate\Commands\UpdateOrigins::DEFAULT_ORIGINS_FILENAME visibility reduced from public to private
+[BC] CHANGED: Parameter 0 of PhpCfdi\SatCatalogosPopulate\Utils\CsvFile#seek() changed name from position to offset
+[BC] CHANGED: The parameter $arguments of PhpCfdi\SatCatalogosPopulate\Commands\CliApplication#runCommand() changed from array to a non-contravariant string
+[BC] CHANGED: The parameter $arguments of PhpCfdi\SatCatalogosPopulate\Commands\CliApplication#runCommand() changed from array to string
+[BC] CHANGED: The parameter $member of PhpCfdi\SatCatalogosPopulate\AbstractCollection#isValidMember() changed from no type to mixed
+[BC] CHANGED: The parameter $member of PhpCfdi\SatCatalogosPopulate\Injectors#isValidMember() changed from no type to mixed
+[BC] CHANGED: The parameter $member of PhpCfdi\SatCatalogosPopulate\Origins\Origins#isValidMember() changed from no type to mixed
+[BC] CHANGED: The parameter $member of PhpCfdi\SatCatalogosPopulate\Origins\Reviews#isValidMember() changed from no type to mixed
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\AbstractCollection#getIterator() changed from no type to ArrayIterator
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector#readLinesFromCsv() changed from no type to Iterator
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface::createFromArguments() changed from self to no type
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface::createFromArguments() changed from self to the non-covariant no type
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\DumpOrigins::createFromArguments() changed from PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface to self
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\DumpOrigins::createFromArguments() changed from PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface to the non-covariant self
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\UpdateDatabase::createFromArguments() changed from PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface to self
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\UpdateDatabase::createFromArguments() changed from PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface to the non-covariant self
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\UpdateOrigins#createResourcesGateway() changed from PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface to PhpCfdi\SatCatalogosPopulate\Origins\WebResourcesGateway
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\UpdateOrigins::createFromArguments() changed from PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface to self
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Commands\UpdateOrigins::createFromArguments() changed from PhpCfdi\SatCatalogosPopulate\Commands\CommandInterface to the non-covariant self
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Database\DataFields#getIterator() changed from no type to ArrayIterator
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\CodigosPostales#readLinesFromCsv() changed from no type to Generator
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposComprobantes#readLinesFromCsv() changed from no type to Generator
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin#withLastModified() changed from self to static
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin#withLastModified() changed from self to the non-covariant static
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface#withLastModified() changed from no type to static
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin#withLastModified() changed from self to static
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin#withLastModified() changed from self to the non-covariant static
+[BC] CHANGED: The return type of PhpCfdi\SatCatalogosPopulate\Utils\CsvFile#readLines() changed from no type to Iterator
+[BC] REMOVED: Constant PhpCfdi\SatCatalogosPopulate\Commands\UpdateOrigins::DEFAULT_ORIGINS_FILENAME was removed
+[BC] REMOVED: Method PhpCfdi\SatCatalogosPopulate\Injectors#getByClassname() was removed
+```
+
 ## Version 1.2.1 2021-03-18
 
 - Found some cases where imported cells contains left or right a non breacking space `&nbsp;`.

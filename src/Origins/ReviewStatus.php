@@ -12,12 +12,8 @@ class ReviewStatus
 
     protected const NOT_UPDATED = 'NOT-UPDATED';
 
-    /** @var string */
-    private $status;
-
-    private function __construct(string $status)
+    private function __construct(private string $status)
     {
-        $this->status = $status;
     }
 
     private static function staticObjects(string $type): self
@@ -32,17 +28,17 @@ class ReviewStatus
 
     public static function uptodate(): self
     {
-        return static::staticObjects(self::UP_TO_DATE);
+        return self::staticObjects(self::UP_TO_DATE);
     }
 
     public static function notFound(): self
     {
-        return static::staticObjects(self::NOT_FOUND);
+        return self::staticObjects(self::NOT_FOUND);
     }
 
     public static function notUpdated(): self
     {
-        return static::staticObjects(self::NOT_UPDATED);
+        return self::staticObjects(self::NOT_UPDATED);
     }
 
     public function isUptodate(): bool

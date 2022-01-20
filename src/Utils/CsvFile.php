@@ -4,20 +4,22 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Utils;
 
+use Generator;
+use Iterator;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\ArrayProcessorInterface;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\NullArrayProcessor;
 use SeekableIterator;
 use SplFileObject;
-use Traversable;
 use UnexpectedValueException;
 
+/**
+ * @implements SeekableIterator<int, array<int, scalar>>
+ */
 class CsvFile implements SeekableIterator
 {
-    /** @var SplFileObject */
-    private $file;
+    private SplFileObject $file;
 
-    /** @var ArrayProcessorInterface */
-    private $rowProcessor;
+    private ArrayProcessorInterface $rowProcessor;
 
     public function __construct(string $filename, ArrayProcessorInterface $rowProcessor = null)
     {
@@ -45,7 +47,7 @@ class CsvFile implements SeekableIterator
         }
 
         if (1 === $position) {
-            // this is a bugfix, otherwise it don't go to line 1
+            // this is a bugfix, otherwise it doesn't go to line 1
             $this->file->rewind();
             $this->current();
             $this->file->next();
@@ -65,10 +67,8 @@ class CsvFile implements SeekableIterator
         $this->move($this->position() + $times);
     }
 
-    /**
-     * @return Traversable<array>
-     */
-    public function readLines()
+    /** @return Generator<int, array<int, scalar>> */
+    public function readLines(): Iterator
     {
         while (! $this->eof()) {
             yield $this->readLine();
@@ -100,6 +100,7 @@ class CsvFile implements SeekableIterator
         return true;
     }
 
+    /** @return array<int, scalar> */
     public function readLine(): array
     {
         if ($this->eof()) {
@@ -110,6 +111,7 @@ class CsvFile implements SeekableIterator
         return $this->rowProcessor->execute(str_getcsv($contents));
     }
 
+    /** @return array<int, scalar> */
     public function current(): array
     {
         return $this->readLine();
@@ -131,10 +133,10 @@ class CsvFile implements SeekableIterator
     }
 
     /**
-     * @param int $position
+     * @param int $offset
      */
-    public function seek($position): void
+    public function seek($offset): void
     {
-        $this->move($position);
+        $this->move($offset);
     }
 }

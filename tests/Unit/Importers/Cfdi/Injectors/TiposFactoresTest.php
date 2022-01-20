@@ -15,11 +15,9 @@ use RuntimeException;
 
 class TiposFactoresTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var TiposFactores */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposFactores $injector;
 
     protected function setUp(): void
     {

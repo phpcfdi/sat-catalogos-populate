@@ -12,9 +12,9 @@ interface CommandInterface extends LoggerAwareInterface
 
     /**
      * @param string[] $arguments
-     * @return CommandInterface
+     * @return static
      */
-    public static function createFromArguments(array $arguments): self;
+    public static function createFromArguments(array $arguments);
 
     public static function help(string $commandName): string;
 }

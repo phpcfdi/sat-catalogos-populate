@@ -41,9 +41,7 @@ class CceCatalogsTest extends TestCase
         $importer = new CceCatalogs();
         $importers = array_values($importer->createImporters());
 
-        $importersClasses = array_map(function ($item) {
-            return get_class($item);
-        }, $importers);
+        $importersClasses = array_map(fn ($item) => $item::class, $importers);
 
         $this->assertEquals(array_replace_recursive($importersClasses, $expectedInjectorsClasses), $importersClasses);
         $this->assertCount(count($expectedInjectorsClasses), $importersClasses);

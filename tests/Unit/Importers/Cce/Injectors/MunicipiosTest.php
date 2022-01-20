@@ -16,11 +16,9 @@ use RuntimeException;
 
 class MunicipiosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Municipios */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Municipios $injector;
 
     protected function setUp(): void
     {

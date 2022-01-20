@@ -16,13 +16,12 @@ use RuntimeException;
 
 class FraccionesArancelarias extends AbstractCsvInjector
 {
-    /** @var bool Indicates if the injector must recreate the table */
-    private $shouldRecreateTable;
-
-    public function __construct(string $sourceFile, bool $shouldRecreateTable)
-    {
+    /** @param bool $shouldRecreateTable Indicates if the injector must recreate the table */
+    public function __construct(
+        string $sourceFile,
+        private bool $shouldRecreateTable
+    ) {
         parent::__construct($sourceFile);
-        $this->shouldRecreateTable = $shouldRecreateTable;
     }
 
     protected function createCsvFileReader(): CsvFile

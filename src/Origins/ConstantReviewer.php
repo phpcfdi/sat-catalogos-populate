@@ -8,12 +8,8 @@ use LogicException;
 
 class ConstantReviewer implements ReviewerInterface
 {
-    /** @var ResourcesGatewayInterface */
-    private $gateway;
-
-    public function __construct(ResourcesGatewayInterface $gateway)
+    public function __construct(private ResourcesGatewayInterface $gateway)
     {
-        $this->gateway = $gateway;
     }
 
     public function accepts(OriginInterface $origin): bool

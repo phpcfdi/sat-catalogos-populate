@@ -10,7 +10,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 class FakeGateway implements ResourcesGatewayInterface
 {
     /** @var array<string, UrlResponse> */
-    private $collection = [];
+    private array $collection = [];
 
     public function add(UrlResponse $urlResponse): void
     {

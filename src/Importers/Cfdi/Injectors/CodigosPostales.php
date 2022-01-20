@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors;
 
+use Generator;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\BoolDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
@@ -50,7 +51,7 @@ class CodigosPostales extends AbstractCsvInjector
         ];
         foreach ($expectedLines as $line => $expected) {
             $line = $line + 1;
-            $headers = array_map('trim', $csv->readLine());
+            $headers = array_map(fn ($line): string => trim((string) $line), $csv->readLine());
             if ($expected !== $headers) {
                 throw new RuntimeException("The headers did not match on file {$this->sourceFile()} line {$line}");
             }
@@ -80,7 +81,8 @@ class CodigosPostales extends AbstractCsvInjector
         ]));
     }
 
-    protected function readLinesFromCsv(CsvFile $csv)
+    /** @inheritdoc */
+    protected function readLinesFromCsv(CsvFile $csv): Generator
     {
         foreach ($csv->readLines() as $line) {
             if ('00000' === $line[0]) {

@@ -9,7 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Database\Repository;
 use Psr\Log\LoggerInterface;
 
 /**
- * @method InjectorInterface[] all(): array
+ * @extends AbstractCollection<InjectorInterface>
  */
 class Injectors extends AbstractCollection implements InjectorInterface
 {
@@ -21,14 +21,14 @@ class Injectors extends AbstractCollection implements InjectorInterface
         }
     }
 
-    public function isValidMember($member): bool
+    public function isValidMember(mixed $member): bool
     {
         return ($member instanceof InjectorInterface);
     }
 
     public function validate(): void
     {
-        foreach ($this->all() as $injector) {
+        foreach ($this->getIterator() as $injector) {
             $injector->validate();
         }
     }
@@ -36,21 +36,9 @@ class Injectors extends AbstractCollection implements InjectorInterface
     public function inject(Repository $repository, LoggerInterface $logger): int
     {
         $inserted = 0;
-        foreach ($this->all() as $injector) {
+        foreach ($this->getIterator() as $injector) {
             $inserted = $inserted + $injector->inject($repository, $logger);
         }
         return $inserted;
-    }
-
-    public function getByClassname(string $classname): InjectorInterface
-    {
-        foreach ($this->all() as $injector) {
-            if ($injector instanceof $classname) {
-                return $injector;
-            }
-        }
-        throw new InvalidArgumentException(
-            "The collection does not contain a class with name $classname"
-        );
     }
 }

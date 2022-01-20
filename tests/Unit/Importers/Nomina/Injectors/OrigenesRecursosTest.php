@@ -15,11 +15,9 @@ use RuntimeException;
 
 class OrigenesRecursosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var OrigenesRecursos */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\OrigenesRecursos $injector;
 
     protected function setUp(): void
     {

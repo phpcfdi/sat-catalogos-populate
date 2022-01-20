@@ -10,31 +10,19 @@ use LogicException;
 
 class ConstantOrigin implements OriginInterface
 {
-    /** @var string */
-    private $name;
-
-    /** @var string */
-    private $url;
-
-    /** @var DateTimeImmutable|null */
-    private $lastVersion;
-
-    private $destinationFilename;
+    private string $destinationFilename;
 
     public function __construct(
-        string $name,
-        string $url,
-        ?DateTimeImmutable $lastVersion = null,
+        private string $name,
+        private string $url,
+        private ?DateTimeImmutable $lastVersion = null,
         string $destinationFilename = ''
     ) {
-        $this->name = $name;
-        $this->url = $url;
-        $this->lastVersion = $lastVersion;
-        if ('' === $destinationFilename) {
-            $destinationFilename = basename($destinationFilename);
-        }
         if ('' === $destinationFilename) {
             $destinationFilename = ltrim(parse_url($url, PHP_URL_PATH) ?: '', '/');
+        }
+        if ('' !== $destinationFilename) {
+            $destinationFilename = basename($destinationFilename);
         }
         if ('' === $destinationFilename) {
             throw new InvalidArgumentException('The is no destination filename and url does not have a valid basename');
@@ -42,7 +30,7 @@ class ConstantOrigin implements OriginInterface
         $this->destinationFilename = $destinationFilename;
     }
 
-    public function withLastModified(?DateTimeImmutable $lastModified): self
+    public function withLastModified(?DateTimeImmutable $lastModified): static
     {
         $clone = clone $this;
         $clone->lastVersion = $lastModified;

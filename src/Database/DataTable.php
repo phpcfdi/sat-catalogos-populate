@@ -8,15 +8,16 @@ use LogicException;
 
 class DataTable
 {
-    /** @var string */
-    private $name;
+    private string $name;
 
-    /** @var DataFields */
-    private $fields;
+    private DataFields $fields;
 
-    /** @var array */
-    private $primaryKey;
+    /** @var string[] */
+    private array $primaryKey;
 
+    /**
+     * @param string[] $primaryKey
+     */
     public function __construct(
         string $name,
         DataFields $fields,
@@ -54,6 +55,7 @@ class DataTable
         return $this->fields;
     }
 
+    /** @return string[] */
     public function primaryKey(): array
     {
         return $this->primaryKey;

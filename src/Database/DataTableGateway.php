@@ -9,16 +9,8 @@ use PDOException;
 
 class DataTableGateway
 {
-    /** @var DataTable */
-    private $dataTable;
-
-    /** @var Repository */
-    private $repository;
-
-    public function __construct(DataTable $dataTable, Repository $repository)
+    public function __construct(private DataTable $dataTable, private Repository $repository)
     {
-        $this->dataTable = $dataTable;
-        $this->repository = $repository;
     }
 
     public function dataTable(): DataTable
@@ -45,7 +37,7 @@ class DataTableGateway
             return $sqlName . ' real not null';
         }
 
-        throw new LogicException("Don't know what to do with " . get_class($field));
+        throw new LogicException("Don't know what to do with " . $field::class);
     }
 
     public function drop(): void
@@ -64,18 +56,20 @@ class DataTableGateway
         $pkDefinition = '';
         if (count($this->dataTable->primaryKey()) > 0) {
             $pkDefinition = 'PRIMARY KEY ('
-                . implode(', ', array_map(function (string $input): string {
-                    return $this->repository->escapeName($input);
-                }, $this->dataTable->primaryKey()))
+                . implode(', ', array_map(
+                    fn (string $input): string => $this->repository->escapeName($input),
+                    $this->dataTable->primaryKey()
+                ))
                 . ')';
         }
 
         $sql = 'CREATE TABLE ' . $this->repository->escapeName($this->dataTable->name())
-            . ' ( ' . implode(', ', array_filter(array_merge($fields, [$pkDefinition]))) . ' )'
+            . ' ( ' . implode(', ', array_filter([...$fields, ...[$pkDefinition]])) . ' )'
             . ';';
         $this->repository->execute($sql);
     }
 
+    /** @param mixed[] $input */
     public function insert(array $input): void
     {
         $fieldNames = [];
@@ -93,7 +87,7 @@ class DataTableGateway
         try {
             $this->repository->execute($sql, $input);
         } catch (PDOException $exception) {
-            $message = sprintf('Unable to run %s using %s', $sql, json_encode($input));
+            $message = sprintf('Unable to run %s using %s', $sql, json_encode($input, JSON_THROW_ON_ERROR));
             throw new PDOException($message, 0, $exception);
         }
     }

@@ -8,10 +8,10 @@ use RuntimeException;
 
 class CliApplication
 {
-    private $commands;
+    /** @var array<string, array{class: class-string, description: string}> */
+    private array $commands;
 
-    /** @var string */
-    private $executableName;
+    private string $executableName = '';
 
     public function getExecutableName(): string
     {
@@ -62,7 +62,7 @@ class CliApplication
             return 0;
         }
 
-        return $this->runCommand($command, $arguments);
+        return $this->runCommand($command, ...$arguments);
     }
 
     public function getCommandClass(string $commandName): string
@@ -73,7 +73,7 @@ class CliApplication
         return $this->commands[$commandName]['class'];
     }
 
-    public function runCommand(string $commandName, array $arguments): int
+    public function runCommand(string $commandName, string ...$arguments): int
     {
         $commandClass = $this->getCommandClass($commandName);
         /** @var callable $staticCallable phpstan work around*/
@@ -115,6 +115,8 @@ class CliApplication
         echo $commandName, ': ', $description, PHP_EOL;
         /** @var callable $staticCallable phpstan work around */
         $staticCallable = $commandClassName . '::help';
-        echo call_user_func($staticCallable, $commandName), PHP_EOL, PHP_EOL;
+        /** @var string $helpOutput */
+        $helpOutput = call_user_func($staticCallable, $commandName);
+        echo $helpOutput, PHP_EOL, PHP_EOL;
     }
 }

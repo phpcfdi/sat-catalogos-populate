@@ -7,20 +7,17 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 use PhpCfdi\SatCatalogosPopulate\AbstractCollection;
 
 /**
- * @method Review[] all(): array
- * @method Review get(int $index): Review
+ * @extends AbstractCollection<Review>
  */
 class Reviews extends AbstractCollection
 {
-    public function isValidMember($member): bool
+    public function isValidMember(mixed $member): bool
     {
         return ($member instanceof Review);
     }
 
     public function filterStatus(ReviewStatus $status): self
     {
-        return new self(array_filter($this->all(), function (Review $review) use ($status) {
-            return $status === $review->status();
-        }));
+        return new self(array_filter($this->all(), fn (Review $review): bool => $status === $review->status()));
     }
 }

@@ -16,7 +16,12 @@ class DumpOrigins implements CommandInterface
     {
         $common = 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos';
         $origins = new Origins([
-            new ConstantOrigin('CFDI', "{$common}/catCFDI.xls"),
+            new ScrapingOrigin(
+                'CFDI',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm',
+                'catCFDI.xls',
+                'Catálogos CFDI Versión 3.3(xls)',
+            ),
             new ConstantOrigin('Nóminas', "{$common}/catNomina.xls"),
             new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
             new ConstantOrigin('CCE - Colonias', "{$common}/c_Colonia.xls"),
@@ -42,7 +47,7 @@ class DumpOrigins implements CommandInterface
         return 0;
     }
 
-    public static function createFromArguments(array $arguments): CommandInterface
+    public static function createFromArguments(array $arguments): self
     {
         return new self();
     }

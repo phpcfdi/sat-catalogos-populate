@@ -6,10 +6,14 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils;
 
 use RuntimeException;
 
+/**
+ * @param array<int, scalar> $input
+ * @return array<int, scalar>
+ */
 function array_rtrim(array $input): array
 {
     $count = count($input);
-    while ($count > 0 && '' === (string) $input[$count - 1]) {
+    while ($count > 0 && '' === strval($input[$count - 1])) {
         array_pop($input);
         $count = $count - 1;
     }
@@ -18,12 +22,9 @@ function array_rtrim(array $input): array
 }
 
 /**
- * @param string $dir
- * @param string $prefix
- * @return string
  * @throws RuntimeException Cannot create a temporary file name
  */
-function tempname($dir = '', $prefix = ''): string
+function tempname(string $dir = '', string $prefix = ''): string
 {
     /** @noinspection PhpUsageOfSilenceOperatorInspection */
     $tempname = @tempnam($dir, $prefix);
@@ -34,9 +35,6 @@ function tempname($dir = '', $prefix = ''): string
 }
 
 /**
- * @param string $dir
- * @param string $prefix
- * @return string
  * @throws RuntimeException Cannot create a temporary file name
  */
 function tempdir(string $dir = '', string $prefix = ''): string

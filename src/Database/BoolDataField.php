@@ -6,17 +6,29 @@ namespace PhpCfdi\SatCatalogosPopulate\Database;
 
 class BoolDataField extends AbstractDataField implements DataFieldInterface
 {
-    public function __construct(string $name, array $trueValues = [], array $falseValues = [], bool $default = false)
+    /**
+     * @param string[] $trueValues
+     * @param string[] $falseValues
+     */
+    public function __construct(
+        string $name,
+        private array $trueValues = [],
+        private array $falseValues = [],
+        private bool $default = false
+    ) {
+        parent::__construct($name, [$this, 'valueToBoolean']);
+    }
+
+    /** @param scalar $input */
+    protected function valueToBoolean($input): bool
     {
-        parent::__construct($name, function ($input) use ($trueValues, $falseValues, $default) : bool {
-            $input = trim($input);
-            if (in_array($input, $trueValues, true)) {
-                return true;
-            }
-            if (in_array($input, $falseValues, true)) {
-                return false;
-            }
-            return $default;
-        });
+        $input = trim((string) $input);
+        if (in_array($input, $this->trueValues, true)) {
+            return true;
+        }
+        if (in_array($input, $this->falseValues, true)) {
+            return false;
+        }
+        return $this->default;
     }
 }

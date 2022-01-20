@@ -16,11 +16,9 @@ use RuntimeException;
 
 class BancosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Bancos */
-    private $injector;
+    private Bancos $injector;
 
     protected function setUp(): void
     {
@@ -71,8 +69,6 @@ class BancosTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABC", "ABC"]
      *           ["", "000"]
      *           ["9", "009"]

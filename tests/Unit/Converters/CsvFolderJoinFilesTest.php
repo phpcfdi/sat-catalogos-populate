@@ -6,6 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Converters;
 
 use PhpCfdi\SatCatalogosPopulate\Converters\CsvFolderJoinFiles;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempname;
 
 class CsvFolderJoinFilesTest extends TestCase

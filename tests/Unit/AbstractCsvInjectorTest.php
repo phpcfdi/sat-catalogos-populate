@@ -36,6 +36,7 @@ class AbstractCsvInjectorTest extends TestCase
         $this->assertTrue(true, 'The validate method did not create any exception');
     }
 
+    /** @return array<string, array{string}> */
     public function providerInvalidSourcefiles(): array
     {
         return [
@@ -46,7 +47,6 @@ class AbstractCsvInjectorTest extends TestCase
     }
 
     /**
-     * @param string $sourceFile
      * @dataProvider providerInvalidSourcefiles
      */
     public function testValidateWithInvalidSourcefile(string $sourceFile): void

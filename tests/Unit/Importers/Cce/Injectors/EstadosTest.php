@@ -15,11 +15,9 @@ use RuntimeException;
 
 class EstadosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Estados */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Estados $injector;
 
     protected function setUp(): void
     {

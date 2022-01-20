@@ -10,8 +10,7 @@ use RuntimeException;
 
 class Repository
 {
-    /** @var PDO */
-    private $pdo;
+    private PDO $pdo;
 
     public function __construct(string $dbfile)
     {
@@ -41,6 +40,9 @@ class Repository
         return (int) $this->queryOne($sql);
     }
 
+    /**
+     * @param mixed[] $values
+     */
     public function execute(string $sql, array $values = []): void
     {
         $stmt = $this->pdo->prepare($sql);
@@ -50,6 +52,10 @@ class Repository
         }
     }
 
+    /**
+     * @param mixed[] $values
+     * @return array<int, array<string, string|null>>
+     */
     public function queryArray(string $sql, array $values = []): array
     {
         $stmt = $this->pdo->prepare($sql);
@@ -58,40 +64,62 @@ class Repository
         }
         $table = [];
         while (false !== $row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-            $table[] = $row;
+            /** @var array<string, scalar|null> $row */
+            $table[] = $this->convertScalarNullToStringArray($row);
         }
 
         return $table;
     }
 
+    /**
+     * @param mixed[] $values
+     * @return array<string, string|null>
+     */
     public function queryRow(string $sql, array $values = []): array
     {
         $stmt = $this->pdo->prepare($sql);
         if (false === $stmt->execute($values)) {
             throw new RuntimeException("Unable to execute $sql");
         }
+        /** @var false|array<string, scalar|null> $row */
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
-        if (is_array($row)) {
-            return $row;
+        if (! is_array($row)) {
+            return [];
         }
-
-        return [];
+        return $this->convertScalarNullToStringArray($row);
     }
 
     /**
-     * @param string $sql
      * @param mixed[] $values
-     * @return mixed
+     * @return string|null
      */
     public function queryOne(string $sql, array $values = [])
     {
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($values);
-        return $stmt->fetchColumn(0);
+        return $this->convertScalarNullToStringValue($stmt->fetchColumn(0));
     }
 
     public function escapeName(string $name): string
     {
         return '"' . str_replace('"', '""', $name) . '"';
+    }
+
+    /** @param scalar|null $value */
+    private function convertScalarNullToStringValue($value): ?string
+    {
+        return (null === $value) ? null : (string) $value;
+    }
+
+    /**
+     * @param array<scalar|null> $values
+     * @return array<string|null>
+     */
+    private function convertScalarNullToStringArray(array $values): array
+    {
+        return array_map(
+            fn ($value) => $this->convertScalarNullToStringValue($value),
+            $values
+        );
     }
 }

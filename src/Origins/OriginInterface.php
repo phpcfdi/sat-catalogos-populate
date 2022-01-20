@@ -11,11 +11,8 @@ interface OriginInterface
 {
     /**
      * Return a new instance of the same object but with changed lastModified property
-     *
-     * @param DateTimeImmutable|null $lastModified
-     * @return static
      */
-    public function withLastModified(?DateTimeImmutable $lastModified);
+    public function withLastModified(?DateTimeImmutable $lastModified): static;
 
     public function name(): string;
 

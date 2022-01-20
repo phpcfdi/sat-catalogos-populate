@@ -8,7 +8,7 @@ class FloatDataField extends AbstractDataField implements DataFieldInterface
 {
     public function __construct(string $name)
     {
-        parent::__construct($name, function ($input) {
+        parent::__construct($name, function ($input): int|float {
             if ('' === $input) {
                 return 0;
             }

@@ -17,11 +17,9 @@ use RuntimeException;
 
 class UsosCfdiTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var UsosCfdi */
-    private $injector;
+    private UsosCfdi $injector;
 
     protected function setUp(): void
     {
@@ -72,8 +70,6 @@ class UsosCfdiTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]
@@ -87,8 +83,6 @@ class UsosCfdiTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Sí", true]
      *           ["No", false]
      *           ["", false]

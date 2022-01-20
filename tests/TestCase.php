@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests;
 
 use finfo;
+
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempname;
 
 abstract class TestCase extends \PHPUnit\Framework\TestCase

@@ -17,11 +17,9 @@ use RuntimeException;
 
 class FraccionesArancelariasTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var FraccionesArancelarias */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\FraccionesArancelarias $injector;
 
     protected function setUp(): void
     {

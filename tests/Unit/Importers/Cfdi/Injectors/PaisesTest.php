@@ -15,11 +15,9 @@ use RuntimeException;
 
 class PaisesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Paises */
-    private $injector;
+    private Paises $injector;
 
     protected function setUp(): void
     {
@@ -70,7 +68,6 @@ class PaisesTest extends TestCase
     }
 
     /**
-     * @param string $value
      * @testWith [""]
      *           ["[0-9]+"]
      */
@@ -91,7 +88,6 @@ class PaisesTest extends TestCase
     }
 
     /**
-     * @param string $value
      * @testWith [""]
      *           ["[0-9]+"]
      */

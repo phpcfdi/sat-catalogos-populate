@@ -11,8 +11,7 @@ use Psr\Log\NullLogger;
 
 class ImportTiposComprobantesTest extends TestCase
 {
-    /** @var Repository */
-    private $repository;
+    private Repository $repository;
 
     protected function setUp(): void
     {

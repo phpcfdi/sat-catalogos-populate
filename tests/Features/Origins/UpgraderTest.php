@@ -16,22 +16,20 @@ use Psr\Log\NullLogger;
 
 class UpgraderTest extends TestCase
 {
-    /** @var Upgrader */
-    private $upgrader;
+    private Upgrader $upgrader;
 
-    /** @var DateTimeImmutable */
-    private $lastModified;
+    private DateTimeImmutable $lastModified;
 
     public function setUp(): void
     {
         parent::setUp();
         /** @noinspection HtmlUnknownTarget */
         $xeeWebPage = <<<HTML
-            <html lang="en">
-            <li><a href="files/xee.txt">download xee file</a></li>
-            </body>
-            </html>
-        HTML;
+                <html lang="en">
+                <li><a href="files/xee.txt">download xee file</a></li>
+                </body>
+                </html>
+            HTML;
         $gateway = new FakeGateway();
         $lastModified = new DateTimeImmutable('2020-06-06');
         $gateway->add(new UrlResponse('http://example.com/foo.txt', 200, $lastModified));
@@ -81,7 +79,7 @@ class UpgraderTest extends TestCase
     {
         $origins = $this->upgrader->upgrade();
 
-        // it must contains the 4 origins
+        // it must contain the 4 origins
         $this->assertCount(4, $origins);
 
         // all 4 must be set to this test last modified value

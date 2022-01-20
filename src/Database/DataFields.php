@@ -11,10 +11,13 @@ use IteratorAggregate;
 use OutOfBoundsException;
 use UnexpectedValueException;
 
+/**
+ * @implements IteratorAggregate<DataFieldInterface>
+ */
 class DataFields implements Countable, IteratorAggregate
 {
-    /** @var DataFieldInterface[] */
-    private $map = [];
+    /** @var array<string, DataFieldInterface> */
+    private array $map = [];
 
     /**
      * @param DataFieldInterface[] $dataFields
@@ -51,6 +54,10 @@ class DataFields implements Countable, IteratorAggregate
         return $this->map[$key];
     }
 
+    /**
+     * @param array<int, scalar> $input
+     * @return array<string, scalar>
+     */
     public function transform(array $input): array
     {
         $data = [];
@@ -73,7 +80,8 @@ class DataFields implements Countable, IteratorAggregate
         return $mapByPosition[$position];
     }
 
-    public function getIterator()
+    /** @return ArrayIterator<string, DataFieldInterface> */
+    public function getIterator(): ArrayIterator
     {
         return new ArrayIterator($this->map);
     }

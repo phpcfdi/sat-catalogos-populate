@@ -13,11 +13,9 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ConstantReviewerTest extends TestCase
 {
-    /** @var ConstantReviewer */
-    private $reviewer;
+    private ConstantReviewer $reviewer;
 
-    /** @var FakeGateway */
-    private $resourcesGateway;
+    private FakeGateway $resourcesGateway;
 
     protected function setUp(): void
     {

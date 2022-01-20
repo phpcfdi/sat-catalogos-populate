@@ -9,8 +9,8 @@ interface DataFieldInterface
     public function name(): string;
 
     /**
-     * @param mixed $input
-     * @return mixed
+     * @param scalar $input
+     * @return scalar
      */
     public function transform($input);
 }

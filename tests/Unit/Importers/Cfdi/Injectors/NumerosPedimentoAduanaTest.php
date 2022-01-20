@@ -16,11 +16,9 @@ use RuntimeException;
 
 class NumerosPedimentoAduanaTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var NumerosPedimentoAduana */
-    private $injector;
+    private NumerosPedimentoAduana $injector;
 
     protected function setUp(): void
     {
@@ -72,8 +70,6 @@ class NumerosPedimentoAduanaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["AB", "AB"]
      *           ["", "00"]
      *           ["9", "09"]
@@ -87,8 +83,6 @@ class NumerosPedimentoAduanaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABCD", "ABCD"]
      *           ["", "0000"]
      *           ["9", "0009"]
@@ -102,8 +96,6 @@ class NumerosPedimentoAduanaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param int $expected
      * @testWith ["0", 0]
      *           ["", 0]
      *           ["2018", 2018]
@@ -117,8 +109,6 @@ class NumerosPedimentoAduanaTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param int $expected
      * @testWith ["0", 0]
      *           ["", 0]
      *           ["2018", 2018]

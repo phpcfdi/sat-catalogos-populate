@@ -14,11 +14,9 @@ use RuntimeException;
 
 class ImpuestosTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Impuestos */
-    private $injector;
+    private Impuestos $injector;
 
     protected function setUp(): void
     {
@@ -66,8 +64,6 @@ class ImpuestosTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABCD", "ABCD"]
      *           ["", "000"]
      *           ["9", "009"]
@@ -87,8 +83,6 @@ class ImpuestosTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Si", true]
      *           ["No", false]
      *           ["", false]
@@ -102,8 +96,6 @@ class ImpuestosTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param bool $expected
      * @testWith ["Si", true]
      *           ["No", false]
      *           ["", false]

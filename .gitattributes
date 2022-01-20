@@ -1,6 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.xls text=binary
+*.xlsx text=binary
 
 # Do not put this files on a distribution package (by .gitignore)
-/vendor              export-ignore
-/composer.lock       export-ignore
+/tools/                     export-ignore
+/vendor/                    export-ignore
+/composer.lock              export-ignore
+
+# Do not put this files on a distribution package
+/.github/                   export-ignore
+/build/                     export-ignore
+/tests/                     export-ignore
+/.gitattributes             export-ignore
+/.gitignore                 export-ignore
+/.php-cs-fixer.dist.php     export-ignore
+/.scrutinizer.yml           export-ignore
+/phpcs.xml.dist             export-ignore
+/phpstan.neon.dist          export-ignore
+/phpunit.xml.dist           export-ignore
+/psalm.xml.dist             export-ignore

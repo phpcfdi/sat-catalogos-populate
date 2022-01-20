@@ -8,7 +8,6 @@ use PhpCfdi\SatCatalogosPopulate\Database\Repository;
 use PhpCfdi\SatCatalogosPopulate\Importers\SourcesImporter;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
-use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
 use PhpCfdi\SatCatalogosPopulate\Origins\Upgrader;
@@ -18,31 +17,19 @@ use RuntimeException;
 
 class UpdateOrigins implements CommandInterface
 {
-    public const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
+    private const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
 
-    /** @var string */
-    private $originsFile;
+    private string $originsFile;
 
-    /** @var string */
-    private $workingFolder;
+    private string $workingFolder;
 
-    /** @var bool */
-    private $updateOrigins;
-
-    /** @var bool */
-    private $updateDatabase;
-
-    /** @var string */
-    private $databaseLocation;
-
-    /** @var LoggerInterface */
-    private $logger;
+    private bool $updateDatabase;
 
     public function __construct(
         string $originsFile,
-        bool $updateOrigins,
-        string $databaseLocation,
-        LoggerInterface $logger
+        private bool $updateOrigins,
+        private string $databaseLocation,
+        private LoggerInterface $logger
     ) {
         if ('' === $originsFile) {
             throw new RuntimeException('Invalid origins: empty string received');
@@ -56,10 +43,7 @@ class UpdateOrigins implements CommandInterface
 
         $this->originsFile = $originsFile;
         $this->workingFolder = dirname($originsFile);
-        $this->updateOrigins = $updateOrigins;
-        $this->updateDatabase = ('' !== $databaseLocation);
-        $this->databaseLocation = $databaseLocation;
-        $this->setLogger($logger);
+        $this->updateDatabase = ('' !== $this->databaseLocation);
     }
 
     public function getOriginsFile(): string
@@ -97,7 +81,7 @@ class UpdateOrigins implements CommandInterface
         (new OriginsIO())->writeFile($this->getOriginsFile(), $origins);
     }
 
-    public function createResourcesGateway(): ResourcesGatewayInterface
+    public function createResourcesGateway(): WebResourcesGateway
     {
         return new WebResourcesGateway();
     }
@@ -139,7 +123,7 @@ class UpdateOrigins implements CommandInterface
         }
 
         if ($upToDateReviews->count() === count($reviews)) {
-            $this->logger->info(sprintf('No existen orígenes para actualizar'));
+            $this->logger->info('No existen orígenes para actualizar');
             return 0;
         }
 
@@ -150,9 +134,9 @@ class UpdateOrigins implements CommandInterface
         // have to perform upgrade
         $upgrader = new Upgrader($resourcesGateway, $this->getWorkingFolder(), $this->logger);
         $recentOrigins = $upgrader->upgradeReviews($reviews);
-        $this->logger->info(sprintf('Se actualizaron todos los orígenes'));
+        $this->logger->info('Se actualizaron todos los orígenes');
         $this->originsStore($recentOrigins);
-        $this->logger->info(sprintf('Se actualizó el archivo de orígenes'));
+        $this->logger->info('Se actualizó el archivo de orígenes');
 
         if (! $this->updateDatabase()) {
             return 0;
@@ -184,11 +168,11 @@ class UpdateOrigins implements CommandInterface
             '    --update-database|-w:  location to update database',
             '    --dry-run|-n:          do not update, just report checks',
             '    origins-file:          location where origins file is',
-            '    origins-folder:        directory location where ' . static::DEFAULT_ORIGINS_FILENAME . ' is',
+            '    origins-folder:        directory location where ' . self::DEFAULT_ORIGINS_FILENAME . ' is',
         ]);
     }
 
-    public static function createFromArguments(array $arguments): CommandInterface
+    public static function createFromArguments(array $arguments): self
     {
         // update-origins --dry-run --update-database database origins-file-or-folder
         $count = count($arguments);

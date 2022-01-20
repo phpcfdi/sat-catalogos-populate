@@ -6,8 +6,9 @@ namespace PhpCfdi\SatCatalogosPopulate;
 
 use PhpCfdi\SatCatalogosPopulate\Converters\XlsToCsvFolderConverter;
 use PhpCfdi\SatCatalogosPopulate\Database\Repository;
-use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 use Psr\Log\LoggerInterface;
+
+use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 
 abstract class AbstractXlsOneSheetImporter implements ImporterInterface
 {

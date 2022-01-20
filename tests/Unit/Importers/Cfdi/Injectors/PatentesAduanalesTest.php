@@ -15,11 +15,9 @@ use RuntimeException;
 
 class PatentesAduanalesTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var PatentesAduanales */
-    private $injector;
+    private PatentesAduanales $injector;
 
     protected function setUp(): void
     {
@@ -67,8 +65,6 @@ class PatentesAduanalesTest extends TestCase
     }
 
     /**
-     * @param string $value
-     * @param string $expected
      * @testWith ["ABCDE", "ABCDE"]
      *           ["", "0000"]
      *           ["9", "0009"]

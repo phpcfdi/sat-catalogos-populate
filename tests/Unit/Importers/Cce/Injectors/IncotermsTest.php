@@ -16,11 +16,9 @@ use RuntimeException;
 
 class IncotermsTest extends TestCase
 {
-    /** @var string */
-    private $sourceFile;
+    private string $sourceFile;
 
-    /** @var Incoterms */
-    private $injector;
+    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Incoterms $injector;
 
     protected function setUp(): void
     {

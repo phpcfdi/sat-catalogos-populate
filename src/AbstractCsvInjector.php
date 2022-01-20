@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate;
 
+use Generator;
+use Iterator;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTableGateway;
 use PhpCfdi\SatCatalogosPopulate\Database\Repository;
@@ -11,20 +13,15 @@ use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
-use Traversable;
 
 abstract class AbstractCsvInjector implements InjectorInterface
 {
-    /** @var string */
-    private $sourceFile;
-
     abstract public function checkHeaders(CsvFile $csv): void;
 
     abstract public function dataTable(): DataTable;
 
-    public function __construct(string $sourceFile)
+    public function __construct(private string $sourceFile)
     {
-        $this->sourceFile = $sourceFile;
     }
 
     public function sourceFile(): string
@@ -79,14 +76,11 @@ abstract class AbstractCsvInjector implements InjectorInterface
     }
 
     /**
-     * @param CsvFile $csv
-     * @return Traversable<array>
+     * @return Generator<int, array<int, scalar>>
      */
-    protected function readLinesFromCsv(CsvFile $csv)
+    protected function readLinesFromCsv(CsvFile $csv): Iterator
     {
-        foreach ($csv->readLines() as $line) {
-            yield $line;
-        }
+        yield from $csv->readLines();
     }
 
     protected function shouldRecreateTable(): bool

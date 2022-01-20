@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors;
 
+use Generator;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
@@ -52,7 +53,8 @@ class TiposComprobantes extends AbstractCsvInjector implements InjectorInterface
         ]));
     }
 
-    protected function readLinesFromCsv(CsvFile $csv)
+    /** @inheritdoc */
+    protected function readLinesFromCsv(CsvFile $csv): Generator
     {
         foreach ($csv->readLines() as $line) {
             if ('' === $line[0]) {
