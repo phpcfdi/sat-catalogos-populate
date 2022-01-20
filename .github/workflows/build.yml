@@ -112,8 +112,9 @@ jobs:
       - name: Upload code coverage to scrutinizer
         run: |
           if [ -f build/coverage/clover.xml ]; then
-            wget https://scrutinizer-ci.com/ocular.phar -O build/ocular
-            php build/ocular code-coverage:upload --format=php-clover build/coverage/clover.xml
+            mkdir --parents build/ocular
+            composer -d build/ocular require scrutinizer/ocular
+            php build/ocular/vendor/bin/ocular code-coverage:upload --format=php-clover build/coverage/clover.xml
           fi
       - name: System test
         if: github.event_name == 'push'
