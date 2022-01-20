@@ -64,7 +64,8 @@ class Repository
         }
         $table = [];
         while (false !== $row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-            $table[] = $this->convertScalarNullToStringValue($row);
+            /** @var array<string, scalar|null> $row */
+            $table[] = $this->convertScalarNullToStringArray($row);
         }
 
         return $table;
@@ -85,7 +86,7 @@ class Repository
         if (! is_array($row)) {
             return [];
         }
-        return $this->convertScalarNullToStringRow($row);
+        return $this->convertScalarNullToStringArray($row);
     }
 
     /**
@@ -114,7 +115,7 @@ class Repository
      * @param array<scalar|null> $values
      * @return array<string|null>
      */
-    private function convertScalarNullToStringRow(array $values): array
+    private function convertScalarNullToStringArray(array $values): array
     {
         return array_map(
             fn ($value) => $this->convertScalarNullToStringValue($value),
