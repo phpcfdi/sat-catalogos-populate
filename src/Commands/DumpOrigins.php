@@ -16,7 +16,7 @@ class DumpOrigins implements CommandInterface
     {
         $common = 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos';
         $origins = new Origins([
-            new ConstantOrigin('CFDI', "{$common}/catCFDI.xls"),
+            new ConstantOrigin('CFDI', "{$common}/catCFDI_V_33_05012022.xls", null, 'catCFDI.xls'),
             new ConstantOrigin('Nóminas', "{$common}/catNomina.xls"),
             new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
             new ConstantOrigin('CCE - Colonias', "{$common}/c_Colonia.xls"),
