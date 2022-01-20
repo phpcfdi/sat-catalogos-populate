@@ -168,7 +168,7 @@ class UpdateOrigins implements CommandInterface
             '    --update-database|-w:  location to update database',
             '    --dry-run|-n:          do not update, just report checks',
             '    origins-file:          location where origins file is',
-            '    origins-folder:        directory location where ' . static::DEFAULT_ORIGINS_FILENAME . ' is',
+            '    origins-folder:        directory location where ' . self::DEFAULT_ORIGINS_FILENAME . ' is',
         ]);
     }
 
