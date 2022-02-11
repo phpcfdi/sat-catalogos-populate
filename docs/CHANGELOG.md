@@ -1,5 +1,10 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.1.0 2022-02-10
+
+Some catalogs structure have been updated: *CCE Estados*, *CCE Localidades*, *CCE Municipios* and *Nomina Estados*.
+The main change is that now these catalogs contains validity period.
+
 ## Version 2.0.0 2022-01-19
 
 - Change CFDI 3.3 catalogs from fixed URL <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/catCFDI.xls>
@@ -52,7 +57,7 @@ Backwards compatibility changes:
 
 ## Version 1.2.1 2021-03-18
 
-- Found some cases where imported cells contains left or right a non breacking space `&nbsp;`.
+- Found some cases where imported cells contains left or right a non-breaking space `&nbsp;`.
   On this update this chars will be replaced to space and then trimmed.
 - Update test files with catalog information for 2021-03-18. The structure remains.
 
@@ -118,11 +123,11 @@ They have been fixed until now since anybody reports an issue.
 
 ## Version 1.0.2 2019-10-07
 
-- cfdi_reglas_tasa_cuota was not writting with 6 decimals `minimo` & `valor`
+- cfdi_reglas_tasa_cuota was not writing with 6 decimals `minimo` & `valor`
 
 ## Version 1.0.1 2019-10-07
 
-- cfdi_impuestos was not detecting `true` (vaue changes from `Sí` to `Si`)
+- cfdi_impuestos was not detecting `true` (value changes from `Sí` to `Si`)
 - Dockerfile `sat-catalogos-populate` was using an invalid argument `--no-cache` for composer
 - Dockerfile `sat-catalogos-populate-base` was missing sqlite3
 

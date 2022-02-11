@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
@@ -21,6 +22,8 @@ class Localidades extends AbstractCsvInjector
             'c_Localidad',
             'c_Estado',
             'Descripción',
+            'Fecha inicio vigencia',
+            'Fecha fin vigencia',
         ];
         $headers = $csv->readLine();
 
@@ -37,6 +40,8 @@ class Localidades extends AbstractCsvInjector
             new PaddingDataField('localidad', '0', 2),
             new TextDataField('estado'),
             new TextDataField('texto'),
+            new DateDataField('vigencia_desde'),
+            new DateDataField('vigencia_hasta'),
         ]), ['localidad', 'estado']);
     }
 }
