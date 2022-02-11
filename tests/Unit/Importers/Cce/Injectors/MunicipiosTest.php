@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Cce\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Municipios;
@@ -18,7 +19,7 @@ class MunicipiosTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Municipios $injector;
+    private Municipios $injector;
 
     protected function setUp(): void
     {
@@ -58,6 +59,8 @@ class MunicipiosTest extends TestCase
             'municipio' => PaddingDataField::class,
             'estado' => TextDataField::class,
             'texto' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
         ];
         $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
         foreach ($expectedClasses as $key => $classname) {
