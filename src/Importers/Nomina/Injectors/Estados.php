@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -20,6 +21,8 @@ class Estados extends AbstractCsvInjector
             'c_Estado',
             'c_Pais',
             'Nombre del estado',
+            'Fecha inicio vigencia',
+            'Fecha fin vigencia',
         ];
         $headers = $csv->readLine();
 
@@ -36,6 +39,8 @@ class Estados extends AbstractCsvInjector
             new TextDataField('estado'),
             new TextDataField('pais'),
             new TextDataField('texto'),
+            new DateDataField('vigencia_desde'),
+            new DateDataField('vigencia_hasta'),
         ]), ['estado', 'pais']);
     }
 }
