@@ -47,6 +47,12 @@ class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCE - Tipos de operaciones', "{$common}/c_TipoOperacion.xls"),
             new ConstantOrigin('CCE - Unidades de medida', "{$common}/c_UnidadAduana.xls"),
             new ConstantOrigin('REP', "{$common}/catPagos.xls"),
+            new ScrapingOrigin(
+                'CCP - Complemento Carta Porte',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm',
+                'CatalogosCartaPorte20.xls',
+                "Catálogos\u{200b}", // this zero-width space is necessary
+            ),
         ]);
 
         echo (new OriginsIO())->originsToString($origins) . PHP_EOL;
