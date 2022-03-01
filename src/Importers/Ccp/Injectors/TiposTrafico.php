@@ -39,7 +39,7 @@ class TiposTrafico extends AbstractCsvInjector
     public function dataTable(): DataTable
     {
         return new DataTable('ccp_tipos_trafico', new DataFields([
-            new PaddingDataField('id', '0', 8),
+            new TextDataField('id'),
             new TextDataField('texto'),
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),
