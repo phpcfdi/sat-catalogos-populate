@@ -1,5 +1,9 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.2.1 2022-03-04
+
+Include `Nóminas - Estados` origin to `dump-origins` command.
+
 ## Version 2.2.0 2022-03-04
 
 Allow scrap link text use wildcards as in `fnmatch`.
