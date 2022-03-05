@@ -11,16 +11,16 @@ declare(strict_types=1);
 
 return (new PhpCsFixer\Config())
     ->setRiskyAllowed(true)
-    ->setCacheFile(__DIR__ . '/build/php_cs.cache')
+    ->setCacheFile(__DIR__ . '/build/php-cs-fixer.cache')
     ->setRules([
         '@PSR12' => true,
         '@PSR12:risky' => true,
-        '@PHP71Migration:risky' => true,
         '@PHP73Migration' => true,
-        // PSR12 (remove when php-cs-fixer reaches ^3.1.1)
-        'class_definition' => ['space_before_parenthesis' => true],
+    '@PHP74Migration' => true,
+    '@PHP80Migration' => true,
+        '@PHP80Migration:risky' => true,
         // symfony
-        // 'class_attributes_separation' => true, // conflict with PSR12
+        'class_attributes_separation' => true,
         'whitespace_after_comma_in_array' => true,
         'no_empty_statement' => true,
         'no_extra_blank_lines' => true,
@@ -38,7 +38,6 @@ return (new PhpCsFixer\Config())
         'concat_space' => ['spacing' => 'one'],
         'linebreak_after_opening_tag' => true,
         // symfony:risky
-        'no_alias_functions' => true,
         'self_accessor' => true,
         // contrib
         'not_operator_with_successor_space' => true,
@@ -47,6 +46,6 @@ return (new PhpCsFixer\Config())
         PhpCsFixer\Finder::create()
             ->in(__DIR__)
             ->append([__FILE__])
-            ->exclude(['vendor', 'build'])
+            ->exclude(['vendor', 'tools', 'build']),
     )
 ;
