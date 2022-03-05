@@ -26,62 +26,95 @@ Para consumir estos catálogos puede usar la librería independiente
 
 ## Tabla de catálogos
 
-| Tabla                         | Origen                    | Catálogo              | Notas                                                                                |
-|-------------------------------|---------------------------|-----------------------|--------------------------------------------------------------------------------------|
-| cfdi_aduanas                  | catCFDI.xls               | c_Aduana              |                                                                                      |
-| cfdi_claves_unidades          | catCFDI.xls               | c_ClaveUnidad         |                                                                                      |
-| cfdi_codigos_postales         | catCFDI.xls               | c_CodigoPostal        | Este catálogo viene en dos partes, se relaciona con catálogos de CCE                 |
-| cfdi_formas_pago              | catCFDI.xls               | c_FormaPago           |                                                                                      |
-| cfdi_impuestos                | catCFDI.xls               | c_Impuesto            |                                                                                      |
-| cfdi_metodos_pago             | catCFDI.xls               | c_MetodoPago          |                                                                                      |
-| cfdi_monedas                  | catCFDI.xls               | c_Moneda              |                                                                                      |
-| cfdi_numeros_pedimento_aduana | catCFDI.xls               | c_NumPedimentoAduana  | No es un catálogo, es una tabla de reglas, contiene duplicados                       |
-| cfdi_paises                   | catCFDI.xls               | c_Pais                |                                                                                      |
-| cfdi_patentes_aduanales       | catCFDI.xls               | c_PatenteAduanal      |                                                                                      |
-| cfdi_regimenes_fiscales       | catCFDI.xls               | c_RegimenFiscal       |                                                                                      |
-| cfdi_productos_servicios      | catCFDI.xls               | c_ClaveProdServ       |                                                                                      |
-| cfdi_reglas_tasa_cuota        | catCFDI.xls               | c_TasaOCuota          | No es un catálogo, es una tabla de reglas                                            |
-| cfdi_tipos_comprobantes       | catCFDI.xls               | c_TipoDeComprobante   | No se divide el tipo Nómina en Ns y NdS                                              |
-| cfdi_tipos_factores           | catCFDI.xls               | c_TipoFactor          |                                                                                      |
-| cfdi_tipos_relaciones         | catCFDI.xls               | c_TipoRelacion        |                                                                                      |
-| cfdi_usos_cfdi                | catCFDI.xls               | c_UsoCFDI             |                                                                                      |
-| cce_claves_pedimentos         | c_ClavePedimento.xls      | c_ClavePedimento      |                                                                                      |
-| cce_colonias                  | c_Colonia.xls             | c_Colonia             | Viene en 3 partes                                                                    |
-| cce_estados                   | C_Estado.xls              | c_Estado              | Estados de México, Estados Unidos y Canadá                                           |
-| cce_fracciones_arancelarias   | c_FraccionArancelaria.xls | c_FraccionArancelaria |                                                                                      |
-| cce_incoterms                 | c_INCOTERM.xls            | c_INCOTERM            |                                                                                      |
-| cce_localidades               | c_Localidad.xls           | c_Localidad           |                                                                                      |
-| cce_localidades               | c_Localidad.xls           | c_Localidad           |                                                                                      |
-| cce_motivos_traslado          | c_MotivoTraslado.xls      | c_MotivoTraslado      |                                                                                      |
-| cce_municipios                | c_Municipio.xls           | c_Municipio           |                                                                                      |
-| cce_tipos_operacion           | c_TipoOperacion.xls       | c_TipoOperacion       |                                                                                      |
-| cce_unidades_aduana           | c_UnidadAduana.xls        | c_UnidadAduana        | No confundir con las claves de unidades, estas son las unidades de comercio exterior |
-| nominas_bancos                | catNomina.xls             | c_Banco               |                                                                                      |
-| nominas_estados               | nomina_estados.xls        | c_Estado              | Es el mismo que el publicado en cce_estados                                          |
-| nomina_origenes_recursos      | catNomina.xls             | c_OrigenRecurso       |                                                                                      |
-| nomina_periodicidades_pagos   | catNomina.xls             | c_PeriodicidadPago    |                                                                                      |
-| nomina_riesgos_puestos        | catNomina.xls             |                       |                                                                                      |
-| nomina_tipos_contratos        | catNomina.xls             | c_TipoContrato        |                                                                                      |
-| nomina_tipos_deducciones      | catNomina.xls             | c_TipoDeduccion       |                                                                                      |
-| nomina_tipos_horas            | catNomina.xls             | c_TipoHoras           |                                                                                      |
-| nomina_tipos_incapacidades    | catNomina.xls             | c_TipoIncapacidad     |                                                                                      |
-| nomina_tipos_jornadas         | catNomina.xls             | c_TipoJornada         |                                                                                      |
-| nomina_tipos_nominas          | catNomina.xls             | c_TipoNomina          |                                                                                      |
-| nomina_tipos_otros_pagos      | catNomina.xls             | c_TipoOtroPago        |                                                                                      |
-| nomina_tipos_percepciones     | catNomina.xls             | c_TipoPercepcion      |                                                                                      |
-| nomina_tipos_regimenes        | catNomina.xls             | c_TipoRegimen         |                                                                                      |
+| Tabla                            | Origen                    | Catálogo              | Notas                                                                                |
+|----------------------------------|---------------------------|-----------------------|--------------------------------------------------------------------------------------|
+| cfdi_aduanas                     | catCFDI.xls               | c_Aduana              |                                                                                      |
+| cfdi_claves_unidades             | catCFDI.xls               | c_ClaveUnidad         |                                                                                      |
+| cfdi_codigos_postales            | catCFDI.xls               | c_CodigoPostal        | Este catálogo viene en dos partes, se relaciona con catálogos de CCE                 |
+| cfdi_formas_pago                 | catCFDI.xls               | c_FormaPago           |                                                                                      |
+| cfdi_impuestos                   | catCFDI.xls               | c_Impuesto            |                                                                                      |
+| cfdi_metodos_pago                | catCFDI.xls               | c_MetodoPago          |                                                                                      |
+| cfdi_monedas                     | catCFDI.xls               | c_Moneda              |                                                                                      |
+| cfdi_numeros_pedimento_aduana    | catCFDI.xls               | c_NumPedimentoAduana  | No es un catálogo, es una tabla de reglas, contiene duplicados                       |
+| cfdi_paises                      | catCFDI.xls               | c_Pais                |                                                                                      |
+| cfdi_patentes_aduanales          | catCFDI.xls               | c_PatenteAduanal      |                                                                                      |
+| cfdi_regimenes_fiscales          | catCFDI.xls               | c_RegimenFiscal       |                                                                                      |
+| cfdi_productos_servicios         | catCFDI.xls               | c_ClaveProdServ       |                                                                                      |
+| cfdi_reglas_tasa_cuota           | catCFDI.xls               | c_TasaOCuota          | No es un catálogo, es una tabla de reglas                                            |
+| cfdi_tipos_comprobantes          | catCFDI.xls               | c_TipoDeComprobante   | No se divide el tipo Nómina en Ns y NdS                                              |
+| cfdi_tipos_factores              | catCFDI.xls               | c_TipoFactor          |                                                                                      |
+| cfdi_tipos_relaciones            | catCFDI.xls               | c_TipoRelacion        |                                                                                      |
+| cfdi_usos_cfdi                   | catCFDI.xls               | c_UsoCFDI             |                                                                                      |
+| cfdi_40_aduanas                  | cfdi_40.xls               | c_Aduana              |                                                                                      |
+| cfdi_40_claves_unidades          | cfdi_40.xls               | c_ClaveUnidad         |                                                                                      |
+| cfdi_40_codigos_postales         | cfdi_40.xls               | c_CodigoPostal        | Este catálogo viene en dos partes, se relaciona con catálogos de CCE                 |
+| cfdi_40_colonias                 | cfdi_40.xls               | C_Colonia             |                                                                                      |
+| cfdi_40_estados                  | cfdi_40.xls               | c_Estado              |                                                                                      |
+| cfdi_40_exportaciones            | cfdi_40.xls               | c_Exportacion         |                                                                                      |
+| cfdi_40_formas_pago              | cfdi_40.xls               | c_FormaPago           |                                                                                      |
+| cfdi_40_impuestos                | cfdi_40.xls               | c_Impuesto            |                                                                                      |
+| cfdi_40_localidades              | cfdi_40.xls               | C_Localidad           |                                                                                      |
+| cfdi_40_meses                    | cfdi_40.xls               | c_Meses               |                                                                                      |
+| cfdi_40_metodos_pago             | cfdi_40.xls               | c_MetodoPago          |                                                                                      |
+| cfdi_40_monedas                  | cfdi_40.xls               | c_Moneda              |                                                                                      |
+| cfdi_40_municipios               | cfdi_40.xls               | C_Municipio           |                                                                                      |
+| cfdi_40_numeros_pedimento_aduana | cfdi_40.xls               | c_NumPedimentoAduana  | No es un catálogo, es una tabla de reglas, contiene duplicados                       |
+| cfdi_40_objetos_impuestos        | cfdi_40.xls               | c_ObjetoImp           |                                                                                      |
+| cfdi_40_paises                   | cfdi_40.xls               | c_Pais                |                                                                                      |
+| cfdi_40_patentes_aduanales       | cfdi_40.xls               | c_PatenteAduanal      |                                                                                      |
+| cfdi_40_periodicidades           | cfdi_40.xls               | c_Periodicidad        |                                                                                      |
+| cfdi_40_productos_servicios      | cfdi_40.xls               | c_ClaveProdServ       |                                                                                      |
+| cfdi_40_regimenes_fiscales       | cfdi_40.xls               | c_RegimenFiscal       |                                                                                      |
+| cfdi_40_reglas_tasa_cuota        | cfdi_40.xls               | c_TasaOCuota          | No es un catálogo, es una tabla de reglas                                            |
+| cfdi_40_tipos_comprobantes       | cfdi_40.xls               | c_TipoDeComprobante   | No se divide el tipo Nómina en Ns y NdS                                              |
+| cfdi_40_tipos_factores           | cfdi_40.xls               | c_TipoFactor          |                                                                                      |
+| cfdi_40_tipos_relaciones         | cfdi_40.xls               | c_TipoRelacion        |                                                                                      |
+| cfdi_40_usos_cfdi                | cfdi_40.xls               | c_UsoCFDI             |                                                                                      |
+| cce_claves_pedimentos            | c_ClavePedimento.xls      | c_ClavePedimento      |                                                                                      |
+| cce_colonias                     | c_Colonia.xls             | c_Colonia             | Viene en 3 partes                                                                    |
+| cce_estados                      | C_Estado.xls              | c_Estado              | Estados de México, Estados Unidos y Canadá                                           |
+| cce_fracciones_arancelarias      | c_FraccionArancelaria.xls | c_FraccionArancelaria |                                                                                      |
+| cce_incoterms                    | c_INCOTERM.xls            | c_INCOTERM            |                                                                                      |
+| cce_localidades                  | c_Localidad.xls           | c_Localidad           |                                                                                      |
+| cce_localidades                  | c_Localidad.xls           | c_Localidad           |                                                                                      |
+| cce_motivos_traslado             | c_MotivoTraslado.xls      | c_MotivoTraslado      |                                                                                      |
+| cce_municipios                   | c_Municipio.xls           | c_Municipio           |                                                                                      |
+| cce_tipos_operacion              | c_TipoOperacion.xls       | c_TipoOperacion       |                                                                                      |
+| cce_unidades_aduana              | c_UnidadAduana.xls        | c_UnidadAduana        | No confundir con las claves de unidades, estas son las unidades de comercio exterior |
+| nominas_bancos                   | catNomina.xls             | c_Banco               |                                                                                      |
+| nominas_estados                  | nomina_estados.xls        | c_Estado              | Es el mismo que el publicado en cce_estados                                          |
+| nomina_origenes_recursos         | catNomina.xls             | c_OrigenRecurso       |                                                                                      |
+| nomina_periodicidades_pagos      | catNomina.xls             | c_PeriodicidadPago    |                                                                                      |
+| nomina_riesgos_puestos           | catNomina.xls             |                       |                                                                                      |
+| nomina_tipos_contratos           | catNomina.xls             | c_TipoContrato        |                                                                                      |
+| nomina_tipos_deducciones         | catNomina.xls             | c_TipoDeduccion       |                                                                                      |
+| nomina_tipos_horas               | catNomina.xls             | c_TipoHoras           |                                                                                      |
+| nomina_tipos_incapacidades       | catNomina.xls             | c_TipoIncapacidad     |                                                                                      |
+| nomina_tipos_jornadas            | catNomina.xls             | c_TipoJornada         |                                                                                      |
+| nomina_tipos_nominas             | catNomina.xls             | c_TipoNomina          |                                                                                      |
+| nomina_tipos_otros_pagos         | catNomina.xls             | c_TipoOtroPago        |                                                                                      |
+| nomina_tipos_percepciones        | catNomina.xls             | c_TipoPercepcion      |                                                                                      |
+| nomina_tipos_regimenes           | catNomina.xls             | c_TipoRegimen         |                                                                                      |
 
-## CFDI
+## CFDI 3.3 `cfdi_*`
 
-> - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/Anexo_20_version3.3.aspx>
-> - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/catCFDI.xls>
+> - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm>
 
-Los catálogos de CFDI contienen los catálogos básicos de CFDI versión 3.3.
+Los catálogos de CFDI contienen los catálogos de CFDI versión 3.3.
 Están publicados en formato XLS (Microsoft Excel 2003) y la conversión se hace pasando a Microsoft Excel 2007 y luego
 a archivos CSV en una sola carpeta. En la conversión también se juntan las hojas que están divididas en partes.
 
 Por lo anterior, solo existe un importador con múltiples inyectores.
 
+## CFDI 4.0 `cfdi_40_*`
+
+> - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm>
+
+Los catálogos de CFDI contienen los catálogos de CFDI versión 4.0.
+Están publicados en formato XLS (Microsoft Excel 2003) y la conversión se hace pasando a Microsoft Excel 2007 y luego
+a archivos CSV en una sola carpeta. En la conversión también se juntan las hojas que están divididas en partes.
+
+Por lo anterior, solo existe un importador con múltiples inyectores.
 
 ## CCE (Complemento de comercio exterior)
 

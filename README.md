@@ -52,6 +52,10 @@ php bin/sat-catalogos-update update-origins catalogs/
 php bin/sat-catalogos-update update-database catalogs/ catalogs/catalogos.sqlite3
 ```
 
+## About the catalogs included
+
+Read the file [*Catálogos SAT*](docs/Catalogos.md) for more information about the catalogs included (in spanish).
+
 ## PHP Support
 
 This tool is compatible with last [PHP supported version](https://www.php.net/supported-versions.php).
