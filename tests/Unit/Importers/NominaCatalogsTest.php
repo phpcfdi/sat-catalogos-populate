@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers;
 
 use PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\Bancos;
-use PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\Estados;
 use PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\OrigenesRecursos;
 use PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\PeriodicidadesPagos;
 use PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\RiesgosPuestos;
@@ -30,7 +29,6 @@ class NominaCatalogsTest extends TestCase
     {
         $expectedInjectorsClasses = [
             Bancos::class,
-            Estados::class,
             OrigenesRecursos::class,
             PeriodicidadesPagos::class,
             TiposContratos::class,

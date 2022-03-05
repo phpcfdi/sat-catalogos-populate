@@ -89,4 +89,39 @@ class ScrapingReviewerTest extends TestCase
 
         $this->assertTrue($review->status()->isNotFound(), 'The review status should be outdated');
     }
+
+    /** @return array<array{string, string}> */
+    public function providerResolveHtmlToLink(): array
+    {
+        $nbsp = "\xC2\xA0";
+        $rtl = "\x20\x2B";
+        return [
+            'link-exact' => ['link', 'link'],
+            'link-caseless' => ['LINK', 'link'],
+            'link-simple-white-space' => [" Catálogos\n de\tinformación ", 'Catálogos de información'],
+            'link-with-nbsp' => ["{$nbsp}link{$nbsp}", '*link*'],
+            'link-with-rtl' => ["link{$rtl}", 'link*'],
+            'link-with-inner-tags' => ['<span>lin<b>k</b></span></a>', 'link'],
+        ];
+    }
+
+    /** @dataProvider providerResolveHtmlToLink */
+    public function testResolveHtmlToLink(string $linkInnerText, string $search): void
+    {
+        $html = <<<HTML
+            <html lang="en">
+            <body><h1>sample</h1>
+            <li><a href="http://example.com/none.txt">none</a></li>
+            <li><a href="/expected.txt">{$linkInnerText}</a></li>
+            </body>
+            </html>
+            HTML;
+
+        $response = new UrlResponse('http://example.com/', 200, null, $html);
+        $reviewer = new ScrapingReviewer(new FakeGateway());
+
+        $url = $reviewer->resolveHtmlToLink($response, $search);
+
+        $this->assertSame('http://example.com/expected.txt', $url);
+    }
 }

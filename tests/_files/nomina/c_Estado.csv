@@ -1,6 +1,6 @@
 Catálogo de estados. ,,,,
-Fecha inicio de vigencia,Versión,Revisión,Fecha de publicación,
-2017-01-01,1.0,1,2022-02-08,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,Fecha de publicación
+2017-01-01,,1.0,1,2022-02-08
 c_Estado,c_Pais,Nombre del estado,Fecha inicio vigencia,Fecha fin vigencia
 AGU,MEX,Aguascalientes,2017-01-01,
 BCN,MEX,Baja California,2017-01-01,

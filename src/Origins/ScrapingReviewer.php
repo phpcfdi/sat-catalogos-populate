@@ -6,7 +6,6 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use LogicException;
 use RuntimeException;
-use Symfony\Component\DomCrawler\Crawler;
 
 class ScrapingReviewer implements ReviewerInterface
 {
@@ -63,16 +62,6 @@ class ScrapingReviewer implements ReviewerInterface
 
     public function resolveHtmlToLink(UrlResponse $response, string $linkText): string
     {
-        if (empty($response->body())) {
-            throw new RuntimeException('Content is empty');
-        }
-        $crawler = new Crawler($response->body(), $response->url());
-        $link = $crawler->selectLink($linkText)->link();
-        $downloadUrl = $link->getUri();
-        if (empty($downloadUrl)) {
-            throw new RuntimeException('The link was found but it does not contains the url to download');
-        }
-
-        return $downloadUrl;
+        return ScrapingReviewerLinkExtractor::fromUrlResponse($response)->search($linkText);
     }
 }
