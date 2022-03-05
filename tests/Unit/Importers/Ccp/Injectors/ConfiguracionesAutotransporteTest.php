@@ -55,7 +55,7 @@ class ConfiguracionesAutotransporteTest extends TestCase
         $this->assertSame(
             [
                 'id', 'texto', 'numero_de_ejes',
-                'numero_de_llantes', 'remolque', 'vigencia_desde',
+                'numero_de_llantas', 'remolque', 'vigencia_desde',
                 'vigencia_hasta',
             ],
             $dataTable->fields()->keys()

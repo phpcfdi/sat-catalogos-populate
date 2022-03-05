@@ -46,7 +46,7 @@ class ConfiguracionesAutotransporte extends AbstractCsvInjector
             new TextDataField('id'),
             new TextDataField('texto'),
             new IntegerDataField('numero_de_ejes'),
-            new IntegerDataField('numero_de_llantes'),
+            new IntegerDataField('numero_de_llantas'),
             new TextDataField('remolque'), // 1 | 1,0 | 0
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),
