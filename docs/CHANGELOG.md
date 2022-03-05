@@ -1,5 +1,15 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.3.0 2022-03-05
+
+Add CFDI 4.0 catalogs.
+
+- Add *Origin* as a scrap from SAT website, saving the file as `cfdi_40.xsl`.
+- Add *Source importer* from `cfdi_40.xsl`. It includes 25 catalogs.
+- Importers create tables with prefix `cfdi_40_*`.
+- Update `docs/Catalogos.md` with CFDI 4.0 catalogs.
+- Refactor how to know what lines to skip when join two CVS files.
+
 ## Version 2.2.1 2022-03-04
 
 Include `Nóminas - Estados` origin to `dump-origins` command.
