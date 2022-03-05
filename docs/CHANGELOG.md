@@ -1,5 +1,22 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.2.0 2022-03-04
+
+Allow scrap link text use wildcards as in `fnmatch`.
+
+Fix build because now `catNomina.xls` does not contain *Catálogo de estados*.
+Uses `C_Estado.xls` from *Complemento de comercio exterior* to build `nomina_estados`.
+This is confirmed by XSD contents.
+
+Update `docs/Catalogos.md`, add missing `nomina_*` tables.
+
+Improve development environment:
+
+- Update development tools.
+- CI run `phpcs` on files set by config file.
+- Update `php-cs-fixer` config file.
+- Update `rector/rector` from development dependencies.
+
 ## Version 2.1.0 2022-02-10
 
 Some catalogs structure have been updated: *CCE Estados*, *CCE Localidades*, *CCE Municipios* and *Nomina Estados*.
