@@ -1,0 +1,98 @@
+<?php
+
+declare(strict_types=1);
+
+namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Cfdi40\Injectors;
+
+use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\BoolDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
+use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi40\Injectors\UsosCfdi;
+use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
+use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
+use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use RuntimeException;
+
+class UsosCfdiTest extends TestCase
+{
+    private string $sourceFile;
+
+    private UsosCfdi $injector;
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+        $this->sourceFile = $this->utilFilePath('cfdi40/c_UsoCFDI.csv');
+        $this->injector = new UsosCfdi($this->sourceFile);
+    }
+
+    public function testUsosCfdiExtendsAbstractCsvInjector(): void
+    {
+        $this->assertInstanceOf(AbstractCsvInjector::class, $this->injector);
+        $this->assertInstanceOf(InjectorInterface::class, $this->injector);
+    }
+
+    public function testCheckHeadersOnValidSource(): void
+    {
+        $csv = new CsvFile($this->sourceFile, new RightTrim());
+        $this->injector->checkHeaders($csv);
+
+        $this->assertSame(5, $csv->position(), 'The csv position is on the first content line');
+    }
+
+    public function testCheckHeadersOnInvalidSource(): void
+    {
+        $csv = new CsvFile($this->utilFilePath('sample.csv'));
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage('The headers did not match on file');
+        $this->injector->checkHeaders($csv);
+    }
+
+    public function testDataTableFields(): void
+    {
+        $dataTable = $this->injector->dataTable();
+        $this->assertSame('cfdi_40_usos_cfdi', $dataTable->name());
+        $expectedClasses = [
+            'id' => TextDataField::class,
+            'texto' => TextDataField::class,
+            'aplica_fisica' => BoolDataField::class,
+            'aplica_moral' => BoolDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+            'regimenes_fiscales_receptores' => TextDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+    }
+
+    /**
+     * @testWith ["Sí", true]
+     *           ["No", false]
+     *           ["", false]
+     */
+    public function testTransformAplicaFisica(string $value, bool $expected): void
+    {
+        $dataTable = $this->injector->dataTable();
+        $input = [2 => $value];
+        $transform = $dataTable->fields()->transform($input);
+        $this->assertSame($expected, $transform['aplica_fisica']);
+    }
+
+    /**
+     * @testWith ["Sí", true]
+     *           ["No", false]
+     *           ["", false]
+     */
+    public function testTransformAplicaMoral(string $value, bool $expected): void
+    {
+        $dataTable = $this->injector->dataTable();
+        $input = [3 => $value];
+        $transform = $dataTable->fields()->transform($input);
+        $this->assertSame($expected, $transform['aplica_moral']);
+    }
+}
