@@ -78,6 +78,7 @@ class CsvFolderJoinFiles
     /**
      * @param array{destination: string, index: int} $first
      * @param array{destination: string, index: int} $second
+     * @return int
      */
     private function compareFiles(array $first, array $second): int
     {
@@ -97,42 +98,46 @@ class CsvFolderJoinFiles
 
     public function findLinesToSkip(string $firstPath, string $secondPath): int
     {
-        $lines = 0;
         $first = new SplFileObject($firstPath, 'r');
         $second = new SplFileObject($secondPath, 'r');
-        while ($this->splCurrentLinesAreEqual($first, $second)) {
-            $first->next();
-            $second->next();
-            $lines = $lines + 1;
+
+        $firstTenLines = $this->splReadTenLines($first);
+        $secondTenLines = $this->splReadTenLines($second);
+
+        for ($i = 9; $i > 0; $i--) {
+            $firstValue = $firstTenLines[$i] ?? null;
+            $secondValue = $secondTenLines[$i] ?? null;
+            if (null !== $firstValue && null !== $secondValue && $firstValue === $secondValue) {
+                return $i + 1;
+            }
         }
-        return $lines;
+        return 0;
     }
 
     /**
-     * @param Iterator<mixed> $first
-     * @param Iterator<mixed> $second
+     * @param Iterator<string> $iterator
+     * @return array<int, string>
      */
-    private function splCurrentLinesAreEqual(Iterator $first, Iterator $second): bool
+    private function splReadTenLines(Iterator $iterator): array
     {
-        if (! $first->valid() || ! $second->valid()) {
-            return false;
+        $result = [];
+        $counter = 0;
+        foreach ($iterator as $line) {
+            $result[] = $this->splCurrentLinesNormalizeValue($line);
+            $counter = $counter + 1;
+            if (10 === $counter) {
+                break;
+            }
         }
-        $firstValue = $this->splCurrentLinesAreEqualNormalizeValue($first->current());
-        $secondValue = $this->splCurrentLinesAreEqualNormalizeValue($second->current());
-        return ($firstValue === $secondValue);
+        return $result;
     }
 
-    private function splCurrentLinesAreEqualNormalizeValue(mixed $current): mixed
+    private function splCurrentLinesNormalizeValue(string $current): string
     {
-        if (! is_string($current)) {
-            return $current;
-        }
         return trim(implode(',', array_map('trim', explode(',', rtrim($current, ',')))));
     }
 
-    /**
-     * @param string[] $searchterms
-     */
+    /** @param string[] $searchterms */
     public function lastLineContains(string $filename, array $searchterms): bool
     {
         $lastline = $this->obtainFileLastLine($filename);

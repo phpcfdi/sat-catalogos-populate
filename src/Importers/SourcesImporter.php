@@ -15,6 +15,7 @@ class SourcesImporter implements ImporterInterface
     {
         $importers = [
             'CFDI' => ['source' => $source . '/catCFDI.xls', 'importer' => new CfdiCatalogs()],
+            'CFDI 4.0' => ['source' => $source . '/cfdi_40.xls', 'importer' => new Cfdi40Catalogs()],
             'Nóminas' => ['source' => $source . '/catNomina.xls', 'importer' => new NominaCatalogs()],
             'Nóminas - Estados' => [
                 'source' => $source . '/nominas_estados.xls',
