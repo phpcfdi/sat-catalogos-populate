@@ -89,11 +89,8 @@ class Repository
         return $this->convertScalarNullToStringArray($row);
     }
 
-    /**
-     * @param mixed[] $values
-     * @return string|null
-     */
-    public function queryOne(string $sql, array $values = [])
+    /** @param array<string, scalar|null> $values */
+    public function queryOne(string $sql, array $values = []): ?string
     {
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($values);
