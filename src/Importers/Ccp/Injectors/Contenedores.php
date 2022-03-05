@@ -38,7 +38,7 @@ class Contenedores extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_contenedores', new DataFields([
+        return new DataTable('ccp_20_contenedores', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('descripcion'),

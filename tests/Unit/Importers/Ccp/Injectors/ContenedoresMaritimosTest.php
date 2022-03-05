@@ -51,7 +51,7 @@ class ContenedoresMaritimosTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_contenedores_maritimos', $dataTable->name());
+        $this->assertSame('ccp_20_contenedores_maritimos', $dataTable->name());
         $this->assertSame(
             ['id', 'texto', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

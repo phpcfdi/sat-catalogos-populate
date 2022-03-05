@@ -51,7 +51,7 @@ class DerechosDePasoTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_derechos_de_paso', $dataTable->name());
+        $this->assertSame('ccp_20_derechos_de_paso', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'entre',

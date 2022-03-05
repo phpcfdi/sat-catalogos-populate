@@ -51,7 +51,7 @@ class ProductosServiciosTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_productos_servicios', $dataTable->name());
+        $this->assertSame('ccp_20_productos_servicios', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'similares',

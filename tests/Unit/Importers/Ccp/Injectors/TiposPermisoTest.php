@@ -51,7 +51,7 @@ class TiposPermisoTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_tipos_permiso', $dataTable->name());
+        $this->assertSame('ccp_20_tipos_permiso', $dataTable->name());
         $this->assertSame(
             ['id', 'texto', 'clave_transporte', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

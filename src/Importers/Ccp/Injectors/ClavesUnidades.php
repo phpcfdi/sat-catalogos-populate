@@ -42,7 +42,7 @@ class ClavesUnidades extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_claves_unidades', new DataFields([
+        return new DataTable('ccp_20_claves_unidades', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('descripcion'),

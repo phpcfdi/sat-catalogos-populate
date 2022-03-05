@@ -25,7 +25,7 @@ class TiposEmbalajeTest extends TestCase
         $this->injector = new TiposEmbalaje($this->sourceFile);
     }
 
-    public function testTiposCarroExtendsAbstractCsvInjector(): void
+    public function testTiposEmbalajeExtendsAbstractCsvInjector(): void
     {
         $this->assertInstanceOf(AbstractCsvInjector::class, $this->injector);
         $this->assertInstanceOf(InjectorInterface::class, $this->injector);
@@ -51,7 +51,7 @@ class TiposEmbalajeTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_tipos_embalaje', $dataTable->name());
+        $this->assertSame('ccp_20_tipos_embalaje', $dataTable->name());
         $this->assertSame(
             ['id', 'texto', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

@@ -41,7 +41,7 @@ class ProductosServicios extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_productos_servicios', new DataFields([
+        return new DataTable('ccp_20_productos_servicios', new DataFields([
             new PaddingDataField('id', '0', 8),
             new TextDataField('texto'),
             new TextDataField('similares'),

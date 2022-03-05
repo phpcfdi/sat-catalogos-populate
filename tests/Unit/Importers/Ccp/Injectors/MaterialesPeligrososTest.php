@@ -25,7 +25,7 @@ class MaterialesPeligrososTest extends TestCase
         $this->injector = new MaterialesPeligrosos($this->sourceFile);
     }
 
-    public function testAutorizacionNavieroExtendsAbstractCsvInjector(): void
+    public function testMaterialesPeligrososExtendsAbstractCsvInjector(): void
     {
         $this->assertInstanceOf(AbstractCsvInjector::class, $this->injector);
         $this->assertInstanceOf(InjectorInterface::class, $this->injector);
@@ -56,7 +56,7 @@ class MaterialesPeligrososTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_materiales_peligrosos', $dataTable->name());
+        $this->assertSame('ccp_20_materiales_peligrosos', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'clase_o_div', 'peligro_secundario',

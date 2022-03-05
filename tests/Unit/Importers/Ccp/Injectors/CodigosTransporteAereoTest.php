@@ -51,7 +51,7 @@ class CodigosTransporteAereoTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_codigos_transporte_aereo', $dataTable->name());
+        $this->assertSame('ccp_20_codigos_transporte_aereo', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'nacionalidad', 'texto',

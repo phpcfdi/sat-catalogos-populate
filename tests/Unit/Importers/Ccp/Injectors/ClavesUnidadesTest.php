@@ -51,7 +51,7 @@ class ClavesUnidadesTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_claves_unidades', $dataTable->name());
+        $this->assertSame('ccp_20_claves_unidades', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'descripcion',

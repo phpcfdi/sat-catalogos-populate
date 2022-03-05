@@ -38,7 +38,7 @@ class ConfiguracionesMaritimas extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_configuraciones_maritimas', new DataFields([
+        return new DataTable('ccp_20_configuraciones_maritimas', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new DateDataField('vigencia_desde'),

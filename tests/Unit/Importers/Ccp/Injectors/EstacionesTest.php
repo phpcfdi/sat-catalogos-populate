@@ -51,7 +51,7 @@ class EstacionesTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_estaciones', $dataTable->name());
+        $this->assertSame('ccp_20_estaciones', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'clave_transporte',

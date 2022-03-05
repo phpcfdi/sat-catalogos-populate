@@ -39,7 +39,7 @@ class TiposPermiso extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_tipos_permiso', new DataFields([
+        return new DataTable('ccp_20_tipos_permiso', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('clave_transporte'),

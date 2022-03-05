@@ -51,7 +51,7 @@ class PartesTransporteTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_partes_transporte', $dataTable->name());
+        $this->assertSame('ccp_20_partes_transporte', $dataTable->name());
         $this->assertSame(
             ['id', 'texto', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

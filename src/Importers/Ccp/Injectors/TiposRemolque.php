@@ -37,7 +37,7 @@ class TiposRemolque extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_tipos_remolque', new DataFields([
+        return new DataTable('ccp_20_tipos_remolque', new DataFields([
             new TextDataField('id'),
             new TextDataField('remolque_o_semirremolque'),
             new DateDataField('vigencia_desde'),

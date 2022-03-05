@@ -1,100 +1,100 @@
-"Catálogo de productos y servicios carta porte.","","2","2","2","2","2"
-"Versión","Revisión","Fecha de publicación","","","",""
-"2.0","0.0","30-Jun-2021","","","",""
-"Clave producto","Descripción","Palabras similares","Material peligroso","Fecha de inicio de vigencia","Fecha de fin de vigencia",""
-"01010101","No existe en el catálogo","Fondos y Valores","0,1","02-Jul-2021","",""
-"1.01015E7","Animales vivos de granja","","0.0","01-Jun-2021","",""
-"1.0101501E7","Gatos vivos","","0.0","01-Jun-2021","",""
-"1.0101502E7","Perros","","0.0","01-Jun-2021","",""
-"1.0101504E7","Visón","","0.0","01-Jun-2021","",""
-"1.0101505E7","Ratas","","0.0","01-Jun-2021","",""
-"1.0101506E7","Caballos","Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas","0.0","01-Jun-2021","",""
-"1.0101507E7","Ovejas","Borregos, Carneros","0.0","01-Jun-2021","",""
-"1.0101508E7","Cabras","Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos","0.0","01-Jun-2021","",""
-"1.0101509E7","Asnos","Borricos, Burros","0.0","01-Jun-2021","",""
-"1.010151E7","Ratones","","0.0","01-Jun-2021","",""
-"1.0101511E7","Cerdos","Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos","0.0","01-Jun-2021","",""
-"1.0101512E7","Conejos","Liebres","0.0","01-Jun-2021","",""
-"1.0101513E7","Cobayas o conejillos de indias","Chanchito de Indias, Cobayos, Cuilo, Cuyo","0.0","01-Jun-2021","",""
-"1.0101514E7","Primates","Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos","0.0","01-Jun-2021","",""
-"1.0101515E7","Armadillos","Toches","0.0","01-Jun-2021","",""
-"1.0101516E7","Ganado vacuno","Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas","0.0","01-Jun-2021","",""
-"1.0101517E7","Camellos","Dromedarios","0.0","01-Jun-2021","",""
-"1.01016E7","Pájaros y aves de corral vivos","","0.0","01-Jun-2021","",""
-"1.0101601E7","Pollos vivos","Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos","0.0","01-Jun-2021","",""
-"1.0101602E7","Patos vivos","","0.0","01-Jun-2021","",""
-"1.0101603E7","Pavos vivos","Gallipavos, Guajolotes, Pavos salvajes","0.0","01-Jun-2021","",""
-"1.0101604E7","Gansos vivos","","0.0","01-Jun-2021","",""
-"1.0101605E7","Faisanes vivos","","0.0","01-Jun-2021","",""
-"1.01017E7","Peces vivos","","0.0","01-Jun-2021","",""
-"1.0101701E7","Salmones vivos","","0.0","01-Jun-2021","",""
-"1.0101702E7","Trucha viva","","0.0","01-Jun-2021","",""
-"1.0101703E7","Tilapia viva","Mojarra","0.0","01-Jun-2021","",""
-"1.0101704E7","Carpa viva","","0.0","01-Jun-2021","",""
-"1.0101705E7","Anguilas vivas","","0.0","01-Jun-2021","",""
-"1.01018E7","Mariscos e invertebrados acuáticos vivos","","0.0","01-Jun-2021","",""
-"1.0101801E7","Camarón vivo","","0.0","01-Jun-2021","",""
-"1.0101802E7","Almejas vivas","","0.0","01-Jun-2021","",""
-"1.0101803E7","Mejillones vivos","","0.0","01-Jun-2021","",""
-"1.0101804E7","Ostras vivas","","0.0","01-Jun-2021","",""
-"1.0101805E7","Cangrejos vivos","","0.0","01-Jun-2021","",""
-"1.0101806E7","Abulones vivos","Orejas de mar","0.0","01-Jun-2021","",""
-"1.0101807E7","Pulpo vivo","Octópodo","0.0","01-Jun-2021","",""
-"1.0101808E7","Calamar vivo","","0.0","01-Jun-2021","",""
-"1.0101809E7","Sanguijuelas","Hirudineas, Hirudos, Hirudíneo","0.0","01-Jun-2021","",""
-"1.01019E7","Insectos vivos","","0.0","01-Jun-2021","",""
-"1.0101901E7","Mariposas","","0.0","01-Jun-2021","",""
-"1.0101902E7","Escarabajos","Mariquitas, Sanjuaneros","0.0","01-Jun-2021","",""
-"1.0101903E7","Abejas","","0.0","01-Jun-2021","",""
-"1.0101904E7","Gusanos de seda","Crisálida, Larva, Orug","0.0","01-Jun-2021","",""
-"1.01113E7","Accesorios, equipo y tratamientos para los animales domésticos","Accesorios, equipo y medicamentos para animales domésticos","0.0","01-Jun-2021","",""
-"1.0111301E7","Juguetes para mascotas","","0.0","01-Jun-2021","",""
-"1.0111302E7","Productos para el aseo y cuidado de mascotas","","0.0","01-Jun-2021","",""
-"1.0111303E7","Equipo para el manejo de desperdicios de las mascotas","","0.0","01-Jun-2021","",""
-"1.0111304E7","Tazones o equipo para alimentación de mascotas","","0.0","01-Jun-2021","",""
-"1.0111305E7","Tratamientos medicados para mascotas","Tratamientos medicinales para mascotas","0.0","01-Jun-2021","",""
-"1.0111306E7","Kits para el entrenamiento de mascotas domésticas","","0.0","01-Jun-2021","",""
-"1.0111307E7","Cobijas para mascotas","Mantas para mascotas, Sábanas para mascotas","0.0","01-Jun-2021","",""
-"1.01215E7","Pienso para ganado","Alimento para ganado","0.0","01-Jun-2021","",""
-"1.0121501E7","Salvado de trigo puro","","0.0","01-Jun-2021","",""
-"1.0121502E7","Avena para forraje","","0.0","01-Jun-2021","",""
-"1.0121503E7","Maíz para forraje","","0.0","01-Jun-2021","",""
-"1.0121504E7","Sorgo para forraje","","0.0","01-Jun-2021","",""
-"1.0121505E7","Heno","","0.0","01-Jun-2021","",""
-"1.0121506E7","Tortas oleaginosas","Torta de aceite para ganado","0.0","01-Jun-2021","",""
-"1.0121507E7","Forraje compuesto","","0.0","01-Jun-2021","",""
-"1.01216E7","Alimento para pájaros y aves de corral","","0.0","01-Jun-2021","",""
-"1.0121601E7","Alimento vivo para aves","","0.0","01-Jun-2021","",""
-"1.0121602E7","Alpiste","","0.0","01-Jun-2021","",""
-"1.0121603E7","Botanas o comida recreacional para aves","","0.0","01-Jun-2021","",""
-"1.0121604E7","Alimento avícola","","0.0","01-Jun-2021","",""
-"1.01217E7","Alimento para peces","","0.0","01-Jun-2021","",""
-"1.0121701E7","Salmuera fresca o congelada","","0.0","01-Jun-2021","",""
-"1.0121702E7","Alimento granulado para peces","","0.0","01-Jun-2021","",""
-"1.0121703E7","Alimento en hojuelas para peces","","0.0","01-Jun-2021","",""
-"1.01218E7","Alimento para perros y gatos","","0.0","01-Jun-2021","",""
-"1.0121801E7","Comida seca para perros","","0.0","01-Jun-2021","",""
-"1.0121802E7","Comida húmeda para perros","","0.0","01-Jun-2021","",""
-"1.0121803E7","Leche para perros o gatos","","0.0","01-Jun-2021","",""
-"1.0121804E7","Comida seca para gatos","","0.0","01-Jun-2021","",""
-"1.0121805E7","Comida húmeda para gatos","","0.0","01-Jun-2021","",""
-"1.0121806E7","Botanas o comida recreacional para gatos o perros","","0.0","01-Jun-2021","",""
-"1.01219E7","Alimento para roedores","","0.0","01-Jun-2021","",""
-"1.0121901E7","Comida granulada para roedores","","0.0","01-Jun-2021","",""
-"1.01221E7","Comida para animales variados","Comida para diversos animales","0.0","01-Jun-2021","",""
-"1.0122101E7","Comida para cerdos","Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones","0.0","01-Jun-2021","",""
-"1.0122102E7","Comida para visones","","0.0","01-Jun-2021","",""
-"1.0122103E7","Comida para monos","","0.0","01-Jun-2021","",""
-"1.0122104E7","Comida para conejos","","0.0","01-Jun-2021","",""
-"1.01315E7","Cobertizos para animales","","0.0","01-Jun-2021","",""
-"1.0131506E7","Establos para ganado","","0.0","01-Jun-2021","",""
-"1.0131507E7","Casas para mascotas domesticadas","","0.0","01-Jun-2021","",""
-"1.0131508E7","Camas para mascotas","","0.0","01-Jun-2021","",""
-"1.01316E7","Recipientes para animales","Contenedores de comida para animales","0.0","01-Jun-2021","",""
-"1.0131601E7","Jaulas o sus accesorios","","0.0","01-Jun-2021","",""
-"1.0131602E7","Perreras","","0.0","01-Jun-2021","",""
-"1.0131603E7","Equipaje para el transporte de animales","","0.0","01-Jun-2021","",""
-"1.0131604E7","Correas para perros","","0.0","01-Jun-2021","",""
-"1.01415E7","Talabartería","","0.0","01-Jun-2021","",""
-"1.0141501E7","Sillas de montar","","0.0","01-Jun-2021","",""
-"1.0141502E7","Fustas y látigos","","0.0","01-Jun-2021","",""
+Catálogo de productos y servicios carta porte.,,2,2,2,2,2
+Versión,Revisión,Fecha de publicación,,,,
+3,0,29-Dec-21,,,,
+Clave producto,Descripción,Palabras similares,Material peligroso,Fecha de inicio de vigencia,Fecha de fin de vigencia,
+1010101,No existe en el catálogo,Fondos y Valores,"0,1",2-Jul-21,,
+10101500,Animales vivos de granja,,0,1-Jun-21,,
+10101501,Gatos vivos,,0,1-Jun-21,,
+10101502,Perros,,0,1-Jun-21,,
+10101504,Visón,,0,1-Jun-21,,
+10101505,Ratas,,0,1-Jun-21,,
+10101506,Caballos,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas",0,1-Jun-21,,
+10101507,Ovejas,"Borregos, Carneros",0,1-Jun-21,,
+10101508,Cabras,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos",0,1-Jun-21,,
+10101509,Asnos,"Borricos, Burros",0,1-Jun-21,,
+10101510,Ratones,,0,1-Jun-21,,
+10101511,Cerdos,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos",0,1-Jun-21,,
+10101512,Conejos,Liebres,0,1-Jun-21,,
+10101513,Cobayas o conejillos de indias,"Chanchito de Indias, Cobayos, Cuilo, Cuyo",0,1-Jun-21,,
+10101514,Primates,"Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos",0,1-Jun-21,,
+10101515,Armadillos,Toches,0,1-Jun-21,,
+10101516,Ganado vacuno,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas",0,1-Jun-21,,
+10101517,Camellos,Dromedarios,0,1-Jun-21,,
+10101600,Pájaros y aves de corral vivos,,0,1-Jun-21,,
+10101601,Pollos vivos,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos",0,1-Jun-21,,
+10101602,Patos vivos,,0,1-Jun-21,,
+10101603,Pavos vivos,"Gallipavos, Guajolotes, Pavos salvajes",0,1-Jun-21,,
+10101604,Gansos vivos,,0,1-Jun-21,,
+10101605,Faisanes vivos,,0,1-Jun-21,,
+10101700,Peces vivos,,0,1-Jun-21,,
+10101701,Salmones vivos,,0,1-Jun-21,,
+10101702,Trucha viva,,0,1-Jun-21,,
+10101703,Tilapia viva,Mojarra,0,1-Jun-21,,
+10101704,Carpa viva,,0,1-Jun-21,,
+10101705,Anguilas vivas,,0,1-Jun-21,,
+10101800,Mariscos e invertebrados acuáticos vivos,,0,1-Jun-21,,
+10101801,Camarón vivo,,0,1-Jun-21,,
+10101802,Almejas vivas,,0,1-Jun-21,,
+10101803,Mejillones vivos,,0,1-Jun-21,,
+10101804,Ostras vivas,,0,1-Jun-21,,
+10101805,Cangrejos vivos,,0,1-Jun-21,,
+10101806,Abulones vivos,Orejas de mar,0,1-Jun-21,,
+10101807,Pulpo vivo,Octópodo,0,1-Jun-21,,
+10101808,Calamar vivo,,0,1-Jun-21,,
+10101809,Sanguijuelas,"Hirudineas, Hirudos, Hirudíneo",0,1-Jun-21,,
+10101900,Insectos vivos,,0,1-Jun-21,,
+10101901,Mariposas,,0,1-Jun-21,,
+10101902,Escarabajos,"Mariquitas, Sanjuaneros",0,1-Jun-21,,
+10101903,Abejas,,0,1-Jun-21,,
+10101904,Gusanos de seda,"Crisálida, Larva, Orug",0,1-Jun-21,,
+10111300,"Accesorios, equipo y tratamientos para los animales domésticos","Accesorios, equipo y medicamentos para animales domésticos",0,1-Jun-21,,
+10111301,Juguetes para mascotas,,0,1-Jun-21,,
+10111302,Productos para el aseo y cuidado de mascotas,,0,1-Jun-21,,
+10111303,Equipo para el manejo de desperdicios de las mascotas,,0,1-Jun-21,,
+10111304,Tazones o equipo para alimentación de mascotas,,0,1-Jun-21,,
+10111305,Tratamientos medicados para mascotas,Tratamientos medicinales para mascotas,0,1-Jun-21,,
+10111306,Kits para el entrenamiento de mascotas domésticas,,0,1-Jun-21,,
+10111307,Cobijas para mascotas,"Mantas para mascotas, Sábanas para mascotas",0,1-Jun-21,,
+10121500,Pienso para ganado,Alimento para ganado,0,1-Jun-21,,
+10121501,Salvado de trigo puro,,0,1-Jun-21,,
+10121502,Avena para forraje,,0,1-Jun-21,,
+10121503,Maíz para forraje,,0,1-Jun-21,,
+10121504,Sorgo para forraje,,0,1-Jun-21,,
+10121505,Heno,,0,1-Jun-21,,
+10121506,Tortas oleaginosas,Torta de aceite para ganado,0,1-Jun-21,,
+10121507,Forraje compuesto,,0,1-Jun-21,,
+10121600,Alimento para pájaros y aves de corral,,0,1-Jun-21,,
+10121601,Alimento vivo para aves,,0,1-Jun-21,,
+10121602,Alpiste,,0,1-Jun-21,,
+10121603,Botanas o comida recreacional para aves,,0,1-Jun-21,,
+10121604,Alimento avícola,,0,1-Jun-21,,
+10121700,Alimento para peces,,0,1-Jun-21,,
+10121701,Salmuera fresca o congelada,,0,1-Jun-21,,
+10121702,Alimento granulado para peces,,0,1-Jun-21,,
+10121703,Alimento en hojuelas para peces,,0,1-Jun-21,,
+10121800,Alimento para perros y gatos,,0,1-Jun-21,,
+10121801,Comida seca para perros,,0,1-Jun-21,,
+10121802,Comida húmeda para perros,,0,1-Jun-21,,
+10121803,Leche para perros o gatos,,0,1-Jun-21,,
+10121804,Comida seca para gatos,,0,1-Jun-21,,
+10121805,Comida húmeda para gatos,,0,1-Jun-21,,
+10121806,Botanas o comida recreacional para gatos o perros,,0,1-Jun-21,,
+10121900,Alimento para roedores,,0,1-Jun-21,,
+10121901,Comida granulada para roedores,,0,1-Jun-21,,
+10122100,Comida para animales variados,Comida para diversos animales,0,1-Jun-21,,
+10122101,Comida para cerdos,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones",0,1-Jun-21,,
+10122102,Comida para visones,,0,1-Jun-21,,
+10122103,Comida para monos,,0,1-Jun-21,,
+10122104,Comida para conejos,,0,1-Jun-21,,
+10131500,Cobertizos para animales,,0,1-Jun-21,,
+10131506,Establos para ganado,,0,1-Jun-21,,
+10131507,Casas para mascotas domesticadas,,0,1-Jun-21,,
+10131508,Camas para mascotas,,0,1-Jun-21,,
+10131600,Recipientes para animales,Contenedores de comida para animales,0,1-Jun-21,,
+10131601,Jaulas o sus accesorios,,0,1-Jun-21,,
+10131602,Perreras,,0,1-Jun-21,,
+10131603,Equipaje para el transporte de animales,,0,1-Jun-21,,
+10131604,Correas para perros,,0,1-Jun-21,,
+10141500,Talabartería,,0,1-Jun-21,,
+10141501,Sillas de montar,,0,1-Jun-21,,
+10141502,Fustas y látigos,,0,1-Jun-21,,

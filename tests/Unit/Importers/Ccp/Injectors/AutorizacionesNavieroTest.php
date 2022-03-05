@@ -51,7 +51,7 @@ class AutorizacionesNavieroTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_autorizaciones_naviero', $dataTable->name());
+        $this->assertSame('ccp_20_autorizaciones_naviero', $dataTable->name());
         $this->assertSame(
             ['id', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

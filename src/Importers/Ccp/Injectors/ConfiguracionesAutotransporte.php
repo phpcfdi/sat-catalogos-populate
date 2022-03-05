@@ -42,7 +42,7 @@ class ConfiguracionesAutotransporte extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_configuraciones_autotransporte', new DataFields([
+        return new DataTable('ccp_20_configuraciones_autotransporte', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new IntegerDataField('numero_de_ejes'),

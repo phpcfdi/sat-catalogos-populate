@@ -36,7 +36,7 @@ class Municipios extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_municipios', new DataFields([
+        return new DataTable('ccp_20_municipios', new DataFields([
             new PaddingDataField('municipio', '0', 3),
             new TextDataField('estado'),
             new TextDataField('texto'),

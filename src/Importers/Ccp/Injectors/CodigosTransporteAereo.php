@@ -40,7 +40,7 @@ class CodigosTransporteAereo extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_codigos_transporte_aereo', new DataFields([
+        return new DataTable('ccp_20_codigos_transporte_aereo', new DataFields([
             new TextDataField('id'),
             new TextDataField('nacionalidad'),
             new TextDataField('texto'),

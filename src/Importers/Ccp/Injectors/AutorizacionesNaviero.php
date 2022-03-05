@@ -36,7 +36,7 @@ class AutorizacionesNaviero extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_autorizaciones_naviero', new DataFields([
+        return new DataTable('ccp_20_autorizaciones_naviero', new DataFields([
             new TextDataField('id'),
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),

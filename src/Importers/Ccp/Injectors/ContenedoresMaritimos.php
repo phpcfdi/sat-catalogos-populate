@@ -38,7 +38,7 @@ class ContenedoresMaritimos extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_contenedores_maritimos', new DataFields([
+        return new DataTable('ccp_20_contenedores_maritimos', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new DateDataField('vigencia_desde'),

@@ -45,7 +45,7 @@ class MaterialesPeligrosos extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_materiales_peligrosos', new DataFields([
+        return new DataTable('ccp_20_materiales_peligrosos', new DataFields([
             new PaddingDataField('id', '0', 4),
             new TextDataField('texto'),
             new TextDataField('clase_o_div'),

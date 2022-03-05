@@ -51,7 +51,7 @@ class ConfiguracionesAutotransporteTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_configuraciones_autotransporte', $dataTable->name());
+        $this->assertSame('ccp_20_configuraciones_autotransporte', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'numero_de_ejes',

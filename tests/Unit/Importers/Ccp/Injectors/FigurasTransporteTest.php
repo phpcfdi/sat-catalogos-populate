@@ -51,7 +51,7 @@ class FigurasTransporteTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_figuras_transporte', $dataTable->name());
+        $this->assertSame('ccp_20_figuras_transporte', $dataTable->name());
         $this->assertSame(
             ['id', 'texto', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

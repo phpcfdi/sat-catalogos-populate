@@ -51,7 +51,7 @@ class ContenedoresTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_contenedores', $dataTable->name());
+        $this->assertSame('ccp_20_contenedores', $dataTable->name());
         $this->assertSame(
             [
                 'id', 'texto', 'descripcion',

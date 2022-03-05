@@ -51,7 +51,7 @@ class TiposRemolqueTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_tipos_remolque', $dataTable->name());
+        $this->assertSame('ccp_20_tipos_remolque', $dataTable->name());
         $this->assertSame(
             ['id', 'remolque_o_semirremolque', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

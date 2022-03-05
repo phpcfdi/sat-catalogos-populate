@@ -51,7 +51,7 @@ class ColoniasTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_colonias', $dataTable->name());
+        $this->assertSame('ccp_20_colonias', $dataTable->name());
         $this->assertSame(
             ['colonia', 'codigo_postal', 'texto'],
             $dataTable->fields()->keys()

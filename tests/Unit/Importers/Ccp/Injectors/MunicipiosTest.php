@@ -51,7 +51,7 @@ class MunicipiosTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_municipios', $dataTable->name());
+        $this->assertSame('ccp_20_municipios', $dataTable->name());
         $this->assertSame(
             ['municipio', 'estado', 'texto', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

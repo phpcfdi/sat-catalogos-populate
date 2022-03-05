@@ -41,7 +41,7 @@ class DerechosDePaso extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_derechos_de_paso', new DataFields([
+        return new DataTable('ccp_20_derechos_de_paso', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('entre'),

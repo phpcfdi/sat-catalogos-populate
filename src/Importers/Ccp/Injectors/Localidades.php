@@ -40,7 +40,7 @@ class Localidades extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_localidades', new DataFields([
+        return new DataTable('ccp_20_localidades', new DataFields([
             new PaddingDataField('localidad', '0', 2),
             new TextDataField('estado'),
             new TextDataField('texto'),

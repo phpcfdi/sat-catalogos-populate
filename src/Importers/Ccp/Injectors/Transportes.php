@@ -39,7 +39,7 @@ class Transportes extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_transportes', new DataFields([
+        return new DataTable('ccp_20_transportes', new DataFields([
             new PaddingDataField('id', '0', 2),
             new TextDataField('texto'),
             new DateDataField('vigencia_desde'),

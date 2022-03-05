@@ -42,7 +42,7 @@ class Estaciones extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_estaciones', new DataFields([
+        return new DataTable('ccp_20_estaciones', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('clave_transporte'),

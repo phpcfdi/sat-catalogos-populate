@@ -51,7 +51,7 @@ class LocalidadesTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_localidades', $dataTable->name());
+        $this->assertSame('ccp_20_localidades', $dataTable->name());
         $this->assertSame(
             ['localidad', 'estado', 'texto', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()

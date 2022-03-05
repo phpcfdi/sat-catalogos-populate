@@ -38,7 +38,7 @@ class TiposCarro extends AbstractCsvInjector
 
     public function dataTable(): DataTable
     {
-        return new DataTable('ccp_tipos_carro', new DataFields([
+        return new DataTable('ccp_20_tipos_carro', new DataFields([
             new TextDataField('id'),
             new TextDataField('texto'),
             new TextDataField('contenedor'),

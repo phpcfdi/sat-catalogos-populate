@@ -51,7 +51,7 @@ class TiposServicioTest extends TestCase
     public function testDataTable(): void
     {
         $dataTable = $this->injector->dataTable();
-        $this->assertSame('ccp_tipos_servicio', $dataTable->name());
+        $this->assertSame('ccp_20_tipos_servicio', $dataTable->name());
         $this->assertSame(
             ['id', 'texto', 'contenedor', 'vigencia_desde', 'vigencia_hasta'],
             $dataTable->fields()->keys()
