@@ -23,6 +23,7 @@ class DumpOrigins implements CommandInterface
                 'Catálogos CFDI Versión 3.3(xls)',
             ),
             new ConstantOrigin('Nóminas', "{$common}/catNomina.xls"),
+            new ConstantOrigin('Nóminas - Estados', "{$common}/C_Estado.xls", null, 'nominas_estados.xls'),
             new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
             new ConstantOrigin('CCE - Colonias', "{$common}/c_Colonia.xls"),
             new ConstantOrigin('CCE - Entidades o estados', "{$common}/C_Estado.xls"),
