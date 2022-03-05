@@ -12,7 +12,6 @@ class NominaCatalogs extends AbstractXlsImporter
     {
         return new Injectors([
             new Nomina\Injectors\Bancos($csvFolder . '/c_Banco.csv'),
-            new Nomina\Injectors\Estados($csvFolder . '/c_Estado.csv'),
             new Nomina\Injectors\OrigenesRecursos($csvFolder . '/c_OrigenRecurso.csv'),
             new Nomina\Injectors\PeriodicidadesPagos($csvFolder . '/c_PeriodicidadPago.csv'),
             new Nomina\Injectors\TiposContratos($csvFolder . '/c_TipoContrato.csv'),
