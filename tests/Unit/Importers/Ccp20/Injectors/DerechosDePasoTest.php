@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\DerechosDePaso;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -52,13 +54,20 @@ class DerechosDePasoTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_derechos_de_paso', $dataTable->name());
-        $this->assertSame(
-            [
-                'id', 'texto', 'entre',
-                'hasta', 'otorga_recibe', 'concesionario',
-                'vigencia_desde', 'vigencia_hasta',
-            ],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'id' => TextDataField::class,
+            'texto' => TextDataField::class,
+            'entre' => TextDataField::class,
+            'hasta' => TextDataField::class,
+            'otorga_recibe' => TextDataField::class,
+            'concesionario' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['id'], $dataTable->primaryKey());
     }
 }

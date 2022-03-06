@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Localidades;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -52,9 +55,17 @@ class LocalidadesTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_localidades', $dataTable->name());
-        $this->assertSame(
-            ['localidad', 'estado', 'texto', 'vigencia_desde', 'vigencia_hasta'],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'localidad' => PaddingDataField::class,
+            'estado' => TextDataField::class,
+            'texto' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['localidad', 'estado'], $dataTable->primaryKey());
     }
 }

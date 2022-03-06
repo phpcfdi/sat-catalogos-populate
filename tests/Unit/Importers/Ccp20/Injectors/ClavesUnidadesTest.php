@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ClavesUnidades;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -52,13 +54,20 @@ class ClavesUnidadesTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_claves_unidades', $dataTable->name());
-        $this->assertSame(
-            [
-                'id', 'texto', 'descripcion',
-                'nota', 'vigencia_desde', 'vigencia_hasta',
-                'simbolo', 'bandera',
-            ],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'id' => TextDataField::class,
+            'texto' => TextDataField::class,
+            'descripcion' => TextDataField::class,
+            'nota' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+            'simbolo' => TextDataField::class,
+            'bandera' => TextDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['id'], $dataTable->primaryKey());
     }
 }

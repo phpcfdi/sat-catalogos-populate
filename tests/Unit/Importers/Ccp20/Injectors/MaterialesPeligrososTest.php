@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\MaterialesPeligrosos;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -57,12 +60,19 @@ class MaterialesPeligrososTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_materiales_peligrosos', $dataTable->name());
-        $this->assertSame(
-            [
-                'id', 'texto', 'clase_o_div', 'peligro_secundario',
-                'nombre_tecnico', 'vigencia_desde', 'vigencia_hasta',
-            ],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'id' => PaddingDataField::class,
+            'texto' => TextDataField::class,
+            'clase_o_div' => TextDataField::class,
+            'peligro_secundario' => TextDataField::class,
+            'nombre_tecnico' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame([], $dataTable->primaryKey());
     }
 }

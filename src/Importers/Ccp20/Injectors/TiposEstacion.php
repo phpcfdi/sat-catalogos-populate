@@ -8,6 +8,7 @@ use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -40,7 +41,7 @@ class TiposEstacion extends AbstractCsvInjector
     public function dataTable(): DataTable
     {
         return new DataTable('ccp_20_tipos_estacion', new DataFields([
-            new TextDataField('id'),
+            new PaddingDataField('id', '0', 2),
             new TextDataField('texto'),
             new TextDataField('claves_transportes'),
             new DateDataField('vigencia_desde'),

@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposTrafico;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -52,9 +54,16 @@ class TiposTraficoTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_tipos_trafico', $dataTable->name());
-        $this->assertSame(
-            ['id', 'texto', 'vigencia_desde', 'vigencia_hasta'],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'id' => TextDataField::class,
+            'texto' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['id'], $dataTable->primaryKey());
     }
 }

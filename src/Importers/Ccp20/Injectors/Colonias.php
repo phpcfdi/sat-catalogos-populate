@@ -35,7 +35,7 @@ class Colonias extends AbstractCsvInjector
     {
         return new DataTable('ccp_20_colonias', new DataFields([
             new PaddingDataField('colonia', '0', 4),
-            new TextDataField('codigo_postal'),
+            new PaddingDataField('codigo_postal', '0', 5),
             new TextDataField('texto'),
         ]), ['colonia', 'codigo_postal']);
     }

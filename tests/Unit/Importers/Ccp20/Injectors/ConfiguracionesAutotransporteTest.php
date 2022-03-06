@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\IntegerDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ConfiguracionesAutotransporte;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -52,13 +55,19 @@ class ConfiguracionesAutotransporteTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_configuraciones_autotransporte', $dataTable->name());
-        $this->assertSame(
-            [
-                'id', 'texto', 'numero_de_ejes',
-                'numero_de_llantas', 'remolque', 'vigencia_desde',
-                'vigencia_hasta',
-            ],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'id' => TextDataField::class,
+            'texto' => TextDataField::class,
+            'numero_de_ejes' => IntegerDataField::class,
+            'numero_de_llantas' => IntegerDataField::class,
+            'remolque' => TextDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['id'], $dataTable->primaryKey());
     }
 }

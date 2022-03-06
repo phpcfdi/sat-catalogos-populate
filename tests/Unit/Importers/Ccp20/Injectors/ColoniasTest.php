@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Ccp20\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\PaddingDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Colonias;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -52,9 +54,15 @@ class ColoniasTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('ccp_20_colonias', $dataTable->name());
-        $this->assertSame(
-            ['colonia', 'codigo_postal', 'texto'],
-            $dataTable->fields()->keys()
-        );
+        $expectedClasses = [
+            'colonia' => PaddingDataField::class,
+            'codigo_postal' => PaddingDataField::class,
+            'texto' => TextDataField::class,
+        ];
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['colonia', 'codigo_postal'], $dataTable->primaryKey());
     }
 }
