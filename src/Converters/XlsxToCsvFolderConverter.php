@@ -50,8 +50,17 @@ class XlsxToCsvFolderConverter
         $execution = ShellExec::run($command);
         if (0 !== $execution->exitStatus()) {
             throw new RuntimeException(
-                "Execution of xlsx2csv convertion return a non zero status code [{$execution->exitStatus()}]"
+                "Execution of xlsx2csv conversion return a non zero status code [{$execution->exitStatus()}]"
             );
+        }
+
+        // remove spaces on exported file name
+        $csvFiles = glob($destination . '/*.csv');
+        foreach ($csvFiles as $csvFile) {
+            $renamed = $destination . '/' . preg_replace('/\s*(.*?)\s*\.csv+/', '$1.csv', basename($csvFile));
+            if (! file_exists($renamed) && $csvFile !== $renamed) {
+                rename($csvFile, $renamed);
+            }
         }
     }
 }
