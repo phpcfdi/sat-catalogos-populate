@@ -34,17 +34,12 @@ class MaterialesPeligrososTest extends TestCase
         $this->assertInstanceOf(InjectorInterface::class, $this->injector);
     }
 
-    /**
-     * @group ignore
-     */
     public function testCheckHeadersOnValidSource(): void
     {
-        /*$this->markTestSkipped('ignored until detail of line breaks in headers is resolved');
         $csv = new CsvFile($this->sourceFile, new RightTrim());
         $this->injector->checkHeaders($csv);
 
-        $this->assertSame(4, $csv->position(), 'The csv position is on the first content line');*/
-        self::assertTrue(true);
+        $this->assertSame(4, $csv->position(), 'The csv position is on the first content line');
     }
 
     public function testCheckHeadersOnInvalidSource(): void
