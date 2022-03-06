@@ -12,10 +12,6 @@ use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
 
-/**
- * @author gamboa
- *
- */
 class ClavesUnidades extends AbstractCsvInjector
 {
     public function checkHeaders(CsvFile $csv): void
