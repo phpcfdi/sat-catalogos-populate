@@ -189,7 +189,7 @@ No se están importando los catálogos repetidos `c_MetodoPago` y `c_FormaPago`.
 
 Por lo anterior, el único catálogo que se termina importando es `c_TipoCadenaPago`.
 
-## CCP (Complemento Carta Porte v2) `ccp_20_*`
+## CCP 2.0 (Complemento Carta Porte) `ccp_20_*`
 
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm>
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/CatalogosCartaPorte20.xls>
