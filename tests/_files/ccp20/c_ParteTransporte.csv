@@ -1,16 +1,16 @@
-"Catálogo de partes del transporte rentadas o prestadas.","","2","2"
-"Versión","Revisión","Fecha de publicación",""
-"1.0","0.0","26-Oct-2021",""
-"Clave","Descripción","Fecha de inicio de vigencia","Fecha de fin de vigencia"
-"PT01","Camión unitario","01-Dec-2021",""
-"PT02","Camión","01-Dec-2021",""
-"PT03","Tractocamión","01-Dec-2021",""
-"PT04","Remolque","01-Dec-2021",""
-"PT05","Semirremolque","01-Dec-2021",""
-"PT06","Vehículo ligero de carga","01-Dec-2021",""
-"PT07","Grúa","01-Dec-2021",""
-"PT08","Aeronave","01-Dec-2021",""
-"PT09","Barco o buque","01-Dec-2021",""
-"PT10","Carro o vagón","01-Dec-2021",""
-"PT11","Contenedor","01-Dec-2021",""
-"PT12","Locomotora","01-Dec-2021",""
+Catálogo de partes del transporte rentadas o prestadas.,,,
+Versión,Revisión,Fecha de publicación,
+1.0,0,2021-10-26,
+Clave,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia
+PT01,Camión unitario,2021-12-01,
+PT02,Camión,2021-12-01,
+PT03,Tractocamión,2021-12-01,
+PT04,Remolque,2021-12-01,
+PT05,Semirremolque,2021-12-01,
+PT06,Vehículo ligero de carga,2021-12-01,
+PT07,Grúa,2021-12-01,
+PT08,Aeronave,2021-12-01,
+PT09,Barco o buque,2021-12-01,
+PT10,Carro o vagón,2021-12-01,
+PT11,Contenedor,2021-12-01,
+PT12,Locomotora,2021-12-01,

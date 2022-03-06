@@ -1,100 +1,164 @@
-"Catálogo código transporte aéreo.","","2","2","2","2"
-"Versión","Revisión","Fecha de publicación","","",""
-"2.0","0.0","01-May-2021","","",""
-"Clave identificación","Nacionalidad","Nombre de la aerolínea","Designador OACI","Fecha de inicio de vigencia","Fecha de fin de vigencia"
-"CA001","Asiáticas","All Nippon Airways LTD","ANA","01-Jun-2021",""
-"CA002","Asiáticas","Cathay Pacific Airways Limited","CPA","01-Jun-2021",""
-"CA003","Asiáticas","China Southern Airlines","CSN","01-Jun-2021",""
-"CA004","Asiáticas","Emirates","UAE","01-Jun-2021",""
-"CA005","Asiáticas","Hainan Airlines","CHH","01-Jun-2021",""
-"CA006","Asiáticas","Korean Air","KAL","01-Jun-2021",""
-"CA007","Asiáticas","Qatar Airlines ","QTR","01-Jun-2021",""
-"CA008","Canadienses","Air Canada","ACA","01-Jun-2021",""
-"CA009","Canadienses","Air Transat (Transat A. T.)","TSC","01-Jun-2021",""
-"CA010","Canadienses","Canjet (Imp Group Limited/Canjet Airlines)","CJA","01-Jun-2021",""
-"CA011","Canadienses","Cargojet Airways Ltd","CJT","01-Jun-2021",""
-"CA012","Canadienses","Flair Airlines","FLE","01-Jun-2021",""
-"CA013","Canadienses","Jazz  Air  LP","JZA","01-Jun-2021",""
-"CA014","Canadienses","Sunwing (Sunwing Airlines)","SWG","01-Jun-2021",""
-"CA015","Canadienses","Swoop Airlines","WSW","01-Jun-2021",""
-"CA016","Canadienses","West Jet (Westjet Airlines Ltd)","WJA","01-Jun-2021",""
-"CA017","Centro y Sudamericanas","Aerolíneas Argentinas","ARG","01-Jun-2021",""
-"CA018","Centro y Sudamericanas","Aerorepública","RPB","01-Jun-2021",""
-"CA019","Centro y Sudamericanas","Avianca (Aerovías Del Continente Americano)","AVA","01-Jun-2021",""
-"CA020","Centro y Sudamericanas","Copa (Compañía Panameña De Aviación)","CMP","01-Jun-2021",""
-"CA021","Centro y Sudamericanas","Cubana (Cubana De Aviación)","CUB","01-Jun-2021",""
-"CA022","Centro y Sudamericanas","DHL De Guatemala (DHL De Guatemala)","JOS","01-Jun-2021",""
-"CA023","Centro y Sudamericanas","GOL Linhas Aéreas","GLO","01-Jun-2021",""
-"CA024","Centro y Sudamericanas","Lacsa (Líneas Aéreas Costarricences)","LRC","01-Jun-2021",""
-"CA025","Centro y Sudamericanas","LAN Cargo","LCO","01-Jun-2021",""
-"CA026","Centro y Sudamericanas","Lan Chile Airlines (Línea Aérea Nacional De Chile)","LAN","01-Jun-2021",""
-"CA027","Centro y Sudamericanas","Lan Colombia","ARE","01-Jun-2021",""
-"CA028","Centro y Sudamericanas","Lanperu","LPE","01-Jun-2021",""
-"CA029","Centro y Sudamericanas","Taca (Taca International Airlines)","TAI","01-Jun-2021",""
-"CA030","Centro y Sudamericanas","Taca Peru (Trans American Airlines)","TPU","01-Jun-2021",""
-"CA031","Centro y Sudamericanas","Tam Linhas Aereas","TAM","01-Jun-2021",""
-"CA032","Centro y Sudamericanas","Tampa (Tampa Cargo)","TPA","01-Jun-2021",""
-"CA033","Centro y Sudamericanas","Transcarga International Airways","TIW","01-Jun-2021",""
-"CA034","Centro y Sudamericanas","Tropic Air Limited","TOS","01-Jun-2021",""
-"CA035","Centro y Sudamericanas","Viva Air Colombia","VVC","01-Jun-2021",""
-"CA036","Centro y Sudamericanas","Volaris Costa Rica","VOC","01-Jun-2021",""
-"CA037","Centro y Sudamericanas","VRG Linhas Aereas, S.A.","VRN","01-Jun-2021",""
-"CA038","El Caribe","BahamasAir Holdings LTD","BHS","01-Jun-2021",""
-"CA039","Estadounidenses","21 Air","UBA","01-Jun-2021",""
-"CA040","Estadounidenses","Abx (Abx Air)","ABX","01-Jun-2021",""
-"CA041","Estadounidenses","Alaska Airlines","ASA","01-Jun-2021",""
-"CA042","Estadounidenses","American Airlines","AAL","01-Jun-2021",""
-"CA043","Estadounidenses","Amerijet International","AJT","01-Jun-2021",""
-"CA044","Estadounidenses","Ameristar Air Cargo","AJI","01-Jun-2021",""
-"CA045","Estadounidenses","Atlas Air","GTI","01-Jun-2021",""
-"CA046","Estadounidenses","BOSTON MAINE","CXS","01-Jun-2021",""
-"CA047","Estadounidenses","C&M AIRWAYS","RWG","01-Jun-2021",""
-"CA048","Estadounidenses","Caribbean Sun Airlines","WAL","01-Jun-2021",""
-"CA049","Estadounidenses","CENTURION","CWC","01-Jun-2021",""
-"CA050","Estadounidenses","Compass Airlines","CPZ","01-Jun-2021",""
-"CA051","Estadounidenses","Continental Express (Express Jet)","ASQ","01-Jun-2021",""
-"CA052","Estadounidenses","Delta Airlines","DAL","01-Jun-2021",""
-"CA053","Estadounidenses","Delux Public Air Charter Inc","JSX","01-Jun-2021",""
-"CA054","Estadounidenses","Envoy Air, Inc","ENY","01-Jun-2021",""
-"CA055","Estadounidenses","FALCON AIR EXPRESS","FAO","01-Jun-2021",""
-"CA056","Estadounidenses","FEDEX (Federal Express)","FDX","01-Jun-2021",""
-"CA057","Estadounidenses","Florida West","FWL","01-Jun-2021",""
-"CA058","Estadounidenses","Frontier","FFT","01-Jun-2021",""
-"CA059","Estadounidenses","Gulf & Caribbean Cargo","TSU","01-Jun-2021",""
-"CA060","Estadounidenses","Horizont Air (Horizont Air Industries)","QXE","01-Jun-2021",""
-"CA061","Estadounidenses","Interjet West Inc","IJW","01-Jun-2021",""
-"CA062","Estadounidenses","Jet Blue Air (Jet Blue Airways Corporation)","JBU","01-Jun-2021",""
-"CA063","Estadounidenses","Kalitta (Kalitta Charters II)","KII","01-Jun-2021",""
-"CA064","Estadounidenses","Kalitta Air","CKS","01-Jun-2021",""
-"CA065","Estadounidenses","Key Air Llc.","KEY","01-Jun-2021",""
-"CA066","Estadounidenses","Mesa Airlines (Mesa Airlines, Inc.)","ASH","01-Jun-2021",""
-"CA067","Estadounidenses","Miami Air  (Miami Air International Inc)","BSK","01-Jun-2021",""
-"CA068","Estadounidenses","MN Airlines","SCX","01-Jun-2021",""
-"CA069","Estadounidenses","National Air Cargo Group. Inc.(National Airlines)","NCR","01-Jun-2021",""
-"CA070","Estadounidenses","Northern Air Cargo Inc.","NAC","01-Jun-2021",""
-"CA071","Estadounidenses","ORANGE AIR LLC","ORN","01-Jun-2021",""
-"CA072","Estadounidenses","Republic Airlines","RPA","01-Jun-2021",""
-"CA073","Estadounidenses","Sky Lease I, Inc","KYE","01-Jun-2021",""
-"CA074","Estadounidenses","Skywest Airlines","SKW","01-Jun-2021",""
-"CA075","Estadounidenses","Southwest Airlines","SWA","01-Jun-2021",""
-"CA076","Estadounidenses","Spirit Airlines","NKS","01-Jun-2021",""
-"CA077","Estadounidenses","Sun Country","SCX","01-Jun-2021",""
-"CA078","Estadounidenses","Swift Air","SWK","01-Jun-2021",""
-"CA079","Estadounidenses","Tatonduk Outfitters Limited DBA Everts Air Cargo","VTS","01-Jun-2021",""
-"CA080","Estadounidenses","Tem Enterprises","CXP","01-Jun-2021",""
-"CA081","Estadounidenses","U.S.A. Jet Airlines","JUS","01-Jun-2021",""
-"CA082","Estadounidenses","Ultimate Jet Charter","UJC","01-Jun-2021",""
-"CA083","Estadounidenses","United Airlines, Inc.","UAL","01-Jun-2021",""
-"CA084","Estadounidenses","Ups (United Parcel Service)","UPS","01-Jun-2021",""
-"CA085","Estadounidenses","US Air (U.S. Airways)","AWE","01-Jun-2021",""
-"CA086","Estadounidenses","Virgin America, Inc","VRD","01-Jun-2021",""
-"CA087","Europeas","Eurowings GMBH.","EWG","01-Jun-2021",""
-"CA088","Europeas","Air Atlanta Icelandic","ABD","01-Jun-2021",""
-"CA089","Europeas","Air Berlín","VER","01-Jun-2021",""
-"CA090","Europeas","Air Europa (Air España)","AEA","01-Jun-2021",""
-"CA091","Europeas","Air France (Société Air France)","AFR","01-Jun-2021",""
-"CA092","Europeas","Alitalia","AZA","01-Jun-2021",""
-"CA093","Europeas","Antonov Company (Aerolíneas Antonov)","ADB","01-Jun-2021",""
-"CA094","Europeas","Azur Air","AZV","01-Jun-2021",""
-"CA095","Europeas","Blue Panorama","BPA","01-Jun-2021",""
-"CA096","Europeas","British Airways","BAW","01-Jun-2021",""
+Catálogo código transporte aéreo.,,,,,
+Versión,Revisión,Fecha de publicación,,,
+2.0,0,2021-05-01,,,
+Clave identificación,Nacionalidad,Nombre de la aerolínea,Designador OACI,Fecha de inicio de vigencia,Fecha de fin de vigencia
+CA001,Asiáticas,All Nippon Airways LTD,ANA,2021-06-01,
+CA002,Asiáticas,Cathay Pacific Airways Limited,CPA,2021-06-01,
+CA003,Asiáticas,China Southern Airlines,CSN,2021-06-01,
+CA004,Asiáticas,Emirates,UAE,2021-06-01,
+CA005,Asiáticas,Hainan Airlines,CHH,2021-06-01,
+CA006,Asiáticas,Korean Air,KAL,2021-06-01,
+CA007,Asiáticas,Qatar Airlines ,QTR,2021-06-01,
+CA008,Canadienses,Air Canada,ACA,2021-06-01,
+CA009,Canadienses,Air Transat (Transat A. T.),TSC,2021-06-01,
+CA010,Canadienses,Canjet (Imp Group Limited/Canjet Airlines),CJA,2021-06-01,
+CA011,Canadienses,Cargojet Airways Ltd,CJT,2021-06-01,
+CA012,Canadienses,Flair Airlines,FLE,2021-06-01,
+CA013,Canadienses,Jazz  Air  LP,JZA,2021-06-01,
+CA014,Canadienses,Sunwing (Sunwing Airlines),SWG,2021-06-01,
+CA015,Canadienses,Swoop Airlines,WSW,2021-06-01,
+CA016,Canadienses,West Jet (Westjet Airlines Ltd),WJA,2021-06-01,
+CA017,Centro y Sudamericanas,Aerolíneas Argentinas,ARG,2021-06-01,
+CA018,Centro y Sudamericanas,Aerorepública,RPB,2021-06-01,
+CA019,Centro y Sudamericanas,Avianca (Aerovías Del Continente Americano),AVA,2021-06-01,
+CA020,Centro y Sudamericanas,Copa (Compañía Panameña De Aviación),CMP,2021-06-01,
+CA021,Centro y Sudamericanas,Cubana (Cubana De Aviación),CUB,2021-06-01,
+CA022,Centro y Sudamericanas,DHL De Guatemala (DHL De Guatemala),JOS,2021-06-01,
+CA023,Centro y Sudamericanas,GOL Linhas Aéreas,GLO,2021-06-01,
+CA024,Centro y Sudamericanas,Lacsa (Líneas Aéreas Costarricences),LRC,2021-06-01,
+CA025,Centro y Sudamericanas,LAN Cargo,LCO,2021-06-01,
+CA026,Centro y Sudamericanas,Lan Chile Airlines (Línea Aérea Nacional De Chile),LAN,2021-06-01,
+CA027,Centro y Sudamericanas,Lan Colombia,ARE,2021-06-01,
+CA028,Centro y Sudamericanas,Lanperu,LPE,2021-06-01,
+CA029,Centro y Sudamericanas,Taca (Taca International Airlines),TAI,2021-06-01,
+CA030,Centro y Sudamericanas,Taca Peru (Trans American Airlines),TPU,2021-06-01,
+CA031,Centro y Sudamericanas,Tam Linhas Aereas,TAM,2021-06-01,
+CA032,Centro y Sudamericanas,Tampa (Tampa Cargo),TPA,2021-06-01,
+CA033,Centro y Sudamericanas,Transcarga International Airways,TIW,2021-06-01,
+CA034,Centro y Sudamericanas,Tropic Air Limited,TOS,2021-06-01,
+CA035,Centro y Sudamericanas,Viva Air Colombia,VVC,2021-06-01,
+CA036,Centro y Sudamericanas,Volaris Costa Rica,VOC,2021-06-01,
+CA037,Centro y Sudamericanas,"VRG Linhas Aereas, S.A.",VRN,2021-06-01,
+CA038,El Caribe,BahamasAir Holdings LTD,BHS,2021-06-01,
+CA039,Estadounidenses,21 Air,UBA,2021-06-01,
+CA040,Estadounidenses,Abx (Abx Air),ABX,2021-06-01,
+CA041,Estadounidenses,Alaska Airlines,ASA,2021-06-01,
+CA042,Estadounidenses,American Airlines,AAL,2021-06-01,
+CA043,Estadounidenses,Amerijet International,AJT,2021-06-01,
+CA044,Estadounidenses,Ameristar Air Cargo,AJI,2021-06-01,
+CA045,Estadounidenses,Atlas Air,GTI,2021-06-01,
+CA046,Estadounidenses,BOSTON MAINE,CXS,2021-06-01,
+CA047,Estadounidenses,C&M AIRWAYS,RWG,2021-06-01,
+CA048,Estadounidenses,Caribbean Sun Airlines,WAL,2021-06-01,
+CA049,Estadounidenses,CENTURION,CWC,2021-06-01,
+CA050,Estadounidenses,Compass Airlines,CPZ,2021-06-01,
+CA051,Estadounidenses,Continental Express (Express Jet),ASQ,2021-06-01,
+CA052,Estadounidenses,Delta Airlines,DAL,2021-06-01,
+CA053,Estadounidenses,Delux Public Air Charter Inc,JSX,2021-06-01,
+CA054,Estadounidenses,"Envoy Air, Inc",ENY,2021-06-01,
+CA055,Estadounidenses,FALCON AIR EXPRESS,FAO,2021-06-01,
+CA056,Estadounidenses,FEDEX (Federal Express),FDX,2021-06-01,
+CA057,Estadounidenses,Florida West,FWL,2021-06-01,
+CA058,Estadounidenses,Frontier,FFT,2021-06-01,
+CA059,Estadounidenses,Gulf & Caribbean Cargo,TSU,2021-06-01,
+CA060,Estadounidenses,Horizont Air (Horizont Air Industries),QXE,2021-06-01,
+CA061,Estadounidenses,Interjet West Inc,IJW,2021-06-01,
+CA062,Estadounidenses,Jet Blue Air (Jet Blue Airways Corporation),JBU,2021-06-01,
+CA063,Estadounidenses,Kalitta (Kalitta Charters II),KII,2021-06-01,
+CA064,Estadounidenses,Kalitta Air,CKS,2021-06-01,
+CA065,Estadounidenses,Key Air Llc.,KEY,2021-06-01,
+CA066,Estadounidenses,"Mesa Airlines (Mesa Airlines, Inc.)",ASH,2021-06-01,
+CA067,Estadounidenses,Miami Air  (Miami Air International Inc),BSK,2021-06-01,
+CA068,Estadounidenses,MN Airlines,SCX,2021-06-01,
+CA069,Estadounidenses,National Air Cargo Group. Inc.(National Airlines),NCR,2021-06-01,
+CA070,Estadounidenses,Northern Air Cargo Inc.,NAC,2021-06-01,
+CA071,Estadounidenses,ORANGE AIR LLC,ORN,2021-06-01,
+CA072,Estadounidenses,Republic Airlines,RPA,2021-06-01,
+CA073,Estadounidenses,"Sky Lease I, Inc",KYE,2021-06-01,
+CA074,Estadounidenses,Skywest Airlines,SKW,2021-06-01,
+CA075,Estadounidenses,Southwest Airlines,SWA,2021-06-01,
+CA076,Estadounidenses,Spirit Airlines,NKS,2021-06-01,
+CA077,Estadounidenses,Sun Country,SCX,2021-06-01,
+CA078,Estadounidenses,Swift Air,SWK,2021-06-01,
+CA079,Estadounidenses,Tatonduk Outfitters Limited DBA Everts Air Cargo,VTS,2021-06-01,
+CA080,Estadounidenses,Tem Enterprises,CXP,2021-06-01,
+CA081,Estadounidenses,U.S.A. Jet Airlines,JUS,2021-06-01,
+CA082,Estadounidenses,Ultimate Jet Charter,UJC,2021-06-01,
+CA083,Estadounidenses,"United Airlines, Inc.",UAL,2021-06-01,
+CA084,Estadounidenses,Ups (United Parcel Service),UPS,2021-06-01,
+CA085,Estadounidenses,US Air (U.S. Airways),AWE,2021-06-01,
+CA086,Estadounidenses,"Virgin America, Inc",VRD,2021-06-01,
+CA087,Europeas,Eurowings GMBH.,EWG,2021-06-01,
+CA088,Europeas,Air Atlanta Icelandic,ABD,2021-06-01,
+CA089,Europeas,Air Berlín,VER,2021-06-01,
+CA090,Europeas,Air Europa (Air España),AEA,2021-06-01,
+CA091,Europeas,Air France (Société Air France),AFR,2021-06-01,
+CA092,Europeas,Alitalia,AZA,2021-06-01,
+CA093,Europeas,Antonov Company (Aerolíneas Antonov),ADB,2021-06-01,
+CA094,Europeas,Azur Air,AZV,2021-06-01,
+CA095,Europeas,Blue Panorama,BPA,2021-06-01,
+CA096,Europeas,British Airways,BAW,2021-06-01,
+CA097,Europeas,C.A.L. Cargo Airlines,ICL,2021-06-01,
+CA098,Europeas,CargoLogicAir,CLA,2021-06-01,
+CA099,Europeas,Cargolux Airlines,CLX,2021-06-01,
+CA100,Europeas,Cargolux Italia S. P. A.,ICV,2021-06-01,
+CA101,Europeas,Corsair (Corse Air Int.),CRL,2021-06-01,
+CA102,Europeas,Edelweiss (Edelweiss Air Ag) Air Ag,EDW,2021-06-01,
+CA103,Europeas,Evelop Airlines,EVE,2021-06-01,
+CA104,Europeas,Finn Air,FIN,2021-06-01,
+CA105,Europeas,Flugleidir Hf. D/B/A Icelandair,ICE,2021-06-01,
+CA106,Europeas,Hi-Fly Transportes Aereos,HFY,2021-06-01,
+CA107,Europeas,Iberia (Iberia Líneas Aéreas De España),IBE,2021-06-01,
+CA108,Europeas,IKAR LLC.,KAR,2021-06-01,
+CA109,Europeas,K L M (Royal Dutch Airlines),KLM,2021-06-01,
+CA110,Europeas,Lufthansa (Deutsche Lufthansa Ag),DLH,2021-06-01,
+CA111,Europeas,Lufthansa Cargo Ag,GEC,2021-06-01,
+CA112,Europeas,Martin Air (Martin Air Holland N.V),MPH,2021-06-01,
+CA113,Europeas,Neos Air (Neos S.P.A.),NOS,2021-06-01,
+CA114,Europeas,Nordwind,NWS,2021-06-01,
+CA115,Europeas,Norwegian Air Shuttle ,NAX,2021-06-01,
+CA116,Europeas,NOVA AIRLINES,NVR,2021-06-01,
+CA117,Europeas,Orbest,OBS,2021-06-01,
+CA118,Europeas,Polskie Linie Lotnicze,LOT,2021-06-01,
+CA119,Europeas,Privilege Style,PVG,2021-06-01,
+CA120,Europeas,Pullmantur,PLM,2021-06-01,
+CA121,Europeas,Royal Flight,ABG,2021-06-01,
+CA122,Europeas,"SATA International  Servicios de Transportes Aereos, s.a.",RZO,2021-06-01,
+CA123,Europeas,Scandinavia (Thomas Cook Airlines Scandinavia ),VKG,2021-06-01,
+CA124,Europeas,Thomas Cook (Thomas Cook Ltd),TCX,2021-06-01,
+CA125,Europeas,Thomson Airways (Thomson Airways Ltd) Ltd,TOM,2021-06-01,
+CA126,Europeas,Thomson Fly Limited,TOM,2021-06-01,
+CA127,Europeas,Titan Airways,AWC,2021-06-01,
+CA128,Europeas,Transaero Airlines,TSO,2021-06-01,
+CA129,Europeas,TRAVEL SERVICE,TVL,2021-06-01,
+CA130,Europeas,TUI Airways,TOM,2021-06-01,
+CA131,Europeas,Tui Belgium,JAF,2021-06-01,
+CA132,Europeas,Tui Nederland,TFL,2021-06-01,
+CA133,Europeas,TUIFLY GMBH,TUI,2021-06-01,
+CA134,Europeas,Tuifly Nordic,BLX,2021-06-01,
+CA135,Europeas,Turkish Airlines,THY,2021-06-01,
+CA136,Europeas,"Virgin Atlantic Airways, Limited",VIR,2021-06-01,
+CA137,Europeas,"Wamos Air, S.A.",PLM,2021-06-01,
+CA138,Europeas,White Airways,WHT,2021-06-01,
+CA139,Europeas,Xl Airways (Xl Airways France),SEU,2021-06-01,
+CA140,Mexicanas,Aéreo Calafia,CFV,2021-06-01,
+CA141,Mexicanas,Aerolíneas Damojh (Global Air ),DMJ,2021-06-01,
+CA142,Mexicanas,Aeromar,TAO,2021-06-01,
+CA143,Mexicanas,Aeroméxico (Aerovías De México),AMX,2021-06-01,
+CA144,Mexicanas,Aeroméxico Connect (Aerolitoral),SLI,2021-06-01,
+CA145,Mexicanas,Aeronaves TSM,VTM,2021-06-01,
+CA146,Mexicanas,Aeroservicios de La Costa,TAA,2021-06-01,
+CA147,Mexicanas,Aerounión (Aerotransportes De Carga Union),TNO,2021-06-01,
+CA148,Mexicanas,Estafeta (Carga Aérea),ESF,2021-06-01,
+CA149,Mexicanas,Interjet (Abc Aerolíneas),AIJ,2021-06-01,
+CA150,Mexicanas,Magnicharters (Grupo Aéreo Monterrey),GMT,2021-06-01,
+CA151,Mexicanas,Mas Air (Más De Carga),MAA,2021-06-01,
+CA152,Mexicanas,"MCS Aerocarga De México, S.A De C.V.",MCS,2021-06-01,
+CA153,Mexicanas,"Servicios Integrales De Aviacion, S.A. De C.V.",NTG,2021-06-01,
+CA154,Mexicanas,Transportes Aéreos Regionales (TAR),LCT,2021-06-01,
+CA155,Mexicanas,Vivaaerobus (Aeroenlaces),VIV,2021-06-01,
+CA156,Mexicanas,Volaris (Concesionaria Vuela Cia De Aviación),VOI,2021-06-01,
+CA157,Mexicanas,Servicio de Taxi Aéreo,NA,2021-11-22,
+CA158,Extranjeras,Servicio de Taxi Aéreo,NA,2021-11-22,
+CA159,Mexicanas,Servicios Privados No Comerciales,NA,2021-11-22,
+CA160,Extranjeras,Servicios Privados No Comerciales,NA,2021-11-22,

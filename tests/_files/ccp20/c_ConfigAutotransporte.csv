@@ -1,38 +1,38 @@
-"Catálogo de configuración autotransporte federal.","","2","2","2","2","2"
-"Versión","Revisión","Fecha de publicación","","","",""
-"2.0","0.0","26-Oct-2021","","","",""
-"Clave nomenclatura","Descripción","Número de ejes","Número de llantas","Remolque","Fecha de inicio de vigencia","Fecha de fin de vigencia"
-"VL","Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el eje trasero)","2.0","4.0","0, 1","01-Dec-2021",""
-"C2","Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje trasero)","2.0","6.0","0","01-Jun-2021",""
-"C3","Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos ejes traseros)","3.0","8 o 10","0","01-Jun-2021",""
-"C2R2","Camión-Remolque (6 llantas en el camión y 8 llantas en remolque)","4.0","14.0","1","01-Jun-2021",""
-"C3R2","Camión-Remolque (10 llantas en el camión y 8 llantas en remolque)","5.0","18.0","1","01-Jun-2021",""
-"C2R3","Camión-Remolque (6 llantas en el camión y 12 llantas en remolque)","5.0","18.0","1","01-Jun-2021",""
-"C3R3","Camión-Remolque (10 llantas en el camión y 12 llantas en remolque)","6.0","22.0","1","01-Jun-2021",""
-"T2S1","Tractocamión Articulado (6 llantas en el tractocamión, 4 llantas en el semirremolque)","3.0","10.0","1","01-Jun-2021",""
-"T2S2","Tractocamión Articulado (6 llantas en el tractocamión, 8 llantas en el semirremolque)","4.0","14.0","1","01-Jun-2021",""
-"T2S3","Tractocamión Articulado (6 llantas en el tractocamión, 12 llantas en el semirremolque)","5.0","18.0","1","01-Jun-2021",""
-"T3S1","Tractocamión Articulado (10 llantas en el tractocamión, 4 llantas en el semirremolque)","4.0","14.0","1","01-Jun-2021",""
-"T3S2","Tractocamión Articulado (10 llantas en el tractocamión, 8 llantas en el semirremolque)","5.0","18.0","1","01-Jun-2021",""
-"T3S3","Tractocamión Articulado (10 llantas en el tractocamión, 12 llantas en el semirremolque)","6.0","22.0","1","01-Jun-2021",""
-"T2S1R2","Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)","5.0","18.0","1","01-Jun-2021",""
-"T2S2R2","Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)","6.0","22.0","1","01-Jun-2021",""
-"T2S1R3","Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)","6.0","22.0","1","01-Jun-2021",""
-"T3S1R2","Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)","6.0","22.0","1","01-Jun-2021",""
-"T3S1R3","Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)","7.0","26.0","1","01-Jun-2021",""
-"T3S2R2","Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)","7.0","26.0","1","01-Jun-2021",""
-"T3S2R3","Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 12 llantas en el remolque)","8.0","30.0","1","01-Jun-2021",""
-"T3S2R4","Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 16 llantas en el remolque)","9.0","34.0","1","01-Jun-2021",""
-"T2S2S2","Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)","6.0","22.0","1","01-Jun-2021",""
-"T3S2S2","Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)","7.0","26.0","1","01-Jun-2021",""
-"T3S3S2","Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 12 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)","8.0","30.0","1","01-Jun-2021",""
-"OTROEVGP","Especializado de carga Voluminosa y/o Gran Peso","","","0, 1","01-Dec-2021",""
-"OTROSG","Servicio de Grúas","","","0","01-Jun-2021",""
-"GPLUTA","Grúa de Pluma Tipo A","","","0","01-Dec-2021",""
-"GPLUTB","Grúa de Pluma Tipo B","","","0","01-Dec-2021",""
-"GPLUTC","Grúa de Pluma Tipo C","","","0","01-Dec-2021",""
-"GPLUTD","Grúa de Pluma Tipo D","","","0","01-Dec-2021",""
-"GPLATA","Grúa de Plataforma Tipo A","","","0","01-Dec-2021",""
-"GPLATB","Grúa de Plataforma Tipo B","","","0","01-Dec-2021",""
-"GPLATC","Grúa de Plataforma Tipo C","","","0","01-Dec-2021",""
-"GPLATD","Grúa de Plataforma Tipo D","","","0","01-Dec-2021",""
+Catálogo de configuración autotransporte federal.,,,,,,
+Versión,Revisión,Fecha de publicación,,,,
+2.0,0,2021-10-26,,,,
+Clave nomenclatura,Descripción,Número de ejes,Número de llantas,Remolque,Fecha de inicio de vigencia,Fecha de fin de vigencia
+VL,Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el eje trasero),2,4,"0, 1",2021-12-01,
+C2,Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje trasero),2,6,0,2021-06-01,
+C3,Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos ejes traseros),3,8 o 10,0,2021-06-01,
+C2R2,Camión-Remolque (6 llantas en el camión y 8 llantas en remolque),4,14,1,2021-06-01,
+C3R2,Camión-Remolque (10 llantas en el camión y 8 llantas en remolque),5,18,1,2021-06-01,
+C2R3,Camión-Remolque (6 llantas en el camión y 12 llantas en remolque),5,18,1,2021-06-01,
+C3R3,Camión-Remolque (10 llantas en el camión y 12 llantas en remolque),6,22,1,2021-06-01,
+T2S1,"Tractocamión Articulado (6 llantas en el tractocamión, 4 llantas en el semirremolque)",3,10,1,2021-06-01,
+T2S2,"Tractocamión Articulado (6 llantas en el tractocamión, 8 llantas en el semirremolque)",4,14,1,2021-06-01,
+T2S3,"Tractocamión Articulado (6 llantas en el tractocamión, 12 llantas en el semirremolque)",5,18,1,2021-06-01,
+T3S1,"Tractocamión Articulado (10 llantas en el tractocamión, 4 llantas en el semirremolque)",4,14,1,2021-06-01,
+T3S2,"Tractocamión Articulado (10 llantas en el tractocamión, 8 llantas en el semirremolque)",5,18,1,2021-06-01,
+T3S3,"Tractocamión Articulado (10 llantas en el tractocamión, 12 llantas en el semirremolque)",6,22,1,2021-06-01,
+T2S1R2,"Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)",5,18,1,2021-06-01,
+T2S2R2,"Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)",6,22,1,2021-06-01,
+T2S1R3,"Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)",6,22,1,2021-06-01,
+T3S1R2,"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)",6,22,1,2021-06-01,
+T3S1R3,"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)",7,26,1,2021-06-01,
+T3S2R2,"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)",7,26,1,2021-06-01,
+T3S2R3,"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 12 llantas en el remolque)",8,30,1,2021-06-01,
+T3S2R4,"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 16 llantas en el remolque)",9,34,1,2021-06-01,
+T2S2S2,"Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",6,22,1,2021-06-01,
+T3S2S2,"Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",7,26,1,2021-06-01,
+T3S3S2,"Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 12 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)",8,30,1,2021-06-01,
+OTROEVGP,Especializado de carga Voluminosa y/o Gran Peso,,,"0, 1",2021-12-01,
+OTROSG,Servicio de Grúas,,,0,2021-06-01,
+GPLUTA,Grúa de Pluma Tipo A,,,0,2021-12-01,
+GPLUTB,Grúa de Pluma Tipo B,,,0,2021-12-01,
+GPLUTC,Grúa de Pluma Tipo C,,,0,2021-12-01,
+GPLUTD,Grúa de Pluma Tipo D,,,0,2021-12-01,
+GPLATA,Grúa de Plataforma Tipo A,,,0,2021-12-01,
+GPLATB,Grúa de Plataforma Tipo B,,,0,2021-12-01,
+GPLATC,Grúa de Plataforma Tipo C,,,0,2021-12-01,
+GPLATD,Grúa de Plataforma Tipo D,,,0,2021-12-01,

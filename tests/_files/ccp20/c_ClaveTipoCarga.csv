@@ -1,10 +1,10 @@
-"Catálogo del tipo de carga.","","2","2"
-"Versión","Revisión","Fecha de publicación",""
-"1.0","1.0","30-Jun-2021",""
-"Clave tipo carga","Descripción","Fecha inicio de vigencia","Fecha fin de vigencia"
-"CGS","Carga General Suelta","01-Jun-2021",""
-"CGC","Carga General Contenerizada","01-Jun-2021",""
-"GMN","Gran Mineral","01-Jun-2021",""
-"GAG","Granel Agrícola","01-Jun-2021",""
-"OFL","Otros Fluidos","01-Jun-2021",""
-"PYD","Petróleo y Derivados","01-Jun-2021",""
+Catálogo del tipo de carga.,,,
+Versión,Revisión,Fecha de publicación,
+1.0,1,2021-06-30,
+Clave tipo carga,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+CGS,Carga General Suelta,2021-06-01,
+CGC,Carga General Contenerizada,2021-06-01,
+GMN,Gran Mineral,2021-06-01,
+GAG,Granel Agrícola,2021-06-01,
+OFL,Otros Fluidos,2021-06-01,
+PYD,Petróleo y Derivados,2021-06-01,

@@ -1,30 +1,30 @@
-"Catálogo tipo permiso.","","2","2","2"
-"Versión","Revisión","Fecha de publicación","",""
-"2.0","0.0","30-Jun-2021","",""
-"Clave","Descripción","Clave transporte","Fecha de inicio de vigencia","Fecha de fin de vigencia"
-"TPAF01","Autotransporte Federal de carga general.","01","01-Jun-2021",""
-"TPAF02","Transporte privado de carga.","01","01-Jun-2021",""
-"TPAF03","Autotransporte Federal de Carga Especializada de materiales y residuos peligrosos.","01","01-Jun-2021",""
-"TPAF04","Transporte de automóviles sin rodar en vehículo tipo góndola.","01","01-Jun-2021",""
-"TPAF05","Transporte de carga de gran peso y/o volumen de hasta 90 toneladas.","01","01-Jun-2021",""
-"TPAF06","Transporte de carga especializada de gran peso y/o volumen de más 90 toneladas.","01","01-Jun-2021",""
-"TPAF07","Transporte Privado de materiales y residuos peligrosos.","01","01-Jun-2021",""
-"TPAF08","Autotransporte internacional de carga de largo recorrido.","01","01-Jun-2021",""
-"TPAF09","Autotransporte internacional de carga especializada de materiales y residuos peligrosos de largo recorrido.","01","01-Jun-2021",""
-"TPAF10","Autotransporte Federal de Carga General cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.","01","01-Jun-2021",""
-"TPAF11","Autotransporte Federal de Carga Especializada cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.","01","01-Jun-2021",""
-"TPAF12","Servicio auxiliar de arrastre en las vías generales de comunicación.","01","01-Jun-2021",""
-"TPAF13","Servicio auxiliar de servicios de arrastre, arrastre y salvamento, y depósito de vehículos en las vías generales de comunicación.","01","01-Jun-2021",""
-"TPAF14","Servicio de paquetería y mensajería en las vías generales de comunicación.","01","01-Jun-2021",""
-"TPAF15","Transporte especial para el tránsito de grúas industriales con peso máximo de 90 toneladas.","01","01-Jun-2021",""
-"TPAF16","Servicio federal para empresas arrendadoras servicio público federal.","01","01-Jun-2021",""
-"TPAF17","Empresas trasladistas de vehículos nuevos.","01","01-Jun-2021",""
-"TPAF18","Empresas fabricantes o distribuidoras de vehículos nuevos.","01","01-Jun-2021",""
-"TPAF19","Autorización expresa para circular en los caminos y puentes de jurisdicción federal con configuraciones de tractocamión doblemente articulado.","01","01-Jun-2021",""
-"TPAF20","Autotransporte Federal de Carga Especializada de fondos y valores.","01","02-Jul-2021",""
-"TPTM01","Permiso temporal para navegación de cabotaje","02","01-Jun-2021",""
-"TPTA01","Concesión y/o autorización para el servicio regular nacional y/o internacional para empresas mexicanas","03","01-Jun-2021",""
-"TPTA02","Permiso para el servicio aéreo regular de empresas extranjeras","03","01-Jun-2021",""
-"TPTA03","Permiso para el servicio nacional e internacional no regular de fletamento","03","01-Jun-2021",""
-"TPTA04","Permiso para el servicio nacional e internacional no regular de taxi aéreo","03","01-Jun-2021",""
-"TPXX00","Permiso no contemplado en el catálogo.","01,02,03","02-Jul-2021",""
+Catálogo tipo permiso.,,,,,
+Versión,Revisión,Fecha de publicación,,,
+2.0,0,2021-06-30,,,
+Clave,Descripción,Clave transporte,Fecha de inicio de vigencia,Fecha de fin de vigencia,
+TPAF01,Autotransporte Federal de carga general.,01,2021-06-01,,
+TPAF02,Transporte privado de carga.,01,2021-06-01,,
+TPAF03,Autotransporte Federal de Carga Especializada de materiales y residuos peligrosos.,01,2021-06-01,,
+TPAF04,Transporte de automóviles sin rodar en vehículo tipo góndola.,01,2021-06-01,,
+TPAF05,Transporte de carga de gran peso y/o volumen de hasta 90 toneladas.,01,2021-06-01,,
+TPAF06,Transporte de carga especializada de gran peso y/o volumen de más 90 toneladas.,01,2021-06-01,,
+TPAF07,Transporte Privado de materiales y residuos peligrosos.,01,2021-06-01,,
+TPAF08,Autotransporte internacional de carga de largo recorrido.,01,2021-06-01,,
+TPAF09,Autotransporte internacional de carga especializada de materiales y residuos peligrosos de largo recorrido.,01,2021-06-01,,
+TPAF10,Autotransporte Federal de Carga General cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.,01,2021-06-01,,
+TPAF11,Autotransporte Federal de Carga Especializada cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.,01,2021-06-01,,
+TPAF12,Servicio auxiliar de arrastre en las vías generales de comunicación.,01,2021-06-01,,
+TPAF13,"Servicio auxiliar de servicios de arrastre, arrastre y salvamento, y depósito de vehículos en las vías generales de comunicación.",01,2021-06-01,,
+TPAF14,Servicio de paquetería y mensajería en las vías generales de comunicación.,01,2021-06-01,,
+TPAF15,Transporte especial para el tránsito de grúas industriales con peso máximo de 90 toneladas.,01,2021-06-01,,
+TPAF16,Servicio federal para empresas arrendadoras servicio público federal.,01,2021-06-01,,
+TPAF17,Empresas trasladistas de vehículos nuevos.,01,2021-06-01,,
+TPAF18,Empresas fabricantes o distribuidoras de vehículos nuevos.,01,2021-06-01,,
+TPAF19,Autorización expresa para circular en los caminos y puentes de jurisdicción federal con configuraciones de tractocamión doblemente articulado.,01,2021-06-01,,
+TPAF20,Autotransporte Federal de Carga Especializada de fondos y valores.,01,2021-07-02,,
+TPTM01,Permiso temporal para navegación de cabotaje,02,2021-06-01,,
+TPTA01,Concesión y/o autorización para el servicio regular nacional y/o internacional para empresas mexicanas,03,2021-06-01,,
+TPTA02,Permiso para el servicio aéreo regular de empresas extranjeras,03,2021-06-01,,
+TPTA03,Permiso para el servicio nacional e internacional no regular de fletamento,03,2021-06-01,,
+TPTA04,Permiso para el servicio nacional e internacional no regular de taxi aéreo,03,2021-06-01,,
+TPXX00,Permiso no contemplado en el catálogo.,"01,02,03",2021-07-02,,

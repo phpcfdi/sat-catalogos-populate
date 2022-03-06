@@ -1,8 +1,8 @@
-"Catálogo de tipo de tráfico ferroviario.","","2","2"
-"Versión","Revisión","Fecha de publicación",""
-"1.0","0.0","26-Oct-2021",""
-"Clave","Descripción","Fecha de inicio de vigencia","Fecha de fin de vigencia"
-"TT01","Tráfico local","01-Dec-2021",""
-"TT02","Tráfico interlineal remitido","01-Dec-2021",""
-"TT03","Tráfico interlineal recibido","01-Dec-2021",""
-"TT04","Tráfico interlineal en tránsito","01-Dec-2021",""
+Catálogo de tipo de tráfico ferroviario.,,,
+Versión,Revisión,Fecha de publicación,
+1.0,0,2021-10-26,
+Clave,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia
+TT01,Tráfico local,2021-12-01,
+TT02,Tráfico interlineal remitido,2021-12-01,
+TT03,Tráfico interlineal recibido,2021-12-01,
+TT04,Tráfico interlineal en tránsito,2021-12-01,
