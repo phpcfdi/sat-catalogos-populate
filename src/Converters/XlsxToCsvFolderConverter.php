@@ -55,7 +55,7 @@ class XlsxToCsvFolderConverter
         }
 
         // remove spaces on exported file name
-        $csvFiles = glob($destination . '/*.csv');
+        $csvFiles = glob($destination . '/*.csv') ?: [];
         foreach ($csvFiles as $csvFile) {
             $renamed = $destination . '/' . preg_replace('/\s*(.*?)\s*\.csv+/', '$1.csv', basename($csvFile));
             if (! file_exists($renamed) && $csvFile !== $renamed) {
