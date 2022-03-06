@@ -51,7 +51,7 @@ class DumpOrigins implements CommandInterface
                 'CCP - Complemento Carta Porte',
                 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm',
                 'CatalogosCartaPorte20.xls',
-                "Catálogos*"
+                'Catálogos*'
             ),
         ]);
 
