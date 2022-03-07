@@ -14,7 +14,6 @@ A pesar de que el SAT les llama catálogos a todos, no todos lo son. Al menos no
 Un catálogo contiene una llave, algunos de los catálogos del SAT no contienen llaves o contienen valores duplicados
 o no contienen registros que sí deberían contener.
 
-
 ## Consumo de los catálogos en PHP
 
 Esta librería [`phpcfdi/sat-catalogos-populate`](https://github.com/phpcfdi/sat-catalogos-populate)
@@ -22,7 +21,6 @@ existe solo para crear la base de datos.
 
 Para consumir estos catálogos puede usar la librería independiente
 [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos).
-
 
 ## Tabla de catálogos
 
@@ -98,7 +96,7 @@ Para consumir estos catálogos puede usar la librería independiente
 | ccp_20_autorizaciones_naviero         | CatalogosCartaPorte20.xls | c_NumAutorizacionNaviero |                                                                                      |
 | ccp_20_claves_unidades                | CatalogosCartaPorte20.xls | c_ClaveUnidadPeso        |                                                                                      |
 | ccp_20_codigos_transporte_aereo       | CatalogosCartaPorte20.xls | c_CodigoTransporteAereo  |                                                                                      |
-| ccp_20_colonias                       | CatalogosCartaPorte20.xls | c_Colonia                | Se divide en 3 partes                                                                |
+| ccp_20_colonias                       | CatalogosCartaPorte20.xls | c_Colonia                | Se divide en 3 partes, es el mismo que CFDI 4.0                                      |
 | ccp_20_configuraciones_autotransporte | CatalogosCartaPorte20.xls | c_ConfigAutotransporte   |                                                                                      |
 | ccp_20_configuraciones_maritimas      | CatalogosCartaPorte20.xls | c_ConfigMaritima         |                                                                                      |
 | ccp_20_contenedores                   | CatalogosCartaPorte20.xls | c_Contenedor             |                                                                                      |
@@ -106,11 +104,11 @@ Para consumir estos catálogos puede usar la librería independiente
 | ccp_20_derechos_de_paso               | CatalogosCartaPorte20.xls | c_DerechosDePaso         |                                                                                      |
 | ccp_20_estaciones                     | CatalogosCartaPorte20.xls | c_Estaciones             | Nombre de las estaciones aéreas, maritimas y ferroviarias.                           |
 | ccp_20_figuras_transporte             | CatalogosCartaPorte20.xls | c_FiguraTransporte       |                                                                                      |
-| ccp_20_localidades                    | CatalogosCartaPorte20.xls | c_Localidad              |                                                                                      |
-| ccp_20_materiales_peligrosos          | CatalogosCartaPorte20.xls | c_MaterialPeligroso      | Contiene caracteres no imprimibles al final de linea en el campo descripción.        |
-| ccp_20_municipios                     | CatalogosCartaPorte20.xls | c_Municipio              |                                                                                      |
+| ccp_20_localidades                    | CatalogosCartaPorte20.xls | c_Localidad              | Es el mismo que CFDI 4.0.                                                            |
+| ccp_20_materiales_peligrosos          | CatalogosCartaPorte20.xls | c_MaterialPeligroso      | La clave de material peligroso no es única.                                          |
+| ccp_20_municipios                     | CatalogosCartaPorte20.xls | c_Municipio              | Es el mismo que CFDI 4.0.                                                            |
 | ccp_20_partes_transporte              | CatalogosCartaPorte20.xls | c_ParteTransporte        |                                                                                      |
-| ccp_20_productos_servicios            | CatalogosCartaPorte20.xls | c_ClaveProdServCP        |                                                                                      |
+| ccp_20_productos_servicios            | CatalogosCartaPorte20.xls | c_ClaveProdServCP        | Se parece al catálogo de CFDI 4.0 pero contiene información diferente                |
 | ccp_20_tipos_carga                    | CatalogosCartaPorte20.xls | c_ClaveTipoCarga         |                                                                                      |
 | ccp_20_tipos_carro                    | CatalogosCartaPorte20.xls | c_TipoCarro              |                                                                                      |
 | ccp_20_tipos_embalaje                 | CatalogosCartaPorte20.xls | c_TipoEmbalaje           |                                                                                      |
@@ -120,7 +118,6 @@ Para consumir estos catálogos puede usar la librería independiente
 | ccp_20_tipos_servicio                 | CatalogosCartaPorte20.xls | c_TipoDeServicio         |                                                                                      |
 | ccp_20_tipos_trafico                  | CatalogosCartaPorte20.xls | c_TipoDeTrafico          |                                                                                      |
 | ccp_20_transportes                    | CatalogosCartaPorte20.xls | c_CveTransporte          |                                                                                      |
-
 
 ## CFDI 3.3 `cfdi_*`
 
@@ -142,7 +139,7 @@ a archivos CSV en una sola carpeta. En la conversión también se juntan las hoj
 
 Por lo anterior, solo existe un importador con múltiples inyectores.
 
-## CCE (Complemento de comercio exterior)
+## CCE 1.1 (Complemento de comercio exterior) `cce_*`
 
 > - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/catalogos_emision_de_cfdi_con_complemento_comercio_exterior.aspx>
 
@@ -157,7 +154,7 @@ Se provee un importador que agrupa a todos estos importadores en uno.
 
 No se están importando los catálogos repetidos: `c_Pais`, `c_Moneda`, `c_CodigoPostal` y `c_RegimenFiscal`.
 
-## NOM (Complemento de recibo de pago de nómina)
+## NOM 1.0 (Complemento de recibo de pago de nómina) `nómina_*`
 
 > - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/complemento_nomina.aspx>
 > - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/Complementoscfdi/catNomina.xls>
@@ -172,7 +169,7 @@ por no estar publicado en los catálogos del CFDI entonces se importa en su prop
 
 No se están importando los catálogos repetidos: `c_CodigoPostal` y `c_RegimenFiscal`.
 
-## REP (Complemento de recibo electrónico de pagos)
+## REP 1.0 (Complemento de recibo electrónico de pagos) `pagos_*`
 
 > - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/Recepcion_de_pagos.aspx>
 > - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/Complementoscfdi/catPagos.xls>
@@ -194,9 +191,14 @@ Por lo anterior, el único catálogo que se termina importando es `c_TipoCadenaP
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm>
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/CatalogosCartaPorte20.xls>
 
-Los catálogos de CCP contienen información extendida que debe ser respetada para el correcto llenado
+Los catálogos de CCP 2.0 contienen información extendida que debe ser respetada para el correcto llenado
 del complemento de carta porte versión 2.0.
-Están publicados en formato XLS (Microsoft Excel 2003) y la conversión se hace pasando a Microsoft Excel 2007 y luego
-a archivos CSV en una sola carpeta. En la conversión también se juntan las hojas que están divididas en partes.
+
+Los catálogos están en un solo archivo de excel por lo que se usa la misma estrategia que en los catálogos de CFDI.
+
+Algunos nombres de las hojas contienen espacios.
+
+El catálogo `c_MaterialPeligroso` debería tener un índice único en `Clave material peligroso` pero ocurre que
+contiene duplicados.
 
 Por lo anterior, solo existe un importador con múltiples inyectores.
