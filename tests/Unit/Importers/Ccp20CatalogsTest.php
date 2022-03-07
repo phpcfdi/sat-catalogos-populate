@@ -6,6 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers;
 
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20Catalogs;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors;
 
 class Ccp20CatalogsTest extends TestCase
 {
@@ -15,31 +16,31 @@ class Ccp20CatalogsTest extends TestCase
     public function testContainsAllAndOnlyThisImportersByDefault(): void
     {
         $expectedInjectorsClasses = [
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\AutorizacionesNaviero::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ClavesUnidades::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\CodigosTransporteAereo::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Colonias::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ConfiguracionesAutotransporte::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ConfiguracionesMaritimas::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ContenedoresMaritimos::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Estaciones::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\FigurasTransporte::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Localidades::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\MaterialesPeligrosos::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Municipios::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\PartesTransporte::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\ProductosServicios::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposCarga::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposEmbalaje::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposEstacion::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposPermiso::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposRemolque::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Transportes::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposTrafico::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposServicio::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\TiposCarro::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\DerechosDePaso::class,
-            \PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors\Contenedores::class,
+            Injectors\AutorizacionesNaviero::class,
+            Injectors\ClavesUnidades::class,
+            Injectors\CodigosTransporteAereo::class,
+            Injectors\Colonias::class,
+            Injectors\ConfiguracionesAutotransporte::class,
+            Injectors\ConfiguracionesMaritimas::class,
+            Injectors\ContenedoresMaritimos::class,
+            Injectors\Estaciones::class,
+            Injectors\FigurasTransporte::class,
+            Injectors\Localidades::class,
+            Injectors\MaterialesPeligrosos::class,
+            Injectors\Municipios::class,
+            Injectors\PartesTransporte::class,
+            Injectors\ProductosServicios::class,
+            Injectors\TiposCarga::class,
+            Injectors\TiposEmbalaje::class,
+            Injectors\TiposEstacion::class,
+            Injectors\TiposPermiso::class,
+            Injectors\TiposRemolque::class,
+            Injectors\Transportes::class,
+            Injectors\TiposTrafico::class,
+            Injectors\TiposServicio::class,
+            Injectors\TiposCarro::class,
+            Injectors\DerechosDePaso::class,
+            Injectors\Contenedores::class,
         ];
 
         $importer = new Ccp20Catalogs();
