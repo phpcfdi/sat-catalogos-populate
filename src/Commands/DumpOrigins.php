@@ -17,13 +17,13 @@ class DumpOrigins implements CommandInterface
         $common = 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos';
         $origins = new Origins([
             new ScrapingOrigin(
-                'CFDI',
+                'CFDI 3.3',
                 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm',
                 'catCFDI.xls',
                 'Catálogos CFDI Versión 3.3*',
             ),
             new ScrapingOrigin(
-                'CFDI',
+                'CFDI 4.0',
                 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm',
                 'cfdi_40.xls',
                 'Catálogos CFDI Versión 4.0*',
@@ -47,6 +47,7 @@ class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCE - Tipos de operaciones', "{$common}/c_TipoOperacion.xls"),
             new ConstantOrigin('CCE - Unidades de medida', "{$common}/c_UnidadAduana.xls"),
             new ConstantOrigin('REP', "{$common}/catPagos.xls"),
+            new ConstantOrigin('CCP 2.0 - Carta Porte', "{$common}/CatalogosCartaPorte20.xls"),
         ]);
 
         echo (new OriginsIO())->originsToString($origins) . PHP_EOL;
