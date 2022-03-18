@@ -95,7 +95,9 @@ jobs:
         env:
           fail-fast: true
       - name: Install xlsx2csv & libreoffice-calc
-        run: sudo apt-get install -y --no-install-recommends xlsx2csv default-jre-headless libreoffice-calc
+        run: |
+          sudo apt-get update -y -qq
+          sudo apt-get install -y -qq --no-install-recommends xlsx2csv default-jre-headless libreoffice-calc
         env:
           DEBIAN_FRONTEND: noninteractive
       - name: Get composer cache directory
