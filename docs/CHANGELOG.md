@@ -1,5 +1,10 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.4.1 2022-03-18
+
+- Fix origin `CCE - Fracciones arancelarias 2021`, the link contains extra characters now.
+- CI: run `apt-get update` before install other packages.
+
 ## Version 2.4.0 2022-03-07
 
 Add CCP (*Complemento de Carta Porte*) 2.0 catalogs.
