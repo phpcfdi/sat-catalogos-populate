@@ -115,7 +115,7 @@ class Repository
     private function convertScalarNullToStringArray(array $values): array
     {
         return array_map(
-            fn ($value) => $this->convertScalarNullToStringValue($value),
+            fn ($value): ?string => $this->convertScalarNullToStringValue($value),
             $values
         );
     }

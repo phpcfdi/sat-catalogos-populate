@@ -26,9 +26,7 @@ class CceCatalogs implements ImporterInterface
         }
     }
 
-    /**
-     * @return ImporterInterface[]
-     */
+    /** @return array<string, ImporterInterface> */
     public function createImporters(): array
     {
         return [
