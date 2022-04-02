@@ -30,7 +30,7 @@ class CsvFile implements SeekableIterator
             throw new UnexpectedValueException('The filename is a directory');
         }
         $this->file = new SplFileObject($filename, 'r');
-        $this->rowProcessor = (null === $rowProcessor) ? new NullArrayProcessor() : $rowProcessor;
+        $this->rowProcessor = $rowProcessor ?? new NullArrayProcessor();
     }
 
     public function position(): int

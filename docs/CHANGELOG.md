@@ -1,5 +1,11 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.4.2 2022-04-01
+
+- Fix *Carta Porte 2.0* injector *ProductosServicios* headers.
+- Update sample files for *Carta Porte 2.0*.
+- Minimal improvements to PHP 8.0 features and strict types.
+
 ## Version 2.4.1 2022-03-18
 
 - Fix origin `CCE - Fracciones arancelarias 2021`, the link contains extra characters now.
@@ -13,7 +19,7 @@ Add CCP (*Complemento de Carta Porte*) 2.0 catalogs.
 - Add *Source importer* from `CatalogosCartaPorte20.xls`. It includes 25 catalogs.
 - Importers create tables with prefix `ccp_20_*`.
 - Update `docs/Catalogos.md` with CCP 2.0 catalogs.
-- Refactor export XLST to CSV, rename all exported files to remove spaces from name.
+- Refactor export XLSX to CSV, rename all exported files to remove spaces from name.
 
 ## Version 2.3.0 2022-03-05
 

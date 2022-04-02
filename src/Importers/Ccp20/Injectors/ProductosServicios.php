@@ -19,12 +19,12 @@ class ProductosServicios extends AbstractCsvInjector
     {
         $csv->move(3);
         $expected = [
-            'Clave producto',
+            'c_ClaveProdServ',
             'Descripción',
             'Palabras similares',
-            'Material peligroso',
-            'Fecha de inicio de vigencia',
-            'Fecha de fin de vigencia',
+            'Material Peligroso',
+            'FechaInicioVigencia',
+            'FechaFinVigencia',
         ];
         $headers = $csv->readLine();
 

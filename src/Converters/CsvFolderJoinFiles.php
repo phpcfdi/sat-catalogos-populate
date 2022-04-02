@@ -78,7 +78,6 @@ class CsvFolderJoinFiles
     /**
      * @param array{destination: string, index: int} $first
      * @param array{destination: string, index: int} $second
-     * @return int
      */
     private function compareFiles(array $first, array $second): int
     {
