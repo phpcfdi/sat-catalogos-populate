@@ -13,7 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ScrapingReviewerTest extends TestCase
 {
-    private \PhpCfdi\SatCatalogosPopulate\Origins\ScrapingReviewer $reviewer;
+    private ScrapingReviewer $reviewer;
 
     protected function setUp(): void
     {
@@ -24,7 +24,7 @@ class ScrapingReviewerTest extends TestCase
 
     public function testAcceptsWithValidObject(): void
     {
-        $origin = new ScrapingOrigin('Foo', 'http://foo/', 'foo.txt', 'foo');
+        $origin = new ScrapingOrigin('Foo', 'https://foo/', 'foo.txt', 'foo');
         $this->assertTrue($this->reviewer->accepts($origin));
     }
 

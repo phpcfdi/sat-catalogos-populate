@@ -17,7 +17,7 @@ class TiposFactoresTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposFactores $injector;
+    private TiposFactores $injector;
 
     protected function setUp(): void
     {

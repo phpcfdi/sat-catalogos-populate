@@ -10,7 +10,7 @@ use Symfony\Component\DomCrawler\Link;
 
 final class ScrapingReviewerLinkExtractor
 {
-    public function __construct(private Crawler $crawler)
+    public function __construct(private readonly Crawler $crawler)
     {
     }
 

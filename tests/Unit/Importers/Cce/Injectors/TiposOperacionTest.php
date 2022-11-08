@@ -17,7 +17,7 @@ class TiposOperacionTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\TiposOperacion $injector;
+    private TiposOperacion $injector;
 
     protected function setUp(): void
     {

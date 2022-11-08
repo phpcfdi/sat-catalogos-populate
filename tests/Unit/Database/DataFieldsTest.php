@@ -38,6 +38,7 @@ class DataFieldsTest extends TestCase
         $this->expectExceptionMessage('There is a datafield with invalid type');
         /** @var DataFieldInterface&stdClass $fake Override declaration to force phpstan pass */
         $fake = new stdClass();
+        /** @noinspection PhpParamsInspection */
         new DataFields([$fake]);
     }
 

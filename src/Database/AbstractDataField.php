@@ -12,10 +12,10 @@ abstract class AbstractDataField implements DataFieldInterface
     /**
      * @param callable|null $transformFunction
      */
-    public function __construct(private string $name, callable $transformFunction = null)
+    public function __construct(private readonly string $name, callable $transformFunction = null)
     {
         if (null === $transformFunction) {
-            $transformFunction = fn ($input): string => trim($input);
+            $transformFunction = fn ($input): string => trim((string) $input);
         }
         $this->transformFunction = $transformFunction;
     }

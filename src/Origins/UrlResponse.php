@@ -12,16 +12,13 @@ class UrlResponse
 {
     private DateTimeImmutable $lastModified;
 
-    private Stringable|string $body;
-
     public function __construct(
-        private string $url,
-        private int $httpStatus,
+        private readonly string $url,
+        private readonly int $httpStatus,
         DateTimeImmutable $lastModified = null,
-        Stringable|string $body = ''
+        private readonly Stringable|string $body = ''
     ) {
         $this->lastModified = ($lastModified) ?: new DateTimeImmutable();
-        $this->body = $body;
     }
 
     public static function createFromResponse(ResponseInterface $response, string $url): self

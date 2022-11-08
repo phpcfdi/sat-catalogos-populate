@@ -25,7 +25,7 @@ class ImportTest extends TestCase
         /* mock this object to avoid expensive converter operation from a real file */
         /** @var CfdiCatalogs&MockObject $importer */
         $importer = $this->getMockBuilder(CfdiCatalogs::class)
-            ->setMethods(['createConverter'])
+            ->onlyMethods(['createConverter'])
             ->getMock();
         $importer->method('createConverter')->willReturn(new FakeXlsToCsvFolder($csvFolder));
 

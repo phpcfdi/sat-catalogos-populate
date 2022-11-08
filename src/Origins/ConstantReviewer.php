@@ -8,7 +8,7 @@ use LogicException;
 
 class ConstantReviewer implements ReviewerInterface
 {
-    public function __construct(private ResourcesGatewayInterface $gateway)
+    public function __construct(private readonly ResourcesGatewayInterface $gateway)
     {
     }
 

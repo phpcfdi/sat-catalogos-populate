@@ -18,7 +18,7 @@ class RiesgosPuestosTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\RiesgosPuestos $injector;
+    private RiesgosPuestos $injector;
 
     protected function setUp(): void
     {

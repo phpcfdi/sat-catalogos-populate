@@ -18,7 +18,7 @@ class CodigosPostalesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\CodigosPostales $injector;
+    private CodigosPostales $injector;
 
     protected function setUp(): void
     {

@@ -19,7 +19,7 @@ class TiposComprobantesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\TiposComprobantes $injector;
+    private TiposComprobantes $injector;
 
     protected function setUp(): void
     {

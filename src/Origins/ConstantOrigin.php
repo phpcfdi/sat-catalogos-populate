@@ -13,8 +13,8 @@ class ConstantOrigin implements OriginInterface
     private string $destinationFilename;
 
     public function __construct(
-        private string $name,
-        private string $url,
+        private readonly string $name,
+        private readonly string $url,
         private ?DateTimeImmutable $lastVersion = null,
         string $destinationFilename = ''
     ) {

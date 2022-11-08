@@ -26,7 +26,7 @@ class SourcesImporter implements ImporterInterface
             'CCP 2.0' => ['source' => $source . '/CatalogosCartaPorte20.xls', 'importer' => new Ccp20Catalogs()],
         ];
 
-        foreach ($importers as $name => $info) {
+        foreach ($importers as $info) {
             $sourceFile = $info['source'];
             if (! file_exists($sourceFile)) {
                 throw new RuntimeException("Se esperaba encontrar $sourceFile pero no existe");

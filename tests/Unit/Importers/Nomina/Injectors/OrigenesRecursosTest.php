@@ -17,7 +17,7 @@ class OrigenesRecursosTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\OrigenesRecursos $injector;
+    private OrigenesRecursos $injector;
 
     protected function setUp(): void
     {

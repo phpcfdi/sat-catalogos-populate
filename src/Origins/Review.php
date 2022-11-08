@@ -6,7 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 class Review
 {
-    public function __construct(private OriginInterface $origin, private ReviewStatus $status)
+    public function __construct(private readonly OriginInterface $origin, private readonly ReviewStatus $status)
     {
     }
 

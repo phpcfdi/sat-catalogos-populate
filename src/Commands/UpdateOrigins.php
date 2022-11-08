@@ -27,8 +27,8 @@ class UpdateOrigins implements CommandInterface
 
     public function __construct(
         string $originsFile,
-        private bool $updateOrigins,
-        private string $databaseLocation,
+        private readonly bool $updateOrigins,
+        private readonly string $databaseLocation,
         private LoggerInterface $logger
     ) {
         if ('' === $originsFile) {

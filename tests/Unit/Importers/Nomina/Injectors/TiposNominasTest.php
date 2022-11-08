@@ -17,7 +17,7 @@ class TiposNominasTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Nomina\Injectors\TiposNominas $injector;
+    private TiposNominas $injector;
 
     protected function setUp(): void
     {
