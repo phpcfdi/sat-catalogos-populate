@@ -15,6 +15,7 @@
   - Update GH actions to 8.1.
   - Remove composer requierement when not needed.
 - Fix composer script `dev:coverage`.
+- Implement development tool `composer-normalize`.
 
 ## Version 2.4.2 2022-04-01
 
