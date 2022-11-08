@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
-use DateTimeImmutable;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
@@ -18,7 +17,7 @@ class WebResourcesGateway implements ResourcesGatewayInterface
 
     public function __construct(GuzzleClient $client = null)
     {
-        $this->client = ($client) ?: new GuzzleClient();
+        $this->client = $client ?? new GuzzleClient();
     }
 
     private function obtainResponse(string $method, string $url): ResponseInterface
@@ -41,13 +40,7 @@ class WebResourcesGateway implements ResourcesGatewayInterface
 
     private function createUrlResponseFromResponse(ResponseInterface $response, string $url): UrlResponse
     {
-        $lastModified = null;
-        if ($response->hasHeader('Last-Modified')) {
-            /** @noinspection PhpUnhandledExceptionInspection */
-            $lastModified = new DateTimeImmutable($response->getHeaderLine('Last-Modified'));
-        }
-
-        return new UrlResponse($url, $response->getStatusCode(), $lastModified, strval($response->getBody()));
+        return UrlResponse::createFromResponse($response, $url);
     }
 
     public function headers(string $url): UrlResponse
