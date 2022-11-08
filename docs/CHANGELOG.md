@@ -1,5 +1,20 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.5.0 2022-11-08
+
+- Fix PHPStan issue: `str_getcsv` can return `array<scalar|null>`.
+- Update signature for `SeekableIterator::seek`.
+- `UrlResponse` can have a `Stringable|string` body property.
+- Move logic to create a UrlResponse from a PSR Response
+- Bump to PHP 8.1.
+- Add badge for PHP 8.1.
+- Remove badge for downloads.
+- Upgrade development tools.
+- Update GH workflow:
+  - Add PHP 8.2 to test matrix.
+  - Update GH actions to 8.1.
+  - Remove composer requierement when not needed.
+
 ## Version 2.4.2 2022-04-01
 
 - Fix *Carta Porte 2.0* injector *ProductosServicios* headers.
