@@ -14,6 +14,7 @@
   - Add PHP 8.2 to test matrix.
   - Update GH actions to 8.1.
   - Remove composer requierement when not needed.
+- Fix composer script `dev:coverage`.
 
 ## Version 2.4.2 2022-04-01
 
