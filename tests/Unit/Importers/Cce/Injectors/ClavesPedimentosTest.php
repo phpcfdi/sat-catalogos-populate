@@ -17,7 +17,7 @@ class ClavesPedimentosTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\ClavesPedimentos $injector;
+    private ClavesPedimentos $injector;
 
     protected function setUp(): void
     {

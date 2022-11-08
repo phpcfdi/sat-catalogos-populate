@@ -49,9 +49,9 @@ class CsvFolderJoinFiles
                     $file = basename($path);
                     $matches = [];
                     if (
-                        ! (bool) preg_match('/^[ ]*(.+)_Parte_([0-9]+)[ ]*\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^[ ]*(.+) \(Parte ([0-9]+)\)[ ]*\.csv$/', $file, $matches)
-                        && ! (bool) preg_match('/^[ ]*(.+)_([0-9]+)[ ]*\.csv$/', $file, $matches)
+                        ! preg_match('/^ *(.+)_Parte_([0-9]+) *\.csv$/', $file, $matches)
+                        && ! preg_match('/^ *(.+) \(Parte ([0-9]+)\) *\.csv$/', $file, $matches)
+                        && ! preg_match('/^ *(.+)_([0-9]+) *\.csv$/', $file, $matches)
                     ) {
                         return [];
                     }
@@ -65,7 +65,7 @@ class CsvFolderJoinFiles
             )
         );
 
-        uasort($files, [$this, 'compareFiles']);
+        uasort($files, $this->compareFiles(...));
 
         $destinations = [];
         foreach ($files as $file) {

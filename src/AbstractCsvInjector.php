@@ -20,7 +20,7 @@ abstract class AbstractCsvInjector implements InjectorInterface
 
     abstract public function dataTable(): DataTable;
 
-    public function __construct(private string $sourceFile)
+    public function __construct(private readonly string $sourceFile)
     {
     }
 

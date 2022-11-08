@@ -8,7 +8,7 @@ class ShellExec
 {
     /** @param string[] $output */
     public function __construct(
-        private string $command,
+        private readonly string $command,
         private array $output = [],
         private int $exitStatus = -1,
         private string $lastLine = ''

@@ -14,7 +14,7 @@ use PHPUnit\Framework\TestCase;
 
 class DataTableGatewayTest extends TestCase
 {
-    protected \PhpCfdi\SatCatalogosPopulate\Database\Repository $repository;
+    protected Repository $repository;
 
     protected function setUp(): void
     {

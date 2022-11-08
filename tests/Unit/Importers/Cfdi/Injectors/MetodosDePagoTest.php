@@ -17,7 +17,7 @@ class MetodosDePagoTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\MetodosDePago $injector;
+    private MetodosDePago $injector;
 
     protected function setUp(): void
     {

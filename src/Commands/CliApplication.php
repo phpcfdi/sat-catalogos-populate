@@ -57,7 +57,7 @@ class CliApplication
             return 0;
         }
 
-        if (count(array_intersect(['-h', '--help'], $arguments)) > 0) {
+        if ([] !== array_intersect(['-h', '--help'], $arguments)) {
             $this->showHelp($command);
             return 0;
         }

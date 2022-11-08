@@ -19,7 +19,7 @@ class FraccionesArancelariasTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\FraccionesArancelarias $injector;
+    private FraccionesArancelarias $injector;
 
     protected function setUp(): void
     {

@@ -12,7 +12,7 @@ class ReviewStatus
 
     protected const NOT_UPDATED = 'NOT-UPDATED';
 
-    private function __construct(private string $status)
+    private function __construct(private readonly string $status)
     {
     }
 

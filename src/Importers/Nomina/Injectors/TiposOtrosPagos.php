@@ -19,7 +19,7 @@ class TiposOtrosPagos extends AbstractCsvInjector
     {
         $csv->move(3);
         $expected = [
-            ' c_TipoOtroPago', // WTF!!! tiene un espacio al inicio
+            ' c_TipoOtroPago', // WTF! has white space at the beginning
             'Descripción',
             'Fecha inicio de vigencia',
             'Fecha fin de vigencia',

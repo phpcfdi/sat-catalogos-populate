@@ -15,7 +15,7 @@ class ProductosServiciosTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ProductosServicios $injector;
+    private ProductosServicios $injector;
 
     protected function setUp(): void
     {

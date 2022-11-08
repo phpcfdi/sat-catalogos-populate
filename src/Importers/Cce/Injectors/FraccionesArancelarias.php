@@ -19,7 +19,7 @@ class FraccionesArancelarias extends AbstractCsvInjector
     /** @param bool $shouldRecreateTable Indicates if the injector must recreate the table */
     public function __construct(
         string $sourceFile,
-        private bool $shouldRecreateTable
+        private readonly bool $shouldRecreateTable
     ) {
         parent::__construct($sourceFile);
     }
