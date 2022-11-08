@@ -1,34 +1,38 @@
 {
     "name": "phpcfdi/sat-catalogos-populate",
     "description": "Herramienta para crear y actualizar los catálogos de SAT/CFDI en una base de datos SQLite3",
-    "keywords": ["sat", "cfdi", "catalogos"],
-    "homepage": "https://github.com/phpcfdi/sat-catalogos-populate",
     "license": "MIT",
+    "keywords": [
+        "sat",
+        "cfdi",
+        "catalogos"
+    ],
     "authors": [
         {
             "name": "Carlos C Soto",
             "email": "eclipxe13@gmail.com"
         }
     ],
+    "homepage": "https://github.com/phpcfdi/sat-catalogos-populate",
     "support": {
-        "source": "https://github.com/phpcfdi/sat-catalogos-populate",
-        "issues": "https://github.com/phpcfdi/sat-catalogos-populate/issues"
+        "issues": "https://github.com/phpcfdi/sat-catalogos-populate/issues",
+        "source": "https://github.com/phpcfdi/sat-catalogos-populate"
     },
     "require": {
-        "php": ">=8.0",
-        "ext-pdo": "*",
-        "ext-sqlite3": "*",
-        "ext-json": "*",
-        "ext-simplexml": "*",
+        "php": ">=8.1",
         "ext-dom": "*",
-        "psr/log": "^1.0",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-simplexml": "*",
+        "ext-sqlite3": "*",
         "guzzlehttp/guzzle": "^7.0",
         "psr/http-message": "^1.0",
+        "psr/log": "^1.0",
         "symfony/dom-crawler": "^5.2"
     },
     "require-dev": {
         "ext-fileinfo": "*",
-        "phpunit/phpunit": "^9.1.5"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
@@ -44,29 +48,34 @@
         }
     },
     "scripts": {
-        "dev:build": ["@dev:fix-style", "@dev:test"],
+        "dev:build": [
+            "@dev:fix-style",
+            "@dev:test"
+        ],
         "dev:check-style": [
+            "@php tools/composer-normalize normalize --dry-run",
             "@php tools/php-cs-fixer fix --dry-run --verbose",
             "@php tools/phpcs --colors -sp"
         ],
+        "dev:coverage": [
+            "@php -dzend_extension=xdebug.so -dxdebug.mode=coverage vendor/bin/phpunit --testdox --coverage-html build/coverage/html/"
+        ],
         "dev:fix-style": [
+            "@php tools/composer-normalize normalize",
             "@php tools/php-cs-fixer fix --verbose",
             "@php tools/phpcbf --colors -sp"
         ],
         "dev:test": [
             "@dev:check-style",
-            "vendor/bin/phpunit --testdox --verbose --stop-on-failure",
+            "@php vendor/bin/phpunit --testdox --verbose --stop-on-failure",
             "@php tools/phpstan analyse --no-progress --no-interaction"
-        ],
-        "dev:coverage": [
-            "@php -dzend_extension=xdebug.so vendor/bin/phpunit --coverage-text --coverage-html build/coverage/html/"
         ]
     },
     "scripts-descriptions": {
         "dev:build": "DEV: run dev:fix-style and dev:tests, run before pull request",
-        "dev:check-style": "DEV: search for code style errors using php-cs-fixer and phpcs",
-        "dev:fix-style": "DEV: fix code style errors using php-cs-fixer and phpcbf",
-        "dev:test": "DEV: run dev:check-style, phpunit and phpstan",
-        "dev:coverage": "DEV: run phpunit with xdebug and storage coverage in build/coverage/html/"
+        "dev:check-style": "DEV: search for code style errors using composer-normalize, php-cs-fixer and phpcs",
+        "dev:coverage": "DEV: run phpunit with xdebug and storage coverage in build/coverage/html/",
+        "dev:fix-style": "DEV: fix code style errors using composer-normalize, php-cs-fixer and phpcbf",
+        "dev:test": "DEV: run dev:check-style, phpunit and phpstan"
     }
 }

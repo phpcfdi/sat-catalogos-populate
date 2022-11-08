@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers;
 
+use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors;
 use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20Catalogs;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
-use PhpCfdi\SatCatalogosPopulate\Importers\Ccp20\Injectors;
 
 class Ccp20CatalogsTest extends TestCase
 {

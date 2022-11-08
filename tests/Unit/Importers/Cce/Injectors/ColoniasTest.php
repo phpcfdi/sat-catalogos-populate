@@ -18,7 +18,7 @@ class ColoniasTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Colonias $injector;
+    private Colonias $injector;
 
     protected function setUp(): void
     {

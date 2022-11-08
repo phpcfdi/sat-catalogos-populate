@@ -13,7 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 class ConstantReviewerTest extends TestCase
 {
-    private \PhpCfdi\SatCatalogosPopulate\Origins\ConstantReviewer $reviewer;
+    private ConstantReviewer $reviewer;
 
     protected function setUp(): void
     {
@@ -24,7 +24,7 @@ class ConstantReviewerTest extends TestCase
 
     public function testAcceptsWithValidObject(): void
     {
-        $origin = new ConstantOrigin('Foo', 'http://foo/foo');
+        $origin = new ConstantOrigin('Foo', 'https://foo/foo');
         $this->assertTrue($this->reviewer->accepts($origin));
     }
 

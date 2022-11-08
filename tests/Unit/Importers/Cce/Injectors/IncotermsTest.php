@@ -18,7 +18,7 @@ class IncotermsTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Incoterms $injector;
+    private Incoterms $injector;
 
     protected function setUp(): void
     {

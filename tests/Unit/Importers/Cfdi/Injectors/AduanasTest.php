@@ -16,7 +16,7 @@ class AduanasTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Aduanas $injector;
+    private Aduanas $injector;
 
     protected function setUp(): void
     {

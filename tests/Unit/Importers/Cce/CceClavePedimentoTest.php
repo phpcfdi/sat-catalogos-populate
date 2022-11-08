@@ -13,7 +13,7 @@ class CceClavePedimentoTest extends TestCase
 {
     public function testImporterInstance(): void
     {
-        // no need to test in depth, abstract class and injector is been tested
+        // no need to test in depth, abstract class and injector has been tested
         $importer = new CceClavePedimento();
         $this->assertInstanceOf(AbstractXlsOneSheetImporter::class, $importer);
         $this->assertInstanceOf(ClavesPedimentos::class, $importer->createInjector(''));

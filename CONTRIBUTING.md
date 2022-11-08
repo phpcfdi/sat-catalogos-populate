@@ -81,13 +81,13 @@ composer dev:build
 
 The following tests must pass before we will accept a pull request.
 If any of these do not pass, it will result in a complete build failure.
-Before you can run these, be sure to `composer install` or `composer update`.
+Before you can run these, be sure to `composer install` or `composer update` and `phive update`.
 
 ```shell script
-vendor/bin/php-cs-fixer fix --verbose
-vendor/bin/phpcbf --colors -sp
+tools/php-cs-fixer fix --verbose
+tools/phpcbf --colors -sp
 vendor/bin/phpunit --testdox
-vendor/bin/phpstan.phar analyse --no-progress --level max
+tools/phpstan analyse --no-progress --level max
 mkdir -p build/files/
 bin/sat-catalogos-update dump-origins > build/files/origins.xml
 bin/sat-catalogos-update update-origins build/files/ -w build/files/database.sqlite3

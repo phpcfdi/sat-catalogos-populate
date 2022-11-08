@@ -9,7 +9,7 @@ use PDOException;
 
 class DataTableGateway
 {
-    public function __construct(private DataTable $dataTable, private Repository $repository)
+    public function __construct(private readonly DataTable $dataTable, private readonly Repository $repository)
     {
     }
 

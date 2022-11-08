@@ -16,7 +16,7 @@ class ClavesUnidadesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\ClavesUnidades $injector;
+    private ClavesUnidades $injector;
 
     protected function setUp(): void
     {

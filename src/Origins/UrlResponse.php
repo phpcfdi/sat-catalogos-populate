@@ -5,18 +5,31 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use DateTimeImmutable;
+use Psr\Http\Message\ResponseInterface;
+use Stringable;
 
 class UrlResponse
 {
     private DateTimeImmutable $lastModified;
 
     public function __construct(
-        private string $url,
-        private int $httpStatus,
+        private readonly string $url,
+        private readonly int $httpStatus,
         DateTimeImmutable $lastModified = null,
-        private string $body = ''
+        private readonly Stringable|string $body = ''
     ) {
         $this->lastModified = ($lastModified) ?: new DateTimeImmutable();
+    }
+
+    public static function createFromResponse(ResponseInterface $response, string $url): self
+    {
+        $lastModified = null;
+        if ($response->hasHeader('Last-Modified')) {
+            /** @noinspection PhpUnhandledExceptionInspection */
+            $lastModified = new DateTimeImmutable($response->getHeaderLine('Last-Modified'));
+        }
+
+        return new self($url, $response->getStatusCode(), $lastModified, $response->getBody());
     }
 
     public function url(): string
@@ -46,6 +59,6 @@ class UrlResponse
 
     public function body(): string
     {
-        return $this->body;
+        return (string) $this->body;
     }
 }

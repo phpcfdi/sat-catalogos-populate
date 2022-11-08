@@ -19,7 +19,7 @@ class UnidadesAduanaTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\UnidadesAduana $injector;
+    private UnidadesAduana $injector;
 
     protected function setUp(): void
     {

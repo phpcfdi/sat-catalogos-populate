@@ -19,7 +19,7 @@ class LocalidadesTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cce\Injectors\Localidades $injector;
+    private Localidades $injector;
 
     protected function setUp(): void
     {

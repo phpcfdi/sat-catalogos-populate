@@ -9,7 +9,7 @@ use RuntimeException;
 
 class ScrapingReviewer implements ReviewerInterface
 {
-    public function __construct(private ResourcesGatewayInterface $gateway)
+    public function __construct(private readonly ResourcesGatewayInterface $gateway)
     {
     }
 

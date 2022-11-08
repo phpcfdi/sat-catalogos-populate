@@ -18,7 +18,7 @@ class MonedasTest extends TestCase
 {
     private string $sourceFile;
 
-    private \PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Monedas $injector;
+    private Monedas $injector;
 
     protected function setUp(): void
     {

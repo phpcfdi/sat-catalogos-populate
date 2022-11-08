@@ -12,11 +12,11 @@ class BoolDataField extends AbstractDataField implements DataFieldInterface
      */
     public function __construct(
         string $name,
-        private array $trueValues = [],
-        private array $falseValues = [],
-        private bool $default = false
+        private readonly array $trueValues = [],
+        private readonly array $falseValues = [],
+        private readonly bool $default = false
     ) {
-        parent::__construct($name, [$this, 'valueToBoolean']);
+        parent::__construct($name, $this->valueToBoolean(...));
     }
 
     /** @param scalar $input */
