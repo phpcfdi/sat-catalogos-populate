@@ -13,11 +13,16 @@
 /.phive/                    export-ignore
 /build/                     export-ignore
 /tests/                     export-ignore
+/.dockerignore              export-ignore
 /.gitattributes             export-ignore
 /.gitignore                 export-ignore
 /.php-cs-fixer.dist.php     export-ignore
 /.scrutinizer.yml           export-ignore
+/Docker.README.md           export-ignore
+/Dockerfile                 export-ignore
 /phpcs.xml.dist             export-ignore
 /phpstan.neon.dist          export-ignore
 /phpunit.xml.dist           export-ignore
-/psalm.xml.dist             export-ignore
+
+# Do not count these files on github code language
+/tests/_files/**            linguist-detectable=false
