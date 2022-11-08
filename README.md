@@ -91,7 +91,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [coverage]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/code-structure/master/code-coverage/src
 
 [badge-source]: https://img.shields.io/badge/source-phpcfdi/sat--catalogos--populate-blue?style=flat-square
-[badge-php-version]: https://img.shields.io/badge/php-^8.0-blue?style=flat-square
+[badge-php-version]: https://img.shields.io/badge/php-^8.1-blue?style=flat-square
 [badge-release]: https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-license]: https://img.shields.io/github/license/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-build]: https://img.shields.io/github/workflow/status/phpcfdi/sat-catalogos-populate/build/master?style=flat-square
