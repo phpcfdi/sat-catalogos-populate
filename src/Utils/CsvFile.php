@@ -132,10 +132,7 @@ class CsvFile implements SeekableIterator
         $this->file->rewind();
     }
 
-    /**
-     * @param int $offset
-     */
-    public function seek($offset): void
+    public function seek(int $offset): void
     {
         $this->move($offset);
     }
