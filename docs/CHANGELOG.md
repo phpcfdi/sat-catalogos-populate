@@ -1,5 +1,15 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.5.1 2022-11-18
+
+Fix how to find how many first equal lines are between two CSV files.
+In *Catálogos de CFDI 4.0* published at 2022-11-18 was found that the headers on files
+`c_CodigoPostal_Parte_1` and `c_CodigoPostal_Parte_2` were different because of empty
+cells at the end.
+
+This fix include a better test and fix the issue by changing how csv lines are normalized.
+Normalization: explode values, trim values, remove empty values at end & implode values back.
+
 ## Version 2.5.0 2022-11-08
 
 - Fix PHPStan issue: `str_getcsv` can return `array<scalar|null>`.
