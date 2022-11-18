@@ -7,6 +7,8 @@ namespace PhpCfdi\SatCatalogosPopulate\Converters;
 use Iterator;
 use SplFileObject;
 
+use function PhpCfdi\SatCatalogosPopulate\Utils\array_rtrim;
+
 class CsvFolderJoinFiles
 {
     public function joinFilesInFolder(string $csvFolder): void
@@ -90,7 +92,7 @@ class CsvFolderJoinFiles
             'cat ' . escapeshellarg($source),                   // send the file to the pipes
             sprintf('| tail -n +%d', $skipFirstLines + 1),      // without firsts n lines
             sprintf('| head -n -%d', $skipLastLines),           // without last n lines
-            '>> ' . escapeshellarg($destination),                // create/append to destination
+            '>> ' . escapeshellarg($destination),               // create/append to destination
         ]);
         shell_exec($command);
     }
@@ -100,6 +102,15 @@ class CsvFolderJoinFiles
         $first = new SplFileObject($firstPath, 'r');
         $second = new SplFileObject($secondPath, 'r');
 
+        return $this->findLinesToSkipFromIterators($first, $second);
+    }
+
+    /**
+     * @param Iterator<string> $first
+     * @param Iterator<string> $second
+     */
+    public function findLinesToSkipFromIterators(Iterator $first, Iterator $second): int
+    {
         $firstTenLines = $this->splReadTenLines($first);
         $secondTenLines = $this->splReadTenLines($second);
 
@@ -117,7 +128,7 @@ class CsvFolderJoinFiles
      * @param Iterator<string> $iterator
      * @return array<int, string>
      */
-    private function splReadTenLines(Iterator $iterator): array
+    public function splReadTenLines(Iterator $iterator): array
     {
         $result = [];
         $counter = 0;
@@ -133,7 +144,10 @@ class CsvFolderJoinFiles
 
     private function splCurrentLinesNormalizeValue(string $current): string
     {
-        return trim(implode(',', array_map('trim', explode(',', rtrim($current, ',')))));
+        // explode values, trim values, remove empty values at end and implode values back
+        return implode(',', array_rtrim(
+            array_map(static fn (?string $value): string => trim($value ?? ''), str_getcsv($current))
+        ));
     }
 
     /** @param string[] $searchterms */

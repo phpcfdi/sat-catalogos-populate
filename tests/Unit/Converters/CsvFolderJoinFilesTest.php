@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Converters;
 
+use ArrayIterator;
+use Iterator;
 use PhpCfdi\SatCatalogosPopulate\Converters\CsvFolderJoinFiles;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
@@ -47,11 +49,76 @@ class CsvFolderJoinFilesTest extends TestCase
     public function testFindLinesToSkip(): void
     {
         $joiner = new CsvFolderJoinFiles();
-        $csvFolder = $this->utilFilePath('splitted');
-        $first = $csvFolder . '/Foo_Parte_1.csv';
-        $second = $csvFolder . '/Foo_Parte_2.csv';
+        $first = $this->utilFilePath('splitted/Foo_Parte_1.csv');
+        $second = $this->utilFilePath('splitted/Foo_Parte_2.csv');
 
         $this->assertSame(2, $joiner->findLinesToSkip($first, $second));
+    }
+
+    /** @return array<string, array{Iterator<string>, Iterator<string>}> */
+    public function providerFindLinesToSkipFromIterators(): array
+    {
+        return [
+            'normal' => [
+                new ArrayIterator([
+                    'This is a sample file',
+                    'id,description',
+                    '123,"foo"',
+                ]),
+                new ArrayIterator([
+                    'This is a sample file',
+                    'id,description',
+                    '987,"bar"',                            // this line first line that is different
+                ]),
+            ],
+            'cell with spaces' => [
+                new ArrayIterator([
+                    'This is a sample file',
+                    'id,description',
+                    '123,"foo"',
+                ]),
+                new ArrayIterator([
+                    'This is a sample file',
+                    ' id , description ',                   // this line have spaces
+                    '987,"bar"',                            // this line first line that is different
+                ]),
+            ],
+            'cell with double quotes and spaces' => [
+                new ArrayIterator([
+                    'This is a sample file',
+                    'id,description',
+                    '123,"foo"',
+                ]),
+                new ArrayIterator([
+                    'This is a sample file',
+                    '" id "," description "',               // this line have double quotes and spaces
+                    '987,"bar"',                            // this line first line that is different
+                ]),
+            ],
+            'row with empty cells at end' => [
+                new ArrayIterator([
+                    'This is a sample file',
+                    'id,description',
+                    '123,"foo"',
+                ]),
+                new ArrayIterator([
+                    'This is a sample file',
+                    'id,description, ," ",,,',              // this line have empty cells at end
+                    '987,"bar"',                            // this line first line that is different
+                ]),
+            ],
+        ];
+    }
+
+    /**
+     * @param Iterator<string> $first
+     * @param Iterator<string> $second
+     * @dataProvider providerFindLinesToSkipFromIterators
+     */
+    public function testFindLinesToSkipFromIterators(Iterator $first, Iterator $second): void
+    {
+        $joiner = new CsvFolderJoinFiles();
+        $this->assertSame(2, $joiner->findLinesToSkipFromIterators($first, $second));
     }
 
     public function testJoinFilesToDestination(): void
