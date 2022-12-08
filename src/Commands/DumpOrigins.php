@@ -38,7 +38,7 @@ class DumpOrigins implements CommandInterface
                 'CCE - Fracciones arancelarias 2021',
                 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm',
                 'c_FraccionArancelaria_2021.xls',
-                '*Catálogo vigente a partir del 28 de diciembre de 2020*',
+                '*Catálogo vigente del 28 de diciembre de 2020 al 11 de diciembre de 2022*',
             ),
             new ConstantOrigin('CCE - Incoterms', "{$common}/c_INCOTERM.xls"),
             new ConstantOrigin('CCE - Localidades', "{$common}/c_Localidad.xls"),
