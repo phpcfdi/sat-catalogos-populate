@@ -1,5 +1,9 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.5.2 2022-12-08
+
+- Fix text to locate the link for *CCE - Fracciones arancelarias 2021*.
+
 ## Version 2.5.1 2022-11-18
 
 Fix how to find how many first equal lines are between two CSV files.
@@ -9,10 +13,6 @@ cells at the end.
 
 This fix include a better test and fix the issue by changing how csv lines are normalized.
 Normalization: explode values, trim values, remove empty values at end & implode values back.
-
-## Version 2.5.1 2022-12-08
-
-- Fix text to locate the link for *CCE - Fracciones arancelarias 2021*.
 
 ## Version 2.5.0 2022-11-08
 
