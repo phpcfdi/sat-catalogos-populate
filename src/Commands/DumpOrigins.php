@@ -33,12 +33,22 @@ class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
             new ConstantOrigin('CCE - Colonias', "{$common}/c_Colonia.xls"),
             new ConstantOrigin('CCE - Entidades o estados', "{$common}/C_Estado.xls"),
-            new ConstantOrigin('CCE - Fracciones arancelarias 2020', "{$common}/c_FraccionArancelaria.xls"),
+            new ConstantOrigin(
+                'CCE - Fracciones arancelarias 2020',
+                "{$common}/c_FraccionArancelaria.xls",
+                destinationFilename: 'c_FraccionArancelaria_20170101.xls'
+            ),
             new ScrapingOrigin(
-                'CCE - Fracciones arancelarias 2021',
+                'CCE - Fracciones arancelarias 20201228',
                 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm',
-                'c_FraccionArancelaria_2021.xls',
-                '*Catálogo vigente del 28 de diciembre de 2020 al 11 de diciembre de 2022*',
+                'c_FraccionArancelaria_20201228.xls',
+                '*Catálogo vigente del 28 de diciembre de 2020 al 11 de diciembre de 2022*'
+            ),
+            new ScrapingOrigin(
+                'CCE - Fracciones arancelarias 20221212',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm',
+                'c_FraccionArancelaria_20221212.xls',
+                '*Catálogo vigente a partir del 12 de diciembre de 2022*',
             ),
             new ConstantOrigin('CCE - Incoterms', "{$common}/c_INCOTERM.xls"),
             new ConstantOrigin('CCE - Localidades', "{$common}/c_Localidad.xls"),
@@ -62,7 +72,7 @@ class DumpOrigins implements CommandInterface
 
     public static function help(string $commandName): string
     {
-        return "Sintax: $commandName";
+        return "Syntax: $commandName";
     }
 
     public function setLogger(LoggerInterface $logger): void

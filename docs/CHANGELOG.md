@@ -1,5 +1,16 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.5.2 2022-12-12
+
+The catalog *CCE - Fracciones arancelarias* is composed of 3 different catalogs:
+
+- *Catálogo vigente hasta el 27 de diciembre de 2020*.
+- *Catálogo vigente del 28 de diciembre de 2020 al 11 de diciembre de 2022*.
+- *Catálogo vigente a partir del 12 de diciembre de 2022*.
+
+This update create the catalog `cce_fracciones_arancelarias` by inserting or replacing the catalogs one after another.
+Using this method, if an harmonized tariff schedule is found, it will override the previous record.
+
 ## Version 2.5.2 2022-12-08
 
 - Fix text to locate the link for *CCE - Fracciones arancelarias 2021*.

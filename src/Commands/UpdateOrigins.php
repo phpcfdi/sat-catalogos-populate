@@ -98,24 +98,37 @@ class UpdateOrigins implements CommandInterface
         $upToDateReviews = $reviews->filterStatus(ReviewStatus::uptodate());
 
         foreach ($upToDateReviews as $review) {
-            $this->logger->info(sprintf('El origen %s está actualizado', $review->origin()->downloadUrl()));
+            $this->logger->info(sprintf(
+                'El origen %s desde %s para %s está actualizado',
+                $review->origin()->name(),
+                $review->origin()->downloadUrl(),
+                $review->origin()->destinationFilename(),
+            ));
         }
         foreach ($notUpdatedReviews as $review) {
             if (! $review->origin()->hasLastVersion()) {
                 $this->logger->info(sprintf(
-                    'El origen %s no existe, se descargará',
-                    $review->origin()->downloadUrl()
+                    'El origen %s desde %s para %s no existe, se descargará',
+                    $review->origin()->name(),
+                    $review->origin()->downloadUrl(),
+                    $review->origin()->destinationFilename(),
                 ));
             } else {
                 $this->logger->info(sprintf(
-                    'El origen %s está desactualizado, la nueva versión tiene fecha %s',
+                    'El origen %s desde %s para %s está desactualizado, la nueva versión tiene fecha %s',
+                    $review->origin()->name(),
                     $review->origin()->downloadUrl(),
+                    $review->origin()->destinationFilename(),
                     $review->origin()->lastVersion()->format('c')
                 ));
             }
         }
         foreach ($notFoundReviews as $review) {
-            $this->logger->info(sprintf('El origen %s no fue encontrado', $review->origin()->url()));
+            $this->logger->info(sprintf(
+                'El origen %s para %s no fue encontrado',
+                $review->origin()->name(),
+                $review->origin()->destinationFilename()
+            ));
         }
         if ($notFoundReviews->count() > 0) {
             $this->logger->error(sprintf('No se encontraron %d orígenes', $notFoundReviews->count()));

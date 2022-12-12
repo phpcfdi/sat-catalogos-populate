@@ -67,12 +67,21 @@ abstract class AbstractCsvInjector implements InjectorInterface
     {
         $inserted = 0;
         foreach ($this->readLinesFromCsv($csv) as $line) {
-            $gateway->insert(
-                $gateway->dataTable()->fields()->transform($line)
-            );
+            $values = $gateway->dataTable()->fields()->transform($line);
+            $this->injectValuesToDataTable($values, $gateway);
             $inserted = $inserted + 1;
         }
         return $inserted;
+    }
+
+    /** @param array<string, scalar> $values */
+    protected function injectValuesToDataTable(array $values, DataTableGateway $gateway): void
+    {
+        if ($this->shouldRecreateTable()) {
+            $gateway->insert($values);
+        } else {
+            $gateway->replace($values);
+        }
     }
 
     /**

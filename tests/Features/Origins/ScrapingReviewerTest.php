@@ -37,8 +37,8 @@ class ScrapingReviewerTest extends TestCase
         $fakeGateway->add( // web page to scrap
             new UrlResponse($this->urlPageToScrap, 200, new DateTimeImmutable('2021-01-02'), $webpage)
         );
-        $fakeGateway->add( // web page to scrap
-            new UrlResponse($this->urlFooFile, 200, new DateTimeImmutable('2021-01-05'), $webpage)
+        $fakeGateway->add( // foo file to download
+            new UrlResponse($this->urlFooFile, 200, new DateTimeImmutable('2021-01-05'), '')
         );
     }
 
