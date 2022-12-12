@@ -1,6 +1,6 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
-## Version 2.5.2 2022-12-12
+## Version 2.5.3 2022-12-12
 
 The catalog *CCE - Fracciones arancelarias* is composed of 3 different catalogs:
 
