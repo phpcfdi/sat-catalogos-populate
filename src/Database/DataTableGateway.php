@@ -72,17 +72,7 @@ class DataTableGateway
     /** @param mixed[] $input */
     public function insert(array $input): void
     {
-        $fieldNames = [];
-        $preparedNames = [];
-        foreach ($this->dataTable->fields() as $dataField) {
-            $fieldNames[] = $this->repository->escapeName($dataField->name());
-            $preparedNames[] = ':' . $dataField->name();
-        }
-
-        $sql = 'INSERT INTO ' . $this->repository->escapeName($this->dataTable->name())
-            . ' (' . implode(', ', $fieldNames) . ')'
-            . ' VALUES (' . implode(', ', $preparedNames) . ')'
-            . ';';
+        $sql = $this->sqlInsert('INSERT INTO');
 
         try {
             $this->repository->execute($sql, $input);
@@ -90,5 +80,33 @@ class DataTableGateway
             $message = sprintf('Unable to run %s using %s', $sql, json_encode($input, JSON_THROW_ON_ERROR));
             throw new PDOException($message, 0, $exception);
         }
+    }
+
+    /** @param mixed[] $input */
+    public function replace(array $input): void
+    {
+        $sql = $this->sqlInsert('REPLACE INTO');
+
+        try {
+            $this->repository->execute($sql, $input);
+        } catch (PDOException $exception) {
+            $message = sprintf('Unable to run %s using %s', $sql, json_encode($input, JSON_THROW_ON_ERROR));
+            throw new PDOException($message, 0, $exception);
+        }
+    }
+
+    private function sqlInsert(string $sqlCommand): string
+    {
+        $fieldNames = [];
+        $preparedNames = [];
+        foreach ($this->dataTable->fields() as $dataField) {
+            $fieldNames[] = $this->repository->escapeName($dataField->name());
+            $preparedNames[] = ':' . $dataField->name();
+        }
+
+        return $sqlCommand . ' ' . $this->repository->escapeName($this->dataTable->name())
+            . ' (' . implode(', ', $fieldNames) . ')'
+            . ' VALUES (' . implode(', ', $preparedNames) . ')'
+            . ';';
     }
 }

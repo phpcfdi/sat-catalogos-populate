@@ -115,7 +115,11 @@ class UpdateOrigins implements CommandInterface
             }
         }
         foreach ($notFoundReviews as $review) {
-            $this->logger->info(sprintf('El origen %s no fue encontrado', $review->origin()->url()));
+            $this->logger->info(sprintf(
+                'El origen %s para %s no fue encontrado',
+                $review->origin()->name(),
+                $review->origin()->destinationFilename()
+            ));
         }
         if ($notFoundReviews->count() > 0) {
             $this->logger->error(sprintf('No se encontraron %d orígenes', $notFoundReviews->count()));
