@@ -40,13 +40,13 @@ class DumpOrigins implements CommandInterface
             ),
             new ScrapingOrigin(
                 'CCE - Fracciones arancelarias 20201228',
-                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm?20201228',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm',
                 'c_FraccionArancelaria_20201228.xls',
                 '*Catálogo vigente del 28 de diciembre de 2020 al 11 de diciembre de 2022*'
             ),
             new ScrapingOrigin(
                 'CCE - Fracciones arancelarias 20221212',
-                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm?20221212',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/catalogos_emision_cfdi_complemento_ce.htm',
                 'c_FraccionArancelaria_20221212.xls',
                 '*Catálogo vigente a partir del 12 de diciembre de 2022*',
             ),
