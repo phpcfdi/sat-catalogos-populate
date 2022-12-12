@@ -14,7 +14,7 @@ Using this method, if an harmonized tariff schedule is found, it will override t
 Other minor changes:
 
 - Update dependencies, install `libreoffice-calc-nogui` and `libreoffice-java-common`.
-- Add compatibility on Scrutinizer-CI to PHP 8.1.
+- Scrutinizer-CI: Add compatibility to PHP 8.1 and fix code coverage upload.
 
 ## Version 2.5.2 2022-12-08
 
