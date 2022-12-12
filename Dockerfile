@@ -19,7 +19,7 @@ RUN set -e \
         xlsx2csv sqlite3 \
         php-cli php-curl php-zip php-sqlite3 php-xml \
     && apt-get install -y --no-install-recommends \
-        libreoffice-calc default-jre-headless libreoffice-java-common \
+        libreoffice-calc-nogui default-jre-headless libreoffice-java-common \
     # Clean APT
     && rm -rf /var/lib/apt/lists/*
 

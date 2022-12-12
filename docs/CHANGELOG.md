@@ -11,6 +11,11 @@ The catalog *CCE - Fracciones arancelarias* is composed of 3 different catalogs:
 This update create the catalog `cce_fracciones_arancelarias` by inserting or replacing the catalogs one after another.
 Using this method, if an harmonized tariff schedule is found, it will override the previous record.
 
+Other minor changes:
+
+- Update dependencies, install `libreoffice-calc-nogui` and `libreoffice-java-common`.
+- 
+
 ## Version 2.5.2 2022-12-08
 
 - Fix text to locate the link for *CCE - Fracciones arancelarias 2021*.
