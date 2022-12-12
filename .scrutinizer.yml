@@ -5,6 +5,7 @@ filter:
     - 'vendor/'
 
 build:
+  image: default-bionic
   dependencies:
     override:
       - composer remove phpunit/phpunit --dev --no-interaction --no-progress --no-update
