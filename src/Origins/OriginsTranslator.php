@@ -53,7 +53,9 @@ final class OriginsTranslator implements OriginsTranslatorInterface
             strval($data['href'] ?? ''),
             strval($data['destination-file'] ?? ''),
             strval($data['link-text'] ?? ''),
-            $this->dateTimeFromStringOrNull(strval($data['last-update'] ?? ''))
+            $this->dateTimeFromStringOrNull(strval($data['last-update'] ?? '')),
+            '',
+            intval($data['link-position'] ?? 0),
         );
     }
 
@@ -84,6 +86,7 @@ final class OriginsTranslator implements OriginsTranslatorInterface
             'link-text' => $origin->linkText(),
             'destination-file' => $origin->destinationFilename(),
             'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
+            'link-position' => strval($origin->linkPosition()),
         ]);
     }
 }

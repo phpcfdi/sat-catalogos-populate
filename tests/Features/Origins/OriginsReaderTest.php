@@ -39,6 +39,7 @@ class OriginsReaderTest extends TestCase
                 'link-text' => 'bar file',
                 'destination-file' => 'bar.xls',
                 'last-update' => '2017-12-31T18:00:00-06:00',
+                'link-position' => 1,
             ],
         ];
 

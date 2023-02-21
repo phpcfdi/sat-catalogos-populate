@@ -56,12 +56,12 @@ class ScrapingReviewer implements ReviewerInterface
     public function resolveOrigin(ScrapingOrigin $origin): ScrapingOrigin
     {
         $baseResource = $this->gateway->get($origin->url(), '');
-        $downloadUrl = $this->resolveHtmlToLink($baseResource, $origin->linkText());
+        $downloadUrl = $this->resolveHtmlToLink($baseResource, $origin->linkText(), $origin->linkPosition());
         return $origin->withDownloadUrl($downloadUrl);
     }
 
-    public function resolveHtmlToLink(UrlResponse $response, string $linkText): string
+    public function resolveHtmlToLink(UrlResponse $response, string $linkText, int $position = 0): string
     {
-        return ScrapingReviewerLinkExtractor::fromUrlResponse($response)->search($linkText);
+        return ScrapingReviewerLinkExtractor::fromUrlResponse($response)->search($linkText, $position);
     }
 }

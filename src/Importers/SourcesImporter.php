@@ -24,6 +24,7 @@ class SourcesImporter implements ImporterInterface
             'CCE' => ['source' => $source, 'importer' => new CceCatalogs()],
             'Pagos' => ['source' => $source . '/catPagos.xls', 'importer' => new RepCatalogs()],
             'CCP 2.0' => ['source' => $source . '/CatalogosCartaPorte20.xls', 'importer' => new Ccp20Catalogs()],
+            'RET 2.0' => ['source' => $source . '/ret_20.xls', 'importer' => new Ret20Catalogs()],
         ];
 
         foreach ($importers as $info) {

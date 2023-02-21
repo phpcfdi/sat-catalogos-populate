@@ -15,7 +15,8 @@ class ScrapingOrigin implements OriginInterface
         private readonly string $destinationFilename,
         private readonly string $linkText,
         private ?DateTimeImmutable $lastVersion = null,
-        private string $downloadUrl = ''
+        private string $downloadUrl = '',
+        private readonly int $linkPosition = 0,
     ) {
     }
 
@@ -74,5 +75,10 @@ class ScrapingOrigin implements OriginInterface
     public function linkText(): string
     {
         return $this->linkText;
+    }
+
+    public function linkPosition(): int
+    {
+        return $this->linkPosition;
     }
 }

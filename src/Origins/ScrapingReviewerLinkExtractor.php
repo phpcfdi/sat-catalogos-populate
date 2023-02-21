@@ -23,9 +23,9 @@ final class ScrapingReviewerLinkExtractor
         return new self($crawler);
     }
 
-    public function search(string $search): string
+    public function search(string $search, int $position = 0): string
     {
-        $link = $this->selectLink($search);
+        $link = $this->selectLink($search, $position);
         $downloadUrl = $link->getUri();
 
         if (empty($downloadUrl)) {
@@ -35,7 +35,7 @@ final class ScrapingReviewerLinkExtractor
         return $downloadUrl;
     }
 
-    public function selectLink(string $search): Link
+    public function selectLink(string $search, int $position = 0): Link
     {
         $elements = $this->crawler->filterXPath('//a')->reduce(
             fn (Crawler $linkElement): bool =>
@@ -43,7 +43,7 @@ final class ScrapingReviewerLinkExtractor
         );
 
         if ($elements->count() > 0) {
-            return $elements->first()->link();
+            return $elements->eq($position)->link();
         }
 
         throw new RuntimeException(sprintf('Link text "%s" was not found', $search));

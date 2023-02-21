@@ -28,6 +28,15 @@ class DumpOrigins implements CommandInterface
                 'cfdi_40.xls',
                 'Catálogos CFDI Versión 4.0*',
             ),
+            new ScrapingOrigin(
+                'RET 2.0',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/CFDI_retenciones.htm',
+                'ret_20.xls',
+                'Catálogos',
+                null,
+                '',
+                1
+            ),
             new ConstantOrigin('Nóminas', "{$common}/catNomina.xls"),
             new ConstantOrigin('Nóminas - Estados', "{$common}/C_Estado.xls", null, 'nominas_estados.xls'),
             new ConstantOrigin('CCE - Claves de pedimento', "{$common}/c_ClavePedimento.xls"),
