@@ -2,7 +2,7 @@
 
 ## Version 2.6.0 2023-02-24
 
-Add *RET20 - CFDI de retenciones e información de pagos*, includes X different catalogs:
+Add *RET20 - CFDI de retenciones e información de pagos*, includes 10 different catalogs:
 
 - *Catálogo de claves de retenciones*.
 - *Catálogo de periodos*.
