@@ -54,8 +54,7 @@ final class OriginsTranslator implements OriginsTranslatorInterface
             strval($data['destination-file'] ?? ''),
             strval($data['link-text'] ?? ''),
             $this->dateTimeFromStringOrNull(strval($data['last-update'] ?? '')),
-            '',
-            intval($data['link-position'] ?? 0),
+            linkPosition: intval($data['link-position'] ?? 0),
         );
     }
 
