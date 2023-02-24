@@ -96,33 +96,51 @@ class ScrapingReviewerTest extends TestCase
         $nbsp = "\xC2\xA0";
         $rtl = "\x20\x2B";
         return [
-            'link-exact' => ['link', 'link', 0],
-            'link-caseless' => ['LINK', 'link', 0],
-            'link-simple-white-space' => [" Catálogos\n de\tinformación ", 'Catálogos de información', 0],
-            'link-with-nbsp' => ["{$nbsp}link{$nbsp}", '*link*', 0],
-            'link-with-rtl' => ["link{$rtl}", 'link*', 0],
-            'link-with-inner-tags' => ['<span>lin<b>k</b></span></a>', 'link', 0],
-            'link-on-position' => ['link', 'link', 1],
+            'link-exact' => ['link', 'link'],
+            'link-caseless' => ['LINK', 'link'],
+            'link-simple-white-space' => [" Catálogos\n de\tinformación ", 'Catálogos de información'],
+            'link-with-nbsp' => ["{$nbsp}link{$nbsp}", '*link*'],
+            'link-with-rtl' => ["link{$rtl}", 'link*'],
+            'link-with-inner-tags' => ['<span>lin<b>k</b></span></a>', 'link'],
         ];
     }
 
     /** @dataProvider providerResolveHtmlToLink */
-    public function testResolveHtmlToLink(string $linkInnerText, string $search, int $position): void
+    public function testResolveHtmlToLink(string $linkInnerText, string $search): void
     {
         $html = <<<HTML
             <html lang="en">
             <body><h1>sample</h1>
             <li><a href="http://example.com/none.txt">none</a></li>
             <li><a href="/expected.txt">{$linkInnerText}</a></li>
+            </body>
+            </html>
+            HTML;
+
+        $response = new UrlResponse('http://example.com/', 200, body: $html);
+        $reviewer = new ScrapingReviewer(new FakeGateway());
+
+        $url = $reviewer->resolveHtmlToLink($response, $search);
+        $this->assertSame('http://example.com/expected.txt', $url);
+    }
+
+    /** @dataProvider providerResolveHtmlToLink */
+    public function testResolveHtmlToLinkSecondPosition(string $linkInnerText, string $search): void
+    {
+        $html = <<<HTML
+            <html lang="en">
+            <body><h1>sample</h1>
+            <li><a href="http://example.com/none.txt">none</a></li>
+            <li><a href="/not-expected.txt">{$linkInnerText}</a></li>
             <li><a href="/expected.txt">{$linkInnerText}</a></li>
             </body>
             </html>
             HTML;
 
-        $response = new UrlResponse('http://example.com/', 200, null, $html);
+        $response = new UrlResponse('http://example.com/', 200, body: $html);
         $reviewer = new ScrapingReviewer(new FakeGateway());
 
-        $url = $reviewer->resolveHtmlToLink($response, $search, $position);
+        $url = $reviewer->resolveHtmlToLink($response, $search, position: 1);
         $this->assertSame('http://example.com/expected.txt', $url);
     }
 }
