@@ -96,22 +96,24 @@ class ScrapingReviewerTest extends TestCase
         $nbsp = "\xC2\xA0";
         $rtl = "\x20\x2B";
         return [
-            'link-exact' => ['link', 'link'],
-            'link-caseless' => ['LINK', 'link'],
-            'link-simple-white-space' => [" Catálogos\n de\tinformación ", 'Catálogos de información'],
-            'link-with-nbsp' => ["{$nbsp}link{$nbsp}", '*link*'],
-            'link-with-rtl' => ["link{$rtl}", 'link*'],
-            'link-with-inner-tags' => ['<span>lin<b>k</b></span></a>', 'link'],
+            'link-exact' => ['link', 'link', 0],
+            'link-caseless' => ['LINK', 'link', 0],
+            'link-simple-white-space' => [" Catálogos\n de\tinformación ", 'Catálogos de información', 0],
+            'link-with-nbsp' => ["{$nbsp}link{$nbsp}", '*link*', 0],
+            'link-with-rtl' => ["link{$rtl}", 'link*', 0],
+            'link-with-inner-tags' => ['<span>lin<b>k</b></span></a>', 'link', 0],
+            'link-on-position' => ['link', 'link', 1],
         ];
     }
 
     /** @dataProvider providerResolveHtmlToLink */
-    public function testResolveHtmlToLink(string $linkInnerText, string $search): void
+    public function testResolveHtmlToLink(string $linkInnerText, string $search, int $position): void
     {
         $html = <<<HTML
             <html lang="en">
             <body><h1>sample</h1>
             <li><a href="http://example.com/none.txt">none</a></li>
+            <li><a href="/expected.txt">{$linkInnerText}</a></li>
             <li><a href="/expected.txt">{$linkInnerText}</a></li>
             </body>
             </html>
@@ -120,8 +122,7 @@ class ScrapingReviewerTest extends TestCase
         $response = new UrlResponse('http://example.com/', 200, null, $html);
         $reviewer = new ScrapingReviewer(new FakeGateway());
 
-        $url = $reviewer->resolveHtmlToLink($response, $search);
-
+        $url = $reviewer->resolveHtmlToLink($response, $search, $position);
         $this->assertSame('http://example.com/expected.txt', $url);
     }
 }

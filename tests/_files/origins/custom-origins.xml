@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <origins>
   <origin name="Foo" href="http://example.com/foo.txt" destination-file="foo.txt" last-update="2018-01-13T19:58:59+00:00"/>
-  <origin name="Bar" type="scrap" href="http://example.com/bar" link-text="bar file" destination-file="bar.xls" last-update="2017-12-31T18:00:00-06:00"/>
+  <origin name="Bar" type="scrap" href="http://example.com/bar" link-text="bar file" destination-file="bar.xls" last-update="2017-12-31T18:00:00-06:00" link-position="1"/>
 </origins>
