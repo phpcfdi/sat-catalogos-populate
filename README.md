@@ -95,6 +95,6 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [badge-php-version]: https://img.shields.io/badge/php-^8.1-blue?style=flat-square
 [badge-release]: https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-license]: https://img.shields.io/github/license/phpcfdi/sat-catalogos-populate?style=flat-square
-[badge-build]: https://img.shields.io/github/workflow/status/phpcfdi/sat-catalogos-populate/build/master?style=flat-square
+[badge-build]: https://img.shields.io/github/actions/workflow/status/phpcfdi/sat-catalogos-populate/build.yml?branch=master&style=flat-square
 [badge-quality]: https://img.shields.io/scrutinizer/g/phpcfdi/sat-catalogos-populate/master?style=flat-square
 [badge-coverage]: https://img.shields.io/scrutinizer/coverage/g/phpcfdi/sat-catalogos-populate/master?style=flat-square
