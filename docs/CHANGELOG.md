@@ -1,5 +1,30 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.6.0 2023-02-24
+
+Add *RET20 - CFDI de retenciones e información de pagos*, includes X different catalogs:
+
+- *Catálogo de claves de retenciones*.
+- *Catálogo de periodos*.
+- *Catálogo de ejercicios*.
+- *Catálogo de tipos de pago de la retención*.
+- *Catálogo de entidades federativas*.
+- *Catálogo de países*.
+- *Catálogo de periodicidades*.
+- *Catálogo de tipos de contribuyentes sujetos a retención*.
+- *Catálogo de tipos de dividendos o utilidades distribuidas*.
+- *Catálogo de tipo de impuesto*.
+
+Thanks `@gam04` for your contribution.
+
+The following changes to the project does not change the source code:
+
+- Update license year. Happy 2023!.
+- Fix build badge `badge-build`.
+- Fix changelog versions.
+- The GitHub workflow jobs run using PHP 8.2.
+- Update development tools.
+
 ## Version 2.5.3 2022-12-12
 
 The catalog *CCE - Fracciones arancelarias* is composed of 3 different catalogs:
@@ -9,7 +34,7 @@ The catalog *CCE - Fracciones arancelarias* is composed of 3 different catalogs:
 - *Catálogo vigente a partir del 12 de diciembre de 2022*.
 
 This update create the catalog `cce_fracciones_arancelarias` by inserting or replacing the catalogs one after another.
-Using this method, if an harmonized tariff schedule is found, it will override the previous record.
+Using this method, if a harmonized tariff schedule is found, it will override the previous record.
 
 Other minor changes:
 
