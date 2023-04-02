@@ -33,7 +33,6 @@ class DumpOrigins implements CommandInterface
                 'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/CFDI_retenciones.htm',
                 'ret_20.xls',
                 'Catálogos',
-                linkPosition: 1,
             ),
             new ConstantOrigin('Nóminas', "{$common}/catNomina.xls"),
             new ConstantOrigin('Nóminas - Estados', "{$common}/C_Estado.xls", null, 'nominas_estados.xls'),
