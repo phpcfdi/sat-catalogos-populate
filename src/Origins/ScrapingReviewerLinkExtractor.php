@@ -42,10 +42,10 @@ final class ScrapingReviewerLinkExtractor
                 ('' !== $text = $linkElement->text('')) && fnmatch($search, $text, FNM_CASEFOLD)
         );
 
-        if ($elements->count() > 0) {
+        if ($elements->count() > $position) {
             return $elements->eq($position)->link();
         }
 
-        throw new RuntimeException(sprintf('Link text "%s" was not found', $search));
+        throw new RuntimeException(sprintf('Link text "%s" [%d] was not found', $search, $position));
     }
 }

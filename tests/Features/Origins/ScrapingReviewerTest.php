@@ -10,6 +10,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingReviewer;
 use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\Origins\FakeGateway;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use RuntimeException;
 
 class ScrapingReviewerTest extends TestCase
 {
@@ -142,5 +143,27 @@ class ScrapingReviewerTest extends TestCase
 
         $url = $reviewer->resolveHtmlToLink($response, $search, position: 1);
         $this->assertSame('http://example.com/expected.txt', $url);
+    }
+
+    public function testResolveHtmlToLinkInvalidPosition(): void
+    {
+        $html = <<<HTML
+            <html lang="en">
+            <body><h1>sample</h1>
+            <li><a href="/first">Download</a></li>
+            <li><a href="/second">Download</a></li>
+            </body>
+            </html>
+            HTML;
+
+        $response = new UrlResponse('http://example.com/', 200, body: $html);
+        $reviewer = new ScrapingReviewer(new FakeGateway());
+
+        $this->assertStringEndsWith('first', $reviewer->resolveHtmlToLink($response, 'Download', position: 0));
+        $this->assertStringEndsWith('second', $reviewer->resolveHtmlToLink($response, 'Download', position: 1));
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage('Link text "Download" [2] was not found');
+        $reviewer->resolveHtmlToLink($response, 'Download', position: 2);
     }
 }
