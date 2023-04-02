@@ -1,5 +1,11 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.6.1 2023-04-02
+
+- Update *RET20 - CFDI de retenciones e información de pagos* origin.
+- Improve error detection and message when a scraping link is not found.
+- Update development tools.
+
 ## Version 2.6.0 2023-02-24
 
 Add *RET20 - CFDI de retenciones e información de pagos*, includes 10 different catalogs:
