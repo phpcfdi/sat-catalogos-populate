@@ -6,6 +6,6 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 interface OriginsTranslatorInterface
 {
-    /** @param array<string, mixed> $data */
+    /** @param array<string, string> $data */
     public function originFromArray(array $data): OriginInterface;
 }

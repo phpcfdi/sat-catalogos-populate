@@ -1,5 +1,10 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.6.2 2023-05-25
+
+- Fix `OriginsTranslatorInterface::originFromArray` PHPDoc signature.
+  It now receives `array<string, string>` instead of `array<string, mixed>`.
+
 ## Version 2.6.1 2023-04-02
 
 - Update *RET20 - CFDI de retenciones e información de pagos* origin.
