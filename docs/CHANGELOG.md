@@ -5,6 +5,7 @@
 - Fix `OriginsTranslatorInterface::originFromArray` PHPDoc signature.
   It now receives `array<string, string>` instead of `array<string, mixed>`.
 - Remove environment variable `PHP_CS_FIXER_IGNORE_ENV` on workflow `build.yml` job `php-cs-fixer`.
+- Update development tools.
 
 ## Version 2.6.1 2023-04-02
 
