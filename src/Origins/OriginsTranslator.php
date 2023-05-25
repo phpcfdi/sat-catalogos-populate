@@ -22,7 +22,7 @@ final class OriginsTranslator implements OriginsTranslatorInterface
         throw new RuntimeException("Unable to create an origin with type $type");
     }
 
-    /** @param array<string, mixed> $data */
+    /** @param array<string, string> $data */
     public function constantOriginFromArray(array $data): ConstantOrigin
     {
         return new ConstantOrigin(
@@ -45,7 +45,7 @@ final class OriginsTranslator implements OriginsTranslatorInterface
         throw new RuntimeException(sprintf('Unable to export an origin with type %s', $origin::class));
     }
 
-    /** @param array<string, mixed> $data */
+    /** @param array<string, string> $data */
     public function scrapingOriginFromArray(array $data): ScrapingOrigin
     {
         return new ScrapingOrigin(
