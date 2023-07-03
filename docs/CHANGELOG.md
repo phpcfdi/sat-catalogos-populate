@@ -1,5 +1,16 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.6.3 2023-06-03
+
+Fix catalog *Códigos Postales* on CFDI 3.3 and CFDI 4.0 for column *Estímulo Franja Fronteriza*,
+The field now changes from boolean to integer.
+
+This field was interpreted as boolean, with value `true` when column value is `1`.
+The possible columns values are `0 - No aplica`, `1 - Estímulo frontera norte` and `2 - Estímulo frontera sur`. 
+Previously, the values `2` where inerpreted as `false`.
+
+The sources specimens were changes to include data with values `0`, `1` and `2`.
+
 ## Version 2.6.2 2023-05-25
 
 - Fix `OriginsTranslatorInterface::originFromArray` PHPDoc signature.
