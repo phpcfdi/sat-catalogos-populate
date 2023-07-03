@@ -6,10 +6,10 @@ namespace PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors;
 
 use Generator;
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
-use PhpCfdi\SatCatalogosPopulate\Database\BoolDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\DataFields;
 use PhpCfdi\SatCatalogosPopulate\Database\DataTable;
 use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\IntegerDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
 use RuntimeException;
@@ -66,7 +66,7 @@ class CodigosPostales extends AbstractCsvInjector
             new TextDataField('estado'),
             new TextDataField('municipio'),
             new TextDataField('localidad'),
-            new BoolDataField('estimulo_frontera', ['1']),
+            new IntegerDataField('estimulo_frontera'),
             new DateDataField('vigencia_desde'),
             new DateDataField('vigencia_hasta'),
             new TextDataField('huso_descripcion'),

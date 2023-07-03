@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Importers\Cfdi\Injectors;
 
 use PhpCfdi\SatCatalogosPopulate\AbstractCsvInjector;
+use PhpCfdi\SatCatalogosPopulate\Database\DateDataField;
+use PhpCfdi\SatCatalogosPopulate\Database\IntegerDataField;
 use PhpCfdi\SatCatalogosPopulate\Database\Repository;
+use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
 use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\CodigosPostales;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
@@ -54,25 +57,29 @@ class CodigosPostalesTest extends TestCase
     {
         $dataTable = $this->injector->dataTable();
         $this->assertSame('cfdi_codigos_postales', $dataTable->name());
-        $expectedKeys = [
-            'id',
-            'estado',
-            'municipio',
-            'localidad',
-            'estimulo_frontera',
-            'vigencia_desde',
-            'vigencia_hasta',
-            'huso_descripcion',
-            'huso_verano_mes_inicio',
-            'huso_verano_dia_inicio',
-            'huso_verano_hora_inicio',
-            'huso_verano_diferencia',
-            'huso_invierno_mes_inicio',
-            'huso_invierno_dia_inicio',
-            'huso_invierno_hora_inicio',
-            'huso_invierno_diferencia',
+        $expectedClasses = [
+            'id' => TextDataField::class,
+            'estado' => TextDataField::class,
+            'municipio' => TextDataField::class,
+            'localidad' => TextDataField::class,
+            'estimulo_frontera' => IntegerDataField::class,
+            'vigencia_desde' => DateDataField::class,
+            'vigencia_hasta' => DateDataField::class,
+            'huso_descripcion' => TextDataField::class,
+            'huso_verano_mes_inicio' => TextDataField::class,
+            'huso_verano_dia_inicio' => TextDataField::class,
+            'huso_verano_hora_inicio' => TextDataField::class,
+            'huso_verano_diferencia' => TextDataField::class,
+            'huso_invierno_mes_inicio' => TextDataField::class,
+            'huso_invierno_dia_inicio' => TextDataField::class,
+            'huso_invierno_hora_inicio' => TextDataField::class,
+            'huso_invierno_diferencia' => TextDataField::class,
         ];
-        $this->assertSame($expectedKeys, $dataTable->fields()->keys());
+        $this->assertSame(array_keys($expectedClasses), $dataTable->fields()->keys());
+        foreach ($expectedClasses as $key => $classname) {
+            $this->assertInstanceOf($classname, $dataTable->fields()->get($key));
+        }
+        $this->assertSame(['id'], $dataTable->primaryKey());
     }
 
     public function testInject(): void
@@ -84,5 +91,32 @@ class CodigosPostalesTest extends TestCase
         $count = (int) $repository->queryOne($sql);
 
         $this->assertSame(0, $count, 'The id "00000" must not exists in the catalog');
+    }
+
+    /** @return array<string, array{int}> */
+    protected function providerInjectedFieldEstimuloFrontera(): array
+    {
+        return [
+            'Sin estímulo' => [0],
+            'Estímulo frontera norte' => [1],
+            'Estímulo frontera sur' => [2],
+        ];
+    }
+
+    /** @dataProvider providerInjectedFieldEstimuloFrontera */
+    public function testInjectedFieldEstimuloFrontera(int $estimuloFrontera): void
+    {
+        $repository = new Repository(':memory:');
+        $this->injector->inject($repository, new NullLogger());
+
+        $sql = 'select count(*) from ' . $this->injector->dataTable()->name()
+            . ' where (estimulo_frontera = :estimulo_frontera);';
+        $count = (int) $repository->queryOne($sql, ['estimulo_frontera' => $estimuloFrontera]);
+
+        $this->assertGreaterThan(
+            0,
+            $count,
+            sprintf('Cannot find records with estimulo_frontera = %s', $estimuloFrontera)
+        );
     }
 }
