@@ -10,6 +10,7 @@ Thanks `@TheSpectroMx` and `@FintaxDev`!
 
 Other development changes:
 
+- Allow dispatch workflow manually.
 - Update `php-cs-fixer` configuration file.
 - Update development tools.
 
