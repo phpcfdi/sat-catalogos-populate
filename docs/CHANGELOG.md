@@ -1,5 +1,13 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.6.4 2023-07-05
+
+Fix *Anexo 20* location, it was `http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm`
+and now it is `http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20.htm`.
+This change affects CFDI 3.3 and CFDI 4.0.
+
+Thanks `@TheSpectroMx` and `@FintaxDev`!
+
 ## Version 2.6.3 2023-07-03
 
 Fix catalog *Códigos Postales* on CFDI 3.3 and CFDI 4.0 for column *Estímulo Franja Fronteriza*,
