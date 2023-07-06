@@ -10,6 +10,7 @@ Thanks `@TheSpectroMx` and `@FintaxDev`!
 
 Other development changes:
 
+- Update `php-cs-fixer` configuration file.
 - Update development tools.
 
 ## Version 2.6.3 2023-07-03
