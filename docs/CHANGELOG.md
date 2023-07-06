@@ -8,6 +8,10 @@ This change affects CFDI 3.3 and CFDI 4.0.
 
 Thanks `@TheSpectroMx` and `@FintaxDev`!
 
+Other development changes:
+
+- Update development tools.
+
 ## Version 2.6.3 2023-07-03
 
 Fix catalog *Códigos Postales* on CFDI 3.3 and CFDI 4.0 for column *Estímulo Franja Fronteriza*,
