@@ -18,13 +18,13 @@ class DumpOrigins implements CommandInterface
         $origins = new Origins([
             new ScrapingOrigin(
                 'CFDI 3.3',
-                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20.htm',
                 'catCFDI.xls',
                 'Catálogos CFDI Versión 3.3*',
             ),
             new ScrapingOrigin(
                 'CFDI 4.0',
-                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm',
+                'http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20.htm',
                 'cfdi_40.xls',
                 'Catálogos CFDI Versión 4.0*',
             ),
