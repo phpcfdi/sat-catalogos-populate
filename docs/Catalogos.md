@@ -196,13 +196,30 @@ No se están importando los catálogos repetidos `c_MetodoPago` y `c_FormaPago`.
 
 Por lo anterior, el único catálogo que se termina importando es `c_TipoCadenaPago`.
 
-## CCP 2.0 (Complemento Carta Porte) `ccp_20_*`
+## CCP 2.0 (Complemento Carta Porte 2.0) `ccp_20_*`
 
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm>
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/CatalogosCartaPorte20.xls>
 
 Los catálogos de CCP 2.0 contienen información extendida que debe ser respetada para el correcto llenado
 del complemento de carta porte versión 2.0.
+
+Los catálogos están en un solo archivo de excel por lo que se usa la misma estrategia que en los catálogos de CFDI.
+
+Algunos nombres de las hojas contienen espacios.
+
+El catálogo `c_MaterialPeligroso` debería tener un índice único en `Clave material peligroso` pero ocurre que
+contiene duplicados.
+
+Por lo anterior, solo existe un importador con múltiples inyectores.
+
+## CCP 3.0 (Complemento Carta Porte 3.0) `ccp_30_*`
+
+> - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm>
+> - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/CatalogosCartaPorte30.xls>
+
+Los catálogos de CCP 3.0 contienen información extendida que debe ser respetada para el correcto llenado
+del complemento de carta porte versión 3.0.
 
 Los catálogos están en un solo archivo de excel por lo que se usa la misma estrategia que en los catálogos de CFDI.
 

@@ -23,6 +23,7 @@ estos archivos y correr los tests. De esta forma podremos notar un cambio import
 - `tests/_files/nomina/*.csv`: Archivos que salen de los catálogos de Nómina 1.2
 - `tests/_files/rep/*.csv`: Archivos que salen de los catálogos de recibo electrónico de pagos
 - `tests/_files/ccp20/*.csv`: Archivos que salen de los catálogos de carta porte 2.0
+- `tests/_files/ccp30/*.csv`: Archivos que salen de los catálogos de carta porte 3.0
 
 ## Actualizar los archivos de pruebas
 
@@ -49,6 +50,7 @@ rm -rf tests/_files/nomina
 rm -rf tests/_files/rep
 rm -rf tests/_files/cce
 rm -rf tests/_files/ccp20
+rm -rf tests/_files/ccp30
 
 mkdir -p tests/_files/sources
 mkdir -p tests/_files/cfdi
@@ -57,6 +59,7 @@ mkdir -p tests/_files/nomina
 mkdir -p tests/_files/rep
 mkdir -p tests/_files/cce
 mkdir -p tests/_files/ccp20
+mkdir -p tests/_files/ccp30
 
 cp build/temp/*.xls tests/_files/sources
 
@@ -75,6 +78,7 @@ php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Municipio.xls tes
 php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_TipoOperacion.xls tests/_files/cce
 php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_UnidadAduana.xls tests/_files/cce
 php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte20.xls tests/_files/ccp20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte30.xls tests/_files/ccp30
 ```
 
 Ten en cuenta que estas operaciones generarán archivos que antes no existían porque el catálogo en
