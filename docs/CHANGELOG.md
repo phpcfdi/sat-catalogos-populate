@@ -1,5 +1,15 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.7.0 2023-10-22
+
+Add CCP (*Complemento de Carta Porte*) 3.0 catalogs.
+
+- Add *Origin* as a constant source, saving the file as `CatalogosCartaPorte30.xls`.
+- Add *Source importer* from `CatalogosCartaPorte30.xls`. It includes 32 catalogs.
+- Importers create tables with prefix `ccp_30_*`.
+- Update `docs/Catalogos.md` with CCP 3.0 catalogs.
+- Add `ToBeDefinedDataField` and `PreprocessorDataField` to remove `Por definir` texts.
+
 ## Version 2.6.4 2023-07-05
 
 Fix *Anexo 20* location, it was `http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm`

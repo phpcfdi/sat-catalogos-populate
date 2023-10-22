@@ -26,6 +26,9 @@ class DataTableGateway
 
     private function sqlDiscoverField(DataFieldInterface $field): string
     {
+        if ($field instanceof PreprocessDataField) {
+            return $this->sqlDiscoverField($field->getNextDataField());
+        }
         $sqlName = $this->repository->escapeName($field->name());
         if ($field instanceof TextDataField || $field instanceof DateDataField) {
             return $sqlName . ' text not null';

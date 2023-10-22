@@ -63,7 +63,8 @@ class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCE - Tipos de operaciones', "{$common}/c_TipoOperacion.xls"),
             new ConstantOrigin('CCE - Unidades de medida', "{$common}/c_UnidadAduana.xls"),
             new ConstantOrigin('REP', "{$common}/catPagos.xls"),
-            new ConstantOrigin('CCP 2.0 - Carta Porte', "{$common}/CatalogosCartaPorte20.xls"),
+            new ConstantOrigin('CCP 2.0 - Carta Porte 2.0', "{$common}/CatalogosCartaPorte20.xls"),
+            new ConstantOrigin('CCP 3.0 - Carta Porte 3.0', "{$common}/CatalogosCartaPorte30.xls"),
         ]);
 
         echo (new OriginsIO())->originsToString($origins) . PHP_EOL;
