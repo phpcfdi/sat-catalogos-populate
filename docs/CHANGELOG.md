@@ -1,5 +1,17 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.7.1 2023-12-13
+
+PHPStan found an issue when creating commands using the method factory pattern.
+The *command* classes were able to extend and fail if method `::createFromArguments` was not overriden.
+More information: <https://github.com/phpstan/phpstan/issues/10286#issuecomment-1851590334>.
+As always, thanks to Ondřej Mirtes and PHPPStan team for saving our pitfails.
+
+Other development changes:
+
+- Add PHP 8.3 to test matrix.
+- Update development tools.
+
 ## Version 2.7.0 2023-10-22
 
 Add CCP (*Complemento de Carta Porte*) 3.0 catalogs.
