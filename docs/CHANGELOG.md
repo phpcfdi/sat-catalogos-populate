@@ -9,6 +9,7 @@ As always, thanks to Ondřej Mirtes and PHPPStan team for saving our pitfails.
 
 Other development changes:
 
+- Add PHP 8.3 to test matrix.
 - Update development tools.
 
 ## Version 2.7.0 2023-10-22
