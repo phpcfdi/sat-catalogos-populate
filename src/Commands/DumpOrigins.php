@@ -10,7 +10,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
 use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
 use Psr\Log\LoggerInterface;
 
-class DumpOrigins implements CommandInterface
+final class DumpOrigins implements CommandInterface
 {
     public function run(): int
     {

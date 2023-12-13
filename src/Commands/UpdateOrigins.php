@@ -15,7 +15,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\WebResourcesGateway;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 
-class UpdateOrigins implements CommandInterface
+final class UpdateOrigins implements CommandInterface
 {
     private const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
 

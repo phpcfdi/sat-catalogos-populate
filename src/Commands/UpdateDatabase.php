@@ -9,7 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\SourcesImporter;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 
-class UpdateDatabase implements CommandInterface
+final class UpdateDatabase implements CommandInterface
 {
     private string $sourceFolder;
 

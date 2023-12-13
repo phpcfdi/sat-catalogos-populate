@@ -65,6 +65,7 @@ class CliApplication
         return $this->runCommand($command, ...$arguments);
     }
 
+    /** @return class-string */
     public function getCommandClass(string $commandName): string
     {
         if (! isset($this->commands[$commandName])) {
@@ -76,8 +77,8 @@ class CliApplication
     public function runCommand(string $commandName, string ...$arguments): int
     {
         $commandClass = $this->getCommandClass($commandName);
-        /** @var callable $staticCallable phpstan work around*/
-        $staticCallable = $commandClass . '::createFromArguments';
+        /** @phpstan-var callable $staticCallable phpstan work around*/
+        $staticCallable = [$commandClass, 'createFromArguments'];
         /** @var CommandInterface $command */
         $command = call_user_func($staticCallable, $arguments);
         return $command->run();
