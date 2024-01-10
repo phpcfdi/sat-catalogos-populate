@@ -56,7 +56,7 @@ class CsvFolderJoinFilesTest extends TestCase
     }
 
     /** @return array<string, array{Iterator<string>, Iterator<string>}> */
-    public function providerFindLinesToSkipFromIterators(): array
+    public static function providerFindLinesToSkipFromIterators(): array
     {
         return [
             'normal' => [

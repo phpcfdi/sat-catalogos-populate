@@ -92,7 +92,7 @@ class ScrapingReviewerTest extends TestCase
     }
 
     /** @return array<array{string, string}> */
-    public function providerResolveHtmlToLink(): array
+    public static function providerResolveHtmlToLink(): array
     {
         $nbsp = "\xC2\xA0";
         $rtl = "\x20\x2B";

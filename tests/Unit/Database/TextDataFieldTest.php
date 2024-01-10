@@ -10,7 +10,7 @@ use PHPUnit\Framework\TestCase;
 class TextDataFieldTest extends TestCase
 {
     /** @return array<string, array{string, string}> */
-    public function providerTransformPerformTrim(): array
+    public static function providerTransformPerformTrim(): array
     {
         return [
             'simple text' => ['foo', 'foo'],

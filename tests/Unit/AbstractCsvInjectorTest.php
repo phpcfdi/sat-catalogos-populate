@@ -37,7 +37,7 @@ class AbstractCsvInjectorTest extends TestCase
     }
 
     /** @return array<string, array{string}> */
-    public function providerInvalidSourcefiles(): array
+    public static function providerInvalidSourcefiles(): array
     {
         return [
             'empty' => [''],

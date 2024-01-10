@@ -94,7 +94,7 @@ class CodigosPostalesTest extends TestCase
     }
 
     /** @return array<string, array{int}> */
-    protected function providerInjectedFieldEstimuloFrontera(): array
+    public static function providerInjectedFieldEstimuloFrontera(): array
     {
         return [
             'Sin estímulo' => [0],

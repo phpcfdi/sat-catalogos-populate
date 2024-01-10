@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
-    cacheResultFile="build/phpunit.result.cache"
+    cacheDirectory="build/phpunit.cache"
     colors="true"
-    verbose="true"
     bootstrap="tests/bootstrap.php">
     <testsuites>
         <testsuite name="Default">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
-    <coverage>
+    <source>
         <include>
             <directory suffix=".php">./src/</directory>
         </include>
-    </coverage>
+    </source>
 </phpunit>
