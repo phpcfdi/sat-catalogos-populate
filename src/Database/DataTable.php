@@ -8,12 +8,12 @@ use LogicException;
 
 class DataTable
 {
-    private string $name;
+    private readonly string $name;
 
-    private DataFields $fields;
+    private readonly DataFields $fields;
 
     /** @var string[] */
-    private array $primaryKey;
+    private readonly array $primaryKey;
 
     /**
      * @param string[] $primaryKey

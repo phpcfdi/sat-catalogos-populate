@@ -7,7 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors;
 class IgnoreColumns extends AbstractPipeArrayProcessor implements ArrayProcessorInterface
 {
     /** @var array<int, int> */
-    private array $columns;
+    private readonly array $columns;
 
     public function __construct(ArrayProcessorInterface $next = null, int ...$columns)
     {

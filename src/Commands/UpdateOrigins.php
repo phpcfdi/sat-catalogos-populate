@@ -19,11 +19,11 @@ final class UpdateOrigins implements CommandInterface
 {
     private const DEFAULT_ORIGINS_FILENAME = 'origins.xml';
 
-    private string $originsFile;
+    private readonly string $originsFile;
 
-    private string $workingFolder;
+    private readonly string $workingFolder;
 
-    private bool $updateDatabase;
+    private readonly bool $updateDatabase;
 
     public function __construct(
         string $originsFile,

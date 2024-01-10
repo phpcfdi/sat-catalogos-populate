@@ -17,9 +17,9 @@ use UnexpectedValueException;
  */
 class CsvFile implements SeekableIterator
 {
-    private SplFileObject $file;
+    private readonly SplFileObject $file;
 
-    private ArrayProcessorInterface $rowProcessor;
+    private readonly ArrayProcessorInterface $rowProcessor;
 
     public function __construct(string $filename, ArrayProcessorInterface $rowProcessor = null)
     {

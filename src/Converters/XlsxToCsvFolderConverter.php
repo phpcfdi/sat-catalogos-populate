@@ -13,7 +13,7 @@ class XlsxToCsvFolderConverter
     use WhichTrait;
 
     /** @var string Location of xlsx2csvPath executable */
-    private string $xlsx2csvPath;
+    private readonly string $xlsx2csvPath;
 
     public function __construct(string $xlsx2csvPath = '')
     {

@@ -8,9 +8,9 @@ use RuntimeException;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\DomCrawler\Link;
 
-final class ScrapingReviewerLinkExtractor
+final readonly class ScrapingReviewerLinkExtractor
 {
-    public function __construct(private readonly Crawler $crawler)
+    public function __construct(private Crawler $crawler)
     {
     }
 

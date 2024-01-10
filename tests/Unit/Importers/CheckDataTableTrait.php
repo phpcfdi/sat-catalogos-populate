@@ -11,8 +11,6 @@ use PHPUnit\Framework\TestCase;
 trait CheckDataTableTrait
 {
     /**
-     * @param DataTable $dataTable
-     * @param string $tableName
      * @param array<string, class-string> $expectedClasses
      * @param string[] $ids
      * @return void

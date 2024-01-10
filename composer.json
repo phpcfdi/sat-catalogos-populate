@@ -19,7 +19,7 @@
         "source": "https://github.com/phpcfdi/sat-catalogos-populate"
     },
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "ext-dom": "*",
         "ext-json": "*",
         "ext-pdo": "*",
