@@ -8,6 +8,7 @@ use ArrayIterator;
 use Iterator;
 use PhpCfdi\SatCatalogosPopulate\Converters\CsvFolderJoinFiles;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PHPUnit\Framework\Attributes\DataProvider;
 
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempname;
 
@@ -113,8 +114,8 @@ class CsvFolderJoinFilesTest extends TestCase
     /**
      * @param Iterator<string> $first
      * @param Iterator<string> $second
-     * @dataProvider providerFindLinesToSkipFromIterators
      */
+    #[DataProvider('providerFindLinesToSkipFromIterators')]
     public function testFindLinesToSkipFromIterators(Iterator $first, Iterator $second): void
     {
         $joiner = new CsvFolderJoinFiles();

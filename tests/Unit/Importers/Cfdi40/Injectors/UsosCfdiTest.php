@@ -13,6 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class UsosCfdiTest extends TestCase
@@ -70,11 +71,9 @@ class UsosCfdiTest extends TestCase
         }
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformAplicaFisica(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -83,11 +82,9 @@ class UsosCfdiTest extends TestCase
         $this->assertSame($expected, $transform['aplica_fisica']);
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformAplicaMoral(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();

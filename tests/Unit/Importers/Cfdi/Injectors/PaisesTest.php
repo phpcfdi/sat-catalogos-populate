@@ -11,6 +11,7 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class PaisesTest extends TestCase
@@ -67,10 +68,8 @@ class PaisesTest extends TestCase
         }
     }
 
-    /**
-     * @testWith [""]
-     *           ["[0-9]+"]
-     */
+    #[TestWith([''])]
+    #[TestWith(['[0-9]+'])]
     public function testPatronCodigoPostalValido(string $value): void
     {
         $dataTable = $this->injector->dataTable();
@@ -87,10 +86,8 @@ class PaisesTest extends TestCase
         $dataTable->fields()->transform(['foo', 'foo', ') invalid (', '', '', '']);
     }
 
-    /**
-     * @testWith [""]
-     *           ["[0-9]+"]
-     */
+    #[TestWith([''])]
+    #[TestWith(['[0-9]+'])]
     public function testPatronIdentidadTributariaValido(string $value): void
     {
         $dataTable = $this->injector->dataTable();
