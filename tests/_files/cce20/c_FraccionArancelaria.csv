@@ -1,0 +1,196 @@
+Catálogo de fracción arancelaria.,,,,
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,Fecha publicación
+2024-01-18,,1.0,,2023-12-19
+c_FraccionArancelaria,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia,UMT
+0101210100,Reproductores de raza pura,2024-01-18,,07
+0101290200,Sin pedigree para reproducción,2024-01-18,,06
+0101290300,Para abasto cuando la importación la realicen empacadoras Tipo Inspección Federal,2024-01-18,,06
+0101299901,Para saltos o carreras,2024-01-18,,06
+0101299999,Los demás,2024-01-18,,06
+0101300100,Asnos,2024-01-18,,07
+0101909900,Los demás,2024-01-18,,07
+0102210100,Reproductores de raza pura,2024-01-18,,07
+0102290100,Vacas lecheras,2024-01-18,,06
+0102290200,"Con  pedigree  o  certificado  de  alto  registro,  excepto  lo  comprendido  en  la  fracción  arancelaria 0102.29.01.",2024-01-18,,06
+0102299900,Los demás,2024-01-18,,06
+0102310100,Reproductores de raza pura,2024-01-18,,07
+0102399900,Los demás,2024-01-18,,07
+0102909900,Los demás,2024-01-18,,07
+0103100100,Reproductores de raza pura,2024-01-18,,07
+0103910100,Con pedigree o certificado de alto registro,2024-01-18,,07
+0103919900,Los demás,2024-01-18,,07
+0103920100,Con pedigree o certificado de alto registro,2024-01-18,,07
+0103929900,Los demás,2024-01-18,,07
+0104100100,Con pedigree o certificado de alto registro,2024-01-18,,06
+0104109901,Para abasto,2024-01-18,,06
+0104109999,Los demás,2024-01-18,,06
+0104200100,Con pedigree o certificado de alto registro,2024-01-18,,07
+0104200200,Borrego cimarrón,2024-01-18,,07
+0104209900,Los demás,2024-01-18,,07
+0105110301,Aves reproductoras de la línea de postura,2024-01-18,,06
+0105110302,Aves reproductoras de la línea de engorda,2024-01-18,,06
+0105110303,Aves progenitoras de la línea de engorda,2024-01-18,,06
+0105110391,Las demás de postura,2024-01-18,,06
+0105110392,Las demás de engorda,2024-01-18,,06
+0105119900,Los demás,2024-01-18,,06
+0105120100,Pavos (gallipavos),2024-01-18,,06
+0105130100,Patos,2024-01-18,,07
+0105140100,Gansos,2024-01-18,,07
+0105150100,Pintadas,2024-01-18,,07
+0105940100,Gallos de pelea,2024-01-18,,07
+0105949900,Los demás,2024-01-18,,07
+0105999900,Los demás,2024-01-18,,07
+0106110100,Monos (simios) de las variedades Macacus rhesus o Macacus cercophitecus,2024-01-18,,07
+0106119900,Los demás,2024-01-18,,07
+0106120100,Ballenas delfines y marsopas (mamíferos del orden Cetacea); manatíes y dugones o dugongos (mamíferos del orden Sirenia); otarios y focas leones marinos y morsas (mamíferos del suborden Pinnipedia),2024-01-18,,07
+0106130100,Camellos y demás camélidos (Camelidae),2024-01-18,,07
+0106140100,Conejos y liebres,2024-01-18,,07
+0106190200,Venado rojo (Cervus elaphus); gamo (Dama dama),2024-01-18,,07
+0106199901,Perros,2024-01-18,,07
+0106199999,Los demás,2024-01-18,,07
+0106200400,Reptiles (incluidas las serpientes y tortugas de mar),2024-01-18,,07
+0106310100,Aves de rapiña,2024-01-18,,06
+0106320100,Psitaciformes (incluidos los loros guacamayos cacatúas y demás papagayos),2024-01-18,,07
+0106330100,Avestruces; emúes (Dromaius novaehollandiae),2024-01-18,,07
+0106399900,Las demás,2024-01-18,,07
+0106410100,Abejas,2024-01-18,,01
+0106499900,Los demás,2024-01-18,,01
+0106900200,Lombriz Rebellus (Lumbricus rubellus),2024-01-18,,01
+0106900300,Lombriz acuática,2024-01-18,,01
+0106900400,Ácaros Phytoseiulus persimilis,2024-01-18,,01
+0106909900,Los demás,2024-01-18,,06
+0201100100,En canales o medias canales,2024-01-18,,01
+0201209100,Los demás cortes (trozos) sin deshuesar,2024-01-18,,01
+0201300100,Deshuesada,2024-01-18,,01
+0202100100,En canales o medias canales,2024-01-18,,01
+0202209100,Los demás cortes (trozos) sin deshuesar,2024-01-18,,01
+0202300100,Deshuesada,2024-01-18,,01
+0203110100,En canales o medias canales,2024-01-18,,01
+0203120101,Paletas y sus trozos,2024-01-18,,01
+0203120102,Piernas y sus trozos,2024-01-18,,01
+0203199900,Las demás,2024-01-18,,01
+0203210100,En canales o medias canales,2024-01-18,,01
+0203220101,Paletas y sus trozos,2024-01-18,,01
+0203220102,Piernas y sus trozos,2024-01-18,,01
+0203299900,Las demás,2024-01-18,,01
+0204100100,Canales o medias canales de cordero frescas o refrigeradas,2024-01-18,,01
+0204210100,En canales o medias canales,2024-01-18,,01
+0204229100,Los demás cortes (trozos) sin deshuesar,2024-01-18,,01
+0204230100,Deshuesadas,2024-01-18,,01
+0204300100,Canales o medias canales de cordero congeladas,2024-01-18,,01
+0204410100,En canales o medias canales,2024-01-18,,01
+0204429100,Los demás cortes (trozos) sin deshuesar,2024-01-18,,01
+0204430100,Deshuesadas,2024-01-18,,01
+0204500100,Carne de animales de la especie caprina,2024-01-18,,01
+0205000100,Carne de animales de las especies caballar asnal o mular fresca refrigerada o congelada,2024-01-18,,01
+0206100100,De la especie bovina frescos o refrigerados,2024-01-18,,01
+0206210100,Lenguas,2024-01-18,,01
+0206220100,Hígados,2024-01-18,,01
+0206299900,Los demás,2024-01-18,,01
+0206300100,"Pieles de cerdo enteras o en recortes refrigerados excepto el cuero precocido en trozos (""pellets"")",2024-01-18,,01
+0206309900,Los demás,2024-01-18,,01
+0206410100,Hígados,2024-01-18,,01
+0206490100,"Pieles de cerdo enteras o en recortes excepto el cuero precocido en trozos (""pellets"")",2024-01-18,,01
+0206499900,Los demás,2024-01-18,,01
+0206809100,Los demás frescos o refrigerados,2024-01-18,,01
+0206909100,Los demás congelados,2024-01-18,,01
+0207110100,Sin trocear frescos o refrigerados,2024-01-18,,01
+0207120100,Sin trocear congelados,2024-01-18,,01
+0207130401,Mecánicamente deshuesados (pastas),2024-01-18,,01
+0207130402,Carcasas,2024-01-18,,01
+0207130403,Piernas muslos o piernas unidas al muslo,2024-01-18,,01
+0207130404,Alas y sus partes,2024-01-18,,01
+0207130405,Pechuga sus trozos y recortes con hueso,2024-01-18,,01
+0207130406,Filetes de pechuga y pechuga sus trozos y recortes sin hueso (deshuesada),2024-01-18,,01
+0207130499,Los demás,2024-01-18,,01
+0207140200,Hígados,2024-01-18,,01
+0207149901,Mecánicamente deshuesados (pastas),2024-01-18,,01
+0207149902,Piernas muslos o piernas unidas al muslo,2024-01-18,,01
+0207149903,Alas y sus partes,2024-01-18,,01
+0207149904,Pechuga sus trozos y recortes con hueso,2024-01-18,,01
+0207149905,Filetes de pechuga y pechuga sus trozos y recortes sin hueso (deshuesada),2024-01-18,,01
+0207149999,Los demás,2024-01-18,,01
+0207240100,Sin trocear frescos o refrigerados,2024-01-18,,01
+0207250100,Sin trocear congelados,2024-01-18,,01
+0207260301,Mecánicamente deshuesados (pastas),2024-01-18,,01
+0207260399,Los demás,2024-01-18,,01
+0207270200,Hígados,2024-01-18,,01
+0207279901,Mecánicamente deshuesados (pastas),2024-01-18,,01
+0207279999,Los demás,2024-01-18,,01
+0207410100,Sin trocear frescos o refrigerados,2024-01-18,,01
+0207420100,Sin trocear congelados,2024-01-18,,01
+0207430100,Hígados grasos frescos o refrigerados,2024-01-18,,01
+0207449100,Los demás frescos o refrigerados,2024-01-18,,01
+0207450100,Hígados,2024-01-18,,01
+0207459900,Los demás,2024-01-18,,01
+0207510100,Sin trocear frescos o refrigerados,2024-01-18,,01
+0207520100,Sin trocear congelados,2024-01-18,,01
+0207530100,Hígados grasos frescos o refrigerados,2024-01-18,,01
+0207549100,Los demás frescos o refrigerados,2024-01-18,,01
+0207550100,Hígados,2024-01-18,,01
+0207559900,Los demás,2024-01-18,,01
+0207600300,De pintada,2024-01-18,,01
+0208100100,De conejo o liebre,2024-01-18,,01
+0208300100,De primates,2024-01-18,,01
+0208400100,De ballenas delfines y marsopas (mamíferos del orden Cetacea); de manatíes y dugones o dugongos (mamíferos del orden Sirenia); de otarios y focas leones marinos y morsas (mamíferos del suborden Pinnipedia),2024-01-18,,01
+0208500100,De reptiles (incluidas las serpientes y tortugas de mar),2024-01-18,,01
+0208600100,De camellos y demás camélidos (Camelidae),2024-01-18,,01
+0208909900,Los demás,2024-01-18,,01
+0209100100,De cerdo,2024-01-18,,01
+0209900100,De gallo gallina o pavo (gallipavo),2024-01-18,,01
+0209909900,Los demás,2024-01-18,,01
+0210110100,Jamones paletas y sus trozos sin deshuesar,2024-01-18,,01
+0210120100,Tocino entreverado de panza (panceta) y sus trozos,2024-01-18,,01
+0210199900,Las demás,2024-01-18,,01
+0210200100,Carne de la especie bovina,2024-01-18,,01
+0210910100,De primates,2024-01-18,,01
+0210920100,De ballenas delfines y marsopas (mamíferos del orden Cetacea); de manatíes y dugones o dugongos (mamíferos del orden Sirenia); de otarios y focas leones marinos y morsas (mamíferos del suborden Pinnipedia),2024-01-18,,01
+0210930100,De reptiles (incluidas las serpientes y tortugas de mar),2024-01-18,,01
+0210990200,Pieles de cerdo ahumadas enteras o en recortes,2024-01-18,,01
+0210999900,Los demás,2024-01-18,,01
+0301110100,De agua dulce,2024-01-18,,07
+0301199900,Los demás,2024-01-18,,07
+0301910100,Truchas (Salmo trutta Oncorhynchus mykiss Oncorhynchus clarki Oncorhynchus aguabonita Oncorhynchus gilae Oncorhynchus apache y Oncorhynchus chrysogaster),2024-01-18,,07
+0301920100,Anguilas (Anguilla spp),2024-01-18,,07
+0301930100,Carpas (Cyprinus spp Carassius spp Ctenopharyngodon idellus Hypophthalmichthys spp Cirrhinus spp Mylopharyngodon piceus Catla catla Labeo spp Osteochilus hasselti Leptobarbus hoeveni Megalobrama spp),2024-01-18,,07
+0301940100,Atunes comunes o de aleta azul del Atlántico y del Pacífico (Thunnus thynnus Thunnus orientalis),2024-01-18,,07
+0301950100,Atunes del sur (Thunnus maccoyii),2024-01-18,,07
+0301999900,Los demás,2024-01-18,,07
+0302110100,Truchas (Salmo trutta Oncorhynchus mykiss Oncorhynchus clarki Oncorhynchus aguabonita Oncorhynchus gilae Oncorhynchus apache y Oncorhynchus chrysogaster),2024-01-18,,01
+0302130100,Salmones del Pacífico (Oncorhynchus nerka Oncorhynchus gorbuscha Oncorhynchus keta Oncorhynchus tschawytscha Oncorhynchus kisutch Oncorhynchus masou y Oncorhynchus rhodurus),2024-01-18,,01
+0302140100,Salmones del Atlántico (Salmo salar) y salmones del Danubio (Hucho hucho),2024-01-18,,01
+0302199900,Los demás,2024-01-18,,01
+0302210100,Fletanes (halibut) (Reinhardtius hippoglossoides Hippoglossus hippoglossus Hippoglossus stenolepis),2024-01-18,,01
+9802003100,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como Par y listadas en el Anexo II Apartado C del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,09
+9802003200,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como Pza y listadas en el Anexo II Apartado C del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,06
+9802003300,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como Kg y listadas en el Anexo II Apartado D del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,01
+9802003400,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como Pza y listadas en el Anexo II Apartado D del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,06
+9802003500,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como G y listadas en el Anexo II Apartado E del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,02
+9802003600,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como Kg y listadas en el Anexo II Apartado E del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,01
+9802003700,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en las fracciones arancelarias cuya unidad de medida de la TIGIE se indique como Kg y listadas en el Anexo II Apartado F del Decreto para el Fomento de la Industria Manufacturera Maquiladora y de Servicios de Exportación,2024-01-18,,01
+9802003800,Mercancías al amparo de la autorización a que se refiere la Regla 8ª de las Complementarias para la interpretación y aplicación de la Tarifa de la Ley de los Impuestos Generales de Importación y de Exportación (TIGIE) conforme a los criterios que establezca la Secretaría de Economía clasificadas en la partida arancelaria 4004,2024-01-18,,01
+9803000100,Partes y componentes para el ensamble de automóviles cuando se trate de empresas de la industria automotriz terminal que cuenten con autorización de depósito fiscal para ensamble y fabricación de vehículos conforme a la Ley Aduanera siempre que se ajusten a los lineamientos que establezca la Secretaría de Economía,2024-01-18,,01
+9803000200,Partes y componentes para el ensamble de camiones autobuses integrales y tracto-camiones cuando se trate de empresas de la industria automotriz terminal que cuenten con autorización de depósito fiscal para ensamble y fabricación de vehículos conforme a la Ley Aduanera siempre que se ajusten a los lineamientos que establezca la Secretaría de Economía,2024-01-18,,01
+9804000100,Menajes de casa,2024-01-18,,01
+9804009900,Los demás,2024-01-18,,01
+9805000100,Dispositivos excluidores de tortugas marinas y sus partes para redes de arrastre camaroneras,2024-01-18,,06
+9806000100,Mercancías importadas por un organismo de certificación en cantidad no mayor a 3 unidades o el número de muestras que determine la Norma Mexicana NMX-Z12 o en su caso el número de muestras determinado por la Norma Oficial Mexicana correspondiente destinadas exclusivamente a obtener la certificación del cumplimiento de una Norma Oficial Mexicana,2024-01-18,,06
+9806000200,Equipos anticontaminantes y sus partes cuando las empresas se ajusten a los lineamientos establecidos por las Secretarías de Medio Ambiente y Recursos Naturales y de Economía,2024-01-18,,06
+9806000300,Maquinaria equipo instrumentos materiales animales plantas y demás artículos para investigación o desarrollos tecnológicos cuando los centros públicos de investigación universidades públicas y privadas instituciones de investigación científica y tecnológica personas físicas y morales inscritos en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas se sujeten a los lineamientos establecidos por la Secretaría de Economía y el Consejo Nacional de Ciencia y Tecnología,2024-01-18,,01
+9806000400,Equipos y artículos reconocibles como destinados exclusivamente a compensar una disfunción corporal de personas con discapacidad excepto lo comprendido en las fracciones arancelarias 87131001 y 87139099 y excepto los vehículos del Capítulo 87,2024-01-18,,06
+9806000500,Mercancías destinadas a la reparación o mantenimiento de naves aéreas o aeropartes,2024-01-18,,01
+9806000600,"Mercancías, insumos, partes y componentes para el submontaje, montaje o producción de aeronaves o aeropartes destinadas a usos en materia de aviación civil, cuando las empresas cuenten con la aprobación de producción de productos aeronáuticos y sus artículos, en cualquiera de sus tipos, emitida por la Secretaría de Infraestructura, Comunicaciones y Transportes a través de la Agencia Federal de Aviación Civil.",2024-01-18,,01
+9806000700,Archivos (expedientes) conteniendo entre otros diagnósticos médicos radiografías fluorangiografías resultados de laboratorio electrocardiogramas,2024-01-18,,01
+9806000800,Mercancías destinadas a procesos tales como reparación reacondicionamiento o remanufactura cuando las empresas cuenten con registro otorgado conforme a los lineamientos establecidos por la Secretaría de Economía,2024-01-18,,01
+9806000900,Insumos materias primas materiales auxiliares envases y empaques que no estén sujetos al cumplimiento de regulaciones y restricciones no arancelarias en materia de sanidad animal y vegetal salud pública medio ambiente y seguridad nacional que se destinen al régimen de recinto fiscalizado estratégico por parte de las personas autorizadas para operar el régimen Las mercancías objeto de almacenaje consolidación de carga así como las resultantes de los procesos de elaboración transformación o reparación en el recinto fiscalizado estratégico cuando se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir en su caso con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías en los términos de las disposiciones que resulten aplicables,2024-01-18,,01
+9806001000,Maquinaria y equipo que no estén sujetas al cumplimiento de regulaciones y restricciones no arancelarias en materia de sanidad animal y vegetal salud pública medio ambiente y seguridad nacional que se destinen al régimen de recinto fiscalizado estratégico por parte de personas autorizadas para operar el régimen Cuando las mercancías se extraigan del recinto deberán ser clasificadas en términos de la Tarifa de esta Ley y cumplir en su caso con las regulaciones y restricciones no arancelarias que correspondan a esas mercancías en los términos de las disposiciones que resulten aplicables,2024-01-18,,01
+9807000100,Mercancías producidas en territorio nacional que retornen en el mismo estado en que fueron exportadas o retornadas del territorio nacional de conformidad con los lineamientos establecidos por la Secretaría de Economía,2024-01-18,,01
+9901000100,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,06
+9901000200,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,01
+9901000500,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,08
+9901001100,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,08
+9901001200,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,08
+9901001300,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,08
+9901001500,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,01
+9901001600,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,01
+9902000100,Códigos arancelarios no catalogados en la tarifa,2024-01-18,,01

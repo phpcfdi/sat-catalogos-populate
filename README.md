@@ -59,6 +59,7 @@ Read the file [*Catálogos SAT*](docs/Catalogos.md) for more information about t
 - Catálogos de CFDI 3.3.
 - Catálogos de CFDI 4.0.
 - Catálogos de Complemento de Comercio Exterior 1.1.
+- Catálogos de Complemento de Comercio Exterior 2.0.
 - Catálogos de Complemento de Nóminas 1.2.
 - Catálogos de Complemento de Carta Porte 2.0.
 - Catálogos de Complemento de Carta Porte 3.0.
