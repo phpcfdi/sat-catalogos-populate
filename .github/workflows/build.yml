@@ -127,4 +127,5 @@ jobs:
         run: |
           mkdir --parents build/files/
           php bin/sat-catalogos-update dump-origins > build/files/origins.xml
-          php bin/sat-catalogos-update update-origins build/files/ -w build/files/database.sqlite3
+          php bin/sat-catalogos-update update-origins build/files/
+          php bin/sat-catalogos-update update-database build/files/ build/files/database.sqlite3
