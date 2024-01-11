@@ -25,11 +25,13 @@ jobs:
         with:
           php-version: '8.2'
           coverage: none
-          tools: cs2pr, phpcs
+          tools: cs2pr, phive
         env:
           fail-fast: true
+      - name: Install phpcs
+        run: phive install phpcs --trust-gpg-keys 5E6DDE998AB73B8E
       - name: Code style (phpcs)
-        run: phpcs -q --report=checkstyle | cs2pr
+        run: tools/phpcs -q --report=checkstyle | cs2pr
 
   php-cs-fixer:
     name: Code style (php-cs-fixer)

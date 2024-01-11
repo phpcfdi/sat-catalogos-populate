@@ -11,6 +11,7 @@ It contains the same catalogs as CCE 1.1.
 - Bump to PHP 8.2.
 - Remove PHP 8.1 from matrix support.
 - Bump to PHPUnit 1.5.
+- On GitHub workflow `build` job `phpcs`, install `phpcs` using phive since installed tool is outdated.
 
 ## Version 2.7.1 2023-12-13
 
