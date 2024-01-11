@@ -11,6 +11,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi40\Injectors\PatentesAduanales;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class PatentesAduanalesTest extends TestCase
@@ -64,11 +65,9 @@ class PatentesAduanalesTest extends TestCase
         }
     }
 
-    /**
-     * @testWith ["ABCDE", "ABCDE"]
-     *           ["", "0000"]
-     *           ["9", "0009"]
-     */
+    #[TestWith(['ABCDE', 'ABCDE'])]
+    #[TestWith(['', '0000'])]
+    #[TestWith(['9', '0009'])]
     public function testTransformId(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();

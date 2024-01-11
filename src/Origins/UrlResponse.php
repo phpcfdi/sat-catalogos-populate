@@ -10,7 +10,7 @@ use Stringable;
 
 class UrlResponse
 {
-    private DateTimeImmutable $lastModified;
+    private readonly DateTimeImmutable $lastModified;
 
     public function __construct(
         private readonly string $url,

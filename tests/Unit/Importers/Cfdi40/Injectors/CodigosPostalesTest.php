@@ -14,6 +14,7 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\DataProvider;
 use Psr\Log\NullLogger;
 use RuntimeException;
 
@@ -94,7 +95,7 @@ class CodigosPostalesTest extends TestCase
     }
 
     /** @return array<string, array{int}> */
-    protected function providerInjectedFieldEstimuloFrontera(): array
+    public static function providerInjectedFieldEstimuloFrontera(): array
     {
         return [
             'Sin estímulo' => [0],
@@ -103,7 +104,7 @@ class CodigosPostalesTest extends TestCase
         ];
     }
 
-    /** @dataProvider providerInjectedFieldEstimuloFrontera */
+    #[DataProvider('providerInjectedFieldEstimuloFrontera')]
     public function testInjectedFieldEstimuloFrontera(int $estimuloFrontera): void
     {
         $repository = new Repository(':memory:');

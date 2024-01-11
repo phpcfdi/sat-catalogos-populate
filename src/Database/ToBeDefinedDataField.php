@@ -11,17 +11,15 @@ namespace PhpCfdi\SatCatalogosPopulate\Database;
  */
 final class ToBeDefinedDataField extends PreprocessDataField
 {
-    /** @var string[] */
-    private array $toBeDefinedTexts;
-
     /** @param string[] $toBeDefinedTexts */
-    public function __construct(DataFieldInterface $nextDataField, array $toBeDefinedTexts = ['Por definir'])
-    {
+    public function __construct(
+        DataFieldInterface $nextDataField,
+        private readonly array $toBeDefinedTexts = ['Por definir']
+    ) {
         parent::__construct(
             fn ($input) => $this->matchToBeDefined($input) ? '' : $input,
             $nextDataField
         );
-        $this->toBeDefinedTexts = $toBeDefinedTexts;
     }
 
     public function matchToBeDefined(mixed $input): bool

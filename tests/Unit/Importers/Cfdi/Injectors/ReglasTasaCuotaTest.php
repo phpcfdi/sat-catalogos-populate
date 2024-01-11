@@ -14,6 +14,7 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class ReglasTasaCuotaTest extends TestCase
@@ -74,11 +75,9 @@ class ReglasTasaCuotaTest extends TestCase
         $this->assertSame([], $dataTable->primaryKey());
     }
 
-    /**
-     * @testWith ["0", "0.000000"]
-     *           ["1.234", "1.234000"]
-     *           ["", ""]
-     */
+    #[TestWith(['0', '0.000000'])]
+    #[TestWith(['1.234', '1.234000'])]
+    #[TestWith(['', ''])]
     public function testTransformMinimo(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -87,11 +86,9 @@ class ReglasTasaCuotaTest extends TestCase
         $this->assertSame($expected, $transform['minimo']);
     }
 
-    /**
-     * @testWith ["0", "0.000000"]
-     *           ["1.234", "1.234000"]
-     *           ["", ""]
-     */
+    #[TestWith(['0', '0.000000'])]
+    #[TestWith(['1.234', '1.234000'])]
+    #[TestWith(['', ''])]
     public function testTransformValor(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -100,11 +97,9 @@ class ReglasTasaCuotaTest extends TestCase
         $this->assertSame($expected, $transform['valor']);
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformTraslado(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -113,11 +108,9 @@ class ReglasTasaCuotaTest extends TestCase
         $this->assertSame($expected, $transform['traslado']);
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformRetencion(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();

@@ -11,6 +11,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi40\Injectors\TiposRelaciones;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class TiposRelacionesTest extends TestCase
@@ -65,11 +66,9 @@ class TiposRelacionesTest extends TestCase
         }
     }
 
-    /**
-     * @testWith ["AB", "AB"]
-     *           ["", "00"]
-     *           ["9", "09"]
-     */
+    #[TestWith(['AB', 'AB'])]
+    #[TestWith(['', '00'])]
+    #[TestWith(['9', '09'])]
     public function testTransformId(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();

@@ -10,6 +10,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\Impuestos;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class ImpuestosTest extends TestCase
@@ -63,11 +64,9 @@ class ImpuestosTest extends TestCase
         $this->assertSame($expectedKeys, $dataTable->fields()->keys());
     }
 
-    /**
-     * @testWith ["ABCD", "ABCD"]
-     *           ["", "000"]
-     *           ["9", "009"]
-     */
+    #[TestWith(['ABCD', 'ABCD'])]
+    #[TestWith(['', '000'])]
+    #[TestWith(['9', '009'])]
     public function testTransformId(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -82,11 +81,9 @@ class ImpuestosTest extends TestCase
         $this->assertInstanceOf(TextDataField::class, $dataTable->fields()->get('texto'));
     }
 
-    /**
-     * @testWith ["Si", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Si', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformRetencion(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -95,11 +92,9 @@ class ImpuestosTest extends TestCase
         $this->assertSame($expected, $transform['retencion']);
     }
 
-    /**
-     * @testWith ["Si", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Si', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformTraslado(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();

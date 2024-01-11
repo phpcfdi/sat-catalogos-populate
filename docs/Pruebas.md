@@ -79,6 +79,16 @@ php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_TipoOperacion.xls
 php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_UnidadAduana.xls tests/_files/cce
 php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte20.xls tests/_files/ccp20
 php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte30.xls tests/_files/ccp30
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_ClavePedimento20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Colonia20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/C_Estado20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_FraccionArancelaria_cce20_20221212.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_INCOTERM20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Localidad20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_MotivoTraslado20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Municipio20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_TipoOperacion20.xls tests/_files/cce20
+php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_UnidadAduana20.xls tests/_files/cce20
 ```
 
 Ten en cuenta que estas operaciones generarán archivos que antes no existían porque el catálogo en

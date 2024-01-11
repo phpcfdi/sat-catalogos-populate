@@ -9,6 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Database\Repository;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\FakeCsvInjector;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PHPUnit\Framework\Attributes\DataProvider;
 use Psr\Log\NullLogger;
 use RuntimeException;
 
@@ -37,7 +38,7 @@ class AbstractCsvInjectorTest extends TestCase
     }
 
     /** @return array<string, array{string}> */
-    public function providerInvalidSourcefiles(): array
+    public static function providerInvalidSourcefiles(): array
     {
         return [
             'empty' => [''],
@@ -46,9 +47,7 @@ class AbstractCsvInjectorTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider providerInvalidSourcefiles
-     */
+    #[DataProvider('providerInvalidSourcefiles')]
     public function testValidateWithInvalidSourcefile(string $sourceFile): void
     {
         $injector = new FakeCsvInjector($sourceFile);

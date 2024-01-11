@@ -11,6 +11,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\FormasDePago;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class FormasDePagoTest extends TestCase
@@ -72,11 +73,9 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expectedKeys, $dataTable->fields()->keys());
     }
 
-    /**
-     * @testWith ["ABC", "ABC"]
-     *           ["", "00"]
-     *           ["9", "09"]
-     */
+    #[TestWith(['ABC', 'ABC'])]
+    #[TestWith(['', '00'])]
+    #[TestWith(['9', '09'])]
     public function testTransformId(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -91,11 +90,9 @@ class FormasDePagoTest extends TestCase
         $this->assertInstanceOf(TextDataField::class, $dataTable->fields()->get('texto'));
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformEsBancarizado(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -104,10 +101,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['es_bancarizado']);
     }
 
-    /**
-     * @testWith ["Opcional", false]
-     *           ["", true]
-     */
+    #[TestWith(['Opcional', false])]
+    #[TestWith(['', true])]
     public function testTransformNumeroOperacion(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -116,10 +111,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['requiere_numero_operacion']);
     }
 
-    /**
-     * @testWith ["No", false]
-     *           ["", true]
-     */
+    #[TestWith(['No', false])]
+    #[TestWith(['', true])]
     public function testTransformPermiteBancoOrdenanteRfc(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -128,10 +121,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['permite_banco_ordenante_rfc']);
     }
 
-    /**
-     * @testWith ["No", false]
-     *           ["", true]
-     */
+    #[TestWith(['No', false])]
+    #[TestWith(['', true])]
     public function testTransformPermiteCuentaOrdenante(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -140,11 +131,9 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['permite_cuenta_ordenante']);
     }
 
-    /**
-     * @testWith ["[0-9]{10}", "[0-9]{10}"]
-     *           ["Opcional", "\\V*"]
-     *           ["No", ""]
-     */
+    #[TestWith(['[0-9]{10}', '[0-9]{10}'])]
+    #[TestWith(['Opcional', '\V*'])]
+    #[TestWith(['No', ''])]
     public function testTransformPatronCuentaOrdenante(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -153,10 +142,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['patron_cuenta_ordenante']);
     }
 
-    /**
-     * @testWith ["No", false]
-     *           ["", true]
-     */
+    #[TestWith(['No', false])]
+    #[TestWith(['', true])]
     public function testTransformPermiteBancoBeneficiarioRfc(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -165,10 +152,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['permite_banco_beneficiario_rfc']);
     }
 
-    /**
-     * @testWith ["No", false]
-     *           ["", true]
-     */
+    #[TestWith(['No', false])]
+    #[TestWith(['', true])]
     public function testTransformPermiteCuentaBeneficiario(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -177,11 +162,9 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['permite_cuenta_beneficiario']);
     }
 
-    /**
-     * @testWith ["[0-9]{10}", "[0-9]{10}"]
-     *           ["Opcional", "\\V*"]
-     *           ["No", ""]
-     */
+    #[TestWith(['[0-9]{10}', '[0-9]{10}'])]
+    #[TestWith(['Opcional', '\V*'])]
+    #[TestWith(['No', ''])]
     public function testTransformPatronCuentaBeneficiario(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -190,10 +173,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['patron_cuenta_beneficiario']);
     }
 
-    /**
-     * @testWith ["No", false]
-     *           ["", true]
-     */
+    #[TestWith(['No', false])]
+    #[TestWith(['', true])]
     public function testTransformPermiteTipoCadenaPago(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -202,10 +183,8 @@ class FormasDePagoTest extends TestCase
         $this->assertSame($expected, $transform['permite_tipo_cadena_pago']);
     }
 
-    /**
-     * @testWith ["No", false]
-     *           ["", true]
-     */
+    #[TestWith(['No', false])]
+    #[TestWith(['', true])]
     public function testTransformRequiereBancoOrdenanteNombreExt(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();

@@ -71,14 +71,23 @@ Para consumir estos catálogos puede usar la librería independiente
 | cce_claves_pedimentos                 | c_ClavePedimento.xls      | c_ClavePedimento                |                                                                                      |
 | cce_colonias                          | c_Colonia.xls             | c_Colonia                       | Viene en 3 partes                                                                    |
 | cce_estados                           | C_Estado.xls              | c_Estado                        | Estados de México, Estados Unidos y Canadá                                           |
-| cce_fracciones_arancelarias           | c_FraccionArancelaria.xls | c_FraccionArancelaria           |                                                                                      |
+| cce_fracciones_arancelarias           | *                         | c_FraccionArancelaria           |                                                                                      |
 | cce_incoterms                         | c_INCOTERM.xls            | c_INCOTERM                      |                                                                                      |
-| cce_localidades                       | c_Localidad.xls           | c_Localidad                     |                                                                                      |
 | cce_localidades                       | c_Localidad.xls           | c_Localidad                     |                                                                                      |
 | cce_motivos_traslado                  | c_MotivoTraslado.xls      | c_MotivoTraslado                |                                                                                      |
 | cce_municipios                        | c_Municipio.xls           | c_Municipio                     |                                                                                      |
 | cce_tipos_operacion                   | c_TipoOperacion.xls       | c_TipoOperacion                 |                                                                                      |
 | cce_unidades_aduana                   | c_UnidadAduana.xls        | c_UnidadAduana                  | No confundir con las claves de unidades, estas son las unidades de comercio exterior |
+| cce_20_claves_pedimentos              | c_ClavePedimento20.xls    | c_ClavePedimento                |                                                                                      |
+| cce_20_colonias                       | c_Colonia20.xls           | c_Colonia                       | Viene en 3 partes                                                                    |
+| cce_20_estados                        | C_Estado20.xls            | c_Estado                        | Estados de México, Estados Unidos y Canadá                                           |
+| cce_20_fracciones_arancelarias        | *                         | c_FraccionArancelaria           |                                                                                      |
+| cce_20_incoterms                      | c_INCOTERM20.xls          | c_INCOTERM                      |                                                                                      |
+| cce_20_localidades                    | c_Localidad20.xls         | c_Localidad                     |                                                                                      |
+| cce_20_motivos_traslado               | c_MotivoTraslado20.xls    | c_MotivoTraslado                |                                                                                      |
+| cce_20_municipios                     | c_Municipio20.xls         | c_Municipio                     |                                                                                      |
+| cce_20_tipos_operacion                | c_TipoOperacion20.xls     | c_TipoOperacion                 |                                                                                      |
+| cce_20_unidades_aduana                | c_UnidadAduana20.xls      | c_UnidadAduana                  | No confundir con las claves de unidades, estas son las unidades de comercio exterior |
 | nominas_bancos                        | catNomina.xls             | c_Banco                         |                                                                                      |
 | nominas_estados                       | nomina_estados.xls        | c_Estado                        | Es el mismo que el publicado en cce_estados                                          |
 | nomina_origenes_recursos              | catNomina.xls             | c_OrigenRecurso                 |                                                                                      |
@@ -162,7 +171,27 @@ un solo inyector.
 
 Se provee un importador que agrupa a todos estos importadores en uno.
 
+El catálogo de fracciones arancelarias se obtiene mediante scrap, pues el nombre del archivo origen cambia continuamente.
+
 No se están importando los catálogos repetidos: `c_Pais`, `c_Moneda`, `c_CodigoPostal` y `c_RegimenFiscal`.
+
+
+## CCE 2.0 (Complemento de comercio exterior) `cce_20_*`
+
+> - <http://omawww.sat.gob.mx/informacion_fiscal/factura_electronica/Paginas/catalogos_emision_de_cfdi_con_complemento_comercio_exterior.aspx>
+
+Los catálogos de CCE contienen información extendida que debe ser respetada para el correcto llenado
+del complemento de comercio exterior.
+
+En el caso de estos catálogos, a diferencia de los catálogos de CFDI, se distribuye cada catálogo en un archivo xls
+independiente, cada uno con una o varias hojas de excel, por lo que se crea un importador y el importador contiene
+un solo inyector.
+
+Se provee un importador que agrupa a todos estos importadores en uno.
+
+No se están importando los catálogos repetidos: `c_Pais`, `c_Moneda`, `c_CodigoPostal` y `c_RegimenFiscal`.
+
+El catálogo de fracciones arancelarias se obtiene mediante scrap, pues el nombre del archivo podría cambiar continuamente.
 
 ## NOM 1.0 (Complemento de recibo de pago de nómina) `nómina_*`
 

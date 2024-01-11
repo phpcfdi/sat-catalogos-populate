@@ -10,7 +10,7 @@ use RuntimeException;
 
 class Repository
 {
-    private PDO $pdo;
+    private readonly PDO $pdo;
 
     public function __construct(string $dbfile)
     {

@@ -10,6 +10,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingReviewer;
 use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\Origins\FakeGateway;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
+use PHPUnit\Framework\Attributes\DataProvider;
 use RuntimeException;
 
 class ScrapingReviewerTest extends TestCase
@@ -92,7 +93,7 @@ class ScrapingReviewerTest extends TestCase
     }
 
     /** @return array<array{string, string}> */
-    public function providerResolveHtmlToLink(): array
+    public static function providerResolveHtmlToLink(): array
     {
         $nbsp = "\xC2\xA0";
         $rtl = "\x20\x2B";
@@ -106,7 +107,7 @@ class ScrapingReviewerTest extends TestCase
         ];
     }
 
-    /** @dataProvider providerResolveHtmlToLink */
+    #[DataProvider('providerResolveHtmlToLink')]
     public function testResolveHtmlToLink(string $linkInnerText, string $search): void
     {
         $html = <<<HTML
@@ -125,7 +126,7 @@ class ScrapingReviewerTest extends TestCase
         $this->assertSame('http://example.com/expected.txt', $url);
     }
 
-    /** @dataProvider providerResolveHtmlToLink */
+    #[DataProvider('providerResolveHtmlToLink')]
     public function testResolveHtmlToLinkSecondPosition(string $linkInnerText, string $search): void
     {
         $html = <<<HTML

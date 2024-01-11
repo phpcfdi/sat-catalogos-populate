@@ -13,6 +13,7 @@ use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\ArrayProcessors\RightTrim;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class TiposOtrosPagosTest extends TestCase
@@ -68,11 +69,9 @@ class TiposOtrosPagosTest extends TestCase
         $this->assertSame(['id'], $dataTable->primaryKey());
     }
 
-    /**
-     * @testWith ["ABC", "ABC"]
-     *           ["", "000"]
-     *           ["9", "009"]
-     */
+    #[TestWith(['ABC', 'ABC'])]
+    #[TestWith(['', '000'])]
+    #[TestWith(['9', '009'])]
     public function testTransformId(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();

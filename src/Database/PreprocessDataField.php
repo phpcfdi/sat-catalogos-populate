@@ -9,15 +9,12 @@ class PreprocessDataField implements DataFieldInterface
     /** @var callable(scalar):scalar */
     private $preprocessFunction;
 
-    private DataFieldInterface $nextDataField;
-
     /**
      * @param callable(scalar):scalar $preprocessFunction
      */
-    public function __construct(callable $preprocessFunction, DataFieldInterface $nextDataField)
+    public function __construct(callable $preprocessFunction, private readonly DataFieldInterface $nextDataField)
     {
         $this->preprocessFunction = $preprocessFunction;
-        $this->nextDataField = $nextDataField;
     }
 
     public function name(): string

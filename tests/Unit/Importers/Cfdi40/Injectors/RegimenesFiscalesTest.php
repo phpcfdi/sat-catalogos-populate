@@ -12,6 +12,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi40\Injectors\RegimenesFiscales;
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class RegimenesFiscalesTest extends TestCase
@@ -69,11 +70,9 @@ class RegimenesFiscalesTest extends TestCase
         $this->assertSame(['id'], $dataTable->primaryKey());
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformAplicaFisica(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -82,11 +81,9 @@ class RegimenesFiscalesTest extends TestCase
         $this->assertSame($expected, $transform['aplica_fisica']);
     }
 
-    /**
-     * @testWith ["Sí", true]
-     *           ["No", false]
-     *           ["", false]
-     */
+    #[TestWith(['Sí', true])]
+    #[TestWith(['No', false])]
+    #[TestWith(['', false])]
     public function testTransformAplicaMoral(string $value, bool $expected): void
     {
         $dataTable = $this->injector->dataTable();

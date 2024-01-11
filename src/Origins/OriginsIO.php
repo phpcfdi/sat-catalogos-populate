@@ -9,7 +9,7 @@ use SimpleXMLElement;
 
 class OriginsIO
 {
-    private OriginsTranslator $translator;
+    private readonly OriginsTranslator $translator;
 
     public function __construct()
     {

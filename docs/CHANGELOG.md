@@ -1,11 +1,24 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.8.0 2024-01-10
+
+Add CCE (*Complemento de comercio exterior*) 2.0 catalogs with prefix `cce_20_*`.
+It contains the same catalogs as CCE 1.1.
+
+- Use "*Fracciones arancelarias*" second link for CCE 1.1 from catalogs page scrap.
+- Update license year. Happy 2024!
+- Update direct dependencies.
+- Bump to PHP 8.2.
+- Remove PHP 8.1 from matrix support.
+- Bump to PHPUnit 1.5.
+- On GitHub workflow `build` job `phpcs`, install `phpcs` using phive since installed tool is outdated.
+
 ## Version 2.7.1 2023-12-13
 
 PHPStan found an issue when creating commands using the method factory pattern.
 The *command* classes were able to extend and fail if method `::createFromArguments` was not overriden.
 More information: <https://github.com/phpstan/phpstan/issues/10286#issuecomment-1851590334>.
-As always, thanks to Ondřej Mirtes and PHPPStan team for saving our pitfails.
+As always, thanks to Ondřej Mirtes and PHPStan team for saving our pitfails.
 
 Other development changes:
 

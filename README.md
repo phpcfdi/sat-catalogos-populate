@@ -59,6 +59,7 @@ Read the file [*Catálogos SAT*](docs/Catalogos.md) for more information about t
 - Catálogos de CFDI 3.3.
 - Catálogos de CFDI 4.0.
 - Catálogos de Complemento de Comercio Exterior 1.1.
+- Catálogos de Complemento de Comercio Exterior 2.0.
 - Catálogos de Complemento de Nóminas 1.2.
 - Catálogos de Complemento de Carta Porte 2.0.
 - Catálogos de Complemento de Carta Porte 3.0.
@@ -93,7 +94,7 @@ and licensed for use under the MIT License (MIT). Please see [LICENSE][] for mor
 [coverage]: https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/code-structure/master/code-coverage/src
 
 [badge-source]: https://img.shields.io/badge/source-phpcfdi/sat--catalogos--populate-blue?style=flat-square
-[badge-php-version]: https://img.shields.io/badge/php-^8.1-blue?style=flat-square
+[badge-php-version]: https://img.shields.io/badge/php-^8.2-blue?style=flat-square
 [badge-release]: https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-license]: https://img.shields.io/github/license/phpcfdi/sat-catalogos-populate?style=flat-square
 [badge-build]: https://img.shields.io/github/actions/workflow/status/phpcfdi/sat-catalogos-populate/build.yml?branch=master&style=flat-square

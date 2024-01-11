@@ -12,6 +12,7 @@ use PhpCfdi\SatCatalogosPopulate\Importers\Cfdi\Injectors\NumerosPedimentoAduana
 use PhpCfdi\SatCatalogosPopulate\InjectorInterface;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PhpCfdi\SatCatalogosPopulate\Utils\CsvFile;
+use PHPUnit\Framework\Attributes\TestWith;
 use RuntimeException;
 
 class NumerosPedimentoAduanaTest extends TestCase
@@ -69,11 +70,9 @@ class NumerosPedimentoAduanaTest extends TestCase
         $this->assertSame([], $dataTable->primaryKey());
     }
 
-    /**
-     * @testWith ["AB", "AB"]
-     *           ["", "00"]
-     *           ["9", "09"]
-     */
+    #[TestWith(['AB', 'AB'])]
+    #[TestWith(['', '00'])]
+    #[TestWith(['9', '09'])]
     public function testTransformAduana(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -82,11 +81,9 @@ class NumerosPedimentoAduanaTest extends TestCase
         $this->assertSame($expected, $transform['aduana']);
     }
 
-    /**
-     * @testWith ["ABCD", "ABCD"]
-     *           ["", "0000"]
-     *           ["9", "0009"]
-     */
+    #[TestWith(['ABCD', 'ABCD'])]
+    #[TestWith(['', '0000'])]
+    #[TestWith(['9', '0009'])]
     public function testTransformPatente(string $value, string $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -95,11 +92,9 @@ class NumerosPedimentoAduanaTest extends TestCase
         $this->assertSame($expected, $transform['patente']);
     }
 
-    /**
-     * @testWith ["0", 0]
-     *           ["", 0]
-     *           ["2018", 2018]
-     */
+    #[TestWith(['0', 0])]
+    #[TestWith(['', 0])]
+    #[TestWith(['2018', 2018])]
     public function testTransformEjercicio(string $value, int $expected): void
     {
         $dataTable = $this->injector->dataTable();
@@ -108,11 +103,9 @@ class NumerosPedimentoAduanaTest extends TestCase
         $this->assertSame($expected, $transform['ejercicio']);
     }
 
-    /**
-     * @testWith ["0", 0]
-     *           ["", 0]
-     *           ["2018", 2018]
-     */
+    #[TestWith(['0', 0])]
+    #[TestWith(['', 0])]
+    #[TestWith(['2018', 2018])]
     public function testTransformCantidad(string $value, int $expected): void
     {
         $dataTable = $this->injector->dataTable();

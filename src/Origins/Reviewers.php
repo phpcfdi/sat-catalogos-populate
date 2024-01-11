@@ -9,7 +9,7 @@ use LogicException;
 class Reviewers
 {
     /** @var ReviewerInterface[] */
-    private array $reviewers;
+    private readonly array $reviewers;
 
     public function __construct(ReviewerInterface ...$reviewers)
     {

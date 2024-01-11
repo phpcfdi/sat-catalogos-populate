@@ -18,7 +18,7 @@ abstract class AbstractCollection implements Countable, IteratorAggregate
     /** @var array<int, T> */
     private array $members;
 
-    private int $count;
+    private readonly int $count;
 
     abstract public function isValidMember(mixed $member): bool;
 

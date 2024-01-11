@@ -5,12 +5,13 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Database;
 
 use PhpCfdi\SatCatalogosPopulate\Database\TextDataField;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 class TextDataFieldTest extends TestCase
 {
     /** @return array<string, array{string, string}> */
-    public function providerTransformPerformTrim(): array
+    public static function providerTransformPerformTrim(): array
     {
         return [
             'simple text' => ['foo', 'foo'],
@@ -23,9 +24,7 @@ class TextDataFieldTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider providerTransformPerformTrim
-     */
+    #[DataProvider('providerTransformPerformTrim')]
     public function testTransformPerformTrim(string $input, string $expected): void
     {
         $field = new TextDataField('foo');

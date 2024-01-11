@@ -13,7 +13,7 @@ use RuntimeException;
 
 class WebResourcesGateway implements ResourcesGatewayInterface
 {
-    private GuzzleClient $client;
+    private readonly GuzzleClient $client;
 
     public function __construct(GuzzleClient $client = null)
     {
