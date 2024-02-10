@@ -1,8 +1,8 @@
-Catálogo de tipo servicio.,,,,,,
-Versión,Revisión,Fecha de publicación,,,,
-2.0,0,2021-10-26,,,,
-Clave,Descripción,Contenedor,Fecha de inicio de vigencia,Fecha de fin de vigencia,,
-TS01,Carros Ferroviarios,0,2021-12-01,,,
-TS02,Carros Ferroviarios intermodal,1,2021-12-01,,,
-TS03,Tren unitario de carros ferroviarios,0,2021-12-01,,,
-TS04,Tren unitario Intermodal,1,2021-12-01,,,
+Catálogo de tipo servicio.
+Versión,Revisión,Fecha de publicación
+2.0,0,2021-10-26
+Clave,Descripción,Contenedor,Fecha de inicio de vigencia,Fecha de fin de vigencia
+TS01,Carros Ferroviarios,0,2021-12-01
+TS02,Carros Ferroviarios intermodal,1,2021-12-01
+TS03,Tren unitario de carros ferroviarios,0,2021-12-01
+TS04,Tren unitario Intermodal,1,2021-12-01

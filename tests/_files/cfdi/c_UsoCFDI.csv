@@ -1,27 +1,27 @@
-Catálogo de uso de comprobantes.,,,,,
-Versión,Revisión,,,,
-1.0,1,,,,
+Catálogo de uso de comprobantes.
+Versión,Revisión
+1.0,1
 c_UsoCFDI,Descripción,Aplica para tipo persona,,Fecha inicio de vigencia,Fecha fin de vigencia
-,,Física,Moral,,
-G01,Adquisición de mercancias,Sí,Sí,2017-01-01,
-G02,"Devoluciones, descuentos o bonificaciones",Sí,Sí,2017-01-01,
-G03,Gastos en general,Sí,Sí,2017-01-01,
-I01,Construcciones,Sí,Sí,2017-01-01,
-I02,Mobilario y equipo de oficina por inversiones,Sí,Sí,2017-01-01,
-I03,Equipo de transporte,Sí,Sí,2017-01-01,
-I04,Equipo de computo y accesorios,Sí,Sí,2017-01-01,
-I05,"Dados, troqueles, moldes, matrices y herramental",Sí,Sí,2017-01-01,
-I06,Comunicaciones telefónicas,Sí,Sí,2017-01-01,
-I07,Comunicaciones satelitales,Sí,Sí,2017-01-01,
-I08,Otra maquinaria y equipo,Sí,Sí,2017-01-01,
-D01,"Honorarios médicos, dentales y gastos hospitalarios.",Sí,No,2017-01-01,
-D02,Gastos médicos por incapacidad o discapacidad,Sí,No,2017-01-01,
-D03,Gastos funerales.,Sí,No,2017-01-01,
-D04,Donativos.,Sí,No,2017-01-01,
-D05,Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).,Sí,No,2017-01-01,
-D06,Aportaciones voluntarias al SAR.,Sí,No,2017-01-01,
-D07,Primas por seguros de gastos médicos.,Sí,No,2017-01-01,
-D08,Gastos de transportación escolar obligatoria.,Sí,No,2017-01-01,
-D09,"Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.",Sí,No,2017-01-01,
-D10,Pagos por servicios educativos (colegiaturas),Sí,No,2017-01-01,
-P01,Por definir,Sí,Sí,2017-03-31,
+,,Física,Moral
+G01,Adquisición de mercancias,Sí,Sí,2017-01-01
+G02,"Devoluciones, descuentos o bonificaciones",Sí,Sí,2017-01-01
+G03,Gastos en general,Sí,Sí,2017-01-01
+I01,Construcciones,Sí,Sí,2017-01-01
+I02,Mobilario y equipo de oficina por inversiones,Sí,Sí,2017-01-01
+I03,Equipo de transporte,Sí,Sí,2017-01-01
+I04,Equipo de computo y accesorios,Sí,Sí,2017-01-01
+I05,"Dados, troqueles, moldes, matrices y herramental",Sí,Sí,2017-01-01
+I06,Comunicaciones telefónicas,Sí,Sí,2017-01-01
+I07,Comunicaciones satelitales,Sí,Sí,2017-01-01
+I08,Otra maquinaria y equipo,Sí,Sí,2017-01-01
+D01,"Honorarios médicos, dentales y gastos hospitalarios.",Sí,No,2017-01-01
+D02,Gastos médicos por incapacidad o discapacidad,Sí,No,2017-01-01
+D03,Gastos funerales.,Sí,No,2017-01-01
+D04,Donativos.,Sí,No,2017-01-01
+D05,Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).,Sí,No,2017-01-01
+D06,Aportaciones voluntarias al SAR.,Sí,No,2017-01-01
+D07,Primas por seguros de gastos médicos.,Sí,No,2017-01-01
+D08,Gastos de transportación escolar obligatoria.,Sí,No,2017-01-01
+D09,"Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.",Sí,No,2017-01-01
+D10,Pagos por servicios educativos (colegiaturas),Sí,No,2017-01-01
+P01,Por definir,Sí,Sí,2017-03-31

@@ -1,13 +1,13 @@
-Catálogo de tipos de jornada laboral.,,,
+Catálogo de tipos de jornada laboral.
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
 2017-01-01,,1.0,A
-c_TipoJornada,Descripción,,
-1,Diurna,,
-2,Nocturna,,
-3,Mixta,,
-4,Por hora,,
-5,Reducida,,
-6,Continuada,,
-7,Partida,,
-8,Por turnos,,
-99,Otra Jornada,,
+c_TipoJornada,Descripción
+1,Diurna
+2,Nocturna
+3,Mixta
+4,Por hora
+5,Reducida
+6,Continuada
+7,Partida
+8,Por turnos
+99,Otra Jornada

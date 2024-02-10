@@ -1,24 +1,24 @@
-Catálogo de tasas o cuotas de impuestos.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-Rango o Fijo,c_TasaOCuota,,Impuesto,Factor,Traslado,Retención,Fecha inicio de vigencia,Fecha fin de vigencia,,,
-,Valor mínimo,Valor máximo,,,,,,,,,
-Fijo,,0,IVA,Tasa,Sí,No,2022-01-01,,,,
-Fijo,,0.16,IVA,Tasa,Sí,No,2022-01-01,,,,
-Rango,0,0.16,IVA,Tasa,No,Sí,2022-01-01,,,,
-Fijo,,0.08,IVA Crédito aplicado del 50%,Tasa,Sí,No,2022-01-01,,,,
-Fijo,,0.265,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.3,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.53,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.5,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,1.6,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.304,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.25,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.09,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.08,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.07,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.06,IEPS,Tasa,Sí,Sí,2022-01-01,,,,
-Fijo,,0.03,IEPS,Tasa,Sí,No,2022-01-01,,,,
-Fijo,,0,IEPS,Tasa,Sí,No,2022-01-01,,,,
-Rango,0,59.1449,IEPS,Cuota,Sí,Sí,2022-01-01,,,,
-Rango,0,0.35,ISR,Tasa,No,Sí,2022-01-01,,,,
+Catálogo de tasas o cuotas de impuestos.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,2.0,0,2024-01-04,2022-01-01
+Rango o Fijo,c_TasaOCuota,,Impuesto,Factor,Traslado,Retención,Fecha inicio de vigencia,Fecha fin de vigencia
+,Valor mínimo,Valor máximo
+Fijo,,0,IVA,Tasa,Sí,No,2022-01-01
+Fijo,,0.16,IVA,Tasa,Sí,No,2022-01-01
+Rango,0,0.16,IVA,Tasa,No,Sí,2022-01-01
+Fijo,,0.08,IVA Crédito aplicado del 50%,Tasa,Sí,No,2022-01-01
+Fijo,,0.265,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.3,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.53,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.5,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,1.6,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.304,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.25,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.09,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.08,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.07,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.06,IEPS,Tasa,Sí,Sí,2022-01-01
+Fijo,,0.03,IEPS,Tasa,Sí,No,2022-01-01
+Fijo,,0,IEPS,Tasa,Sí,No,2022-01-01
+Rango,0,66.5062,IEPS,Cuota,Sí,Sí,2024-01-01
+Rango,0,0.35,ISR,Tasa,No,Sí,2022-01-01

@@ -1,48 +1,48 @@
-Catálogo de tipos de percepciones.,,,
-Versión,Revisión,Fecha de publicación,
-2.0,1,2019-12-05,
+Catálogo de tipos de percepciones.
+Versión,Revisión,Fecha de publicación
+2.0,1,2019-12-05
 c_TipoPercepcion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
-1,"Sueldos, Salarios  Rayas y Jornales",2016-11-01,
-2,Gratificación Anual (Aguinaldo),2016-11-01,
-3,Participación de los Trabajadores en las Utilidades PTU,2016-11-01,
-4,Reembolso de Gastos Médicos Dentales y Hospitalarios,2016-11-01,
-5,Fondo de Ahorro,2016-11-01,
-6,Caja de ahorro,2016-11-01,
-9,Contribuciones a Cargo del Trabajador Pagadas por el Patrón,2016-11-01,
-10,Premios por puntualidad,2016-11-01,
-11,Prima de Seguro de vida,2016-11-01,
-12,Seguro de Gastos Médicos Mayores,2016-11-01,
-13,Cuotas Sindicales Pagadas por el Patrón,2016-11-01,
-14,Subsidios por incapacidad,2016-11-01,
-15,Becas para trabajadores y/o hijos,2016-11-01,
-19,Horas extra,2016-11-01,
-20,Prima dominical,2016-11-01,
-21,Prima vacacional,2016-11-01,
-22,Prima por antigüedad,2016-11-01,
-23,Pagos por separación,2016-11-01,
-24,Seguro de retiro,2016-11-01,
-25,Indemnizaciones,2016-11-01,
-26,Reembolso por funeral,2016-11-01,
-27,Cuotas de seguridad social pagadas por el patrón,2016-11-01,
-28,Comisiones,2016-11-01,
-29,Vales de despensa,2016-11-01,
-30,Vales de restaurante,2016-11-01,
-31,Vales de gasolina,2016-11-01,
-32,Vales de ropa,2016-11-01,
-33,Ayuda para renta,2016-11-01,
-34,Ayuda para artículos escolares,2016-11-01,
-35,Ayuda para anteojos,2016-11-01,
-36,Ayuda para transporte,2016-11-01,
-37,Ayuda para gastos de funeral,2016-11-01,
-38,Otros ingresos por salarios,2016-11-01,
-39,"Jubilaciones, pensiones o haberes de retiro",2016-11-01,
-44,"Jubilaciones, pensiones o haberes de retiro en parcialidades",2016-11-01,
-45,Ingresos en acciones o títulos valor que representan bienes,2016-11-01,
- 046,Ingresos asimilados a salarios,2016-11-01,
- 047,Alimentación diferentes a los establecidos en el Art 94 último párrafo LISR,2016-11-01,
-48,Habitación,2016-11-01,
-49,Premios por asistencia,2016-11-01,
-50,Viáticos,2017-01-06,
-51,"Pagos por gratificaciones, primas, compensaciones, recompensas u otros a extrabajadores derivados de jubilación en parcialidades",2018-10-15,
-52,Pagos que se realicen a extrabajadores que obtengan una jubilación en parcialidades derivados de la ejecución de resoluciones judicial o de un laudo,2018-10-15,
-53,Pagos que se realicen a extrabajadores que obtengan una jubilación en una sola exhibición derivados de la ejecución de resoluciones judicial o de un laudo,2018-10-15,
+1,"Sueldos, Salarios  Rayas y Jornales",2016-11-01
+2,Gratificación Anual (Aguinaldo),2016-11-01
+3,Participación de los Trabajadores en las Utilidades PTU,2016-11-01
+4,Reembolso de Gastos Médicos Dentales y Hospitalarios,2016-11-01
+5,Fondo de Ahorro,2016-11-01
+6,Caja de ahorro,2016-11-01
+9,Contribuciones a Cargo del Trabajador Pagadas por el Patrón,2016-11-01
+10,Premios por puntualidad,2016-11-01
+11,Prima de Seguro de vida,2016-11-01
+12,Seguro de Gastos Médicos Mayores,2016-11-01
+13,Cuotas Sindicales Pagadas por el Patrón,2016-11-01
+14,Subsidios por incapacidad,2016-11-01
+15,Becas para trabajadores y/o hijos,2016-11-01
+19,Horas extra,2016-11-01
+20,Prima dominical,2016-11-01
+21,Prima vacacional,2016-11-01
+22,Prima por antigüedad,2016-11-01
+23,Pagos por separación,2016-11-01
+24,Seguro de retiro,2016-11-01
+25,Indemnizaciones,2016-11-01
+26,Reembolso por funeral,2016-11-01
+27,Cuotas de seguridad social pagadas por el patrón,2016-11-01
+28,Comisiones,2016-11-01
+29,Vales de despensa,2016-11-01
+30,Vales de restaurante,2016-11-01
+31,Vales de gasolina,2016-11-01
+32,Vales de ropa,2016-11-01
+33,Ayuda para renta,2016-11-01
+34,Ayuda para artículos escolares,2016-11-01
+35,Ayuda para anteojos,2016-11-01
+36,Ayuda para transporte,2016-11-01
+37,Ayuda para gastos de funeral,2016-11-01
+38,Otros ingresos por salarios,2016-11-01
+39,"Jubilaciones, pensiones o haberes de retiro",2016-11-01
+44,"Jubilaciones, pensiones o haberes de retiro en parcialidades",2016-11-01
+45,Ingresos en acciones o títulos valor que representan bienes,2016-11-01
+ 046,Ingresos asimilados a salarios,2016-11-01
+ 047,Alimentación diferentes a los establecidos en el Art 94 último párrafo LISR,2016-11-01
+48,Habitación,2016-11-01
+49,Premios por asistencia,2016-11-01
+50,Viáticos,2017-01-06
+51,"Pagos por gratificaciones, primas, compensaciones, recompensas u otros a extrabajadores derivados de jubilación en parcialidades",2018-10-15
+52,Pagos que se realicen a extrabajadores que obtengan una jubilación en parcialidades derivados de la ejecución de resoluciones judicial o de un laudo,2018-10-15
+53,Pagos que se realicen a extrabajadores que obtengan una jubilación en una sola exhibición derivados de la ejecución de resoluciones judicial o de un laudo,2018-10-15

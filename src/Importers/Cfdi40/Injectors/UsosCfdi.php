@@ -29,7 +29,7 @@ class UsosCfdi extends AbstractCsvInjector implements InjectorInterface
                 '',
                 'Fecha inicio de vigencia',
                 'Fecha fin de vigencia',
-                'Regímen Fiscal Receptor',
+                'Régimen Fiscal Receptor',
             ],
             [
                 '',

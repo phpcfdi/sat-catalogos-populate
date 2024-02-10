@@ -1,58 +1,58 @@
-Catálogo de unidades de medida para los conceptos en el CFDI.,,,,,,,,,,,,
-Versión,Revisión,,,,,,,,,,,
-2.0,0,,,,,,,,,,,
-c_ClaveUnidad,Nombre,Descripción,Nota,Fecha de inicio de vigencia,Fecha de fin de vigencia,Símbolo,,,,,,
-18,Tambor de cincuenta y cinco galones (EUA),,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-19,Camión cisterna,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-26,Tonelada real,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-29,Libra por mil pies cuadrados,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,Lb / kft²,,,,,,
-30,Día de potencia de caballos por tonelada métrica de aire seco,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-31,Pescar,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-32,Kilogramo por tonelada métrica seca del aire,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-36,Pie cúbico por minuto por pie cuadrado,Se requiere factor de conversión,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,Ft³ / (min / ft²),,,,,,
-44,Bolsa a granel de quinientos kilos,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-45,Bolsa a granel de trescientos kilos,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-46,Bolsa a granel de cincuenta libras,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-47,Bolso de cincuenta libras,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-48,Carga masiva,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-53,Kilogramo teórico,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-54,Tonelada teórica (UK),,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-62,Por ciento por 1000 horas,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-63,Tasa de fracaso en el tiempo,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-64,"Libra por pulgada cuadrada, calíbre",,Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.,2017-08-13,,,,,,,,
-66,Oersted,,Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.,2017-08-13,,Oe,,,,,,
-69,Escala específica de prueba,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-71,Voltios amperios por libra,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-XZB,Bolsa grande,,,2017-08-13,,,,,,,,
-XZC,"Contenedor intermedio para gráneles de papel, multi-pared y resistente al agua",,,2017-08-13,,,,,,,,
-XZD,"Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para sólidos",,,2017-08-13,,,,,,,,
-XZF,"Contenedor intermedio para gráneles de plástico rígido, autoportante para sólidos",,,2017-08-13,,,,,,,,
-XZG,"Contenedor intermedio para gráneles de plástico rígido, con equipo estructural, presurizado",,,2017-08-13,,,,,,,,
-XZH,"Contenedor intermedio para gráneles de plástico rígido, autoportante y presurizado",,,2017-08-13,,,,,,,,
-XZJ,"Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para líquidos",,,2017-08-13,,,,,,,,
-XZK,"Contenedor intermedio para gráneles de plástico rígido, autoportante, líquidos",,,2017-08-13,,,,,,,,
-XZL,"Contenedor intermedio para gráneles, compuesto y de plástico rígido, sólidos",,,2017-08-13,,,,,,,,
-XZM,"Contenedor intermedio para gráneles, compuesto y de plástico flexible, sólidos",,,2017-08-13,,,,,,,,
-XZN,"Contenedor intermedio para gráneles, compuesto y de plástico rígido, presurizado",,,2017-08-13,,,,,,,,
-XZP,"Contenedor intermedio para gráneles, compuesto y de plástico flexible, presurizado",,,2017-08-13,,,,,,,,
-XZQ,"Contenedor intermedio para gráneles, compuesto y de plástico rígido, líquidos",,,2017-08-13,,,,,,,,
-XZR,"Contenedor intermedio para gráneles, compuesto y de plástico flexible para líquidos",,,2017-08-13,,,,,,,,
-XZS,"Contenedor intermedio para gráneles, compuesto",,,2017-08-13,,,,,,,,
-XZT,Contenedor intermedio para gráneles con tablero de fibras,,,2017-08-13,,,,,,,,
-XZU,Contenedor intermedio para gráneles flexible,,,2017-08-13,,,,,,,,
-XZV,"Contenedor intermedio para gráneles de metal, distinto del acero",,,2017-08-13,,,,,,,,
-XZW,"Contenedor intermedio para gráneles, de madera natural",,,2017-08-13,,,,,,,,
-XZX,"Contenedor intermedio para gráneles, de contrachapado",,,2017-08-13,,,,,,,,
-XZY,"Contenedor intermedio para gráneles, de madera reconstituida",,,2017-08-13,,,,,,,,
-YDK,Yarda cuadrada,Es una unidad anglosajona de superficie de una yarda de lado. ,,2017-01-01,,yd²,,,,,,
-YDQ,Yarda cúbica,,,2017-01-01,,yd³,,,,,,
-YL,Cien yardas lineales,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-YRD,Yarda,"Es la unidad de longitud básica en los sistemas de medida utilizados en Estados Unidos, Panamá y Reino Unido.\nEquivale a 91.4 centímetros.",,2017-01-01,,yd,,,,,,
-YT,Diez yardas,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-Z1,Furgoneta,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-Z11,Contenedor colgante ,Unidad de conteo que define el número de contenedores colgantes.,,2017-01-01,,,,,,,,
-Z5,Arrastre,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-Z6,Punto de conferencia,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-Z8,Página de noticias,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,,,,,,,
-ZP,Páginas,Unidad de conteo que define el número de páginas,,2017-01-01,,,,,,,,
-ZZ,Mutuamente definido,Unidad de medida acordada en común entre dos o más partes,,2017-01-01,,,,,,,,
+Catálogo de unidades de medida para los conceptos en el CFDI.
+Versión,Revisión
+2.0,0
+c_ClaveUnidad,Nombre,Descripción,Nota,Fecha de inicio de vigencia,Fecha de fin de vigencia,Símbolo
+18,Tambor de cincuenta y cinco galones (EUA),,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+19,Camión cisterna,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+26,Tonelada real,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+29,Libra por mil pies cuadrados,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,Lb / kft²
+30,Día de potencia de caballos por tonelada métrica de aire seco,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+31,Pescar,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+32,Kilogramo por tonelada métrica seca del aire,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+36,Pie cúbico por minuto por pie cuadrado,Se requiere factor de conversión,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13,,Ft³ / (min / ft²)
+44,Bolsa a granel de quinientos kilos,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+45,Bolsa a granel de trescientos kilos,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+46,Bolsa a granel de cincuenta libras,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+47,Bolso de cincuenta libras,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+48,Carga masiva,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+53,Kilogramo teórico,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+54,Tonelada teórica (UK),,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+62,Por ciento por 1000 horas,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+63,Tasa de fracaso en el tiempo,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+64,"Libra por pulgada cuadrada, calíbre",,Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.,2017-08-13
+66,Oersted,,Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.,2017-08-13,,Oe
+69,Escala específica de prueba,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+71,Voltios amperios por libra,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+XZB,Bolsa grande,,,2017-08-13
+XZC,"Contenedor intermedio para gráneles de papel, multi-pared y resistente al agua",,,2017-08-13
+XZD,"Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para sólidos",,,2017-08-13
+XZF,"Contenedor intermedio para gráneles de plástico rígido, autoportante para sólidos",,,2017-08-13
+XZG,"Contenedor intermedio para gráneles de plástico rígido, con equipo estructural, presurizado",,,2017-08-13
+XZH,"Contenedor intermedio para gráneles de plástico rígido, autoportante y presurizado",,,2017-08-13
+XZJ,"Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para líquidos",,,2017-08-13
+XZK,"Contenedor intermedio para gráneles de plástico rígido, autoportante, líquidos",,,2017-08-13
+XZL,"Contenedor intermedio para gráneles, compuesto y de plástico rígido, sólidos",,,2017-08-13
+XZM,"Contenedor intermedio para gráneles, compuesto y de plástico flexible, sólidos",,,2017-08-13
+XZN,"Contenedor intermedio para gráneles, compuesto y de plástico rígido, presurizado",,,2017-08-13
+XZP,"Contenedor intermedio para gráneles, compuesto y de plástico flexible, presurizado",,,2017-08-13
+XZQ,"Contenedor intermedio para gráneles, compuesto y de plástico rígido, líquidos",,,2017-08-13
+XZR,"Contenedor intermedio para gráneles, compuesto y de plástico flexible para líquidos",,,2017-08-13
+XZS,"Contenedor intermedio para gráneles, compuesto",,,2017-08-13
+XZT,Contenedor intermedio para gráneles con tablero de fibras,,,2017-08-13
+XZU,Contenedor intermedio para gráneles flexible,,,2017-08-13
+XZV,"Contenedor intermedio para gráneles de metal, distinto del acero",,,2017-08-13
+XZW,"Contenedor intermedio para gráneles, de madera natural",,,2017-08-13
+XZX,"Contenedor intermedio para gráneles, de contrachapado",,,2017-08-13
+XZY,"Contenedor intermedio para gráneles, de madera reconstituida",,,2017-08-13
+YDK,Yarda cuadrada,Es una unidad anglosajona de superficie de una yarda de lado. ,,2017-01-01,,yd²
+YDQ,Yarda cúbica,,,2017-01-01,,yd³
+YL,Cien yardas lineales,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+YRD,Yarda,"Es la unidad de longitud básica en los sistemas de medida utilizados en Estados Unidos, Panamá y Reino Unido.\nEquivale a 91.4 centímetros.",,2017-01-01,,yd
+YT,Diez yardas,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+Z1,Furgoneta,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+Z11,Contenedor colgante ,Unidad de conteo que define el número de contenedores colgantes.,,2017-01-01
+Z5,Arrastre,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+Z6,Punto de conferencia,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+Z8,Página de noticias,,"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2017-08-13
+ZP,Páginas,Unidad de conteo que define el número de páginas,,2017-01-01
+ZZ,Mutuamente definido,Unidad de medida acordada en común entre dos o más partes,,2017-01-01

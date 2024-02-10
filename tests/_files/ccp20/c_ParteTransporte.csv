@@ -1,16 +1,16 @@
-Catálogo de partes del transporte rentadas o prestadas.,,,
-Versión,Revisión,Fecha de publicación,
-1.0,0,2021-10-26,
+Catálogo de partes del transporte rentadas o prestadas.
+Versión,Revisión,Fecha de publicación
+1.0,0,2021-10-26
 Clave,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia
-PT01,Camión unitario,2021-12-01,
-PT02,Camión,2021-12-01,
-PT03,Tractocamión,2021-12-01,
-PT04,Remolque,2021-12-01,
-PT05,Semirremolque,2021-12-01,
-PT06,Vehículo ligero de carga,2021-12-01,
-PT07,Grúa,2021-12-01,
-PT08,Aeronave,2021-12-01,
-PT09,Barco o buque,2021-12-01,
-PT10,Carro o vagón,2021-12-01,
-PT11,Contenedor,2021-12-01,
-PT12,Locomotora,2021-12-01,
+PT01,Camión unitario,2021-12-01
+PT02,Camión,2021-12-01
+PT03,Tractocamión,2021-12-01
+PT04,Remolque,2021-12-01
+PT05,Semirremolque,2021-12-01
+PT06,Vehículo ligero de carga,2021-12-01
+PT07,Grúa,2021-12-01
+PT08,Aeronave,2021-12-01
+PT09,Barco o buque,2021-12-01
+PT10,Carro o vagón,2021-12-01
+PT11,Contenedor,2021-12-01
+PT12,Locomotora,2021-12-01

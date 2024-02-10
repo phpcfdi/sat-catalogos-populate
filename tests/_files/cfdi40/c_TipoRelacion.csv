@@ -1,11 +1,11 @@
-Catálogo de tipos de relación entre CFDI.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-c_TipoRelacion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,,
-1,Nota de crédito de los documentos relacionados,2022-01-01,,,,,,,,,
-2,Nota de débito de los documentos relacionados,2022-01-01,,,,,,,,,
-3,Devolución de mercancía sobre facturas o traslados previos,2022-01-01,,,,,,,,,
-4,Sustitución de los CFDI previos,2022-01-01,,,,,,,,,
-5,Traslados de mercancías facturados previamente,2022-01-01,,,,,,,,,
-6,Factura generada por los traslados previos,2022-01-01,,,,,,,,,
-7,CFDI por aplicación de anticipo,2022-01-01,,,,,,,,,
+Catálogo de tipos de relación entre CFDI.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,1.0,0,0,2022-01-01
+c_TipoRelacion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+1,Nota de crédito de los documentos relacionados,2022-01-01
+2,Nota de débito de los documentos relacionados,2022-01-01
+3,Devolución de mercancía sobre facturas o traslados previos,2022-01-01
+4,Sustitución de los CFDI previos,2022-01-01
+5,Traslados de mercancías facturados previamente,2022-01-01
+6,Factura generada por los traslados previos,2022-01-01
+7,CFDI por aplicación de anticipo,2022-01-01

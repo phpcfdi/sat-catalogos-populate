@@ -1,17 +1,17 @@
-Catálogo de tipos de régimen de contratación.,,,,,,,,
-Versión,Revisión,Fecha de publicación,,,,,,
-2.0,1,2019-12-05,,,,,,
-c_TipoRegimen,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,
-2,Sueldos (Incluye ingresos señalados en la fracción I del artículo 94 de LISR),2017-01-01,,,,,,
-3,Jubilados,2017-01-01,,,,,,
-4,Pensionados,2017-01-01,,,,,,
-5,Asimilados Miembros Sociedades Cooperativas Produccion,2017-01-01,,,,,,
-6,Asimilados Integrantes Sociedades Asociaciones Civiles,2017-01-01,,,,,,
-7,Asimilados Miembros consejos,2017-01-01,,,,,,
-8,Asimilados comisionistas,2017-01-01,,,,,,
-9,Asimilados Honorarios,2017-01-01,,,,,,
-10,Asimilados acciones,2017-01-01,,,,,,
-11,Asimilados otros,2017-01-01,,,,,,
-12,Jubilados o Pensionados,2017-03-27,,,,,,
-13,Indemnización o Separación,2018-10-15,,,,,,
-99,Otro Regimen,2017-01-01,,,,,,
+Catálogo de tipos de régimen de contratación.
+Versión,Revisión,Fecha de publicación
+2.0,1,2019-12-05
+c_TipoRegimen,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+2,Sueldos (Incluye ingresos señalados en la fracción I del artículo 94 de LISR),2017-01-01
+3,Jubilados,2017-01-01
+4,Pensionados,2017-01-01
+5,Asimilados Miembros Sociedades Cooperativas Produccion,2017-01-01
+6,Asimilados Integrantes Sociedades Asociaciones Civiles,2017-01-01
+7,Asimilados Miembros consejos,2017-01-01
+8,Asimilados comisionistas,2017-01-01
+9,Asimilados Honorarios,2017-01-01
+10,Asimilados acciones,2017-01-01
+11,Asimilados otros,2017-01-01
+12,Jubilados o Pensionados,2017-03-27
+13,Indemnización o Separación,2018-10-15
+99,Otro Regimen,2017-01-01

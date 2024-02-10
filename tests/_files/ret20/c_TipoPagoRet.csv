@@ -1,8 +1,8 @@
-Catálogo tipo pago de la retención.,,,,,,,
-Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,,,
-2022-01-01,,1.0,1,,,,
-c_TipoPagoRet,Descripción,Tipo impuesto,Fecha inicio de vigencia,Fecha fin de vigencia,,,
-01,Pago definitivo IVA,002,2022-01-01,,,,
-02,Pago definitivo IEPS,003,2022-01-01,,,,
-03,Pago definitivo ISR ,001,2022-01-01,,,,
-04,Pago provisional ISR,001,2022-01-01,,,,
+Catálogo tipo pago de la retención.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2022-01-01,,1.0,1
+c_TipoPagoRet,Descripción,Tipo impuesto,Fecha inicio de vigencia,Fecha fin de vigencia
+01,Pago definitivo IVA,002,2022-01-01
+02,Pago definitivo IEPS,003,2022-01-01
+03,Pago definitivo ISR ,001,2022-01-01
+04,Pago provisional ISR,001,2022-01-01

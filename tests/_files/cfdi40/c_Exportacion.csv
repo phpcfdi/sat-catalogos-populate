@@ -1,8 +1,8 @@
-Catálogo exportación.,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,,,,,,
-4.0,2.0,1,2022-02-24,2022-01-01,,,,,,
-c_Exportacion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,
-01,No aplica,2022-01-01,,,,,,,,
-02,Definitiva con clave A1,2022-01-01,,,,,,,,
-03,Temporal,2022-01-01,,,,,,,,
-04,Definitiva con clave distinta a A1 o cuando no existe enajenación en términos del CFF,2022-02-25,,,,,,,,
+Catálogo exportación.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo
+4.0,2.0,1,2022-02-24,2022-01-01
+c_Exportacion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+01,No aplica,2022-01-01
+02,Definitiva con clave A1,2022-01-01
+03,Temporal,2022-01-01
+04,Definitiva con clave distinta a A1 o cuando no existe enajenación en términos del CFF,2022-02-25

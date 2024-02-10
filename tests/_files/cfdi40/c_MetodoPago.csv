@@ -1,6 +1,6 @@
-Catálogo de Método de Pago.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-c_MetodoPago,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,,
-PUE,Pago en una sola exhibición,2022-01-01,,,,,,,,,
-PPD,Pago en parcialidades o diferido,2022-01-01,,,,,,,,,
+Catálogo de Método de Pago.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,1.0,0,0,2022-01-01
+c_MetodoPago,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+PUE,Pago en una sola exhibición,2022-01-01
+PPD,Pago en parcialidades o diferido,2022-01-01
