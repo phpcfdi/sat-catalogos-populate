@@ -1,15 +1,15 @@
-Catálogo de tipos de periodicidad del pago.,,,
+Catálogo de tipos de periodicidad del pago.
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
 2017-01-01,,1.1,0
 c_PeriodicidadPago,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
-1,Diario,2016-11-01,
-2,Semanal,2016-11-01,
-3,Catorcenal,2016-11-01,
-4,Quincenal,2016-11-01,
-5,Mensual,2016-11-01,
-6,Bimestral,2016-11-01,
-7,Unidad obra,2016-11-01,
-8,Comisión,2016-11-01,
-9,Precio alzado,2016-11-01,
-10,Decenal,2017-01-19,
-99,Otra Periodicidad,2016-11-01,
+1,Diario,2016-11-01
+2,Semanal,2016-11-01
+3,Catorcenal,2016-11-01
+4,Quincenal,2016-11-01
+5,Mensual,2016-11-01
+6,Bimestral,2016-11-01
+7,Unidad obra,2016-11-01
+8,Comisión,2016-11-01
+9,Precio alzado,2016-11-01
+10,Decenal,2017-01-19
+99,Otra Periodicidad,2016-11-01

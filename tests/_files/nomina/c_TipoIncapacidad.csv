@@ -1,8 +1,8 @@
-Catálogo del tipo de incapacidad.,,,,,
-Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,
-2020-01-01,,2.0,0,,
-c_TipoIncapacidad,Descripción,,,,
-1,Riesgo de trabajo.,,,,
-2,Enfermedad en general.,,,,
-3,Maternidad.,,,,
-04,Licencia por cuidados médicos de hijos diagnosticados con cáncer.,,,,
+Catálogo del tipo de incapacidad.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2020-01-01,,2.0,0
+c_TipoIncapacidad,Descripción
+1,Riesgo de trabajo.
+2,Enfermedad en general.
+3,Maternidad.
+04,Licencia por cuidados médicos de hijos diagnosticados con cáncer.

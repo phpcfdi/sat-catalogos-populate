@@ -1,337 +1,337 @@
-Catálogo de colonias.,,,
+Catálogo de colonias.
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
 2017-01-01,,2.0,0
-c_Colonia,c_CodigoPostal,Nombre del asentamiento,
-0001,01000,San Ángel,
-0001,16514,Tetitla la Gallera,
-0001,20000,Zona Centro,
-0001,20339,San José (San José de los Rodríguez),
-0001,20406,Rinconada de las Piedras,
-0001,20656,Carboneras,
-0001,20680,Las Ánimas,
-0001,20700,Guadalupe,
-0001,20854,Parque Industrial Calvillo,
-0001,20926,Rincón del Pilar,
-0001,21000,Centro Cívico,
-0001,21453,Piedra Angular,
-0001,22126,Cañón Palmas,
-0001,22706,Colinas de Mazatlán,
-0001,22785,Siena Residencial,
-0001,23000,Zona Central,
-0001,23462,Leonardo Gastélum Quinta Etapa,
-0001,23620,Vargas,
-0001,24000,San Francisco de Campeche Centro,
-0001,24153,Residencial Las Palmas,
-0001,24207,Cronos,
-0001,24344,Tres de Mayo Tres,
-0001,24353,Miguel Hidalgo (Caracol),
-0001,24640,Bellavista,
-0001,24933,Los Tres Reyes,
-0001,25000,Saltillo Zona Centro,
-0001,25352,Autopista,
-0001,25743,Las Misiones,
-0001,25903,Rincón del Valle,
-0001,26015,Los Laureles,
-0001,26174,El Manantial,
-0001,26234,Veracruz,
-0001,26350,Armando Guadiana Tijerina,
-0001,26510,Álvaro Luna,
-0001,26729,La Capilla,
-0001,26820,Mina Siete,
-0001,27087,Quintas los Nogales,
-0001,27448,Ladrillera,
-0001,27545,Chula Vista,
-0001,27905,Residencial Paraíso,
-0001,27987,Rogelio Montemayor,
-0001,28000,Colima Centro,
-0001,28134,San Ignacio,
-0001,28307,Hacienda las Primaveras,
-0001,28400,Valle de las Huertas,
-0001,28507,Valle Real,
-0001,28700,Los Gobernadores,
-0001,28750,27 de Octubre,
-0001,28864,Almendros Residencial II,
-0001,28978,Residencial Bosque Real,
-0001,29000,Tuxtla Gutiérrez Centro,
-0001,29127,El Carmelo,
-0001,29130,Lomas del Pedregal,
-0001,29148,Salvador Urbina,
-0001,29150,Nandayalu,
-1801,25060,Acueducto,
-1801,30815,Santa Rita,
-1801,33460,Las Palomas,
-1801,35918,Tamanica,
-1801,37620,Rincón de Ortega,
-1801,40040,La Raza,
-1801,43689,20 de Noviembre,
-1801,47187,Ojo de Agua Rincón Del Molino,
-1801,52167,Villas San Gregorio,
-1801,60443,Magallón,
-1801,62755,El Sifón,
-1801,63547,Rancho de Santos García,
-1801,67186,Lucio Blanco,
-1801,69787,San Miguel Peras,
-1801,76900,Portal del Ángel,
-1801,78626,San Pablo,
-1801,81916,Bellavista,
-1801,83575,Burócrata,
-1801,86967,Cuyos de Caoba,
-1801,89672,Morón,
-1801,92895,CEAS,
-1801,97370,Montecarlos,
-1802,11450,Modelo Pensil,
-1802,21395,Pimsa III,
-1802,25197,La Esmeralda,
-1802,30824,Unión Miramar,
-1802,33463,El Tecuán,
-1802,35920,Symon (estación Symon),
-1802,37623,El Aro,
-1802,43690,Ahuehuetitla,
-1802,47187,El Lienzo,
-1802,60443,San Francisco Peribán,
-1802,62746,Agua Blanca,
-1802,63535,Rancho del Bajío,
-1802,67182,Morenita Guajardo,
-1802,69790,Coicoyán de las Flores,
-1802,74690,Tepexi de Rodríguez,
-1802,76900,Rinconada de la Virgen,
-1802,78625,El Mirador,
-1802,81916,Ejidal,
-1802,83573,La Botella,
-1802,86967,Vicenta Lombardo Toledano,
-1802,89673,El Carrizal (Carrera Torres),
-1802,92770,Ceiba Rica,
-1802,97302,Las Américas II,
-1803,11450,Peralitos,
-1803,21395,Hacienda del Sol,
-1803,25088,Australia,
-1803,33464,Ciénega Prieta,
-1803,35922,Estación Rivas,
-1803,37623,La Angostura,
-1803,43670,Plan de Ayala,
-1803,47187,La Corambre,
-1803,60442,El Carrizalillo,
-1803,62743,Ampliación la Biznaga,
-1803,63544,Rancho Doroteo,
-1803,69792,Santiago Tilapa,
-1803,74691,Agua de Santa Ana,
-1803,76900,Bellavista Mezquites,
-1803,78625,La Joya,
-1803,83573,La Presa,
-1803,86967,Buena Vista 23,
-1803,89673,El Carrizal Segundo,
-1803,97249,Hacienda Opichen,
-1804,11460,Dos Lagos,
-1804,21395,Villas del Colorado,
-1804,25057,La Herradura,
-1804,30828,Reforma,
-1804,33470,Guadalupe y Calvo Centro,
-1804,35923,Guadalupito,
-1804,37623,La Lagunita,
-1804,40040,Patria Nueva,
-1804,43670,María Isabel,
-1804,47187,Los Lobos,
-1804,60443,Gildardo Magaña (Los Ángeles),
-1804,62743,Campo Nuevo,
-1804,63536,Rancho Nuevo (Juventino),
-1804,67183,Miguel de la Madrid,
-1804,69799,Tierra Colorada,
-1804,74692,Las Flores,
-1804,76900,Los Frailes,
-1804,78625,La Curva,
-1804,81607,Labastida Ochoa,
-1804,83573,La Copa,
-1804,86966,Francisco I. Madero 1a Sección,
-1804,89673,Higinio Tanguma,
-1804,92123,Cerro de La Cruz,
-1804,97246,Angeles II,
-1805,11460,Lago Norte,
-1805,21395,El Sahuaro,
-1805,25060,La Central,
-1805,30829,Joaquín Miguel Gutiérrez,
-1805,33477,San Simón (Calabazas),
-1805,35925,San Antonio de La Laguna,
-1805,37624,Altos de Ibarra,
-1805,40040,Rubén Jaramillo,
-1805,43695,La Herradura,
-1805,47196,Santa María del Valle,
-1805,52168,Municipal,
-1805,62743,Villareal,
-1805,63538,Rancho Viejo,
-1805,67186,Nuevo Almaguer,
-1805,74692,Yeguas,
-1805,76900,Villa Antigua,
-1805,78625,San Juan,
-1805,81605,Fovissste,
-1805,83574,Hombres Blancos,
-1805,86966,Francisco I. Madero 2a Sección,
-1805,89674,Rancho de Piedra,
-1805,92773,Cerro de Tumilco,
-1805,97130,Cumbres de Altabrisa,
-5787,42344,La Milpota,
-5787,47515,Zitácuaro,
-5787,54665,Caltenco,
-5787,60927,El Chinillo (Puerto Limón),
-5787,65547,Los Martínez,
-5787,70504,Llano Ocote,
-5787,73566,Xalcuahuta,
-5787,85209,Reproductora Pesada 2515 ó 2415,
-5787,95679,La Luisa Antigua,
-5788,29473,San Isidro,
-5788,33274,Nuevo Palomas,
-5788,34577,Los Frailes,
-5788,36214,La Adriana,
-5788,42344,La Rinconada,
-5788,48280,Verde Vallarta,
-5788,54668,San Juan,
-5788,60927,El Chino,
-5788,65547,El León,
-5788,70503,Los Lengüitos (Rancho el Carmen),
-5788,73563,Xalpantzingo,
-5788,85203,Reyes Domínguez,
-5788,95679,La Floreadora (La Bodega),
-5789,30916,23 de Abril,
-5789,33583,11 de Julio,
-5789,34577,Los Frailitos,
-5789,36212,La Bonita del Pochote,
-5789,42345,La Ruda,
-5789,47425,De la Luz,
-5789,54783,La Providencia,
-5789,60923,Las Palmas,
-5789,65547,Doctor Ramón (Raíces),
-5789,70504,Los Magueyales,
-5789,73563,Xaltzinta,
-5789,85203,Ricardo Hurtado,
-5790,30866,Los Naranjos,
-5790,33586,21 de Marzo,
-5790,34596,Los Giotes,
-5790,36212,La Bonita del Pochote Dos,
-5790,42340,La Tinaja Durango,
-5790,47490,De Padre Torres,
-5790,56386,Rancho San Miguel,
-5790,60926,El Cirián,
-5790,65548,Picachos de los Abuelos,
-5790,70507,Los Orozco,
-5790,73563,Xochical,
-5790,85203,Ricardo Topete,
-5790,95686,Santa Rosa,
-5791,30683,La Flor,
-5791,33594,Alamito,
-5791,34575,Los Guajolotes,
-5791,36212,La Casa de Ángel,
-5791,42354,La Venta de Coaxithi,
-5791,47480,Del Carmen,
-5791,55717,Ex-Hacienda San Felipe 2a. Sección,
-5791,60923,El Cirián,
-5791,65548,El Orégano,
-5791,70504,Los Ranchos,
-5791,72014,El Conde,
-5791,85207,Rita Gómez (Bloque 1903),
-5791,95264,Lomas Residencial,
-5792,30907,Rancheria El Carmen,
-5792,33597,Arroyo Prieto,
-5792,34573,Los Inmortales,
-5792,36212,La Casa de Vicente,
-5792,42359,La Ventolera,
-5792,47457,Los Tepetates,
-5792,55717,Rancho la Palma 2a Sección,
-5792,60934,El Cirul,
-5792,65520,Los Reyes,
-5792,70515,Oaxaca,
-5792,72480,Galaxia la Laguna,
-5792,85203,Roberto Encinas (Tozalcahui),
-5793,30356,Nuevo Tepeyac,
-5793,33593,Bajío de Enmedio,
-5793,34594,Los Jacales,
-5793,36210,La Casa del Alto (Miguel Hinojosa),
-5793,42354,Las Pilas,
-5793,47410,El Tepeyac 2a Sección,
-5793,55717,Rancho la Palma 3a Sección,
-5793,60926,El Cóbano,
-5793,66085,Praderas de San Francisco Sector 2,
-5793,70503,Ojo de Agua,
-5793,75916,Tepepa de Zaragoza,
-5793,85203,Roberto Flores,
-5794,30504,Miguel Hidalgo 1,
-5794,33590,Bloquera,
-5794,34594,Los Laureles,
-5794,36216,La Casa del Durazno,
-5794,42345,Las Pilas,
-5794,47410,Geovillas de los Lagos,
-5794,60924,El Cordón Alto,
-5794,64180,Privada Cumbres,
-5794,70516,Ojo de Caballo,
-5794,75916,Playa Vicente,
-5794,85205,Roberto Rodríguez,
-5795,29050,Santa Isabel,
-5795,33597,Cabras,
-5795,34573,Los Laureles,
-5795,36210,La Caseta,
-5795,42356,Las Piletas,
-5795,47443,Jardines de Vista Hermosa,
-5795,55738,Asociación de Comerciantes de Coacalco,
-5795,60935,El Corongorito,
-5795,67050,El Maestro,
-5795,70506,Rancho Candelaria,
-5795,75917,Esperanza,
-5795,85207,Roberto Serna Yáñez,
-5796,30483,Delicias del Carmen,
-5796,33594,Chaveño,
-5796,34584,Los Limones,
-5796,36210,La Concepción de Fernández,
-9944,33637,Rancho Nogales,
-9945,33644,Rancho Nueve de Abril,
-9946,33637,Rancho Nueve de Enero,
-9947,33644,Rancho Nuevo,
-9948,33637,Rancho Ramón Aragón Chávez,
-9949,33637,Rancho Rocío,
-9950,33637,Rancho Rubén Ontiveros,
-9951,33637,Rancho Salcido,
-9952,33633,Rancho San Carlos,
-9953,33633,Rancho San José,
-9954,33633,Rancho San Juan,
-9955,33637,Rancho San Luis,
-9956,33637,Rancho Santa Librada,
-9957,33644,Rancho Seco,
-9958,33633,Rancho Veintiuno de Marzo,
-9959,33637,Rancho Zambrano,
-9960,33645,René Cadena,
-9961,33637,Roberto Burrola,
-9962,33636,Ronquillo,
-9963,33637,Rosalío Hernández,
-9964,33637,Rubén López,
-9965,33633,Salgadeño,
-9966,33637,Salsipuedes,
-9967,33637,San Andrés,
-9968,33637,San Antonio,
-9969,33637,San Antonio,
-9970,33633,San Antonio,
-9971,33637,San Bernardino [Corrales],
-9972,33637,San Carlos,
-9973,33637,San Carlos (Carlos Bario),
-9974,33633,San Esteban,
-9975,33635,San Esteban,
-9976,33637,San Francisco,
-9977,33637,San Ignacio [Corrales],
-9978,33637,San Isidro,
-9979,33637,San José,
-9980,33637,San José,
-9981,33637,San José,
-9982,33637,San José,
-9983,33636,San José,
-9984,33633,San José,
-9985,33636,San José (La Escondida),
-9986,33635,San José de Colomo,
-9987,33636,San José de los Pozos,
-9988,33633,San Juanito,
-9989,33637,San Judas Tadeo,
-9990,33637,San Judas Tadeo (El Gringo),
-9991,33637,San Lorenzo [Cocedores],
-9992,33636,San Marcos,
-9993,33637,San Marcos,
-9994,33637,San Martín,
-9995,33637,San Vicente,
-9996,33637,Santa Eduviges,
-9997,33637,Santa Elena,
-9998,33637,Santa Elena,
-9999,33635,Santa Martha,
+c_Colonia,c_CodigoPostal,Nombre del asentamiento
+0001,01000,San Ángel
+0001,16514,Tetitla la Gallera
+0001,20000,Zona Centro
+0001,20339,San José (San José de los Rodríguez)
+0001,20406,Rinconada de las Piedras
+0001,20656,Carboneras
+0001,20680,Las Ánimas
+0001,20700,Guadalupe
+0001,20854,Parque Industrial Calvillo
+0001,20926,Rincón del Pilar
+0001,21000,Centro Cívico
+0001,21453,Piedra Angular
+0001,22126,Cañón Palmas
+0001,22706,Colinas de Mazatlán
+0001,22785,Siena Residencial
+0001,23000,Zona Central
+0001,23462,Leonardo Gastélum Quinta Etapa
+0001,23620,Vargas
+0001,24000,San Francisco de Campeche Centro
+0001,24153,Residencial Las Palmas
+0001,24207,Cronos
+0001,24344,Tres de Mayo Tres
+0001,24353,Miguel Hidalgo (Caracol)
+0001,24640,Bellavista
+0001,24933,Los Tres Reyes
+0001,25000,Saltillo Zona Centro
+0001,25352,Autopista
+0001,25743,Las Misiones
+0001,25903,Rincón del Valle
+0001,26015,Los Laureles
+0001,26174,El Manantial
+0001,26234,Veracruz
+0001,26350,Armando Guadiana Tijerina
+0001,26510,Álvaro Luna
+0001,26729,La Capilla
+0001,26820,Mina Siete
+0001,27087,Quintas los Nogales
+0001,27448,Ladrillera
+0001,27545,Chula Vista
+0001,27905,Residencial Paraíso
+0001,27987,Rogelio Montemayor
+0001,28000,Colima Centro
+0001,28134,San Ignacio
+0001,28307,Hacienda las Primaveras
+0001,28400,Valle de las Huertas
+0001,28507,Valle Real
+0001,28700,Los Gobernadores
+0001,28750,27 de Octubre
+0001,28864,Almendros Residencial II
+0001,28978,Residencial Bosque Real
+0001,29000,Tuxtla Gutiérrez Centro
+0001,29127,El Carmelo
+0001,29130,Lomas del Pedregal
+0001,29148,Salvador Urbina
+0001,29150,Nandayalu
+1801,25060,Acueducto
+1801,30815,Santa Rita
+1801,33460,Las Palomas
+1801,35918,Tamanica
+1801,37620,Rincón de Ortega
+1801,40040,La Raza
+1801,43689,20 de Noviembre
+1801,47187,Ojo de Agua Rincón Del Molino
+1801,52167,Villas San Gregorio
+1801,60443,Magallón
+1801,62755,El Sifón
+1801,63547,Rancho de Santos García
+1801,67186,Lucio Blanco
+1801,69787,San Miguel Peras
+1801,76900,Portal del Ángel
+1801,78626,San Pablo
+1801,81916,Bellavista
+1801,83575,Burócrata
+1801,86967,Cuyos de Caoba
+1801,89672,Morón
+1801,92895,CEAS
+1801,97370,Montecarlos
+1802,11450,Modelo Pensil
+1802,21395,Pimsa III
+1802,25197,La Esmeralda
+1802,30824,Unión Miramar
+1802,33463,El Tecuán
+1802,35920,Symon (estación Symon)
+1802,37623,El Aro
+1802,43690,Ahuehuetitla
+1802,47187,El Lienzo
+1802,60443,San Francisco Peribán
+1802,62746,Agua Blanca
+1802,63535,Rancho del Bajío
+1802,67182,Morenita Guajardo
+1802,69790,Coicoyán de las Flores
+1802,74690,Tepexi de Rodríguez
+1802,76900,Rinconada de la Virgen
+1802,78625,El Mirador
+1802,81916,Ejidal
+1802,83573,La Botella
+1802,86967,Vicenta Lombardo Toledano
+1802,89673,El Carrizal (Carrera Torres)
+1802,92770,Ceiba Rica
+1802,97302,Las Américas II
+1803,11450,Peralitos
+1803,21395,Hacienda del Sol
+1803,25088,Australia
+1803,33464,Ciénega Prieta
+1803,35922,Estación Rivas
+1803,37623,La Angostura
+1803,43670,Plan de Ayala
+1803,47187,La Corambre
+1803,60442,El Carrizalillo
+1803,62743,Ampliación la Biznaga
+1803,63544,Rancho Doroteo
+1803,69792,Santiago Tilapa
+1803,74691,Agua de Santa Ana
+1803,76900,Bellavista Mezquites
+1803,78625,La Joya
+1803,83573,La Presa
+1803,86967,Buena Vista 23
+1803,89673,El Carrizal Segundo
+1803,97249,Hacienda Opichen
+1804,11460,Dos Lagos
+1804,21395,Villas del Colorado
+1804,25057,La Herradura
+1804,30828,Reforma
+1804,33470,Guadalupe y Calvo Centro
+1804,35923,Guadalupito
+1804,37623,La Lagunita
+1804,40040,Patria Nueva
+1804,43670,María Isabel
+1804,47187,Los Lobos
+1804,60443,Gildardo Magaña (Los Ángeles)
+1804,62743,Campo Nuevo
+1804,63536,Rancho Nuevo (Juventino)
+1804,67183,Miguel de la Madrid
+1804,69799,Tierra Colorada
+1804,74692,Las Flores
+1804,76900,Los Frailes
+1804,78625,La Curva
+1804,81607,Labastida Ochoa
+1804,83573,La Copa
+1804,86966,Francisco I. Madero 1a Sección
+1804,89673,Higinio Tanguma
+1804,92123,Cerro de La Cruz
+1804,97246,Angeles II
+1805,11460,Lago Norte
+1805,21395,El Sahuaro
+1805,25060,La Central
+1805,30829,Joaquín Miguel Gutiérrez
+1805,33477,San Simón (Calabazas)
+1805,35925,San Antonio de La Laguna
+1805,37624,Altos de Ibarra
+1805,40040,Rubén Jaramillo
+1805,43695,La Herradura
+1805,47196,Santa María del Valle
+1805,52168,Municipal
+1805,62743,Villareal
+1805,63538,Rancho Viejo
+1805,67186,Nuevo Almaguer
+1805,74692,Yeguas
+1805,76900,Villa Antigua
+1805,78625,San Juan
+1805,81605,Fovissste
+1805,83574,Hombres Blancos
+1805,86966,Francisco I. Madero 2a Sección
+1805,89674,Rancho de Piedra
+1805,92773,Cerro de Tumilco
+1805,97130,Cumbres de Altabrisa
+5787,42344,La Milpota
+5787,47515,Zitácuaro
+5787,54665,Caltenco
+5787,60927,El Chinillo (Puerto Limón)
+5787,65547,Los Martínez
+5787,70504,Llano Ocote
+5787,73566,Xalcuahuta
+5787,85209,Reproductora Pesada 2515 ó 2415
+5787,95679,La Luisa Antigua
+5788,29473,San Isidro
+5788,33274,Nuevo Palomas
+5788,34577,Los Frailes
+5788,36214,La Adriana
+5788,42344,La Rinconada
+5788,48280,Verde Vallarta
+5788,54668,San Juan
+5788,60927,El Chino
+5788,65547,El León
+5788,70503,Los Lengüitos (Rancho el Carmen)
+5788,73563,Xalpantzingo
+5788,85203,Reyes Domínguez
+5788,95679,La Floreadora (La Bodega)
+5789,30916,23 de Abril
+5789,33583,11 de Julio
+5789,34577,Los Frailitos
+5789,36212,La Bonita del Pochote
+5789,42345,La Ruda
+5789,47425,De la Luz
+5789,54783,La Providencia
+5789,60923,Las Palmas
+5789,65547,Doctor Ramón (Raíces)
+5789,70504,Los Magueyales
+5789,73563,Xaltzinta
+5789,85203,Ricardo Hurtado
+5790,30866,Los Naranjos
+5790,33586,21 de Marzo
+5790,34596,Los Giotes
+5790,36212,La Bonita del Pochote Dos
+5790,42340,La Tinaja Durango
+5790,47490,De Padre Torres
+5790,56386,Rancho San Miguel
+5790,60926,El Cirián
+5790,65548,Picachos de los Abuelos
+5790,70507,Los Orozco
+5790,73563,Xochical
+5790,85203,Ricardo Topete
+5790,95686,Santa Rosa
+5791,30683,La Flor
+5791,33594,Alamito
+5791,34575,Los Guajolotes
+5791,36212,La Casa de Ángel
+5791,42354,La Venta de Coaxithi
+5791,47480,Del Carmen
+5791,55717,Ex-Hacienda San Felipe 2a. Sección
+5791,60923,El Cirián
+5791,65548,El Orégano
+5791,70504,Los Ranchos
+5791,72014,El Conde
+5791,85207,Rita Gómez (Bloque 1903)
+5791,95264,Lomas Residencial
+5792,30907,Rancheria El Carmen
+5792,33597,Arroyo Prieto
+5792,34573,Los Inmortales
+5792,36212,La Casa de Vicente
+5792,42359,La Ventolera
+5792,47457,Los Tepetates
+5792,55717,Rancho la Palma 2a Sección
+5792,60934,El Cirul
+5792,65520,Los Reyes
+5792,70515,Oaxaca
+5792,72480,Galaxia la Laguna
+5792,85203,Roberto Encinas (Tozalcahui)
+5793,30356,Nuevo Tepeyac
+5793,33593,Bajío de Enmedio
+5793,34594,Los Jacales
+5793,36210,La Casa del Alto (Miguel Hinojosa)
+5793,42354,Las Pilas
+5793,47410,El Tepeyac 2a Sección
+5793,55717,Rancho la Palma 3a Sección
+5793,60926,El Cóbano
+5793,66085,Praderas de San Francisco Sector 2
+5793,70503,Ojo de Agua
+5793,75916,Tepepa de Zaragoza
+5793,85203,Roberto Flores
+5794,30504,Miguel Hidalgo 1
+5794,33590,Bloquera
+5794,34594,Los Laureles
+5794,36216,La Casa del Durazno
+5794,42345,Las Pilas
+5794,47410,Geovillas de los Lagos
+5794,60924,El Cordón Alto
+5794,64180,Privada Cumbres
+5794,70516,Ojo de Caballo
+5794,75916,Playa Vicente
+5794,85205,Roberto Rodríguez
+5795,29050,Santa Isabel
+5795,33597,Cabras
+5795,34573,Los Laureles
+5795,36210,La Caseta
+5795,42356,Las Piletas
+5795,47443,Jardines de Vista Hermosa
+5795,55738,Asociación de Comerciantes de Coacalco
+5795,60935,El Corongorito
+5795,67050,El Maestro
+5795,70506,Rancho Candelaria
+5795,75917,Esperanza
+5795,85207,Roberto Serna Yáñez
+5796,30483,Delicias del Carmen
+5796,33594,Chaveño
+5796,34584,Los Limones
+5796,36210,La Concepción de Fernández
+9944,33637,Rancho Nogales
+9945,33644,Rancho Nueve de Abril
+9946,33637,Rancho Nueve de Enero
+9947,33644,Rancho Nuevo
+9948,33637,Rancho Ramón Aragón Chávez
+9949,33637,Rancho Rocío
+9950,33637,Rancho Rubén Ontiveros
+9951,33637,Rancho Salcido
+9952,33633,Rancho San Carlos
+9953,33633,Rancho San José
+9954,33633,Rancho San Juan
+9955,33637,Rancho San Luis
+9956,33637,Rancho Santa Librada
+9957,33644,Rancho Seco
+9958,33633,Rancho Veintiuno de Marzo
+9959,33637,Rancho Zambrano
+9960,33645,René Cadena
+9961,33637,Roberto Burrola
+9962,33636,Ronquillo
+9963,33637,Rosalío Hernández
+9964,33637,Rubén López
+9965,33633,Salgadeño
+9966,33637,Salsipuedes
+9967,33637,San Andrés
+9968,33637,San Antonio
+9969,33637,San Antonio
+9970,33633,San Antonio
+9971,33637,San Bernardino [Corrales]
+9972,33637,San Carlos
+9973,33637,San Carlos (Carlos Bario)
+9974,33633,San Esteban
+9975,33635,San Esteban
+9976,33637,San Francisco
+9977,33637,San Ignacio [Corrales]
+9978,33637,San Isidro
+9979,33637,San José
+9980,33637,San José
+9981,33637,San José
+9982,33637,San José
+9983,33636,San José
+9984,33633,San José
+9985,33636,San José (La Escondida)
+9986,33635,San José de Colomo
+9987,33636,San José de los Pozos
+9988,33633,San Juanito
+9989,33637,San Judas Tadeo
+9990,33637,San Judas Tadeo (El Gringo)
+9991,33637,San Lorenzo [Cocedores]
+9992,33636,San Marcos
+9993,33637,San Marcos
+9994,33637,San Martín
+9995,33637,San Vicente
+9996,33637,Santa Eduviges
+9997,33637,Santa Elena
+9998,33637,Santa Elena
+9999,33635,Santa Martha

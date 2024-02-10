@@ -1,18 +1,18 @@
-Catálogo de Claves de Productos y Servicios.,,,,,,,,
-Versión,Revisión,Fecha de publicación,,,,,,
-4.0,0,2020-12-29,,,,,,
+Catálogo de Claves de Productos y Servicios.
+Versión,Revisión,Fecha de publicación
+4.0,0,2020-12-29
 c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Complemento que debe incluir,FechaInicioVigencia,FechaFinVigencia,Estímulo Franja Fronteriza,Palabras similares
 01010101,No existe en el catálogo,Opcional,Opcional,,2019-01-07,,0,Público en general
-10101500,Animales vivos de granja,Opcional,Opcional,,2019-01-07,,1,
-10101501,Gatos vivos,Opcional,Opcional,,2019-01-07,,1,
-10101502,Perros,Opcional,Opcional,,2019-01-07,,1,
-10101504,Visón,Opcional,Opcional,,2019-01-07,,1,
-10101505,Ratas,Opcional,Opcional,,2019-01-07,,1,
+10101500,Animales vivos de granja,Opcional,Opcional,,2019-01-07,,1
+10101501,Gatos vivos,Opcional,Opcional,,2019-01-07,,1
+10101502,Perros,Opcional,Opcional,,2019-01-07,,1
+10101504,Visón,Opcional,Opcional,,2019-01-07,,1
+10101505,Ratas,Opcional,Opcional,,2019-01-07,,1
 10101506,Caballos,Opcional,Opcional,,2019-01-07,,1,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas"
 10101507,Ovejas,Opcional,Opcional,,2019-01-07,,1,"Borregos, Carneros"
 10101508,Cabras,Opcional,Opcional,,2019-01-07,,1,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos"
 10101509,Asnos,Opcional,Opcional,,2019-01-07,,1,"Borricos, Burros"
-10101510,Ratones,Opcional,Opcional,,2019-01-07,,1,
+10101510,Ratones,Opcional,Opcional,,2019-01-07,,1
 10101511,Cerdos,Opcional,Opcional,,2019-01-07,,1,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos"
 10101512,Conejos,Opcional,Opcional,,2019-01-07,,1,Liebres
 10101513,Cobayas o conejillos de indias,Opcional,Opcional,,2019-01-07,,1,"Chanchito de Indias, Cobayos, Cuilo, Cuyo"
@@ -20,150 +20,150 @@ c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Comp
 10101515,Armadillos,Opcional,Opcional,,2019-01-07,,1,Toches
 10101516,Ganado vacuno,Opcional,Opcional,,2019-01-07,,1,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas"
 10101517,Camellos,Opcional,Opcional,,2019-01-07,,1,Dromedarios
-10101600,Pájaros y aves de corral vivos,Opcional,Opcional,,2019-01-07,,1,
+10101600,Pájaros y aves de corral vivos,Opcional,Opcional,,2019-01-07,,1
 10101601,Pollos vivos,Opcional,Opcional,,2019-01-07,,1,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos"
-10101602,Patos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101602,Patos vivos,Opcional,Opcional,,2019-01-07,,1
 10101603,Pavos vivos,Opcional,Opcional,,2019-01-07,,1,"Gallipavos, Guajolotes, Pavos salvajes"
-10101604,Gansos vivos,Opcional,Opcional,,2019-01-07,,1,
-10101605,Faisanes vivos,Opcional,Opcional,,2019-01-07,,1,
-10101700,Peces vivos,Opcional,Opcional,,2019-01-07,,1,
-10101701,Salmones vivos,Opcional,Opcional,,2019-01-07,,1,
-10101702,Trucha viva,Opcional,Opcional,,2019-01-07,,1,
+10101604,Gansos vivos,Opcional,Opcional,,2019-01-07,,1
+10101605,Faisanes vivos,Opcional,Opcional,,2019-01-07,,1
+10101700,Peces vivos,Opcional,Opcional,,2019-01-07,,1
+10101701,Salmones vivos,Opcional,Opcional,,2019-01-07,,1
+10101702,Trucha viva,Opcional,Opcional,,2019-01-07,,1
 10101703,Tilapia viva,Opcional,Opcional,,2019-01-07,,1,Mojarra
-10101704,Carpa viva,Opcional,Opcional,,2019-01-07,,1,
-10101705,Anguilas vivas,Opcional,Opcional,,2019-01-07,,1,
-10101800,Mariscos e invertebrados acuáticos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101704,Carpa viva,Opcional,Opcional,,2019-01-07,,1
+10101705,Anguilas vivas,Opcional,Opcional,,2019-01-07,,1
+10101800,Mariscos e invertebrados acuáticos vivos,Opcional,Opcional,,2019-01-07,,1
 10101801,Camarón vivo,Opcional,Opcional,,2019-01-07,,1,Esquilas
-10101802,Almejas vivas,Opcional,Opcional,,2019-01-07,,1,
-10101803,Mejillones vivos,Opcional,Opcional,,2019-01-07,,1,
-10101804,Ostras vivas,Opcional,Opcional,,2019-01-07,,1,
-10101805,Cangrejos vivos,Opcional,Opcional,,2019-01-07,,1,
+10101802,Almejas vivas,Opcional,Opcional,,2019-01-07,,1
+10101803,Mejillones vivos,Opcional,Opcional,,2019-01-07,,1
+10101804,Ostras vivas,Opcional,Opcional,,2019-01-07,,1
+10101805,Cangrejos vivos,Opcional,Opcional,,2019-01-07,,1
 10101806,Abulones vivos,Opcional,Opcional,,2019-01-07,,1,Orejas de mar
 10101807,Pulpo vivo,Opcional,Opcional,,2019-01-07,,1,Octópodo
-10101808,Calamar vivo,Opcional,Opcional,,2019-01-07,,1,
+10101808,Calamar vivo,Opcional,Opcional,,2019-01-07,,1
 10101809,Sanguijuelas,Opcional,Opcional,,2019-01-07,,1,"Hirudineas, Hirudos, Hirudíneo"
-10101900,Insectos vivos,Opcional,Opcional,,2019-01-07,,1,
-10101901,Mariposas,Opcional,Opcional,,2019-01-07,,1,
+10101900,Insectos vivos,Opcional,Opcional,,2019-01-07,,1
+10101901,Mariposas,Opcional,Opcional,,2019-01-07,,1
 10101902,Escarabajos,Opcional,Opcional,,2019-01-07,,1,"Mariquitas, Sanjuaneros"
-10101903,Abejas,Opcional,Opcional,,2019-01-07,,1,
+10101903,Abejas,Opcional,Opcional,,2019-01-07,,1
 10101904,Gusanos de seda,Opcional,Opcional,,2019-01-07,,1,"Crisálida, Larva, Orug"
-10102000,Animales salvajes vivos,Opcional,Opcional,,2019-01-07,,1,
+10102000,Animales salvajes vivos,Opcional,Opcional,,2019-01-07,,1
 10102001,Elefantes,Opcional,Opcional,,2019-01-07,,1,Paquidermos
 10102002,Zorros vivos,Opcional,Opcional,,2019-01-07,,1,Zorras
-10102100,Huevos de aves para incubar,Opcional,Opcional,,2019-01-07,,1,
+10102100,Huevos de aves para incubar,Opcional,Opcional,,2019-01-07,,1
 10111300,"Accesorios, equipo y tratamientos para los animales domésticos",Opcional,Opcional,,2019-01-07,,1,"Accesorios, equipo y medicamentos para animales domésticos"
-10111301,Juguetes para mascotas,Opcional,Opcional,,2019-01-07,,1,
-10111302,Productos para el aseo y cuidado de mascotas,Opcional,Opcional,,2019-01-07,,1,
-10111303,Equipo para el manejo de desperdicios de las mascotas,Opcional,Opcional,,2019-01-07,,1,
-10111304,Tazones o equipo para alimentación de mascotas,Opcional,Opcional,,2019-01-07,,1,
+10111301,Juguetes para mascotas,Opcional,Opcional,,2019-01-07,,1
+10111302,Productos para el aseo y cuidado de mascotas,Opcional,Opcional,,2019-01-07,,1
+10111303,Equipo para el manejo de desperdicios de las mascotas,Opcional,Opcional,,2019-01-07,,1
+10111304,Tazones o equipo para alimentación de mascotas,Opcional,Opcional,,2019-01-07,,1
 10111305,Tratamientos medicados para mascotas,Opcional,Opcional,,2019-01-07,,1,Tratamientos medicinales para mascotas
-10111306,Kits para el entrenamiento de mascotas domésticas,Opcional,Opcional,,2019-01-07,,1,
+10111306,Kits para el entrenamiento de mascotas domésticas,Opcional,Opcional,,2019-01-07,,1
 10111307,Cobijas para mascotas,Opcional,Opcional,,2019-01-07,,1,"Mantas para mascotas, Sábanas para mascotas"
 10121500,Pienso para ganado,Opcional,Opcional,,2019-01-07,,1,Alimento para ganado
-10121501,Salvado de trigo puro,Opcional,Opcional,,2019-01-07,,1,
-10121502,Avena para forraje,Opcional,Opcional,,2019-01-07,,1,
-10121503,Maíz para forraje,Opcional,Opcional,,2019-01-07,,1,
-10121504,Sorgo para forraje,Opcional,Opcional,,2019-01-07,,1,
-10121505,Heno,Opcional,Opcional,,2019-01-07,,1,
+10121501,Salvado de trigo puro,Opcional,Opcional,,2019-01-07,,1
+10121502,Avena para forraje,Opcional,Opcional,,2019-01-07,,1
+10121503,Maíz para forraje,Opcional,Opcional,,2019-01-07,,1
+10121504,Sorgo para forraje,Opcional,Opcional,,2019-01-07,,1
+10121505,Heno,Opcional,Opcional,,2019-01-07,,1
 10121506,Tortas oleaginosas,Opcional,Opcional,,2019-01-07,,1,Torta de aceite para ganado
-10121507,Forraje compuesto,Opcional,Opcional,,2019-01-07,,1,
-10121600,Alimento para pájaros y aves de corral,Opcional,Opcional,,2019-01-07,,1,
-10121601,Alimento vivo para aves,Opcional,Opcional,,2019-01-07,,1,
-10121602,Alpiste,Opcional,Opcional,,2019-01-07,,1,
-10121603,Botanas o comida recreacional para aves,Opcional,Opcional,,2019-01-07,,1,
-10121604,Alimento avícola,Opcional,Opcional,,2019-01-07,,1,
-10121700,Alimento para peces,Opcional,Opcional,,2019-01-07,,1,
-10121701,Salmuera fresca o congelada,Opcional,Opcional,,2019-01-07,,1,
-10121702,Alimento granulado para peces,Opcional,Opcional,,2019-01-07,,1,
-10121703,Alimento en hojuelas para peces,Opcional,Opcional,,2019-01-07,,1,
-10121800,Alimento para perros y gatos,Opcional,Opcional,,2019-01-07,,1,
-10121801,Comida seca para perros,Opcional,Opcional,,2019-01-07,,1,
-10121802,Comida húmeda para perros,Opcional,Opcional,,2019-01-07,,1,
-10121803,Leche para perros o gatos,Opcional,Opcional,,2019-01-07,,1,
-10121804,Comida seca para gatos,Opcional,Opcional,,2019-01-07,,1,
-10121805,Comida húmeda para gatos,Opcional,Opcional,,2019-01-07,,1,
-95121908,Instalación para investigación o prueba,Opcional,Opcional,,2019-01-07,,0,
-95121909,Escuela primaria,Opcional,Opcional,,2019-01-07,,0,
-95121910,Escuela de bachillerato clásico,Opcional,Opcional,,2019-01-07,,0,
-95121911,Escuela de bachillerato,Opcional,Opcional,,2019-01-07,,0,
-95121913,Universidad,Opcional,Opcional,,2019-01-07,,0,
-95122000,Edificios y estructuras hospitalarias,Opcional,Opcional,,2019-01-07,,0,
-95122001,Clínica,Opcional,Opcional,,2019-01-07,,0,
-95122002,Hogar de convalecencia,Opcional,Opcional,,2019-01-07,,0,
-95122003,Sala de operaciones o quirófano,Opcional,Opcional,,2019-01-07,,0,
-95122004,Unidad de cuidados intensivos,Opcional,Opcional,,2019-01-07,,0,
-95122005,Sala de detección y diagnóstico,Opcional,Opcional,,2019-01-07,,0,
-95122006,Sala de fluoroscopio,Opcional,Opcional,,2019-01-07,,0,
-95122007,Sala o laboratorio de patología,Opcional,Opcional,,2019-01-07,,0,
-95122008,Sala de cateterismo,Opcional,Opcional,,2019-01-07,,0,
-95122100,Edificios y estructuras de acomodaciones,Opcional,Opcional,,2019-01-07,,0,
-95122101,Casa residencial,Opcional,Opcional,,2019-01-07,,0,
-95122102,Apartamento o piso,Opcional,Opcional,,2019-01-07,,0,
-95122103,Asilo de niños,Opcional,Opcional,,2019-01-07,,0,
-95122104,Guardería de niños,Opcional,Opcional,,2019-01-07,,0,
-95122105,Hogar de ancianos,Opcional,Opcional,,2019-01-07,,0,
-95122106,Hostal,Opcional,Opcional,,2019-01-07,,0,
-95122300,Edificios y estructuras de salud y deportivas,Opcional,Opcional,,2019-01-07,,0,
-95122301,Estadio,Opcional,Opcional,,2019-01-07,,0,
-95122302,Campo deportivo,Opcional,Opcional,,2019-01-07,,0,
-95122303,Pista de carreras,Opcional,Opcional,,2019-01-07,,0,
-95122304,Polideportivo,Opcional,Opcional,,2019-01-07,,0,
-95122305,Spa,Opcional,Opcional,,2019-01-07,,0,
-95122306,Gimnasio,Opcional,Opcional,,2019-01-07,,0,
-95122307,Piscina,Opcional,Opcional,,2019-01-07,,0,
-95122308,Instalación para deportes acuáticos,Opcional,Opcional,,2019-01-07,,0,
-95122400,Edificios y estructuras industriales,Opcional,Opcional,,2019-01-07,,0,
-95122401,Taller,Opcional,Opcional,,2019-01-07,,0,
-95122402,Instalación para conservación en cámaras frigoríficas,Opcional,Opcional,,2019-01-07,,0,
-95122403,Tienda de descuentos,Opcional,Opcional,,2019-01-07,,0,
-95122500,Edificios y estructuras agrícolas y de cultivos y pesca,Opcional,Opcional,,2019-01-07,,0,
-95122501,Granero,Opcional,Opcional,,2019-01-07,,0,
-95122502,Establo,Opcional,Opcional,,2019-01-07,,0,
-95122503,Canal de riego,Opcional,Opcional,,2019-01-07,,0,
-95122600,Edificios y estructuras religiosas,Opcional,Opcional,,2019-01-07,,0,
-95122700,Edificios y estructuras de defensa,Opcional,Opcional,,2019-01-07,,0,
-95131500,Tarimas y graderías,Opcional,Opcional,,2019-01-07,,1,
-95131501,Graderías plegables,Opcional,Opcional,,2019-01-07,,1,
-95131502,Graderías móviles,Opcional,Opcional,,2019-01-07,,1,
-95131503,Graderías portátiles,Opcional,Opcional,,2019-01-07,,1,
-95131600,Edificios y estructuras comerciales e industriales portátiles,Opcional,Opcional,,2019-01-07,,1,
-95131601,Taquillas portátiles,Opcional,Opcional,,2019-01-07,,1,
+10121507,Forraje compuesto,Opcional,Opcional,,2019-01-07,,1
+10121600,Alimento para pájaros y aves de corral,Opcional,Opcional,,2019-01-07,,1
+10121601,Alimento vivo para aves,Opcional,Opcional,,2019-01-07,,1
+10121602,Alpiste,Opcional,Opcional,,2019-01-07,,1
+10121603,Botanas o comida recreacional para aves,Opcional,Opcional,,2019-01-07,,1
+10121604,Alimento avícola,Opcional,Opcional,,2019-01-07,,1
+10121700,Alimento para peces,Opcional,Opcional,,2019-01-07,,1
+10121701,Salmuera fresca o congelada,Opcional,Opcional,,2019-01-07,,1
+10121702,Alimento granulado para peces,Opcional,Opcional,,2019-01-07,,1
+10121703,Alimento en hojuelas para peces,Opcional,Opcional,,2019-01-07,,1
+10121800,Alimento para perros y gatos,Opcional,Opcional,,2019-01-07,,1
+10121801,Comida seca para perros,Opcional,Opcional,,2019-01-07,,1
+10121802,Comida húmeda para perros,Opcional,Opcional,,2019-01-07,,1
+10121803,Leche para perros o gatos,Opcional,Opcional,,2019-01-07,,1
+10121804,Comida seca para gatos,Opcional,Opcional,,2019-01-07,,1
+10121805,Comida húmeda para gatos,Opcional,Opcional,,2019-01-07,,1
+95121908,Instalación para investigación o prueba,Opcional,Opcional,,2019-01-07,,0
+95121909,Escuela primaria,Opcional,Opcional,,2019-01-07,,0
+95121910,Escuela de bachillerato clásico,Opcional,Opcional,,2019-01-07,,0
+95121911,Escuela de bachillerato,Opcional,Opcional,,2019-01-07,,0
+95121913,Universidad,Opcional,Opcional,,2019-01-07,,0
+95122000,Edificios y estructuras hospitalarias,Opcional,Opcional,,2019-01-07,,0
+95122001,Clínica,Opcional,Opcional,,2019-01-07,,0
+95122002,Hogar de convalecencia,Opcional,Opcional,,2019-01-07,,0
+95122003,Sala de operaciones o quirófano,Opcional,Opcional,,2019-01-07,,0
+95122004,Unidad de cuidados intensivos,Opcional,Opcional,,2019-01-07,,0
+95122005,Sala de detección y diagnóstico,Opcional,Opcional,,2019-01-07,,0
+95122006,Sala de fluoroscopio,Opcional,Opcional,,2019-01-07,,0
+95122007,Sala o laboratorio de patología,Opcional,Opcional,,2019-01-07,,0
+95122008,Sala de cateterismo,Opcional,Opcional,,2019-01-07,,0
+95122100,Edificios y estructuras de acomodaciones,Opcional,Opcional,,2019-01-07,,0
+95122101,Casa residencial,Opcional,Opcional,,2019-01-07,,0
+95122102,Apartamento o piso,Opcional,Opcional,,2019-01-07,,0
+95122103,Asilo de niños,Opcional,Opcional,,2019-01-07,,0
+95122104,Guardería de niños,Opcional,Opcional,,2019-01-07,,0
+95122105,Hogar de ancianos,Opcional,Opcional,,2019-01-07,,0
+95122106,Hostal,Opcional,Opcional,,2019-01-07,,0
+95122300,Edificios y estructuras de salud y deportivas,Opcional,Opcional,,2019-01-07,,0
+95122301,Estadio,Opcional,Opcional,,2019-01-07,,0
+95122302,Campo deportivo,Opcional,Opcional,,2019-01-07,,0
+95122303,Pista de carreras,Opcional,Opcional,,2019-01-07,,0
+95122304,Polideportivo,Opcional,Opcional,,2019-01-07,,0
+95122305,Spa,Opcional,Opcional,,2019-01-07,,0
+95122306,Gimnasio,Opcional,Opcional,,2019-01-07,,0
+95122307,Piscina,Opcional,Opcional,,2019-01-07,,0
+95122308,Instalación para deportes acuáticos,Opcional,Opcional,,2019-01-07,,0
+95122400,Edificios y estructuras industriales,Opcional,Opcional,,2019-01-07,,0
+95122401,Taller,Opcional,Opcional,,2019-01-07,,0
+95122402,Instalación para conservación en cámaras frigoríficas,Opcional,Opcional,,2019-01-07,,0
+95122403,Tienda de descuentos,Opcional,Opcional,,2019-01-07,,0
+95122500,Edificios y estructuras agrícolas y de cultivos y pesca,Opcional,Opcional,,2019-01-07,,0
+95122501,Granero,Opcional,Opcional,,2019-01-07,,0
+95122502,Establo,Opcional,Opcional,,2019-01-07,,0
+95122503,Canal de riego,Opcional,Opcional,,2019-01-07,,0
+95122600,Edificios y estructuras religiosas,Opcional,Opcional,,2019-01-07,,0
+95122700,Edificios y estructuras de defensa,Opcional,Opcional,,2019-01-07,,0
+95131500,Tarimas y graderías,Opcional,Opcional,,2019-01-07,,1
+95131501,Graderías plegables,Opcional,Opcional,,2019-01-07,,1
+95131502,Graderías móviles,Opcional,Opcional,,2019-01-07,,1
+95131503,Graderías portátiles,Opcional,Opcional,,2019-01-07,,1
+95131600,Edificios y estructuras comerciales e industriales portátiles,Opcional,Opcional,,2019-01-07,,1
+95131601,Taquillas portátiles,Opcional,Opcional,,2019-01-07,,1
 95131602,Cuarto de baño portátil,Opcional,Opcional,,2019-01-07,,1,"Servicios en baños portátiles, Servicios en baños públicos"
-95131603,Oficina en el emplazamiento,Opcional,Opcional,,2019-01-07,,1,
-95131604,Unidad de cocina portátil,Opcional,Opcional,,2019-01-07,,1,
-95131605,Casa contenedor,Opcional,Opcional,,2019-01-07,,1,
-95131606,Cabina de ventas portátil,Opcional,Opcional,,2019-01-07,,1,
-95131700,Tiendas carpas y estructuras de membrana,Opcional,Opcional,,2019-01-07,,1,
-95131701,Estructura textil tipo armazón,Opcional,Opcional,,2019-01-07,,1,
-95131702,Carpa de poste o de tensión,Opcional,Opcional,,2019-01-07,,1,
-95141500,Edificios y estructuras prefabricados para fincas,Opcional,Opcional,,2019-01-07,,0,
+95131603,Oficina en el emplazamiento,Opcional,Opcional,,2019-01-07,,1
+95131604,Unidad de cocina portátil,Opcional,Opcional,,2019-01-07,,1
+95131605,Casa contenedor,Opcional,Opcional,,2019-01-07,,1
+95131606,Cabina de ventas portátil,Opcional,Opcional,,2019-01-07,,1
+95131700,Tiendas carpas y estructuras de membrana,Opcional,Opcional,,2019-01-07,,1
+95131701,Estructura textil tipo armazón,Opcional,Opcional,,2019-01-07,,1
+95131702,Carpa de poste o de tensión,Opcional,Opcional,,2019-01-07,,1
+95141500,Edificios y estructuras prefabricados para fincas,Opcional,Opcional,,2019-01-07,,0
 95141501,Silo,Opcional,Opcional,,2019-01-07,,0,Depósitos para granos
-95141502,Invernadero,Opcional,Opcional,,2019-01-07,,0,
-95141600,Edificios y estructuras prefabricados residenciales,Opcional,Opcional,,2019-01-07,,1,
-95141601,Casa,Opcional,Opcional,,2019-01-07,,0,
-95141602,Casa móvil,Opcional,Opcional,,2019-01-07,,1,
-95141603,Cabaña,Opcional,Opcional,,2019-01-07,,0,
-95141604,Garaje,Opcional,Opcional,,2019-01-07,,0,
+95141502,Invernadero,Opcional,Opcional,,2019-01-07,,0
+95141600,Edificios y estructuras prefabricados residenciales,Opcional,Opcional,,2019-01-07,,1
+95141601,Casa,Opcional,Opcional,,2019-01-07,,0
+95141602,Casa móvil,Opcional,Opcional,,2019-01-07,,1
+95141603,Cabaña,Opcional,Opcional,,2019-01-07,,0
+95141604,Garaje,Opcional,Opcional,,2019-01-07,,0
 95141605,Gazebo,Opcional,Opcional,,2019-01-07,,1,"Kiosco, Pabellón"
-95141606,Cocina para casa,Opcional,Opcional,,2019-01-07,,1,
-95141700,Edificios y estructuras prefabricados comerciales e industriales,Opcional,Opcional,,2019-01-07,,0,
-95141701,Oficina en la planta,Opcional,Opcional,,2019-01-07,,0,
-95141702,Cabina de pintura,Opcional,Opcional,,2019-01-07,,0,
+95141606,Cocina para casa,Opcional,Opcional,,2019-01-07,,1
+95141700,Edificios y estructuras prefabricados comerciales e industriales,Opcional,Opcional,,2019-01-07,,0
+95141701,Oficina en la planta,Opcional,Opcional,,2019-01-07,,0
+95141702,Cabina de pintura,Opcional,Opcional,,2019-01-07,,0
 95141703,Galpón de almacenaje,Opcional,Opcional,,2019-01-07,,0,Almacén
-95141704,Sala blanca,Opcional,Opcional,,2019-01-07,,0,
-95141705,Casa de guardias,Opcional,Opcional,,2019-01-07,,0,
-95141706,Bodega,Opcional,Opcional,,2019-01-07,,0,
-95141707,Auditorio,Opcional,Opcional,,2019-01-07,,0,
-95141708,Cocina para oficina,Opcional,Opcional,,2019-01-07,,1,
-95141709,Conservatorio,Opcional,Opcional,,2019-01-07,,0,
-95141710,Cabina telefónica,Opcional,Opcional,,2019-01-07,,1,
-95141711,Cabina de peaje,Opcional,Opcional,,2019-01-07,,1,
-95141800,Edificios y estructuras prefabricados de emergencia y alivio,Opcional,Opcional,,2019-01-07,,0,
-95141801,Albergue,Opcional,Opcional,,2019-01-07,,0,
-95141802,Carpa o salón de emergencia,Opcional,Opcional,,2019-01-07,,1,
-95141803,Unidad de contenedor,Opcional,Opcional,,2019-01-07,,1,
-95141900,Edificios y estructuras prefabricados médicos,Opcional,Opcional,,2019-01-07,,0,
-95141901,Unidad médica,Opcional,Opcional,,2019-01-07,,0,
-95141902,Unidad de laboratorio,Opcional,Opcional,,2019-01-07,,0,
-95141903,Unidad odontológica,Opcional,Opcional,,2019-01-07,,0,
-95141904,Unidades quirúrgicas,Opcional,Opcional,,2019-01-07,,0,
+95141704,Sala blanca,Opcional,Opcional,,2019-01-07,,0
+95141705,Casa de guardias,Opcional,Opcional,,2019-01-07,,0
+95141706,Bodega,Opcional,Opcional,,2019-01-07,,0
+95141707,Auditorio,Opcional,Opcional,,2019-01-07,,0
+95141708,Cocina para oficina,Opcional,Opcional,,2019-01-07,,1
+95141709,Conservatorio,Opcional,Opcional,,2019-01-07,,0
+95141710,Cabina telefónica,Opcional,Opcional,,2019-01-07,,1
+95141711,Cabina de peaje,Opcional,Opcional,,2019-01-07,,1
+95141800,Edificios y estructuras prefabricados de emergencia y alivio,Opcional,Opcional,,2019-01-07,,0
+95141801,Albergue,Opcional,Opcional,,2019-01-07,,0
+95141802,Carpa o salón de emergencia,Opcional,Opcional,,2019-01-07,,1
+95141803,Unidad de contenedor,Opcional,Opcional,,2019-01-07,,1
+95141900,Edificios y estructuras prefabricados médicos,Opcional,Opcional,,2019-01-07,,0
+95141901,Unidad médica,Opcional,Opcional,,2019-01-07,,0
+95141902,Unidad de laboratorio,Opcional,Opcional,,2019-01-07,,0
+95141903,Unidad odontológica,Opcional,Opcional,,2019-01-07,,0
+95141904,Unidades quirúrgicas,Opcional,Opcional,,2019-01-07,,0

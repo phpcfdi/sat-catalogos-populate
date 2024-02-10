@@ -1,270 +1,270 @@
-Catálogo de productos Carta Porte.,,,,,
-Versión,Revisión,Fecha de publicación,,,
-4.0,0,31/03/2022,,,
+Catálogo de productos Carta Porte.
+Versión,Revisión,Fecha de publicación
+4.0,0,31/03/2022
 c_ClaveProdServ,Descripción,Palabras similares,Material Peligroso,FechaInicioVigencia,FechaFinVigencia
-01010101,No existe en el catálogo,Fondos y Valores,"0,1",2022-01-01,
-10101500,Animales vivos de granja,,0,2022-01-01,
-10101501,Gatos vivos,,0,2022-01-01,
-10101502,Perros,,0,2022-01-01,
-10101504,Visón,,0,2022-01-01,
-10101505,Ratas,,0,2022-01-01,
-10101506,Caballos,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas",0,2022-01-01,
-10101507,Ovejas,"Borregos, Carneros",0,2022-01-01,
-10101508,Cabras,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos",0,2022-01-01,
-10101509,Asnos,"Borricos, Burros",0,2022-01-01,
-10101510,Ratones,,0,2022-01-01,
-10101511,Cerdos,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos",0,2022-01-01,
-10101512,Conejos,Liebres,0,2022-01-01,
-10101513,Cobayas o conejillos de indias,"Chanchito de Indias, Cobayos, Cuilo, Cuyo",0,2022-01-01,
-10101514,Primates,"Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos",0,2022-01-01,
-10101515,Armadillos,Toches,0,2022-01-01,
-10101516,Ganado vacuno,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas",0,2022-01-01,
-10101517,Camellos,Dromedarios,0,2022-01-01,
-10101600,Pájaros y aves de corral vivos,,0,2022-01-01,
-10101601,Pollos vivos,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos",0,2022-01-01,
-10101602,Patos vivos,,0,2022-01-01,
-10101603,Pavos vivos,"Gallipavos, Guajolotes, Pavos salvajes",0,2022-01-01,
-10101604,Gansos vivos,,0,2022-01-01,
-10101605,Faisanes vivos,,0,2022-01-01,
-10101700,Peces vivos,,0,2022-01-01,
-10101701,Salmones vivos,,0,2022-01-01,
-10101702,Trucha viva,,0,2022-01-01,
-10101703,Tilapia viva,Mojarra,0,2022-01-01,
-10101704,Carpa viva,,0,2022-01-01,
-10101705,Anguilas vivas,,0,2022-01-01,
-10101800,Mariscos e invertebrados acuáticos vivos,,0,2022-01-01,
-10101801,Camarón vivo,Esquilas,0,2022-01-01,
-10101802,Almejas vivas,,0,2022-01-01,
-10101803,Mejillones vivos,,0,2022-01-01,
-10101804,Ostras vivas,,0,2022-01-01,
-10101805,Cangrejos vivos,,0,2022-01-01,
-10101806,Abulones vivos,Orejas de mar,0,2022-01-01,
-10101807,Pulpo vivo,Octópodo,0,2022-01-01,
-10101808,Calamar vivo,,0,2022-01-01,
-10101809,Sanguijuelas,"Hirudineas, Hirudos, Hirudíneo",0,2022-01-01,
-10101900,Insectos vivos,,0,2022-01-01,
-10101901,Mariposas,,0,2022-01-01,
-10101902,Escarabajos,"Mariquitas, Sanjuaneros",0,2022-01-01,
-10101903,Abejas,,0,2022-01-01,
-10101904,Gusanos de seda,"Crisálida, Larva, Oruga",0,2022-01-01,
-10111300,"Accesorios, equipo y tratamientos para los animales domésticos","Accesorios, equipo y medicamentos para animales domésticos",0,2022-01-01,
-10111301,Juguetes para mascotas,,0,2022-01-01,
-10111302,Productos para el aseo y cuidado de mascotas,,0,2022-01-01,
-10111303,Equipo para el manejo de desperdicios de las mascotas,,0,2022-01-01,
-10111304,Tazones o equipo para alimentación de mascotas,,0,2022-01-01,
-10111305,Tratamientos medicados para mascotas,Tratamientos medicinales para mascotas,0,2022-01-01,
-10111306,Kits para el entrenamiento de mascotas domésticas,,0,2022-01-01,
-10111307,Cobijas para mascotas,"Mantas para mascotas, Sábanas para mascotas",0,2022-01-01,
-10121500,Pienso para ganado,Alimento para ganado,0,2022-01-01,
-10121501,Salvado de trigo puro,,0,2022-01-01,
-10121502,Avena para forraje,,0,2022-01-01,
-10121503,Maíz para forraje,,0,2022-01-01,
-10121504,Sorgo para forraje,,0,2022-01-01,
-10121505,Heno,,"0,1",2022-01-01,
-10121506,Tortas oleaginosas,Torta de aceite para ganado,0,2022-01-01,
-10121507,Forraje compuesto,,0,2022-01-01,
-10121600,Alimento para pájaros y aves de corral,,0,2022-01-01,
-10121601,Alimento vivo para aves,,0,2022-01-01,
-10121602,Alpiste,,0,2022-01-01,
-10121603,Botanas o comida recreacional para aves,,0,2022-01-01,
-10121604,Alimento avícola,,0,2022-01-01,
-10121700,Alimento para peces,,0,2022-01-01,
-10121701,Salmuera fresca o congelada,,0,2022-01-01,
-10121702,Alimento granulado para peces,,0,2022-01-01,
-10121703,Alimento en hojuelas para peces,,0,2022-01-01,
-10121800,Alimento para perros y gatos,,0,2022-01-01,
-10121801,Comida seca para perros,,0,2022-01-01,
-10121802,Comida húmeda para perros,,0,2022-01-01,
-10121803,Leche para perros o gatos,,0,2022-01-01,
-10121804,Comida seca para gatos,,0,2022-01-01,
-10121805,Comida húmeda para gatos,,0,2022-01-01,
-10121806,Botanas o comida recreacional para gatos o perros,,0,2022-01-01,
-10121900,Alimento para roedores,,0,2022-01-01,
-10121901,Comida granulada para roedores,,0,2022-01-01,
-10122100,Comida para animales variados,Comida para diversos animales,0,2022-01-01,
-10122101,Comida para cerdos,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones",0,2022-01-01,
-10122102,Comida para visones,,0,2022-01-01,
-10122103,Comida para monos,,0,2022-01-01,
-10122104,Comida para conejos,,0,2022-01-01,
-10131500,Cobertizos para animales,,0,2022-01-01,
-10131506,Establos para ganado,,0,2022-01-01,
-10131507,Casas para mascotas domesticadas,,0,2022-01-01,
-10131508,Camas para mascotas,,0,2022-01-01,
-10131600,Recipientes para animales,Contenedores de comida para animales,0,2022-01-01,
-10131601,Jaulas o sus accesorios,,0,2022-01-01,
-10131602,Perreras,,0,2022-01-01,
-10131603,Equipaje para el transporte de animales,,0,2022-01-01,
-10131604,Correas para perros,,0,2022-01-01,
-10141500,Talabartería,Guarniciones para caballerías,0,2022-01-01,
-10141501,Sillas de montar,,0,2022-01-01,
-10141502,Fustas y látigos,,0,2022-01-01,
-10141503,Herraduras para caballo,,0,2022-01-01,
-10141504,Herraduras para mula,,0,2022-01-01,
-10141505,Sillín o pelero,,0,2022-01-01,
-10141600,Arneses,,0,2022-01-01,
-10141601,Bridas,Correas para caballos,0,2022-01-01,
-10141602,Yugos,,0,2022-01-01,
-10141603,Bocados para caballos,Embocaduras para caballo,0,2022-01-01,
-10141604,Riendas,Correas,0,2022-01-01,
-10141605,Estribos,,0,2022-01-01,
-10141606,Correas o traíllas,,0,2022-01-01,
-10141607,Arneses de cuello para animales,,0,2022-01-01,
-10141608,Arneses o sus accesorios,,0,2022-01-01,
-10141609,Sujetadores,,0,2022-01-01,
-10141610,Bozales,,0,2022-01-01,
-10141611,Soportes para correas,,0,2022-01-01,
-10151500,Semillas y plántulas vegetales,Semillas y vástagos vegetales,0,2022-01-01,
-10151501,Semillas o plántulas de fríjol,"Semillas o vástago primario de fríjol, Semillas o vástago primario de fríjol blanco, Semillas o vástago primario de fríjol negro, Semillas o vástago primario de fríjol rojo adzuki",0,2022-01-01,
-10151502,Semillas o plántulas de zanahoria,Semillas o vástago primario de zanahoria,0,2022-01-01,
-10151503,Semillas o plántulas de apio,Semillas o vástago primario de apio,0,2022-01-01,
-10151504,Semillas o plántulas de chiles,Semillas o vástago primario de chiles,0,2022-01-01,
-10151505,Semillas o plántulas de calabacín,Semillas o vástago primario de calabacín,0,2022-01-01,
-10151506,Semillas o plántulas de alverja,"Semillas o vástago primario de chícharo, Semillas o vástago primario de guisante",0,2022-01-01,
-10151507,Semillas o plántulas de pepino cohombro,Semillas o vástago primario de pepino cohombro,0,2022-01-01,
-10151508,Semillas o plántulas de berenjena,Semillas o vástago primario de berenjena,0,2022-01-01,
-10151509,Semillas o plántulas de endivias,Semillas o vástago primario de endivias,0,2022-01-01,
-10151510,Semillas o plántulas de ajo,Semillas o vástago primario de ajo,0,2022-01-01,
-10151511,Semillas o plántulas de puerro,Semillas o vástago primario de puerro,0,2022-01-01,
-10151512,Semillas o plántulas de lechuga,Semillas o vástago primario de lechuga,0,2022-01-01,
-10151513,Semillas o plántulas de maíz,Semillas o vástago primario de maíz,0,2022-01-01,
-10151514,Semillas o plántulas de melón,Semillas o vástago primario de melón,0,2022-01-01,
-10151515,Semillas o plántulas cebolla,Semillas o vástago primario de cebolla,0,2022-01-01,
-10151516,Semillas o plántulas de soya,Semillas o vástago primario de soya,0,2022-01-01,
-10151517,Semillas o plántulas de espinaca,Semillas o vástago primario de espinaca,0,2022-01-01,
-10151518,Semillas o plántulas de tomate,Semillas o vástago primario de tomate,0,2022-01-01,
-10151519,Semillas o plántulas de nabo,Semillas o vástago primario de nabo,0,2022-01-01,
-10151520,Semillas o plántulas de acelga,Semillas o vástago primario de acelga,0,2022-01-01,
-10151521,Semillas o plántulas de pimiento morrón,Semillas o vástago primario de pimiento morrón,0,2022-01-01,
-10151522,Semillas o plántulas de remolacha,Semillas o vástago primario de betabel,0,2022-01-01,
-10151523,Semillas o plántulas de coliflor,Semillas o vástago primario de coliflor,0,2022-01-01,
-10151524,Semillas o plántulas de perejil,Semillas o vástago primario de perejil,0,2022-01-01,
-10151525,Semillas o plántulas de brócoli,Semillas o vástago primario de brócoli,0,2022-01-01,
-50476905,"Alverja ""early onward"" orgánica enlatada o envasada","Chícharo ""early onward"" orgánico en lata o envasado",0,2022-04-05,
-50476906,Alverja primer feltham orgánica enlatada o envasada,Chícharo primer feltham orgánico en lata o envasado,0,2022-04-05,
-50476907,Alverja verde hurst shaft orgánica enlatada o envasada,Chícharo verde hurst shaft orgánico en lata o envasado,0,2022-04-05,
-50476908,Guisante oregón sugar pod orgánica enlatada o envasada,Chícharo oregón sugar pod orgánico en lata o envasado,0,2022-04-05,
-50476909,Alverja príncipe alberto orgánica enlatada o envasada,Chícharo príncipe alberto orgánico en lata o envasado,0,2022-04-05,
-50476910,Alverja reuzensuiker orgánica enlatada o envasada,Chícharo reuzensuiker orgánico en lata o envasado,0,2022-04-05,
-51122300,Agentes cardiopléjicos,,"0,1",2022-04-05,
-51122301,Solución de cardioplejia,,"0,1",2022-04-05,
-51151906,Isoxsuprina,,"0,1",2022-04-05,
-51171710,Clorhidrato de alosetrón,,"0,1",2022-04-05,
-51201650,Vacuna contra el virus del COVID,"Vacuna contra SARS-CoV-2,Vacuna contra COVID, Vacuna contra COVID-19","0,1",2022-04-05,
-52141612,Hidroextractor para la ropa,,0,2022-04-05,
-52141803,Cobijas eléctricas para uso doméstico,,"0,1",2022-04-05,
-52151904,Moldes para asar para uso doméstico,,0,2022-04-05,
-53112004,Estirador de calzado,,0,2022-04-05,
-54121800,Piedras preciosas o semipreciosas industriales,,0,2022-04-05,
-54121801,Diamantes industriales,,0,2022-04-05,
-54121802,Granates industriales,,0,2022-04-05,
-55101505,Historietas cómicas,,0,2022-04-05,
-55111600,Material de referencia de software electrónico,,0,2022-04-05,
-55111601,Documentación de software o manuales de usuario electrónicos,,0,2022-04-05,
-55121733,Señales en blanco,,0,2022-04-05,
-56111605,Iluminación o electricidad o componentes de información para sistemas de paneles,,0,2022-04-05,
-56111901,Iluminación o electricidad o componentes de información industriales,,0,2022-04-05,
-56111902,Superficies de trabajo industriales,,0,2022-04-05,
-60101200,Incentivos educativos,,0,2022-04-05,
-60101201,Adhesivos de seguimiento basados en la biblia,,0,2022-04-05,
-60101202,Tablas de incentivo basados en la biblia,,0,2022-04-05,
-60101203,Adhesivos para pegar en las tablas de incentivo,,0,2022-04-05,
-60101204,Tablas de incentivo,,0,2022-04-05,
-60101205,Tarjetas perforadas de incentivo,,0,2022-04-05,
-60102100,Materiales de recursos de lenguaje,,0,2022-04-05,
-60102101,Libros de recursos de adjetivos,,0,2022-04-05,
-60102102,Libros de recursos de adverbios,,0,2022-04-05,
-60102103,Libros de recursos de gramática,,0,2022-04-05,
-60102104,Libros de recursos de sustantivos,,0,2022-04-05,
-60102105,Libros de recursos de puntuación,,0,2022-04-05,
-60102106,Libros de recursos de verbos,,0,2022-04-05,
-60102200,Materiales de recursos de fonética y accesorios,,0,2022-04-05,
-60102201,Libros de actividades de fonética,,0,2022-04-05,
-60102202,Tarjetas de ejercicios fonéticos de repetición,,0,2022-04-05,
-60102203,Kit de fonética,,0,2022-04-05,
-60102204,Tarjetas de imágenes de fonética,,0,2022-04-05,
-60102205,Libros de recursos de fonética,,0,2022-04-05,
-60102206,Fichas de fonética,,0,2022-04-05,
-60102308,Materiales de comprensión de lectura,,0,2022-04-05,
-60102715,Libros de recursos y actividades de pentominós,,0,2022-04-05,
-60102717,Pentominós,,0,2022-04-05,
-60102718,Sets de actividades de pentominós,,0,2022-04-05,
-60103200,Materiales de recursos del profesor de álgebra,,0,2022-04-05,
-60103201,Libros de recursos o de actividades de álgebra,,0,2022-04-05,
-60103202,Cubos de centímetro,,0,2022-04-05,
-60103203,Guías de referencia de preálgebra o álgebra,,0,2022-04-05,
-60103204,Modelos o accesorios de álgebra,,0,2022-04-05,
-60103300,Materiales de recursos del profesor de precálculo y cálculo,,0,2022-04-05,
-60103301,Libros de recursos o actividades de cálculo,,0,2022-04-05,
-60103302,Guías de referencia de precálculo o cálculo,,0,2022-04-05,
-60103303,Libros de recursos o actividades de precálculo,,0,2022-04-05,
-60103500,Ciencias políticas,,0,2022-04-05,
-60103501,Libros de recursos o actividades de economía,,0,2022-04-05,
-60103502,Libros de recursos o actividades del gobierno,,0,2022-04-05,
-60103503,Guías de referencia del gobierno,,0,2022-04-05,
-60103504,Unidades temáticas de los estados,,0,2022-04-05,
-60104000,"Biotecnología, bioquímica, genética, microbiología y materiales relacionados",,0,2022-04-05,
-60104001,Modelos de ácido desoxirribonucleico (adn),,0,2022-04-05,
-60104002,Kits de experimentos de ácido desoxirribonucleico (adn),,0,2022-04-05,
-60104003,Libros de genética,,0,2022-04-05,
-60104004,Kits de genética,,0,2022-04-05,
-60104005,Kits de enseñanza de bacterias,,0,2022-04-05,
-60104006,Materiales de prueba de bacterias,,0,2022-04-05,
-60104007,Kits o materiales de enzimología,,0,2022-04-05,
-60104008,Kits o materiales de prueba de proteínas,,0,2022-04-05,
-60104300,Astronomía,,0,2022-04-05,
-60104301,Modelos de astronomía,,0,2022-04-05,
-60104302,Diagramas de astronomía,,0,2022-04-05,
-60104303,Kits de estudio de astronomía,,0,2022-04-05,
-60104304,Compás solar,,0,2022-04-05,
-60104305,Simulador solar,,0,2022-04-05,
-60104306,Planetario,,0,2022-04-05,
-60104307,Modelo planetario,,0,2022-04-05,
-60104308,Globo celeste,,0,2022-04-05,
-60104309,Carta celeste manual,,0,2022-04-05,
-60105004,Señales de advertencia de radiación,,0,2022-04-05,
-60105100,"Cohetes, materiales de vuelo y suministros",,"0,1",2022-04-05,
-60105101,Sets de cohetes,,"0,1",2022-04-05,
-60105102,Aparato de lanzamiento,,0,2022-04-05,
-60105103,Dispositivos para la medición de alturas,,0,2022-04-05,
-60105200,Materiales educativos de recursos de aptitudes de vida,,0,2022-04-05,
-60105201,Materiales de enseñanza para desarrollar habilidades de escucha,,0,2022-04-05,
-60105202,Materiales de enseñanza de  habilidades de estudio,,0,2022-04-05,
-60105203,Materiales de enseñanza de preparación de exámenes,,0,2022-04-05,
-60105300,Materiales educativos de educación de carrera,,0,2022-04-05,
-60105301,Materiales de enseñanza de habilidades para la educación o planificación o toma de decisiones para el trabajo,,0,2022-04-05,
-60105302,Materiales de enseñanza de  habilidades laborales básicas,,0,2022-04-05,
-60105303,Materiales de enseñanza de habilidades para la búsqueda de empleo,,0,2022-04-05,
-60105304,Materiales de enseñanza de habilidades para el manejo del tiempo,,0,2022-04-05,
-60105305,Materiales de enseñanza de habilidades para entrevistas,,0,2022-04-05,
-60105306,Materiales de enseñanza de habilidades para elaborar la hoja de vida,,0,2022-04-05,
-60105307,Materiales de enseñanza de formación de ética laboral o actitudes,,0,2022-04-05,
-60105308,Materiales de enseñanza para desarrollar habilidades de trabajo en equipo,,0,2022-04-05,
-60105309,Materiales de enseñanza de etiqueta  empresarial,,0,2022-04-05,
-60106300,Equipo de enseñanza de ciencia forense y suministros,,0,2022-04-05,
-60106301,Kits de ciencias forenses,,0,2022-04-05,
-60106302,Materiales de enseñanza de ciencias forenses,,0,2022-04-05,
-60106600,Materiales para pruebas de aptitud y vocacionales,,0,2022-04-05,
-60106601,Test de ensamble de bloques,,0,2022-04-05,
-60106602,Test de percepción de formas,,0,2022-04-05,
-60106603,Test de reacción de velocidad de anticipación,,0,2022-04-05,
-60106604,Set de evaluación vocacional,,0,2022-04-05,
-60106605,Test de reacción mental,,0,2022-04-05,
-60106606,Test de ejecución de trabajos manuales de precisión,,0,2022-04-05,
-60106607,Test de movimientos de reacción,,0,2022-04-05,
-60106608,Test de coordinación de los dos brazos,,0,2022-04-05,
-60106609,Herramienta de discriminación,,0,2022-04-05,
-60106610,Herramienta para pruebas de ensamble,,0,2022-04-05,
-60106611,Herramienta para pruebas de empaquetado,,0,2022-04-05,
-60106612,Test de coordinación ojos- brazos,,0,2022-04-05,
-60121536,Borrador de crayón,,0,2022-04-05,
-60121602,Paneles o espejos de acrílico transparente,,0,2022-04-05,
-60122300,Suministros de cestería,,0,2022-04-05,
-60122301,Juncos para cestería,,0,2022-04-05,
-60122302,Kits para proyectos de cestería,,0,2022-04-05,
-60123800,Suministros y accesorios de veteado,,0,2022-04-05,
-60123801,Tintas para veteado,,0,2022-04-05,
-60123802,Accesorios para veteado,,0,2022-04-05,
-60124101,Productos de pintura multicultural,,0,2022-04-05,
-60124200,Proyectos completos de planes de estudios,,0,2022-04-05,
-60124201,Esculturas de mylar,,0,2022-04-05,
-64122100,Contratos de seguros de salud,,0,2022-04-05,
+01010101,No existe en el catálogo,Fondos y Valores,"0,1",2022-01-01
+10101500,Animales vivos de granja,,0,2022-01-01
+10101501,Gatos vivos,,0,2022-01-01
+10101502,Perros,,0,2022-01-01
+10101504,Visón,,0,2022-01-01
+10101505,Ratas,,0,2022-01-01
+10101506,Caballos,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas",0,2022-01-01
+10101507,Ovejas,"Borregos, Carneros",0,2022-01-01
+10101508,Cabras,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos",0,2022-01-01
+10101509,Asnos,"Borricos, Burros",0,2022-01-01
+10101510,Ratones,,0,2022-01-01
+10101511,Cerdos,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos",0,2022-01-01
+10101512,Conejos,Liebres,0,2022-01-01
+10101513,Cobayas o conejillos de indias,"Chanchito de Indias, Cobayos, Cuilo, Cuyo",0,2022-01-01
+10101514,Primates,"Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos",0,2022-01-01
+10101515,Armadillos,Toches,0,2022-01-01
+10101516,Ganado vacuno,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas",0,2022-01-01
+10101517,Camellos,Dromedarios,0,2022-01-01
+10101600,Pájaros y aves de corral vivos,,0,2022-01-01
+10101601,Pollos vivos,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos",0,2022-01-01
+10101602,Patos vivos,,0,2022-01-01
+10101603,Pavos vivos,"Gallipavos, Guajolotes, Pavos salvajes",0,2022-01-01
+10101604,Gansos vivos,,0,2022-01-01
+10101605,Faisanes vivos,,0,2022-01-01
+10101700,Peces vivos,,0,2022-01-01
+10101701,Salmones vivos,,0,2022-01-01
+10101702,Trucha viva,,0,2022-01-01
+10101703,Tilapia viva,Mojarra,0,2022-01-01
+10101704,Carpa viva,,0,2022-01-01
+10101705,Anguilas vivas,,0,2022-01-01
+10101800,Mariscos e invertebrados acuáticos vivos,,0,2022-01-01
+10101801,Camarón vivo,Esquilas,0,2022-01-01
+10101802,Almejas vivas,,0,2022-01-01
+10101803,Mejillones vivos,,0,2022-01-01
+10101804,Ostras vivas,,0,2022-01-01
+10101805,Cangrejos vivos,,0,2022-01-01
+10101806,Abulones vivos,Orejas de mar,0,2022-01-01
+10101807,Pulpo vivo,Octópodo,0,2022-01-01
+10101808,Calamar vivo,,0,2022-01-01
+10101809,Sanguijuelas,"Hirudineas, Hirudos, Hirudíneo",0,2022-01-01
+10101900,Insectos vivos,,0,2022-01-01
+10101901,Mariposas,,0,2022-01-01
+10101902,Escarabajos,"Mariquitas, Sanjuaneros",0,2022-01-01
+10101903,Abejas,,0,2022-01-01
+10101904,Gusanos de seda,"Crisálida, Larva, Oruga",0,2022-01-01
+10111300,"Accesorios, equipo y tratamientos para los animales domésticos","Accesorios, equipo y medicamentos para animales domésticos",0,2022-01-01
+10111301,Juguetes para mascotas,,0,2022-01-01
+10111302,Productos para el aseo y cuidado de mascotas,,0,2022-01-01
+10111303,Equipo para el manejo de desperdicios de las mascotas,,0,2022-01-01
+10111304,Tazones o equipo para alimentación de mascotas,,0,2022-01-01
+10111305,Tratamientos medicados para mascotas,Tratamientos medicinales para mascotas,0,2022-01-01
+10111306,Kits para el entrenamiento de mascotas domésticas,,0,2022-01-01
+10111307,Cobijas para mascotas,"Mantas para mascotas, Sábanas para mascotas",0,2022-01-01
+10121500,Pienso para ganado,Alimento para ganado,0,2022-01-01
+10121501,Salvado de trigo puro,,0,2022-01-01
+10121502,Avena para forraje,,0,2022-01-01
+10121503,Maíz para forraje,,0,2022-01-01
+10121504,Sorgo para forraje,,0,2022-01-01
+10121505,Heno,,"0,1",2022-01-01
+10121506,Tortas oleaginosas,Torta de aceite para ganado,0,2022-01-01
+10121507,Forraje compuesto,,0,2022-01-01
+10121600,Alimento para pájaros y aves de corral,,0,2022-01-01
+10121601,Alimento vivo para aves,,0,2022-01-01
+10121602,Alpiste,,0,2022-01-01
+10121603,Botanas o comida recreacional para aves,,0,2022-01-01
+10121604,Alimento avícola,,0,2022-01-01
+10121700,Alimento para peces,,0,2022-01-01
+10121701,Salmuera fresca o congelada,,0,2022-01-01
+10121702,Alimento granulado para peces,,0,2022-01-01
+10121703,Alimento en hojuelas para peces,,0,2022-01-01
+10121800,Alimento para perros y gatos,,0,2022-01-01
+10121801,Comida seca para perros,,0,2022-01-01
+10121802,Comida húmeda para perros,,0,2022-01-01
+10121803,Leche para perros o gatos,,0,2022-01-01
+10121804,Comida seca para gatos,,0,2022-01-01
+10121805,Comida húmeda para gatos,,0,2022-01-01
+10121806,Botanas o comida recreacional para gatos o perros,,0,2022-01-01
+10121900,Alimento para roedores,,0,2022-01-01
+10121901,Comida granulada para roedores,,0,2022-01-01
+10122100,Comida para animales variados,Comida para diversos animales,0,2022-01-01
+10122101,Comida para cerdos,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones",0,2022-01-01
+10122102,Comida para visones,,0,2022-01-01
+10122103,Comida para monos,,0,2022-01-01
+10122104,Comida para conejos,,0,2022-01-01
+10131500,Cobertizos para animales,,0,2022-01-01
+10131506,Establos para ganado,,0,2022-01-01
+10131507,Casas para mascotas domesticadas,,0,2022-01-01
+10131508,Camas para mascotas,,0,2022-01-01
+10131600,Recipientes para animales,Contenedores de comida para animales,0,2022-01-01
+10131601,Jaulas o sus accesorios,,0,2022-01-01
+10131602,Perreras,,0,2022-01-01
+10131603,Equipaje para el transporte de animales,,0,2022-01-01
+10131604,Correas para perros,,0,2022-01-01
+10141500,Talabartería,Guarniciones para caballerías,0,2022-01-01
+10141501,Sillas de montar,,0,2022-01-01
+10141502,Fustas y látigos,,0,2022-01-01
+10141503,Herraduras para caballo,,0,2022-01-01
+10141504,Herraduras para mula,,0,2022-01-01
+10141505,Sillín o pelero,,0,2022-01-01
+10141600,Arneses,,0,2022-01-01
+10141601,Bridas,Correas para caballos,0,2022-01-01
+10141602,Yugos,,0,2022-01-01
+10141603,Bocados para caballos,Embocaduras para caballo,0,2022-01-01
+10141604,Riendas,Correas,0,2022-01-01
+10141605,Estribos,,0,2022-01-01
+10141606,Correas o traíllas,,0,2022-01-01
+10141607,Arneses de cuello para animales,,0,2022-01-01
+10141608,Arneses o sus accesorios,,0,2022-01-01
+10141609,Sujetadores,,0,2022-01-01
+10141610,Bozales,,0,2022-01-01
+10141611,Soportes para correas,,0,2022-01-01
+10151500,Semillas y plántulas vegetales,Semillas y vástagos vegetales,0,2022-01-01
+10151501,Semillas o plántulas de fríjol,"Semillas o vástago primario de fríjol, Semillas o vástago primario de fríjol blanco, Semillas o vástago primario de fríjol negro, Semillas o vástago primario de fríjol rojo adzuki",0,2022-01-01
+10151502,Semillas o plántulas de zanahoria,Semillas o vástago primario de zanahoria,0,2022-01-01
+10151503,Semillas o plántulas de apio,Semillas o vástago primario de apio,0,2022-01-01
+10151504,Semillas o plántulas de chiles,Semillas o vástago primario de chiles,0,2022-01-01
+10151505,Semillas o plántulas de calabacín,Semillas o vástago primario de calabacín,0,2022-01-01
+10151506,Semillas o plántulas de alverja,"Semillas o vástago primario de chícharo, Semillas o vástago primario de guisante",0,2022-01-01
+10151507,Semillas o plántulas de pepino cohombro,Semillas o vástago primario de pepino cohombro,0,2022-01-01
+10151508,Semillas o plántulas de berenjena,Semillas o vástago primario de berenjena,0,2022-01-01
+10151509,Semillas o plántulas de endivias,Semillas o vástago primario de endivias,0,2022-01-01
+10151510,Semillas o plántulas de ajo,Semillas o vástago primario de ajo,0,2022-01-01
+10151511,Semillas o plántulas de puerro,Semillas o vástago primario de puerro,0,2022-01-01
+10151512,Semillas o plántulas de lechuga,Semillas o vástago primario de lechuga,0,2022-01-01
+10151513,Semillas o plántulas de maíz,Semillas o vástago primario de maíz,0,2022-01-01
+10151514,Semillas o plántulas de melón,Semillas o vástago primario de melón,0,2022-01-01
+10151515,Semillas o plántulas cebolla,Semillas o vástago primario de cebolla,0,2022-01-01
+10151516,Semillas o plántulas de soya,Semillas o vástago primario de soya,0,2022-01-01
+10151517,Semillas o plántulas de espinaca,Semillas o vástago primario de espinaca,0,2022-01-01
+10151518,Semillas o plántulas de tomate,Semillas o vástago primario de tomate,0,2022-01-01
+10151519,Semillas o plántulas de nabo,Semillas o vástago primario de nabo,0,2022-01-01
+10151520,Semillas o plántulas de acelga,Semillas o vástago primario de acelga,0,2022-01-01
+10151521,Semillas o plántulas de pimiento morrón,Semillas o vástago primario de pimiento morrón,0,2022-01-01
+10151522,Semillas o plántulas de remolacha,Semillas o vástago primario de betabel,0,2022-01-01
+10151523,Semillas o plántulas de coliflor,Semillas o vástago primario de coliflor,0,2022-01-01
+10151524,Semillas o plántulas de perejil,Semillas o vástago primario de perejil,0,2022-01-01
+10151525,Semillas o plántulas de brócoli,Semillas o vástago primario de brócoli,0,2022-01-01
+50476905,"Alverja ""early onward"" orgánica enlatada o envasada","Chícharo ""early onward"" orgánico en lata o envasado",0,2022-04-05
+50476906,Alverja primer feltham orgánica enlatada o envasada,Chícharo primer feltham orgánico en lata o envasado,0,2022-04-05
+50476907,Alverja verde hurst shaft orgánica enlatada o envasada,Chícharo verde hurst shaft orgánico en lata o envasado,0,2022-04-05
+50476908,Guisante oregón sugar pod orgánica enlatada o envasada,Chícharo oregón sugar pod orgánico en lata o envasado,0,2022-04-05
+50476909,Alverja príncipe alberto orgánica enlatada o envasada,Chícharo príncipe alberto orgánico en lata o envasado,0,2022-04-05
+50476910,Alverja reuzensuiker orgánica enlatada o envasada,Chícharo reuzensuiker orgánico en lata o envasado,0,2022-04-05
+51122300,Agentes cardiopléjicos,,"0,1",2022-04-05
+51122301,Solución de cardioplejia,,"0,1",2022-04-05
+51151906,Isoxsuprina,,"0,1",2022-04-05
+51171710,Clorhidrato de alosetrón,,"0,1",2022-04-05
+51201650,Vacuna contra el virus del COVID,"Vacuna contra SARS-CoV-2,Vacuna contra COVID, Vacuna contra COVID-19","0,1",2022-04-05
+52141612,Hidroextractor para la ropa,,0,2022-04-05
+52141803,Cobijas eléctricas para uso doméstico,,"0,1",2022-04-05
+52151904,Moldes para asar para uso doméstico,,0,2022-04-05
+53112004,Estirador de calzado,,0,2022-04-05
+54121800,Piedras preciosas o semipreciosas industriales,,0,2022-04-05
+54121801,Diamantes industriales,,0,2022-04-05
+54121802,Granates industriales,,0,2022-04-05
+55101505,Historietas cómicas,,0,2022-04-05
+55111600,Material de referencia de software electrónico,,0,2022-04-05
+55111601,Documentación de software o manuales de usuario electrónicos,,0,2022-04-05
+55121733,Señales en blanco,,0,2022-04-05
+56111605,Iluminación o electricidad o componentes de información para sistemas de paneles,,0,2022-04-05
+56111901,Iluminación o electricidad o componentes de información industriales,,0,2022-04-05
+56111902,Superficies de trabajo industriales,,0,2022-04-05
+60101200,Incentivos educativos,,0,2022-04-05
+60101201,Adhesivos de seguimiento basados en la biblia,,0,2022-04-05
+60101202,Tablas de incentivo basados en la biblia,,0,2022-04-05
+60101203,Adhesivos para pegar en las tablas de incentivo,,0,2022-04-05
+60101204,Tablas de incentivo,,0,2022-04-05
+60101205,Tarjetas perforadas de incentivo,,0,2022-04-05
+60102100,Materiales de recursos de lenguaje,,0,2022-04-05
+60102101,Libros de recursos de adjetivos,,0,2022-04-05
+60102102,Libros de recursos de adverbios,,0,2022-04-05
+60102103,Libros de recursos de gramática,,0,2022-04-05
+60102104,Libros de recursos de sustantivos,,0,2022-04-05
+60102105,Libros de recursos de puntuación,,0,2022-04-05
+60102106,Libros de recursos de verbos,,0,2022-04-05
+60102200,Materiales de recursos de fonética y accesorios,,0,2022-04-05
+60102201,Libros de actividades de fonética,,0,2022-04-05
+60102202,Tarjetas de ejercicios fonéticos de repetición,,0,2022-04-05
+60102203,Kit de fonética,,0,2022-04-05
+60102204,Tarjetas de imágenes de fonética,,0,2022-04-05
+60102205,Libros de recursos de fonética,,0,2022-04-05
+60102206,Fichas de fonética,,0,2022-04-05
+60102308,Materiales de comprensión de lectura,,0,2022-04-05
+60102715,Libros de recursos y actividades de pentominós,,0,2022-04-05
+60102717,Pentominós,,0,2022-04-05
+60102718,Sets de actividades de pentominós,,0,2022-04-05
+60103200,Materiales de recursos del profesor de álgebra,,0,2022-04-05
+60103201,Libros de recursos o de actividades de álgebra,,0,2022-04-05
+60103202,Cubos de centímetro,,0,2022-04-05
+60103203,Guías de referencia de preálgebra o álgebra,,0,2022-04-05
+60103204,Modelos o accesorios de álgebra,,0,2022-04-05
+60103300,Materiales de recursos del profesor de precálculo y cálculo,,0,2022-04-05
+60103301,Libros de recursos o actividades de cálculo,,0,2022-04-05
+60103302,Guías de referencia de precálculo o cálculo,,0,2022-04-05
+60103303,Libros de recursos o actividades de precálculo,,0,2022-04-05
+60103500,Ciencias políticas,,0,2022-04-05
+60103501,Libros de recursos o actividades de economía,,0,2022-04-05
+60103502,Libros de recursos o actividades del gobierno,,0,2022-04-05
+60103503,Guías de referencia del gobierno,,0,2022-04-05
+60103504,Unidades temáticas de los estados,,0,2022-04-05
+60104000,"Biotecnología, bioquímica, genética, microbiología y materiales relacionados",,0,2022-04-05
+60104001,Modelos de ácido desoxirribonucleico (adn),,0,2022-04-05
+60104002,Kits de experimentos de ácido desoxirribonucleico (adn),,0,2022-04-05
+60104003,Libros de genética,,0,2022-04-05
+60104004,Kits de genética,,0,2022-04-05
+60104005,Kits de enseñanza de bacterias,,0,2022-04-05
+60104006,Materiales de prueba de bacterias,,0,2022-04-05
+60104007,Kits o materiales de enzimología,,0,2022-04-05
+60104008,Kits o materiales de prueba de proteínas,,0,2022-04-05
+60104300,Astronomía,,0,2022-04-05
+60104301,Modelos de astronomía,,0,2022-04-05
+60104302,Diagramas de astronomía,,0,2022-04-05
+60104303,Kits de estudio de astronomía,,0,2022-04-05
+60104304,Compás solar,,0,2022-04-05
+60104305,Simulador solar,,0,2022-04-05
+60104306,Planetario,,0,2022-04-05
+60104307,Modelo planetario,,0,2022-04-05
+60104308,Globo celeste,,0,2022-04-05
+60104309,Carta celeste manual,,0,2022-04-05
+60105004,Señales de advertencia de radiación,,0,2022-04-05
+60105100,"Cohetes, materiales de vuelo y suministros",,"0,1",2022-04-05
+60105101,Sets de cohetes,,"0,1",2022-04-05
+60105102,Aparato de lanzamiento,,0,2022-04-05
+60105103,Dispositivos para la medición de alturas,,0,2022-04-05
+60105200,Materiales educativos de recursos de aptitudes de vida,,0,2022-04-05
+60105201,Materiales de enseñanza para desarrollar habilidades de escucha,,0,2022-04-05
+60105202,Materiales de enseñanza de  habilidades de estudio,,0,2022-04-05
+60105203,Materiales de enseñanza de preparación de exámenes,,0,2022-04-05
+60105300,Materiales educativos de educación de carrera,,0,2022-04-05
+60105301,Materiales de enseñanza de habilidades para la educación o planificación o toma de decisiones para el trabajo,,0,2022-04-05
+60105302,Materiales de enseñanza de  habilidades laborales básicas,,0,2022-04-05
+60105303,Materiales de enseñanza de habilidades para la búsqueda de empleo,,0,2022-04-05
+60105304,Materiales de enseñanza de habilidades para el manejo del tiempo,,0,2022-04-05
+60105305,Materiales de enseñanza de habilidades para entrevistas,,0,2022-04-05
+60105306,Materiales de enseñanza de habilidades para elaborar la hoja de vida,,0,2022-04-05
+60105307,Materiales de enseñanza de formación de ética laboral o actitudes,,0,2022-04-05
+60105308,Materiales de enseñanza para desarrollar habilidades de trabajo en equipo,,0,2022-04-05
+60105309,Materiales de enseñanza de etiqueta  empresarial,,0,2022-04-05
+60106300,Equipo de enseñanza de ciencia forense y suministros,,0,2022-04-05
+60106301,Kits de ciencias forenses,,0,2022-04-05
+60106302,Materiales de enseñanza de ciencias forenses,,0,2022-04-05
+60106600,Materiales para pruebas de aptitud y vocacionales,,0,2022-04-05
+60106601,Test de ensamble de bloques,,0,2022-04-05
+60106602,Test de percepción de formas,,0,2022-04-05
+60106603,Test de reacción de velocidad de anticipación,,0,2022-04-05
+60106604,Set de evaluación vocacional,,0,2022-04-05
+60106605,Test de reacción mental,,0,2022-04-05
+60106606,Test de ejecución de trabajos manuales de precisión,,0,2022-04-05
+60106607,Test de movimientos de reacción,,0,2022-04-05
+60106608,Test de coordinación de los dos brazos,,0,2022-04-05
+60106609,Herramienta de discriminación,,0,2022-04-05
+60106610,Herramienta para pruebas de ensamble,,0,2022-04-05
+60106611,Herramienta para pruebas de empaquetado,,0,2022-04-05
+60106612,Test de coordinación ojos- brazos,,0,2022-04-05
+60121536,Borrador de crayón,,0,2022-04-05
+60121602,Paneles o espejos de acrílico transparente,,0,2022-04-05
+60122300,Suministros de cestería,,0,2022-04-05
+60122301,Juncos para cestería,,0,2022-04-05
+60122302,Kits para proyectos de cestería,,0,2022-04-05
+60123800,Suministros y accesorios de veteado,,0,2022-04-05
+60123801,Tintas para veteado,,0,2022-04-05
+60123802,Accesorios para veteado,,0,2022-04-05
+60124101,Productos de pintura multicultural,,0,2022-04-05
+60124200,Proyectos completos de planes de estudios,,0,2022-04-05
+60124201,Esculturas de mylar,,0,2022-04-05
+64122100,Contratos de seguros de salud,,0,2022-04-05

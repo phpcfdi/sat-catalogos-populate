@@ -1,13 +1,13 @@
-Catálogo de tipos de relación entre CFDI.,,,
-Versión,Revisión,,
-2.0,0,,
+Catálogo de tipos de relación entre CFDI.
+Versión,Revisión
+2.0,0
 c_TipoRelacion,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
-1,Nota de crédito de los documentos relacionados,2017-01-01,
-2,Nota de débito de los documentos relacionados,2017-01-01,
-3,Devolución de mercancía sobre facturas o traslados previos,2017-01-01,
-4,Sustitución de los CFDI previos,2017-01-01,
-5,Traslados de mercancias facturados previamente,2017-01-01,
-6,Factura generada por los traslados previos,2017-01-01,
-7,CFDI por aplicación de anticipo,2017-08-13,
-8,Factura generada por pagos en parcialidades,2017-12-05,
-9,Factura generada por pagos diferidos,2017-12-05,
+1,Nota de crédito de los documentos relacionados,2017-01-01
+2,Nota de débito de los documentos relacionados,2017-01-01
+3,Devolución de mercancía sobre facturas o traslados previos,2017-01-01
+4,Sustitución de los CFDI previos,2017-01-01
+5,Traslados de mercancias facturados previamente,2017-01-01
+6,Factura generada por los traslados previos,2017-01-01
+7,CFDI por aplicación de anticipo,2017-08-13
+8,Factura generada por pagos en parcialidades,2017-12-05
+9,Factura generada por pagos diferidos,2017-12-05

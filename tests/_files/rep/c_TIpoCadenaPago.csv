@@ -1,5 +1,5 @@
-Catálogo del tipo de la cadena de pago.,,,,,
-Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,,
-2017-01-01,,1.0,0,,
-c_TipoCadena,Descripción,,,,
-1,SPEI,,,,
+Catálogo del tipo de la cadena de pago.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2017-01-01,,1.0,0
+c_TipoCadena,Descripción
+1,SPEI

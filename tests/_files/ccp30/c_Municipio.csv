@@ -1,316 +1,316 @@
-Catálogo de municipios.,,,,
+Catálogo de municipios.
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,Fecha de publicación
 2017-01-01,,2.0,4,2022-12-29
 c_Municipio,c_Estado,Descripción,Fecha inicio vigencia,Fecha fin vigencia
-001,AGU,Aguascalientes,2017-01-01,
-001,BCN,Ensenada,2017-01-01,
-001,BCS,Comondú,2017-01-01,
-001,CAM,Calkiní,2017-01-01,
-001,COA,Abasolo,2017-01-01,
-001,COL,Armería,2017-01-01,
-001,CHH,Ahumada,2017-01-01,
-001,CHP,Acacoyagua,2017-01-01,
-001,DUR,Canatlán,2017-01-01,
-001,GRO,Acapulco de Juárez,2017-01-01,
-001,GUA,Abasolo,2017-01-01,
-001,HID,Acatlán,2017-01-01,
-001,JAL,Acatic,2017-01-01,
-001,MEX,Acambay de Ruíz Castañeda,2017-01-01,
-001,MIC,Acuitzio,2017-01-01,
-001,MOR,Amacuzac,2017-01-01,
-001,NAY,Acaponeta,2017-01-01,
-001,NLE,Abasolo,2017-01-01,
-001,OAX,Abejones,2017-01-01,
-001,PUE,Acajete,2017-01-01,
-001,QUE,Amealco de Bonfil,2017-01-01,
-001,ROO,Cozumel,2017-01-01,
-001,SIN,Ahome,2017-01-01,
-001,SLP,Ahualulco,2017-01-01,
-001,SON,Aconchi,2017-01-01,
-001,TAB,Balancán,2017-01-01,
-001,TAM,Abasolo,2017-01-01,
-001,TLA,Amaxac de Guerrero,2017-01-01,
-001,VER,Acajete,2017-01-01,
-001,YUC,Abalá,2017-01-01,
-001,ZAC,Apozol,2017-01-01,
-002,AGU,Asientos,2017-01-01,
-002,BCN,Mexicali,2017-01-01,
-002,BCS,Mulegé,2017-01-01,
-002,CAM,Campeche,2017-01-01,
-002,COA,Acuña,2017-01-01,
-002,COL,Colima,2017-01-01,
-002,CHH,Aldama,2017-01-01,
-002,CHP,Acala,2017-01-01,
-002,CMX,Azcapotzalco,2022-01-01,
+001,AGU,Aguascalientes,2017-01-01
+001,BCN,Ensenada,2017-01-01
+001,BCS,Comondú,2017-01-01
+001,CAM,Calkiní,2017-01-01
+001,COA,Abasolo,2017-01-01
+001,COL,Armería,2017-01-01
+001,CHH,Ahumada,2017-01-01
+001,CHP,Acacoyagua,2017-01-01
+001,DUR,Canatlán,2017-01-01
+001,GRO,Acapulco de Juárez,2017-01-01
+001,GUA,Abasolo,2017-01-01
+001,HID,Acatlán,2017-01-01
+001,JAL,Acatic,2017-01-01
+001,MEX,Acambay de Ruíz Castañeda,2017-01-01
+001,MIC,Acuitzio,2017-01-01
+001,MOR,Amacuzac,2017-01-01
+001,NAY,Acaponeta,2017-01-01
+001,NLE,Abasolo,2017-01-01
+001,OAX,Abejones,2017-01-01
+001,PUE,Acajete,2017-01-01
+001,QUE,Amealco de Bonfil,2017-01-01
+001,ROO,Cozumel,2017-01-01
+001,SIN,Ahome,2017-01-01
+001,SLP,Ahualulco,2017-01-01
+001,SON,Aconchi,2017-01-01
+001,TAB,Balancán,2017-01-01
+001,TAM,Abasolo,2017-01-01
+001,TLA,Amaxac de Guerrero,2017-01-01
+001,VER,Acajete,2017-01-01
+001,YUC,Abalá,2017-01-01
+001,ZAC,Apozol,2017-01-01
+002,AGU,Asientos,2017-01-01
+002,BCN,Mexicali,2017-01-01
+002,BCS,Mulegé,2017-01-01
+002,CAM,Campeche,2017-01-01
+002,COA,Acuña,2017-01-01
+002,COL,Colima,2017-01-01
+002,CHH,Aldama,2017-01-01
+002,CHP,Acala,2017-01-01
+002,CMX,Azcapotzalco,2022-01-01
 002,DIF,Azcapotzalco,2017-01-01,2023-03-31
-002,DUR,Canelas,2017-01-01,
-002,GRO,Ahuacuotzingo,2017-01-01,
-002,GUA,Acámbaro,2017-01-01,
-002,HID,Acaxochitlán,2017-01-01,
-002,JAL,Acatlán de Juárez,2017-01-01,
-002,MEX,Acolman,2017-01-01,
-002,MIC,Aguililla,2017-01-01,
-002,MOR,Atlatlahucan,2017-01-01,
-002,NAY,Ahuacatlán,2017-01-01,
-002,NLE,Agualeguas,2017-01-01,
-002,OAX,Acatlán de Pérez Figueroa,2017-01-01,
-002,PUE,Acateno,2017-01-01,
-002,QUE,Pinal de Amoles,2017-01-01,
-002,ROO,Felipe Carrillo Puerto,2017-01-01,
-002,SIN,Angostura,2017-01-01,
-002,SLP,Alaquines,2017-01-01,
-002,SON,Agua Prieta,2017-01-01,
-002,TAB,Cárdenas,2017-01-01,
-002,TAM,Aldama,2017-01-01,
-002,TLA,Apetatitlán de Antonio Carvajal,2017-01-01,
-002,VER,Acatlán,2017-01-01,
-002,YUC,Acanceh,2017-01-01,
-002,ZAC,Apulco,2017-01-01,
-003,AGU,Calvillo,2017-01-01,
-003,BCN,Tecate,2017-01-01,
-003,BCS,La Paz,2017-01-01,
-003,CAM,Carmen,2017-01-01,
-003,COA,Allende,2017-01-01,
-003,COL,Comala,2017-01-01,
-003,CHH,Allende,2017-01-01,
-003,CHP,Acapetahua,2017-01-01,
-003,CMX,Coyoacán,2022-01-01,
+002,DUR,Canelas,2017-01-01
+002,GRO,Ahuacuotzingo,2017-01-01
+002,GUA,Acámbaro,2017-01-01
+002,HID,Acaxochitlán,2017-01-01
+002,JAL,Acatlán de Juárez,2017-01-01
+002,MEX,Acolman,2017-01-01
+002,MIC,Aguililla,2017-01-01
+002,MOR,Atlatlahucan,2017-01-01
+002,NAY,Ahuacatlán,2017-01-01
+002,NLE,Agualeguas,2017-01-01
+002,OAX,Acatlán de Pérez Figueroa,2017-01-01
+002,PUE,Acateno,2017-01-01
+002,QUE,Pinal de Amoles,2017-01-01
+002,ROO,Felipe Carrillo Puerto,2017-01-01
+002,SIN,Angostura,2017-01-01
+002,SLP,Alaquines,2017-01-01
+002,SON,Agua Prieta,2017-01-01
+002,TAB,Cárdenas,2017-01-01
+002,TAM,Aldama,2017-01-01
+002,TLA,Apetatitlán de Antonio Carvajal,2017-01-01
+002,VER,Acatlán,2017-01-01
+002,YUC,Acanceh,2017-01-01
+002,ZAC,Apulco,2017-01-01
+003,AGU,Calvillo,2017-01-01
+003,BCN,Tecate,2017-01-01
+003,BCS,La Paz,2017-01-01
+003,CAM,Carmen,2017-01-01
+003,COA,Allende,2017-01-01
+003,COL,Comala,2017-01-01
+003,CHH,Allende,2017-01-01
+003,CHP,Acapetahua,2017-01-01
+003,CMX,Coyoacán,2022-01-01
 003,DIF,Coyoacán,2017-01-01,2023-03-31
-003,DUR,Coneto de Comonfort,2017-01-01,
-003,GRO,Ajuchitlán del Progreso,2017-01-01,
-003,GUA,San Miguel de Allende,2017-01-01,
-003,HID,Actopan,2017-01-01,
-003,JAL,Ahualulco de Mercado,2017-01-01,
-003,MEX,Aculco,2017-01-01,
-003,MIC,Álvaro Obregón,2017-01-01,
-003,MOR,Axochiapan,2017-01-01,
-003,NAY,Amatlán de Cañas,2017-01-01,
-003,NLE,Los Aldamas,2017-01-01,
-003,OAX,Asunción Cacalotepec,2017-01-01,
-003,PUE,Acatlán,2017-01-01,
-003,QUE,Arroyo Seco,2017-01-01,
-003,ROO,Isla Mujeres,2017-01-01,
-003,SIN,Badiraguato,2017-01-01,
-003,SLP,Aquismón,2017-01-01,
-003,SON,Alamos,2017-01-01,
-003,TAB,Centla,2017-01-01,
-003,TAM,Altamira,2017-01-01,
-003,TLA,Atlangatepec,2017-01-01,
-003,VER,Acayucan,2017-01-01,
-003,YUC,Akil,2017-01-01,
-003,ZAC,Atolinga,2017-01-01,
-004,AGU,Cosío,2017-01-01,
-004,BCN,Tijuana,2017-01-01,
-004,CAM,Champotón,2017-01-01,
-004,COA,Arteaga,2017-01-01,
-004,COL,Coquimatlán,2017-01-01,
-004,CHH,Aquiles Serdán,2017-01-01,
-004,CHP,Altamirano,2017-01-01,
-004,CMX,Cuajimalpa de Morelos,2022-01-01,
+003,DUR,Coneto de Comonfort,2017-01-01
+003,GRO,Ajuchitlán del Progreso,2017-01-01
+003,GUA,San Miguel de Allende,2017-01-01
+003,HID,Actopan,2017-01-01
+003,JAL,Ahualulco de Mercado,2017-01-01
+003,MEX,Aculco,2017-01-01
+003,MIC,Álvaro Obregón,2017-01-01
+003,MOR,Axochiapan,2017-01-01
+003,NAY,Amatlán de Cañas,2017-01-01
+003,NLE,Los Aldamas,2017-01-01
+003,OAX,Asunción Cacalotepec,2017-01-01
+003,PUE,Acatlán,2017-01-01
+003,QUE,Arroyo Seco,2017-01-01
+003,ROO,Isla Mujeres,2017-01-01
+003,SIN,Badiraguato,2017-01-01
+003,SLP,Aquismón,2017-01-01
+003,SON,Alamos,2017-01-01
+003,TAB,Centla,2017-01-01
+003,TAM,Altamira,2017-01-01
+003,TLA,Atlangatepec,2017-01-01
+003,VER,Acayucan,2017-01-01
+003,YUC,Akil,2017-01-01
+003,ZAC,Atolinga,2017-01-01
+004,AGU,Cosío,2017-01-01
+004,BCN,Tijuana,2017-01-01
+004,CAM,Champotón,2017-01-01
+004,COA,Arteaga,2017-01-01
+004,COL,Coquimatlán,2017-01-01
+004,CHH,Aquiles Serdán,2017-01-01
+004,CHP,Altamirano,2017-01-01
+004,CMX,Cuajimalpa de Morelos,2022-01-01
 004,DIF,Cuajimalpa de Morelos,2017-01-01,2023-03-31
-004,DUR,Cuencamé,2017-01-01,
-004,GRO,Alcozauca de Guerrero,2017-01-01,
-004,GUA,Apaseo el Alto,2017-01-01,
-004,HID,Agua Blanca de Iturbide,2017-01-01,
-004,JAL,Amacueca,2017-01-01,
-004,MEX,Almoloya de Alquisiras,2017-01-01,
-004,MIC,Angamacutiro,2017-01-01,
-004,MOR,Ayala,2017-01-01,
-004,NAY,Compostela,2017-01-01,
-004,NLE,Allende,2017-01-01,
-004,OAX,Asunción Cuyotepeji,2017-01-01,
-004,PUE,Acatzingo,2017-01-01,
-004,QUE,Cadereyta de Montes,2017-01-01,
-004,ROO,Othón P. Blanco,2017-01-01,
-004,SIN,Concordia,2017-01-01,
-004,SLP,Armadillo de los Infante,2017-01-01,
-004,SON,Altar,2017-01-01,
-004,TAB,Centro,2017-01-01,
-004,TAM,Antiguo Morelos,2017-01-01,
-004,TLA,Atltzayanca,2017-01-01,
-004,VER,Actopan,2017-01-01,
-004,YUC,Baca,2017-01-01,
-004,ZAC,Benito Juárez,2017-01-01,
-005,AGU,Jesús María,2017-01-01,
-005,BCN,Playas de Rosarito,2017-01-01,
-005,CAM,Hecelchakán,2017-01-01,
-005,COA,Candela,2017-01-01,
-005,COL,Cuauhtémoc,2017-01-01,
-005,CHH,Ascensión,2017-01-01,
-005,CHP,Amatán,2017-01-01,
-005,CMX,Gustavo A. Madero,2022-01-01,
+004,DUR,Cuencamé,2017-01-01
+004,GRO,Alcozauca de Guerrero,2017-01-01
+004,GUA,Apaseo el Alto,2017-01-01
+004,HID,Agua Blanca de Iturbide,2017-01-01
+004,JAL,Amacueca,2017-01-01
+004,MEX,Almoloya de Alquisiras,2017-01-01
+004,MIC,Angamacutiro,2017-01-01
+004,MOR,Ayala,2017-01-01
+004,NAY,Compostela,2017-01-01
+004,NLE,Allende,2017-01-01
+004,OAX,Asunción Cuyotepeji,2017-01-01
+004,PUE,Acatzingo,2017-01-01
+004,QUE,Cadereyta de Montes,2017-01-01
+004,ROO,Othón P. Blanco,2017-01-01
+004,SIN,Concordia,2017-01-01
+004,SLP,Armadillo de los Infante,2017-01-01
+004,SON,Altar,2017-01-01
+004,TAB,Centro,2017-01-01
+004,TAM,Antiguo Morelos,2017-01-01
+004,TLA,Atltzayanca,2017-01-01
+004,VER,Actopan,2017-01-01
+004,YUC,Baca,2017-01-01
+004,ZAC,Benito Juárez,2017-01-01
+005,AGU,Jesús María,2017-01-01
+005,BCN,Playas de Rosarito,2017-01-01
+005,CAM,Hecelchakán,2017-01-01
+005,COA,Candela,2017-01-01
+005,COL,Cuauhtémoc,2017-01-01
+005,CHH,Ascensión,2017-01-01
+005,CHP,Amatán,2017-01-01
+005,CMX,Gustavo A. Madero,2022-01-01
 005,DIF,Gustavo A. Madero,2017-01-01,2023-03-31
-005,DUR,Durango,2017-01-01,
-005,GRO,Alpoyeca,2017-01-01,
-005,GUA,Apaseo el Grande,2017-01-01,
-005,HID,Ajacuba,2017-01-01,
-005,JAL,Amatitán,2017-01-01,
-005,MEX,Almoloya de Juárez,2017-01-01,
-005,MIC,Angangueo,2017-01-01,
-005,MOR,Coatlán del Río,2017-01-01,
-005,NAY,Huajicori,2017-01-01,
-005,NLE,Anáhuac,2017-01-01,
-005,OAX,Asunción Ixtaltepec,2017-01-01,
-005,PUE,Acteopan,2017-01-01,
-005,QUE,Colón,2017-01-01,
-005,ROO,Benito Juárez,2017-01-01,
-411,OAX,Santa María Guelacé,2017-01-01,
-412,OAX,Santa María Guienagati,2017-01-01,
-413,OAX,Santa María Huatulco,2017-01-01,
-414,OAX,Santa María Huazolotitlán,2017-01-01,
-415,OAX,Santa María Ipalapa,2017-01-01,
-416,OAX,Santa María Ixcatlán,2017-01-01,
-417,OAX,Santa María Jacatepec,2017-01-01,
-418,OAX,Santa María Jalapa del Marqués,2017-01-01,
-419,OAX,Santa María Jaltianguis,2017-01-01,
-420,OAX,Santa María Lachixío,2017-01-01,
-421,OAX,Santa María Mixtequilla,2017-01-01,
-422,OAX,Santa María Nativitas,2017-01-01,
-423,OAX,Santa María Nduayaco,2017-01-01,
-424,OAX,Santa María Ozolotepec,2017-01-01,
-425,OAX,Santa María Pápalo,2017-01-01,
-426,OAX,Santa María Peñoles,2017-01-01,
-427,OAX,Santa María Petapa,2017-01-01,
-428,OAX,Santa María Quiegolani,2017-01-01,
-429,OAX,Santa María Sola,2017-01-01,
-430,OAX,Santa María Tataltepec,2017-01-01,
-431,OAX,Santa María Tecomavaca,2017-01-01,
-432,OAX,Santa María Temaxcalapa,2017-01-01,
-433,OAX,Santa María Temaxcaltepec,2017-01-01,
-434,OAX,Santa María Teopoxco,2017-01-01,
-435,OAX,Santa María Tepantlali,2017-01-01,
-436,OAX,Santa María Texcatitlán,2017-01-01,
-437,OAX,Santa María Tlahuitoltepec,2017-01-01,
-438,OAX,Santa María Tlalixtac,2017-01-01,
-439,OAX,Santa María Tonameca,2017-01-01,
-440,OAX,Santa María Totolapilla,2017-01-01,
-441,OAX,Santa María Xadani,2017-01-01,
-442,OAX,Santa María Yalina,2017-01-01,
-443,OAX,Santa María Yavesía,2017-01-01,
-444,OAX,Santa María Yolotepec,2017-01-01,
-445,OAX,Santa María Yosoyúa,2017-01-01,
-446,OAX,Santa María Yucuhiti,2017-01-01,
-447,OAX,Santa María Zacatepec,2017-01-01,
-448,OAX,Santa María Zaniza,2017-01-01,
-449,OAX,Santa María Zoquitlán,2017-01-01,
-450,OAX,Santiago Amoltepec,2017-01-01,
-451,OAX,Santiago Apoala,2017-01-01,
-452,OAX,Santiago Apóstol,2017-01-01,
-453,OAX,Santiago Astata,2017-01-01,
-454,OAX,Santiago Atitlán,2017-01-01,
-455,OAX,Santiago Ayuquililla,2017-01-01,
-456,OAX,Santiago Cacaloxtepec,2017-01-01,
-457,OAX,Santiago Camotlán,2017-01-01,
-458,OAX,Santiago Comaltepec,2017-01-01,
-459,OAX,Santiago Chazumba,2017-01-01,
-460,OAX,Santiago Choápam,2017-01-01,
-461,OAX,Santiago del Río,2017-01-01,
-462,OAX,Santiago Huajolotitlán,2017-01-01,
-463,OAX,Santiago Huauclilla,2017-01-01,
-464,OAX,Santiago Ihuitlán Plumas,2017-01-01,
-465,OAX,Santiago Ixcuintepec,2017-01-01,
-466,OAX,Santiago Ixtayutla,2017-01-01,
-467,OAX,Santiago Jamiltepec,2017-01-01,
-468,OAX,Santiago Jocotepec,2017-01-01,
-469,OAX,Santiago Juxtlahuaca,2017-01-01,
-470,OAX,Santiago Lachiguiri,2017-01-01,
-471,OAX,Santiago Lalopa,2017-01-01,
-472,OAX,Santiago Laollaga,2017-01-01,
-473,OAX,Santiago Laxopa,2017-01-01,
-474,OAX,Santiago Llano Grande,2017-01-01,
-475,OAX,Santiago Matatlán,2017-01-01,
-476,OAX,Santiago Miltepec,2017-01-01,
-477,OAX,Santiago Minas,2017-01-01,
-478,OAX,Santiago Nacaltepec,2017-01-01,
-479,OAX,Santiago Nejapilla,2017-01-01,
-480,OAX,Santiago Nundiche,2017-01-01,
-481,OAX,Santiago Nuyoó,2017-01-01,
-482,OAX,Santiago Pinotepa Nacional,2017-01-01,
-483,OAX,Santiago Suchilquitongo,2017-01-01,
-484,OAX,Santiago Tamazola,2017-01-01,
-485,OAX,Santiago Tapextla,2017-01-01,
-486,OAX,Villa Tejúpam de la Unión,2017-01-01,
-487,OAX,Santiago Tenango,2017-01-01,
-488,OAX,Santiago Tepetlapa,2017-01-01,
-489,OAX,Santiago Tetepec,2017-01-01,
-490,OAX,Santiago Texcalcingo,2017-01-01,
-491,OAX,Santiago Textitlán,2017-01-01,
-492,OAX,Santiago Tilantongo,2017-01-01,
-493,OAX,Santiago Tillo,2017-01-01,
-494,OAX,Santiago Tlazoyaltepec,2017-01-01,
-495,OAX,Santiago Xanica,2017-01-01,
-496,OAX,Santiago Xiacuí,2017-01-01,
-497,OAX,Santiago Yaitepec,2017-01-01,
-498,OAX,Santiago Yaveo,2017-01-01,
-499,OAX,Santiago Yolomécatl,2017-01-01,
-500,OAX,Santiago Yosondúa,2017-01-01,
-501,OAX,Santiago Yucuyachi,2017-01-01,
-502,OAX,Santiago Zacatepec,2017-01-01,
-503,OAX,Santiago Zoochila,2017-01-01,
-504,OAX,Nuevo Zoquiápam,2017-01-01,
-505,OAX,Santo Domingo Ingenio,2017-01-01,
-506,OAX,Santo Domingo Albarradas,2017-01-01,
-507,OAX,Santo Domingo Armenta,2017-01-01,
-508,OAX,Santo Domingo Chihuitán,2017-01-01,
-509,OAX,Santo Domingo de Morelos,2017-01-01,
-510,OAX,Santo Domingo Ixcatlán,2017-01-01,
-511,OAX,Santo Domingo Nuxaá,2017-01-01,
-512,OAX,Santo Domingo Ozolotepec,2017-01-01,
-513,OAX,Santo Domingo Petapa,2017-01-01,
-514,OAX,Santo Domingo Roayaga,2017-01-01,
-515,OAX,Santo Domingo Tehuantepec,2017-01-01,
-516,OAX,Santo Domingo Teojomulco,2017-01-01,
-517,OAX,Santo Domingo Tepuxtepec,2017-01-01,
-518,OAX,Santo Domingo Tlatayápam,2017-01-01,
-519,OAX,Santo Domingo Tomaltepec,2017-01-01,
-520,OAX,Santo Domingo Tonalá,2017-01-01,
-521,OAX,Santo Domingo Tonaltepec,2017-01-01,
-522,OAX,Santo Domingo Xagacía,2017-01-01,
-523,OAX,Santo Domingo Yanhuitlán,2017-01-01,
-524,OAX,Santo Domingo Yodohino,2017-01-01,
-525,OAX,Santo Domingo Zanatepec,2017-01-01,
-526,OAX,Santos Reyes Nopala,2017-01-01,
-527,OAX,Santos Reyes Pápalo,2017-01-01,
-528,OAX,Santos Reyes Tepejillo,2017-01-01,
-529,OAX,Santos Reyes Yucuná,2017-01-01,
-530,OAX,Santo Tomás Jalieza,2017-01-01,
-531,OAX,Santo Tomás Mazaltepec,2017-01-01,
-532,OAX,Santo Tomás Ocotepec,2017-01-01,
-533,OAX,Santo Tomás Tamazulapan,2017-01-01,
-534,OAX,San Vicente Coatlán,2017-01-01,
-535,OAX,San Vicente Lachixío,2017-01-01,
-536,OAX,San Vicente Nuñú,2017-01-01,
-537,OAX,Silacayoápam,2017-01-01,
-538,OAX,Sitio de Xitlapehua,2017-01-01,
-539,OAX,Soledad Etla,2017-01-01,
-540,OAX,Villa de Tamazulápam del Progreso,2017-01-01,
-541,OAX,Tanetze de Zaragoza,2017-01-01,
-542,OAX,Taniche,2017-01-01,
-543,OAX,Tataltepec de Valdés,2017-01-01,
-544,OAX,Teococuilco de Marcos Pérez,2017-01-01,
-545,OAX,Teotitlán de Flores Magón,2017-01-01,
-546,OAX,Teotitlán del Valle,2017-01-01,
-547,OAX,Teotongo,2017-01-01,
-548,OAX,Tepelmeme Villa de Morelos,2017-01-01,
-549,OAX,Tezoatlán de Segura y Luna,2017-01-01,
-550,OAX,San Jerónimo Tlacochahuaya,2017-01-01,
-551,OAX,Tlacolula de Matamoros,2017-01-01,
-552,OAX,Tlacotepec Plumas,2017-01-01,
-553,OAX,Tlalixtac de Cabrera,2017-01-01,
-554,OAX,Totontepec Villa de Morelos,2017-01-01,
-555,OAX,Trinidad Zaachila,2017-01-01,
-556,OAX,La Trinidad Vista Hermosa,2017-01-01,
-557,OAX,Unión Hidalgo,2017-01-01,
-558,OAX,Valerio Trujano,2017-01-01,
-559,OAX,San Juan Bautista Valle Nacional,2017-01-01,
-560,OAX,Villa Díaz Ordaz,2017-01-01,
-561,OAX,Yaxe,2017-01-01,
-562,OAX,Magdalena Yodocono de Porfirio Díaz,2017-01-01,
-563,OAX,Yogana,2017-01-01,
-564,OAX,Yutanduchi de Guerrero,2017-01-01,
-565,OAX,Villa de Zaachila,2017-01-01,
-566,OAX,San Mateo Yucutindoo,2017-01-01,
-567,OAX,Zapotitlán Lagunas,2017-01-01,
-568,OAX,Zapotitlán Palmas,2017-01-01,
-569,OAX,Santa Inés de Zaragoza,2017-01-01,
-570,OAX,Zimatlán de Álvarez,2017-01-01,
+005,DUR,Durango,2017-01-01
+005,GRO,Alpoyeca,2017-01-01
+005,GUA,Apaseo el Grande,2017-01-01
+005,HID,Ajacuba,2017-01-01
+005,JAL,Amatitán,2017-01-01
+005,MEX,Almoloya de Juárez,2017-01-01
+005,MIC,Angangueo,2017-01-01
+005,MOR,Coatlán del Río,2017-01-01
+005,NAY,Huajicori,2017-01-01
+005,NLE,Anáhuac,2017-01-01
+005,OAX,Asunción Ixtaltepec,2017-01-01
+005,PUE,Acteopan,2017-01-01
+005,QUE,Colón,2017-01-01
+005,ROO,Benito Juárez,2017-01-01
+411,OAX,Santa María Guelacé,2017-01-01
+412,OAX,Santa María Guienagati,2017-01-01
+413,OAX,Santa María Huatulco,2017-01-01
+414,OAX,Santa María Huazolotitlán,2017-01-01
+415,OAX,Santa María Ipalapa,2017-01-01
+416,OAX,Santa María Ixcatlán,2017-01-01
+417,OAX,Santa María Jacatepec,2017-01-01
+418,OAX,Santa María Jalapa del Marqués,2017-01-01
+419,OAX,Santa María Jaltianguis,2017-01-01
+420,OAX,Santa María Lachixío,2017-01-01
+421,OAX,Santa María Mixtequilla,2017-01-01
+422,OAX,Santa María Nativitas,2017-01-01
+423,OAX,Santa María Nduayaco,2017-01-01
+424,OAX,Santa María Ozolotepec,2017-01-01
+425,OAX,Santa María Pápalo,2017-01-01
+426,OAX,Santa María Peñoles,2017-01-01
+427,OAX,Santa María Petapa,2017-01-01
+428,OAX,Santa María Quiegolani,2017-01-01
+429,OAX,Santa María Sola,2017-01-01
+430,OAX,Santa María Tataltepec,2017-01-01
+431,OAX,Santa María Tecomavaca,2017-01-01
+432,OAX,Santa María Temaxcalapa,2017-01-01
+433,OAX,Santa María Temaxcaltepec,2017-01-01
+434,OAX,Santa María Teopoxco,2017-01-01
+435,OAX,Santa María Tepantlali,2017-01-01
+436,OAX,Santa María Texcatitlán,2017-01-01
+437,OAX,Santa María Tlahuitoltepec,2017-01-01
+438,OAX,Santa María Tlalixtac,2017-01-01
+439,OAX,Santa María Tonameca,2017-01-01
+440,OAX,Santa María Totolapilla,2017-01-01
+441,OAX,Santa María Xadani,2017-01-01
+442,OAX,Santa María Yalina,2017-01-01
+443,OAX,Santa María Yavesía,2017-01-01
+444,OAX,Santa María Yolotepec,2017-01-01
+445,OAX,Santa María Yosoyúa,2017-01-01
+446,OAX,Santa María Yucuhiti,2017-01-01
+447,OAX,Santa María Zacatepec,2017-01-01
+448,OAX,Santa María Zaniza,2017-01-01
+449,OAX,Santa María Zoquitlán,2017-01-01
+450,OAX,Santiago Amoltepec,2017-01-01
+451,OAX,Santiago Apoala,2017-01-01
+452,OAX,Santiago Apóstol,2017-01-01
+453,OAX,Santiago Astata,2017-01-01
+454,OAX,Santiago Atitlán,2017-01-01
+455,OAX,Santiago Ayuquililla,2017-01-01
+456,OAX,Santiago Cacaloxtepec,2017-01-01
+457,OAX,Santiago Camotlán,2017-01-01
+458,OAX,Santiago Comaltepec,2017-01-01
+459,OAX,Santiago Chazumba,2017-01-01
+460,OAX,Santiago Choápam,2017-01-01
+461,OAX,Santiago del Río,2017-01-01
+462,OAX,Santiago Huajolotitlán,2017-01-01
+463,OAX,Santiago Huauclilla,2017-01-01
+464,OAX,Santiago Ihuitlán Plumas,2017-01-01
+465,OAX,Santiago Ixcuintepec,2017-01-01
+466,OAX,Santiago Ixtayutla,2017-01-01
+467,OAX,Santiago Jamiltepec,2017-01-01
+468,OAX,Santiago Jocotepec,2017-01-01
+469,OAX,Santiago Juxtlahuaca,2017-01-01
+470,OAX,Santiago Lachiguiri,2017-01-01
+471,OAX,Santiago Lalopa,2017-01-01
+472,OAX,Santiago Laollaga,2017-01-01
+473,OAX,Santiago Laxopa,2017-01-01
+474,OAX,Santiago Llano Grande,2017-01-01
+475,OAX,Santiago Matatlán,2017-01-01
+476,OAX,Santiago Miltepec,2017-01-01
+477,OAX,Santiago Minas,2017-01-01
+478,OAX,Santiago Nacaltepec,2017-01-01
+479,OAX,Santiago Nejapilla,2017-01-01
+480,OAX,Santiago Nundiche,2017-01-01
+481,OAX,Santiago Nuyoó,2017-01-01
+482,OAX,Santiago Pinotepa Nacional,2017-01-01
+483,OAX,Santiago Suchilquitongo,2017-01-01
+484,OAX,Santiago Tamazola,2017-01-01
+485,OAX,Santiago Tapextla,2017-01-01
+486,OAX,Villa Tejúpam de la Unión,2017-01-01
+487,OAX,Santiago Tenango,2017-01-01
+488,OAX,Santiago Tepetlapa,2017-01-01
+489,OAX,Santiago Tetepec,2017-01-01
+490,OAX,Santiago Texcalcingo,2017-01-01
+491,OAX,Santiago Textitlán,2017-01-01
+492,OAX,Santiago Tilantongo,2017-01-01
+493,OAX,Santiago Tillo,2017-01-01
+494,OAX,Santiago Tlazoyaltepec,2017-01-01
+495,OAX,Santiago Xanica,2017-01-01
+496,OAX,Santiago Xiacuí,2017-01-01
+497,OAX,Santiago Yaitepec,2017-01-01
+498,OAX,Santiago Yaveo,2017-01-01
+499,OAX,Santiago Yolomécatl,2017-01-01
+500,OAX,Santiago Yosondúa,2017-01-01
+501,OAX,Santiago Yucuyachi,2017-01-01
+502,OAX,Santiago Zacatepec,2017-01-01
+503,OAX,Santiago Zoochila,2017-01-01
+504,OAX,Nuevo Zoquiápam,2017-01-01
+505,OAX,Santo Domingo Ingenio,2017-01-01
+506,OAX,Santo Domingo Albarradas,2017-01-01
+507,OAX,Santo Domingo Armenta,2017-01-01
+508,OAX,Santo Domingo Chihuitán,2017-01-01
+509,OAX,Santo Domingo de Morelos,2017-01-01
+510,OAX,Santo Domingo Ixcatlán,2017-01-01
+511,OAX,Santo Domingo Nuxaá,2017-01-01
+512,OAX,Santo Domingo Ozolotepec,2017-01-01
+513,OAX,Santo Domingo Petapa,2017-01-01
+514,OAX,Santo Domingo Roayaga,2017-01-01
+515,OAX,Santo Domingo Tehuantepec,2017-01-01
+516,OAX,Santo Domingo Teojomulco,2017-01-01
+517,OAX,Santo Domingo Tepuxtepec,2017-01-01
+518,OAX,Santo Domingo Tlatayápam,2017-01-01
+519,OAX,Santo Domingo Tomaltepec,2017-01-01
+520,OAX,Santo Domingo Tonalá,2017-01-01
+521,OAX,Santo Domingo Tonaltepec,2017-01-01
+522,OAX,Santo Domingo Xagacía,2017-01-01
+523,OAX,Santo Domingo Yanhuitlán,2017-01-01
+524,OAX,Santo Domingo Yodohino,2017-01-01
+525,OAX,Santo Domingo Zanatepec,2017-01-01
+526,OAX,Santos Reyes Nopala,2017-01-01
+527,OAX,Santos Reyes Pápalo,2017-01-01
+528,OAX,Santos Reyes Tepejillo,2017-01-01
+529,OAX,Santos Reyes Yucuná,2017-01-01
+530,OAX,Santo Tomás Jalieza,2017-01-01
+531,OAX,Santo Tomás Mazaltepec,2017-01-01
+532,OAX,Santo Tomás Ocotepec,2017-01-01
+533,OAX,Santo Tomás Tamazulapan,2017-01-01
+534,OAX,San Vicente Coatlán,2017-01-01
+535,OAX,San Vicente Lachixío,2017-01-01
+536,OAX,San Vicente Nuñú,2017-01-01
+537,OAX,Silacayoápam,2017-01-01
+538,OAX,Sitio de Xitlapehua,2017-01-01
+539,OAX,Soledad Etla,2017-01-01
+540,OAX,Villa de Tamazulápam del Progreso,2017-01-01
+541,OAX,Tanetze de Zaragoza,2017-01-01
+542,OAX,Taniche,2017-01-01
+543,OAX,Tataltepec de Valdés,2017-01-01
+544,OAX,Teococuilco de Marcos Pérez,2017-01-01
+545,OAX,Teotitlán de Flores Magón,2017-01-01
+546,OAX,Teotitlán del Valle,2017-01-01
+547,OAX,Teotongo,2017-01-01
+548,OAX,Tepelmeme Villa de Morelos,2017-01-01
+549,OAX,Tezoatlán de Segura y Luna,2017-01-01
+550,OAX,San Jerónimo Tlacochahuaya,2017-01-01
+551,OAX,Tlacolula de Matamoros,2017-01-01
+552,OAX,Tlacotepec Plumas,2017-01-01
+553,OAX,Tlalixtac de Cabrera,2017-01-01
+554,OAX,Totontepec Villa de Morelos,2017-01-01
+555,OAX,Trinidad Zaachila,2017-01-01
+556,OAX,La Trinidad Vista Hermosa,2017-01-01
+557,OAX,Unión Hidalgo,2017-01-01
+558,OAX,Valerio Trujano,2017-01-01
+559,OAX,San Juan Bautista Valle Nacional,2017-01-01
+560,OAX,Villa Díaz Ordaz,2017-01-01
+561,OAX,Yaxe,2017-01-01
+562,OAX,Magdalena Yodocono de Porfirio Díaz,2017-01-01
+563,OAX,Yogana,2017-01-01
+564,OAX,Yutanduchi de Guerrero,2017-01-01
+565,OAX,Villa de Zaachila,2017-01-01
+566,OAX,San Mateo Yucutindoo,2017-01-01
+567,OAX,Zapotitlán Lagunas,2017-01-01
+568,OAX,Zapotitlán Palmas,2017-01-01
+569,OAX,Santa Inés de Zaragoza,2017-01-01
+570,OAX,Zimatlán de Álvarez,2017-01-01

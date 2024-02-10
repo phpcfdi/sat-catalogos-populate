@@ -1,10 +1,10 @@
-Catálogo de Tipo de Dividendo o utilidad distribuida,,,
-Versión,Revisión,,
-1.0,0,,
+Catálogo de Tipo de Dividendo o utilidad distribuida
+Versión,Revisión
+1.0,0
 c_TipoDividendoOutilidad distribuida,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
-01,Proviene de CUFIN,2022-01-01,
-02,No proviene de CUFIN,2022-01-01,
-03,Reembolso o reducción de capital,2022-01-01,
-04,Liquidación de la persona moral,2022-01-01,
-05,CUFINRE,2022-01-01,
-06,Proviene de CUFIN al 31 de diciembre 2013.,2022-01-01,
+01,Proviene de CUFIN,2022-01-01
+02,No proviene de CUFIN,2022-01-01
+03,Reembolso o reducción de capital,2022-01-01
+04,Liquidación de la persona moral,2022-01-01
+05,CUFINRE,2022-01-01
+06,Proviene de CUFIN al 31 de diciembre 2013.,2022-01-01

@@ -1,5 +1,5 @@
-Catálogo de Tipo de Operación.,,,
+Catálogo de Tipo de Operación.
 Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
 2017-01-01,,1.0,0
-c_TipoOperacion,Descripción,,
-2,Exportación,,
+c_TipoOperacion,Descripción
+2,Exportación
