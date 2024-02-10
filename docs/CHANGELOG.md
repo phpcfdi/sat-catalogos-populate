@@ -1,5 +1,19 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 2.8.1 2024-02-09
+
+CFDI 4.0 catalog `UsoCFDI` change a header from `Regímen Fiscal Receptor` to `Régimen Fiscal Receptor`.
+
+When export to CSV, remove trailing commas on exported files.
+
+Other updates:
+
+- GitHub actions update to version 4.
+- GitHub workflow job `phpcs` run using installed tool.
+- Update testing file specimen for CFDI 4.0.
+- Remove trailing commas on CSV testing files.
+- Update development tools.
+
 ## Version 2.8.0 2024-01-10
 
 Add CCE (*Complemento de comercio exterior*) 2.0 catalogs with prefix `cce_20_*`.
