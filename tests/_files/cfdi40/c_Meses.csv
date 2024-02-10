@@ -1,22 +1,22 @@
-Catálogo meses.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-c_Meses,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,,
-01,Enero,2022-01-01,,,,,,,,,
-02,Febrero,2022-01-01,,,,,,,,,
-03,Marzo,2022-01-01,,,,,,,,,
-04,Abril,2022-01-01,,,,,,,,,
-05,Mayo,2022-01-01,,,,,,,,,
-06,Junio,2022-01-01,,,,,,,,,
-07,Julio,2022-01-01,,,,,,,,,
-08,Agosto,2022-01-01,,,,,,,,,
-09,Septiembre,2022-01-01,,,,,,,,,
-10,Octubre,2022-01-01,,,,,,,,,
-11,Noviembre,2022-01-01,,,,,,,,,
-12,Diciembre,2022-01-01,,,,,,,,,
-13,Enero-Febrero,2022-01-01,,,,,,,,,
-14,Marzo-Abril,2022-01-01,,,,,,,,,
-15,Mayo-Junio,2022-01-01,,,,,,,,,
-16,Julio-Agosto,2022-01-01,,,,,,,,,
-17,Septiembre-Octubre,2022-01-01,,,,,,,,,
-18,Noviembre-Diciembre,2022-01-01,,,,,,,,,
+Catálogo meses.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,1.0,0,0,2022-01-01
+c_Meses,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+01,Enero,2022-01-01
+02,Febrero,2022-01-01
+03,Marzo,2022-01-01
+04,Abril,2022-01-01
+05,Mayo,2022-01-01
+06,Junio,2022-01-01
+07,Julio,2022-01-01
+08,Agosto,2022-01-01
+09,Septiembre,2022-01-01
+10,Octubre,2022-01-01
+11,Noviembre,2022-01-01
+12,Diciembre,2022-01-01
+13,Enero-Febrero,2022-01-01
+14,Marzo-Abril,2022-01-01
+15,Mayo-Junio,2022-01-01
+16,Julio-Agosto,2022-01-01
+17,Septiembre-Octubre,2022-01-01
+18,Noviembre-Diciembre,2022-01-01

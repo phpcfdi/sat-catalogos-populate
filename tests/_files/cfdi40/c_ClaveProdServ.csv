@@ -1,223 +1,337 @@
-Catálogo de Claves de Productos y Servicios.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Complemento que debe incluir,FechaInicioVigencia,FechaFinVigencia,Estímulo Franja Fronteriza,Palabras similares,,,
-01010101,No existe en el catálogo,Opcional,Opcional,,2022-01-01,,0,Público en general,,,
-10101500,Animales vivos de granja,Opcional,Opcional,,2022-01-01,,1,,,,
-10101501,Gatos vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101502,Perros,Opcional,Opcional,,2022-01-01,,1,,,,
-10101504,Visón,Opcional,Opcional,,2022-01-01,,1,,,,
-10101505,Ratas,Opcional,Opcional,,2022-01-01,,1,,,,
-10101506,Caballos,Opcional,Opcional,,2022-01-01,,1,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas",,,
-10101507,Ovejas,Opcional,Opcional,,2022-01-01,,1,"Borregos, Carneros",,,
-10101508,Cabras,Opcional,Opcional,,2022-01-01,,1,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos",,,
-10101509,Asnos,Opcional,Opcional,,2022-01-01,,1,"Borricos, Burros",,,
-10101510,Ratones,Opcional,Opcional,,2022-01-01,,1,,,,
-10101511,Cerdos,Opcional,Opcional,,2022-01-01,,1,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos",,,
-10101512,Conejos,Opcional,Opcional,,2022-01-01,,1,Liebres,,,
-10101513,Cobayas o conejillos de indias,Opcional,Opcional,,2022-01-01,,1,"Chanchito de Indias, Cobayos, Cuilo, Cuyo",,,
-10101514,Primates,Opcional,Opcional,,2022-01-01,,1,"Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos",,,
-10101515,Armadillos,Opcional,Opcional,,2022-01-01,,1,Toches,,,
-10101516,Ganado vacuno,Opcional,Opcional,,2022-01-01,,1,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas",,,
-10101517,Camellos,Opcional,Opcional,,2022-01-01,,1,Dromedarios,,,
-10101600,Pájaros y aves de corral vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101601,Pollos vivos,Opcional,Opcional,,2022-01-01,,1,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos",,,
-10101602,Patos vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101603,Pavos vivos,Opcional,Opcional,,2022-01-01,,1,"Gallipavos, Guajolotes, Pavos salvajes",,,
-10101604,Gansos vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101605,Faisanes vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101700,Peces vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101701,Salmones vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101702,Trucha viva,Opcional,Opcional,,2022-01-01,,1,,,,
-10101703,Tilapia viva,Opcional,Opcional,,2022-01-01,,1,Mojarra,,,
-10101704,Carpa viva,Opcional,Opcional,,2022-01-01,,1,,,,
-10101705,Anguilas vivas,Opcional,Opcional,,2022-01-01,,1,,,,
-10101800,Mariscos e invertebrados acuáticos vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101801,Camarón vivo,Opcional,Opcional,,2022-01-01,,1,Esquilas,,,
-10101802,Almejas vivas,Opcional,Opcional,,2022-01-01,,1,,,,
-10101803,Mejillones vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101804,Ostras vivas,Opcional,Opcional,,2022-01-01,,1,,,,
-10101805,Cangrejos vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101806,Abulones vivos,Opcional,Opcional,,2022-01-01,,1,Orejas de mar,,,
-10101807,Pulpo vivo,Opcional,Opcional,,2022-01-01,,1,Octópodo,,,
-10101808,Calamar vivo,Opcional,Opcional,,2022-01-01,,1,,,,
-10101809,Sanguijuelas,Opcional,Opcional,,2022-01-01,,1,"Hirudineas, Hirudos, Hirudíneo",,,
-10101900,Insectos vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10101901,Mariposas,Opcional,Opcional,,2022-01-01,,1,,,,
-10101902,Escarabajos,Opcional,Opcional,,2022-01-01,,1,"Mariquitas, Sanjuaneros",,,
-10101903,Abejas,Opcional,Opcional,,2022-01-01,,1,,,,
-10101904,Gusanos de seda,Opcional,Opcional,,2022-01-01,,1,"Crisálida, Larva, Oruga",,,
-10102000,Animales salvajes vivos,Opcional,Opcional,,2022-01-01,,1,,,,
-10102001,Elefantes,Opcional,Opcional,,2022-01-01,,1,Paquidermos,,,
-10102002,Zorros vivos,Opcional,Opcional,,2022-01-01,,1,Zorras,,,
-10102100,Huevos de aves para incubar,Opcional,Opcional,,2022-01-01,,1,,,,
-10111300,"Accesorios, equipo y tratamientos para los animales domésticos",Opcional,Opcional,,2022-01-01,,1,"Accesorios, equipo y medicamentos para animales domésticos",,,
-10111301,Juguetes para mascotas,Opcional,Opcional,,2022-01-01,,1,,,,
-10111302,Productos para el aseo y cuidado de mascotas,Opcional,Opcional,,2022-01-01,,1,,,,
-10111303,Equipo para el manejo de desperdicios de las mascotas,Opcional,Opcional,,2022-01-01,,1,,,,
-10111304,Tazones o equipo para alimentación de mascotas,Opcional,Opcional,,2022-01-01,,1,,,,
-10111305,Tratamientos medicados para mascotas,Opcional,Opcional,,2022-01-01,,1,Tratamientos medicinales para mascotas,,,
-10111306,Kits para el entrenamiento de mascotas domésticas,Opcional,Opcional,,2022-01-01,,1,,,,
-10111307,Cobijas para mascotas,Opcional,Opcional,,2022-01-01,,1,"Mantas para mascotas, Sábanas para mascotas",,,
-10121500,Pienso para ganado,Opcional,Opcional,,2022-01-01,,1,Alimento para ganado,,,
-10121501,Salvado de trigo puro,Opcional,Opcional,,2022-01-01,,1,,,,
-10121502,Avena para forraje,Opcional,Opcional,,2022-01-01,,1,,,,
-10121503,Maíz para forraje,Opcional,Opcional,,2022-01-01,,1,,,,
-10121504,Sorgo para forraje,Opcional,Opcional,,2022-01-01,,1,,,,
-10121505,Heno,Opcional,Opcional,,2022-01-01,,1,,,,
-10121506,Tortas oleaginosas,Opcional,Opcional,,2022-01-01,,1,Torta de aceite para ganado,,,
-10121507,Forraje compuesto,Opcional,Opcional,,2022-01-01,,1,,,,
-10121600,Alimento para pájaros y aves de corral,Opcional,Opcional,,2022-01-01,,1,,,,
-10121601,Alimento vivo para aves,Opcional,Opcional,,2022-01-01,,1,,,,
-10121602,Alpiste,Opcional,Opcional,,2022-01-01,,1,,,,
-10121603,Botanas o comida recreacional para aves,Opcional,Opcional,,2022-01-01,,1,,,,
-10121604,Alimento avícola,Opcional,Opcional,,2022-01-01,,1,,,,
-10121700,Alimento para peces,Opcional,Opcional,,2022-01-01,,1,,,,
-10121701,Salmuera fresca o congelada,Opcional,Opcional,,2022-01-01,,1,,,,
-10121702,Alimento granulado para peces,Opcional,Opcional,,2022-01-01,,1,,,,
-10121703,Alimento en hojuelas para peces,Opcional,Opcional,,2022-01-01,,1,,,,
-10121800,Alimento para perros y gatos,Opcional,Opcional,,2022-01-01,,1,,,,
-10121801,Comida seca para perros,Opcional,Opcional,,2022-01-01,,1,,,,
-10121802,Comida húmeda para perros,Opcional,Opcional,,2022-01-01,,1,,,,
-10121803,Leche para perros o gatos,Opcional,Opcional,,2022-01-01,,1,,,,
-10121804,Comida seca para gatos,Opcional,Opcional,,2022-01-01,,1,,,,
-10121805,Comida húmeda para gatos,Opcional,Opcional,,2022-01-01,,1,,,,
-10121806,Botanas o comida recreacional para gatos o perros,Opcional,Opcional,,2022-01-01,,1,,,,
-10121900,Alimento para roedores,Opcional,Opcional,,2022-01-01,,1,,,,
-10121901,Comida granulada para roedores,Opcional,Opcional,,2022-01-01,,1,,,,
-10122000,Alimento para reptiles,Opcional,Opcional,,2022-01-01,,1,,,,
-10122001,Comida granulada para reptiles,Opcional,Opcional,,2022-01-01,,1,,,,
-10122002,Comida húmeda para reptiles,Opcional,Opcional,,2022-01-01,,1,,,,
-10122003,Comida viva para reptiles,Opcional,Opcional,,2022-01-01,,1,,,,
-10122100,Comida para animales variados,Opcional,Opcional,,2022-01-01,,1,Comida para diversos animales,,,
-10122101,Comida para cerdos,Opcional,Opcional,,2022-01-01,,1,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones",,,
-10122102,Comida para visones,Opcional,Opcional,,2022-01-01,,1,,,,
-10122103,Comida para monos,Opcional,Opcional,,2022-01-01,,1,,,,
-10122104,Comida para conejos,Opcional,Opcional,,2022-01-01,,1,,,,
-10131500,Cobertizos para animales,Opcional,Opcional,,2022-01-01,,1,,,,
-10131506,Establos para ganado,Opcional,Opcional,,2022-01-01,,1,,,,
-10131507,Casas para mascotas domesticadas,Opcional,Opcional,,2022-01-01,,1,,,,
-10131508,Camas para mascotas,Opcional,Opcional,,2022-01-01,,1,,,,
-10131600,Recipientes para animales,Opcional,Opcional,,2022-01-01,,1,Contenedores de comida para animales,,,
-10131601,Jaulas o sus accesorios,Opcional,Opcional,,2022-01-01,,1,,,,
-10131602,Perreras,Opcional,Opcional,,2022-01-01,,1,,,,
-10131603,Equipaje para el transporte de animales,Opcional,Opcional,,2022-01-01,,1,,,,
-10131604,Correas para perros,Opcional,Opcional,,2022-01-01,,1,,,,
-10131700,Hábitat para animales,Opcional,Opcional,,2022-01-01,,1,Ambientes para animales,,,
-10131701,Terrarios,Opcional,Opcional,,2022-01-01,,1,,,,
-10131702,Acuarios,Opcional,Opcional,,2022-01-01,,1,,,,
-10141500,Talabartería,Opcional,Opcional,,2022-01-01,,1,Guarniciones para caballerías,,,
-95121646,Estructura para parqueo de bicicletas,Opcional,Opcional,,2022-01-01,,1,Estructura de estacionamiento para bicicletas,,,
-95121700,Edificios y estructuras públicos,Opcional,Opcional,,2022-01-01,,0,,,,
-95121701,Oficina postal,Opcional,Opcional,,2022-01-01,,0,,,,
-95121702,Estación de policía,Opcional,Opcional,,2022-01-01,,0,,,,
-95121703,Edificio de juzgados,Opcional,Opcional,,2022-01-01,,0,,,,
-95121704,Edificio de prisión,Opcional,Opcional,,2022-01-01,,0,,,,
-95121705,Estación de bomberos,Opcional,Opcional,,2022-01-01,,0,,,,
-95121706,Estación de ambulancias,Opcional,Opcional,,2022-01-01,,0,,,,
-95121707,Edificio de rescate de montaña,Opcional,Opcional,,2022-01-01,,0,,,,
-95121708,Estación de botes salvavidas,Opcional,Opcional,,2022-01-01,,0,,,,
-95121709,Edificio de guardacostas,Opcional,Opcional,,2022-01-01,,0,,,,
-95121710,Estación de servicio de rescate,Opcional,Opcional,,2022-01-01,,0,,,,
-95121711,Centro cívico,Opcional,Opcional,,2022-01-01,,0,,,,
-95121712,Galería de arte,Opcional,Opcional,,2022-01-01,,0,,,,
-95121800,Edificios y estructuras utilitarios,Opcional,Opcional,,2022-01-01,,0,,,,
-95121801,Estación de radares,Opcional,Opcional,,2022-01-01,,0,,,,
-95121802,Subestación,Opcional,Opcional,,2022-01-01,,0,,,,
-95121804,Torre de agua,Opcional,Opcional,,2022-01-01,,0,,,,
-95121805,Pozo,Opcional,Opcional,,2022-01-01,,0,,,,
-95121806,Estación base para telefonía móvil,Opcional,Opcional,,2022-01-01,,0,,,,
-95121808,Plataforma de gas o petróleo,Opcional,Opcional,,2022-01-01,,0,,,,
-95121900,Edificios y estructuras educacionales y de administración,Opcional,Opcional,,2022-01-01,,0,,,,
-95121901,Escuela politécnica,Opcional,Opcional,,2022-01-01,,0,,,,
-95121902,Centro de formación tecnológica,Opcional,Opcional,,2022-01-01,,0,,,,
-95121903,Aula,Opcional,Opcional,,2022-01-01,,0,,,,
-95121904,Biblioteca,Opcional,Opcional,,2022-01-01,,0,,,,
-95121905,Laboratorio de idiomas,Opcional,Opcional,,2022-01-01,,0,,,,
-95121906,Edificio de laboratorio,Opcional,Opcional,,2022-01-01,,0,,,,
-95121907,Estación meteorológica,Opcional,Opcional,,2022-01-01,,0,,,,
-95121908,Instalación para investigación o prueba,Opcional,Opcional,,2022-01-01,,0,,,,
-95121909,Escuela primaria,Opcional,Opcional,,2022-01-01,,0,,,,
-95121910,Escuela de bachillerato clásico,Opcional,Opcional,,2022-01-01,,0,,,,
-95121911,Escuela de bachillerato,Opcional,Opcional,,2022-01-01,,0,,,,
-95121913,Universidad,Opcional,Opcional,,2022-01-01,,0,,,,
-95122000,Edificios y estructuras hospitalarias,Opcional,Opcional,,2022-01-01,,0,,,,
-95122001,Clínica,Opcional,Opcional,,2022-01-01,,0,,,,
-95122002,Hogar de convalecencia,Opcional,Opcional,,2022-01-01,,0,,,,
-95122003,Sala de operaciones o quirófano,Opcional,Opcional,,2022-01-01,,0,,,,
-95122004,Unidad de cuidados intensivos,Opcional,Opcional,,2022-01-01,,0,,,,
-95122005,Sala de detección y diagnóstico,Opcional,Opcional,,2022-01-01,,0,,,,
-95122006,Sala de fluoroscopio,Opcional,Opcional,,2022-01-01,,0,,,,
-95122007,Sala o laboratorio de patología,Opcional,Opcional,,2022-01-01,,0,,,,
-95122008,Sala de cateterismo,Opcional,Opcional,,2022-01-01,,0,,,,
-95122100,Edificios y estructuras de acomodaciones,Opcional,Opcional,,2022-01-01,,0,,,,
-95122101,Casa residencial,Opcional,Opcional,,2022-01-01,,0,,,,
-95122102,Apartamento o piso,Opcional,Opcional,,2022-01-01,,0,,,,
-95122103,Asilo de niños,Opcional,Opcional,,2022-01-01,,0,,,,
-95122104,Guardería de niños,Opcional,Opcional,,2022-01-01,,0,,,,
-95122105,Hogar de ancianos,Opcional,Opcional,,2022-01-01,,0,,,,
-95122106,Hostal,Opcional,Opcional,,2022-01-01,,0,,,,
-95122300,Edificios y estructuras de salud y deportivas,Opcional,Opcional,,2022-01-01,,0,,,,
-95122301,Estadio,Opcional,Opcional,,2022-01-01,,0,,,,
-95122302,Campo deportivo,Opcional,Opcional,,2022-01-01,,0,,,,
-95122303,Pista de carreras,Opcional,Opcional,,2022-01-01,,0,,,,
-95122304,Polideportivo,Opcional,Opcional,,2022-01-01,,0,,,,
-95122305,Spa,Opcional,Opcional,,2022-01-01,,0,,,,
-95122306,Gimnasio,Opcional,Opcional,,2022-01-01,,0,,,,
-95122307,Piscina,Opcional,Opcional,,2022-01-01,,0,,,,
-95122308,Instalación para deportes acuáticos,Opcional,Opcional,,2022-01-01,,0,,,,
-95122400,Edificios y estructuras industriales,Opcional,Opcional,,2022-01-01,,0,,,,
-95122401,Taller,Opcional,Opcional,,2022-01-01,,0,,,,
-95122402,Instalación para conservación en cámaras frigoríficas,Opcional,Opcional,,2022-01-01,,0,,,,
-95122403,Tienda de descuentos,Opcional,Opcional,,2022-01-01,,0,,,,
-95122500,Edificios y estructuras agrícolas y de cultivos y pesca,Opcional,Opcional,,2022-01-01,,0,,,,
-95122501,Granero,Opcional,Opcional,,2022-01-01,,0,,,,
-95122502,Establo,Opcional,Opcional,,2022-01-01,,0,,,,
-95122503,Canal de riego,Opcional,Opcional,,2022-01-01,,0,,,,
-95122600,Edificios y estructuras religiosas,Opcional,Opcional,,2022-01-01,,0,,,,
-95122700,Edificios y estructuras de defensa,Opcional,Opcional,,2022-01-01,,0,,,,
-95131500,Tarimas y graderías,Opcional,Opcional,,2022-01-01,,1,,,,
-95131501,Graderías plegables,Opcional,Opcional,,2022-01-01,,1,,,,
-95131502,Graderías móviles,Opcional,Opcional,,2022-01-01,,1,,,,
-95131503,Graderías portátiles,Opcional,Opcional,,2022-01-01,,1,,,,
-95131600,Edificios y estructuras comerciales e industriales portátiles,Opcional,Opcional,,2022-01-01,,1,,,,
-95131601,Taquillas portátiles,Opcional,Opcional,,2022-01-01,,1,,,,
-95131602,Cuarto de baño portátil,Opcional,Opcional,,2022-01-01,,1,"Servicios en baños portátiles, Servicios en baños públicos",,,
-95131603,Oficina en el emplazamiento,Opcional,Opcional,,2022-01-01,,1,,,,
-95131604,Unidad de cocina portátil,Opcional,Opcional,,2022-01-01,,1,,,,
-95131605,Casa contenedor,Opcional,Opcional,,2022-01-01,,1,,,,
-95131606,Cabina de ventas portátil,Opcional,Opcional,,2022-01-01,,1,,,,
-95131700,Tiendas carpas y estructuras de membrana,Opcional,Opcional,,2022-01-01,,1,,,,
-95131701,Estructura textil tipo armazón,Opcional,Opcional,,2022-01-01,,1,,,,
-95131702,Carpa de poste o de tensión,Opcional,Opcional,,2022-01-01,,1,,,,
-95141500,Edificios y estructuras prefabricados para fincas,Opcional,Opcional,,2022-01-01,,0,,,,
-95141501,Silo,Opcional,Opcional,,2022-01-01,,0,Depósitos para granos,,,
-95141502,Invernadero,Opcional,Opcional,,2022-01-01,,0,,,,
-95141600,Edificios y estructuras prefabricados residenciales,Opcional,Opcional,,2022-01-01,,1,,,,
-95141601,Casa,Opcional,Opcional,,2022-01-01,,0,,,,
-95141602,Casa móvil,Opcional,Opcional,,2022-01-01,,1,,,,
-95141603,Cabaña,Opcional,Opcional,,2022-01-01,,0,,,,
-95141604,Garaje,Opcional,Opcional,,2022-01-01,,0,,,,
-95141605,Gazebo,Opcional,Opcional,,2022-01-01,,1,"Kiosco, Pabellón",,,
-95141606,Cocina para casa,Opcional,Opcional,,2022-01-01,,1,,,,
-95141700,Edificios y estructuras prefabricados comerciales e industriales,Opcional,Opcional,,2022-01-01,,0,,,,
-95141701,Oficina en la planta,Opcional,Opcional,,2022-01-01,,0,,,,
-95141702,Cabina de pintura,Opcional,Opcional,,2022-01-01,,0,,,,
-95141703,Galpón de almacenaje,Opcional,Opcional,,2022-01-01,,0,Almacén,,,
-95141704,Sala blanca,Opcional,Opcional,,2022-01-01,,0,,,,
-95141705,Casa de guardias,Opcional,Opcional,,2022-01-01,,0,,,,
-95141706,Bodega,Opcional,Opcional,,2022-01-01,,0,,,,
-95141707,Auditorio,Opcional,Opcional,,2022-01-01,,0,,,,
-95141708,Cocina para oficina,Opcional,Opcional,,2022-01-01,,1,,,,
-95141709,Conservatorio,Opcional,Opcional,,2022-01-01,,0,,,,
-95141710,Cabina telefónica,Opcional,Opcional,,2022-01-01,,1,,,,
-95141711,Cabina de peaje,Opcional,Opcional,,2022-01-01,,1,,,,
-95141800,Edificios y estructuras prefabricados de emergencia y alivio,Opcional,Opcional,,2022-01-01,,0,,,,
-95141801,Albergue,Opcional,Opcional,,2022-01-01,,0,,,,
-95141802,Carpa o salón de emergencia,Opcional,Opcional,,2022-01-01,,1,,,,
-95141803,Unidad de contenedor,Opcional,Opcional,,2022-01-01,,1,,,,
-95141900,Edificios y estructuras prefabricados médicos,Opcional,Opcional,,2022-01-01,,0,,,,
-95141901,Unidad médica,Opcional,Opcional,,2022-01-01,,0,,,,
-95141902,Unidad de laboratorio,Opcional,Opcional,,2022-01-01,,0,,,,
-95141903,Unidad odontológica,Opcional,Opcional,,2022-01-01,,0,,,,
-95141904,Unidades quirúrgicas,Opcional,Opcional,,2022-01-01,,0,,,,
+Catálogo de Claves de Productos y Servicios.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,2.0,0,2022-12-21,2022-01-01
+c_ClaveProdServ,Descripción,Incluir IVA trasladado,Incluir IEPS trasladado,Complemento que debe incluir,FechaInicioVigencia,FechaFinVigencia,Estímulo Franja Fronteriza,Palabras similares
+01010101,No existe en el catálogo,Opcional,Opcional,,2022-01-01,,0,Público en general
+10101500,Animales vivos de granja,Opcional,Opcional,,2022-01-01,,1
+10101501,Gatos vivos,Opcional,Opcional,,2022-01-01,,1
+10101502,Perros,Opcional,Opcional,,2022-01-01,,1
+10101504,Visón,Opcional,Opcional,,2022-01-01,,1
+10101505,Ratas,Opcional,Opcional,,2022-01-01,,1
+10101506,Caballos,Opcional,Opcional,,2022-01-01,,1,"Equinos, Potrancas, Potras, Potrillos, Potros, Yeguas"
+10101507,Ovejas,Opcional,Opcional,,2022-01-01,,1,"Borregos, Carneros"
+10101508,Cabras,Opcional,Opcional,,2022-01-01,,1,"Borregos cimarrones, Cabritos, Cabros, Carnero de las Rocosas, Chivas, Chivatos, Chivos, Irascos, Machos cabríos, Chivos"
+10101509,Asnos,Opcional,Opcional,,2022-01-01,,1,"Borricos, Burros"
+10101510,Ratones,Opcional,Opcional,,2022-01-01,,1
+10101511,Cerdos,Opcional,Opcional,,2022-01-01,,1,"Cerdo montés, Chanchos, Chanchos almizcleros, Chanchos de monte, Cochinillos, Cochinos, Cochinos de monte, Cuche, Cuinos, Gorrinos, Jabalíes americanos, Lechones, Cochinos de monte, Pecaríes, Porcinos, Puercos, Puercos de monte, Tayatos"
+10101512,Conejos,Opcional,Opcional,,2022-01-01,,1,Liebres
+10101513,Cobayas o conejillos de indias,Opcional,Opcional,,2022-01-01,,1,"Chanchito de Indias, Cobayos, Cuilo, Cuyo"
+10101514,Primates,Opcional,Opcional,,2022-01-01,,1,"Changos, Chimpancés, Gorilas, Lémures, Macacos, Micos, Monos, Orangutanes, Simios, Monos"
+10101515,Armadillos,Opcional,Opcional,,2022-01-01,,1,Toches
+10101516,Ganado vacuno,Opcional,Opcional,,2022-01-01,,1,"Bueyes, Búfalos, Cebús, Otros vacunos o bovinos, Toros, Vacas"
+10101517,Camellos,Opcional,Opcional,,2022-01-01,,1,Dromedarios
+10101600,Pájaros y aves de corral vivos,Opcional,Opcional,,2022-01-01,,1
+10101601,Pollos vivos,Opcional,Opcional,,2022-01-01,,1,"Gallinas, Gallinas de guinea, Gallos, Pintadas, Pollitos"
+10101602,Patos vivos,Opcional,Opcional,,2022-01-01,,1
+10101603,Pavos vivos,Opcional,Opcional,,2022-01-01,,1,"Gallipavos, Guajolotes, Pavos salvajes"
+10101604,Gansos vivos,Opcional,Opcional,,2022-01-01,,1
+10101605,Faisanes vivos,Opcional,Opcional,,2022-01-01,,1
+10101700,Peces vivos,Opcional,Opcional,,2022-01-01,,1
+10101701,Salmones vivos,Opcional,Opcional,,2022-01-01,,1
+10101702,Trucha viva,Opcional,Opcional,,2022-01-01,,1
+10101703,Tilapia viva,Opcional,Opcional,,2022-01-01,,1,Mojarra
+10101704,Carpa viva,Opcional,Opcional,,2022-01-01,,1
+10101705,Anguilas vivas,Opcional,Opcional,,2022-01-01,,1
+10101800,Mariscos e invertebrados acuáticos vivos,Opcional,Opcional,,2022-01-01,,1
+10101801,Camarón vivo,Opcional,Opcional,,2022-01-01,,1,Esquilas
+10101802,Almejas vivas,Opcional,Opcional,,2022-01-01,,1
+10101803,Mejillones vivos,Opcional,Opcional,,2022-01-01,,1
+10101804,Ostras vivas,Opcional,Opcional,,2022-01-01,,1
+10101805,Cangrejos vivos,Opcional,Opcional,,2022-01-01,,1
+10101806,Abulones vivos,Opcional,Opcional,,2022-01-01,,1,Orejas de mar
+10101807,Pulpo vivo,Opcional,Opcional,,2022-01-01,,1,Octópodo
+10101808,Calamar vivo,Opcional,Opcional,,2022-01-01,,1
+10101809,Sanguijuelas,Opcional,Opcional,,2022-01-01,,1,"Hirudineas, Hirudos, Hirudíneo"
+10101900,Insectos vivos,Opcional,Opcional,,2022-01-01,,1
+10101901,Mariposas,Opcional,Opcional,,2022-01-01,,1
+10101902,Escarabajos,Opcional,Opcional,,2022-01-01,,1,"Mariquitas, Sanjuaneros"
+10101903,Abejas,Opcional,Opcional,,2022-01-01,,1
+10101904,Gusanos de seda,Opcional,Opcional,,2022-01-01,,1,"Crisálida, Larva, Oruga"
+10102000,Animales salvajes vivos,Opcional,Opcional,,2022-01-01,,1
+10102001,Elefantes,Opcional,Opcional,,2022-01-01,,1,Paquidermos
+10102002,Zorros vivos,Opcional,Opcional,,2022-01-01,,1,Zorras
+10102100,Huevos de aves para incubar,Opcional,Opcional,,2022-01-01,,1
+10111300,"Accesorios, equipo y tratamientos para los animales domésticos",Opcional,Opcional,,2022-01-01,,1,"Accesorios, equipo y medicamentos para animales domésticos"
+10111301,Juguetes para mascotas,Opcional,Opcional,,2022-01-01,,1
+10111302,Productos para el aseo y cuidado de mascotas,Opcional,Opcional,,2022-01-01,,1
+10111303,Equipo para el manejo de desperdicios de las mascotas,Opcional,Opcional,,2022-01-01,,1
+10111304,Tazones o equipo para alimentación de mascotas,Opcional,Opcional,,2022-01-01,,1
+10111305,Tratamientos medicados para mascotas,Opcional,Opcional,,2022-01-01,,1,Tratamientos medicinales para mascotas
+10111306,Kits para el entrenamiento de mascotas domésticas,Opcional,Opcional,,2022-01-01,,1
+10111307,Cobijas para mascotas,Opcional,Opcional,,2022-01-01,,1,"Mantas para mascotas, Sábanas para mascotas"
+10121500,Pienso para ganado,Opcional,Opcional,,2022-01-01,,1,Alimento para ganado
+10121501,Salvado de trigo puro,Opcional,Opcional,,2022-01-01,,1
+10121502,Avena para forraje,Opcional,Opcional,,2022-01-01,,1
+10121503,Maíz para forraje,Opcional,Opcional,,2022-01-01,,1
+10121504,Sorgo para forraje,Opcional,Opcional,,2022-01-01,,1
+10121505,Heno,Opcional,Opcional,,2022-01-01,,1
+10121506,Tortas oleaginosas,Opcional,Opcional,,2022-01-01,,1,Torta de aceite para ganado
+10121507,Forraje compuesto,Opcional,Opcional,,2022-01-01,,1
+10121600,Alimento para pájaros y aves de corral,Opcional,Opcional,,2022-01-01,,1
+10121601,Alimento vivo para aves,Opcional,Opcional,,2022-01-01,,1
+10121602,Alpiste,Opcional,Opcional,,2022-01-01,,1
+10121603,Botanas o comida recreacional para aves,Opcional,Opcional,,2022-01-01,,1
+10121604,Alimento avícola,Opcional,Opcional,,2022-01-01,,1
+10121700,Alimento para peces,Opcional,Opcional,,2022-01-01,,1
+10121701,Salmuera fresca o congelada,Opcional,Opcional,,2022-01-01,,1
+10121702,Alimento granulado para peces,Opcional,Opcional,,2022-01-01,,1
+10121703,Alimento en hojuelas para peces,Opcional,Opcional,,2022-01-01,,1
+10121800,Alimento para perros y gatos,Opcional,Opcional,,2022-01-01,,1
+10121801,Comida seca para perros,Opcional,Opcional,,2022-01-01,,1
+10121802,Comida húmeda para perros,Opcional,Opcional,,2022-01-01,,1
+10121803,Leche para perros o gatos,Opcional,Opcional,,2022-01-01,,1
+10121804,Comida seca para gatos,Opcional,Opcional,,2022-01-01,,1
+10121805,Comida húmeda para gatos,Opcional,Opcional,,2022-01-01,,1
+10121806,Botanas o comida recreacional para gatos o perros,Opcional,Opcional,,2022-01-01,,1
+10121900,Alimento para roedores,Opcional,Opcional,,2022-01-01,,1
+10121901,Comida granulada para roedores,Opcional,Opcional,,2022-01-01,,1
+10122000,Alimento para reptiles,Opcional,Opcional,,2022-01-01,,1
+10122001,Comida granulada para reptiles,Opcional,Opcional,,2022-01-01,,1
+10122002,Comida húmeda para reptiles,Opcional,Opcional,,2022-01-01,,1
+10122003,Comida viva para reptiles,Opcional,Opcional,,2022-01-01,,1
+10122100,Comida para animales variados,Opcional,Opcional,,2022-01-01,,1,Comida para diversos animales
+10122101,Comida para cerdos,Opcional,Opcional,,2022-01-01,,1,"Comida para chanchos, Comida para cochinillos, Comida para cochinos, Comida para cuche, Comida para cuinos, Comida para gorrinos, Comida para lechones, Comida para marranos, Comida para porcinos, Comida para puercos, Comida para lechones"
+10122102,Comida para visones,Opcional,Opcional,,2022-01-01,,1
+10122103,Comida para monos,Opcional,Opcional,,2022-01-01,,1
+10122104,Comida para conejos,Opcional,Opcional,,2022-01-01,,1
+10131500,Cobertizos para animales,Opcional,Opcional,,2022-01-01,,1
+10131506,Establos para ganado,Opcional,Opcional,,2022-01-01,,1
+10131507,Casas para mascotas domesticadas,Opcional,Opcional,,2022-01-01,,1
+10131508,Camas para mascotas,Opcional,Opcional,,2022-01-01,,1
+10131600,Recipientes para animales,Opcional,Opcional,,2022-01-01,,1,Contenedores de comida para animales
+10131601,Jaulas o sus accesorios,Opcional,Opcional,,2022-01-01,,1
+10131602,Perreras,Opcional,Opcional,,2022-01-01,,1
+10131603,Equipaje para el transporte de animales,Opcional,Opcional,,2022-01-01,,1
+10131604,Correas para perros,Opcional,Opcional,,2022-01-01,,1
+10131700,Hábitat para animales,Opcional,Opcional,,2022-01-01,,1,Ambientes para animales
+10131701,Terrarios,Opcional,Opcional,,2022-01-01,,1
+10131702,Acuarios,Opcional,Opcional,,2022-01-01,,1
+10141500,Talabartería,Opcional,Opcional,,2022-01-01,,1,Guarniciones para caballerías
+10141501,Sillas de montar,Opcional,Opcional,,2022-01-01,,1
+10141502,Fustas y látigos,Opcional,Opcional,,2022-01-01,,1
+10141503,Herraduras para caballo,Opcional,Opcional,,2022-01-01,,1
+10141504,Herraduras para mula,Opcional,Opcional,,2022-01-01,,1
+10141505,Sillín o pelero,Opcional,Opcional,,2022-01-01,,1
+10141600,Arneses,Opcional,Opcional,,2022-01-01,,1
+10141601,Bridas,Opcional,Opcional,,2022-01-01,,1,Correas para caballos
+10141602,Yugos,Opcional,Opcional,,2022-01-01,,1
+10141603,Bocados para caballos,Opcional,Opcional,,2022-01-01,,1,Embocaduras para caballo
+10141604,Riendas,Opcional,Opcional,,2022-01-01,,1,Correas
+10141605,Estribos,Opcional,Opcional,,2022-01-01,,1
+10141606,Correas o traíllas,Opcional,Opcional,,2022-01-01,,1
+10141607,Arneses de cuello para animales,Opcional,Opcional,,2022-01-01,,1
+10141608,Arneses o sus accesorios,Opcional,Opcional,,2022-01-01,,1
+10141609,Sujetadores,Opcional,Opcional,,2022-01-01,,1
+10141610,Bozales,Opcional,Opcional,,2022-01-01,,1
+10141611,Soportes para correas,Opcional,Opcional,,2022-01-01,,1
+10151500,Semillas y plántulas vegetales,Opcional,Opcional,,2022-01-01,,1,Semillas y vástagos vegetales
+10151501,Semillas o plántulas de fríjol,Opcional,Opcional,,2022-01-01,,1,"Semillas o vástago primario de fríjol, Semillas o vástago primario de fríjol blanco, Semillas o vástago primario de fríjol negro, Semillas o vástago primario de fríjol rojo adzuki"
+10151502,Semillas o plántulas de zanahoria,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de zanahoria
+10151503,Semillas o plántulas de apio,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de apio
+10151504,Semillas o plántulas de chiles,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de chiles
+10151505,Semillas o plántulas de calabacín,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de calabacín
+10151506,Semillas o plántulas de alverja,Opcional,Opcional,,2022-01-01,,1,"Semillas o vástago primario de chícharo, Semillas o vástago primario de guisante"
+10151507,Semillas o plántulas de pepino cohombro,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de pepino cohombro
+10151508,Semillas o plántulas de berenjena,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de berenjena
+10151509,Semillas o plántulas de endivias,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de endivias
+10151510,Semillas o plántulas de ajo,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de ajo
+10151511,Semillas o plántulas de puerro,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de puerro
+10151512,Semillas o plántulas de lechuga,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de lechuga
+10151513,Semillas o plántulas de maíz,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de maíz
+10151514,Semillas o plántulas de melón,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de melón
+10151515,Semillas o plántulas cebolla,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de cebolla
+10151516,Semillas o plántulas de soya,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de soya
+10151517,Semillas o plántulas de espinaca,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de espinaca
+10151518,Semillas o plántulas de tomate,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de tomate
+10151519,Semillas o plántulas de nabo,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de nabo
+10151520,Semillas o plántulas de acelga,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de acelga
+10151521,Semillas o plántulas de pimiento morrón,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de pimiento morrón
+10151522,Semillas o plántulas de remolacha,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de betabel
+10151523,Semillas o plántulas de coliflor,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de coliflor
+10151524,Semillas o plántulas de perejil,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de perejil
+10151525,Semillas o plántulas de brócoli,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de brócoli
+10151526,Semillas o plántulas de repollo,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de col
+10151527,Semillas o plántulas de papa,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de patata
+10151528,Semillas o plántulas de batata,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de camote
+10151529,Semillas o plántulas de calabaza,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de calabaza
+10151530,Semillas o plántulas de rábano,Opcional,Opcional,,2022-01-01,,1,"Semillas o vástago primario de rabanito, Semillas o vástago primario de rábano"
+10151531,Semillas o plántulas de repollitos de bruselas,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de col de Bruselas
+10151532,Semillas o plántulas de ahuyama,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de calabaza de castilla
+10151533,Semillas o plántulas de okra,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de okra
+10151534,Semillas o plántulas de melón cantalupo,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de melón cantalupo
+10151535,Semillas o plántulas de maní,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de cacahuate
+10151536,Semillas o plántulas de caigua,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de caigua
+10151537,Semillas o plántulas de espárrago,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de espárrago
+10151538,Semillas o plántulas de garbanzo,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de garbanzo
+10151539,Semillas o plántulas de haba,Opcional,Opcional,,2022-01-01,,1,Semillas o vástago primario de haba
+10151600,Semillas de cereales,Opcional,Opcional,,2022-01-01,,1
+10151601,Semillas de trigo,Opcional,Opcional,,2022-01-01,,1
+10151602,Semillas de canola,Opcional,Opcional,,2022-01-01,,1,Semillas de colza
+95111600,Vías de tráfico abierto,Opcional,Opcional,,2022-01-01,,0
+95111602,Carretera o autopista  o autopista de peaje interestatal,Opcional,Opcional,,2022-01-01,,1,Cuota o tarifa de peaje en carreteras y autopistas federales
+95111603,Carretera o autopista  o autopista de peaje interestatal,Opcional,Opcional,,2022-01-01,,1,Cuota o tarifa de peaje en carreteras y autopistas concesionadas
+95111609,Cruce de carretera con una carretera principal,Opcional,Opcional,,2022-01-01,,0
+95111610,Carretera circunvalar,Opcional,Opcional,,2022-01-01,,0
+95111615,Cruce de carreteras,Opcional,Opcional,,2022-01-01,,0
+95121500,Edificios y estructuras comerciales y de entretenimiento,Opcional,Opcional,,2022-01-01,,0
+95121501,Galería comercial,Opcional,Opcional,,2022-01-01,,0
+95121502,Estructura de parqueo,Opcional,Opcional,,2022-01-01,,0,Estructura para estacionamiento
+95121503,Cafetería,Opcional,Opcional,,2022-01-01,,0
+95121504,Edificio para tienda,Opcional,Opcional,,2022-01-01,,0
+95121505,Centro comercial,Opcional,Opcional,,2022-01-01,,0
+95121506,Teatro,Opcional,Opcional,,2022-01-01,,0
+95121507,Mercado,Opcional,Opcional,,2022-01-01,,0
+95121508,Zona de juegos o patios de recreo para niños,Opcional,Opcional,,2022-01-01,,0
+95121509,Zoológico,Opcional,Opcional,,2022-01-01,,0
+95121510,Jardín,Opcional,Opcional,,2022-01-01,,0
+95121511,Parque,Opcional,Opcional,,2022-01-01,,0
+95121512,Instalación recreativa al lado del agua,Opcional,Opcional,,2022-01-01,,0
+95121513,Banco,Opcional,Opcional,,2022-01-01,,0
+95121514,Oficina de tiquetes,Opcional,Opcional,,2022-01-01,,0,Oficina de boletos
+95121515,Caída de agua artificial,Opcional,Opcional,,2022-01-01,,0
+95121516,Muro de piedras y piedras  artificiales,Opcional,Opcional,,2022-01-01,,0
+95121517,Crematorio,Opcional,Opcional,,2022-01-01,,0
+95121600,Edificios y estructuras de transporte,Opcional,Opcional,,2022-01-01,,0
+95121601,Puente de acero,Opcional,Opcional,,2022-01-01,,0
+95121602,Dique seco,Opcional,Opcional,,2022-01-01,,0
+95121603,Estación de buses,Opcional,Opcional,,2022-01-01,,0
+95121604,Garaje para buses,Opcional,Opcional,,2022-01-01,,0
+95121605,Edificio de servicios o reparaciones automotrices,Opcional,Opcional,,2022-01-01,,0
+95121606,Estación ferroviaria,Opcional,Opcional,,2022-01-01,,0
+95121607,Depósito ferroviario,Opcional,Opcional,,2022-01-01,,0
+95121608,Estación ferroviarias  subterráneas,Opcional,Opcional,,2022-01-01,,0
+95121609,Depósito de tranvías,Opcional,Opcional,,2022-01-01,,0
+95121610,Plataforma de tranvías,Opcional,Opcional,,2022-01-01,,0
+95121611,Edificio de aeropuertos,Opcional,Opcional,,2022-01-01,,0
+95121612,Torre de control aeroportuaria,Opcional,Opcional,,2022-01-01,,0
+95121613,Campo de aviación,Opcional,Opcional,,2022-01-01,,0
+95121614,Pista,Opcional,Opcional,,2022-01-01,,0
+95121615,Muelle,Opcional,Opcional,,2022-01-01,,0
+95121616,Embarcadero,Opcional,Opcional,,2022-01-01,,0
+95121617,Dársena,Opcional,Opcional,,2022-01-01,,0
+95121618,Marina,Opcional,Opcional,,2022-01-01,,0
+95121619,Marina de yates,Opcional,Opcional,,2022-01-01,,0
+95121620,Rompeolas,Opcional,Opcional,,2022-01-01,,0
+95121621,Malecón,Opcional,Opcional,,2022-01-01,,0
+95121622,Edificio de terminal de ferry,Opcional,Opcional,,2022-01-01,,0
+95121623,Terminal ro-ro,Opcional,Opcional,,2022-01-01,,0
+95121624,Faro,Opcional,Opcional,,2022-01-01,,0
+95121640,Tubería,Opcional,Opcional,,2022-01-01,,1
+95121641,Estación de bombeo,Opcional,Opcional,,2022-01-01,,0
+95121642,Estación de bombeo de aguas residuales,Opcional,Opcional,,2022-01-01,,0
+95121643,Descargas de aguas residuales,Opcional,Opcional,,2022-01-01,,1
+95121644,Parqueadero,Opcional,Opcional,,2022-01-01,,0,Estacionamiento
+95121646,Estructura para parqueo de bicicletas,Opcional,Opcional,,2022-01-01,,1,Estructura de estacionamiento para bicicletas
+95121700,Edificios y estructuras públicos,Opcional,Opcional,,2022-01-01,,0
+95121701,Oficina postal,Opcional,Opcional,,2022-01-01,,0
+95121702,Estación de policía,Opcional,Opcional,,2022-01-01,,0
+95121703,Edificio de juzgados,Opcional,Opcional,,2022-01-01,,0
+95121704,Edificio de prisión,Opcional,Opcional,,2022-01-01,,0
+95121705,Estación de bomberos,Opcional,Opcional,,2022-01-01,,0
+95121706,Estación de ambulancias,Opcional,Opcional,,2022-01-01,,0
+95121707,Edificio de rescate de montaña,Opcional,Opcional,,2022-01-01,,0
+95121708,Estación de botes salvavidas,Opcional,Opcional,,2022-01-01,,0
+95121709,Edificio de guardacostas,Opcional,Opcional,,2022-01-01,,0
+95121710,Estación de servicio de rescate,Opcional,Opcional,,2022-01-01,,0
+95121711,Centro cívico,Opcional,Opcional,,2022-01-01,,0
+95121712,Galería de arte,Opcional,Opcional,,2022-01-01,,0
+95121800,Edificios y estructuras utilitarios,Opcional,Opcional,,2022-01-01,,0
+95121801,Estación de radares,Opcional,Opcional,,2022-01-01,,0
+95121802,Subestación,Opcional,Opcional,,2022-01-01,,0
+95121804,Torre de agua,Opcional,Opcional,,2022-01-01,,0
+95121805,Pozo,Opcional,Opcional,,2022-01-01,,0
+95121806,Estación base para telefonía móvil,Opcional,Opcional,,2022-01-01,,0
+95121808,Plataforma de gas o petróleo,Opcional,Opcional,,2022-01-01,,0
+95121900,Edificios y estructuras educacionales y de administración,Opcional,Opcional,,2022-01-01,,0
+95121901,Escuela politécnica,Opcional,Opcional,,2022-01-01,,0
+95121902,Centro de formación tecnológica,Opcional,Opcional,,2022-01-01,,0
+95121903,Aula,Opcional,Opcional,,2022-01-01,,0
+95121904,Biblioteca,Opcional,Opcional,,2022-01-01,,0
+95121905,Laboratorio de idiomas,Opcional,Opcional,,2022-01-01,,0
+95121906,Edificio de laboratorio,Opcional,Opcional,,2022-01-01,,0
+95121907,Estación meteorológica,Opcional,Opcional,,2022-01-01,,0
+95121908,Instalación para investigación o prueba,Opcional,Opcional,,2022-01-01,,0
+95121909,Escuela primaria,Opcional,Opcional,,2022-01-01,,0
+95121910,Escuela de bachillerato clásico,Opcional,Opcional,,2022-01-01,,0
+95121911,Escuela de bachillerato,Opcional,Opcional,,2022-01-01,,0
+95121913,Universidad,Opcional,Opcional,,2022-01-01,,0
+95122000,Edificios y estructuras hospitalarias,Opcional,Opcional,,2022-01-01,,0
+95122001,Clínica,Opcional,Opcional,,2022-01-01,,0
+95122002,Hogar de convalecencia,Opcional,Opcional,,2022-01-01,,0
+95122003,Sala de operaciones o quirófano,Opcional,Opcional,,2022-01-01,,0
+95122004,Unidad de cuidados intensivos,Opcional,Opcional,,2022-01-01,,0
+95122005,Sala de detección y diagnóstico,Opcional,Opcional,,2022-01-01,,0
+95122006,Sala de fluoroscopio,Opcional,Opcional,,2022-01-01,,0
+95122007,Sala o laboratorio de patología,Opcional,Opcional,,2022-01-01,,0
+95122008,Sala de cateterismo,Opcional,Opcional,,2022-01-01,,0
+95122100,Edificios y estructuras de acomodaciones,Opcional,Opcional,,2022-01-01,,0
+95122101,Casa residencial,Opcional,Opcional,,2022-01-01,,0
+95122102,Apartamento o piso,Opcional,Opcional,,2022-01-01,,0
+95122103,Asilo de niños,Opcional,Opcional,,2022-01-01,,0
+95122104,Guardería de niños,Opcional,Opcional,,2022-01-01,,0
+95122105,Hogar de ancianos,Opcional,Opcional,,2022-01-01,,0
+95122106,Hostal,Opcional,Opcional,,2022-01-01,,0
+95122300,Edificios y estructuras de salud y deportivas,Opcional,Opcional,,2022-01-01,,0
+95122301,Estadio,Opcional,Opcional,,2022-01-01,,0
+95122302,Campo deportivo,Opcional,Opcional,,2022-01-01,,0
+95122303,Pista de carreras,Opcional,Opcional,,2022-01-01,,0
+95122304,Polideportivo,Opcional,Opcional,,2022-01-01,,0
+95122305,Spa,Opcional,Opcional,,2022-01-01,,0
+95122306,Gimnasio,Opcional,Opcional,,2022-01-01,,0
+95122307,Piscina,Opcional,Opcional,,2022-01-01,,0
+95122308,Instalación para deportes acuáticos,Opcional,Opcional,,2022-01-01,,0
+95122400,Edificios y estructuras industriales,Opcional,Opcional,,2022-01-01,,0
+95122401,Taller,Opcional,Opcional,,2022-01-01,,0
+95122402,Instalación para conservación en cámaras frigoríficas,Opcional,Opcional,,2022-01-01,,0
+95122403,Tienda de descuentos,Opcional,Opcional,,2022-01-01,,0
+95122500,Edificios y estructuras agrícolas y de cultivos y pesca,Opcional,Opcional,,2022-01-01,,0
+95122501,Granero,Opcional,Opcional,,2022-01-01,,0
+95122502,Establo,Opcional,Opcional,,2022-01-01,,0
+95122503,Canal de riego,Opcional,Opcional,,2022-01-01,,0
+95122600,Edificios y estructuras religiosas,Opcional,Opcional,,2022-01-01,,0
+95122700,Edificios y estructuras de defensa,Opcional,Opcional,,2022-01-01,,0
+95131500,Tarimas y graderías,Opcional,Opcional,,2022-01-01,,1
+95131501,Graderías plegables,Opcional,Opcional,,2022-01-01,,1
+95131502,Graderías móviles,Opcional,Opcional,,2022-01-01,,1
+95131503,Graderías portátiles,Opcional,Opcional,,2022-01-01,,1
+95131600,Edificios y estructuras comerciales e industriales portátiles,Opcional,Opcional,,2022-01-01,,1
+95131601,Taquillas portátiles,Opcional,Opcional,,2022-01-01,,1
+95131602,Cuarto de baño portátil,Opcional,Opcional,,2022-01-01,,1,"Servicios en baños portátiles, Servicios en baños públicos"
+95131603,Oficina en el emplazamiento,Opcional,Opcional,,2022-01-01,,1
+95131604,Unidad de cocina portátil,Opcional,Opcional,,2022-01-01,,1
+95131605,Casa contenedor,Opcional,Opcional,,2022-01-01,,1
+95131606,Cabina de ventas portátil,Opcional,Opcional,,2022-01-01,,1
+95131700,Tiendas carpas y estructuras de membrana,Opcional,Opcional,,2022-01-01,,1
+95131701,Estructura textil tipo armazón,Opcional,Opcional,,2022-01-01,,1
+95131702,Carpa de poste o de tensión,Opcional,Opcional,,2022-01-01,,1
+95141500,Edificios y estructuras prefabricados para fincas,Opcional,Opcional,,2022-01-01,,0
+95141501,Silo,Opcional,Opcional,,2022-01-01,,0,Depósitos para granos
+95141502,Invernadero,Opcional,Opcional,,2022-01-01,,0
+95141600,Edificios y estructuras prefabricados residenciales,Opcional,Opcional,,2022-01-01,,1
+95141601,Casa,Opcional,Opcional,,2022-01-01,,0
+95141602,Casa móvil,Opcional,Opcional,,2022-01-01,,1
+95141603,Cabaña,Opcional,Opcional,,2022-01-01,,0
+95141604,Garaje,Opcional,Opcional,,2022-01-01,,0
+95141605,Gazebo,Opcional,Opcional,,2022-01-01,,1,"Kiosco, Pabellón"
+95141606,Cocina para casa,Opcional,Opcional,,2022-01-01,,1
+95141700,Edificios y estructuras prefabricados comerciales e industriales,Opcional,Opcional,,2022-01-01,,0
+95141701,Oficina en la planta,Opcional,Opcional,,2022-01-01,,0
+95141702,Cabina de pintura,Opcional,Opcional,,2022-01-01,,0
+95141703,Galpón de almacenaje,Opcional,Opcional,,2022-01-01,,0,Almacén
+95141704,Sala blanca,Opcional,Opcional,,2022-01-01,,0
+95141705,Casa de guardias,Opcional,Opcional,,2022-01-01,,0
+95141706,Bodega,Opcional,Opcional,,2022-01-01,,0
+95141707,Auditorio,Opcional,Opcional,,2022-01-01,,0
+95141708,Cocina para oficina,Opcional,Opcional,,2022-01-01,,1
+95141709,Conservatorio,Opcional,Opcional,,2022-01-01,,0
+95141710,Cabina telefónica,Opcional,Opcional,,2022-01-01,,1
+95141711,Cabina de peaje,Opcional,Opcional,,2022-01-01,,1
+95141800,Edificios y estructuras prefabricados de emergencia y alivio,Opcional,Opcional,,2022-01-01,,0
+95141801,Albergue,Opcional,Opcional,,2022-01-01,,0
+95141802,Carpa o salón de emergencia,Opcional,Opcional,,2022-01-01,,1
+95141803,Unidad de contenedor,Opcional,Opcional,,2022-01-01,,1
+95141900,Edificios y estructuras prefabricados médicos,Opcional,Opcional,,2022-01-01,,0
+95141901,Unidad médica,Opcional,Opcional,,2022-01-01,,0
+95141902,Unidad de laboratorio,Opcional,Opcional,,2022-01-01,,0
+95141903,Unidad odontológica,Opcional,Opcional,,2022-01-01,,0
+95141904,Unidades quirúrgicas,Opcional,Opcional,,2022-01-01,,0

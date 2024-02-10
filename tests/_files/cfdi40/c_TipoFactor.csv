@@ -1,7 +1,7 @@
-Catálogo tipo factor.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-c_TipoFactor,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,,,,,
-Tasa,2022-01-01,,,,,,,,,,
-Cuota,2022-01-01,,,,,,,,,,
-Exento,2022-01-01,,,,,,,,,,
+Catálogo tipo factor.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,1.0,0,0,2022-01-01
+c_TipoFactor,Fecha inicio de vigencia,Fecha fin de vigencia
+Tasa,2022-01-01
+Cuota,2022-01-01
+Exento,2022-01-01

@@ -1,7 +1,7 @@
-Catálogo de impuestos.,,,,,,,,,,,
-Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo,,,,,,
-4.0,1.0,0,0,2022-01-01,,,,,,,
-c_Impuesto,Descripción,Retención,Traslado,Local o federal,Fecha inicio de vigencia,Fecha fin de vigencia,,,,,
-1,ISR,Si,No,Federal,2022-01-01,,,,,,
-2,IVA,Si,Si,Federal,2022-01-01,,,,,,
-3,IEPS,Si,Si,Federal,2022-01-01,,,,,,
+Catálogo de impuestos.
+Versión CFDI,Versión catálogo,Revisión catálogo,Fecha publicación de catálogo,Fecha  inicio de vigencia del catálogo,Fecha fin de vigencia del catálogo
+4.0,1.0,0,0,2022-01-01
+c_Impuesto,Descripción,Retención,Traslado,Local o federal,Fecha inicio de vigencia,Fecha fin de vigencia
+1,ISR,Si,No,Federal,2022-01-01
+2,IVA,Si,Si,Federal,2022-01-01
+3,IEPS,Si,Si,Federal,2022-01-01
