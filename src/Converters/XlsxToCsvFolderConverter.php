@@ -37,7 +37,8 @@ class XlsxToCsvFolderConverter
             throw new RuntimeException("Destination directory $destination is not a directory or is not writable");
         }
 
-        $command = escapeshellarg($this->xlsx2csvPath()) . ' ' . implode(' ', array_map('escapeshellarg', [
+        $command = implode(' ', array_map('escapeshellarg', [
+            $this->xlsx2csvPath(),
             '--ignoreempty',
             '--escape',
             '--all',
@@ -57,10 +58,29 @@ class XlsxToCsvFolderConverter
         // remove spaces on exported file name
         $csvFiles = glob($destination . '/*.csv') ?: [];
         foreach ($csvFiles as $csvFile) {
+            $this->removeTrailCommasOnFile($csvFile);
+
             $renamed = $destination . '/' . preg_replace('/\s*(.*?)\s*\.csv+/', '$1.csv', basename($csvFile));
             if (! file_exists($renamed) && $csvFile !== $renamed) {
                 rename($csvFile, $renamed);
             }
+        }
+    }
+
+    private function removeTrailCommasOnFile(string $csvFile): void
+    {
+        $command = implode(' ', array_map('escapeshellarg', [
+            'sed',
+            '--in-place',
+            '--regexp-extended', 's/,+$//g',
+            $csvFile,
+        ]));
+
+        $execution = ShellExec::run($command);
+        if (0 !== $execution->exitStatus()) {
+            throw new RuntimeException(
+                "Remove trailing commas failed with code [{$execution->exitStatus()}] for file $csvFile"
+            );
         }
     }
 }
