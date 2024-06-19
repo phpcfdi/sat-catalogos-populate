@@ -12,6 +12,7 @@ Add CCP (*Complemento de Carta Porte*) 3.1 catalogs.
 Other updates:
 
 - Add `composer-normalize` job to continuous integration process.
+- Update development tools.
 
 ## Version 2.8.1 2024-02-09
 
