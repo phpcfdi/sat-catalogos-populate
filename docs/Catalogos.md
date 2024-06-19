@@ -259,6 +259,23 @@ contiene duplicados.
 
 Por lo anterior, solo existe un importador con múltiples inyectores.
 
+## CCP 3.1 (Complemento Carta Porte 3.1) `ccp_31_*`
+
+> - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/complemento_carta_porte.htm>
+> - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/documentos/CatalogosCartaPorte31.xls>
+
+Los catálogos de CCP 3.1 contienen información extendida que debe ser respetada para el correcto llenado
+del complemento de carta porte versión 3.1.
+
+Los catálogos están en un solo archivo de excel por lo que se usa la misma estrategia que en los catálogos de CFDI.
+
+Algunos nombres de las hojas contienen espacios: `c_Estaciones`.
+
+El catálogo `c_MaterialPeligroso` debería tener un índice único en `Clave material peligroso` pero ocurre que
+contiene duplicados.
+
+Por lo anterior, solo existe un importador con múltiples inyectores.
+
 ## RET 2.0 (CFDI De Retenciones e Información de Pagos) `ret_20_*`
 > - <http://omawww.sat.gob.mx/tramitesyservicios/Paginas/CFDI_retenciones.htm>
 

@@ -1,0 +1,9 @@
+Catálogo de tipo de contenedor.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+Clave,Tipo de contenedor,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia
+TC01,20',Contenedor de 6.1 Mts de longitud,2024-07-17
+TC02,40',Contenedor de 12.2 Mts de longitud,2024-07-17
+TC03,45',Contenedor de 13.7 Mts de longitud,2024-07-17
+TC04,48',Contenedor de 14.6 Mts de longitud,2024-07-17
+TC05,53',Contenedor de 16.1 Mts de longitud,2024-07-17

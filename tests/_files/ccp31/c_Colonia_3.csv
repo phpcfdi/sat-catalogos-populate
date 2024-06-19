@@ -1,0 +1,384 @@
+Catálogo de colonias.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2024-07-17,,1.0,0
+c_Colonia,c_CodigoPostal,Nombre del asentamiento
+5791,70504,Los Ranchos
+5791,72014,El Conde
+5791,85207,Rita Gómez (Bloque 1903)
+5791,95264,Lomas Residencial
+5792,30907,Rancheria El Carmen
+5792,33597,Arroyo Prieto
+5792,34573,Los Inmortales
+5792,36212,La Casa de Vicente
+5792,42359,La Ventolera
+5792,47457,Los Tepetates
+5792,55717,Rancho la Palma 2a Sección
+5792,60934,El Cirul
+5792,65520,Los Reyes
+5792,70515,Oaxaca
+5792,72480,Galaxia la Laguna
+5792,85203,Roberto Encinas (Tozalcahui)
+5793,30356,Nuevo Tepeyac
+5793,33593,Bajío de Enmedio
+5793,34594,Los Jacales
+5793,36210,La Casa del Alto (Miguel Hinojosa)
+5793,42354,Las Pilas
+5793,47410,El Tepeyac 2a Sección
+5793,55717,Rancho la Palma 3a Sección
+5793,60926,El Cóbano
+5793,66085,Praderas de San Francisco Sector 2
+5793,70503,Ojo de Agua
+5793,75916,Tepepa de Zaragoza
+5793,85203,Roberto Flores
+5794,30504,Miguel Hidalgo 1
+5794,33590,Bloquera
+5794,34594,Los Laureles
+5794,36216,La Casa del Durazno
+5794,42345,Las Pilas
+5794,47410,Geovillas de los Lagos
+5794,60924,El Cordón Alto
+5794,64180,Privada Cumbres
+5794,70516,Ojo de Caballo
+5794,75916,Playa Vicente
+5794,85205,Roberto Rodríguez
+5795,29050,Santa Isabel
+5795,33597,Cabras
+5795,34573,Los Laureles
+5795,36210,La Caseta
+5795,42356,Las Piletas
+5795,47443,Jardines de Vista Hermosa
+5795,55738,Asociación de Comerciantes de Coacalco
+5795,60935,El Corongorito
+5795,67050,El Maestro
+5795,70506,Rancho Candelaria
+5795,75917,Esperanza
+5795,85207,Roberto Serna Yáñez
+5796,30483,Delicias del Carmen
+5796,33594,Chaveño
+5796,34584,Los Limones
+5796,36210,La Concepción de Fernández
+5796,42346,Las Vegas
+5796,47410,La Laguna
+5796,55738,Xalatlaco (Imevis)
+5796,60925,El Cuchi
+5796,67050,Valle de San Felipe
+5796,70508,Rancho Río Mamey
+5796,75917,Macuilcuautitla
+5796,85218,Roberto Valencia
+5797,30835,Genaro Vázquez Rojas
+5797,33593,Chicanaya
+5797,34575,Los Limones
+5797,36213,La Cumbre
+5797,42344,Llano Blanco
+5797,47474,La Loma
+5797,55738,Hacienda Taxco Viejo
+5797,60923,El Cuirindal
+5797,70508,Río Guela
+5797,75917,Ocotempa
+5797,85203,Robolud (Carlos Lubbert)
+5798,30034,27 de Junio
+5798,33596,Cinco de Mayo
+5798,34570,Los Llanitos
+5798,36216,La Efigenia (Los Ruiseñor)
+5798,42342,Los Duraznos
+5798,47480,Lagos de Moreno
+5798,60926,El Cuirindal
+5798,64215,23 de Marzo
+5798,70515,Río Nopal
+5798,75915,Boca del Monte
+5798,85213,Rodolfo Monge
+5799,30883,San José Cerro del Carmen
+5799,33596,Clarines
+5799,34574,Los Llanos
+5799,36212,La Escondida
+5799,42342,Los Mármoles
+5799,47440,Las Palmas
+5799,55700,Bonito Coacalco
+5799,60935,El Descansadero
+5799,64988,La Alhambra
+5799,70503,San Antonio los Guajes
+5799,75917,Moyotepec
+5799,85209,Rodrigo Campoy
+5800,30164,San Pedro el Porvenir
+5800,33596,Cobriza
+5800,34575,Los Llanos de Tabahueto
+5800,36214,La Esmeralda
+5800,42340,Los Nogales
+5800,47457,Maravillas
+5800,55700,Hacienda Capultitla
+5800,60924,El Encino
+5800,70503,San Isidro Tapanalá
+5800,75917,Achichinalco
+5800,85212,Rodríguez
+5801,30116,Laguna Esquel
+5801,33597,Cuatro Vientos
+5801,34583,Los Medios
+5801,36210,La Gloria
+5801,42357,Los Pilares
+5801,47450,Nueva España
+5801,55700,La Cualac
+5801,60948,El Espadín
+5801,64103,Ignacio Altamirano
+5801,70505,San Miguel
+5801,75917,Nuevo
+5801,85200,Rogelio Ceballos
+5802,30605,Barrio Bolivia
+5802,33593,El Aguaje
+5802,34596,Los Ocotes
+5802,36214,La Huizachada (La Loma)
+5802,42344,Maguey Blanco
+5802,47423,Potrero de Fray Ramón
+5802,55700,Santander
+5802,60926,El Guasimal
+5802,64103,Mejía Barrón
+5802,70508,San Miguel
+5802,75914,Cinco de Mayo
+5802,85200,Rogelio López
+5803,29055,Real de Bosque
+5803,33593,El Aguaje
+5803,34576,Los Ocotes
+5803,36214,La Joya
+5803,42344,Peña Colorada
+5803,47443,Residencial Valle Real
+5803,60947,El Guayabo
+5803,64103,Periodistas
+5803,70507,San Miguel Nitzaviguiti
+5803,75915,Xochitzinga
+5803,85218,Román Quintero
+5804,30640,Las Hortencias II
+5804,33594,El Banco
+5804,34570,Los Oreganitos
+5804,36214,La Loma
+5804,47443,San Antonio
+5804,55700,Jajalpa
+5804,60926,El Higueral
+5804,64986,Soria
+5804,70503,San Pedro Lachigoba
+5804,75916,Loma Bonita
+5804,85209,Romeo Ledenís
+5805,29096,Condominio San Juan
+5805,33597,El Cura
+5805,34583,Los Otates
+5805,36216,La Muralla Nueva
+5805,42354,Pontihú
+5805,47470,Xekj
+5805,55700,Hacienda las Garzas
+5805,60923,El Higueral
+5805,64103,Unión Antorchista
+5805,70513,San Sebastián
+5805,75916,Mexcaltochintla
+5805,85213,Romeritos
+5806,29960,Las Joyas
+5806,33590,El Granillo
+5806,34584,Los Pantanos
+5806,36212,La Noria (José Jaramillo)
+5806,42357,Pozo Hondo
+5806,47515,El Purgatorio
+5806,55700,El Toloache
+5806,60943,El Huindure
+5806,64637,Villas de San Jerónimo
+5806,70508,Santa Cruz la Reforma
+5806,75917,Zacatlamanic
+5806,85200,Romualdo Arredondo
+5807,33590,El Papalote
+5807,34573,Los Parajes
+5807,36210,La Noria (Mezquite Gordo)
+5807,42344,Pueblo Nuevo
+5807,48276,Las Higueras del Hundido
+5807,55700,Privadas Coacalco
+5807,60926,El Hule
+5807,65516,Paseo Santa Isabel
+5807,70507,Santa María Nizaviguiti
+5807,75916,Tepetlampa
+5807,85213,Roque González Sandoval
+5808,29090,Lomas del Sauce
+9810,33637,La Esperanza
+9811,33637,La Esperanza
+9812,33633,La Esperanza
+9813,33645,La Famosa División del Norte (Tortuguillas)
+9814,33637,La Fe
+9815,33633,La Floreña
+9816,33637,La Frontera
+9817,33637,La Frontera
+9818,33637,La Gloria
+9819,33637,La Loma de Lara
+9820,33633,La Luz
+9821,33633,La Milagrosa
+9822,33647,La Noria
+9823,33637,La Palma
+9824,33637,La Pedrera
+9825,33637,La Pedrera (Los Mendoza)
+9826,33637,La Presita
+9827,33637,La Providencia
+9828,33637,La Providencia
+9829,33634,La Rabona
+9830,33645,La Remonta
+9831,33637,La Rinconada
+9832,33633,La Rosetilla
+9833,33637,La Soledad
+9834,33633,La Tórtola
+9835,33637,La Terraceña
+9836,33637,La Tortuga
+9837,33637,La Vaqueña
+9838,33636,La Venada
+9839,33645,La Venadita
+9840,33637,La Viña
+9841,33637,La Virgen
+9842,33645,Laguna Seca
+9843,33636,Lagunetas
+9844,33637,Las Alicias
+9845,33645,Las Carpas [Sección Agrícola]
+9846,33644,Las Cuchillas
+9847,33644,Las Cuchillas
+9848,33633,Las Flores
+9849,33633,Las Helenas
+9850,33637,Las Hortensias
+9851,33633,Las Julietas
+9852,33645,Las Margaritas
+9853,33637,Las Margaritas
+9854,33637,Las Mercedes
+9855,33637,Las Palmeras
+9856,33637,Las Tres Palmas
+9857,33637,Las Yolandas
+9858,33637,Loma de Chavarría (Santa Rita)
+9859,33633,Los Álamos
+9860,33637,Los Álvarez
+9861,33637,Los Alvarado
+9862,33637,Los Apodaca
+9863,33633,Los Apodaca
+9864,33637,Los Baeza
+9865,33633,Los Bernal
+9866,33637,Los Cano (San Felipe de Jesús)
+9867,33637,Los Cardenales
+9868,33637,Los Faudoa
+9869,33633,Los Fresnos
+9870,33637,Los Herrera
+9871,33637,Los Huizaches
+9872,33633,Los Lamentos (Los Reyes)
+9873,33633,Los Lara
+9874,33645,Los Laureles
+9875,33637,Los Limas
+9876,33637,Los Llorones
+9877,33637,Los Martínez
+9878,33637,Los Martínez II
+9879,33633,Los Nogales
+9880,33637,Los Ocón
+9881,33637,Los Pinos
+9882,33645,Los Pinos
+9883,33644,Los Pozos
+9884,33637,Los Prieto
+9885,33637,Los Ramos
+9886,33637,Los Ramírez
+9887,33637,Los Rey
+9888,33637,Los Rodríguez
+9889,33637,Los Rodríguez
+9890,33637,Los Salas
+9891,33637,Los Salazar
+9892,33637,Los Sepúlveda
+9893,33637,Los Sánchez
+9894,33637,Los Tarango
+9895,33633,Los Tres Sietes
+9896,33637,Lote Ciento Quince Tres (El Embudo)
+9897,33637,Lote Ciento Siete Dos
+9898,33637,Luis Flores
+9899,33633,Mangas del Jagüey
+9900,33633,Margaritas
+9901,33637,Mario Reyes
+9902,33633,María
+9903,33637,María de los Ángeles Martínez
+9904,33637,María Vargas
+9905,33637,Matías Bejarano
+9906,33637,Mi Ranchito
+9907,33637,Mi Ranchito (Los Acosta)
+9908,33637,Miguel Ronquillo
+9909,33645,Ninguno [Campo de Golf]
+9910,33637,No Me Olvides
+9911,33633,Nogales Okinawa
+9912,33637,Nuevo Saucillo
+9913,33637,Palma Sola
+9914,33637,Palos Clavados
+9915,33637,Palos Parados
+9916,33637,Pepe Payán
+9917,33644,Picacho de Abajo (Urruteño)
+9918,33637,Piedra de Lumbre
+9919,33637,Piedra de Lumbre
+9920,33633,Plan de Álamos
+9921,33637,Prospereño
+9922,33633,Pueblo Quieto
+9923,33637,Ramón Gallegos
+9924,33637,Ramón Meléndez
+9925,33633,Ranchito Don Trini González
+9926,33637,Rancho ARZ (El Acuerdo)
+9927,33633,Rancho Baeza
+9928,33637,Rancho Carrasco
+9929,33633,Rancho de Carrillo
+9930,33633,Rancho de Gómez
+9931,33633,Rancho de Madero
+9932,33633,Rancho Dos Hermanos (Hermanos Cárdenas)
+9933,33637,Rancho el Canal
+9934,33637,Rancho el Huevo
+9935,33637,Rancho el Socorro
+9936,33637,Rancho Grande
+9937,33637,Rancho Guerrero Hernández
+9938,33637,Rancho la Mora
+9939,33637,Rancho la Otra
+9940,33633,Rancho la Piedra
+9941,33637,Rancho la Pollera (Cuatro Hermanos)
+9942,33637,Rancho la Quinta
+9943,33633,Rancho los Tres Octavios
+9944,33637,Rancho Nogales
+9945,33644,Rancho Nueve de Abril
+9946,33637,Rancho Nueve de Enero
+9947,33644,Rancho Nuevo
+9948,33637,Rancho Ramón Aragón Chávez
+9949,33637,Rancho Rocío
+9950,33637,Rancho Rubén Ontiveros
+9951,33637,Rancho Salcido
+9952,33633,Rancho San Carlos
+9953,33633,Rancho San José
+9954,33633,Rancho San Juan
+9955,33637,Rancho San Luis
+9956,33637,Rancho Santa Librada
+9957,33644,Rancho Seco
+9958,33633,Rancho Veintiuno de Marzo
+9959,33637,Rancho Zambrano
+9960,33645,René Cadena
+9961,33637,Roberto Burrola
+9962,33636,Ronquillo
+9963,33637,Rosalío Hernández
+9964,33637,Rubén López
+9965,33633,Salgadeño
+9966,33637,Salsipuedes
+9967,33637,San Andrés
+9968,33637,San Antonio
+9969,33637,San Antonio
+9970,33633,San Antonio
+9971,33637,San Bernardino [Corrales]
+9972,33637,San Carlos
+9973,33637,San Carlos (Carlos Bario)
+9974,33633,San Esteban
+9975,33635,San Esteban
+9976,33637,San Francisco
+9977,33637,San Ignacio [Corrales]
+9978,33637,San Isidro
+9979,33637,San José
+9980,33637,San José
+9981,33637,San José
+9982,33637,San José
+9983,33636,San José
+9984,33633,San José
+9985,33636,San José (La Escondida)
+9986,33635,San José de Colomo
+9987,33636,San José de los Pozos
+9988,33633,San Juanito
+9989,33637,San Judas Tadeo
+9990,33637,San Judas Tadeo (El Gringo)
+9991,33637,San Lorenzo [Cocedores]
+9992,33636,San Marcos
+9993,33637,San Marcos
+9994,33637,San Martín
+9995,33637,San Vicente
+9996,33637,Santa Eduviges
+9997,33637,Santa Elena
+9998,33637,Santa Elena
+9999,33635,Santa Martha

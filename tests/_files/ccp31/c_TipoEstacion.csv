@@ -1,0 +1,7 @@
+Catálogo de tipo de estación.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+Clave de estación,Descripción del tipo de estación,Clave transporte,Fecha inicio de vigencia,Fecha fin de vigencia
+01,Origen Nacional,"02, 03 y 04",2024-07-17
+02,Intermedia ,"02, 03 y 04",2024-07-17
+03,Destino Final Nacional,"02, 03 y 04",2024-07-17

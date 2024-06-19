@@ -1,0 +1,8 @@
+Catálogo de la clave del transporte.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+Clave transporte,Descripción del tipo de transporte,Fecha inicio de vigencia,Fecha fin de vigencia
+01,Autotransporte,2024-07-17
+02,Transporte Marítimo,2024-07-17
+03,Transporte Aéreo,2024-07-17
+04,Transporte Ferroviario,2024-07-17
