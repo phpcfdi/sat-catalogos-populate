@@ -1,0 +1,35 @@
+Catálogo de tipo de remolque.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+ Clave tipo remolque,Remolque o semirremolque,Fecha de inicio de vigencia,Fecha de fin de vigencia
+CTR001,Caballete,2024-07-17
+CTR002,Caja,2024-07-17
+CTR003,Caja Abierta,2024-07-17
+CTR004,Caja Cerrada,2024-07-17
+CTR005,Caja De Recolección Con Cargador Frontal,2024-07-17
+CTR006,Caja Refrigerada,2024-07-17
+CTR007,Caja Seca,2024-07-17
+CTR008,Caja Transferencia,2024-07-17
+CTR009,Cama Baja o Cuello Ganso,2024-07-17
+CTR010,Chasis Portacontenedor,2024-07-17
+CTR011,Convencional De Chasis,2024-07-17
+CTR012,Equipo Especial,2024-07-17
+CTR013,Estacas,2024-07-17
+CTR014,Góndola Madrina,2024-07-17
+CTR015,Grúa Industrial,2024-07-17
+CTR016,Grúa ,2024-07-17
+CTR017,Integral,2024-07-17
+CTR018,Jaula,2024-07-17
+CTR019,Media Redila,2024-07-17
+CTR020,Pallet o Celdillas,2024-07-17
+CTR021,Plataforma,2024-07-17
+CTR022,Plataforma Con Grúa,2024-07-17
+CTR023,Plataforma Encortinada,2024-07-17
+CTR024,Redilas,2024-07-17
+CTR025,Refrigerador,2024-07-17
+CTR026,Revolvedora,2024-07-17
+CTR027,Semicaja,2024-07-17
+CTR028,Tanque,2024-07-17
+CTR029,Tolva,2024-07-17
+CTR031,Volteo,2024-07-17
+CTR032,Volteo Desmontable,2024-07-17

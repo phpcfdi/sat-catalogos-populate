@@ -1,0 +1,208 @@
+Catálogo de unidades de medida y embalaje.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+Clave unidad,Nombre,Descripción,Nota,Fecha de inicio de vigencia,Fecha de fin de vigencia,Símbolo,Bandera
+Tu,Contenedor externo,"Tipo de caja de contención que sirve como contenedor de transporte externo, no especificado como equipo de transporte.",,2024-07-17,,,Embalaje
+X1A,Tambor de acero,,,2024-07-17,,,Embalaje
+X1B,Tambor de aluminio,,,2024-07-17,,,Embalaje
+X1D,Tambor contrachapado,,,2024-07-17,,,Embalaje
+X1F,Contenedor flexible,Contenedor de empaque de construcción flexible.,,2024-07-17,,,Embalaje
+X1G,Tambor de fibra,,,2024-07-17,,,Embalaje
+X1w,Tambor de madera,,,2024-07-17,,,Embalaje
+X2C,Barril de madera,,,2024-07-17,,,Embalaje
+X3A,Bidón de acero,,,2024-07-17,,,Embalaje
+X3H,Bidón de plástico,,,2024-07-17,,,Embalaje
+X43,Bolsa de gran tamaño,Bolsa de tela de plástico o de papel que tiene las dimensiones del pallet sobre el que está construido.,,2024-07-17,,,Embalaje
+X44,Bolsa de plástico,"Un tipo de bolsa de plástico, normalmente utilizada para envolver piezas promocionales, publicaciones, muestras de productos y / o catálogos.",,2024-07-17,,,Embalaje
+X4A,Caja de acero,,,2024-07-17,,,Embalaje
+X4B,Caja de aluminio,,,2024-07-17,,,Embalaje
+X4C,Caja de  madera natural,,,2024-07-17,,,Embalaje
+X4D,Caja de contrachapado,,,2024-07-17,,,Embalaje
+X4F,Caja de madera reconstituida,,,2024-07-17,,,Embalaje
+X4G,Caja de cartón,,,2024-07-17,,,Embalaje
+X4H,Caja de plástico,,,2024-07-17,,,Embalaje
+X5H,Bolsa de plástico tejido,,,2024-07-17,,,Embalaje
+X5L,Bolsa textil,,,2024-07-17,,,Embalaje
+X5M,Bolsa de papel,,,2024-07-17,,,Embalaje
+X6H,"Recipiente de plástico, Contenedor compuesto.",,,2024-07-17,,,Embalaje
+X6P,"Recipiente de vidrio, Contenedor compuesto.",,,2024-07-17,,,Embalaje
+X7A,Estuche para carro,Tipo de contenedor portátil diseñado para almacenar equipo para el transporte en un automóvil.,,2024-07-17,,,Embalaje
+X7B,Estuche de madera,Un estuche de madera para retener sustancias o artículos.,,2024-07-17,,,Embalaje
+X8A,Pallet de madera,"Plataforma o caja abierta de madera, en la que se conservan las mercancías para facilitar su manejo mecánico durante el transporte y almacenamiento.",,2024-07-17,,,Embalaje
+X8B,Cajón de madera,"Un contenedor de madera, en el que se conservan las mercancías para facilitar su manipulación mecánica durante el transporte y almacenamiento.",,2024-07-17,,,Embalaje
+X8C,Madera flejada,Piezas sueltas o sin contenedor de madera atadas o envueltas.,,2024-07-17,,,Embalaje
+XAA,Contenedor intermedio  para gráneles de plástico rígido,,,2024-07-17,,,Embalaje
+XAB,Contenedor de fibra,"Recipiente de contención de fibra, utilizado para retener sustancias o artículos.",,2024-07-17,,,Embalaje
+XAC,Contenedor de papel,"Recipiente de contención de papel, para retener sustancias o artículos.",,2024-07-17,,,Embalaje
+XAD,Contenedor de madera,"Recipiente de contención de madera, para retener sustancias o artículos.",,2024-07-17,,,Embalaje
+XAE,Aerosol,Una unidad de cuenta que define el número de Aerosoles,,2024-07-17,,,Embalaje
+XAF,"Pallet modular con collares,  80cms * 60cms",Pallet de tamaño estándar con dimensiones de 80 centímetros por 60 centímetros (cms).,,2024-07-17,,,Embalaje
+XAG,Pallet o empaquetado,La carga del pallet se asegura con una película de plástico transparente envuelta alrededor y luego encogido firmemente.,,2024-07-17,,,Embalaje
+XAH,"Pallet, 100cms X 110cms",Pallet tamaño estándar con dimensiones de 100 centímetros por 110 centímetros (cms).,,2024-07-17,,,Embalaje
+XAI,Contenedor tipo concha,,,2024-07-17,,,Embalaje
+XAJ,Cono,Contenedor utilizado en el transporte de material lineal como el hilo.,,2024-07-17,,,Embalaje
+XAL,Esfera,Recipiente de contención esférico para retener sustancias o artículos.,,2024-07-17,,,Embalaje
+XAM,Ampolleta no protegida,,,2024-07-17,,,Embalaje
+XAP,Ampolleta protegida,,,2024-07-17,,,Embalaje
+XAT,Atomizador,,,2024-07-17,,,Embalaje
+XAV,Cápsula,,,2024-07-17,,,Embalaje
+XB4,Cinturón,Banda utiliza para retener varios artículos juntos.,,2024-07-17,,,Embalaje
+XBA,Barril,,,2024-07-17,,,Embalaje
+XBB,Bobina,,,2024-07-17,,,Embalaje
+XBC,Cajón para botellas / Estante para botellas,,,2024-07-17,,,Embalaje
+XBD,Tablero,,,2024-07-17,,,Embalaje
+XBE,Flejado,,,2024-07-17,,,Embalaje
+XBF,Globo no protegido,,,2024-07-17,,,Embalaje
+XBG,Bolso,Recipiente de material flexible con tapa abierta o cerrada.,,2024-07-17,,,Embalaje
+XBH,Manojo,,,2024-07-17,,,Embalaje
+XBI,Compartimiento,,,2024-07-17,,,Embalaje
+XBJ,Cubeta,,,2024-07-17,,,Embalaje
+XBK,Cesta,,,2024-07-17,,,Embalaje
+XBL,Paca comprimida,,,2024-07-17,,,Embalaje
+XBM,Cuenco,,,2024-07-17,,,Embalaje
+XBN,Paca no comprimida,,,2024-07-17,,,Embalaje
+XBO,Botella no-protegida y cilíndrica,Recipiente de forma cilíndrica de cuello estrecho sin material de empaque protector externo.,,2024-07-17,,,Embalaje
+XBP,Globo protegido,,,2024-07-17,,,Embalaje
+XBQ,Botella cilíndrica protegida,Recipiente de forma cilíndrica de cuello estrecho con material de empaque protector externo.,,2024-07-17,,,Embalaje
+XBR,Barra,,,2024-07-17,,,Embalaje
+XBS,"Botella, no-protegida en forma de bulbo",Recipiente en forma de bulbo de cuello estrecho sin material de empaque protector externo.,,2024-07-17,,,Embalaje
+XBT,Rollo de tela,,,2024-07-17,,,Embalaje
+XBU,Butt,Barril de 1/2 tonel,,2024-07-17,,,Embalaje
+XBV,Botella de bulbo protegido,Recipiente en forma de bulbo de cuello estrecho con material de empaque protector externo.,,2024-07-17,,,Embalaje
+XBW,Caja para líquidos,,,2024-07-17,,,Embalaje
+XBX,Caja,,,2024-07-17,,,Embalaje
+XBY,"Tablero, con fleje/ agrupados/ armados",,,2024-07-17,,,Embalaje
+XBZ,"Barras, con fleje/ agrupados/ armados",,,2024-07-17,,,Embalaje
+XCA,Lata rectangular,,,2024-07-17,,,Embalaje
+XCB,Cajón para cerveza,,,2024-07-17,,,Embalaje
+XCC,Mantequera,,,2024-07-17,,,Embalaje
+XCD,Lata con mango y boquilla,,,2024-07-17,,,Embalaje
+XCE,Cesto tejido,,,2024-07-17,,,Embalaje
+XCF,Cofre,,,2024-07-17,,,Embalaje
+XCG,Contenedor tipo Jaula,,,2024-07-17,,,Embalaje
+XCH,Cajonera,,,2024-07-17,,,Embalaje
+XCI,Frasco,,,2024-07-17,,,Embalaje
+XCJ,Ataúd,,,2024-07-17,,,Embalaje
+XCK,Barrica,,,2024-07-17,,,Embalaje
+XCL,Espiral,,,2024-07-17,,,Embalaje
+XCM,Paquete de tarjetas,Paquete plano normalmente hecho de cartón desde / hacia el cual el producto es a menudo colgado o unido.,,2024-07-17,,,Embalaje
+XCN,"Contenedor, no especificado como equipo de transporte",,,2024-07-17,,,Embalaje
+XCO,Garrafón no protegido,,,2024-07-17,,,Embalaje
+XCP,Garrafón protegido,,,2024-07-17,,,Embalaje
+XCQ,Cartucho,Paquete que contiene una carga tal como un explosivo propulsor para armas de fuego o tóner de tinta para una impresora.,,2024-07-17,,,Embalaje
+XCR,Cajón,,,2024-07-17,,,Embalaje
+XCS,Estuche,,,2024-07-17,,,Embalaje
+XCT,Cartón,,,2024-07-17,,,Embalaje
+XCU,Vaso,,,2024-07-17,,,Embalaje
+XCV,Cubierta,,,2024-07-17,,,Embalaje
+XCW,Jaula estilo rodillo,,,2024-07-17,,,Embalaje
+XCX,Lata cilíndrica,,,2024-07-17,,,Embalaje
+XCY,Cilindro,,,2024-07-17,,,Embalaje
+XCZ,Lona,,,2024-07-17,,,Embalaje
+XDA,Cajón multicapa de plástico,,,2024-07-17,,,Embalaje
+XDB,Cajón de varias capas de madera,,,2024-07-17,,,Embalaje
+XDC,Cajón multicapa de cartón,,,2024-07-17,,,Embalaje
+XDG,"Jaula, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP))",,,2024-07-17,,,Embalaje
+XDH,"Caja, Según la clasificación de la compañía (CHEP), Eurobox",Caja montada sobre una base de pallet Según la clasificación de la compañía (CHEP).,,2024-07-17,,,Embalaje
+XDI,Tambor de hierro,,,2024-07-17,,,Embalaje
+XDJ,"damajuana o garrafa, no protegido",,,2024-07-17,,,Embalaje
+XDK,"Cajón a granel, cartón",,,2024-07-17,,,Embalaje
+XDL,Cajas de plástico,,,2024-07-17,,,Embalaje
+XDM,Cajones a granel de madera,,,2024-07-17,,,Embalaje
+XDN,Dispensador,,,2024-07-17,,,Embalaje
+XDP,"damajuana o garrafa, protegido",,,2024-07-17,,,Embalaje
+XDR,Tambor,,,2024-07-17,,,Embalaje
+XDS,Bandeja de una capa sin cubierta y de plástico,,,2024-07-17,,,Embalaje
+XDT,Bandeja de una capa sin cubierta y de madera,,,2024-07-17,,,Embalaje
+XDU,Bandeja de una capa sin cubierta y  poliestireno,,,2024-07-17,,,Embalaje
+XDV,Bandeja de una capa sin cubierta y de cartón,,,2024-07-17,,,Embalaje
+XDW,Bandeja de dos capas sin tapa y con bandeja de plástico,,,2024-07-17,,,Embalaje
+XDX,Bandeja de dos capas sin cubierta y de madera,,,2024-07-17,,,Embalaje
+XDY,Bandeja de dos capas sin cubierta y de cartón,,,2024-07-17,,,Embalaje
+XEC,Bolsa de plástico,,,2024-07-17,,,Embalaje
+XED,"Estuche, con pallet de base",,,2024-07-17,,,Embalaje
+XEE,"Estuche, con pallet base de madera",,,2024-07-17,,,Embalaje
+XEF,"Estuche, con pallet base de cartón",,,2024-07-17,,,Embalaje
+XEG,"Estuche, con pallet base de plástico",,,2024-07-17,,,Embalaje
+XEH,"Estuche, con pallet base de metal",,,2024-07-17,,,Embalaje
+XEI,Estuche isotérmico,,,2024-07-17,,,Embalaje
+XEN,Sobre,,,2024-07-17,,,Embalaje
+XFB,Bolsa flexible,"Bolsa de contención flexible hecha de plástico, usado típicamente para el transporte de mercancías no peligrosas a granel, que usan contenedores de transporte de tamaño estándar.",,2024-07-17,,,Embalaje
+XFC,Cajón para fruta,,,2024-07-17,,,Embalaje
+XFD,Cajón enmarcado,,,2024-07-17,,,Embalaje
+XFE,Tanque flexible,"Contenedor flexible de plástico, usado típicamente para el transporte de cargas no peligrosas a granel usando contenedores de transporte de tamaño estándar.",,2024-07-17,,,Embalaje
+XFI,Firkin,Barril de 41 litros,,2024-07-17,,,Embalaje
+XFL,Matraz,,,2024-07-17,,,Embalaje
+XFO,Cajón para zapatos,,,2024-07-17,,,Embalaje
+XFP,Caja auxiliar para película fotográfica,,,2024-07-17,,,Embalaje
+XFR,Marco,,,2024-07-17,,,Embalaje
+XFT,Contenedor para alimentos,,,2024-07-17,,,Embalaje
+XFW,Carro de cama plana,Módulo con ruedas en el que las bandejas u otros artículos de forma regular se empacan para fines de transporte.,,2024-07-17,,,Embalaje
+XFX,Bolsa flexible tipo contenedor,,,2024-07-17,,,Embalaje
+XGB,Botella para gas,Cilindro metálico de cuello estrecho para la retención de gas licuado o comprimido.,,2024-07-17,,,Embalaje
+XGI,Viga,,,2024-07-17,,,Embalaje
+XGL,Contenedor tipo galón,Contenedor con una capacidad de un galón.,,2024-07-17,,,Embalaje
+XGR,Recipiente de vidrio,Recipiente de contención de vidrio para retener sustancias o artículos.,,2024-07-17,,,Embalaje
+XGU,Bandeja contenedor para apilar horizontalmente objetos planos,Bandeja para contiene objetos planos apilados uno encima del otro.,,2024-07-17,,,Embalaje
+XGY,Costal de Yute,"Hecho de yute, usado para transportar mercancías gruesas, tales como granos, patatas, y otros productos agrícolas.",,2024-07-17,,,Embalaje
+XGZ,Vigas con correas o agrupadas,,,2024-07-17,,,Embalaje
+XHA,Cesta con mango y de plástico,,,2024-07-17,,,Embalaje
+XHB,Cesta con mango y de madera,,,2024-07-17,,,Embalaje
+XHC,Cesta  con asa y de  cartón,,,2024-07-17,,,Embalaje
+XHG,Hogshead,Barril de 1/4 de tonel,,2024-07-17,,,Embalaje
+XHN,Gancho,"Artefacto, cuya forma con un gancho en la parte superior, tiene el propósito de colgar artículos de un carril.",,2024-07-17,,,Embalaje
+XHR,Cesto,,,2024-07-17,,,Embalaje
+XIA,Paquete con pantalla y de madera,,,2024-07-17,,,Embalaje
+XIB,Paquete  con pantalla y de cartón,,,2024-07-17,,,Embalaje
+XIC,Paquete con pantalla y de plástico,,,2024-07-17,,,Embalaje
+XID,Paquete con pantalla y de metal,,,2024-07-17,,,Embalaje
+XIE,Paquete de mostrador.,,,2024-07-17,,,Embalaje
+XIF,Envase para alimentos,"Envase flexible tubular o de piel, posiblemente transparente, a menudo utilizado para contener alimentos (por ejemplo salami).",,2024-07-17,,,Embalaje
+XIG,Paquete envuelto en papel,,,2024-07-17,,,Embalaje
+XIH,Tambor de plástico,,,2024-07-17,,,Embalaje
+XIK,Paquete de cartón con los agujeros para botellas,Material de empaque realizado en cartón que facilita la separación de botellas individuales de vidrio o plástico.,,2024-07-17,,,Embalaje
+XIL,Bandeja rígida con tapa y apilable (CEN TS 14482: 2002),Bandeja rígida apilable empotrada compatible con CEN TS 14482: 2002.,,2024-07-17,,,Embalaje
+XIN,Lingote,,,2024-07-17,,,Embalaje
+FTQ,Pie cúbico,,,2024-07-17,,ft³,Volumen
+YDQ,Yarda cúbica,,,2024-07-17,,yd³,Volumen
+GLI,Galón (UK),"Es una unidad de volumen que se emplea en los países anglófonos (especialmente Estados Unidos) o con influencia de estos (como Liberia, Guatemala, Panamá, Honduras, Nicaragua, El Salvador, Colombia y parcialmente en México), para medir volúmenes de líquidos, principalmente la gasolina y su precio. Antiguamente, el volumen de un galón dependía de lo que se midiera, y dónde. Sin embargo, en el siglo XIX existían dos definiciones de uso común: ""galón de vino"" (wine gallon) y ""galón de cerveza británico"" (ale gallon).\nEs equivalente a 3.7854 litros.",,2024-07-17,,gal (UK),Volumen
+GLL,Galón (EUA),"Es una unidad de volumen que se emplea en los países anglófonos (especialmente Estados Unidos) o con influencia de estos (como Liberia, Guatemala, Panamá, Honduras, Nicaragua, El Salvador, Colombia y parcialmente en México), para medir volúmenes de líquidos, principalmente la gasolina y su precio. Antiguamente, el volumen de un galón dependía de lo que se midiera, y dónde. Sin embargo, en el siglo XIX existían dos definiciones de uso común: ""galón de vino"" (wine gallon) y ""galón de cerveza británico"" (ale gallon).",,2024-07-17,,gal (US),Volumen
+PT,Pinta (US),Utilice pinta líquida (código común PTL),Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.,2024-07-17,,Pt (US),Volumen
+PTI,Pint (uk),"Es una unidad de volumen inglesa en el sistema imperial y los Estados Unidos. La versión imperial usada en el UK es de 20 onzas líquidas y es equivalente a 568,26125 ml, mientras que en los EUA es de 16 onzas líquidas y es equivalente a 473,17647 ml.",,2024-07-17,,pt (UK),Volumen
+QTI,Cuarto (UK),Es una unidad de medida de volumen equivalente a media fanega. En Castilla equivalía a aproximadamente a 6 celemines. La medida real cambia según regiones o incluso localidades.,,2024-07-17,,qt (UK),Volumen
+PTL,Pinta líquida (estados unidos),,,2024-07-17,,liq pt (US),Volumen
+QTL,Cuarto de líquido (estadis unidos),,,2024-07-17,,liq qt (US),Volumen
+PTD,Pinta seca (estados unidos),,,2024-07-17,,dry pt (US),Volumen
+OZI,Onza líquida (UK),,,2024-07-17,,fl oz (UK),Volumen
+QT,Cuarto (EUA),Utilice cuarto de galón líquido (código común QTL),Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.,2024-07-17,,Qt (US),Volumen
+J57,Barril (uk petróleo),Es el nombre de varias unidades de volumen usadas en el Reino Unido y en los Estados Unidos.,,2024-07-17,,bbl (UK liq.),Volumen
+K21,Pie cúbico por grado fahrenheit,,,2024-07-17,,ft³/°F,Volumen
+K23,Pie cúbico por psi (libra por pulgada cuadrada),,,2024-07-17,,ft³/psi,Volumen
+L43,Peck (UK),"Un peck es una unidad tradicional de medida de volúmenes. Aunque puede ser utilizado para medir seco y líquido, se utiliza generalmente para las materias secas. Es igual a 1/4 bushel, 2 galones, o 8 cuartos de galón.",,2024-07-17,,pk (UK),Volumen
+L61,Pinta (US seco),Utilice pinta seca (código común PTD),"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2024-07-17,,Pt (US seco),Volumen
+L62,Cuarto de galón (seco de los EUA),Utilice cuarto seco (EUA) (código común QTD),"Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",2024-07-17,,Qt (US seco),Volumen
+L84,Tonelada (flota UK),,,2024-07-17,,British shipping ton,Volumen
+L86,Tonelada (flota estados unidos),,,2024-07-17,,(US) shipping ton,Volumen
+M11,Yarda cúbica por grado fahrenheit,,,2024-07-17,,yd³/°F,Volumen
+M14,Yarda cúbica por psi (libra por pulgada cuadrada),,,2024-07-17,,yd³/psi,Volumen
+OZA,Onza líquida (estados unidos),,,2024-07-17,,fl oz (US),Volumen
+BUI,Bushel (UK),"Un bushel tiene 4 pecks o 32 quarts, y equivale a 1,03205 del bushel de los Estados Unidos, que a su vez equivale a 0,35238 hectolitros. La palabra bushel está cayendo en desuso rápidamente.",,2024-07-17,,bushel (UK),Volumen
+BUA,Bushel (EUA),"El bushel es una unidad de medida de capacidad para mercancía sólida en los países anglosajones (países de habla inglesa). Se utiliza en el comercio de granos, harinas y otros productos análogos.",,2024-07-17,,bu (US),Volumen
+BLL,Barril (EUA),Un barril estadounidense es igual a:\n\n42 galones estadounidenses\n168 cuartos estadounidenses\n336 pintas estadounidenses\n1344 gills estadounidenses\n5376 onzas líquidas estadounidenses\n158.987294928 litros,,2024-07-17,,barrel (US),Volumen
+BLD,Barril seco (EUA),,,2024-07-17,,bbl (US),Volumen
+GLD,Galón seco (EUA),,,2024-07-17,,dry gal (US),Volumen
+QTD,Cuarto seco (estados unidos),,,2024-07-17,,dry qt (US),Volumen
+G26,Estere,,,2024-07-17,,st,Volumen
+G21,Taza (unidad de volumen),,,2024-07-17,,cup (US),Volumen
+G24,Cucharada (estados unidos),"1/2 onzas fluidas, 3 cucharaditas, 15 mililitros",,2024-07-17,,tablespoon (US),Volumen
+G25,Cucharilla (estados unidos),1/6 onzas fluidas o 5 mililitros,,2024-07-17,,teaspoon (US),Volumen
+G23,Peck,Es una unidad de medida imperial y habitual en  Estados Unidos de volumen seco.,,2024-07-17,,pk (US),Volumen
+M67,Acre-pie,"Unidad de volúmen, la cúal es usada en los Estados Unidos para medir la capacidad de las presas.",,2024-07-17,,acre-ft (US survey),Volumen
+M68,Cordón,Unidad tradicional del volumen de leña apilada que se ha medido con un cordón.,,2024-07-17,,cord,Volumen
+M69,Milla cúbica (reino unido),,,2024-07-17,,mi³,Volumen
+M70,Unidad tradicional de capacidad de carga,,,2024-07-17,,RT,Volumen
+Q32,Femtolitro,,,2024-07-17,,fl,Volumen
+Q33,Picolitro,,,2024-07-17,,pl,Volumen
+Q34,Nanolitro,,,2024-07-17,,nl,Volumen
+NM3,Metro cúbico normalizado,Metros cúbicos normalizados (temperatura 0 ° C y presión 101325 milibares),,2024-07-17,,,Volumen
+SM3,Metro cúbico estándar,Metro cúbico estándar (temperatura 15 ° C y presión 101325 milibares),,2024-07-17,,,Volumen

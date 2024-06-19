@@ -1,0 +1,8 @@
+Catálogo de tipo de tráfico ferroviario.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+Clave,Descripción,Fecha de inicio de vigencia,Fecha de fin de vigencia
+TT01,Tráfico local,2024-07-17
+TT02,Tráfico interlineal remitido,2024-07-17
+TT03,Tráfico interlineal recibido,2024-07-17
+TT04,Tráfico interlineal en tránsito,2024-07-17

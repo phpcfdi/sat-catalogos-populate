@@ -1,0 +1,384 @@
+Catálogo de municipios.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión,Fecha de publicación
+2024-07-17,,1.0,0,2024-06-17
+c_Municipio,c_Estado,Descripción,Fecha inicio vigencia,Fecha fin vigencia
+001,AGU,Aguascalientes,2024-07-17
+001,BCN,Ensenada,2024-07-17
+001,BCS,Comondú,2024-07-17
+001,CAM,Calkiní,2024-07-17
+001,COA,Abasolo,2024-07-17
+001,COL,Armería,2024-07-17
+001,CHH,Ahumada,2024-07-17
+001,CHP,Acacoyagua,2024-07-17
+001,DUR,Canatlán,2024-07-17
+001,GRO,Acapulco de Juárez,2024-07-17
+001,GUA,Abasolo,2024-07-17
+001,HID,Acatlán,2024-07-17
+001,JAL,Acatic,2024-07-17
+001,MEX,Acambay de Ruíz Castañeda,2024-07-17
+001,MIC,Acuitzio,2024-07-17
+001,MOR,Amacuzac,2024-07-17
+001,NAY,Acaponeta,2024-07-17
+001,NLE,Abasolo,2024-07-17
+001,OAX,Abejones,2024-07-17
+001,PUE,Acajete,2024-07-17
+001,QUE,Amealco de Bonfil,2024-07-17
+001,ROO,Cozumel,2024-07-17
+001,SIN,Ahome,2024-07-17
+001,SLP,Ahualulco,2024-07-17
+001,SON,Aconchi,2024-07-17
+001,TAB,Balancán,2024-07-17
+001,TAM,Abasolo,2024-07-17
+001,TLA,Amaxac de Guerrero,2024-07-17
+001,VER,Acajete,2024-07-17
+001,YUC,Abalá,2024-07-17
+001,ZAC,Apozol,2024-07-17
+002,AGU,Asientos,2024-07-17
+002,BCN,Mexicali,2024-07-17
+002,BCS,Mulegé,2024-07-17
+002,CAM,Campeche,2024-07-17
+002,COA,Acuña,2024-07-17
+002,COL,Colima,2024-07-17
+002,CHH,Aldama,2024-07-17
+002,CHP,Acala,2024-07-17
+002,CMX,Azcapotzalco,2024-07-17
+002,DUR,Canelas,2024-07-17
+002,GRO,Ahuacuotzingo,2024-07-17
+002,GUA,Acámbaro,2024-07-17
+002,HID,Acaxochitlán,2024-07-17
+002,JAL,Acatlán de Juárez,2024-07-17
+002,MEX,Acolman,2024-07-17
+002,MIC,Aguililla,2024-07-17
+002,MOR,Atlatlahucan,2024-07-17
+002,NAY,Ahuacatlán,2024-07-17
+002,NLE,Agualeguas,2024-07-17
+002,OAX,Acatlán de Pérez Figueroa,2024-07-17
+002,PUE,Acateno,2024-07-17
+002,QUE,Pinal de Amoles,2024-07-17
+002,ROO,Felipe Carrillo Puerto,2024-07-17
+002,SIN,Angostura,2024-07-17
+002,SLP,Alaquines,2024-07-17
+002,SON,Agua Prieta,2024-07-17
+002,TAB,Cárdenas,2024-07-17
+002,TAM,Aldama,2024-07-17
+002,TLA,Apetatitlán de Antonio Carvajal,2024-07-17
+002,VER,Acatlán,2024-07-17
+002,YUC,Acanceh,2024-07-17
+002,ZAC,Apulco,2024-07-17
+003,AGU,Calvillo,2024-07-17
+003,BCN,Tecate,2024-07-17
+003,BCS,La Paz,2024-07-17
+003,CAM,Carmen,2024-07-17
+003,COA,Allende,2024-07-17
+003,COL,Comala,2024-07-17
+003,CHH,Allende,2024-07-17
+003,CHP,Acapetahua,2024-07-17
+003,CMX,Coyoacán,2024-07-17
+003,DUR,Coneto de Comonfort,2024-07-17
+003,GRO,Ajuchitlán del Progreso,2024-07-17
+003,GUA,San Miguel de Allende,2024-07-17
+003,HID,Actopan,2024-07-17
+003,JAL,Ahualulco de Mercado,2024-07-17
+003,MEX,Aculco,2024-07-17
+003,MIC,Álvaro Obregón,2024-07-17
+003,MOR,Axochiapan,2024-07-17
+003,NAY,Amatlán de Cañas,2024-07-17
+003,NLE,Los Aldamas,2024-07-17
+003,OAX,Asunción Cacalotepec,2024-07-17
+003,PUE,Acatlán,2024-07-17
+003,QUE,Arroyo Seco,2024-07-17
+003,ROO,Isla Mujeres,2024-07-17
+003,SIN,Badiraguato,2024-07-17
+003,SLP,Aquismón,2024-07-17
+003,SON,Alamos,2024-07-17
+003,TAB,Centla,2024-07-17
+003,TAM,Altamira,2024-07-17
+003,TLA,Atlangatepec,2024-07-17
+003,VER,Acayucan,2024-07-17
+003,YUC,Akil,2024-07-17
+003,ZAC,Atolinga,2024-07-17
+004,AGU,Cosío,2024-07-17
+004,BCN,Tijuana,2024-07-17
+004,CAM,Champotón,2024-07-17
+004,COA,Arteaga,2024-07-17
+004,COL,Coquimatlán,2024-07-17
+004,CHH,Aquiles Serdán,2024-07-17
+004,CHP,Altamirano,2024-07-17
+004,CMX,Cuajimalpa de Morelos,2024-07-17
+004,DUR,Cuencamé,2024-07-17
+004,GRO,Alcozauca de Guerrero,2024-07-17
+004,GUA,Apaseo el Alto,2024-07-17
+004,HID,Agua Blanca de Iturbide,2024-07-17
+004,JAL,Amacueca,2024-07-17
+004,MEX,Almoloya de Alquisiras,2024-07-17
+004,MIC,Angamacutiro,2024-07-17
+004,MOR,Ayala,2024-07-17
+004,NAY,Compostela,2024-07-17
+004,NLE,Allende,2024-07-17
+004,OAX,Asunción Cuyotepeji,2024-07-17
+004,PUE,Acatzingo,2024-07-17
+004,QUE,Cadereyta de Montes,2024-07-17
+004,ROO,Othón P. Blanco,2024-07-17
+004,SIN,Concordia,2024-07-17
+004,SLP,Armadillo de los Infante,2024-07-17
+004,SON,Altar,2024-07-17
+004,TAB,Centro,2024-07-17
+004,TAM,Antiguo Morelos,2024-07-17
+004,TLA,Atltzayanca,2024-07-17
+004,VER,Actopan,2024-07-17
+004,YUC,Baca,2024-07-17
+004,ZAC,Benito Juárez,2024-07-17
+005,AGU,Jesús María,2024-07-17
+005,BCN,Playas de Rosarito,2024-07-17
+005,CAM,Hecelchakán,2024-07-17
+005,COA,Candela,2024-07-17
+005,COL,Cuauhtémoc,2024-07-17
+005,CHH,Ascensión,2024-07-17
+005,CHP,Amatán,2024-07-17
+005,CMX,Gustavo A. Madero,2024-07-17
+005,DUR,Durango,2024-07-17
+005,GRO,Alpoyeca,2024-07-17
+005,GUA,Apaseo el Grande,2024-07-17
+005,HID,Ajacuba,2024-07-17
+005,JAL,Amatitán,2024-07-17
+005,MEX,Almoloya de Juárez,2024-07-17
+005,MIC,Angangueo,2024-07-17
+005,MOR,Coatlán del Río,2024-07-17
+005,NAY,Huajicori,2024-07-17
+005,NLE,Anáhuac,2024-07-17
+005,OAX,Asunción Ixtaltepec,2024-07-17
+005,PUE,Acteopan,2024-07-17
+005,QUE,Colón,2024-07-17
+005,ROO,Benito Juárez,2024-07-17
+005,SIN,Cosalá,2024-07-17
+005,SLP,Cárdenas,2024-07-17
+005,SON,Arivechi,2024-07-17
+005,TAB,Comalcalco,2024-07-17
+005,TAM,Burgos,2024-07-17
+005,TLA,Apizaco,2024-07-17
+005,VER,Acula,2024-07-17
+005,YUC,Bokobá,2024-07-17
+005,ZAC,Calera,2024-07-17
+006,AGU,Pabellón de Arteaga,2024-07-17
+006,CAM,Hopelchén,2024-07-17
+006,COA,Castaños,2024-07-17
+006,COL,Ixtlahuacán,2024-07-17
+006,CHH,Bachíniva,2024-07-17
+006,CHP,Amatenango de la Frontera,2024-07-17
+006,CMX,Iztacalco,2024-07-17
+006,DUR,General Simón Bolívar,2024-07-17
+006,GRO,Apaxtla,2024-07-17
+006,GUA,Atarjea,2024-07-17
+006,HID,Alfajayucan,2024-07-17
+006,JAL,Ameca,2024-07-17
+006,MEX,Almoloya del Río,2024-07-17
+006,MIC,Apatzingán,2024-07-17
+006,MOR,Cuautla,2024-07-17
+006,NAY,Ixtlán del Río,2024-07-17
+006,NLE,Apodaca,2024-07-17
+006,OAX,Asunción Nochixtlán,2024-07-17
+006,PUE,Ahuacatlán,2024-07-17
+006,QUE,Corregidora,2024-07-17
+006,ROO,José María Morelos,2024-07-17
+006,SIN,Culiacán,2024-07-17
+006,SLP,Catorce,2024-07-17
+006,SON,Arizpe,2024-07-17
+006,TAB,Cunduacán,2024-07-17
+006,TAM,Bustamante,2024-07-17
+006,TLA,Calpulalpan,2024-07-17
+006,VER,Acultzingo,2024-07-17
+006,YUC,Buctzotz,2024-07-17
+006,ZAC,Cañitas de Felipe Pescador,2024-07-17
+007,AGU,Rincón de Romos,2024-07-17
+007,CAM,Palizada,2024-07-17
+007,COA,Cuatro Ciénegas,2024-07-17
+381,OAX,Santa Cruz Tacache de Mina,2024-07-17
+382,OAX,Santa Cruz Tacahua,2024-07-17
+383,OAX,Santa Cruz Tayata,2024-07-17
+384,OAX,Santa Cruz Xitla,2024-07-17
+385,OAX,Santa Cruz Xoxocotlán,2024-07-17
+386,OAX,Santa Cruz Zenzontepec,2024-07-17
+387,OAX,Santa Gertrudis,2024-07-17
+388,OAX,Santa Inés del Monte,2024-07-17
+389,OAX,Santa Inés Yatzeche,2024-07-17
+390,OAX,Santa Lucía del Camino,2024-07-17
+391,OAX,Santa Lucía Miahuatlán,2024-07-17
+392,OAX,Santa Lucía Monteverde,2024-07-17
+393,OAX,Santa Lucía Ocotlán,2024-07-17
+394,OAX,Santa María Alotepec,2024-07-17
+395,OAX,Santa María Apazco,2024-07-17
+396,OAX,Santa María la Asunción,2024-07-17
+397,OAX,Heroica Ciudad de Tlaxiaco,2024-07-17
+398,OAX,Ayoquezco de Aldama,2024-07-17
+399,OAX,Santa María Atzompa,2024-07-17
+400,OAX,Santa María Camotlán,2024-07-17
+401,OAX,Santa María Colotepec,2024-07-17
+402,OAX,Santa María Cortijo,2024-07-17
+403,OAX,Santa María Coyotepec,2024-07-17
+404,OAX,Santa María Chachoápam,2024-07-17
+405,OAX,Villa de Chilapa de Díaz,2024-07-17
+406,OAX,Santa María Chilchotla,2024-07-17
+407,OAX,Santa María Chimalapa,2024-07-17
+408,OAX,Santa María del Rosario,2024-07-17
+409,OAX,Santa María del Tule,2024-07-17
+410,OAX,Santa María Ecatepec,2024-07-17
+411,OAX,Santa María Guelacé,2024-07-17
+412,OAX,Santa María Guienagati,2024-07-17
+413,OAX,Santa María Huatulco,2024-07-17
+414,OAX,Santa María Huazolotitlán,2024-07-17
+415,OAX,Santa María Ipalapa,2024-07-17
+416,OAX,Santa María Ixcatlán,2024-07-17
+417,OAX,Santa María Jacatepec,2024-07-17
+418,OAX,Santa María Jalapa del Marqués,2024-07-17
+419,OAX,Santa María Jaltianguis,2024-07-17
+420,OAX,Santa María Lachixío,2024-07-17
+421,OAX,Santa María Mixtequilla,2024-07-17
+422,OAX,Santa María Nativitas,2024-07-17
+423,OAX,Santa María Nduayaco,2024-07-17
+424,OAX,Santa María Ozolotepec,2024-07-17
+425,OAX,Santa María Pápalo,2024-07-17
+426,OAX,Santa María Peñoles,2024-07-17
+427,OAX,Santa María Petapa,2024-07-17
+428,OAX,Santa María Quiegolani,2024-07-17
+429,OAX,Santa María Sola,2024-07-17
+430,OAX,Santa María Tataltepec,2024-07-17
+431,OAX,Santa María Tecomavaca,2024-07-17
+432,OAX,Santa María Temaxcalapa,2024-07-17
+433,OAX,Santa María Temaxcaltepec,2024-07-17
+434,OAX,Santa María Teopoxco,2024-07-17
+435,OAX,Santa María Tepantlali,2024-07-17
+436,OAX,Santa María Texcatitlán,2024-07-17
+437,OAX,Santa María Tlahuitoltepec,2024-07-17
+438,OAX,Santa María Tlalixtac,2024-07-17
+439,OAX,Santa María Tonameca,2024-07-17
+440,OAX,Santa María Totolapilla,2024-07-17
+441,OAX,Santa María Xadani,2024-07-17
+442,OAX,Santa María Yalina,2024-07-17
+443,OAX,Santa María Yavesía,2024-07-17
+444,OAX,Santa María Yolotepec,2024-07-17
+445,OAX,Santa María Yosoyúa,2024-07-17
+446,OAX,Santa María Yucuhiti,2024-07-17
+447,OAX,Santa María Zacatepec,2024-07-17
+448,OAX,Santa María Zaniza,2024-07-17
+449,OAX,Santa María Zoquitlán,2024-07-17
+450,OAX,Santiago Amoltepec,2024-07-17
+451,OAX,Santiago Apoala,2024-07-17
+452,OAX,Santiago Apóstol,2024-07-17
+453,OAX,Santiago Astata,2024-07-17
+454,OAX,Santiago Atitlán,2024-07-17
+455,OAX,Santiago Ayuquililla,2024-07-17
+456,OAX,Santiago Cacaloxtepec,2024-07-17
+457,OAX,Santiago Camotlán,2024-07-17
+458,OAX,Santiago Comaltepec,2024-07-17
+459,OAX,Santiago Chazumba,2024-07-17
+460,OAX,Santiago Choápam,2024-07-17
+461,OAX,Santiago del Río,2024-07-17
+462,OAX,Santiago Huajolotitlán,2024-07-17
+463,OAX,Santiago Huauclilla,2024-07-17
+464,OAX,Santiago Ihuitlán Plumas,2024-07-17
+465,OAX,Santiago Ixcuintepec,2024-07-17
+466,OAX,Santiago Ixtayutla,2024-07-17
+467,OAX,Santiago Jamiltepec,2024-07-17
+468,OAX,Santiago Jocotepec,2024-07-17
+469,OAX,Santiago Juxtlahuaca,2024-07-17
+470,OAX,Santiago Lachiguiri,2024-07-17
+471,OAX,Santiago Lalopa,2024-07-17
+472,OAX,Santiago Laollaga,2024-07-17
+473,OAX,Santiago Laxopa,2024-07-17
+474,OAX,Santiago Llano Grande,2024-07-17
+475,OAX,Santiago Matatlán,2024-07-17
+476,OAX,Santiago Miltepec,2024-07-17
+477,OAX,Santiago Minas,2024-07-17
+478,OAX,Santiago Nacaltepec,2024-07-17
+479,OAX,Santiago Nejapilla,2024-07-17
+480,OAX,Santiago Nundiche,2024-07-17
+481,OAX,Santiago Nuyoó,2024-07-17
+482,OAX,Santiago Pinotepa Nacional,2024-07-17
+483,OAX,Santiago Suchilquitongo,2024-07-17
+484,OAX,Santiago Tamazola,2024-07-17
+485,OAX,Santiago Tapextla,2024-07-17
+486,OAX,Villa Tejúpam de la Unión,2024-07-17
+487,OAX,Santiago Tenango,2024-07-17
+488,OAX,Santiago Tepetlapa,2024-07-17
+489,OAX,Santiago Tetepec,2024-07-17
+490,OAX,Santiago Texcalcingo,2024-07-17
+491,OAX,Santiago Textitlán,2024-07-17
+492,OAX,Santiago Tilantongo,2024-07-17
+493,OAX,Santiago Tillo,2024-07-17
+494,OAX,Santiago Tlazoyaltepec,2024-07-17
+495,OAX,Santiago Xanica,2024-07-17
+496,OAX,Santiago Xiacuí,2024-07-17
+497,OAX,Santiago Yaitepec,2024-07-17
+498,OAX,Santiago Yaveo,2024-07-17
+499,OAX,Santiago Yolomécatl,2024-07-17
+500,OAX,Santiago Yosondúa,2024-07-17
+501,OAX,Santiago Yucuyachi,2024-07-17
+502,OAX,Santiago Zacatepec,2024-07-17
+503,OAX,Santiago Zoochila,2024-07-17
+504,OAX,Nuevo Zoquiápam,2024-07-17
+505,OAX,Santo Domingo Ingenio,2024-07-17
+506,OAX,Santo Domingo Albarradas,2024-07-17
+507,OAX,Santo Domingo Armenta,2024-07-17
+508,OAX,Santo Domingo Chihuitán,2024-07-17
+509,OAX,Santo Domingo de Morelos,2024-07-17
+510,OAX,Santo Domingo Ixcatlán,2024-07-17
+511,OAX,Santo Domingo Nuxaá,2024-07-17
+512,OAX,Santo Domingo Ozolotepec,2024-07-17
+513,OAX,Santo Domingo Petapa,2024-07-17
+514,OAX,Santo Domingo Roayaga,2024-07-17
+515,OAX,Santo Domingo Tehuantepec,2024-07-17
+516,OAX,Santo Domingo Teojomulco,2024-07-17
+517,OAX,Santo Domingo Tepuxtepec,2024-07-17
+518,OAX,Santo Domingo Tlatayápam,2024-07-17
+519,OAX,Santo Domingo Tomaltepec,2024-07-17
+520,OAX,Santo Domingo Tonalá,2024-07-17
+521,OAX,Santo Domingo Tonaltepec,2024-07-17
+522,OAX,Santo Domingo Xagacía,2024-07-17
+523,OAX,Santo Domingo Yanhuitlán,2024-07-17
+524,OAX,Santo Domingo Yodohino,2024-07-17
+525,OAX,Santo Domingo Zanatepec,2024-07-17
+526,OAX,Santos Reyes Nopala,2024-07-17
+527,OAX,Santos Reyes Pápalo,2024-07-17
+528,OAX,Santos Reyes Tepejillo,2024-07-17
+529,OAX,Santos Reyes Yucuná,2024-07-17
+530,OAX,Santo Tomás Jalieza,2024-07-17
+531,OAX,Santo Tomás Mazaltepec,2024-07-17
+532,OAX,Santo Tomás Ocotepec,2024-07-17
+533,OAX,Santo Tomás Tamazulapan,2024-07-17
+534,OAX,San Vicente Coatlán,2024-07-17
+535,OAX,San Vicente Lachixío,2024-07-17
+536,OAX,San Vicente Nuñú,2024-07-17
+537,OAX,Silacayoápam,2024-07-17
+538,OAX,Sitio de Xitlapehua,2024-07-17
+539,OAX,Soledad Etla,2024-07-17
+540,OAX,Villa de Tamazulápam del Progreso,2024-07-17
+541,OAX,Tanetze de Zaragoza,2024-07-17
+542,OAX,Taniche,2024-07-17
+543,OAX,Tataltepec de Valdés,2024-07-17
+544,OAX,Teococuilco de Marcos Pérez,2024-07-17
+545,OAX,Teotitlán de Flores Magón,2024-07-17
+546,OAX,Teotitlán del Valle,2024-07-17
+547,OAX,Teotongo,2024-07-17
+548,OAX,Tepelmeme Villa de Morelos,2024-07-17
+549,OAX,Tezoatlán de Segura y Luna,2024-07-17
+550,OAX,San Jerónimo Tlacochahuaya,2024-07-17
+551,OAX,Tlacolula de Matamoros,2024-07-17
+552,OAX,Tlacotepec Plumas,2024-07-17
+553,OAX,Tlalixtac de Cabrera,2024-07-17
+554,OAX,Totontepec Villa de Morelos,2024-07-17
+555,OAX,Trinidad Zaachila,2024-07-17
+556,OAX,La Trinidad Vista Hermosa,2024-07-17
+557,OAX,Unión Hidalgo,2024-07-17
+558,OAX,Valerio Trujano,2024-07-17
+559,OAX,San Juan Bautista Valle Nacional,2024-07-17
+560,OAX,Villa Díaz Ordaz,2024-07-17
+561,OAX,Yaxe,2024-07-17
+562,OAX,Magdalena Yodocono de Porfirio Díaz,2024-07-17
+563,OAX,Yogana,2024-07-17
+564,OAX,Yutanduchi de Guerrero,2024-07-17
+565,OAX,Villa de Zaachila,2024-07-17
+566,OAX,San Mateo Yucutindoo,2024-07-17
+567,OAX,Zapotitlán Lagunas,2024-07-17
+568,OAX,Zapotitlán Palmas,2024-07-17
+569,OAX,Santa Inés de Zaragoza,2024-07-17
+570,OAX,Zimatlán de Álvarez,2024-07-17

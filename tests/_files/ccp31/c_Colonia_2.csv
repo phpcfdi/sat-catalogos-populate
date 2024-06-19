@@ -1,0 +1,384 @@
+Catálogo de colonias.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2024-07-17,,1.0,0
+c_Colonia,c_CodigoPostal,Nombre del asentamiento
+1803,69792,Santiago Tilapa
+1803,74691,Agua de Santa Ana
+1803,76900,Bellavista Mezquites
+1803,78625,La Joya
+1803,83573,La Presa
+1803,86967,Buena Vista 23
+1803,89673,El Carrizal Segundo
+1803,97249,Hacienda Opichen
+1804,11460,Dos Lagos
+1804,21395,Villas del Colorado
+1804,25057,La Herradura
+1804,30828,Reforma
+1804,33470,Guadalupe y Calvo Centro
+1804,35923,Guadalupito
+1804,37623,La Lagunita
+1804,40040,Patria Nueva
+1804,43670,María Isabel
+1804,47187,Los Lobos
+1804,60443,Gildardo Magaña (Los Ángeles)
+1804,62743,Campo Nuevo
+1804,63536,Rancho Nuevo (Juventino)
+1804,67183,Miguel de la Madrid
+1804,69799,Tierra Colorada
+1804,74692,Las Flores
+1804,76900,Los Frailes
+1804,78625,La Curva
+1804,81607,Labastida Ochoa
+1804,83573,La Copa
+1804,86966,Francisco I. Madero 1a Sección
+1804,89673,Higinio Tanguma
+1804,92123,Cerro de La Cruz
+1804,97246,Angeles II
+1805,11460,Lago Norte
+1805,21395,El Sahuaro
+1805,25060,La Central
+1805,30829,Joaquín Miguel Gutiérrez
+1805,33477,San Simón (Calabazas)
+1805,35925,San Antonio de La Laguna
+1805,37624,Altos de Ibarra
+1805,40040,Rubén Jaramillo
+1805,43695,La Herradura
+1805,47196,Santa María del Valle
+1805,52168,Municipal
+1805,62743,Villareal
+1805,63538,Rancho Viejo
+1805,67186,Nuevo Almaguer
+1805,74692,Yeguas
+1805,76900,Villa Antigua
+1805,78625,San Juan
+1805,81605,Fovissste
+1805,83574,Hombres Blancos
+1805,86966,Francisco I. Madero 2a Sección
+1805,89674,Rancho de Piedra
+1805,92773,Cerro de Tumilco
+1805,97130,Cumbres de Altabrisa
+1806,11460,Lago Sur
+1806,25010,Vista Hermosa
+1806,30834,El Triunfo
+1806,33477,San Ignacio de los Sotelo
+1806,35930,Loma Alta
+1806,37624,La Ceja
+1806,40040,Santo Tomas
+1806,43696,Tollancingo
+1806,47186,El Nacimiento
+1806,60445,Parambén
+1806,62748,Vicente Guerrero
+1806,63544,Rancho Viejo
+1806,67186,San Eduardo
+1806,69806,El Ojite
+1806,74692,Zacatepec
+1806,76900,Huertas de la Virgen
+1806,78624,San Isidro
+1806,80804,Las Delicias
+1806,83342,Carnavalito
+1806,86933,Asunción
+1806,89677,Las Yucas
+1806,93330,Circulo Michoacano
+1806,97306,Los Héroes
+1807,11460,Los Manzanos
+1807,21397,Pimsa II
+1807,25057,Los Nogales II
+1807,30832,Los Leoncillos
+1807,33485,Santa Rita
+1807,35932,San Antonio del Refugio
+1807,37624,San José del Tanque
+1807,40040,3 Marías
+1807,47188,El Carrizal de Abajo
+1807,52168,Solidaridad Electricistas
+1807,60446,San José Apupátaro
+1807,62748,Vicente Guerrero 4ta Ampliación
+1807,63546,Sacaymota
+1807,67184,Condado de Santa Lucía
+1807,69806,Juan Escutia Juquila
+1807,74693,Progreso
+1807,76900,Haciendas del Pueblito
+1807,78624,La Huerta
+1807,80807,Aviación
+1807,83342,Artesanos
+1807,86974,San Marcos
+1807,89678,Nuevo Progreso (La Gaviota)
+1807,97380,El Zapotal
+1808,11470,5 de Mayo
+1808,21399,Punta de Estrella
+1808,25138,Emilio Carranza
+1808,30832,Morelos
+1808,33477,Santo Domingo
+1808,35937,Nueva Reforma
+1808,37625,Palo Colorado
+1808,40044,Daniel Murayama
+1808,43698,Medias Tierras
+1808,47188,El Nopal
+1808,60447,Plan de Ayala
+1808,62748,Vicente Guerrero 3a Ampliación
+1808,63548,San Gregorio
+1808,67184,Jardines de Santa Clara
+1808,74694,Agua de la Luna
+1808,76905,Los Cipreses
+1808,78622,Satélite
+1808,80806,Infonavit
+1808,83340,Bugambilia
+1808,86930,Municipal
+1808,89679,El Vidal
+1808,92700,Coahuitzil
+1808,97205,Privada Arboledas
+1809,11470,Deportivo Pensil
+1809,21399,Mexicali del Sol
+1809,25110,Portales
+1809,30830,Puerto Madero Centro
+1809,33487,Tohayana
+1809,35938,Agua Nueva
+1809,37625,Salto del Ahogado
+1809,40044,Martín Aceves Gonzalez
+1809,43699,INFONAVIT Moisés Rivera
+1809,47188,El Tule
+1809,52168,Villas Alteza
+1809,60486,Araparícuaro (Aparícuaro)
+1809,62748,Tabachines
+1809,63533,San Isidro
+1809,67184,Pablo Livas
+1809,69806,Santa Lucrecia
+1809,74695,Huajoyuca
+1809,76904,Los Vitrales
+1809,78623,Santo Niño
+1809,80805,Fovissste
+1809,83336,El Progreso
+1809,86930,Monte Libano
+1809,89679,Las Alazanas
+1809,92065,La Covacha
+1809,97115,Ampliación Cordemex
+1810,11479,Unidad Legaria IMSS
+1810,21399,Tavizan Silva
+1810,25110,Evaristo Arriola Pérez
+1810,30835,Tinajas 1a Secc
+1810,35938,La Escalera
+1810,37630,Ciudad Ocampo
+1810,40045,Lomas de los Coyotes
+1810,43700,Jaltepec
+1810,47188,La Ermita
+1810,52169,Juan Fernández Albarrán
+1810,60485,Condémbaro
+1810,62757,Lázaro Cárdenas 3a Ampliacón
+1810,63543,San Isidro
+1810,67184,Santa Isabel
+1810,74695,Moralillo
+1810,76902,Privada Campestre
+1810,78622,La Paz
+1810,82704,Pedregal
+1810,83306,La Cruz
+1810,86930,Magisterial
+1810,89710,Villa González Centro
+1810,93650,Colegio Militar
+1810,97120,Ampliación del Norte (1a. Ampliación)
+1811,11480,Francisco I Madero
+1811,21399,Los Laureles
+1811,25110,Valle de las Torres
+1811,30833,Tinajas 2a Secc
+1811,33477,Dolores
+1811,35940,Santa Cruz del Orégano (el Orégano)
+1811,37631,Gachupines
+1811,40045,Magisterial Iguala
+1811,43703,La Lagunilla
+1811,47188,La Lagunilla
+1811,60465,Aguacate del Sur
+1811,63533,San Joaquín
+1811,67184,Villa San Sebastián
+1811,69800,Heroica Ciudad de Tlaxiaco Centro
+1811,74695,Tula
+1811,76902,Acueducto Candiles
+1811,78622,La Cruz
+1811,82704,Loma Linda
+5776,85205,Raymundo Sarabia
+5776,95680,Pablo L. Sidar
+5777,29930,Jardines
+5777,33210,Los Musicos
+5777,34570,Los Barandales
+5777,36210,José Guzmán Caudillo
+5777,42354,La Cebada
+5777,47534,Santo Domingo (Arroyo del Palo)
+5777,54666,Cimapan
+5777,60923,El Buen Amigo
+5777,65546,Kilómetro Setenta y Seis
+5777,70517,Guadalupe Victoria
+5777,73566,Santioapan
+5777,85218,Raymundo Vivian
+5777,95680,Nuevo Paso Novillo (Libertad y Progreso)
+5778,29145,Tzu Tzu
+5778,33123,Agua Nueva
+5778,34585,Los Braceros
+5778,36214,José Ponce
+5778,42348,La Escondida
+5778,47532,Tampico
+5778,54666,Ixtapacalco
+5778,60945,El Campo de Aviación
+5778,65546,Los Treviño
+5778,70508,Jicalpextle
+5778,73566,Tacuapan
+5778,85203,Reconversión Agrícola
+5779,30203,San Francisco el Calvito
+5779,33127,Salón Actos (Ampliación Cuarenta y Siete)
+5779,34575,Los Burros
+5779,36210,Juan Frausto
+5779,42357,La Loma
+5779,47520,Tierra Negra
+5779,54667,Acoacalco
+5779,60936,El Capirito
+5779,65547,Montelongo
+5779,70504,La Bolsa
+5779,73566,Tecoltepec
+5779,85203,Refugio González
+5779,95677,El Zorral
+5780,30985,Rancheria La Antigua
+5780,32900,Residencial los Leones
+5780,34584,Los Carrizos
+5780,36212,Juan Gamiño
+5780,42354,La Loma
+5780,47515,Tlacualeche
+5780,54667,Chautongo
+5780,60926,El Carrizo
+5780,65547,El Nogal
+5780,70503,La Chepín
+5780,73563,Tenango
+5780,85200,Refugio Rodríguez Ramírez
+5780,95677,Nueva Esperanza
+5781,29145,Guapinolito
+5781,31977,Campo Cincuenta y Uno y Medio
+5781,34587,Los Chapotes
+5781,36215,Juan Guadián
+5781,42346,La Loma
+5781,47510,Tlalixcoyan (Tlalixcoya)
+5781,54667,Santiago
+5781,60927,El Carrizo
+5781,65547,Las Nueces
+5781,70503,La Chirpa
+5781,73565,Tenextepec
+5781,85218,Regalado (El Rancho R4)
+5781,95677,Vicente Guerrero
+5782,30895,San Joaquín
+5782,33644,San Antonio
+5782,34583,Los Chapotes
+5782,36210,Juan Mata
+5782,42356,La Loma
+5782,47525,Toluca
+5782,54666,San Francisco
+5782,60933,El Cascalote
+5782,65547,El Pedernal
+5782,70515,La Concordia
+5782,73566,Tepetitán ( Reyeshogpan )
+5782,85207,Renato Campoy
+5782,95673,Paso del Ganado (La Loma)
+5783,30123,El Naranjo
+5783,33198,Laguna de Aboreachi
+5783,34593,Los Cimientos
+5783,36212,Juan Muñoz
+5783,42345,La Majada
+5783,47520,Varela
+5783,54665,La Planada
+5783,60946,El Cerro
+5783,65547,Salsipuedes
+5783,70515,La Esperanza
+5783,73563,Tepetzalan ( Tezoquita )
+5783,85206,René Esquer
+5783,95673,Monte Rosa
+5784,30780,Hierbabuena
+5784,33997,San Isidro
+5784,34585,Los Copalitos
+5784,36214,Juan Nila Ramírez
+5784,42359,La Majada Grande
+5784,47506,Villa del Carmen
+5784,54665,Santa Bárbara
+5784,60936,El Cerro Verde
+5784,65547,El Sarro
+5784,70504,La Flor
+5784,73566,Tepetzintan
+5784,85213,René Mercado
+5785,29050,Las Palomas
+5785,31610,Campo Número Ciento Nueve
+5785,34583,Los Coyotes
+5785,36215,Juan Ramírez Rangel
+5785,42343,La Mesa
+5785,47527,Villas Ecológicas los Nardos (Los Nardos)
+5785,54668,Pueblo Nuevo
+5785,60944,El Changungo
+5785,65547,San Juan
+5785,70507,La Magdalena
+5785,73566,Tuzamapan (Xiloxochico)
+5785,85208,Reparaciones Aéreas del Yaqui
+5785,95686,Mata de Caña
+5786,29165,Santa Ana
+5786,31605,Campo Número Treinta y Cuatro
+5786,34594,Los Cuates
+5786,36215,Juan Silva
+5786,42342,La Mesa de Camposanto del Oro
+5786,47514,Villegas
+5786,54665,Reyes
+5786,60924,El Chicharrón
+5786,65547,Arturo Quiroga
+5786,70515,Las Flores
+5786,73563,Tzojiaco
+5786,85213,Represo (El Jeroglífico)
+5786,95676,La Soledad
+5787,29094,Sauce
+5787,31684,Rancho Carpio
+5787,34573,Los Desmontes
+5787,36210,Justino Gutiérrez
+5787,42344,La Milpota
+5787,47515,Zitácuaro
+5787,54665,Caltenco
+5787,60927,El Chinillo (Puerto Limón)
+5787,65547,Los Martínez
+5787,70504,Llano Ocote
+5787,73566,Xalcuahuta
+5787,85209,Reproductora Pesada 2515 ó 2415
+5787,95679,La Luisa Antigua
+5788,29473,San Isidro
+5788,33274,Nuevo Palomas
+5788,34577,Los Frailes
+5788,36214,La Adriana
+5788,42344,La Rinconada
+5788,48280,Verde Vallarta
+5788,54668,San Juan
+5788,60927,El Chino
+5788,65547,El León
+5788,70503,Los Lengüitos (Rancho el Carmen)
+5788,73563,Xalpantzingo
+5788,85203,Reyes Domínguez
+5788,95679,La Floreadora (La Bodega)
+5789,30916,23 de Abril
+5789,33583,11 de Julio
+5789,34577,Los Frailitos
+5789,36212,La Bonita del Pochote
+5789,42345,La Ruda
+5789,47425,De la Luz
+5789,54783,La Providencia
+5789,60923,Las Palmas
+5789,65547,Doctor Ramón (Raíces)
+5789,70504,Los Magueyales
+5789,73563,Xaltzinta
+5789,85203,Ricardo Hurtado
+5790,30866,Los Naranjos
+5790,33586,21 de Marzo
+5790,34596,Los Giotes
+5790,36212,La Bonita del Pochote Dos
+5790,42340,La Tinaja Durango
+5790,47490,De Padre Torres
+5790,56386,Rancho San Miguel
+5790,60926,El Cirián
+5790,65548,Picachos de los Abuelos
+5790,70507,Los Orozco
+5790,73563,Xochical
+5790,85203,Ricardo Topete
+5790,95686,Santa Rosa
+5791,30683,La Flor
+5791,33594,Alamito
+5791,34575,Los Guajolotes
+5791,36212,La Casa de Ángel
+5791,42354,La Venta de Coaxithi
+5791,47480,Del Carmen
+5791,55717,Ex-Hacienda San Felipe 2a. Sección
+5791,60923,El Cirián
+5791,65548,El Orégano

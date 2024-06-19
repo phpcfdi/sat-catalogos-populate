@@ -1,0 +1,10 @@
+Catálogo del tipo de carga.
+Versión,Revisión,Fecha de publicación
+1.0,0,2024-06-17
+Clave tipo carga,Descripción,Fecha inicio de vigencia,Fecha fin de vigencia
+CGS,Carga General Suelta,2024-07-17
+CGC,Carga General Contenerizada,2024-07-17
+GMN,Gran Mineral,2024-07-17
+GAG,Granel Agrícola,2024-07-17
+OFL,Otros Fluidos,2024-07-17
+PYD,Petróleo y Derivados,2024-07-17

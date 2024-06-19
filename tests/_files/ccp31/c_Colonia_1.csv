@@ -1,0 +1,384 @@
+Catálogo de colonias.
+Fecha inicio de vigencia,Fecha fin de vigencia,Versión,Revisión
+2024-07-17,,1.0,0
+c_Colonia,c_CodigoPostal,Nombre del asentamiento
+0001,01000,San Ángel
+0001,16514,Tetitla la Gallera
+0001,20000,Zona Centro
+0001,20339,San José (San José de los Rodríguez)
+0001,20406,Rinconada de las Piedras
+0001,20656,Carboneras
+0001,20680,Las Ánimas
+0001,20700,Guadalupe
+0001,20854,Parque Industrial Calvillo
+0001,20926,Rincón del Pilar
+0001,21000,Centro Cívico
+0001,21453,Piedra Angular
+0001,22126,Cañón Palmas
+0001,22706,Colinas de Mazatlán
+0001,22785,Siena Residencial
+0001,23000,Zona Central
+0001,23462,Leonardo Gastélum Quinta Etapa
+0001,23620,Vargas
+0001,24000,San Francisco de Campeche Centro
+0001,24153,Residencial Las Palmas
+0001,24207,Cronos
+0001,24344,Tres de Mayo Tres
+0001,24353,Miguel Hidalgo (Caracol)
+0001,24640,Bellavista
+0001,24933,Los Tres Reyes
+0001,25000,Saltillo Zona Centro
+0001,25352,Autopista
+0001,25743,Las Misiones
+0001,25903,Rincón del Valle
+0001,26015,Los Laureles
+0001,26174,El Manantial
+0001,26234,Veracruz
+0001,26350,Armando Guadiana Tijerina
+0001,26510,Álvaro Luna
+0001,26729,La Capilla
+0001,26820,Mina Siete
+0001,27087,Quintas los Nogales
+0001,27448,Ladrillera
+0001,27545,Chula Vista
+0001,27905,Residencial Paraíso
+0001,27987,Rogelio Montemayor
+0001,28000,Colima Centro
+0001,28134,San Ignacio
+0001,28307,Hacienda las Primaveras
+0001,28400,Valle de las Huertas
+0001,28507,Valle Real
+0001,28700,Los Gobernadores
+0001,28750,27 de Octubre
+0001,28864,Almendros Residencial II
+0001,28978,Residencial Bosque Real
+0001,29000,Tuxtla Gutiérrez Centro
+0001,29127,El Carmelo
+0001,29130,Lomas del Pedregal
+0001,29148,Salvador Urbina
+0001,29150,Nandayalu
+0001,29180,Cabeza de Agua (San Antonio)
+0001,29300,Las Palmas Huitepec 3a. Sección
+0001,29326,Pajaltón Bajo
+0001,29345,Nuevo Porvenir
+0001,29369,Chiquinivalvo
+0001,29405,Laguna del Carmen
+0001,29416,Benito Juárez
+0001,29439,San Caralampio Chavín
+0001,29446,La Mendoza
+0001,29454,El Tzay
+0001,29474,San Pedro la Tejería
+0001,29489,Chuljá
+0001,29490,Xoctón (Xoctoctic)
+0001,29500,Nueva Esperanza
+0001,29540,Nuevo Sunuapa
+0001,29553,Playa de Piedra 2da. Sección
+0001,29560,Rivera el Viejo Carmen
+0001,29572,Loma de Caballo 2a. Sección
+0001,29586,Álvaro Obregón
+0001,29596,Nuevo Poblado Llanos Morelos
+0001,29610,El Edén
+0001,29620,San Francisco
+0001,29660,San Juan
+0001,29670,Magdalena
+0001,29684,San José Plan Ocotal
+0001,29706,Miguel Hidalgo
+0001,29710,Arroyo Sabinal
+0001,29729,Monte Chico
+0001,29744,La Unión Nueva
+0001,29753,Santa Rita
+0001,29760,Xitoltepeque
+0001,29770,Guadalupe I
+0001,29795,San José Chacté
+0001,29816,Jesús Carranza
+0001,29840,San Isidro
+0001,29853,Jolik-alum
+0001,29863,Meonho
+0001,29876,Canolal
+0001,29884,Las Limas
+0001,29890,Don Pedro
+0001,29903,Arroyo Palenque
+0001,29917,Esperanza Ocotal
+0001,29920,Santa Bárbara
+0001,29926,San Vicente
+0001,29943,San Miguel Catarraya
+0001,29954,Ramón F. Balboa
+0001,29962,El Retiro
+0001,29974,Benito Juárez Centro
+0001,29990,Boca del Río Chico
+0001,30078,Corrala
+0001,30115,Doctor Manuel Velasco Suárez
+0001,30129,El Raizal
+0001,30150,Las Champas
+0001,30166,Francisco Villa
+0001,30170,San Fermín
+0001,30223,Sagrado Corazón
+0001,30232,Jerusalén
+0001,30357,Zacualpa
+0001,30362,El Altillo
+0001,30434,Aurora Cintal
+0001,30491,Josefa Ortiz de Domínguez
+0001,30515,Las Piedritas
+0001,30535,Embarcadero de Jericó (El Siglo)
+0001,30553,Miramar
+0001,30568,El Rosario
+0001,30580,7 de Abril
+0001,30638,Playón
+0001,30649,La Florida
+0001,30650,Jardín las Flores
+0001,30670,FOVISSSTE Guadalupe
+0001,30680,Esquipulas
+0001,30740,Coapantes
+0001,30849,Pino Suárez
+0001,30860,San Judas Tadeo
+0001,30870,San Juan
+0001,30884,Talquián
+0001,30890,Rosario Ixtal
+0001,30900,Los Olivos
+0001,30925,Reforma
+0001,30953,El Cercadillo
+0001,30970,Los Pérez
+0001,30986,Vega de Guerrero
+0001,31160,Caminos del Valle
+0001,31607,Campo Número Quince
+0001,31646,Campo Setenta y Tres
+0001,31653,Punta Oriente
+0001,31680,Guadalupe
+0001,31704,Praderas del Oriente
+0001,31825,El Bismarck
+0001,31861,Santa Rosa
+0001,31884,Barrio Sur
+0001,31904,Oscar Ornelas
+0001,31977,Campo Cincuenta y Seis (Tres Hermanos)
+0001,31980,El Pajarito
+0001,32565,Cerrada de los Cipreses
+0001,32830,El Ágate
+0001,32912,Bosques de San Jerónimo
+0001,33013,Central de Abastos
+0001,33123,Rancho Llorarás
+0001,33130,Camino Real
+0001,33163,Guadalupe de la Saucería
+0001,33185,Las Truchas
+0001,33210,El Pozo
+0001,33255,Rancho Dominguez
+0001,33264,Santo Toribio
+0001,33293,Las Juntas
+0001,33390,San Isidro
+0001,33408,San José de Valenzuela
+0001,33467,Los Placeres
+0001,33470,Presidentes
+0001,33506,Barrio 5 de Mayo
+0001,33600,Colonia Flores
+0001,33637,Santa Ofelia
+0001,33656,San Juan Bautista
+0001,33670,Panamericana
+0001,33824,El Quijote
+0001,33924,La Haciendita Fiereña
+0001,33956,Agua de Pinole
+0001,33996,San Pedro
+0001,34000,Victoria de Durango Centro
+0001,34570,El Durazno
+0001,34614,Piedra de Amolar
+0001,34694,El Limoncito
+0001,34894,Loma Bonita
+0001,35140,Aquiles Serdán
+0001,35174,La Gloria
+0001,35214,Venustiano Carranza (El Seis)
+0001,35383,El Molino
+0001,35413,El Alto de los Lirios
+0001,35633,La Vinata
+0001,35803,Juan Pablo II
+0001,35917,Los Tenamastes
+0001,36000,Guanajuato Centro
+0001,36275,Parque Industrial Santa Fe Ampliación
+0001,36405,Residencial Valle del Laurel
+1795,33450,Morelos Mineral
+1795,35904,Santo Niño
+1795,37620,El Durazno
+1795,40030,Rubén Figueroa
+1795,43680,Lindavista
+1795,47180,Arandas Centro
+1795,60432,Zacán
+1795,62643,Barreal
+1795,63548,Rancho de la Cueva
+1795,67182,Arboledas de la Silla
+1795,69773,Santa Maria Teposlantongo
+1795,74660,Santa Catarina Tlaltempan
+1795,76922,Real del Bosque
+1795,79203,Salvador Nava Martínez
+1795,81915,La Torre
+1795,84623,Napoleón Gómez Zada
+1795,86965,Ototal
+1795,92776,El Progreso
+1795,97390,San Carlos Umán
+1796,11420,Nextitla
+1796,21390,Francisco I Madero
+1796,25084,La Estrella
+1796,30827,La Cebadilla 1a Sección
+1796,33451,San Miguel
+1796,35905,La Barranca
+1796,37620,Los Arrastres
+1796,47189,Los Timones
+1796,52167,Isidro Fabela
+1796,60433,Cherato
+1796,62742,Ampliación Casas del Río
+1796,63547,Rancho de Leandro Estrada
+1796,67182,Colinas de la Silla
+1796,69777,San Juan Cahuayaxi
+1796,74670,Chigmecatitlán
+1796,76908,Mediterráneo I
+1796,79203,Las Brisas
+1796,81912,El Kalzetin
+1796,84623,El Dorado
+1796,86960,El Mical
+1796,89670,Aldama
+1796,92033,California
+1796,97133,Los Palmares de Altabrisa
+1797,11430,Pensil Norte
+1797,21394,Solidaridad Mexicali
+1797,25084,Unidad Habitacional Militar
+1797,30827,La Cebadilla 2a Sección
+1797,35907,Benito Juárez (el Capadero)
+1797,37620,Los Martínez
+1797,40033,FOVISSSTE
+1797,43680,15 de Septiembre
+1797,47186,San Francisco
+1797,52167,Jesús Jiménez Gallardo
+1797,60433,La Palma
+1797,62755,El Mirador
+1797,63546,Rancho de Margarito
+1797,67182,El Peñón
+1797,69780,Ahuajutla
+1797,74680,Zacapala
+1797,76900,El Rocio
+1797,79203,El Mirasol
+1797,81913,La Choya
+1797,84622,Parque Industrial
+1797,86970,Cibal la Cloria
+1797,89670,Francisco I. Madero
+1797,93163,Infonavit Camioneros
+1797,97255,Roble Agrícola III
+1798,11430,Ventura Pérez de Alva
+1798,30798,Llano de La Lima
+1798,33454,Alisos
+1798,35910,Acacio (estación Acacio)
+1798,37620,Manzanales
+1798,40040,Aceitera
+1798,43680,Tepeyac
+1798,52167,Residencial Las Américas
+1798,60447,Corona
+1798,62755,3 de Mayo
+1798,63548,Rancho de Mariano
+1798,67182,Encino de la Silla
+1798,69780,San Juan Del Río
+1798,74684,La Victoria
+1798,76900,El Zorzal
+1798,79204,Los Pericos
+1798,81912,Tierra Blanca
+1798,84624,Tres Marías
+1798,86964,Arroyo el Triunfo 2a Sección
+1798,89670,La Azufrosa (El Higuerón)
+1798,93570,Candido Aguilar
+1799,11440,Reforma Pensil
+1799,21395,Bugambilias
+1799,25084,Las Teresitas
+1799,30798,Raymundo Enríquez
+1799,33455,Potrero de los Bojórquez
+1799,35911,Salitrillo
+1799,37620,San Juan de Llanos
+1799,40040,Ejidal
+1799,52167,El Ciprés
+1799,60440,Peribán de Ramos
+1799,62755,La Esperanza-el Hospital
+1799,63534,Rancho de Petra
+1799,67186,Josefa Ortiz de Dominguez
+1799,69780,San Martin Peras
+1799,74685,El Rosario Xochitiopan
+1799,76900,El Sorgo
+1799,78620,Salinas de Hidalgo Centro
+1799,81912,Choipa
+1799,83576,Papagos
+1799,86967,Miguel Hidalgo Sacaola
+1799,92893,Casa Bella
+1799,97390,Jardines de Umán
+1800,11440,San Juanico
+1800,21395,Huertas del Sol
+1800,25069,Las Haciendas
+1800,30827,San Nicolás Lagartero
+1800,33456,Mesa Larga
+1800,35917,El Pavo (mineral El Diez)
+1800,37620,Santo Domingo de Guzmán
+1800,40040,Gral. Adrián Castrejón
+1800,43688,Zapotlan de Allende
+1800,47187,La Gloria
+1800,60443,La Yerbabuena
+1800,62755,Rancho Gómez
+1800,63548,Rancho de Pánfilo
+1800,69780,Santiago Petlacala
+1800,74688,San Mateo Mimiapan
+1800,76902,Santa Lucía
+1800,78625,La Gasolinera
+1800,81912,Lomas de San Phelipe
+1800,83575,Sahop
+1800,86967,Apatzingán
+1800,89672,Las Flores 1
+1800,93604,Casa Blanca
+1800,97540,San Juan Izamal
+1801,11450,Ahuehuetes Anáhuac
+1801,21395,Valle del Colorado
+1801,25060,Acueducto
+1801,30815,Santa Rita
+1801,33460,Las Palomas
+1801,35918,Tamanica
+1801,37620,Rincón de Ortega
+1801,40040,La Raza
+1801,43689,20 de Noviembre
+1801,47187,Ojo de Agua Rincón Del Molino
+1801,52167,Villas San Gregorio
+1801,60443,Magallón
+1801,62755,El Sifón
+1801,63547,Rancho de Santos García
+1801,67186,Lucio Blanco
+1801,69787,San Miguel Peras
+1801,76900,Portal del Ángel
+1801,78626,San Pablo
+1801,81916,Bellavista
+1801,83575,Burócrata
+1801,86967,Cuyos de Caoba
+1801,89672,Morón
+1801,92895,CEAS
+1801,97370,Montecarlos
+1802,11450,Modelo Pensil
+1802,21395,Pimsa III
+1802,25197,La Esmeralda
+1802,30824,Unión Miramar
+1802,33463,El Tecuán
+1802,35920,Symon (estación Symon)
+1802,37623,El Aro
+1802,43690,Ahuehuetitla
+1802,47187,El Lienzo
+1802,60443,San Francisco Peribán
+1802,62746,Agua Blanca
+1802,63535,Rancho del Bajío
+1802,67182,Morenita Guajardo
+1802,69790,Coicoyán de las Flores
+1802,74690,Tepexi de Rodríguez
+1802,76900,Rinconada de la Virgen
+1802,78625,El Mirador
+1802,81916,Ejidal
+1802,83573,La Botella
+1802,86967,Vicenta Lombardo Toledano
+1802,89673,El Carrizal (Carrera Torres)
+1802,92770,Ceiba Rica
+1802,97302,Las Américas II
+1803,11450,Peralitos
+1803,21395,Hacienda del Sol
+1803,25088,Australia
+1803,33464,Ciénega Prieta
+1803,35922,Estación Rivas
+1803,37623,La Angostura
+1803,43670,Plan de Ayala
+1803,47187,La Corambre
+1803,60442,El Carrizalillo
+1803,62743,Ampliación la Biznaga
+1803,63544,Rancho Doroteo
