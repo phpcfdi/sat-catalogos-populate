@@ -9,6 +9,10 @@ Add CCP (*Complemento de Carta Porte*) 3.1 catalogs.
 - Importers create tables with prefix `ccp_31_*`.
 - Update `docs/Catalogos.md` with CCP 3.1 catalogs.
 
+Other updates:
+
+- Add `composer-normalize` job to continuous integration process.
+
 ## Version 2.8.1 2024-02-09
 
 CFDI 4.0 catalog `UsoCFDI` change a header from `Regímen Fiscal Receptor` to `Régimen Fiscal Receptor`.
