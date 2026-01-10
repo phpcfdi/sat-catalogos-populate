@@ -11,20 +11,28 @@ require __DIR__ . '/../vendor/autoload.php';
 error_reporting(-1);
 
 // execution
-exit(call_user_func(function (string ...$arguments): int {
-    $debug = true;
+exit(call_user_func(function (string ...$receivedArguments): int {
+    $arguments = array_values(array_diff($receivedArguments, ['--debug', '-d']));
+    $debug = $arguments !== array_intersect($receivedArguments);
     try {
         return new CliApplication()->run(...$arguments);
     } catch (Throwable $exception) {
-        file_put_contents('php://stderr', 'ERROR: ' . $exception->getMessage() . PHP_EOL, FILE_APPEND);
-        if ($debug) {
-            file_put_contents(
-                'php://stderr',
-                $exception->getFile() . '(' . $exception->getLine() . '): throws ' . get_class($exception)
-                . ': ' . $exception->getMessage() . PHP_EOL
-                . $exception->getTraceAsString() . PHP_EOL,
-                FILE_APPEND
-            );
+        if (! $debug) {
+            file_put_contents('php://stderr', 'ERROR: ' . $exception->getMessage() . PHP_EOL, FILE_APPEND);
+        } else {
+            while ($exception !== null) {
+                file_put_contents(
+                    'php://stderr',
+                    implode(PHP_EOL, [
+                        sprintf("%s(%s): throws %s", $exception->getFile(), $exception->getLine(), get_class($exception)),
+                        $exception->getMessage(),
+                        $exception->getTraceAsString(),
+                        ''
+                    ]),
+                    FILE_APPEND
+                );
+                $exception = $exception->getPrevious();
+            }
         }
         return 1;
     }
