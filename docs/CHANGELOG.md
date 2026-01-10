@@ -1,5 +1,15 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 3.0.1 2026-01-10
+
+This update contains minimal changes:
+
+- Fix *Docker* documentation: Command `update-origins` cannot run as user. 
+- Add debug parameter to command line utility.
+- Fix that `Nomina12eOrigin` destination file path include an invalid URL.
+- Rename Nómina information from `12e` to `1.2E`.
+- Remove unused dependency `ext-posix`. It is no longer used to determine *Chrome No Sandbox* execution.
+
 ## Version 3.0.0 2026-01-09
 
 This is an update to be able to download *Nóminas 1.2 revisión E* catalog file.
