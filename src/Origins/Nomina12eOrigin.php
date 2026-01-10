@@ -17,7 +17,7 @@ final readonly class Nomina12eOrigin implements OriginInterface
         private string $destinationFilename = '',
         private ?DateTimeImmutable $lastVersion = null,
     ) {
-        $this->name = 'Nómina 12e';
+        $this->name = 'Nómina 1.2E';
         $this->downloadUrl = 'https://www.sat.gob.mx/portal/public/tramites/complemento-de-nomina';
     }
 

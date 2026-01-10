@@ -38,7 +38,7 @@ final class Nomina12eReviewer implements ReviewerInterface
         try {
             $resourceUrl = $this->obtainResourceUrl();
         } catch (Exception $exception) {
-            throw new RuntimeException('Unable to obtain resource URL for Nómina 12e', previous: $exception);
+            throw new RuntimeException('Unable to obtain resource URL for Nómina 1.2E', previous: $exception);
         }
 
         $origin = new ConstantOrigin(
