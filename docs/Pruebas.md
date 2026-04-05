@@ -25,13 +25,14 @@ estos archivos y correr los tests. De esta forma podremos notar un cambio import
 - `tests/_files/ccp20/*.csv`: Archivos que salen de los catálogos de carta porte 2.0
 - `tests/_files/ccp30/*.csv`: Archivos que salen de los catálogos de carta porte 3.0
 - `tests/_files/ccp31/*.csv`: Archivos que salen de los catálogos de carta porte 3.1
+- `tests/_files/hidropretro10/*.csv`: Archivos que salen de los catálogos de hidrocarburos y petrolíferos 1.0
 
 ## Actualizar los archivos de pruebas
 
 Por lo anterior, al detectar un cambio en la estructura de los archivos del SAT lo mejor es:
 
 - Descargar los nuevos orígenes y ponerlos en `tests/_files/sources/`
-- Exportar los archivos `tests/_files/sources/*.xls` y ponerlos en `tests/_files/<origen>/*.csv`
+- Exportar los archivos `tests/_files/sources/*.xls*` y ponerlos en `tests/_files/<origen>/*.csv`
 
 Por ejemplo:
 
@@ -53,6 +54,7 @@ rm -rf tests/_files/cce
 rm -rf tests/_files/ccp20
 rm -rf tests/_files/ccp30
 rm -rf tests/_files/ccp31
+mkdir -p tests/_files/hidropetro10
 
 mkdir -p tests/_files/sources
 mkdir -p tests/_files/cfdi
@@ -63,8 +65,9 @@ mkdir -p tests/_files/cce
 mkdir -p tests/_files/ccp20
 mkdir -p tests/_files/ccp30
 mkdir -p tests/_files/ccp31
+mkdir -p tests/_files/hidropetro10
 
-cp build/temp/*.xls tests/_files/sources
+cp build/temp/*.xls* tests/_files/sources
 
 php tests/convert-excel-to-csv-folder.php tests/_files/sources/catCFDI.xls tests/_files/cfdi
 php tests/convert-excel-to-csv-folder.php tests/_files/sources/cfdi_40.xls tests/_files/cfdi40

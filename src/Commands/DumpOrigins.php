@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Commands;
 
 use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\HidroPetro10Origin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Nomina12eOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
@@ -84,6 +85,7 @@ final class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCP 2.0 - Carta Porte 2.0', "{$common}/CatalogosCartaPorte20.xls"),
             new ConstantOrigin('CCP 3.0 - Carta Porte 3.0', "{$common}/CatalogosCartaPorte30.xls"),
             new ConstantOrigin('CCP 3.1 - Carta Porte 3.1', "{$common}/CatalogosCartaPorte31.xls"),
+            new HidroPetro10Origin('cat_Hidro_Y_Petro_10.xlsx'),
         ]);
 
         echo new OriginsIO()->originsToString($origins) . PHP_EOL;

@@ -22,6 +22,9 @@ final class OriginsTranslator implements OriginsTranslatorInterface
         if ('nomina12e' === $type) {
             return $this->nomina12eOriginFromArray($data);
         }
+        if ('hidropetro10' === $type) {
+            return $this->hidroPetro10OriginFromArray($data);
+        }
         throw new RuntimeException("Unable to create an origin with type $type");
     }
 
@@ -48,6 +51,9 @@ final class OriginsTranslator implements OriginsTranslatorInterface
         if ($origin instanceof Nomina12eOrigin) {
             return $this->constantNomina12eToArray($origin);
         }
+        if ($origin instanceof HidroPetro10Origin) {
+            return $this->constantHidroPetro10ToArray($origin);
+        }
         throw new RuntimeException(sprintf('Unable to export an origin with type %s', $origin::class));
     }
 
@@ -68,6 +74,15 @@ final class OriginsTranslator implements OriginsTranslatorInterface
     public function nomina12eOriginFromArray(array $data): Nomina12eOrigin
     {
         return new Nomina12eOrigin(
+            strval($data['destination-file'] ?? ''),
+            $this->dateTimeFromStringOrNull(strval($data['last-update'] ?? '')),
+        );
+    }
+
+    /** @param array<string, string> $data */
+    public function hidroPetro10OriginFromArray(array $data): HidroPetro10Origin
+    {
+        return new HidroPetro10Origin(
             strval($data['destination-file'] ?? ''),
             $this->dateTimeFromStringOrNull(strval($data['last-update'] ?? '')),
         );
@@ -109,6 +124,16 @@ final class OriginsTranslator implements OriginsTranslatorInterface
     {
         return array_filter([
             'type' => 'nomina12e',
+            'destination-file' => $origin->destinationFilename(),
+            'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
+        ]);
+    }
+
+    /** @return array<string, string> */
+    public function constantHidroPetro10ToArray(HidroPetro10Origin $origin): array
+    {
+        return array_filter([
+            'type' => 'hidropetro10',
             'destination-file' => $origin->destinationFilename(),
             'last-update' => ($origin->hasLastVersion()) ? $origin->lastVersion()->format('c') : '',
         ]);

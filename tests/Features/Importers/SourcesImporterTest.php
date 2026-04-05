@@ -143,6 +143,10 @@ final class SourcesImporterTest extends TestCase
             'ccp_30_tipos_servicio',
             'ccp_30_tipos_trafico',
             'ccp_30_transportes',
+            'hyp_10_tipos_permisos',
+            'hyp_10_claves_hyp',
+            'hyp_10_claves_hyp',
+            'hyp_10_subproductos_hyp',
         ];
 
         foreach ($expectedTables as $expectedTable) {

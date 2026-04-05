@@ -26,6 +26,7 @@ final readonly class Reviewers
             new ConstantReviewer($gateway),
             new ScrapingReviewer($gateway),
             new Nomina12eReviewer($gateway),
+            new HidroPetro10Reviewer($gateway),
         ]);
     }
 

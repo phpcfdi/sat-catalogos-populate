@@ -66,6 +66,7 @@ Read the file [*Catálogos SAT*](docs/Catalogos.md) for more information about t
 - Catálogos de Complemento de Carta Porte 3.1.
 - Catálogos de Complemento de Recepción de Pagos 1.0.
 - Catálagos de CFDI De Retenciones e Información de Pagos 2.0
+- Catálagos de Complemento de Concepto de Hidrocarburos y petrolíferos 1.0.
 
 ## PHP Support
 
