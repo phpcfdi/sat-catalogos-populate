@@ -35,7 +35,7 @@ final class DumpOrigins implements CommandInterface
                 'ret_20.xls',
                 'Catálogos',
             ),
-            new Nomina12eOrigin("catNomina.xls"),
+            new Nomina12eOrigin('catNomina.xls'),
             new ConstantOrigin('Nóminas - Estados', "{$common}/C_Estado.xls", null, 'nominas_estados.xls'),
             new ConstantOrigin('CCE 2.0 - Claves de pedimento', "{$common}/c_ClavePedimento20.xls"),
             new ConstantOrigin('CCE 2.0 - Colonias', "{$common}/c_Colonia20.xls"),
