@@ -9,7 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Utils\ShellExec;
 use PhpCfdi\SatCatalogosPopulate\Utils\WhichTrait;
 use RuntimeException;
 
-final readonly class XlsxToCsvFolderConverter
+final readonly class XlsxToCsvFolderConverter implements ConverterInterface
 {
     use WhichTrait;
 

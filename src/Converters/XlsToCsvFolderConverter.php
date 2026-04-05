@@ -6,7 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Converters;
 
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempname;
 
-class XlsToCsvFolderConverter
+class XlsToCsvFolderConverter implements ConverterInterface
 {
     public function convert(string $source, string $destination): void
     {

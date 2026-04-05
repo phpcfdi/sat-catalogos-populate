@@ -12,7 +12,7 @@ use RuntimeException;
 
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 
-final readonly class XlsToXlsxConverter
+final readonly class XlsToXlsxConverter implements ConverterInterface
 {
     use WhichTrait;
 
