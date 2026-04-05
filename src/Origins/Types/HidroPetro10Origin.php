@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins\Types;
 use DateTimeImmutable;
 use LogicException;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslators\HidroPetro10Translator;
 
 final readonly class HidroPetro10Origin implements OriginInterface
 {
@@ -58,5 +59,10 @@ final readonly class HidroPetro10Origin implements OriginInterface
     public function downloadUrl(): string
     {
         return $this->downloadUrl;
+    }
+
+    public function type(): string
+    {
+        return HidroPetro10Translator::TYPE;
     }
 }

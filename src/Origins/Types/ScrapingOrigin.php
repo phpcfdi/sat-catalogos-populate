@@ -7,6 +7,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Origins\Types;
 use DateTimeImmutable;
 use LogicException;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslators\ScrapingTranslator;
 
 final class ScrapingOrigin implements OriginInterface
 {
@@ -81,5 +82,10 @@ final class ScrapingOrigin implements OriginInterface
     public function linkPosition(): int
     {
         return $this->linkPosition;
+    }
+
+    public function type(): string
+    {
+        return ScrapingTranslator::TYPE;
     }
 }

@@ -8,6 +8,7 @@ use DateTimeImmutable;
 use InvalidArgumentException;
 use LogicException;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslators\ConstantTranslator;
 
 final class ConstantOrigin implements OriginInterface
 {
@@ -69,5 +70,10 @@ final class ConstantOrigin implements OriginInterface
     public function downloadUrl(): string
     {
         return $this->url;
+    }
+
+    public function type(): string
+    {
+        return ConstantTranslator::TYPE;
     }
 }

@@ -9,11 +9,11 @@ use SimpleXMLElement;
 
 final readonly class OriginsIO
 {
-    private OriginsTranslator $translator;
+    private Translator $translator;
 
     public function __construct()
     {
-        $this->translator = new OriginsTranslator();
+        $this->translator = Translator::create();
     }
 
     public function readFile(string $filename): Origins
