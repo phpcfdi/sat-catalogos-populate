@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Commands;
 
-use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
-use PhpCfdi\SatCatalogosPopulate\Origins\HidroPetro10Origin;
-use PhpCfdi\SatCatalogosPopulate\Origins\Nomina12eOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
-use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\HidroPetro10Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\Nomina12eOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ScrapingOrigin;
 use Psr\Log\LoggerInterface;
 
 final class DumpOrigins implements CommandInterface

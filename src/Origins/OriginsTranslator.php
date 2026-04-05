@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Origins;
 
 use DateTimeImmutable;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\HidroPetro10Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\Nomina12eOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ScrapingOrigin;
 use RuntimeException;
 
 final class OriginsTranslator implements OriginsTranslatorInterface

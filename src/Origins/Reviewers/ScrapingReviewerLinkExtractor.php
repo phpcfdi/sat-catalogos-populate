@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PhpCfdi\SatCatalogosPopulate\Origins;
+namespace PhpCfdi\SatCatalogosPopulate\Origins\Reviewers;
 
+use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use RuntimeException;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\DomCrawler\Link;

@@ -8,11 +8,11 @@ use Exception;
 use HeadlessChromium\BrowserFactory;
 use HeadlessChromium\Dom\Selector\XPathSelector;
 use LogicException;
-use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
-use PhpCfdi\SatCatalogosPopulate\Origins\HidroPetro10Origin;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Review;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\HidroPetro10Origin;
 use RuntimeException;
 
 final class HidroPetro10Reviewer implements ReviewerInterface

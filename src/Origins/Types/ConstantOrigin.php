@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PhpCfdi\SatCatalogosPopulate\Origins;
+namespace PhpCfdi\SatCatalogosPopulate\Origins\Types;
 
 use DateTimeImmutable;
 use InvalidArgumentException;
 use LogicException;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 
 final class ConstantOrigin implements OriginInterface
 {

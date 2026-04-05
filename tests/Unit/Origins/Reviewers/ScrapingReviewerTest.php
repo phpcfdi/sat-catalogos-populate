@@ -8,7 +8,7 @@ use LogicException;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers\ScrapingReviewer;
-use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ScrapingOrigin;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PHPUnit\Framework\Attributes\AllowMockObjectsWithoutExpectations;
 

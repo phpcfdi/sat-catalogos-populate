@@ -6,7 +6,7 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins\Reviewers;
 
 use DateTimeImmutable;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers\ScrapingReviewer;
-use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ScrapingOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\Origins\FakeGateway;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;

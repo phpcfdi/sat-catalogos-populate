@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins;
 
 use DateTimeImmutable;
-use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Review;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Upgrader;
 use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use PhpCfdi\SatCatalogosPopulate\Tests\Fixtures\Origins\FakeGateway;
