@@ -1,6 +1,14 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
-## Version 3.0.1 2026-01-10
+## Version 4.0.0 2026-04-06
+
+This is an update to be able to download *Hidrocarburos y petrolíferos 1.0* catalog file.
+The resource URL requires a web browser that executes *javascript*.
+
+On this version, the class `PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslator` has been broken
+into individual classes. This is a backwards incompatible change.
+
+The tool `tests/convert-xls-to-csv-folder.php` now allows Excel `.xlsx` and `.xls` files.
 
 This update contains minimal changes:
 
