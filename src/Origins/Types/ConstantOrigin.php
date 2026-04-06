@@ -2,35 +2,40 @@
 
 declare(strict_types=1);
 
-namespace PhpCfdi\SatCatalogosPopulate\Origins;
+namespace PhpCfdi\SatCatalogosPopulate\Origins\Types;
 
 use DateTimeImmutable;
+use InvalidArgumentException;
 use LogicException;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslators\ConstantTranslator;
 
-final class ScrapingOrigin implements OriginInterface
+final class ConstantOrigin implements OriginInterface
 {
+    private string $destinationFilename;
+
     public function __construct(
         private readonly string $name,
-        private readonly string $toScrapUrl,
-        private readonly string $destinationFilename,
-        private readonly string $linkText,
+        private readonly string $url,
         private ?DateTimeImmutable $lastVersion = null,
-        private string $downloadUrl = '',
-        private readonly int $linkPosition = 0,
+        string $destinationFilename = '',
     ) {
+        if ('' === $destinationFilename) {
+            $destinationFilename = ltrim(parse_url($url, PHP_URL_PATH) ?: '', '/');
+        }
+        if ('' !== $destinationFilename) {
+            $destinationFilename = basename($destinationFilename);
+        }
+        if ('' === $destinationFilename) {
+            throw new InvalidArgumentException('The is no destination filename and url does not have a valid basename');
+        }
+        $this->destinationFilename = $destinationFilename;
     }
 
     public function withLastModified(?DateTimeImmutable $lastModified): static
     {
         $clone = clone $this;
         $clone->lastVersion = $lastModified;
-        return $clone;
-    }
-
-    public function withDownloadUrl(string $downloadUrl): self
-    {
-        $clone = clone $this;
-        $clone->downloadUrl = $downloadUrl;
         return $clone;
     }
 
@@ -41,7 +46,7 @@ final class ScrapingOrigin implements OriginInterface
 
     public function url(): string
     {
-        return $this->toScrapUrl;
+        return $this->url;
     }
 
     public function lastVersion(): DateTimeImmutable
@@ -64,21 +69,11 @@ final class ScrapingOrigin implements OriginInterface
 
     public function downloadUrl(): string
     {
-        return $this->downloadUrl;
+        return $this->url;
     }
 
-    public function hasDownloadUrl(): bool
+    public function type(): string
     {
-        return ('' !== $this->downloadUrl);
-    }
-
-    public function linkText(): string
-    {
-        return $this->linkText;
-    }
-
-    public function linkPosition(): int
-    {
-        return $this->linkPosition;
+        return ConstantTranslator::TYPE;
     }
 }

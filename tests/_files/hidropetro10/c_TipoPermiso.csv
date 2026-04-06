@@ -1,0 +1,12 @@
+Catálogo Tipo de Permiso
+Versión,Revisión,Fecha de publicación,,Fecha inicio de vigencia,Fecha fin de vigencia
+1,0,2026-03-25,,2026-04-24
+TipoPermiso,Descripción,Nomenclatura del número de permiso,Patrón número de permiso,Fecha inicio de vigencia,Fecha fin de vigencia
+PER01,Expendio en estaciones de servicio de petrolíferos,PL/(N°Consecutivo)/EXP/ES/(Año),"PL/[0-9]{3,20}/EXP/ES/[0-9]{4}",2026-04-24
+PER02,Comercialización,H/(N°Consecutivo)/COM/(Año),"H/[0-9]{3,24}/COM/[0-9]{4}",2026-04-24
+PER03,Distribución por otros medios distintos a ducto,PL/(N°Consecutivo)/DIS/OM/(Año),"PL/[0-9]{3,20}/DIS/OM/[0-9]{4}",2026-04-24
+PER04,Expendio en estaciones de servicio multimodal de petrolíferos,PL/(N°Consecutivo)/EXP/ES/MM/(Año),"PL/[0-9]{3,17}/EXP/ES/MM/[0-9]{4}",2026-04-24
+PER05,Expendio en estaciones de servicio de petrolíferos,CNE/PL/(N°Consecutivo)/EXP/ES/(Año),"CNE/PL/[0-9]{3,16}/EXP/ES/[0-9]{4}",2026-04-24
+PER06,Comercialización,CNE/H/(N°Consecutivo)/COM/(Año),"CNE/H/[0-9]{3,20}/COM/[0-9]{4}",2026-04-24
+PER07,Distribución por otros medios distintos a ducto,CNE/PL/(N°Consecutivo)/DIS/OM/(Año),"CNE/PL/[0-9]{3,16}/DIS/OM/[0-9]{4}",2026-04-24
+PER08,Expendio en estaciones de servicio multimodal de petrolíferos,CNE/PL/(N°Consecutivo)/EXP/ES/MM/(Año),"CNE/PL/[0-9]{3,13}/EXP/ES/MM/[0-9]{4}",2026-04-24

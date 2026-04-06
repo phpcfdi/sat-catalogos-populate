@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use PhpCfdi\SatCatalogosPopulate\Converters\XlsToCsvFolderConverter;
+use PhpCfdi\SatCatalogosPopulate\Converters\XlsxToCsvFolderConverter;
 
 use function PhpCfdi\SatCatalogosPopulate\Utils\tempdir;
 
@@ -20,7 +21,13 @@ exit(call_user_func(
             }
             $destination = realpath($destination) ?: '';
             echo "Converting XLS $source to $destination ... ";
-            $converter = new XlsToCsvFolderConverter();
+            if (str_ends_with(strtolower($source), '.xls')) {
+                $converter = new XlsToCsvFolderConverter();
+            } elseif (str_ends_with(strtolower($source), '.xlsx')) {
+                $converter = XlsxToCsvFolderConverter::create();
+            } else {
+                throw new RuntimeException("The file $source does not match excel extensions (xls or xlsx)");
+            }
             $converter->convert($source, $destination);
             echo "done\n";
             return 0;

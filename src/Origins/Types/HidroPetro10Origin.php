@@ -2,12 +2,14 @@
 
 declare(strict_types=1);
 
-namespace PhpCfdi\SatCatalogosPopulate\Origins;
+namespace PhpCfdi\SatCatalogosPopulate\Origins\Types;
 
 use DateTimeImmutable;
 use LogicException;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslators\HidroPetro10Translator;
 
-final readonly class Nomina12eOrigin implements OriginInterface
+final readonly class HidroPetro10Origin implements OriginInterface
 {
     private string $name;
 
@@ -17,8 +19,8 @@ final readonly class Nomina12eOrigin implements OriginInterface
         private string $destinationFilename = '',
         private ?DateTimeImmutable $lastVersion = null,
     ) {
-        $this->name = 'Nómina 12e';
-        $this->downloadUrl = 'https://www.sat.gob.mx/portal/public/tramites/complemento-de-nomina';
+        $this->name = 'Hidrocarburos y petrolíferos 1.0';
+        $this->downloadUrl = 'https://www.sat.gob.mx/portal/public/tramites/complementos-de-factura';
     }
 
     public function withLastModified(?DateTimeImmutable $lastModified): static
@@ -57,5 +59,10 @@ final readonly class Nomina12eOrigin implements OriginInterface
     public function downloadUrl(): string
     {
         return $this->downloadUrl;
+    }
+
+    public function type(): string
+    {
+        return HidroPetro10Translator::TYPE;
     }
 }

@@ -137,6 +137,9 @@ Para consumir estos catálogos puede usar la librería independiente
 | ret_20_tipos_dividendos_utilidades    | ret_20.xls                | c_TipoDividendoOUtilidadDistrib |                                                                                      |
 | ret_20_tipos_impuestos                | ret_20.xls                | c_TipoImpuesto                  |                                                                                      |
 | ret_20_tipos_pago_retencion           | ret_20.xls                | c_TipoPagoRet                   |                                                                                      |
+| hyp_10_tipos_permisos                 | cat_Hidro_Y_Petro_10.xls  | c_TipoPermiso                   |                                                                                      |
+| hyp_10_claves_hyp                     | cat_Hidro_Y_Petro_10.xls  | c_ClaveHYP                      |                                                                                      |
+| hyp_10_subproductos_hyp               | cat_Hidro_Y_Petro_10.xls  | c_SubProductoHYP                |                                                                                      |
 
 ## CFDI 3.3 `cfdi_*`
 
@@ -287,3 +290,15 @@ y [RET 1.0](http://www.sat.gob.mx/esquemas/retencionpago/1/catalogos/catRetencio
 Los catálogos están en un solo archivo de excel por lo que se usa la misma estrategia que en los catálogos de CFDI.
 
 El catálogo `ret_20_ejercicios` es el único que no contiene algún valor en el campo descripción o texto.
+
+## HYP 1.0 (Complemento de Hidrocarburos y petrolíferos 1.0) `hyp_10_*`
+> - <https://www.sat.gob.mx/portal/public/tramites/complementos-de-factura>
+
+El conjunto de catálogos de HYP 1.0 es totalmente independiente del conjunto de CFDI, se trata de un solo archivo
+de Excel en versión *Office Open XML* (extensión `.xlsx`).
+
+Los catálogos están en un solo archivo de excel por lo que se usa la misma estrategia que en los catálogos de CFDI.
+
+El catálogo `c_SubProductoHYP` en el campo *Categoría* se ha publicado con celdas combinadas verticalmente,
+por lo que al exportarse solo el primer renglón contiene un valor y los demás renglones no lo contienen.
+Al importarse se hace un arreglo para repetir el último valor conocido.

@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace PhpCfdi\SatCatalogosPopulate\Tests\Unit\Origins\Reviewers;
 
 use LogicException;
-use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Reviewers\ConstantReviewer;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 use PHPUnit\Framework\Attributes\AllowMockObjectsWithoutExpectations;
 

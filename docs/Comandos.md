@@ -4,7 +4,7 @@ Existen una serie de comandos que sirven para automatizar la tarea de mantener l
 
 El punto de entrada se encuentra en `bin/sat-catalogos-update`.
 
-Para obtener la ayuda de un comando use `-h`, `--help` o el comando `help`.
+Para obtener la ayuda de un comando, use `-h`, `--help` o el comando `help`.
 
 Si un comando falló regresa un valor diferente de cero.
 

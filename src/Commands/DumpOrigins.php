@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace PhpCfdi\SatCatalogosPopulate\Commands;
 
-use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
-use PhpCfdi\SatCatalogosPopulate\Origins\Nomina12eOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\Origins;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
-use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\HidroPetro10Origin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\Nomina12eOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ScrapingOrigin;
 use Psr\Log\LoggerInterface;
 
 final class DumpOrigins implements CommandInterface
@@ -35,7 +36,7 @@ final class DumpOrigins implements CommandInterface
                 'ret_20.xls',
                 'Catálogos',
             ),
-            new Nomina12eOrigin("{$common}/catNomina.xls"),
+            new Nomina12eOrigin('catNomina.xls'),
             new ConstantOrigin('Nóminas - Estados', "{$common}/C_Estado.xls", null, 'nominas_estados.xls'),
             new ConstantOrigin('CCE 2.0 - Claves de pedimento', "{$common}/c_ClavePedimento20.xls"),
             new ConstantOrigin('CCE 2.0 - Colonias', "{$common}/c_Colonia20.xls"),
@@ -84,6 +85,7 @@ final class DumpOrigins implements CommandInterface
             new ConstantOrigin('CCP 2.0 - Carta Porte 2.0', "{$common}/CatalogosCartaPorte20.xls"),
             new ConstantOrigin('CCP 3.0 - Carta Porte 3.0', "{$common}/CatalogosCartaPorte30.xls"),
             new ConstantOrigin('CCP 3.1 - Carta Porte 3.1', "{$common}/CatalogosCartaPorte31.xls"),
+            new HidroPetro10Origin('cat_Hidro_Y_Petro_10.xlsx'),
         ]);
 
         echo new OriginsIO()->originsToString($origins) . PHP_EOL;

@@ -1,5 +1,23 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 4.0.0 2026-04-06
+
+This is an update to be able to download *Hidrocarburos y petrolíferos 1.0* catalog file.
+The resource URL requires a web browser that executes *javascript*.
+
+On this version, the class `PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslator` has been broken
+into individual classes. This is a backwards incompatible change.
+
+The tool `tests/convert-xls-to-csv-folder.php` now allows Excel `.xlsx` and `.xls` files.
+
+This update contains minimal changes:
+
+- Fix *Docker* documentation: Command `update-origins` cannot run as user. 
+- Add debug parameter to command line utility.
+- Fix that `Nomina12eOrigin` destination file path include an invalid URL.
+- Rename Nómina information from `12e` to `1.2E`.
+- Remove unused dependency `ext-posix`. It is no longer used to determine *Chrome No Sandbox* execution.
+
 ## Version 3.0.0 2026-01-09
 
 This is an update to be able to download *Nóminas 1.2 revisión E* catalog file.

@@ -1,21 +1,17 @@
 filter:
   excluded_paths:
     - 'tests/'
-  dependency_paths:
-    - 'vendor/'
+    - 'tools/'
 
 build:
   image: default-bionic
-  dependencies:
-    override:
-      - composer remove phpunit/phpunit --dev --no-interaction --no-progress --no-update
-      - composer update --no-interaction --prefer-dist
+  dependencies: { override: true }
   nodes:
     analysis: # see https://scrutinizer-ci.com/docs/tools/php/php-scrutinizer/
-      project_setup: {override: true}
-      tests:
-        override:
-          - php-scrutinizer-run --enable-security-analysis
+      environment:
+          php: 8.4 # Use a standard version already in the image
+      project_setup: { override: true }
+      tests: { override: true }
 
 tools:
   external_code_coverage: true

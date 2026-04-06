@@ -23,7 +23,6 @@
         "ext-dom": "*",
         "ext-json": "*",
         "ext-pdo": "*",
-        "ext-posix": "*",
         "ext-simplexml": "*",
         "ext-sqlite3": "*",
         "chrome-php/chrome": "^1.15",
@@ -65,7 +64,7 @@
         "dev:fix-style": [
             "@php tools/composer-normalize normalize",
             "@php tools/php-cs-fixer fix --verbose",
-            "@php tools/phpcbf --colors -sp"
+            "@php tools/phpcbf --colors -sp || true"
         ],
         "dev:test": [
             "@dev:check-style",

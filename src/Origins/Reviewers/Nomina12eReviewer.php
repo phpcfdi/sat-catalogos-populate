@@ -8,11 +8,11 @@ use Exception;
 use HeadlessChromium\BrowserFactory;
 use HeadlessChromium\Dom\Selector\XPathSelector;
 use LogicException;
-use PhpCfdi\SatCatalogosPopulate\Origins\ConstantOrigin;
-use PhpCfdi\SatCatalogosPopulate\Origins\Nomina12eOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Review;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ConstantOrigin;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\Nomina12eOrigin;
 use RuntimeException;
 
 final class Nomina12eReviewer implements ReviewerInterface
@@ -38,7 +38,7 @@ final class Nomina12eReviewer implements ReviewerInterface
         try {
             $resourceUrl = $this->obtainResourceUrl();
         } catch (Exception $exception) {
-            throw new RuntimeException('Unable to obtain resource URL for Nómina 12e', previous: $exception);
+            throw new RuntimeException('Unable to obtain resource URL for Nómina 1.2E', previous: $exception);
         }
 
         $origin = new ConstantOrigin(

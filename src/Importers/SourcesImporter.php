@@ -29,6 +29,10 @@ class SourcesImporter implements ImporterInterface
             'CCP 3.0' => ['source' => $source . '/CatalogosCartaPorte30.xls', 'importer' => new Ccp30Catalogs()],
             'CCP 3.1' => ['source' => $source . '/CatalogosCartaPorte31.xls', 'importer' => new Ccp31Catalogs()],
             'RET 2.0' => ['source' => $source . '/ret_20.xls', 'importer' => new Ret20Catalogs()],
+            'Hidrocarburos y petrolíferos 1.0' => [
+                'source' => $source . '/cat_Hidro_Y_Petro_10.xlsx',
+                'importer' => new HidroPretro10Catalogs(),
+            ],
         ];
 
         foreach ($importers as $info) {

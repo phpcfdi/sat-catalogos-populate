@@ -9,8 +9,7 @@ use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\ResourcesGatewayInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\Review;
 use PhpCfdi\SatCatalogosPopulate\Origins\ReviewStatus;
-use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingOrigin;
-use PhpCfdi\SatCatalogosPopulate\Origins\ScrapingReviewerLinkExtractor;
+use PhpCfdi\SatCatalogosPopulate\Origins\Types\ScrapingOrigin;
 use PhpCfdi\SatCatalogosPopulate\Origins\UrlResponse;
 use RuntimeException;
 

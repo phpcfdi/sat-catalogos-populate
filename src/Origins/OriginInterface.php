@@ -28,4 +28,6 @@ interface OriginInterface
     public function destinationFilename(): string;
 
     public function downloadUrl(): string;
+
+    public function type(): string;
 }

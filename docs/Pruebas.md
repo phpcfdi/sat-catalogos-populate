@@ -11,7 +11,7 @@ Solamente se eliminaron filas en archivos de excel muy grandes y se eliminaron l
 Importante: **Sí respetan la estructura de los archivos**
 
 Para generar los archivos CSV a partir de un archivo de XLS puede usar la herramienta
-`tests/convert-xls-to-csv-folder.php`
+`tests/convert-excel-to-csv-folder.php`
 
 Los archivos en `tests/_files/sources/*.xls` son descargados del SAT, para ser procesados.
 Si hay algún problema con resolver las nuevas descargas del SAT entonces se pueden sustituir
@@ -25,13 +25,14 @@ estos archivos y correr los tests. De esta forma podremos notar un cambio import
 - `tests/_files/ccp20/*.csv`: Archivos que salen de los catálogos de carta porte 2.0
 - `tests/_files/ccp30/*.csv`: Archivos que salen de los catálogos de carta porte 3.0
 - `tests/_files/ccp31/*.csv`: Archivos que salen de los catálogos de carta porte 3.1
+- `tests/_files/hidropretro10/*.csv`: Archivos que salen de los catálogos de hidrocarburos y petrolíferos 1.0
 
 ## Actualizar los archivos de pruebas
 
 Por lo anterior, al detectar un cambio en la estructura de los archivos del SAT lo mejor es:
 
 - Descargar los nuevos orígenes y ponerlos en `tests/_files/sources/`
-- Exportar los archivos `tests/_files/sources/*.xls` y ponerlos en `tests/_files/<origen>/*.csv`
+- Exportar los archivos `tests/_files/sources/*.xls*` y ponerlos en `tests/_files/<origen>/*.csv`
 
 Por ejemplo:
 
@@ -53,6 +54,7 @@ rm -rf tests/_files/cce
 rm -rf tests/_files/ccp20
 rm -rf tests/_files/ccp30
 rm -rf tests/_files/ccp31
+mkdir -p tests/_files/hidropetro10
 
 mkdir -p tests/_files/sources
 mkdir -p tests/_files/cfdi
@@ -63,36 +65,38 @@ mkdir -p tests/_files/cce
 mkdir -p tests/_files/ccp20
 mkdir -p tests/_files/ccp30
 mkdir -p tests/_files/ccp31
+mkdir -p tests/_files/hidropetro10
 
-cp build/temp/*.xls tests/_files/sources
+cp build/temp/*.xls* tests/_files/sources
 
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/catCFDI.xls tests/_files/cfdi
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/cfdi_40.xls tests/_files/cfdi40
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/catNomina.xls tests/_files/nomina
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/catPagos.xls tests/_files/rep
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_ClavePedimento.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Colonia.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/C_Estado.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_FraccionArancelaria.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_INCOTERM.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Localidad.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_MotivoTraslado.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Municipio.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_TipoOperacion.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_UnidadAduana.xls tests/_files/cce
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte20.xls tests/_files/ccp20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte30.xls tests/_files/ccp30
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte31.xls tests/_files/ccp31
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_ClavePedimento20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Colonia20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/C_Estado20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_FraccionArancelaria_cce20_20221212.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_INCOTERM20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Localidad20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_MotivoTraslado20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_Municipio20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_TipoOperacion20.xls tests/_files/cce20
-php tests/convert-xls-to-csv-folder.php tests/_files/sources/c_UnidadAduana20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/catCFDI.xls tests/_files/cfdi
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/cfdi_40.xls tests/_files/cfdi40
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/catNomina.xls tests/_files/nomina
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/catPagos.xls tests/_files/rep
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_ClavePedimento.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_Colonia.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/C_Estado.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_FraccionArancelaria.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_INCOTERM.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_Localidad.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_MotivoTraslado.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_Municipio.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_TipoOperacion.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_UnidadAduana.xls tests/_files/cce
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte20.xls tests/_files/ccp20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte30.xls tests/_files/ccp30
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/CatalogosCartaPorte31.xls tests/_files/ccp31
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_ClavePedimento20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_Colonia20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/C_Estado20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_FraccionArancelaria_cce20_20221212.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_INCOTERM20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_Localidad20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_MotivoTraslado20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_Municipio20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_TipoOperacion20.xls tests/_files/cce20
+php tests/convert-excel-to-csv-folder.php tests/_files/sources/c_UnidadAduana20.xls tests/_files/cce20
+php tests/convert-xlsx-to-csv-folder.php tests/_files/sources/cat_Hidro_Y_Petro_10.xlsx tests/_files/hidropetro10
 ```
 
 Ten en cuenta que estas operaciones generarán archivos que antes no existían porque el catálogo en

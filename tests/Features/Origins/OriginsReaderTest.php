@@ -6,20 +6,21 @@ namespace PhpCfdi\SatCatalogosPopulate\Tests\Features\Origins;
 
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
 use PhpCfdi\SatCatalogosPopulate\Origins\OriginsIO;
-use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslator;
+use PhpCfdi\SatCatalogosPopulate\Origins\Translator;
 use PhpCfdi\SatCatalogosPopulate\Tests\TestCase;
 
 final class OriginsReaderTest extends TestCase
 {
     public function testReadOriginsFromFile(): void
     {
+        /** @see tests/_files/origins/custom-origins.xml */
         $sourcefile = $this->utilFilePath('origins/custom-origins.xml');
         $this->assertFileExists($sourcefile, "The file $sourcefile does not exists and is required for testing");
 
         $reader = new OriginsIO();
         $origins = $reader->readFile($sourcefile);
 
-        $translator = new OriginsTranslator();
+        $translator = Translator::create();
         $originsData = array_map(
             fn (OriginInterface $origin): array => $translator->originToArray($origin),
             $origins->all(),
@@ -41,10 +42,20 @@ final class OriginsReaderTest extends TestCase
                 'last-update' => '2017-12-31T18:00:00-06:00',
                 'link-position' => 1,
             ],
+            [
+                'type' => 'nomina12e',
+                'destination-file' => 'nomina.xls',
+                'last-update' => '2026-01-01T01:00:00-06:00',
+            ],
+            [
+                'type' => 'hidropetro10',
+                'destination-file' => 'hidropetro10.xls',
+                'last-update' => '2026-01-01T02:00:00-06:00',
+            ],
         ];
 
         $this->assertEquals(array_replace_recursive($originsData, $expectedOrigins), $originsData);
-        $this->assertCount(2, $originsData);
+        $this->assertCount(4, $originsData);
 
         $exported = $reader->originsToString($origins);
         $this->assertStringEqualsFile($sourcefile, $exported);

@@ -92,7 +92,8 @@ final class CliApplication
 
         $commandList = array_merge($internalCommandList, array_diff($commandList, $internalCommandList));
 
-        echo $this->getExecutableName() . ' command options' . PHP_EOL . PHP_EOL;
+        echo $this->getExecutableName() . ' command options' . PHP_EOL;
+        echo 'Note: Use debug (-d|--debug) to display current and previous exception traces' . PHP_EOL . PHP_EOL;
         foreach ($commandList as $name => $description) {
             echo '    ' . $name . ': ' . $description . PHP_EOL;
         }

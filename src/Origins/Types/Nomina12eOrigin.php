@@ -2,39 +2,30 @@
 
 declare(strict_types=1);
 
-namespace PhpCfdi\SatCatalogosPopulate\Origins;
+namespace PhpCfdi\SatCatalogosPopulate\Origins\Types;
 
 use DateTimeImmutable;
-use InvalidArgumentException;
 use LogicException;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginInterface;
+use PhpCfdi\SatCatalogosPopulate\Origins\OriginsTranslators\Nomina12eTranslator;
 
-final class ConstantOrigin implements OriginInterface
+final readonly class Nomina12eOrigin implements OriginInterface
 {
-    private string $destinationFilename;
+    private string $name;
+
+    private string $downloadUrl;
 
     public function __construct(
-        private readonly string $name,
-        private readonly string $url,
+        private string $destinationFilename = '',
         private ?DateTimeImmutable $lastVersion = null,
-        string $destinationFilename = '',
     ) {
-        if ('' === $destinationFilename) {
-            $destinationFilename = ltrim(parse_url($url, PHP_URL_PATH) ?: '', '/');
-        }
-        if ('' !== $destinationFilename) {
-            $destinationFilename = basename($destinationFilename);
-        }
-        if ('' === $destinationFilename) {
-            throw new InvalidArgumentException('The is no destination filename and url does not have a valid basename');
-        }
-        $this->destinationFilename = $destinationFilename;
+        $this->name = 'Nómina 1.2E';
+        $this->downloadUrl = 'https://www.sat.gob.mx/portal/public/tramites/complemento-de-nomina';
     }
 
     public function withLastModified(?DateTimeImmutable $lastModified): static
     {
-        $clone = clone $this;
-        $clone->lastVersion = $lastModified;
-        return $clone;
+        return new self($this->destinationFilename, $lastModified);
     }
 
     public function name(): string
@@ -44,7 +35,7 @@ final class ConstantOrigin implements OriginInterface
 
     public function url(): string
     {
-        return $this->url;
+        return $this->downloadUrl();
     }
 
     public function lastVersion(): DateTimeImmutable
@@ -67,6 +58,11 @@ final class ConstantOrigin implements OriginInterface
 
     public function downloadUrl(): string
     {
-        return $this->url;
+        return $this->downloadUrl;
+    }
+
+    public function type(): string
+    {
+        return Nomina12eTranslator::TYPE;
     }
 }
