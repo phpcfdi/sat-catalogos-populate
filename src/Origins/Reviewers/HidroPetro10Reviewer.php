@@ -38,7 +38,10 @@ final class HidroPetro10Reviewer implements ReviewerInterface
         try {
             $resourceUrl = $this->obtainResourceUrl();
         } catch (Exception $exception) {
-            throw new RuntimeException('Unable to obtain resource URL for Hidrocarburos y petrolíferos 1.0', previous: $exception);
+            throw new RuntimeException(
+                'Unable to obtain resource URL for Hidrocarburos y petrolíferos 1.0',
+                previous: $exception,
+            );
         }
 
         $origin = new ConstantOrigin(
