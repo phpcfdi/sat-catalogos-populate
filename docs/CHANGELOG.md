@@ -1,5 +1,17 @@
 # phpcfdi/sat-catalogos-populate Changelog
 
+## Version 4.0.1 2026-04-06
+
+This is a fix to get *Hidrocarburos y petrolíferos 1.0* catalog file since it fails on scraping,
+looks like the dialog was not opened. It was fixed specifying the browser screen size.
+
+This update algo fixes an error message that was incorrectly saying *Nominas 12E* when it has to say
+*Hidrocarburos y petrolíferos 1.0*.
+
+Other minimal changes:
+
+- Fix variable name `php-versions` to `php-version` on GitHub workflow `tests`.
+
 ## Version 4.0.0 2026-04-06
 
 This is an update to be able to download *Hidrocarburos y petrolíferos 1.0* catalog file.
