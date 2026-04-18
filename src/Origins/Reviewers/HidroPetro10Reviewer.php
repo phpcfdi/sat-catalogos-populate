@@ -56,7 +56,11 @@ final class HidroPetro10Reviewer implements ReviewerInterface
     {
         $chromeBinary = $this->obtainChromeBinary();
         $browserFactory = new BrowserFactory($chromeBinary);
-        $browserFactory->addOptions(['noSandbox' => $this->obtainChromeNoSandbox()]);
+        $browserFactory->addOptions([
+            // 'headless' => false, // for development/debug
+            'noSandbox' => $this->obtainChromeNoSandbox(),
+            'windowSize' => [1600, 900],
+        ]);
         $browser = $browserFactory->createBrowser();
         try {
             // creates a new page and navigate to a URL
