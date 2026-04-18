@@ -38,7 +38,10 @@ final class HidroPetro10Reviewer implements ReviewerInterface
         try {
             $resourceUrl = $this->obtainResourceUrl();
         } catch (Exception $exception) {
-            throw new RuntimeException('Unable to obtain resource URL for Nómina 1.2E', previous: $exception);
+            throw new RuntimeException(
+                'Unable to obtain resource URL for Hidrocarburos y petrolíferos 1.0',
+                previous: $exception,
+            );
         }
 
         $origin = new ConstantOrigin(
@@ -56,7 +59,11 @@ final class HidroPetro10Reviewer implements ReviewerInterface
     {
         $chromeBinary = $this->obtainChromeBinary();
         $browserFactory = new BrowserFactory($chromeBinary);
-        $browserFactory->addOptions(['noSandbox' => $this->obtainChromeNoSandbox()]);
+        $browserFactory->addOptions([
+            // 'headless' => false, // for development/debug
+            'noSandbox' => $this->obtainChromeNoSandbox(),
+            'windowSize' => [1600, 900],
+        ]);
         $browser = $browserFactory->createBrowser();
         try {
             // creates a new page and navigate to a URL
