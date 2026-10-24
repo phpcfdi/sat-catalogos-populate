@@ -5,7 +5,8 @@
     colors="true"
     bootstrap="tests/bootstrap.php"
     displayDetailsOnAllIssues="true"
-    >
+    failOnAllIssues="true"
+>
     <testsuites>
         <testsuite name="Default">
             <directory>tests</directory>
