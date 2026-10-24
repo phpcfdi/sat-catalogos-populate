@@ -36,10 +36,10 @@ final class DataFieldsTest extends TestCase
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('There is a datafield with invalid type');
-        /** @var DataFieldInterface&stdClass $fake Override declaration to force phpstan pass */
+        /** @phpstan-var DataFieldInterface&stdClass $fake Override declaration to force phpstan pass */
         $fake = new stdClass();
         /** @noinspection PhpParamsInspection */
-        new DataFields([$fake]);
+        new DataFields([$fake]); /** @phpstan-ignore new.resultUnused */
     }
 
     public function testGetWithNonExistentElement(): void

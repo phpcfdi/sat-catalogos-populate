@@ -12,6 +12,22 @@ Other minimal changes:
 
 - Fix variable name `php-versions` to `php-version` on GitHub workflow `tests`.
 
+## Maintenance 2026-10-23
+
+This update does not create a new release. It contains only changes on development environment.
+
+GitHub wokflow *build* was broken because a false positive detected by PHPStan.
+PHPStan was instucted to ignore the issue.
+
+Other development changes:
+
+- Set up PHPUnit to fail on all issues.
+- Add tasks on TODO:
+  - Move from Scrutinizer to other Code Quality and Code Coverage tool.
+  - Create public Docker image.
+- Update On GitHub Workflows all GitHub Actions versions.
+- Update development tools.
+
 ## Version 4.0.0 2026-04-06
 
 This is an update to be able to download *Hidrocarburos y petrolíferos 1.0* catalog file.
