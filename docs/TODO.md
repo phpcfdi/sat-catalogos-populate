@@ -1,8 +1,14 @@
 # phpcfdi/sat-catalogos-populate To Do List
 
+- Crear la imagen pública de Docker.
+
+- Migrar de Scrutinizer-CI a SonarQube Cloud o a otra plataforma que:
+  - Evalúe la calidad del código.
+  - Muestre la cobertura de código.
+
 - Poder eliminar un campo como cfdi_tipos_comprobantes.dummy, o mejor, no insertarlo.
 
-- Poner un logger en los importadores para poder reportar qué se está haciendo
+- Poner un logger en los importadores para poder reportar qué se está haciendo.
 
 - Como las clases `CfdiCatalogs` y `NominaCatalogs` tienen el mismo comportamiento se podría
   usar una clase abstracta y solo implementar el método `createInjectors` 
