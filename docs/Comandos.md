@@ -19,7 +19,7 @@ fi
 ```
 
 Algunos comandos muestran mensajes de ejecución en `STDOUT`,
-y cuando se encuentra un error los escribe en `STDERR`. 
+y cuando se encuentra un error los escribe en `STDERR`.
 
 ## Obtener la lista de orígenes por defecto
 
@@ -49,7 +49,7 @@ Sintax: update-origins update-origins [--dry-run] [--update-database database] o
 ```
 
 La forma más común de usar este comando es solicitándole que revise y fabrique la base de datos de catálogos:
- 
+
 ```shell script
 bin/sat-catalogos-update update-origins resources/files/ --update-database resources/catalogos.sqlite3
 ```
